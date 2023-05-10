@@ -1,0 +1,14 @@
+{
+  "name": "oauth2-proxy",
+  "secfixes": {
+    "7.4.0-r0": [
+      "GHSA-vvpx-j8f3-3w6h"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

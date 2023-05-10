@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-09T22:41:31Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "tiny_future"
+  },
+  "Advisory": {
+    "DatabaseId": 5051,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWZnNDItdnd4eC14eDVq",
+    "GhsaId": "GHSA-fg42-vwxx-xx5j",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36438"
+      },
+      {
+        "Url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/tiny_future/RUSTSEC-2020-0118.md"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0118.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-fg42-vwxx-xx5j"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-fg42-vwxx-xx5j"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-36438"
+      }
+    ],
+    "Description": "An issue was discovered in the tiny_future crate before 0.4.0 for Rust. Future\u003cT\u003e does not have bounds on its Send and Sync traits.\n",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:58:53Z",
+    "Severity": "HIGH",
+    "Summary": "Data race in tiny_future",
+    "UpdatedAt": "2023-01-27T05:00:52Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 8.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.0"
+      },
+      "VulnerableVersionRange": "\u003c 0.4.0"
+    }
+  ]
+}

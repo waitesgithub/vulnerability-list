@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-06-16T23:55:13Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "futures-util"
+  },
+  "Advisory": {
+    "DatabaseId": 159988,
+    "Id": "GSA_kwCzR0hTQS1yaDR3LTk0aGgtOTk0M84AAnD0",
+    "GhsaId": "GHSA-rh4w-94hh-9943",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35905"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0059.html"
+      },
+      {
+        "Url": "https://github.com/rust-lang/futures-rs/issues/2239"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-rh4w-94hh-9943"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-rh4w-94hh-9943"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-35905"
+      }
+    ],
+    "Description": "An issue was discovered in the futures-util crate before 0.3.7 for Rust. MutexGuard::map can cause a data race for certain closure situations (in safe code).",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T17:37:49Z",
+    "Severity": "MODERATE",
+    "Summary": "MutexGuard::map can cause a data race in safe code",
+    "UpdatedAt": "2023-01-27T05:02:39Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 4.7,
+      "VectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.3.7"
+      },
+      "VulnerableVersionRange": "\u003c 0.3.7"
+    }
+  ]
+}

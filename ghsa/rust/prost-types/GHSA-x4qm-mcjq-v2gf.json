@@ -1,0 +1,62 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2022-06-14T21:04:07Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "prost-types"
+  },
+  "Advisory": {
+    "DatabaseId": 5108,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXg0cW0tbWNqcS12Mmdm",
+    "GhsaId": "GHSA-x4qm-mcjq-v2gf",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-38192"
+      },
+      {
+        "Url": "https://github.com/tokio-rs/prost/issues/438"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0073.html"
+      },
+      {
+        "Url": "https://github.com/tokio-rs/prost/pull/439"
+      },
+      {
+        "Url": "https://github.com/tokio-rs/prost/commit/59f2a7311dd6540696bfd0145f5281ce495f4385"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-x4qm-mcjq-v2gf"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-x4qm-mcjq-v2gf"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-38192"
+      }
+    ],
+    "Description": "An issue was discovered in the prost-types crate before 0.8.0 for Rust. An overflow can occur during conversion from Timestamp to SystemTime.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:55:53Z",
+    "Severity": "HIGH",
+    "Summary": "Overflow in prost-types",
+    "UpdatedAt": "2023-05-01T22:19:29Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.8.0"
+      },
+      "VulnerableVersionRange": "\u003c 0.8.0"
+    }
+  ]
+}

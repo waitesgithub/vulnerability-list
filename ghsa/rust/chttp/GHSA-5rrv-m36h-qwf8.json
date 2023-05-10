@@ -1,0 +1,56 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2021-08-19T21:22:51Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "chttp"
+  },
+  "Advisory": {
+    "DatabaseId": 5281,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTVycnYtbTM2aC1xd2Y4",
+    "GhsaId": "GHSA-5rrv-m36h-qwf8",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16140"
+      },
+      {
+        "Url": "https://github.com/sagebind/isahc/issues/2"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2019-0016.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-5rrv-m36h-qwf8"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-5rrv-m36h-qwf8"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2019-16140"
+      }
+    ],
+    "Description": "An issue was discovered in the chttp crate before 0.1.3 for Rust. There is a use-after-free during buffer conversion.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:44:40Z",
+    "Severity": "CRITICAL",
+    "Summary": "Use-after-free in chttp",
+    "UpdatedAt": "2023-01-11T05:05:48Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.1.3"
+      },
+      "VulnerableVersionRange": "\u003c 0.1.3"
+    }
+  ]
+}

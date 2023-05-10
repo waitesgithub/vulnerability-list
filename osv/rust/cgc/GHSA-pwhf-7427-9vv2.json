@@ -1,0 +1,55 @@
+{
+  "id": "GHSA-pwhf-7427-9vv2",
+  "modified": "2021-08-18T20:39:03Z",
+  "published": "2021-08-25T20:56:57Z",
+  "aliases": [
+    "CVE-2020-36468"
+  ],
+  "summary": "Non-atomic writes in cgc",
+  "details": "An issue was discovered in the cgc crate through 2020-12-10 for Rust. Ptr::write performs non-atomic write operations on an underlying pointer.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "cgc",
+        "purl": "pkg:cargo/cgc"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-pwhf-7427-9vv2/GHSA-pwhf-7427-9vv2.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36468"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/playXE/cgc/issues/5"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/playXE/cgc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/cgc/RUSTSEC-2020-0148.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2020-0148.html"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "Title": "Security update for kvm",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0929-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2012-08-31T14:36:20Z",
+    "CurrentReleaseDate": "2012-08-31T14:36:20Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2012-08-31T14:36:20Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for kvm",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThe kvm qemu vt100 emulation was affected by a problem where specific vt100 \nsequences could have been used by guest users to affect the host. \n(CVE-2012-3515 aka XSA-17).\n\nAlso a temp file race was fixed. (CVE-2012-2652)\n\nSecurity Issue reference:\n\n    * CVE-2012-3515\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3515\u003e\n    * CVE-2012-2652\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2652\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "slessp1-kvm",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "kvm-0.12.5-1.24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kvm-0.12.5-1.24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150929-1/",
+      "Description": "Link for SUSE-SU-2015:0929-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-05/msg00021.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0929-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/764526",
+      "Description": "SUSE Bug 764526"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/777084",
+      "Description": "SUSE Bug 777084"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-2652/",
+      "Description": "SUSE CVE CVE-2012-2652 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-3515/",
+      "Description": "SUSE CVE CVE-2012-3515 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2012-2652",
+      "Description": "The bdrv_open function in Qemu 1.0 does not properly handle the failure of the mkstemp function, when in snapshot node, which allows local users to overwrite or read arbitrary files via a symlink attack on an unspecified temporary file.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-2652.html",
+          "Description": "CVE-2012-2652"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/764526",
+          "Description": "SUSE Bug 764526"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kvm-0.12.5-1.24.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kvm-0.12.5-1.24.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-3515",
+      "Description": "Qemu, as used in Xen 4.0, 4.1 and possibly other products, when emulating certain devices with a virtual console backend, allows local OS guest users to gain privileges via a crafted escape VT100 sequence that triggers the overwrite of a \"device model's address space.\"",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-3515.html",
+          "Description": "CVE-2012-3515"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/777084",
+          "Description": "SUSE Bug 777084"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kvm-0.12.5-1.24.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kvm-0.12.5-1.24.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

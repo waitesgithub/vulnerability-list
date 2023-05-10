@@ -1,0 +1,59 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-18T20:18:31Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "syncpool"
+  },
+  "Advisory": {
+    "DatabaseId": 5072,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXZwNnItbXJxOS04ZjRo",
+    "GhsaId": "GHSA-vp6r-mrq9-8f4h",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36462"
+      },
+      {
+        "Url": "https://github.com/Chopinsky/byte_buffer/issues/2"
+      },
+      {
+        "Url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/syncpool/RUSTSEC-2020-0142.md"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0142.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-vp6r-mrq9-8f4h"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-vp6r-mrq9-8f4h"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-36462"
+      }
+    ],
+    "Description": "An issue was discovered in the syncpool crate before 0.1.6 for Rust. There is an unconditional implementation of Send for Bucket2.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:58:11Z",
+    "Severity": "HIGH",
+    "Summary": "Data race in syncpool",
+    "UpdatedAt": "2023-02-01T05:05:52Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 8.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.1.6"
+      },
+      "VulnerableVersionRange": "\u003c 0.1.6"
+    }
+  ]
+}

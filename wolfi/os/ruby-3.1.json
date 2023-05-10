@@ -1,0 +1,15 @@
+{
+  "name": "ruby-3.1",
+  "secfixes": {
+    "3.1.4-r0": [
+      "CVE-2023-28756",
+      "CVE-2023-28755"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "snappy",
+  "secfixes": {
+    "0": [
+      "CVE-2023-28115"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

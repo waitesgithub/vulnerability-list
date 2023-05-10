@@ -1,0 +1,59 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-19T21:23:02Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "string-interner"
+  },
+  "Advisory": {
+    "DatabaseId": 5284,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTQ5ZnEtcHc3Ny02cXhq",
+    "GhsaId": "GHSA-49fq-pw77-6qxj",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16882"
+      },
+      {
+        "Url": "https://github.com/Robbepop/string-interner/issues/9"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2019-0023.html"
+      },
+      {
+        "Url": "https://github.com/Robbepop/string-interner/commit/d91dac0cfe42512526879cdfaac0b81beff54089"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-49fq-pw77-6qxj"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-49fq-pw77-6qxj"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2019-16882"
+      }
+    ],
+    "Description": "An issue was discovered in the string-interner crate before 0.7.1 for Rust. It allows attackers to read from memory locations associated with dangling pointers, because of a cloning flaw.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:44:15Z",
+    "Severity": "HIGH",
+    "Summary": "Use after free in string-interner",
+    "UpdatedAt": "2023-04-14T17:30:16Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.7.1"
+      },
+      "VulnerableVersionRange": "\u003c 0.7.1"
+    }
+  ]
+}

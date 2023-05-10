@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-19T21:24:38Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "orion"
+  },
+  "Advisory": {
+    "DatabaseId": 5300,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWdmZnYtNWhyMi1mOWdq",
+    "GhsaId": "GHSA-gffv-5hr2-f9gj",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2018-20999"
+      },
+      {
+        "Url": "https://github.com/brycx/orion/issues/46"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2018-0012.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-gffv-5hr2-f9gj"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-gffv-5hr2-f9gj"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2018-20999"
+      }
+    ],
+    "Description": "An issue was discovered in the orion crate before 0.11.2 for Rust. reset() calls cause incorrect results.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:43:18Z",
+    "Severity": "HIGH",
+    "Summary": "Incorrect results in orion",
+    "UpdatedAt": "2023-01-11T05:05:46Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.11.2"
+      },
+      "VulnerableVersionRange": "\u003c 0.11.2"
+    }
+  ]
+}

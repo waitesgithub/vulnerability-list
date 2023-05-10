@@ -1,0 +1,53 @@
+{
+  "id": "GHSA-hxjf-h2mh-r6hj",
+  "modified": "2022-01-06T18:32:15Z",
+  "published": "2022-01-06T22:20:12Z",
+  "aliases": [
+    "CVE-2018-25027"
+  ],
+  "summary": "Use After Free in libpulse-binding",
+  "details": "An issue was discovered in the libpulse-binding crate before 1.2.1 for Rust. get_format_info can cause a use-after-free.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "libpulse-binding",
+        "purl": "pkg:cargo/libpulse-binding"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.1"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-hxjf-h2mh-r6hj/GHSA-hxjf-h2mh-r6hj.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25027"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/jnqnfe/pulse-binding-rust"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/libpulse-binding/RUSTSEC-2018-0021.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2018-0021.html"
+    }
+  ]
+}

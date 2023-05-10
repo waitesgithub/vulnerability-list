@@ -1,0 +1,56 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2021-08-19T21:25:35Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "smallvec"
+  },
+  "Advisory": {
+    "DatabaseId": 5310,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXJ4cjQteDU1OC14N2h3",
+    "GhsaId": "GHSA-rxr4-x558-x7hw",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2018-20991"
+      },
+      {
+        "Url": "https://github.com/servo/rust-smallvec/issues/96"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2018-0003.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-rxr4-x558-x7hw"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-rxr4-x558-x7hw"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2018-20991"
+      }
+    ],
+    "Description": "An issue was discovered in the smallvec crate before 0.6.3 for Rust. The Iterator implementation mishandles destructors, leading to a double free.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:42:54Z",
+    "Severity": "CRITICAL",
+    "Summary": "Double free in smallvec",
+    "UpdatedAt": "2023-01-11T05:05:46Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.6.3"
+      },
+      "VulnerableVersionRange": "\u003c 0.6.3"
+    }
+  ]
+}

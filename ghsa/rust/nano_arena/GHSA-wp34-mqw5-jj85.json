@@ -1,0 +1,56 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2021-08-19T17:23:53Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "nano_arena"
+  },
+  "Advisory": {
+    "DatabaseId": 5143,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXdwMzQtbXF3NS1qajg1",
+    "GhsaId": "GHSA-wp34-mqw5-jj85",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-28032"
+      },
+      {
+        "Url": "https://github.com/bennetthardwick/nano-arena/issues/1"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0031.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-wp34-mqw5-jj85"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-wp34-mqw5-jj85"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-28032"
+      }
+    ],
+    "Description": "An issue was discovered in the nano_arena crate before 0.5.2 for Rust. There is an aliasing violation in split_at because two mutable references can exist for the same element, if Borrow\u003cIdx\u003e behaves in certain ways. This can have a resultant out-of-bounds write or use-after-free.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:52:00Z",
+    "Severity": "CRITICAL",
+    "Summary": "Use after free in nano_arena",
+    "UpdatedAt": "2023-01-11T05:05:38Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.5.2"
+      },
+      "VulnerableVersionRange": "\u003c 0.5.2"
+    }
+  ]
+}

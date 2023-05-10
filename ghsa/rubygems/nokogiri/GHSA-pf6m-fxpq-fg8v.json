@@ -1,0 +1,71 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2018-07-31T18:12:31Z",
+  "Package": {
+    "Ecosystem": "RUBYGEMS",
+    "Name": "nokogiri"
+  },
+  "Advisory": {
+    "DatabaseId": 497,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXBmNm0tZnhwcS1mZzh2",
+    "GhsaId": "GHSA-pf6m-fxpq-fg8v",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5029"
+      },
+      {
+        "Url": "https://chromereleases.googleblog.com/2017/03/stable-channel-update-for-desktop.html"
+      },
+      {
+        "Url": "https://crbug.com/676623"
+      },
+      {
+        "Url": "https://git.gnome.org/browse/libxslt/commit/?id=08ab2774b870de1c7b5a48693df75e8154addae5"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-pf6m-fxpq-fg8v"
+      },
+      {
+        "Url": "http://rhn.redhat.com/errata/RHSA-2017-0499.html"
+      },
+      {
+        "Url": "http://www.debian.org/security/2017/dsa-3810"
+      },
+      {
+        "Url": "http://www.securityfocus.com/bid/96767"
+      },
+      {
+        "Url": "http://www.securitytracker.com/id/1038157"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-pf6m-fxpq-fg8v"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2017-5029"
+      }
+    ],
+    "Description": "The xsltAddTextString function in transform.c in libxslt 1.1.29, as used in Nokogiri prior to 1.7.2, lacked a check for integer overflow during a size calculation, which allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2018-07-31T18:21:29Z",
+    "Severity": "HIGH",
+    "Summary": "Nokogiri lacked integer overflow checks",
+    "UpdatedAt": "2023-02-01T05:04:00Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 8.8,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.7.2"
+      },
+      "VulnerableVersionRange": "\u003c 1.7.2"
+    }
+  ]
+}

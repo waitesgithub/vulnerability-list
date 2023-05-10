@@ -1,0 +1,59 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-19T18:02:21Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "raw-cpuid"
+  },
+  "Advisory": {
+    "DatabaseId": 5161,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWh2cWMtcGM3OC14OXdo",
+    "GhsaId": "GHSA-hvqc-pc78-x9wh",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26306"
+      },
+      {
+        "Url": "https://github.com/gz/rust-cpuid/issues/40"
+      },
+      {
+        "Url": "https://github.com/RustSec/advisory-db/pull/614"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0013.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-hvqc-pc78-x9wh"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-hvqc-pc78-x9wh"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-26306"
+      }
+    ],
+    "Description": "An issue was discovered in the raw-cpuid crate before 9.0.0 for Rust. It has unsound transmute calls within as_string() methods.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:53:10Z",
+    "Severity": "HIGH",
+    "Summary": "Soundness issue in raw-cpuid",
+    "UpdatedAt": "2023-01-27T05:02:08Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "9.0.0"
+      },
+      "VulnerableVersionRange": "\u003c 9.0.0"
+    }
+  ]
+}

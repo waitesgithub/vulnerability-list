@@ -1,0 +1,56 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2021-08-19T21:25:30Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "slice-deque"
+  },
+  "Advisory": {
+    "DatabaseId": 5309,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWhyM2MtNm1tcC02bTM5",
+    "GhsaId": "GHSA-hr3c-6mmp-6m39",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2018-20995"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2018-0008.html"
+      },
+      {
+        "Url": "https://github.com/gnzlbg/slice_deque/issues/57"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-hr3c-6mmp-6m39"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-hr3c-6mmp-6m39"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2018-20995"
+      }
+    ],
+    "Description": "An issue was discovered in the slice-deque crate before 0.1.16 for Rust. move_head_unchecked allows memory corruption because deque updates are mishandled.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:42:57Z",
+    "Severity": "CRITICAL",
+    "Summary": "Memory corruption slice-deque",
+    "UpdatedAt": "2023-01-11T05:06:02Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.1.16"
+      },
+      "VulnerableVersionRange": "\u003c 0.1.16"
+    }
+  ]
+}

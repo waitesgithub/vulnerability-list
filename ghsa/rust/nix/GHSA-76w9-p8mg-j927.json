@@ -1,0 +1,71 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2022-01-05T23:13:24Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "nix"
+  },
+  "Advisory": {
+    "DatabaseId": 8072,
+    "Id": "GSA_kwCzR0hTQS03Nnc5LXA4bWctajkyN80fiA",
+    "GhsaId": "GHSA-76w9-p8mg-j927",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45707"
+      },
+      {
+        "Url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/nix/RUSTSEC-2021-0119.md"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0119.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-wgrg-5h56-jg27"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-76w9-p8mg-j927"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-76w9-p8mg-j927"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-45707"
+      }
+    ],
+    "Description": "An issue was discovered in the nix crate before 0.20.2, 0.21.x before 0.21.2, and 0.22.x before 0.22.2 for Rust. unistd::getgrouplist has an out-of-bounds write if a user is in more than 16 /etc/groups groups.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-01-06T22:07:14Z",
+    "Severity": "CRITICAL",
+    "Summary": "Out-of-bounds Write in nix",
+    "UpdatedAt": "2023-01-30T05:02:18Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.22.2"
+      },
+      "VulnerableVersionRange": "\u003e= 0.22.0, \u003c 0.22.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.21.2"
+      },
+      "VulnerableVersionRange": "\u003e= 0.21.0, \u003c 0.21.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.20.2"
+      },
+      "VulnerableVersionRange": "\u003c 0.20.2"
+    }
+  ]
+}

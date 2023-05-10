@@ -1,0 +1,17 @@
+{
+  "name": "keycloak",
+  "secfixes": {
+    "0": [
+      "CVE-2017-12158",
+      "CVE-2017-12159",
+      "CVE-2023-0264"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

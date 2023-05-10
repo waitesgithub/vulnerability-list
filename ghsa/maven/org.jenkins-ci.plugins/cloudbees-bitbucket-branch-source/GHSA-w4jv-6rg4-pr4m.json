@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2022-06-20T22:49:07Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:cloudbees-bitbucket-branch-source"
+  },
+  "Advisory": {
+    "DatabaseId": 8849,
+    "Id": "GSA_kwCzR0hTQS13NGp2LTZyZzQtcHI0bc0ikQ",
+    "GhsaId": "GHSA-w4jv-6rg4-pr4m",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-20619"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-01-12/#SECURITY-2467"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/01/12/6"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-w4jv-6rg4-pr4m"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-w4jv-6rg4-pr4m"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-20619"
+      }
+    ],
+    "Description": "A cross-site request forgery (CSRF) vulnerability in Jenkins Bitbucket Branch Source Plugin 737.vdf9dc06105be and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-01-13T00:01:00Z",
+    "Severity": "HIGH",
+    "Summary": "Cross-Site Request Forgery in Jenkins Bitbucket Branch Source Plugin",
+    "UpdatedAt": "2023-02-01T05:07:05Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "746.v350d2781c184"
+      },
+      "VulnerableVersionRange": "\u003c= 737.vdf9dc06105be"
+    }
+  ]
+}

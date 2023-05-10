@@ -1,0 +1,61 @@
+{
+  "id": "GHSA-jrf8-cmgg-gv2m",
+  "modified": "2021-08-19T18:02:32Z",
+  "published": "2021-08-25T20:53:07Z",
+  "aliases": [
+    "CVE-2021-26307"
+  ],
+  "summary": "Error on unsupported architectures in raw-cpuid",
+  "details": "An issue was discovered in the raw-cpuid crate before 9.0.0 for Rust. It allows __cpuid_count() calls even if the processor does not support the CPUID instruction, which is unsound and causes a deterministic crash.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "raw-cpuid",
+        "purl": "pkg:cargo/raw-cpuid"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-jrf8-cmgg-gv2m/GHSA-jrf8-cmgg-gv2m.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26307"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gz/rust-cpuid/issues/40"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RustSec/advisory-db/pull/614"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gz/rust-cpuid/commit/91b676eecd01f2163e2984215e2c0ac89e30ce75"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/gz/rust-cpuid"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2021-0013.html"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2021-08-18T17:45:16Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "ncurses"
+  },
+  "Advisory": {
+    "DatabaseId": 5063,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWc3cjUteDdjci12bTN2",
+    "GhsaId": "GHSA-g7r5-x7cr-vm3v",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15548"
+      },
+      {
+        "Url": "https://github.com/RustSec/advisory-db/issues/106"
+      },
+      {
+        "Url": "https://github.com/jeaye/ncurses-rs/issues/172"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2019-0006.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-g7r5-x7cr-vm3v"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-g7r5-x7cr-vm3v"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2019-15548"
+      }
+    ],
+    "Description": "An issue was discovered in the ncurses crate for Rust. There are instr and mvwinstr buffer overflows because interaction with C functions is mishandled.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:58:29Z",
+    "Severity": "CRITICAL",
+    "Summary": "Buffer overflow and format vulnerabilities in ncurses",
+    "UpdatedAt": "2023-01-09T05:05:12Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 5.101.0"
+    }
+  ]
+}

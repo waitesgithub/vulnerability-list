@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-07-27T21:24:05Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:ssh-agent"
+  },
+  "Advisory": {
+    "DatabaseId": 8848,
+    "Id": "GSA_kwCzR0hTQS05d3hoLWpqajUtNjdjds0ikA",
+    "GhsaId": "GHSA-9wxh-jjj5-67cv",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-20620"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-01-12/#SECURITY-2189"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/01/12/6"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-9wxh-jjj5-67cv"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-9wxh-jjj5-67cv"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-20620"
+      }
+    ],
+    "Description": "Missing permission checks in Jenkins SSH Agent Plugin 1.23 and earlier allow attackers with Overall/Read access to enumerate credentials IDs of credentials stored in Jenkins. An enumeration of credentials IDs in SSH Agent Plugin 1.23.2 requires the appropriate permissions.\n\n",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-01-13T00:00:58Z",
+    "Severity": "MODERATE",
+    "Summary": "Missing permission checks in SSH Agent Plugin allow enumerating credentials IDs",
+    "UpdatedAt": "2023-01-30T05:03:38Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 4.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.23.2"
+      },
+      "VulnerableVersionRange": "\u003c 1.23.2"
+    }
+  ]
+}

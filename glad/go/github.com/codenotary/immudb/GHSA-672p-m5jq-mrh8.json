@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-672p-m5jq-mrh8",
+  "PackageSlug": "go/github.com/codenotary/immudb",
+  "Title": "Duplicate of ./go/github.com/codenotary/immudb/pkg/client/CVE-2022-36111.yml",
+  "Description": "In certain scenario a malicious immudb server can provide a falsified proof that will be accepted by the client SDK signing a falsified transaction replacing the genuine one. This situation can not be triggered by a genuine immudb server and requires the client to perform a specific list of verified operations resulting in acceptance of an invalid state value.",
+  "Date": "2022-11-21",
+  "Pubdate": "2022-11-21",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [
+    "v1.4.1"
+  ],
+  "AffectedVersions": "All versions before 1.4.1",
+  "NotImpacted": "All versions starting from 1.4.1",
+  "Solution": "Upgrade to version 1.4.1 or above.",
+  "Urls": [
+    "https://github.com/codenotary/immudb/security/advisories/GHSA-672p-m5jq-mrh8",
+    "https://github.com/advisories/GHSA-672p-m5jq-mrh8"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "24fffad2-f7a9-4ac8-83c9-01b7488a5e15"
+}

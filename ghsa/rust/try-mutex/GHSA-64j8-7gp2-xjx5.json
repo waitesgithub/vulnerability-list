@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2021-08-19T18:54:54Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "try-mutex"
+  },
+  "Advisory": {
+    "DatabaseId": 5191,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTY0ajgtN2dwMi14ang1",
+    "GhsaId": "GHSA-64j8-7gp2-xjx5",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35924"
+      },
+      {
+        "Url": "https://github.com/mpdn/try-mutex/issues/2"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0087.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-64j8-7gp2-xjx5"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-64j8-7gp2-xjx5"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-35924"
+      }
+    ],
+    "Description": "An issue was discovered in the try-mutex crate before 0.3.0 for Rust. TryMutex\u003cT\u003e allows cross-thread sending of a non-Send type.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:50:28Z",
+    "Severity": "MODERATE",
+    "Summary": "Data races in try-mutex",
+    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.5,
+      "VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.3.0"
+      },
+      "VulnerableVersionRange": "\u003c 0.3.0"
+    }
+  ]
+}

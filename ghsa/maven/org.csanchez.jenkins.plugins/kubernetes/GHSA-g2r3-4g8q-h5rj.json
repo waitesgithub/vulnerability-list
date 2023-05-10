@@ -1,0 +1,53 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-06-24T00:51:31Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.csanchez.jenkins.plugins:kubernetes"
+  },
+  "Advisory": {
+    "DatabaseId": 157709,
+    "Id": "GSA_kwCzR0hTQS1nMnIzLTRnOHEtaDVyas4AAmgN",
+    "GhsaId": "GHSA-g2r3-4g8q-h5rj",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-2309"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2020-11-04/#SECURITY-2103"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-g2r3-4g8q-h5rj"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-g2r3-4g8q-h5rj"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-2309"
+      }
+    ],
+    "Description": "A missing/An incorrect permission check in Jenkins Kubernetes Plugin 1.27.3 and earlier allows attackers with Overall/Read permission to enumerate credentials IDs of credentials stored in Jenkins.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T17:33:08Z",
+    "Severity": "MODERATE",
+    "Summary": "Missing authorization in Jenkins Kubernetes Plugin",
+    "UpdatedAt": "2023-01-27T05:02:32Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 4.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.27.4"
+      },
+      "VulnerableVersionRange": "\u003c= 1.27.3"
+    }
+  ]
+}

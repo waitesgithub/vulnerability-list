@@ -1,0 +1,51 @@
+{
+  "id": "GHSA-fhvj-7f9p-w788",
+  "modified": "2021-08-19T20:56:25Z",
+  "published": "2021-08-25T20:48:54Z",
+  "aliases": [
+    "CVE-2020-35887"
+  ],
+  "summary": "Buffer overflow in arr",
+  "details": "An issue was discovered in the arr crate through 2020-08-25 for Rust. There is a buffer overflow in Index and IndexMut.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "arr",
+        "purl": "pkg:cargo/arr"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-fhvj-7f9p-w788/GHSA-fhvj-7f9p-w788.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35887"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sjep/array/issues/1"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/sjep/array"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2020-0034.html"
+    }
+  ]
+}

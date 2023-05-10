@@ -1,0 +1,51 @@
+{
+  "id": "GHSA-9hfg-pxr6-q4vp",
+  "modified": "2022-01-07T18:25:56Z",
+  "published": "2022-01-06T22:04:51Z",
+  "aliases": [
+    "CVE-2021-45709"
+  ],
+  "summary": "Use of a Broken or Risky Cryptographic Algorithm in crypto2",
+  "details": "An issue was discovered in the crypto2 crate through 2021-10-08 for Rust. During Chacha20 encryption and decryption, an unaligned read of a u32 may occur.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "crypto2",
+        "purl": "pkg:cargo/crypto2"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-9hfg-pxr6-q4vp/GHSA-9hfg-pxr6-q4vp.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45709"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/shadowsocks/crypto2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/crypto2/RUSTSEC-2021-0121.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2021-0121.html"
+    }
+  ]
+}

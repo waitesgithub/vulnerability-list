@@ -1,0 +1,80 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2021-06-10T19:56:41Z",
+  "Package": {
+    "Ecosystem": "RUBYGEMS",
+    "Name": "actionview"
+  },
+  "Advisory": {
+    "DatabaseId": 28,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXZ4OWotNDZyaC1mcXI4",
+    "GhsaId": "GHSA-vx9j-46rh-fqr8",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2016-2097"
+      },
+      {
+        "Url": "https://groups.google.com/forum/message/raw?msg=rubyonrails-security/ddY6HgqB2z4/we0RasMZIAAJ"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-security-announce/2016-03/msg00080.html"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-security-announce/2016-03/msg00083.html"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00006.html"
+      },
+      {
+        "Url": "http://weblog.rubyonrails.org/2016/2/29/Rails-4-2-5-2-4-1-14-2-3-2-22-2-have-been-released/"
+      },
+      {
+        "Url": "http://www.debian.org/security/2016/dsa-3509"
+      },
+      {
+        "Url": "https://web.archive.org/web/20160322002234/http://www.securitytracker.com/id/1035122"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200228015320/http://www.securityfocus.com/bid/83726"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-vx9j-46rh-fqr8"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-vx9j-46rh-fqr8"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2016-2097"
+      }
+    ],
+    "Description": "Directory traversal vulnerability in Action View in Ruby on Rails before 3.2.22.2 and 4.x before 4.1.14.2 allows remote attackers to read arbitrary files by leveraging an application's unrestricted use of the render method and providing a .. (dot dot) in a pathname.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2016-0752.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2017-10-24T18:33:35Z",
+    "Severity": "MODERATE",
+    "Summary": "actionview Path Traversal vulnerability",
+    "UpdatedAt": "2023-01-23T18:03:51Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.3,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.1.14.2"
+      },
+      "VulnerableVersionRange": "\u003e= 4.0.0, \u003c= 4.1.14.1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.2.22.2"
+      },
+      "VulnerableVersionRange": "\u003e= 3.0.0, \u003c= 3.2.22.1"
+    }
+  ]
+}

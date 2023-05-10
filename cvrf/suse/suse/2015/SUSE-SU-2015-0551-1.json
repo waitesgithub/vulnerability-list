@@ -1,0 +1,1258 @@
+{
+  "Title": "Security update for glibc",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0551-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2013-09-13T15:23:14Z",
+    "CurrentReleaseDate": "2013-09-13T15:23:14Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2013-09-13T15:23:14Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for glibc",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update for glibc contains the following fixes:\n\n    * Fix integer overflows in malloc (CVE-2013-4332, bnc#839870)\n    * Fix buffer overflow in glob (bnc#691365)\n    * Fix buffer overflow in strcoll (CVE-2012-4412, bnc#779320)\n    * Update mount flags in \u003csys/mount.h\u003e (bnc#791928)\n    * Fix buffer overrun in regexp matcher (CVE-2013-0242, bnc#801246)\n    * Fix memory leaks in dlopen (bnc#811979)\n    * Fix stack overflow in getaddrinfo with many results (CVE-2013-1914,\n      bnc#813121)\n    * Fix check for XEN build in glibc_post_upgrade that causes missing\n      init re-exec (bnc#818628)\n    * Don't raise UNDERFLOW in tan/tanf for small but normal argument\n      (bnc#819347)\n    * Properly cross page boundary in SSE4.2 implementation of strcmp\n      (bnc#822210)\n    * Fix robust mutex handling after fork (bnc#827811)\n    * Fix missing character in IBM-943 charset (bnc#828235)\n    * Fix use of alloca in gaih_inet (bnc#828637)\n    * Initialize pointer guard also in static executables (CVE-2013-4788,\n      bnc#830268)\n    * Fix readdir_r with long file names (CVE-2013-4237, bnc#834594).\n\nSecurity Issues:\n\n    * CVE-2012-4412\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4412\u003e\n    * CVE-2013-0242\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0242\u003e\n    * CVE-2013-1914\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1914\u003e\n    * CVE-2013-4237\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4237\u003e\n    * CVE-2013-4332\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4332\u003e\n    * CVE-2013-4788\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4788\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "slessp1-glibc,slessp2-glibc",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "glibc-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-32bit-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-32bit-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-plugin-audit-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-32bit-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.1-0.58.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-32bit-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-plugin-audit-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150551-1/",
+      "Description": "Link for SUSE-SU-2015:0551-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2015-March/001305.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0551-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/691365",
+      "Description": "SUSE Bug 691365"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/779320",
+      "Description": "SUSE Bug 779320"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/791928",
+      "Description": "SUSE Bug 791928"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/801246",
+      "Description": "SUSE Bug 801246"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/811979",
+      "Description": "SUSE Bug 811979"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/813121",
+      "Description": "SUSE Bug 813121"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/818628",
+      "Description": "SUSE Bug 818628"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/819347",
+      "Description": "SUSE Bug 819347"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/822210",
+      "Description": "SUSE Bug 822210"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/827811",
+      "Description": "SUSE Bug 827811"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/828235",
+      "Description": "SUSE Bug 828235"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/828637",
+      "Description": "SUSE Bug 828637"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/830268",
+      "Description": "SUSE Bug 830268"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/834594",
+      "Description": "SUSE Bug 834594"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/839870",
+      "Description": "SUSE Bug 839870"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-4412/",
+      "Description": "SUSE CVE CVE-2012-4412 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-0242/",
+      "Description": "SUSE CVE CVE-2013-0242 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1914/",
+      "Description": "SUSE CVE CVE-2013-1914 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-4237/",
+      "Description": "SUSE CVE CVE-2013-4237 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-4332/",
+      "Description": "SUSE CVE CVE-2013-4332 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-4788/",
+      "Description": "SUSE CVE CVE-2013-4788 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2012-4412",
+      "Description": "Integer overflow in string/strcoll_l.c in the GNU C Library (aka glibc or libc6) 2.17 and earlier allows context-dependent attackers to cause a denial of service (crash) or possibly execute arbitrary code via a long string, which triggers a heap-based buffer overflow.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-4412.html",
+          "Description": "CVE-2012-4412"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/779320",
+          "Description": "SUSE Bug 779320"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/848783",
+          "Description": "SUSE Bug 848783"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882910",
+          "Description": "SUSE Bug 882910"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/920169",
+          "Description": "SUSE Bug 920169"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/920338",
+          "Description": "SUSE Bug 920338"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:nscd-2.11.3-17.45.49.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-0242",
+      "Description": "Buffer overflow in the extend_buffers function in the regular expression matcher (posix/regexec.c) in glibc, possibly 2.17 and earlier, allows context-dependent attackers to cause a denial of service (memory corruption and crash) via crafted multibyte characters.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-0242.html",
+          "Description": "CVE-2013-0242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/801246",
+          "Description": "SUSE Bug 801246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/848783",
+          "Description": "SUSE Bug 848783"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882910",
+          "Description": "SUSE Bug 882910"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:nscd-2.11.3-17.45.49.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1914",
+      "Description": "Stack-based buffer overflow in the getaddrinfo function in sysdeps/posix/getaddrinfo.c in GNU C Library (aka glibc or libc6) 2.17 and earlier allows remote attackers to cause a denial of service (crash) via a (1) hostname or (2) IP address that triggers a large number of domain conversion results.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1914.html",
+          "Description": "CVE-2013-1914"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/813121",
+          "Description": "SUSE Bug 813121"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/826666",
+          "Description": "SUSE Bug 826666"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882910",
+          "Description": "SUSE Bug 882910"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/941444",
+          "Description": "SUSE Bug 941444"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:nscd-2.11.3-17.45.49.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-4237",
+      "Description": "sysdeps/posix/readdir_r.c in the GNU C Library (aka glibc or libc6) 2.18 and earlier allows context-dependent attackers to cause a denial of service (out-of-bounds write and crash) or possibly execute arbitrary code via a crafted (1) NTFS or (2) CIFS image.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-4237.html",
+          "Description": "CVE-2013-4237"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/834594",
+          "Description": "SUSE Bug 834594"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882910",
+          "Description": "SUSE Bug 882910"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/883022",
+          "Description": "SUSE Bug 883022"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:nscd-2.11.3-17.45.49.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-4332",
+      "Description": "Multiple integer overflows in malloc/malloc.c in the GNU C Library (aka glibc or libc6) 2.18 and earlier allow context-dependent attackers to cause a denial of service (heap corruption) via a large value to the (1) pvalloc, (2) valloc, (3) posix_memalign, (4) memalign, or (5) aligned_alloc functions.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-4332.html",
+          "Description": "CVE-2013-4332"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/839870",
+          "Description": "SUSE Bug 839870"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882910",
+          "Description": "SUSE Bug 882910"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:nscd-2.11.3-17.45.49.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-4788",
+      "Description": "The PTR_MANGLE implementation in the GNU C Library (aka glibc or libc6) 2.4, 2.17, and earlier, and Embedded GLIBC (EGLIBC) does not initialize the random value for the pointer guard, which makes it easier for context-dependent attackers to control execution flow by leveraging a buffer-overflow vulnerability in an application and using the known zero value pointer guard to calculate a pointer address.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-4788.html",
+          "Description": "CVE-2013-4788"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/830268",
+          "Description": "SUSE Bug 830268"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882910",
+          "Description": "SUSE Bug 882910"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/950944",
+          "Description": "SUSE Bug 950944"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-html-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-i18ndata-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-info-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-32bit-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:nscd-2.11.1-0.58.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:nscd-2.11.3-17.45.49.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

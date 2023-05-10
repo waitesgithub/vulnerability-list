@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-06-20T22:49:22Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:cloudbees-bitbucket-branch-source"
+  },
+  "Advisory": {
+    "DatabaseId": 8852,
+    "Id": "GSA_kwCzR0hTQS13Mm1oLTZ4ajUtZjc3Zs0ilA",
+    "GhsaId": "GHSA-w2mh-6xj5-f77f",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-20618"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-01-12/#SECURITY-2033"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/01/12/6"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-w2mh-6xj5-f77f"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-w2mh-6xj5-f77f"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-20618"
+      }
+    ],
+    "Description": "A missing permission check in Jenkins Bitbucket Branch Source Plugin 737.vdf9dc06105be and earlier allows attackers with Overall/Read access to enumerate credentials IDs of credentials stored in Jenkins.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-01-13T00:01:02Z",
+    "Severity": "MODERATE",
+    "Summary": "Incorrect Permission Assignment for Critical Resource in Jenkins Bitbucket Branch Source Plugin",
+    "UpdatedAt": "2023-02-01T05:07:17Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 4.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "746.v350d2781c184"
+      },
+      "VulnerableVersionRange": "\u003c= 737.vdf9dc06105be"
+    }
+  ]
+}

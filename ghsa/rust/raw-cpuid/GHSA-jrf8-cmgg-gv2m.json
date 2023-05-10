@@ -1,0 +1,62 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2021-08-19T18:02:33Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "raw-cpuid"
+  },
+  "Advisory": {
+    "DatabaseId": 5162,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWpyZjgtY21nZy1ndjJt",
+    "GhsaId": "GHSA-jrf8-cmgg-gv2m",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26307"
+      },
+      {
+        "Url": "https://github.com/gz/rust-cpuid/issues/40"
+      },
+      {
+        "Url": "https://github.com/RustSec/advisory-db/pull/614"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0013.html"
+      },
+      {
+        "Url": "https://github.com/gz/rust-cpuid/commit/91b676eecd01f2163e2984215e2c0ac89e30ce75"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-jrf8-cmgg-gv2m"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-jrf8-cmgg-gv2m"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-26307"
+      }
+    ],
+    "Description": "An issue was discovered in the raw-cpuid crate before 9.0.0 for Rust. It allows __cpuid_count() calls even if the processor does not support the CPUID instruction, which is unsound and causes a deterministic crash.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:53:07Z",
+    "Severity": "MODERATE",
+    "Summary": "Error on unsupported architectures in raw-cpuid",
+    "UpdatedAt": "2023-04-07T21:52:04Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.5,
+      "VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "9.0.0"
+      },
+      "VulnerableVersionRange": "\u003c 9.0.0"
+    }
+  ]
+}

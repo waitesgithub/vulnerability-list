@@ -1,0 +1,51 @@
+{
+  "id": "GHSA-2gxj-qrp2-53jv",
+  "modified": "2022-01-07T18:24:36Z",
+  "published": "2022-01-06T22:11:11Z",
+  "aliases": [
+    "CVE-2021-45695"
+  ],
+  "summary": "Incorrect reliance on Trait memory layout in mopa",
+  "details": "An issue was discovered in the mopa crate through 2021-06-01 for Rust. It incorrectly relies on Trait memory layout, possibly leading to future occurrences of arbitrary code execution or ASLR bypass.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "mopa",
+        "purl": "pkg:cargo/mopa"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-2gxj-qrp2-53jv/GHSA-2gxj-qrp2-53jv.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45695"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/chris-morgan/mopa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/mopa/RUSTSEC-2021-0095.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2021-0095.html"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-19T21:20:03Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "trust-dns-server"
+  },
+  "Advisory": {
+    "DatabaseId": 5257,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTRjd3ctZjd3NS14NTI1",
+    "GhsaId": "GHSA-4cww-f7w5-x525",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35857"
+      },
+      {
+        "Url": "https://github.com/bluejekyll/trust-dns/issues/980"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0001.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-4cww-f7w5-x525"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-4cww-f7w5-x525"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-35857"
+      }
+    ],
+    "Description": "An issue was discovered in the trust-dns-server crate before 0.18.1 for Rust. DNS MX and SRV null targets are mishandled, causing stack consumption.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:46:13Z",
+    "Severity": "HIGH",
+    "Summary": "Stack consumption in trust-dns-server",
+    "UpdatedAt": "2023-01-11T05:06:01Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.18.1"
+      },
+      "VulnerableVersionRange": "\u003c 0.18.1"
+    }
+  ]
+}

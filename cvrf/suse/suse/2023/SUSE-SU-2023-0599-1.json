@@ -1,0 +1,593 @@
+{
+  "Title": "Security update for MozillaThunderbird",
+  "Tracking": {
+    "ID": "SUSE-SU-2023:0599-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2023-03-02T13:52:14Z",
+    "CurrentReleaseDate": "2023-03-02T13:52:14Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2023-03-02T13:52:14Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for MozillaThunderbird",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for MozillaThunderbird fixes the following issues:\n\n  Updated Mozilla Thunderbird to version 102.8.0 (bsc#1208144):\n  - CVE-2023-0616: Fixed User Interface lockup via messages combining S/MIME and OpenPGP.\n  - CVE-2023-25728: Fixed content security policy leak in violation reports using iframes.\n  - CVE-2023-25730: Fixed screen hijack via browser fullscreen mode.\n  - CVE-2023-0767: Fixed arbitrary memory write via PKCS 12 in NSS.\n  - CVE-2023-25735: Fixed potential use-after-free from compartment mismatch in SpiderMonkey.\n  - CVE-2023-25737: Fixed invalid downcast in SVGUtils::SetupStrokeGeometry.\n  - CVE-2023-25738: Fixed printing on Windows could potentially crash Thunderbird with some device drivers.\n  - CVE-2023-25739: Fixed use-after-free in mozilla::dom::ScriptLoadContext::~ScriptLoadContext.\n  - CVE-2023-25729: Fixed vulnerability where extensions could have opened external schemes without user knowledge.\n  - CVE-2023-25732: Fixed out of bounds memory write from EncodeInputStream.\n  - CVE-2023-25734: Fixed issue where opening local .url files could cause unexpected network loads.\n  - CVE-2023-25742: Fixed tab crashing caused by Web Crypto ImportKey.\n  - CVE-2023-25746: Fixed memory safety bugs.\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2023-599,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-599,SUSE-SLE-Product-WE-15-SP4-2023-599,openSUSE-SLE-15.4-2023-599",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "MozillaThunderbird-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2023/suse-su-20230599-1/",
+      "Description": "Link for SUSE-SU-2023:0599-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2023-March/013965.html",
+      "Description": "E-Mail link for SUSE-SU-2023:0599-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1208144",
+      "Description": "SUSE Bug 1208144"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-0616/",
+      "Description": "SUSE CVE CVE-2023-0616 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-0767/",
+      "Description": "SUSE CVE CVE-2023-0767 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25728/",
+      "Description": "SUSE CVE CVE-2023-25728 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25729/",
+      "Description": "SUSE CVE CVE-2023-25729 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25730/",
+      "Description": "SUSE CVE CVE-2023-25730 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25732/",
+      "Description": "SUSE CVE CVE-2023-25732 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25734/",
+      "Description": "SUSE CVE CVE-2023-25734 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25735/",
+      "Description": "SUSE CVE CVE-2023-25735 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25737/",
+      "Description": "SUSE CVE CVE-2023-25737 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25738/",
+      "Description": "SUSE CVE CVE-2023-25738 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25739/",
+      "Description": "SUSE CVE CVE-2023-25739 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25742/",
+      "Description": "SUSE CVE CVE-2023-25742 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-25746/",
+      "Description": "SUSE CVE CVE-2023-25746 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2023-0616",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-0616.html",
+          "Description": "CVE-2023-0616"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-0767",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-0767.html",
+          "Description": "CVE-2023-0767"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1208138",
+          "Description": "SUSE Bug 1208138"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25728",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25728.html",
+          "Description": "CVE-2023-25728"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25729",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25729.html",
+          "Description": "CVE-2023-25729"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25730",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25730.html",
+          "Description": "CVE-2023-25730"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25732",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25732.html",
+          "Description": "CVE-2023-25732"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25734",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25734.html",
+          "Description": "CVE-2023-25734"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25735",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25735.html",
+          "Description": "CVE-2023-25735"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25737",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25737.html",
+          "Description": "CVE-2023-25737"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25738",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25738.html",
+          "Description": "CVE-2023-25738"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25739",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25739.html",
+          "Description": "CVE-2023-25739"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25742",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25742.html",
+          "Description": "CVE-2023-25742"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-25746",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-25746.html",
+          "Description": "CVE-2023-25746"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "SUSE Linux Enterprise Workstation Extension 15 SP4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-common-102.8.0-150200.8.105.2",
+            "openSUSE Leap 15.4:MozillaThunderbird-translations-other-102.8.0-150200.8.105.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

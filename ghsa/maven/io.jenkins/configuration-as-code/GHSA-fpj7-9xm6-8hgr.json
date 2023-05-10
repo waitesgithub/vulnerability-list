@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-11-29T21:15:04Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "io.jenkins:configuration-as-code"
+  },
+  "Advisory": {
+    "DatabaseId": 8845,
+    "Id": "GSA_kwCzR0hTQS1mcGo3LTl4bTYtOGhncs0ijQ",
+    "GhsaId": "GHSA-fpj7-9xm6-8hgr",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23106"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-01-12/#SECURITY-2141"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/01/12/6"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-fpj7-9xm6-8hgr"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-fpj7-9xm6-8hgr"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-23106"
+      }
+    ],
+    "Description": "Jenkins Configuration as Code Plugin 1.55 and earlier used a non-constant time comparison function when validating an authentication token allowing attackers to use statistical methods to obtain a valid authentication token.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-01-21T23:38:30Z",
+    "Severity": "MODERATE",
+    "Summary": "Observable Discrepancy and Observable Timing Discrepancy in Jenkins Configuration as Code Plugin",
+    "UpdatedAt": "2023-02-01T05:06:53Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.55.1"
+      },
+      "VulnerableVersionRange": "\u003c 1.55.1"
+    }
+  ]
+}

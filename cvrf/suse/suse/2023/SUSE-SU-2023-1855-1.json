@@ -1,0 +1,1232 @@
+{
+  "Title": "Security update for MozillaFirefox",
+  "Tracking": {
+    "ID": "SUSE-SU-2023:1855-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2023-04-14T14:06:16Z",
+    "CurrentReleaseDate": "2023-04-14T14:06:16Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2023-04-14T14:06:16Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for MozillaFirefox",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for MozillaFirefox fixes the following issues:\n\n- Firefox Extended Support Release 102.10.0 ESR (bsc#1210212)\n- CVE-2023-29531: Out-of-bound memory access in WebGL on macOS\n- CVE-2023-29532: Mozilla Maintenance Service Write-lock bypass\n- CVE-2023-29533: Fullscreen notification obscured\n- MFSA-TMP-2023-0001: Double-free in libwebp\n- CVE-2023-29535: Potential Memory Corruption following Garbage Collector compaction\n- CVE-2023-29536: Invalid free from JavaScript code\n- CVE-2023-29539: Content-Disposition filename truncation leads to Reflected File Download\n- CVE-2023-29541: Files with malicious extensions could have been downloaded unsafely on Linux\n- CVE-2023-29542: Bypass of file download extension restrictions\n- CVE-2023-29545: Windows Save As dialog resolved environment variables\n- CVE-2023-1945: Memory Corruption in Safe Browsing Code\n- CVE-2023-29548: Incorrect optimization result on ARM64\n- CVE-2023-29550: Memory safety bugs fixed in Firefox 112 and Firefox ESR 102.10\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2023-1855,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-1855,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-1855,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-1855,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-1855,SUSE-SLE-Product-RT-15-SP3-2023-1855,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-1855,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-1855,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-1855,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-1855,SUSE-Storage-7-2023-1855,SUSE-Storage-7.1-2023-1855,openSUSE-SLE-15.4-2023-1855",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2023/suse-su-20231855-1/",
+      "Description": "Link for SUSE-SU-2023:1855-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2023-April/028812.html",
+      "Description": "E-Mail link for SUSE-SU-2023:1855-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1210212",
+      "Description": "SUSE Bug 1210212"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-1945/",
+      "Description": "SUSE CVE CVE-2023-1945 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29531/",
+      "Description": "SUSE CVE CVE-2023-29531 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29532/",
+      "Description": "SUSE CVE CVE-2023-29532 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29533/",
+      "Description": "SUSE CVE CVE-2023-29533 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29535/",
+      "Description": "SUSE CVE CVE-2023-29535 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29536/",
+      "Description": "SUSE CVE CVE-2023-29536 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29539/",
+      "Description": "SUSE CVE CVE-2023-29539 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29541/",
+      "Description": "SUSE CVE CVE-2023-29541 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29542/",
+      "Description": "SUSE CVE CVE-2023-29542 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29545/",
+      "Description": "SUSE CVE CVE-2023-29545 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29548/",
+      "Description": "SUSE CVE CVE-2023-29548 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-29550/",
+      "Description": "SUSE CVE CVE-2023-29550 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2023-1945",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-1945.html",
+          "Description": "CVE-2023-1945"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29531",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29531.html",
+          "Description": "CVE-2023-29531"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29532",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29532.html",
+          "Description": "CVE-2023-29532"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29533",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29533.html",
+          "Description": "CVE-2023-29533"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29535",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29535.html",
+          "Description": "CVE-2023-29535"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29536",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29536.html",
+          "Description": "CVE-2023-29536"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29539",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29539.html",
+          "Description": "CVE-2023-29539"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29541",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29541.html",
+          "Description": "CVE-2023-29541"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29542",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29542.html",
+          "Description": "CVE-2023-29542"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29545",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29545.html",
+          "Description": "CVE-2023-29545"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29548",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29548.html",
+          "Description": "CVE-2023-29548"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2023-29550",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-29550.html",
+          "Description": "CVE-2023-29550"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7.1:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Enterprise Storage 7:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:MozillaFirefox-translations-other-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-branding-upstream-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-devel-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-common-102.10.0-150200.152.84.1",
+            "openSUSE Leap 15.4:MozillaFirefox-translations-other-102.10.0-150200.152.84.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

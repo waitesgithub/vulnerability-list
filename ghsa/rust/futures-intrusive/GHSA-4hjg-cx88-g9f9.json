@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2021-08-19T20:49:05Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "futures-intrusive"
+  },
+  "Advisory": {
+    "DatabaseId": 5200,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTRoamctY3g4OC1nOWY5",
+    "GhsaId": "GHSA-4hjg-cx88-g9f9",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35915"
+      },
+      {
+        "Url": "https://github.com/Matthias247/futures-intrusive/issues/53"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0072.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-4hjg-cx88-g9f9"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-4hjg-cx88-g9f9"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-35915"
+      }
+    ],
+    "Description": "An issue was discovered in the futures-intrusive crate before 0.4.0 for Rust. GenericMutexGuard allows cross-thread data races of non-Sync types.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:49:58Z",
+    "Severity": "MODERATE",
+    "Summary": "Data races in futures-intrusive",
+    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.5,
+      "VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.0"
+      },
+      "VulnerableVersionRange": "\u003c 0.4.0"
+    }
+  ]
+}

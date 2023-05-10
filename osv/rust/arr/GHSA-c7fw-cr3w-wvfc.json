@@ -1,0 +1,51 @@
+{
+  "id": "GHSA-c7fw-cr3w-wvfc",
+  "modified": "2021-08-19T20:56:00Z",
+  "published": "2021-08-25T20:49:04Z",
+  "aliases": [
+    "CVE-2020-35886"
+  ],
+  "summary": "Data races in arr",
+  "details": "An issue was discovered in the arr crate through 2020-08-25 for Rust. An attacker can smuggle non-Sync/Send types across a thread boundary to cause a data race.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "arr",
+        "purl": "pkg:cargo/arr"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-c7fw-cr3w-wvfc/GHSA-c7fw-cr3w-wvfc.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35886"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sjep/array/issues/1"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/sjep/array"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2020-0034.html"
+    }
+  ]
+}

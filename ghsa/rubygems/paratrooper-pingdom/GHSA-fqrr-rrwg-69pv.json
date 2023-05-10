@@ -1,0 +1,56 @@
+{
+  "Severity": "LOW",
+  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "Package": {
+    "Ecosystem": "RUBYGEMS",
+    "Name": "paratrooper-pingdom"
+  },
+  "Advisory": {
+    "DatabaseId": 85,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWZxcnItcnJ3Zy02OXB2",
+    "GhsaId": "GHSA-fqrr-rrwg-69pv",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2014-1233"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-fqrr-rrwg-69pv"
+      },
+      {
+        "Url": "http://openwall.com/lists/oss-security/2014/01/08/1"
+      },
+      {
+        "Url": "http://www.vapid.dhs.org/advisories/paratrooper-api-key-pingdom.html"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-fqrr-rrwg-69pv"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2014-1233"
+      }
+    ],
+    "Description": "The paratrooper-pingdom gem 1.0.0 for Ruby allows local users to obtain the App-Key, username, and password values by listing the curl process.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2017-10-24T18:33:36Z",
+    "Severity": "LOW",
+    "Summary": "Low severity vulnerability that affects paratrooper-pingdom",
+    "UpdatedAt": "2023-01-09T05:03:16Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 0,
+      "VectorString": ""
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 1.0.0"
+    }
+  ]
+}

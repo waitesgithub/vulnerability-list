@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-19T17:35:31Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "postscript"
+  },
+  "Advisory": {
+    "DatabaseId": 5152,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWZodmMtZ3A2Yy1oMnd4",
+    "GhsaId": "GHSA-fhvc-gp6c-h2wx",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26953"
+      },
+      {
+        "Url": "https://github.com/bodoni/postscript/issues/1"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0017.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-fhvc-gp6c-h2wx"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-fhvc-gp6c-h2wx"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-26953"
+      }
+    ],
+    "Description": "An issue was discovered in the postscript crate before 0.14.0 for Rust. It might allow attackers to obtain sensitive information from uninitialized memory locations via a user-provided Read implementation.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:52:23Z",
+    "Severity": "HIGH",
+    "Summary": "Read on uninitialized buffer in postscript",
+    "UpdatedAt": "2023-01-11T05:05:29Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.14.0"
+      },
+      "VulnerableVersionRange": "\u003c 0.14.0"
+    }
+  ]
+}

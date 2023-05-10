@@ -1,0 +1,56 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2021-08-19T21:23:29Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "slice-deque"
+  },
+  "Advisory": {
+    "DatabaseId": 5286,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWMzbTMtYzM5cS1wdjIz",
+    "GhsaId": "GHSA-c3m3-c39q-pv23",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15543"
+      },
+      {
+        "Url": "https://github.com/gnzlbg/slice_deque/issues/57"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2019-0002.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-c3m3-c39q-pv23"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-c3m3-c39q-pv23"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2019-15543"
+      }
+    ],
+    "Description": "An issue was discovered in the slice-deque crate before 0.2.0 for Rust. There is memory corruption in certain allocation cases.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:44:10Z",
+    "Severity": "CRITICAL",
+    "Summary": "Out of bounds write in slice-deque",
+    "UpdatedAt": "2023-01-11T05:05:48Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.2.0"
+      },
+      "VulnerableVersionRange": "\u003c 0.2.0"
+    }
+  ]
+}

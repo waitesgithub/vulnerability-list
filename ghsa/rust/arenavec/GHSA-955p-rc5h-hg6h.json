@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-19T17:08:57Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "arenavec"
+  },
+  "Advisory": {
+    "DatabaseId": 5125,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTk1NXAtcmM1aC1oZzZo",
+    "GhsaId": "GHSA-955p-rc5h-hg6h",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-29931"
+      },
+      {
+        "Url": "https://github.com/ibabushkin/arenavec/issues/1"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0040.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-955p-rc5h-hg6h"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-955p-rc5h-hg6h"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-29931"
+      }
+    ],
+    "Description": "An issue was discovered in the arenavec crate through 2021-01-12 for Rust. A double drop can sometimes occur upon a panic in T::drop().",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:55:04Z",
+    "Severity": "HIGH",
+    "Summary": "Double free in arenavec",
+    "UpdatedAt": "2023-01-09T05:05:13Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 0.1.1"
+    }
+  ]
+}

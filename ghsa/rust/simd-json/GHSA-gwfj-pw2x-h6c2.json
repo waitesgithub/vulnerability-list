@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-19T21:23:49Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "simd-json"
+  },
+  "Advisory": {
+    "DatabaseId": 5292,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWd3ZmotcHcyeC1oNmMy",
+    "GhsaId": "GHSA-gwfj-pw2x-h6c2",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15550"
+      },
+      {
+        "Url": "https://github.com/Licenser/simdjson-rs/pull/27"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2019-0008.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-gwfj-pw2x-h6c2"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-gwfj-pw2x-h6c2"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2019-15550"
+      }
+    ],
+    "Description": "An issue was discovered in the simd-json crate before 0.1.15 for Rust. There is an out-of-bounds read and an incorrect crossing of a page boundary.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:43:56Z",
+    "Severity": "HIGH",
+    "Summary": "Out of bounds read in simd-json",
+    "UpdatedAt": "2023-01-11T05:05:46Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.1.15"
+      },
+      "VulnerableVersionRange": "\u003c 0.1.15"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "curl",
+  "secfixes": {
+    "7.86.0-r0": [
+      "CVE-2022-42916",
+      "CVE-2022-32221"
+    ],
+    "7.87.0-r0": [
+      "CVE-2022-43551",
+      "CVE-2022-43552"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

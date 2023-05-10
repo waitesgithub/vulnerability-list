@@ -1,0 +1,55 @@
+{
+  "id": "GHSA-32v7-ghpr-c8hg",
+  "modified": "2021-08-18T17:45:13Z",
+  "published": "2021-08-25T20:58:47Z",
+  "aliases": [
+    "CVE-2019-15547"
+  ],
+  "summary": "Mishandling of format strings in ncurses",
+  "details": "An issue was discovered in the ncurses crate for Rust. There are format string issues in printw functions because C format arguments are mishandled.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "ncurses",
+        "purl": "pkg:cargo/ncurses"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-32v7-ghpr-c8hg/GHSA-32v7-ghpr-c8hg.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15547"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RustSec/advisory-db/issues/106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jeaye/ncurses-rs/issues/172"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/jeaye/ncurses-rs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2019-0006.html"
+    }
+  ]
+}

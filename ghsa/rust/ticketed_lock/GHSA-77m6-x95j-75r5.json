@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-08-09T22:40:36Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "ticketed_lock"
+  },
+  "Advisory": {
+    "DatabaseId": 5050,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTc3bTYteDk1ai03NXI1",
+    "GhsaId": "GHSA-77m6-x95j-75r5",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36439"
+      },
+      {
+        "Url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/ticketed_lock/RUSTSEC-2020-0119.md"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0119.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-77m6-x95j-75r5"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-77m6-x95j-75r5"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-36439"
+      }
+    ],
+    "Description": "An issue was discovered in the ticketed_lock crate before 0.3.0 for Rust. There are unconditional implementations of Send for ReadTicket\u003cT\u003e and WriteTicket\u003cT\u003e.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:58:58Z",
+    "Severity": "HIGH",
+    "Summary": "Data races in ticketed_lock",
+    "UpdatedAt": "2023-02-01T05:06:12Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 8.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.3.0"
+      },
+      "VulnerableVersionRange": "\u003c 0.3.0"
+    }
+  ]
+}

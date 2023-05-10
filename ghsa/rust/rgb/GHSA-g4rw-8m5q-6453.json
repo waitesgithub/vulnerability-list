@@ -1,0 +1,56 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2021-08-19T21:21:37Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "rgb"
+  },
+  "Advisory": {
+    "DatabaseId": 5269,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWc0cnctOG01cS02NDUz",
+    "GhsaId": "GHSA-g4rw-8m5q-6453",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-25016"
+      },
+      {
+        "Url": "https://github.com/kornelski/rust-rgb/issues/35"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0029.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-g4rw-8m5q-6453"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-g4rw-8m5q-6453"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-25016"
+      }
+    ],
+    "Description": "A safety violation was discovered in the rgb crate before 0.8.20 for Rust, leading to (for example) dereferencing of arbitrary pointers or disclosure of uninitialized memory. This occurs because structs can be treated as bytes for read and write operations.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2021-08-25T20:45:12Z",
+    "Severity": "CRITICAL",
+    "Summary": "Out of bounds access in rgb",
+    "UpdatedAt": "2023-01-11T05:06:01Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.8.20"
+      },
+      "VulnerableVersionRange": "\u003c 0.8.20"
+    }
+  ]
+}

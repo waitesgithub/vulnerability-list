@@ -1,0 +1,51 @@
+{
+  "id": "GHSA-9mp7-45qh-r8j8",
+  "modified": "2022-01-07T17:34:40Z",
+  "published": "2022-01-06T22:13:46Z",
+  "aliases": [
+    "CVE-2021-45685"
+  ],
+  "summary": "Use of Uninitialized Resource in columnar.",
+  "details": "An issue was discovered in the columnar crate through 2021-01-07 for Rust. ColumnarReadExt::read_typed_vec may read from uninitialized memory locations.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "columnar",
+        "purl": "pkg:cargo/columnar"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-9mp7-45qh-r8j8/GHSA-9mp7-45qh-r8j8.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45685"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/frankmcsherry/columnar.git"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/columnar/RUSTSEC-2021-0087.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2021-0087.html"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2022-01-06T18:32:16Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "libpulse-binding"
+  },
+  "Advisory": {
+    "DatabaseId": 8107,
+    "Id": "GSA_kwCzR0hTQS1oeGpmLWgybWgtcjZoas0fqw",
+    "GhsaId": "GHSA-hxjf-h2mh-r6hj",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25027"
+      },
+      {
+        "Url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/libpulse-binding/RUSTSEC-2018-0021.md"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2018-0021.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-hxjf-h2mh-r6hj"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-hxjf-h2mh-r6hj"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2018-25027"
+      }
+    ],
+    "Description": "An issue was discovered in the libpulse-binding crate before 1.2.1 for Rust. get_format_info can cause a use-after-free.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-01-06T22:20:12Z",
+    "Severity": "HIGH",
+    "Summary": "Use After Free in libpulse-binding",
+    "UpdatedAt": "2023-02-03T05:03:46Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.2.1"
+      },
+      "VulnerableVersionRange": "\u003c 1.2.1"
+    }
+  ]
+}

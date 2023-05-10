@@ -1,0 +1,55 @@
+{
+  "id": "GHSA-r2x6-vrxx-jgv4",
+  "modified": "2021-08-18T20:19:20Z",
+  "published": "2021-08-25T20:58:07Z",
+  "aliases": [
+    "CVE-2020-36463"
+  ],
+  "summary": "Data races in multiqueue",
+  "details": "An issue was discovered in the multiqueue crate through 2020-12-25 for Rust. There are unconditional implementations of Send for InnerSend\u003cRW, T\u003e, InnerRecv\u003cRW, T\u003e, FutInnerSend\u003cRW, T\u003e, and FutInnerRecv\u003cRW, T\u003e.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "multiqueue",
+        "purl": "pkg:cargo/multiqueue"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-r2x6-vrxx-jgv4/GHSA-r2x6-vrxx-jgv4.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/schets/multiqueue/issues/31"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/schets/multiqueue"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/rustsec/advisory-db/main/crates/multiqueue/RUSTSEC-2020-0143.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2020-0143.html"
+    }
+  ]
+}

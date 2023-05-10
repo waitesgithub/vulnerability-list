@@ -1,0 +1,16 @@
+{
+  "name": "zookeeper",
+  "secfixes": {
+    "3.4.0-r2": [
+      "CVE-2023-26049",
+      "CVE-2023-26048"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
