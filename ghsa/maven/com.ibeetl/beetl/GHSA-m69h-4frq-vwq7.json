@@ -1,5 +1,5 @@
 {
-  "Severity": "HIGH",
+  "Severity": "CRITICAL",
   "UpdatedAt": "2023-05-05T02:21:43Z",
   "Package": {
     "Ecosystem": "MAVEN",
@@ -36,13 +36,13 @@
     "Description": "An issue in the render function of beetl v3.15.0 allows attackers to execute server-side template injection (SSTI) via a crafted payload.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-05-04T03:30:22Z",
-    "Severity": "HIGH",
+    "Severity": "CRITICAL",
     "Summary": "Server-side template injection in beetl",
-    "UpdatedAt": "2023-05-05T02:21:43Z",
+    "UpdatedAt": "2023-05-10T15:26:57Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [
