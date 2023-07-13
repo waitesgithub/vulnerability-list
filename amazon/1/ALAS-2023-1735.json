@@ -5,10 +5,10 @@
     "date": "2023-04-27 16:19"
   },
   "updated": {
-    "date": "2023-04-27 16:19"
+    "date": "2023-06-07 16:25"
   },
   "severity": "important",
-  "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2023-23454:\n\tcbq_classify in net/sched/sch_cbq.c in the Linux kernel through 6.1.4 allows attackers to cause a denial of service (slab-out-of-bounds read) because of type confusion (non-negative numbers can sometimes indicate a TC_ACT_SHOT condition rather than valid classification results).\n\nCVE-2023-2124:\n\tAn out-of-bounds memory access flaw was found in the Linux kernel's XFS file system in how a user restores an XFS image after failure (with a dirty log journal). This flaw allows a local user to crash or potentially escalate their privileges on the system.\n",
+  "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2023-23454:\n\tcbq_classify in net/sched/sch_cbq.c in the Linux kernel through 6.1.4 allows attackers to cause a denial of service (slab-out-of-bounds read) because of type confusion (non-negative numbers can sometimes indicate a TC_ACT_SHOT condition rather than valid classification results).\n\nCVE-2023-2124:\n\tAn out-of-bounds memory access flaw was found in the Linux kernel's XFS file system in how a user restores an XFS image after failure (with a dirty log journal). This flaw allows a local user to crash or potentially escalate their privileges on the system.\n\nCVE-2023-1838:\n\tA use-after-free flaw was found in vhost_net_set_backend in drivers/vhost/net.c in virtio network subcomponent in the Linux kernel due to a double fget. This flaw could allow a local attacker to crash the system, and could even lead to a kernel information leak problem.\n",
   "packages": [
     {
       "name": "kernel-tools-debuginfo",
@@ -173,6 +173,11 @@
   ],
   "references": [
     {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1838",
+      "id": "CVE-2023-1838",
+      "type": "cve"
+    },
+    {
       "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2124",
       "id": "CVE-2023-2124",
       "type": "cve"
@@ -184,6 +189,7 @@
     }
   ],
   "cveids": [
+    "CVE-2023-1838",
     "CVE-2023-2124",
     "CVE-2023-23454"
   ]

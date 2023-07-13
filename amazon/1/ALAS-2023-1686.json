@@ -5,10 +5,10 @@
     "date": "2023-02-17 00:02"
   },
   "updated": {
-    "date": "2023-02-23 01:36"
+    "date": "2023-06-07 18:15"
   },
   "severity": "medium",
-  "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2023-21840:\n\tVulnerability in the MySQL Server product of Oracle MySQL (component: Server: PS). Supported versions that are affected are 5.7.40 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).\n\nCVE-2021-2180:\n\tVulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB). Supported versions that are affected are 5.7.33 and prior and 8.0.23 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).\n",
+  "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2023-21963:\n\tVulnerability in the MySQL Server product of Oracle MySQL (component: Server: Connection Handling).  Supported versions that are affected are 5.7.40 and prior and  8.0.31 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Server. CVSS 3.1 Base Score 2.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L).\n\nCVE-2023-21840:\n\tVulnerability in the MySQL Server product of Oracle MySQL (component: Server: PS). Supported versions that are affected are 5.7.40 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).\n\nCVE-2021-2180:\n\tVulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB). Supported versions that are affected are 5.7.33 and prior and 8.0.23 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).\n",
   "packages": [
     {
       "name": "mysql57-debuginfo",
@@ -181,10 +181,16 @@
       "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21840",
       "id": "CVE-2023-21840",
       "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21963",
+      "id": "CVE-2023-21963",
+      "type": "cve"
     }
   ],
   "cveids": [
     "CVE-2021-2180",
-    "CVE-2023-21840"
+    "CVE-2023-21840",
+    "CVE-2023-21963"
   ]
 }
