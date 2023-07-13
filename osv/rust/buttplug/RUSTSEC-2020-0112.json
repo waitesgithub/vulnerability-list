@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0112",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-12-18T12:00:00Z",
   "aliases": [
-    "CVE-2020-36218"
+    "CVE-2020-36218",
+    "GHSA-r7rv-2rph-hvhj"
   ],
   "summary": "ButtplugFutureStateShared allows data race to (!Send|!Sync) objects",
   "details": "`ButtplugFutureStateShared\u003cT\u003e` implements `Send` \u0026 `Sync` regardless of `T`.\n\nIf `T: !Send` for `ButtplugFutureStateShared\u003cT\u003e`, it is possible to move non-Send types across thread boundaries (e.g. `T`=`Rc\u003cT\u003e`) and lead to undefined behavior.\nIf `T: !Sync` for `ButtplugFutureStateShared\u003cT\u003e`, it is possible to cause data race to `T` (e.g. `T`=`Arc\u003cCell\u003c_\u003e\u003e`) and lead to undefined behavior.\n\nThe flaw was corrected in version 1.0.4 by removing manual implementations of `Send`/`Sync` for `ButtplugFutureStateShared\u003cT\u003e` to let rustc generate auto trait implementations with correct trait bounds on `T`.",

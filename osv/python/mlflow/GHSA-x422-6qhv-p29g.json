@@ -1,6 +1,6 @@
 {
   "id": "GHSA-x422-6qhv-p29g",
-  "modified": "2023-05-01T13:46:50.475320Z",
+  "modified": "2023-06-06T18:33:15.769068Z",
   "published": "2023-04-28T00:30:29Z",
   "aliases": [
     "CVE-2023-2356"
@@ -124,6 +124,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/mlflow/mlflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/mlflow/PYSEC-2023-68.yaml"
     },
     {
       "type": "WEB",

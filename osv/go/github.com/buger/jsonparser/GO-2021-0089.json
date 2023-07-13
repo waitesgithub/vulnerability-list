@@ -1,11 +1,12 @@
 {
   "id": "GO-2021-0089",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-10675",
     "GHSA-rmh2-65xw-9m6q"
   ],
+  "summary": "Infinite loop in github.com/buger/jsonparser",
   "details": "Parsing malformed JSON which contain opening brackets, but not closing brackets, leads to an infinite loop. If operating on untrusted user input this can be used as a denial of service vector.",
   "affected": [
     {

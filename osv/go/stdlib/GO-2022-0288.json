@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0288",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:08:33Z",
   "aliases": [
     "CVE-2021-44716",
     "GHSA-vc3p-29h2-gpcp"
   ],
+  "summary": "Unbounded memory growth in net/http and golang.org/x/net/http2",
   "details": "An attacker can cause unbounded memory growth in servers accepting HTTP/2 requests.",
   "affected": [
     {
@@ -25,7 +26,7 @@
               "fixed": "1.16.12"
             },
             {
-              "introduced": "1.17.0"
+              "introduced": "1.17.0-0"
             },
             {
               "fixed": "1.17.5"

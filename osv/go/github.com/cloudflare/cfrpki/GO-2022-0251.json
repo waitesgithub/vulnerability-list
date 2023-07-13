@@ -1,12 +1,13 @@
 {
   "id": "GO-2022-0251",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:07:28Z",
   "aliases": [
     "CVE-2021-3910",
     "GHSA-5mxh-2qfv-4g7j"
   ],
-  "details": "Invalid input data can cause a panic.",
+  "summary": "Panic on NUL character in ROA in github.com/cloudflare/cfrpki",
+  "details": "OctoRPKI crashes when a repository returns an invalid ROA that is only an encoded NUL character (\\0).",
   "affected": [
     {
       "package": {

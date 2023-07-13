@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0104",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-12-08T12:00:00Z",
   "aliases": [
-    "CVE-2020-36211"
+    "CVE-2020-36211",
+    "GHSA-xp6v-qx65-4pp7"
   ],
   "summary": "ImageChunkMut needs bounds on its Send and Sync traits",
   "details": "In the affected versions of this crate, `ImageChunkMut\u003c'_, T\u003e` unconditionally implements `Send` and `Sync`, allowing to create data races.\n\nThis can result in a memory corruption or undefined behavior when non thread-safe types are moved and referenced across thread boundaries.\n\nThe flaw was corrected in commit e7fb2f5 by adding `T: Send` bound to the `Send` impl and adding `T: Sync` bound to the `Sync` impl.",

@@ -1,6 +1,6 @@
 {
   "id": "GHSA-9jmq-rx5f-8jwq",
-  "modified": "2023-04-11T01:32:12.168344Z",
+  "modified": "2023-06-06T17:31:29.256199Z",
   "published": "2022-08-10T17:51:53Z",
   "aliases": [
     "CVE-2021-32862"
@@ -91,6 +91,10 @@
       "url": "https://github.com/jupyter/nbconvert/security/advisories/GHSA-9jmq-rx5f-8jwq"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/jupyter/nbviewer/security/advisories/GHSA-h274-fcvj-h2wm"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-32862"
     },
@@ -101,6 +105,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pypa/advisory-database/tree/main/vulns/nbconvert/PYSEC-2022-249.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00003.html"
     }
   ]
 }

@@ -1,11 +1,12 @@
 {
   "id": "GO-2023-1611",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2023-03-08T19:29:55Z",
   "aliases": [
     "CVE-2023-27475",
     "GHSA-fx2v-qfhr-4chv"
   ],
+  "summary": "Path traversal in github.com/gookit/goutil",
   "details": "fsutil.Unzip is vulnerable to path traversal attacks due to improper validation of paths.",
   "affected": [
     {

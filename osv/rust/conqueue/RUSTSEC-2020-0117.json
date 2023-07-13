@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0117",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-24T12:00:00Z",
   "aliases": [
-    "CVE-2020-36437"
+    "CVE-2020-36437",
+    "GHSA-368f-29c3-4f2r"
   ],
   "summary": "QueueSender\u003cT\u003e/QueueReceiver\u003cT\u003e: Send/Sync impls need `T: Send`",
   "details": "Affected versions of this crate unconditionally implemented `Send`/`Sync` for `QueueSender\u003cT\u003e`,\nallowing to send non-Send `T` to other threads by invoking `(\u0026QueueSender\u003cT\u003e).send()`.\n\nThis fails to prevent users from creating data races by sending types like `Rc\u003cT\u003e` or `Arc\u003cCell\u003cT\u003e\u003e` to other threads, which can lead to memory corruption.\n\nThe flaw was corrected in commit 1e462c3 by imposing `T: Send` to both `Send`/`Sync` impls for `QueueSender\u003cT\u003e`/`QueueReceiver\u003cT\u003e`.",

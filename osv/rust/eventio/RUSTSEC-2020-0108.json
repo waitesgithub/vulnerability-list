@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0108",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-12-20T12:00:00Z",
   "aliases": [
-    "CVE-2020-36216"
+    "CVE-2020-36216",
+    "GHSA-69vj-xx27-g45w"
   ],
   "summary": "Soundness issue: Input\u003cR\u003e can be misused to create data race to an object",
   "details": "`Input\u003cR\u003e` implements `Send` without requiring `R: Send`.\n\nAffected versions of this crate allows users to send non-Send types to other threads,\nwhich can lead to undefined behavior such as data race and memory corruption.\n\nThe flaw was corrected in version 0.5.1 by adding `R: Send` bound to the `Send` impl of `Input\u003cR\u003e`.",

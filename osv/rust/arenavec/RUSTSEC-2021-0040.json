@@ -1,10 +1,12 @@
 {
   "id": "RUSTSEC-2021-0040",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-01-12T12:00:00Z",
   "aliases": [
     "CVE-2021-29930",
-    "CVE-2021-29931"
+    "CVE-2021-29931",
+    "GHSA-327x-39hh-65wf",
+    "GHSA-955p-rc5h-hg6h"
   ],
   "summary": "panic safety: double drop or uninitialized drop of T upon panic",
   "details": "Affected versions of this crate did not guard against potential panics that may happen from user-provided functions `T::default()` and `T::drop()`.\n\nPanic within `T::default()` leads to dropping uninitialized `T`, when it is invoked from `common::Slice::\u003cT, H\u003e::new()`.\nPanic within `T::drop()` leads to double drop of `T`, when it is invoked either from `common::SliceVec::\u003cT, H\u003e::resize_with()` or `common::SliceVec::\u003cT, H\u003e::resize()`\n\nEither case causes memory corruption in the heap memory.",

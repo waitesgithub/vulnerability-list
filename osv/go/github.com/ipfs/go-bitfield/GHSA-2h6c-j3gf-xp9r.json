@@ -19,16 +19,13 @@
           "type": "SEMVER",
           "events": [
             {
-              "introduced": "1.0.0"
+              "introduced": "0"
             },
             {
               "fixed": "1.1.0"
             }
           ]
         }
-      ],
-      "versions": [
-        "1.0.0"
       ],
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/02/GHSA-2h6c-j3gf-xp9r/GHSA-2h6c-j3gf-xp9r.json"

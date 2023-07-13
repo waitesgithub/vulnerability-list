@@ -1,11 +1,12 @@
 {
   "id": "GO-2020-0043",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2018-21246",
     "GHSA-gr7w-x2jp-3xgw"
   ],
+  "summary": "Authentication bypass in github.com/mholt/caddy",
   "details": "Due to improper TLS verification when serving traffic for multiple SNIs, an attacker may bypass TLS client authentication by indicating an SNI during the TLS handshake that is different from the name in the HTTP Host header.",
   "affected": [
     {

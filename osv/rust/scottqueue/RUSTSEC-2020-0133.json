@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0133",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-15T12:00:00Z",
   "aliases": [
-    "CVE-2020-36453"
+    "CVE-2020-36453",
+    "GHSA-gvvv-w559-2hg6"
   ],
   "summary": "Queue\u003cT\u003e should have a Send bound on its Send/Sync traits",
   "details": "Affected versions of this crate unconditionally implements `Send`/`Sync` for `Queue\u003cT\u003e`.\n\nThis allows (1) creating data races to a `T: !Sync` and (2) sending `T: !Send` to other threads, resulting in memory corruption or other undefined behavior.",

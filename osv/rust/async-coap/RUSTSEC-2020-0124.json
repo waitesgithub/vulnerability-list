@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0124",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-12-08T12:00:00Z",
   "aliases": [
-    "CVE-2020-36444"
+    "CVE-2020-36444",
+    "GHSA-9j8q-m9x5-9g6j"
   ],
   "summary": "ArcGuard's Send and Sync should have bounds on RC",
   "details": "Affected versions of this crate implement Send/Sync for `ArcGuard\u003cRC, T\u003e` with no trait bounds on `RC`. This allows users to send `RC: !Send` to other threads and also allows users to concurrently access `Rc: !Sync` from multiple threads.\n\nThis can result in memory corruption from data race or other undefined behavior caused by sending `T: !Send` to other threads (e.g. dropping `MutexGuard\u003cT\u003e` in another thread that didn't lock its mutex).",

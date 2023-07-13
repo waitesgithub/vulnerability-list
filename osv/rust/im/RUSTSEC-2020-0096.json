@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0096",
-  "modified": "2022-06-07T23:10:26Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-09T12:00:00Z",
   "aliases": [
-    "CVE-2020-36204"
+    "CVE-2020-36204",
+    "GHSA-q9h2-4xhf-23xx"
   ],
   "summary": "TreeFocus lacks bounds on its Send and Sync traits",
   "details": "Affected versions of `im` contains `TreeFocus` that unconditionally implements `Send` and `Sync`.\n\nThis allows a data race in safe Rust code if `TreeFocus` is extracted from `Focus` type.\nTypical users that only use `Focus` type are not affected.",

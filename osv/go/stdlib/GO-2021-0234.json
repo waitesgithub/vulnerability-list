@@ -1,10 +1,11 @@
 {
   "id": "GO-2021-0234",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-02-17T17:34:24Z",
   "aliases": [
     "CVE-2021-27918"
   ],
+  "summary": "Infinite loop when decoding inputs in encoding/xml",
   "details": "The Decode, DecodeElement, and Skip methods of an xml.Decoder provided by xml.NewTokenDecoder may enter an infinite loop when operating on a custom xml.TokenReader which returns an EOF in the middle of an open XML element.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.15.9"
             },
             {
-              "introduced": "1.16.0"
+              "introduced": "1.16.0-0"
             },
             {
               "fixed": "1.16.1"

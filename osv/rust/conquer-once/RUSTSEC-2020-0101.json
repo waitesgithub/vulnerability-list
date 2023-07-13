@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0101",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-12-22T12:00:00Z",
   "aliases": [
-    "CVE-2020-36208"
+    "CVE-2020-36208",
+    "GHSA-3jc5-5hc5-33gj"
   ],
   "summary": "conquer-once's OnceCell lacks Send bound for its Sync trait.",
   "details": "Affected versions of `conquer-once` implements `Sync` for its `OnceCell` type\nwithout restricting it to `Send`able types.\n\nThis allows non-`Send` but `Sync` types such as `MutexGuard` to be sent across\nthreads leading to undefined behavior and memory corruption in concurrent\nprograms.\n\nThe issue was fixed by adding a `Send` constraint to `OnceCell`.",

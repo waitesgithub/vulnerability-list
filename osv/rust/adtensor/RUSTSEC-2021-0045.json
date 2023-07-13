@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0045",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-01-11T12:00:00Z",
   "aliases": [
-    "CVE-2021-29936"
+    "CVE-2021-29936",
+    "GHSA-rg4m-gww5-7p47"
   ],
   "summary": "FromIterator implementation for Vector/Matrix can drop uninitialized memory",
   "details": "The `FromIterator\u003cT\u003e` methods for `Vector` and `Matrix` rely on the type\nparameter `N` to allocate space in the iterable.\n\nIf the passed in `N` type parameter is larger than the number of items returned\nby the iterator, it can lead to uninitialized memory being left in the\n`Vector` or `Matrix` type which gets dropped.",

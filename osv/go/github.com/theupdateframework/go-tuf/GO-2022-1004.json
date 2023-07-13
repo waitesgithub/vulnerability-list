@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-1004",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-09-21T15:07:26Z",
   "aliases": [
     "GHSA-3633-5h82-39pq"
   ],
+  "summary": "Improper handling of keys in github.com/theupdateframework/go-tuf",
   "details": "An attacker with the ability to insert public keys into a TUF repository can cause clients to accept a staged change that has not been signed by the correct threshold of signatures.",
   "affected": [
     {

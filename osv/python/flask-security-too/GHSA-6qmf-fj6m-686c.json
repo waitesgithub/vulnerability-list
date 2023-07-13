@@ -1,6 +1,6 @@
 {
   "id": "GHSA-6qmf-fj6m-686c",
-  "modified": "2023-04-11T01:35:28.226870Z",
+  "modified": "2023-05-11T19:48:07.907612Z",
   "published": "2021-05-17T20:51:27Z",
   "aliases": [
     "CVE-2021-32618"
@@ -73,6 +73,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/Flask-Middleware/flask-security/issues/486"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Flask-Middleware/flask-security/pull/489"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Flask-Middleware/flask-security/commit/e39bb04615050448c1b8ba4caa7dacc0edd3e405"
     },
     {
       "type": "PACKAGE",

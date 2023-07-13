@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0603",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-08-22T18:00:47Z",
   "aliases": [
     "CVE-2022-28948",
     "GHSA-hp87-p4gw-j4gq"
   ],
+  "summary": "Panic in gopkg.in/yaml.v3",
   "details": "An issue in the Unmarshal function can cause a program to panic when attempting to deserialize invalid input.",
   "affected": [
     {

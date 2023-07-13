@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0345",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:30:21Z",
   "aliases": [
     "CVE-2021-3602",
     "GHSA-7638-r9r3-rmjj"
   ],
+  "summary": "Environment variable leakage in github.com/containers/buildah",
   "details": "The RunUsingChroot function unintentionally propagates environment variables from the current process to the child process.",
   "affected": [
     {

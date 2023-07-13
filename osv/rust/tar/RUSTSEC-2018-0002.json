@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2018-0002",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2018-06-29T12:00:00Z",
   "aliases": [
-    "CVE-2018-20990"
+    "CVE-2018-20990",
+    "GHSA-2367-c296-3mp2"
   ],
   "summary": "Links in archives can overwrite any existing file",
   "details": "When unpacking a tarball with the `unpack_in`-family of functions it's intended\nthat only files within the specified directory are able to be written. Tarballs\nwith hard links or symlinks, however, can be used to overwrite any file on the\nfilesystem.\n\nTarballs can contain multiple entries for the same file. A tarball which first\ncontains an entry for a hard link or symlink pointing to any file on the\nfilesystem will have the link created, and then afterwards if the same file is\nlisted in the tarball the hard link will be rewritten and any file can be\nrewritten on the filesystem.\n\nThis has been fixed in https://github.com/alexcrichton/tar-rs/pull/156 and is\npublished as `tar` 0.4.16. Thanks to Max Justicz for discovering this and\nemailing about the issue!",

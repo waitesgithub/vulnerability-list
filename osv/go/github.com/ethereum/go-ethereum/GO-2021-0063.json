@@ -1,12 +1,13 @@
 {
   "id": "GO-2021-0063",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-26264",
     "GHSA-r33q-22hv-j29q"
   ],
-  "details": "Due to a nil pointer dereference, a malicously crafted RPC message can cause a panic. If handling RPC messages from untrusted clients, this may be used as a denial of service vector.",
+  "summary": "Panic in github.com/ethereum/go-ethereum",
+  "details": "Due to a nil pointer dereference, a maliciously crafted RPC message can cause a panic. If handling RPC messages from untrusted clients, this may be used as a denial of service vector.",
   "affected": [
     {
       "package": {

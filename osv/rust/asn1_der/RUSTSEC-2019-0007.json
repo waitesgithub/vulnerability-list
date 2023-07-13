@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2019-0007",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-06-13T12:00:00Z",
   "aliases": [
-    "CVE-2019-15549"
+    "CVE-2019-15549",
+    "GHSA-v5r6-6r3c-wqxc"
   ],
   "summary": "Processing of maliciously crafted length fields causes memory allocation SIGABRTs",
   "details": "Affected versions of this crate tried to preallocate a vector for an arbitrary amount of bytes announced by the ASN.1-DER length field without further checks.\n\nThis allows an attacker to trigger a SIGABRT by creating length fields that announce more bytes than the allocator can provide.\n \nThe flaw was corrected by not preallocating memory.",

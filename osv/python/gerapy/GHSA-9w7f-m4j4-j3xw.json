@@ -1,6 +1,6 @@
 {
   "id": "GHSA-9w7f-m4j4-j3xw",
-  "modified": "2023-04-11T01:48:31.927107Z",
+  "modified": "2023-06-01T19:49:19.482159Z",
   "published": "2022-01-06T17:36:38Z",
   "aliases": [
     "CVE-2021-43857"
@@ -69,6 +69,12 @@
         "0.9.6a1",
         "0.9.7"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "gerapy.server.core.views.project_clone",
+          "gerapy.server.core.views.project_configure"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-9w7f-m4j4-j3xw/GHSA-9w7f-m4j4-j3xw.json"
       }

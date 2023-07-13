@@ -1,6 +1,6 @@
 {
   "id": "GHSA-6hrg-qmvc-2xh8",
-  "modified": "2023-03-08T05:12:57.911106Z",
+  "modified": "2023-07-06T19:48:01.952744Z",
   "published": "2022-09-27T00:00:22Z",
   "aliases": [
     "CVE-2022-21797"
@@ -147,6 +147,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/joblib/joblib/pull/1327"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/joblib/joblib/pull/1352"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/joblib/joblib/commit/6638b9e9711ad1ebbf6dd95aa7cee0dca9897b42"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/joblib/joblib/commit/b90f10efeb670a2cc877fb88ebb3f2019189e059"
     },
     {
@@ -155,7 +167,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/joblib/PYSEC-2022-288.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/11/msg00020.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/03/msg00027.html"
     },
     {
       "type": "WEB",

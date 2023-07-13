@@ -1,10 +1,11 @@
 {
   "id": "GO-2021-0224",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-02-17T17:36:04Z",
   "aliases": [
     "CVE-2020-15586"
   ],
+  "summary": "Data race and crash in net/http",
   "details": "HTTP servers where the Handler concurrently reads the request body and writes a response can encounter a data race and crash. The httputil.ReverseProxy Handler is affected.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.13.13"
             },
             {
-              "introduced": "1.14.0"
+              "introduced": "1.14.0-0"
             },
             {
               "fixed": "1.14.5"

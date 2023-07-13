@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2022-230",
-  "modified": "2022-07-14T05:11:52.840545Z",
+  "modified": "2023-05-25T05:07:00Z",
   "published": "2022-07-05T10:15:00Z",
   "aliases": [
     "CVE-2022-2309",
@@ -12,7 +12,7 @@
       "package": {
         "ecosystem": "PyPI",
         "name": "lxml",
-        "purl": "pkg:pypi:lxml"
+        "purl": "pkg:pypi/lxml"
       },
       "ranges": [
         {

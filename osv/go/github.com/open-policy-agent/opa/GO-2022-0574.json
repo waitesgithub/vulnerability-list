@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0574",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-01T00:01:03Z",
   "aliases": [
     "CVE-2022-33082",
     "GHSA-2m4x-4q9j-w97g"
   ],
+  "summary": "Denial of service in github.com/open-policy-agent/opa",
   "details": "An issue in the AST parser of Open Policy Agent makes it possible for attackers to cause a Denial of Service attack from a crafted input.",
   "affected": [
     {

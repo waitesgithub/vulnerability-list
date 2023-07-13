@@ -1,6 +1,6 @@
 {
   "id": "GHSA-8q59-q68h-6hv4",
-  "modified": "2023-04-11T01:48:33.682381Z",
+  "modified": "2023-07-06T19:48:37.618816Z",
   "published": "2021-03-25T21:26:26Z",
   "aliases": [
     "CVE-2020-14343"
@@ -76,6 +76,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14343"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SeldonIO/seldon-core/issues/2252"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/yaml/pyyaml/issues/420"
     },
     {
       "type": "WEB",

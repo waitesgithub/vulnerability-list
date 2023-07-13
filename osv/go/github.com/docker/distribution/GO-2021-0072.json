@@ -1,11 +1,12 @@
 {
   "id": "GO-2021-0072",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2017-11468",
     "GHSA-h62f-wm92-2cmw"
   ],
+  "summary": "Uncontrolled resource allocation in github.com/docker/distribution",
   "details": "Various storage methods do not impose limits on how much content is accepted from user requests, allowing a malicious user to force the caller to allocate an arbitrary amount of memory.",
   "affected": [
     {
@@ -22,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.7.0-rc.0"
+              "fixed": "2.7.0-rc.0+incompatible"
             }
           ]
         }

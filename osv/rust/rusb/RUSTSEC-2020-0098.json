@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0098",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-12-18T12:00:00Z",
   "aliases": [
-    "CVE-2020-36206"
+    "CVE-2020-36206",
+    "GHSA-9mxw-4856-9cm5"
   ],
   "summary": "UsbContext trait did not require implementers to be Send and Sync.",
   "details": "Affected versions of `rusb` did not require `UsbContext` to implement `Send`\nand `Sync`. However, through `Device` and `DeviceHandle` it is possible to use\n`UsbContext`s across threads.\n\nThis issue allows non-thread safe `UsbContext` types to be used concurrently\nleading to data races and memory corruption.\n\nThe issue was fixed by adding `Send` and `Sync` bounds to `UsbContext`.",

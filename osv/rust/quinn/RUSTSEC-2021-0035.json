@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0035",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-03-04T12:00:00Z",
   "aliases": [
-    "CVE-2021-28036"
+    "CVE-2021-28036",
+    "GHSA-fhv4-fx3v-77w6"
   ],
   "summary": "`quinn` invalidly assumes the memory layout of std::net::SocketAddr",
   "details": "The [`quinn`](https://crates.io/crates/quinn) crate has assumed `std::net::SocketAddrV4`\nand `std::net::SocketAddrV6` have the same memory layout as the system C representation\n`sockaddr`. It has simply casted the pointers to convert the socket addresses to the\nsystem representation. The standard library does not say anything about the memory\nlayout, and this will cause invalid memory access if the standard library\nchanges the implementation. No warnings or errors will be emitted once the\nchange happens.",

@@ -1,11 +1,12 @@
 {
   "id": "GO-2023-1566",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2023-02-15T23:55:24Z",
   "aliases": [
     "CVE-2022-25978",
     "GHSA-9w8x-5hv5-r6gw"
   ],
+  "summary": "Cross site scripting in github.com/usememos/memos",
   "details": "A malicious actor can introduce links starting with a `javascript:` scheme due to insufficient checks on external resources. This can be used as a part of Cross-site Scripting (XSS) attack.",
   "affected": [
     {

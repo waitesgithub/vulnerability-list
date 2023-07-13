@@ -1,12 +1,13 @@
 {
   "id": "GO-2022-0253",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:07:48Z",
   "aliases": [
     "CVE-2021-3912",
     "GHSA-g9wh-3vrx-r7hg"
   ],
-  "details": "The HTTPFetcher.GetXML function reads a response of unlimited size into memory, permitting resource exhausion.",
+  "summary": "Resource exhaustion via GZIP bomb in github.com/cloudflare/cfrpki",
+  "details": "The HTTPFetcher.GetXML function reads a response of unlimited size into memory, permitting resource exhaustion.",
   "affected": [
     {
       "package": {

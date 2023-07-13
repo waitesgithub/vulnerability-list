@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2018-0013",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2018-11-27T12:00:00Z",
   "aliases": [
-    "CVE-2018-21000"
+    "CVE-2018-21000",
+    "GHSA-2v78-j59h-fmpf"
   ],
   "summary": "Vec-to-vec transmutations could lead to heap overflow/corruption",
   "details": "Affected versions of this crate switched the length and capacity arguments in the Vec::from_raw_parts() constructor,\nwhich could lead to memory corruption or data leakage.\n\nThe flaw was corrected by using the constructor correctly.",

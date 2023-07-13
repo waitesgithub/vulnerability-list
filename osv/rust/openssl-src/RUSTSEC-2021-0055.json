@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0055",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-05-01T12:00:00Z",
   "aliases": [
-    "CVE-2021-3449"
+    "CVE-2021-3449",
+    "GHSA-83mx-573x-5rw9"
   ],
   "summary": "NULL pointer deref in signature_algorithms processing",
   "details": "An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation\nClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits\nthe signature_algorithms extension (where it was present in the initial\nClientHello), but includes a signature_algorithms_cert extension then a NULL\npointer dereference will result, leading to a crash and a denial of service\nattack.\n\nA server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which\nis the default configuration). OpenSSL TLS clients are not impacted by this\nissue.",

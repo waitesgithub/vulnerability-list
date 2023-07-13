@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2022-0025",
-  "modified": "2022-06-20T12:19:49Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2022-05-03T12:00:00Z",
   "aliases": [
-    "CVE-2022-1473"
+    "CVE-2022-1473",
+    "GHSA-g323-fr93-4j3c"
   ],
   "summary": "Resource leakage when decoding certificates and keys",
   "details": "The `OPENSSL_LH_flush()` function, which empties a hash table, contains\na bug that breaks reuse of the memory occupied by the removed hash\ntable entries.\n\nThis function is used when decoding certificates or keys. If a long lived\nprocess periodically decodes certificates or keys its memory usage will\nexpand without bounds and the process might be terminated by the operating\nsystem causing a denial of service. Also traversing the empty hash table\nentries will take increasingly more time.\n\nTypically such long lived processes might be TLS clients or TLS servers\nconfigured to accept client certificate authentication.",

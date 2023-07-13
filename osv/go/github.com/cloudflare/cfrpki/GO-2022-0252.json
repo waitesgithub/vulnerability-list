@@ -1,12 +1,13 @@
 {
   "id": "GO-2022-0252",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:07:41Z",
   "aliases": [
     "CVE-2021-3911",
     "GHSA-w6ww-fmfx-2x22"
   ],
-  "details": "Invalid input data can cause a panic.",
+  "summary": "Panic on misconfigured IP address in github.com/cloudflare/cfrpki",
+  "details": "OctoRPKI crashes when a repository returns an ROA with a IP address that contains too many bits.",
   "affected": [
     {
       "package": {

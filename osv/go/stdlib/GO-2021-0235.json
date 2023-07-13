@@ -1,10 +1,11 @@
 {
   "id": "GO-2021-0235",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-02-17T17:34:14Z",
   "aliases": [
     "CVE-2021-3114"
   ],
+  "summary": "Incorrect operations on the P-224 curve in crypto/elliptic",
   "details": "The P224() Curve implementation can in rare circumstances generate incorrect outputs, including returning invalid points from ScalarMult.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.14.14"
             },
             {
-              "introduced": "1.15.0"
+              "introduced": "1.15.0-0"
             },
             {
               "fixed": "1.15.7"

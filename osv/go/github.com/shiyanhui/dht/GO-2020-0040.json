@@ -1,11 +1,12 @@
 {
   "id": "GO-2020-0040",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-36562",
     "GHSA-p6fg-723f-hgpw"
   ],
+  "summary": "Uncontrolled Resource Consumption in github.com/shiyanhui/dht",
   "details": "Due to unchecked type assertions, maliciously crafted messages can cause panics, which may be used as a denial of service vector.",
   "affected": [
     {

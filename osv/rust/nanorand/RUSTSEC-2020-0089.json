@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0089",
-  "modified": "2021-01-04T17:02:59Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-12-09T12:00:00Z",
   "aliases": [
-    "CVE-2020-35926"
+    "CVE-2020-35926",
+    "GHSA-m9m5-cg5h-r582"
   ],
   "summary": "nanorand 0.5.0 - RNGs failed to generate properly for non-64-bit numbers",
   "details": "In versions of `nanorand` prior to 0.5.1, `RandomGen` implementations for standard unsigned integers could\nfail to properly generate numbers, due to using bit-shifting to truncate a 64-bit number, rather than just\nan `as` conversion.\n\nThis often manifested as RNGs returning nothing but 0, including the cryptographically secure `ChaCha` random\nnumber generator..",

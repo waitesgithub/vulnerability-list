@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0138",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-10T12:00:00Z",
   "aliases": [
-    "CVE-2020-36458"
+    "CVE-2020-36458",
+    "GHSA-f997-8gxg-r354"
   ],
   "summary": "ReaderResult should be bounded by Sync",
   "details": "Affected versions of this crate implements `Sync` for `ReaderResult\u003cT, E\u003e` with the trait bound `T: Send, E: Send`.\n\nSince matching on the public enum `ReaderResult\u003cT, E\u003e` provides access to `\u0026T` \u0026 `\u0026E`,\nallowing data race to a non-Sync type `T` or `E`.\nThis can result in a memory corruption when multiple threads concurrently access `\u0026T` or `\u0026E`.\n\nSuggested fix for the bug is change the trait bounds imposed on `T` \u0026 `E` to be `T: Sync, E: Sync`.",

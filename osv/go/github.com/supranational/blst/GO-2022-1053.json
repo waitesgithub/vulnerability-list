@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-1053",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-10-18T15:13:24Z",
   "aliases": [
     "GHSA-x279-68rr-jp4p"
   ],
+  "summary": "Incorrect signatures in github.com/supranational/blst",
   "details": "Potential creation of an invalid signature from correct inputs.\n\nSome inputs to the blst_fp_eucl_inverse function can produce incorrect outputs. This could theoretically permit the creation of an invalid signature from correct inputs.",
   "affected": [
     {

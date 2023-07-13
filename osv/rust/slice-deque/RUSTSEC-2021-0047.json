@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0047",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-02-19T12:00:00Z",
   "aliases": [
-    "CVE-2021-29938"
+    "CVE-2021-29938",
+    "GHSA-p9gf-gmfv-398m"
   ],
   "summary": "SliceDeque::drain_filter can double drop an element if the predicate panics",
   "details": "Affected versions of the crate incremented the current index of the drain filter\niterator *before* calling the predicate function `self.pred`.\n\nIf the predicate function panics, it is possible for the last element in the\niterator to be dropped twice.",

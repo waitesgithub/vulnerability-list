@@ -1,11 +1,12 @@
 {
   "id": "GO-2021-0060",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-29509",
     "GHSA-xhqq-x44f-9fgg"
   ],
+  "summary": "Authentication bypass in github.com/russellhaering/gosaml2",
   "details": "Due to the behavior of encoding/xml, a crafted XML document may cause XML Digital Signature validation to be entirely bypassed, causing an unsigned document to appear signed.",
   "affected": [
     {

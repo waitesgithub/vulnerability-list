@@ -1,11 +1,12 @@
 {
   "id": "GO-2021-0083",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2019-12496",
     "GHSA-vfxc-r2gx-v2vq"
   ],
+  "summary": "Improper certificate validation in github.com/hybridgroup/gobot",
   "details": "TLS certificate verification is skipped when connecting to a MQTT server. This allows an attacker who can MITM the connection to read, or forge, messages passed between the client and server.",
   "affected": [
     {

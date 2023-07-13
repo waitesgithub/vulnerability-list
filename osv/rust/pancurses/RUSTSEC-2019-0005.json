@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2019-0005",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-06-15T12:00:00Z",
   "aliases": [
-    "CVE-2019-15546"
+    "CVE-2019-15546",
+    "GHSA-m57c-4vvx-gjgq"
   ],
   "summary": "Format string vulnerabilities in `pancurses`",
   "details": "`pancurses::mvprintw` and `pancurses::printw` passes a pointer from a rust `\u0026str` to C,\nallowing hostile input to execute a format string attack, which trivially allows writing\narbitrary data to stack memory.",

@@ -1,10 +1,11 @@
 {
   "id": "GO-2021-0347",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-05-23T22:15:47Z",
   "aliases": [
     "CVE-2022-24921"
   ],
+  "summary": "Stack exhaustion when compiling deeply nested expressions in regexp",
   "details": "On 64-bit platforms, an extremely deeply nested expression can cause regexp.Compile to cause goroutine stack exhaustion, forcing the program to exit. Note this applies to very large expressions, on the order of 2MB.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.16.15"
             },
             {
-              "introduced": "1.17.0"
+              "introduced": "1.17.0-0"
             },
             {
               "fixed": "1.17.8"

@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0075",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-29T12:00:00Z",
   "aliases": [
-    "CVE-2020-35918"
+    "CVE-2020-35918",
+    "GHSA-c9rv-3jmq-527w"
   ],
   "summary": "Unexpected panic when decoding tokens",
   "details": "Prior to `0.10.0` it was possible to have both decoding functions panic unexpectedly,\nby supplying tokens with an incorrect base62 encoding.\n\nThe documentation stated that an error should have been reported instead.",

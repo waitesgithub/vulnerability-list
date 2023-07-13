@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0274",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:08:20Z",
   "aliases": [
     "CVE-2021-43784",
     "GHSA-v95c-p5hm-xq8f"
   ],
+  "summary": "Namespace restriction bypass in github.com/opencontainers/runc",
   "details": "An attacker with partial control over the bind mount sources of a new container can bypass namespace restrictions.",
   "affected": [
     {

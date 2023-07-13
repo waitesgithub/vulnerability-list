@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0023",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-02-12T12:00:00Z",
   "aliases": [
-    "CVE-2021-27378"
+    "CVE-2021-27378",
+    "GHSA-w7j2-35mf-95p7"
   ],
   "summary": "Incorrect check on buffer length when seeding RNGs",
   "details": "Summary: rand_core::le::read_u32_into and read_u64_into have incorrect checks on the source buffer length, allowing the destination buffer to be under-filled.\n\nImplications: some downstream RNGs, including Hc128Rng (but not the more widely used ChaCha*Rng), allow seeding using the SeedableRng::from_seed trait-function with too short keys.",

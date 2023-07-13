@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-1188",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2023-01-12T17:34:50Z",
   "aliases": [
     "CVE-2022-4741",
     "GHSA-qvx2-59g8-8hph"
   ],
+  "summary": "Uncontrolled memory allocation in code.sajari.com/docconv",
   "details": "An attacker can remotely supply a specially crafted input that causes uncontrolled memory allocation.",
   "affected": [
     {

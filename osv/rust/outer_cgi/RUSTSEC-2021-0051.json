@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0051",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-01-31T12:00:00Z",
   "aliases": [
-    "CVE-2021-30454"
+    "CVE-2021-30454",
+    "GHSA-6vmq-jh76-hq43"
   ],
   "summary": "KeyValueReader passes uninitialized memory to Read instance",
   "details": "The `KeyValueReader` type in affected versions of this crate set up an\nuninitialized memory buffer and passed them to be read in to a user-provided\n`Read` instance.\n\nThe `Read` instance could read uninitialized memory and cause undefined\nbehavior and miscompilations.\n\nThis issue was fixed in commit [dd59b30](https://github.com/SolraBizna/outer_cgi/commit/dd59b3066e616a08e756f72de8dc3ab11b7036c4)\nby zero-initializing the buffers before passing them.",

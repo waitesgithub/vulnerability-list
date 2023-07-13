@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0008",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-03-19T12:00:00Z",
   "aliases": [
-    "CVE-2020-35863"
+    "CVE-2020-35863",
+    "GHSA-h3qr-rq2j-74w4"
   ],
   "summary": "Flaw in hyper allows request smuggling by sending a body in GET requests",
   "details": "Vulnerable versions of hyper allow GET requests to have bodies, even if there is\nno Transfer-Encoding or Content-Length header.  As per the HTTP 1.1\nspecification, such requests do not have bodies, so the body will be interpreted\nas a separate HTTP request.\n\nThis allows an attacker who can control the body and method of an HTTP request\nmade by hyper to inject a request with headers that would not otherwise be\nallowed, as demonstrated by sending a malformed HTTP request from a Substrate\nruntime.  This allows bypassing CORS restrictions.  In combination with other\nvulnerabilities, such as an exploitable web server listening on loopback, it may\nallow remote code execution.\n\nThe flaw was corrected in hyper version 0.12.34.",

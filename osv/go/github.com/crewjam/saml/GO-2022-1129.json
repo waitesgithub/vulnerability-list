@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-1129",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-11-29T18:03:21Z",
   "aliases": [
     "CVE-2022-41912",
     "GHSA-j2jp-wvqg-wc2g"
   ],
+  "summary": "Authentication bypass in github.com/crewjam/saml",
   "details": "Authentication bypass is possible when processing SAML responses containing multiple Assertion elements.",
   "affected": [
     {

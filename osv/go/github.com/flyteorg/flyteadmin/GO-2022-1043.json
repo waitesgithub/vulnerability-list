@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-1043",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-10-31T17:09:13Z",
   "aliases": [
     "CVE-2022-39273",
     "GHSA-67x4-qr35-qvrm"
   ],
+  "summary": "Hardcoded hashed password in github.com/flyteorg/flyteadmin",
   "details": "Default authorization server's configuration settings contain a known hardcoded hashed password.\n\nUsers who enable auth but do not override this setting may unknowingly allow public traffic in by way of this default password with attackers effectively impersonating propeller.",
   "affected": [
     {

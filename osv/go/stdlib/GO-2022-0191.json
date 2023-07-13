@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-0191",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:03:26Z",
   "aliases": [
     "CVE-2018-16875"
   ],
+  "summary": "Denial of service in chain verification in crypto/x509",
   "details": "The crypto/x509 package does not limit the amount of work performed for each chain verification, which might allow attackers to craft pathological inputs leading to a CPU denial of service. Go TLS servers accepting client certificates and TLS clients verifying certificates are affected.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.10.6"
             },
             {
-              "introduced": "1.11.0"
+              "introduced": "1.11.0-0"
             },
             {
               "fixed": "1.11.3"

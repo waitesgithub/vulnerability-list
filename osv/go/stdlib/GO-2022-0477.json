@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-0477",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-06-09T01:43:37Z",
   "aliases": [
     "CVE-2022-30634"
   ],
+  "summary": "Indefinite hang with large buffers on Windows in crypto/rand",
   "details": "On Windows, rand.Read will hang indefinitely if passed a buffer larger than 1 \u003c\u003c 32 - 1 bytes.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.17.11"
             },
             {
-              "introduced": "1.18.0"
+              "introduced": "1.18.0-0"
             },
             {
               "fixed": "1.18.3"

@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0036",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-03-03T12:00:00Z",
   "aliases": [
-    "CVE-2021-28037"
+    "CVE-2021-28037",
+    "GHSA-gppw-3h6h-v6q2"
   ],
   "summary": "Intern\u003cT\u003e: Data race allowed on T",
   "details": "Affected versions of this crate unconditionally implements `Sync` for `Intern\u003cT\u003e`.\nThis allows users to create data race on `T: !Sync`, which may lead to undefined behavior\n(for example, memory corruption).\n\nThe flaw was corrected in commit 2928a87 by adding the trait bound `T: Sync` in the `Sync` impl of `Intern\u003cT\u003e`.",

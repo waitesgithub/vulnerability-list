@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2018-0011",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2018-12-18T12:00:00Z",
   "aliases": [
-    "CVE-2018-20998"
+    "CVE-2018-20998",
+    "GHSA-69fv-gw6g-8ccg"
   ],
   "summary": "Enum repr causing potential memory corruption",
   "details": "The attribute repr() added to enums to be compatible with C-FFI caused\nmemory corruption on MSVC toolchain.\n\narrayfire crates \u003c= version 3.5.0 do not have this issue when used with\nRust versions 1.27 or earlier. The issue only started to appear since\nRust version 1.28.\n\nThe issue seems to be interlinked with which version of Rust is being used.\n\nThe issue was fixed in crate 3.6.0.",

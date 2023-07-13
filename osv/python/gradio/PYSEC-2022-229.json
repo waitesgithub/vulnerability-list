@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2022-229",
-  "modified": "2022-07-14T05:11:52.690155Z",
+  "modified": "2023-05-25T05:07:00Z",
   "published": "2022-03-17T21:15:00Z",
   "aliases": [
     "CVE-2022-24770",
@@ -12,7 +12,7 @@
       "package": {
         "ecosystem": "PyPI",
         "name": "gradio",
-        "purl": "pkg:pypi:gradio"
+        "purl": "pkg:pypi/gradio"
       },
       "ranges": [
         {

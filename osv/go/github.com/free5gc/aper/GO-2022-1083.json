@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-1083",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-11-02T21:52:22Z",
   "aliases": [
     "CVE-2022-43677",
     "GHSA-59hj-62f5-fgmc"
   ],
+  "summary": "Panic on malformed messages in github.com/free5gc/aper",
   "details": "A malformed message can crash the free5gc/amf and free5gc/ngap decoders via an index-out-of-range panic in `aper.GetBitString`.",
   "affected": [
     {

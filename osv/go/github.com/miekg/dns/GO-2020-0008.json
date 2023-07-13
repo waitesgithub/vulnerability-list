@@ -1,11 +1,12 @@
 {
   "id": "GO-2020-0008",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2019-19794",
     "GHSA-44r7-7p62-q3fr"
   ],
+  "summary": "Insecure generation of random numbers in github.com/miekg/dns",
   "details": "DNS message transaction IDs are generated using math/rand which makes them relatively predictable. This reduces the complexity of response spoofing attacks against DNS clients.",
   "affected": [
     {

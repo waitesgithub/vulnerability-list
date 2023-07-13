@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2021-872",
-  "modified": "2022-07-14T05:11:51.806087Z",
+  "modified": "2023-05-25T05:07:00Z",
   "published": "2021-10-26T11:15:00Z",
   "aliases": [
     "CVE-2021-42343",
@@ -13,7 +13,7 @@
       "package": {
         "ecosystem": "PyPI",
         "name": "distributed",
-        "purl": "pkg:pypi:distributed"
+        "purl": "pkg:pypi/distributed"
       },
       "ranges": [
         {

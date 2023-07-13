@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0015",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-01-06T12:00:00Z",
   "aliases": [
-    "CVE-2021-26951"
+    "CVE-2021-26951",
+    "GHSA-ppqp-78xx-3r38"
   ],
   "summary": "`Sectors::get` accesses unclaimed/uninitialized memory",
   "details": "Affected versions of this crate arbitrarily calls `Vec::set_len` to increase length of a vector without claiming more memory for the vector. Affected versions of this crate\nalso calls user-provided `Read` on the uninitialized memory of the vector that was\nextended with `Vec::set_len`.\n\nThis can overwrite active entities in adjacent heap memory and seems to be a major security issue. Also, calling user-provided `Read` on uninitialized memory is defined as UB in Rust.",

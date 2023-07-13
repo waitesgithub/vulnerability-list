@@ -1,13 +1,36 @@
 {
   "id": "GHSA-8c6g-4xc5-w96c",
-  "modified": "2021-08-19T21:24:16Z",
+  "modified": "2023-06-13T16:57:24Z",
   "published": "2021-08-25T20:43:52Z",
   "aliases": [
     "CVE-2018-20992"
   ],
   "summary": "Uninitialized memory exposure in claxon",
-  "details": "An issue was discovered in the claxon crate before 0.4.1 for Rust. Uninitialized memory can be exposed because certain decode buffer sizes are mishandled.",
+  "details": "Affected versions of Claxon made an invalid assumption about the decode buffer size being a multiple of a value read from the bitstream. This could cause parts of the decode buffer to not be overwritten. If the decode buffer was newly allocated and uninitialized, this uninitialized memory could be exposed.\n\nThis allows an attacker to observe parts of the uninitialized memory in the decoded audio stream.\n\nThe flaw was corrected by checking that the value read from the bitstream divides the decode buffer size, and returning a format error if it does not. If an error is returned, the decode buffer is not exposed. Regression tests and an additional fuzzer have been added to prevent similar flaws in the future.",
   "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "claxon",
+        "purl": "pkg:cargo/claxon"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0.4.0"
+            },
+            {
+              "fixed": "0.4.1"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-8c6g-4xc5-w96c/GHSA-8c6g-4xc5-w96c.json"
+      }
+    },
     {
       "package": {
         "ecosystem": "crates.io",
@@ -22,7 +45,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.4.1"
+              "fixed": "0.3.2"
             }
           ]
         }
@@ -44,6 +67,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ruuda/claxon"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ruuda/claxon/releases/tag/v0.3.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ruuda/claxon/releases/tag/v0.4.1"
     },
     {
       "type": "WEB",

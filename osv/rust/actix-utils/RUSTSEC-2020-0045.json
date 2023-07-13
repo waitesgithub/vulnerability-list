@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0045",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-01-08T12:00:00Z",
   "aliases": [
-    "CVE-2020-35898"
+    "CVE-2020-35898",
+    "GHSA-hhw2-pqhf-vmx2"
   ],
   "summary": "bespoke Cell implementation allows obtaining several mutable references to the same data",
   "details": "The custom implementation of a Cell primitive in the affected versions of this crate\ndoes not keep track of mutable references to the underlying data.\n\nThis allows obtaining several mutable references to the same object\nwhich may result in arbitrary memory corruption, most likely use-after-free.\n\nThe flaw was corrected by switching from a bespoke `Cell\u003cT\u003e` implementation to `Rc\u003cRefCell\u003cT\u003e\u003e`.",

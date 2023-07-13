@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2019-0027",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-10-14T12:00:00Z",
   "aliases": [
-    "CVE-2019-25003"
+    "CVE-2019-25003",
+    "GHSA-hrjm-c879-pp86"
   ],
   "summary": "Flaw in Scalar::check_overflow allows side-channel timing attack",
   "details": "Versions of `libsecp256k1` prior to `0.3.1` did not execute\nScalar::check_overflow in constant time.\n\nThis allows an attacker to potentially leak information via a timing attack.\n\nThe flaw was corrected by modifying Scalar::check_overflow to execute in\nconstant time.",

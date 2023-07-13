@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0248",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:07:18Z",
   "aliases": [
     "CVE-2021-3907",
     "GHSA-cqh2-vc2f-q4fh"
   ],
+  "summary": "Directory traversal in manifest path extraction in github.com/cloudflare/cfrpki",
   "details": "Manifest path extraction is vulnerable to directory traversal attacks.\n\nThe ExtractPathManifest function permits file paths containing relative directory components (\"..\"), permitting files to reference arbitrary locations on the filesystem.",
   "affected": [
     {

@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0031",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-06-16T12:00:00Z",
   "aliases": [
-    "CVE-2020-35884"
+    "CVE-2020-35884",
+    "GHSA-7v2r-wxmg-mgvc"
   ],
   "summary": "HTTP Request smuggling through malformed Transfer Encoding headers",
   "details": "HTTP pipelining issues and request smuggling attacks are possible due to incorrect \nTransfer encoding header parsing.\n\nIt is possible conduct HTTP request smuggling attacks (CL:TE/TE:TE) by sending invalid Transfer Encoding headers. \n\nBy manipulating the HTTP response the attacker could poison a web-cache, perform an XSS attack, or obtain sensitive information \nfrom requests other than their own.",

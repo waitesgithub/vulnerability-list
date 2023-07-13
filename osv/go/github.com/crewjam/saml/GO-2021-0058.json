@@ -1,11 +1,12 @@
 {
   "id": "GO-2021-0058",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-27846",
     "GHSA-4hq8-gmxx-h6w9"
   ],
+  "summary": "Signature validation bypass due to XML processing error in github.com/crewjam/saml",
   "details": "Due to the behavior of encoding/xml, a crafted XML document may cause XML Digital Signature validation to be entirely bypassed, causing an unsigned document to appear signed.",
   "affected": [
     {

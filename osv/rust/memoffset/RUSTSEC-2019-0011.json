@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2019-0011",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-07-16T12:00:00Z",
   "aliases": [
-    "CVE-2019-15553"
+    "CVE-2019-15553",
+    "GHSA-rh89-x75f-rh3c"
   ],
   "summary": "Flaw in offset_of and span_of causes SIGILL, drops uninitialized memory of arbitrary type on panic in client code",
   "details": "Affected versions of this crate caused traps and/or memory unsafety by zero-initializing references.\nThey also could lead to uninitialized memory being dropped if the field for which the offset is requested was behind a deref coercion, and that deref coercion caused a panic.\n\nThe flaw was corrected by using `MaybeUninit`.",

@@ -1,12 +1,13 @@
 {
   "id": "GO-2020-0033",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-36559",
     "GHSA-vp56-r7qv-783v"
   ],
-  "details": "Due to improper santization of user input, HTTPEngine.Handle allows for directory traversal, allowing an attacker to read files outside of the target directory that the server has permission to read.",
+  "summary": "Path Traversal in aahframe.work",
+  "details": "Due to improper sanitization of user input, HTTPEngine.Handle allows for directory traversal, allowing an attacker to read files outside of the target directory that the server has permission to read.",
   "affected": [
     {
       "package": {

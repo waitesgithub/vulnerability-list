@@ -1,6 +1,6 @@
 {
   "id": "GHSA-69q2-p9xp-739v",
-  "modified": "2023-04-11T01:45:29.356426Z",
+  "modified": "2023-07-05T21:33:13.932225Z",
   "published": "2021-04-20T16:32:08Z",
   "aliases": [
     "CVE-2020-29128"
@@ -104,8 +104,7 @@
       ],
       "ecosystem_specific": {
         "affected_functions": [
-          "petl.io.xml.XmlView.__init__",
-          "petl.io.xml.XmlView.__iter__"
+          "petl.io.xml.XmlView"
         ]
       },
       "database_specific": {

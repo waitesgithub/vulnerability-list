@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2022-0090",
-  "modified": "2023-02-14T12:38:31Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2022-08-03T12:00:00Z",
   "aliases": [
-    "CVE-2022-35737"
+    "CVE-2022-35737",
+    "GHSA-jw36-hf63-69r9"
   ],
   "summary": "`libsqlite3-sys` via C SQLite CVE-2022-35737",
   "details": "It was sometimes possible for SQLite versions \u003e= 1.0.12, \u003c 3.39.2 to allow an array-bounds overflow when large string were input into SQLite's `printf` function.\n\nAs `libsqlite3-sys` bundles SQLite, it is susceptible to the vulnerability. `libsqlite3-sys` was updated to bundle the patched version of SQLite [here](https://github.com/rusqlite/rusqlite/releases/tag/sys0.25.1).",

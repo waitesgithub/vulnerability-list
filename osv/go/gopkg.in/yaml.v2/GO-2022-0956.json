@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0956",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-08-29T22:15:46Z",
   "aliases": [
     "CVE-2022-3064",
     "GHSA-6q6q-88xp-6f2r"
   ],
+  "summary": "Excessive resource consumption in gopkg.in/yaml.v2",
   "details": "Parsing malicious or large YAML documents can consume excessive amounts of CPU or memory.",
   "affected": [
     {

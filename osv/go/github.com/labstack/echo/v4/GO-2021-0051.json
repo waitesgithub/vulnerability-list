@@ -1,11 +1,12 @@
 {
   "id": "GO-2021-0051",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-36565",
     "GHSA-j453-hm5x-c46w"
   ],
+  "summary": "Directory traversal on Windows in github.com/labstack/echo/v4",
   "details": "Due to improper sanitization of user input on Windows, the static file handler allows for directory traversal, allowing an attacker to read files outside of the target directory that the server has permission to read.",
   "affected": [
     {

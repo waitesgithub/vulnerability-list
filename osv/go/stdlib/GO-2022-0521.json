@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-0521",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-20T17:02:04Z",
   "aliases": [
     "CVE-2022-28131"
   ],
+  "summary": "Stack exhaustion from deeply nested XML documents in encoding/xml",
   "details": "Calling Decoder.Skip when parsing a deeply nested XML document can cause a panic due to stack exhaustion.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.17.12"
             },
             {
-              "introduced": "1.18.0"
+              "introduced": "1.18.0-0"
             },
             {
               "fixed": "1.18.4"

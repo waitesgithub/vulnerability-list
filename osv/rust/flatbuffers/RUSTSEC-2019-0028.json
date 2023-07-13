@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2019-0028",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-10-20T12:00:00Z",
   "aliases": [
-    "CVE-2019-25004"
+    "CVE-2019-25004",
+    "GHSA-gx73-2498-r55c"
   ],
   "summary": "Unsound `impl Follow for bool`",
   "details": "The implementation of `impl Follow for bool` allows to reinterpret arbitrary bytes as a `bool`.\n\nIn Rust `bool` has stringent requirements for its in-memory representation. Use of this function\nallows to violate these requirements and invoke undefined behaviour in safe code.",

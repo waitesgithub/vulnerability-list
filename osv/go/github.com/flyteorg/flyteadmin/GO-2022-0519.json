@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0519",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-30T03:51:07Z",
   "aliases": [
     "CVE-2022-31145",
     "GHSA-qwrj-9hmp-gpxh"
   ],
+  "summary": "Improper validation of access tokens in github.com/flyteorg/flyteadmin",
   "details": "Improper validation of access tokens can permit use of expired tokens.",
   "affected": [
     {

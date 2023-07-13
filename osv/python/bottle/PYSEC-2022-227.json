@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2022-227",
-  "modified": "2022-07-14T05:11:51.242283Z",
+  "modified": "2023-05-25T05:07:00Z",
   "published": "2022-06-02T14:15:00Z",
   "aliases": [
     "CVE-2022-31799",
@@ -12,7 +12,7 @@
       "package": {
         "ecosystem": "PyPI",
         "name": "bottle",
-        "purl": "pkg:pypi:bottle"
+        "purl": "pkg:pypi/bottle"
       },
       "ranges": [
         {

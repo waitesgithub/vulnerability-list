@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0008",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-01-02T12:00:00Z",
   "aliases": [
-    "CVE-2021-25905"
+    "CVE-2021-25905",
+    "GHSA-j8qq-58cr-8cc7"
   ],
   "summary": "reading on uninitialized buffer can cause UB (`impl\u003cR\u003e BufRead for GreedyAccessReader\u003cR\u003e`)",
   "details": "Affected versions of this crate creates an uninitialized buffer and passes it to user-provided `Read` implementation.\n\nThis is unsound, because it allows safe Rust code to exhibit an undefined behavior (read from uninitialized memory).\n\nThe flaw was corrected in version 0.1.1 by zero-initializing a newly allocated buffer\nbefore handing it to a user-provided `Read` implementation.",

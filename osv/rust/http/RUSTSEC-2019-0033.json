@@ -1,10 +1,12 @@
 {
   "id": "RUSTSEC-2019-0033",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-11-16T12:00:00Z",
   "aliases": [
+    "CVE-2019-25008",
     "CVE-2020-25574",
-    "CVE-2019-25008"
+    "GHSA-x7vr-c387-8w57",
+    "GHSA-xvc9-xwgj-4cq9"
   ],
   "summary": "Integer Overflow in HeaderMap::reserve() can cause Denial of Service",
   "details": "`HeaderMap::reserve()` used `usize::next_power_of_two()` to calculate the increased capacity.\nHowever, `next_power_of_two()` silently overflows to 0 if given a sufficiently large number\nin release mode.\n\nIf the map was not empty when the overflow happens,\nthe library will invoke `self.grow(0)` and start infinite probing.\nThis allows an attacker who controls the argument to `reserve()`\nto cause a potential denial of service (DoS).\n\nThe flaw was corrected in 0.1.20 release of `http` crate.",

@@ -24,6 +24,11 @@
           ]
         }
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "nix::unistd::getgrouplist"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/06/GHSA-wgrg-5h56-jg27/GHSA-wgrg-5h56-jg27.json"
       }
@@ -47,6 +52,11 @@
           ]
         }
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "nix::unistd::getgrouplist"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/06/GHSA-wgrg-5h56-jg27/GHSA-wgrg-5h56-jg27.json"
       }
@@ -70,6 +80,11 @@
           ]
         }
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "nix::unistd::getgrouplist"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/06/GHSA-wgrg-5h56-jg27/GHSA-wgrg-5h56-jg27.json"
       }

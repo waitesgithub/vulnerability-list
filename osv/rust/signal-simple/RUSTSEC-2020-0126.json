@@ -1,9 +1,11 @@
 {
   "id": "RUSTSEC-2020-0126",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-15T12:00:00Z",
   "aliases": [
-    "CVE-2020-36446"
+    "CVE-2020-36446",
+    "GHSA-36cg-4jff-5863",
+    "GHSA-8892-84wf-cg8f"
   ],
   "summary": "SyncChannel\u003cT\u003e can move 'T: !Send' to other threads",
   "details": "Affected versions of this crate unconditionally implement Send/Sync for `SyncChannel\u003cT\u003e`.\n`SyncChannel\u003cT\u003e` doesn't provide access to `\u0026T` but merely serves as a channel that consumes and returns owned `T`.\n\nUsers can create UB in safe Rust by sending `T: !Send` to other threads with `SyncChannel::send/recv` APIs. Using `T = Arc\u003cCell\u003c_\u003e` allows to create data races (which can lead to memory corruption), and using `T = MutexGuard\u003cT\u003e` allows to unlock a mutex from a thread that didn't lock the mutex.",

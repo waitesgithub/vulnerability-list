@@ -1,6 +1,6 @@
 {
   "id": "GHSA-g3pv-pj5f-3hfq",
-  "modified": "2023-04-11T01:46:35.565156Z",
+  "modified": "2023-06-20T19:45:49.303743Z",
   "published": "2023-01-18T00:30:18Z",
   "aliases": [
     "CVE-2021-32837"
@@ -90,6 +90,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python-mechanize/mechanize/releases/tag/v0.4.6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00022.html"
     },
     {
       "type": "ADVISORY",

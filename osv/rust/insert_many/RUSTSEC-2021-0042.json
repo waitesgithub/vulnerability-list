@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0042",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-01-26T12:00:00Z",
   "aliases": [
-    "CVE-2021-29933"
+    "CVE-2021-29933",
+    "GHSA-29hg-r7c7-54fr"
   ],
   "summary": "insert_many can drop elements twice on panic",
   "details": "Affected versions of `insert_many` used `ptr::copy` to move over items in a\nvector to make space before inserting, duplicating their ownership. It then\niterated over a provided `Iterator` to insert the new items.\n\nIf the iterator's `.next()` method panics then the vector would drop the same\nelements twice.",

@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-1002",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-09-21T15:12:40Z",
   "aliases": [
     "CVE-2022-39213",
     "GHSA-xhmf-mmv2-4hhx"
   ],
+  "summary": "Panic in github.com/pandatix/go-cvss",
   "details": "ParseVector can panic when provided with invalid input.",
   "affected": [
     {

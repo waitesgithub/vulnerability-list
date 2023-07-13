@@ -1,11 +1,12 @@
 {
   "id": "GO-2023-1572",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2023-02-16T22:25:24Z",
   "aliases": [
     "CVE-2022-41727",
     "GHSA-qgc7-mgm3-q253"
   ],
+  "summary": "Denial of service via crafted TIFF image in golang.org/x/image/tiff",
   "details": "An attacker can craft a malformed TIFF image which will consume a significant amount of memory when passed to DecodeConfig. This could lead to a denial of service.",
   "affected": [
     {

@@ -1,10 +1,11 @@
 {
   "id": "GO-2021-0067",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2021-27919"
   ],
+  "summary": "Panic when opening archives in archive/zip",
   "details": "Using Reader.Open on an archive containing a file with a path prefixed by \"../\" will cause a panic due to a stack overflow. If parsing user supplied archives, this may be used as a denial of service vector.",
   "affected": [
     {
@@ -18,7 +19,7 @@
           "type": "SEMVER",
           "events": [
             {
-              "introduced": "1.16.0"
+              "introduced": "1.16.0-0"
             },
             {
               "fixed": "1.16.1"

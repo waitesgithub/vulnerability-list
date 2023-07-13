@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0103",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-12-31T12:00:00Z",
   "aliases": [
-    "CVE-2020-36210"
+    "CVE-2020-36210",
+    "GHSA-cgmg-2v6m-fjg7"
   ],
   "summary": "`impl Random` on arrays can lead to dropping uninitialized memory",
   "details": "Affected versions of this crate had a panic safety issue to drop partially uninitialized array of `T` upon panic in a user provided function `T::random()`. Dropping uninitialized `T` can potentially cause memory corruption or undefined behavior.\n\nThe flaw was corrected in commit 565d508 by using `MaybeUninit\u003cT\u003e` to avoid possible dropping of uninitialized memory upon panic.",

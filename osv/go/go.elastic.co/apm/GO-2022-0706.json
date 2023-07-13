@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0706",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-05-18T18:34:18Z",
   "aliases": [
     "CVE-2021-22133",
     "GHSA-qqc5-rgcc-cjqh"
   ],
+  "summary": "Information disclosure in go.elastic.co/apm",
   "details": "Sensitive HTTP headers may not be properly sanitized before being sent to the APM server if the program panics.",
   "affected": [
     {

@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2019-0020",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-09-06T12:00:00Z",
   "aliases": [
-    "CVE-2019-16144"
+    "CVE-2019-16144",
+    "GHSA-6c65-xcf5-299x"
   ],
   "summary": "fix unsound APIs that could lead to UB",
   "details": "Affected versions of this crate API could use uninitialized memory with some APIs in special\ncases, like use the API in none generator context. This could lead to UB.\nThe flaw was corrected by \u003chttps://github.com/Xudong-Huang/generator-rs/issues/9\u003e\n                          \u003chttps://github.com/Xudong-Huang/generator-rs/issues/11\u003e\n                          \u003chttps://github.com/Xudong-Huang/generator-rs/issues/13\u003e\n                          \u003chttps://github.com/Xudong-Huang/generator-rs/issues/14\u003e                                                  \nThis patch fixes all those issues above.",

@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0643",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-02-15T01:57:18Z",
   "aliases": [
     "CVE-2017-11480",
     "GHSA-9q3g-m353-cp4p"
   ],
+  "summary": "Denial of service in github.com/elastic/beats",
   "details": "A local attacker can cause a panic if they are able to send arbitrary traffic to a monitored port, due to an out of bounds read.",
   "affected": [
     {
@@ -22,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.0"
+              "fixed": "6.1.0+incompatible"
             }
           ]
         }

@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0029",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-02-17T12:00:00Z",
   "aliases": [
-    "CVE-2021-28030"
+    "CVE-2021-28030",
+    "GHSA-v7q4-97x4-4qw2"
   ],
   "summary": "Tape::take_bytes exposes uninitialized memory to a user-provided Read",
   "details": "Affected versions of this crate passed an unininitialized buffer to a\nuser-provided `Read` instance in `Tape::take_bytes`.\n\nThis can result in safe `Read` implementations reading from the uninitialized\nbuffer leading to undefined behavior.\n\nThe flaw was corrected in commit `1f2dc7f37dd` by removing the unsafe block\nand zero-initializing the buffer.",

@@ -1,10 +1,11 @@
 {
   "id": "GO-2021-0242",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-02-17T17:33:07Z",
   "aliases": [
     "CVE-2021-33198"
   ],
+  "summary": "Panic on inputs with large exponents in math/big",
   "details": "Rat.SetString and Rat.UnmarshalText may cause a panic or an unrecoverable fatal error if passed inputs with very large exponents.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.15.13"
             },
             {
-              "introduced": "1.16.0"
+              "introduced": "1.16.0-0"
             },
             {
               "fixed": "1.16.5"

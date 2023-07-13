@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-1144",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-12-08T19:01:21Z",
   "aliases": [
     "CVE-2022-41717",
     "GHSA-xrjj-mj9h-534m"
   ],
+  "summary": "Excessive memory growth in net/http and golang.org/x/net/http2",
   "details": "An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests.\n\nHTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.",
   "affected": [
     {
@@ -25,7 +26,7 @@
               "fixed": "1.18.9"
             },
             {
-              "introduced": "1.19.0"
+              "introduced": "1.19.0-0"
             },
             {
               "fixed": "1.19.4"

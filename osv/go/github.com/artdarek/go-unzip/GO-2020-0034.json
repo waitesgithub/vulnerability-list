@@ -1,12 +1,13 @@
 {
   "id": "GO-2020-0034",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-36560",
     "GHSA-rmj9-q58g-9qgg"
   ],
-  "details": "Due to improper path santization, archives containing relative file paths can cause files to be written (or overwritten) outside of the target directory.",
+  "summary": "Path traversal in github.com/artdarek/go-unzip",
+  "details": "Due to improper path sanitization, archives containing relative file paths can cause files to be written (or overwritten) outside of the target directory.",
   "affected": [
     {
       "package": {

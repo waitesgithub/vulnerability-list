@@ -1,11 +1,12 @@
 {
   "id": "GO-2020-0024",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2013-10005",
     "GHSA-gxgj-xjcw-fv9p"
   ],
+  "summary": "Infinite loop in github.com/btcsuite/go-socks",
   "details": "The RemoteAddr and LocalAddr methods on the returned net.Conn may call themselves, leading to an infinite loop which will crash the program due to a stack overflow.",
   "affected": [
     {

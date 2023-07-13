@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0023",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-02-11T12:00:00Z",
   "aliases": [
-    "CVE-2020-35879"
+    "CVE-2020-35879",
+    "GHSA-q2gj-9r85-p832"
   ],
   "summary": "Lifetime boundary for `raw_slice` and `raw_slice_mut` are incorrect",
   "details": "The affected version of `rulinalg` has incorrect lifetime boundary definitions\nfor `RowMut::raw_slice` and `RowMut::raw_slice_mut`. They do not conform with\nRust's borrowing rule and allows the user to create multiple mutable references\nto the same location. This may result in unexpected calculation result and data\nrace if both references are used at the same time.",

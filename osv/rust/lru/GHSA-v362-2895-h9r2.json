@@ -1,12 +1,12 @@
 {
   "id": "GHSA-v362-2895-h9r2",
-  "modified": "2022-01-07T20:44:44Z",
+  "modified": "2023-06-13T18:38:43Z",
   "published": "2022-01-07T22:37:01Z",
   "aliases": [
     "CVE-2021-45720"
   ],
   "summary": "Use After Free in lru",
-  "details": "An issue was discovered in the lru crate before 0.7.1 for Rust. The iterators have a use-after-free, as demonstrated by an access after a pop operation.",
+  "details": "Lru crate has two functions for getting an iterator. Both iterators give references to key and value. Calling specific functions, like pop(), will remove and free the value, and but it's still possible to access the reference of value which is already dropped causing use after free.",
   "affected": [
     {
       "package": {
@@ -27,6 +27,12 @@
           ]
         }
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "lru::LruCache::iter",
+          "lru::LruCache::iter_mut"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/01/GHSA-v362-2895-h9r2/GHSA-v362-2895-h9r2.json"
       }
@@ -36,6 +42,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45720"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jeromefroe/lru-rs/issues/120"
     },
     {
       "type": "PACKAGE",

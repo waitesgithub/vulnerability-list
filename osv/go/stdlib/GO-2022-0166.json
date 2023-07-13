@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-0166",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-05-24T22:06:33Z",
   "aliases": [
     "CVE-2016-3959"
   ],
+  "summary": "Denial of service due to unchecked parameters in crypto/dsa",
   "details": "The Verify function in crypto/dsa passed certain parameters unchecked to the underlying big integer library, possibly leading to extremely long-running computations, which in turn makes Go programs vulnerable to remote denial of service attacks. Programs using HTTPS client certificates or the Go SSH server libraries are both exposed to this vulnerability.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.5.4"
             },
             {
-              "introduced": "1.6.0"
+              "introduced": "1.6.0-0"
             },
             {
               "fixed": "1.6.1"

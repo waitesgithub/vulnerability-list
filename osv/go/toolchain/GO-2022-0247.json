@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-0247",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-05-24T20:14:28Z",
   "aliases": [
     "CVE-2021-38297"
   ],
+  "summary": "Buffer overflow in WASM modules in misc/wasm",
   "details": "When invoking functions from WASM modules, built using GOARCH=wasm GOOS=js, passing very large arguments can cause portions of the module to be overwritten with data from the arguments due to a buffer overflow error.\n\nIf using wasm_exec.js to execute WASM modules, users will need to replace their copy (as described in https://golang.org/wiki/WebAssembly#getting-started) after rebuilding any modules.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.16.9"
             },
             {
-              "introduced": "1.17.0"
+              "introduced": "1.17.0-0"
             },
             {
               "fixed": "1.17.2"

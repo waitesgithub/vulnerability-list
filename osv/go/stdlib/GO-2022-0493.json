@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0493",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:30:12Z",
   "aliases": [
     "CVE-2022-29526",
     "GHSA-p782-xgp4-8hr8"
   ],
+  "summary": "Incorrect privilege reporting in syscall and golang.org/x/sys/unix",
   "details": "When called with a non-zero flags parameter, the Faccessat function can incorrectly report that a file is accessible.",
   "affected": [
     {
@@ -25,7 +26,7 @@
               "fixed": "1.17.10"
             },
             {
-              "introduced": "1.18.0"
+              "introduced": "1.18.0-0"
             },
             {
               "fixed": "1.18.2"

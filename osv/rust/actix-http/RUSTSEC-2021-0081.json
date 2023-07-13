@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0081",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-06-16T12:00:00Z",
   "aliases": [
-    "CVE-2021-38512"
+    "CVE-2021-38512",
+    "GHSA-8928-2fgm-6x9x"
   ],
   "summary": "Potential request smuggling capabilities due to lack of input validation",
   "details": "Affected versions of this crate did not properly detect invalid requests that could allow HTTP/1 request smuggling (HRS) attacks when running alongside a vulnerable front-end proxy server. This can result in leaked internal and/or user data, including credentials, when the front-end proxy is also vulnerable.\n\nPopular front-end proxies and load balancers already mitigate HRS attacks so it is recommended that they are also kept up to date; check your specific set up. You should upgrade even if the front-end proxy receives exclusively HTTP/2 traffic and connects to the back-end using HTTP/1; several downgrade attacks are known that can also expose HRS vulnerabilities.",

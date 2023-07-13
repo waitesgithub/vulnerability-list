@@ -1,11 +1,12 @@
 {
   "id": "GO-2023-1597",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2023-03-02T00:34:19Z",
   "aliases": [
     "CVE-2023-26046",
     "GHSA-9f95-hhg4-pg4f"
   ],
+  "summary": "Cross site scripting in github.com/kitabisa/teler-waf",
   "details": "Improper sanitization and filtering of HTML entities in user input can lead to cross-site scripting (XSS) attacks where arbitrary JavaScript code is executed in the browser.",
   "affected": [
     {

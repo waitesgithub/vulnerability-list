@@ -1,11 +1,12 @@
 {
   "id": "GO-2020-0004",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2020-36569",
     "GHSA-hrm3-3xm6-x33h"
   ],
+  "summary": "Authentication bypass in github.com/nanobox-io/golang-nanoauth",
   "details": "If any of the ListenAndServe functions are called with an empty token, token authentication is disabled globally for all listeners.\n\nAlso, a minor timing side channel was present allowing attackers with very low latency and able to make many requests to potentially recover the token.",
   "affected": [
     {

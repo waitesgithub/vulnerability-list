@@ -1,11 +1,12 @@
 {
   "id": "GO-2021-0084",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2019-16354",
     "GHSA-f6px-w8rh-7r89"
   ],
+  "summary": "Incorrect permissions for critical resource in github.com/astaxie/beego",
   "details": "Session data is stored using permissive permissions, allowing local users with filesystem access to read arbitrary data.",
   "affected": [
     {

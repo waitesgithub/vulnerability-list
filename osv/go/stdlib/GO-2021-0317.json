@@ -1,10 +1,11 @@
 {
   "id": "GO-2021-0317",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-05-23T22:15:42Z",
   "aliases": [
     "CVE-2022-23772"
   ],
+  "summary": "Uncontrolled memory consumption in math/big",
   "details": "Rat.SetString had an overflow issue that can lead to uncontrolled memory consumption.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.16.14"
             },
             {
-              "introduced": "1.17.0"
+              "introduced": "1.17.0-0"
             },
             {
               "fixed": "1.17.7"

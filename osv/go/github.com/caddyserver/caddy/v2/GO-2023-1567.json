@@ -1,12 +1,13 @@
 {
   "id": "GO-2023-1567",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2023-02-16T18:37:09Z",
   "aliases": [
     "CVE-2022-28923",
     "GHSA-qpm3-vr34-h8w8"
   ],
-  "details": "Due to improper request santization, a crafted URL can cause the static file handler to redirect to an attacker chosen URL, allowing for open redirect attacks.",
+  "summary": "Open redirect in github.com/caddyserver/caddy/v2",
+  "details": "Due to improper request sanitization, a crafted URL can cause the static file handler to redirect to an attacker chosen URL, allowing for open redirect attacks.",
   "affected": [
     {
       "package": {

@@ -1,11 +1,12 @@
 {
   "id": "GO-2020-0027",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2021-04-14T20:04:52Z",
   "aliases": [
     "CVE-2018-6558",
     "GHSA-qj26-7grj-whg3"
   ],
+  "summary": "Privilege escalation in github.com/google/fscrypt",
   "details": "After dropping and then elevating process privileges euid, guid, and groups are not properly restored to their original values, allowing an unprivileged user to gain membership in the root group.",
   "affected": [
     {

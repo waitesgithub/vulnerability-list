@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0569",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-08-23T13:24:17Z",
   "aliases": [
     "CVE-2022-31836",
     "GHSA-95f9-94vc-665h"
   ],
+  "summary": "Path traversal in github.com/beego/beego and beego/v2",
   "details": "The leafInfo.match() function uses path.join() to deal with wildcard values which can lead to cross directory risk.",
   "affected": [
     {

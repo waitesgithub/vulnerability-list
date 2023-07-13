@@ -27,6 +27,13 @@
           ]
         }
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "wasmtime::Linker::func_new",
+          "wasmtime::Linker::func_wrap",
+          "wasmtime::Store::gc"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/09/GHSA-q879-9g95-56mx/GHSA-q879-9g95-56mx.json"
       }

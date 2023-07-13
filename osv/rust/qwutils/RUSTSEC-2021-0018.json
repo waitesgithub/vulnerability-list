@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0018",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-02-03T12:00:00Z",
   "aliases": [
-    "CVE-2021-26954"
+    "CVE-2021-26954",
+    "GHSA-68p4-pjpf-xwcq"
   ],
   "summary": "insert_slice_clone can double drop if Clone panics.",
   "details": "Affected versions of this crate used `ptr::copy` when inserting into the middle\nof a `Vec`. When ownership was temporarily duplicated during this copy, it calls\nthe clone method of a user provided element.\n\nThis issue can result in an element being double-freed if the clone call panics.\n\nCommit `20cb73d` fixed this issue by adding a `set_len(0)` call before\noperating on the vector to avoid dropping the elements during a panic.",

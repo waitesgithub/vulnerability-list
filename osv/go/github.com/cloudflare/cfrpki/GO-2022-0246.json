@@ -1,11 +1,12 @@
 {
   "id": "GO-2022-0246",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-15T23:06:38Z",
   "aliases": [
     "CVE-2021-3761",
     "GHSA-c8xp-8mf3-62h9"
   ],
+  "summary": "Insufficient validation in github.com/cloudflare/cfrpki",
   "details": "The ROAEntry.Validate function fails to perform bounds checks on the MaxLength field, allowing invalid values to pass validation.",
   "affected": [
     {

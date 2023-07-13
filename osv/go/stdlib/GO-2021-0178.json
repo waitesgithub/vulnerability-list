@@ -1,10 +1,11 @@
 {
   "id": "GO-2021-0178",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-01-07T20:35:00Z",
   "aliases": [
     "CVE-2017-15042"
   ],
+  "summary": "Cleartext transmission of credentials in net/smtp",
   "details": "SMTP clients using net/smtp can use the PLAIN authentication scheme on network connections not secured with TLS, exposing passwords to man-in-the-middle SMTP servers.",
   "affected": [
     {
@@ -18,13 +19,13 @@
           "type": "SEMVER",
           "events": [
             {
-              "introduced": "1.1.0"
+              "introduced": "1.1.0-0"
             },
             {
               "fixed": "1.8.4"
             },
             {
-              "introduced": "1.9.0"
+              "introduced": "1.9.0-0"
             },
             {
               "fixed": "1.9.1"

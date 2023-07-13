@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2022-234",
-  "modified": "2022-07-14T05:11:53.840687Z",
+  "modified": "2023-05-25T05:07:00Z",
   "published": "2022-03-21T22:15:00Z",
   "aliases": [
     "CVE-2022-26184",
@@ -12,7 +12,7 @@
       "package": {
         "ecosystem": "PyPI",
         "name": "poetry",
-        "purl": "pkg:pypi:poetry"
+        "purl": "pkg:pypi/poetry"
       },
       "ranges": [
         {

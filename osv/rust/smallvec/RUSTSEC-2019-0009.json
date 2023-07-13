@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2019-0009",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-06-06T12:00:00Z",
   "aliases": [
-    "CVE-2019-15551"
+    "CVE-2019-15551",
+    "GHSA-mm7v-vpv8-xfc3"
   ],
   "summary": "Double-free and use-after-free in SmallVec::grow()",
   "details": "Attempting to call `grow` on a spilled SmallVec with a value equal to the current capacity causes it to free the existing data. This performs a double free immediately and may lead to use-after-free on subsequent accesses to the SmallVec contents.\n\nAn attacker that controls the value passed to `grow` may exploit this flaw to obtain memory contents or gain remote code execution.\n\nCredits to @ehuss for discovering, reporting and fixing the bug.",

@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2021-0005",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2021-01-10T12:00:00Z",
   "aliases": [
-    "CVE-2021-25902"
+    "CVE-2021-25902",
+    "GHSA-cx4j-fxr7-jxg8"
   ],
   "summary": "Double drop upon panic in 'fn map_array()'",
   "details": "Affected versions of this crate did not guard against panic within the user-provided function `f` (2nd parameter of `fn map_array`), and thus panic within `f` \ncauses double drop of a single object.\n\nThe flaw was corrected in the 0.4.0 release by wrapping the object vulnerable\nto a double drop within `ManuallyDrop\u003cT\u003e`.",

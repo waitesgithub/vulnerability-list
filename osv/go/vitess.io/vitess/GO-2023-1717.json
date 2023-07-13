@@ -1,11 +1,12 @@
 {
   "id": "GO-2023-1717",
-  "modified": "2023-04-12T20:20:52Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2023-04-12T20:20:52Z",
   "aliases": [
     "CVE-2023-29194",
     "GHSA-735r-hv67-g38f"
   ],
+  "summary": "Improper handling of keyspaces in vitess.io/vitess",
   "details": "Users can create a keyspace containing `/`. Future attempts to view keyspaces from some tools (including VTAdmin and `vtctldclient GetKeyspaces`) receive an error.",
   "affected": [
     {

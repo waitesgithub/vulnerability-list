@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-0525",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-25T17:34:18Z",
   "aliases": [
     "CVE-2022-1705"
   ],
+  "summary": "Improper sanitization of Transfer-Encoding headers in net/http",
   "details": "The HTTP/1 client accepted some invalid Transfer-Encoding headers as indicating a \"chunked\" encoding. This could potentially allow for request smuggling, but only if combined with an intermediate server that also improperly failed to reject the header as invalid.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.17.12"
             },
             {
-              "introduced": "1.18.0"
+              "introduced": "1.18.0-0"
             },
             {
               "fixed": "1.18.4"

@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0125",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-24T12:00:00Z",
   "aliases": [
-    "CVE-2020-36445"
+    "CVE-2020-36445",
+    "GHSA-rpxm-vmr7-5f5f"
   ],
   "summary": "convec::ConVec\u003cT\u003e unconditionally implements Send/Sync",
   "details": "Affected versions of this crate unconditionally implement Send/Sync for `ConVec\u003cT\u003e`.\nThis allows users to insert `T` that is not Send or not Sync.\n\nThis allows users to create data races by using non-Send types like `Arc\u003cCell\u003c_\u003e\u003e` or `Rc\u003c_\u003e` as `T` in `ConVec\u003cT\u003e`. It is also possible to create data races by using types like `Cell\u003c_\u003e` or `RefCell\u003c_\u003e` as `T` (types that are `Send` but not `Sync`).\nSuch data races can lead to memory corruption.",

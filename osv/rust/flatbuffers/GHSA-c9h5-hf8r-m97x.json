@@ -19,7 +19,7 @@
           "type": "SEMVER",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.4.0"
             },
             {
               "fixed": "2.0.0"
@@ -27,6 +27,12 @@
           ]
         }
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "flatbuffers::read_scalar",
+          "flatbuffers::read_scalar_at"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-c9h5-hf8r-m97x/GHSA-c9h5-hf8r-m97x.json"
       }

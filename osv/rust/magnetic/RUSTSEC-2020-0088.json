@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0088",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-29T12:00:00Z",
   "aliases": [
-    "CVE-2020-35925"
+    "CVE-2020-35925",
+    "GHSA-wv4p-jp67-jr97"
   ],
   "summary": "MPMCConsumer/Producer allows sending non-Send type across threads",
   "details": "Affected versions of this crate unconditionally implemented `Sync` and `Send` traits for `MPMCConsumer` and `MPMCProducer` types.\n\nThis allows users to send types that do not implement `Send` trait across thread boundaries, which can cause a data race.\n\nThe flaw was corrected in the 2.0.1 release by adding `T: Send` bound to affected Sync/Send trait implementations.",

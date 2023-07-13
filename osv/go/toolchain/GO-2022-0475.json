@@ -1,10 +1,11 @@
 {
   "id": "GO-2022-0475",
-  "modified": "2023-04-03T15:57:51Z",
+  "modified": "2023-06-12T18:45:41Z",
   "published": "2022-07-28T17:24:30Z",
   "aliases": [
     "CVE-2020-28366"
   ],
+  "summary": "Arbitrary code execution in go command with cgo in cmd/go and cmd/cgo",
   "details": "The go command may execute arbitrary code at build time when cgo is in use. This may occur when running go get on a malicious package, or any other command that builds untrusted code.\n\nThis can be caused by malicious unquoted symbol name in a linked object file.",
   "affected": [
     {
@@ -24,7 +25,7 @@
               "fixed": "1.14.12"
             },
             {
-              "introduced": "1.15.0"
+              "introduced": "1.15.0-0"
             },
             {
               "fixed": "1.15.5"

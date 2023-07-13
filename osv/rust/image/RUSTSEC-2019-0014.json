@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2019-0014",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2019-08-21T12:00:00Z",
   "aliases": [
-    "CVE-2019-16138"
+    "CVE-2019-16138",
+    "GHSA-m2pf-hprp-3vqm"
   ],
   "summary": "Flaw in interface may drop uninitialized instance of arbitrary types",
   "details": "Affected versions of this crate would call `Vec::set_len` on an uninitialized\nvector with user-provided type parameter, in an interface of the HDR image\nformat decoder. They would then also call other code that could panic before\ninitializing all instances.\n\nThis could run Drop implementations on uninitialized types, equivalent to\nuse-after-free, and allow an attacker arbitrary code execution.\n\nTwo different fixes were applied. It is possible to conserve the interface by\nensuring proper initialization before calling `Vec::set_len`. Drop is no longer\ncalled in case of panic, though.\n\nStarting from version `0.22`, a breaking change to the interface requires\ncallers to pre-allocate the output buffer and pass a mutable slice instead,\navoiding all unsafe code.",

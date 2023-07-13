@@ -1,9 +1,10 @@
 {
   "id": "RUSTSEC-2020-0092",
-  "modified": "2021-10-19T22:14:35Z",
+  "modified": "2023-06-13T13:10:24Z",
   "published": "2020-11-13T12:00:00Z",
   "aliases": [
-    "CVE-2020-35928"
+    "CVE-2020-35928",
+    "GHSA-4xj5-vv9x-63jp"
   ],
   "summary": "Send/Sync bound needed on V in `impl Send/Sync for ARCache\u003cK, V\u003e`",
   "details": "Affected versions of this crate unconditionally implemented `Send`/`Sync` traits for `ARCache\u003cK, V\u003e` type.\n\nThis allows users to send/access types that do not implement `Send`/`Sync`, which can cause a data race.\n\nThe flaw was corrected in the 0.2.6 release by adding bounds `K: Send + Sync` \u0026 `V: Send + Sync` to affected `Send`/`Sync` trait implementations.",
