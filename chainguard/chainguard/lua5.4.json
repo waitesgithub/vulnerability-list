@@ -2,8 +2,8 @@
   "name": "lua5.4",
   "secfixes": {
     "5.4.4-r0": [
-      "CVE-2022-28805",
-      "CVE-2019-6706"
+      "CVE-2019-6706",
+      "CVE-2022-28805"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

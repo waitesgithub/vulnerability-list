@@ -1,16 +1,8 @@
 {
-  "name": "ruby-3.2",
+  "name": "kubernetes-dashboard",
   "secfixes": {
-    "0": [
-      "CVE-2023-0464",
-      "CVE-2023-0465",
-      "CVE-2023-0466",
-      "CVE-2023-1255",
-      "CVE-2023-2650"
-    ],
-    "3.2.2-r0": [
-      "CVE-2023-28755",
-      "CVE-2023-28756"
+    "2.7.0-r2": [
+      "CVE-2023-2253"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
