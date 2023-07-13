@@ -3,15 +3,15 @@
   "PackageSlug": "nuget/Swashbuckle.AspNetCore.SwaggerUI",
   "Title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
   "Description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in Swashbuckle.AspNetCore.SwaggerUI.",
-  "Date": "2023-01-06",
+  "Date": "2023-06-02",
   "Pubdate": "2021-12-09",
-  "AffectedRange": "(,6.4)",
+  "AffectedRange": "(,6.3.0)",
   "FixedVersions": [
-    "6.4"
+    "6.3.0"
   ],
-  "AffectedVersions": "All versions before 6.4",
-  "NotImpacted": "All versions starting from 6.4",
-  "Solution": "Upgrade to version 6.4 or above.",
+  "AffectedVersions": "All versions before 6.3.0",
+  "NotImpacted": "All versions starting from 6.3.0",
+  "Solution": "Upgrade to version 6.3.0 or above.",
   "Urls": [
     "https://github.com/swagger-api/swagger-ui/security/advisories/GHSA-qrmm-w75w-3wpx",
     "https://github.com/swagger-api/swagger-ui/issues/4872",
