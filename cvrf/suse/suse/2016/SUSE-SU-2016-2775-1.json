@@ -331,7 +331,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -346,6 +346,10 @@
         {
           "URL": "https://bugzilla.suse.com/911837",
           "Description": "SUSE Bug 911837"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/969776",
+          "Description": "SUSE Bug 969776"
         }
       ],
       "ProductStatuses": [

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-EC2-BYOS-2023-2091,Image SLES12-SP5-EC2-SAP-BYOS-2023-2091,Image SLES12-SP5-GCE-On-Demand-2023-2091,SUSE-2023-2091,SUSE-OpenStack-Cloud-9-2023-2091,SUSE-OpenStack-Cloud-Crowbar-9-2023-2091,SUSE-SLE-SAP-12-SP4-2023-2091,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-2091,SUSE-SLE-SERVER-12-SP4-LTSS-2023-2091,SUSE-SLE-SERVER-12-SP5-2023-2091",
+      "Text": "Image SLES12-SP5-EC2-BYOS-2023-2091,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2091,Image SLES12-SP5-EC2-On-Demand-2023-2091,Image SLES12-SP5-EC2-SAP-BYOS-2023-2091,Image SLES12-SP5-GCE-On-Demand-2023-2091,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2091,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2091,SUSE-2023-2091,SUSE-OpenStack-Cloud-9-2023-2091,SUSE-OpenStack-Cloud-Crowbar-9-2023-2091,SUSE-SLE-SAP-12-SP4-2023-2091,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-2091,SUSE-SLE-SERVER-12-SP4-LTSS-2023-2091,SUSE-SLE-SERVER-12-SP5-2023-2091",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -45,12 +45,32 @@
       },
       {
         "ProductReference": "shim-15.7-25.27.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shim-15.7-25.27.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shim-15.7-25.27.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "shim-15.7-25.27.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shim-15.7-25.27.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shim-15.7-25.27.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -149,8 +169,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Image SLES12-SP5-EC2-BYOS:shim-15.7-25.27.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:shim-15.7-25.27.1",
+            "Image SLES12-SP5-EC2-On-Demand:shim-15.7-25.27.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:shim-15.7-25.27.1",
             "Image SLES12-SP5-GCE-On-Demand:shim-15.7-25.27.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:shim-15.7-25.27.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:shim-15.7-25.27.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:shim-15.7-25.27.1",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:shim-15.7-25.27.1",
             "SUSE Linux Enterprise Server 12 SP5:shim-15.7-25.27.1",

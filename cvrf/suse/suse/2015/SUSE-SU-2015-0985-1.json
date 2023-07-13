@@ -74,6 +74,14 @@
       "Description": "SUSE Security Ratings"
     },
     {
+      "URL": "https://bugzilla.suse.com/823292",
+      "Description": "SUSE Bug 823292"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/823796",
+      "Description": "SUSE Bug 823796"
+    },
+    {
       "URL": "https://bugzilla.suse.com/863025",
       "Description": "SUSE Bug 863025"
     },
@@ -86,8 +94,28 @@
       "Description": "SUSE Bug 868444"
     },
     {
+      "URL": "https://bugzilla.suse.com/880764",
+      "Description": "SUSE Bug 880764"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/901145",
+      "Description": "SUSE Bug 901145"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/904694",
+      "Description": "SUSE Bug 904694"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/917806",
+      "Description": "SUSE Bug 917806"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2014-0106/",
       "Description": "SUSE CVE CVE-2014-0106 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-9680/",
+      "Description": "SUSE CVE CVE-2014-9680 page"
     }
   ],
   "Vulnerabilities": [
@@ -122,6 +150,53 @@
         }
       ],
       "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-9680",
+      "Description": "sudo before 1.8.12 does not ensure that the TZ environment variable is associated with a zoneinfo file, which allows local users to open arbitrary files for read access (but not view file contents) by running a program within an sudo session, as demonstrated by interfering with terminal output, discarding kernel-log messages, or repositioning tape drives.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-9680.html",
+          "Description": "CVE-2014-9680"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/917806",
+          "Description": "SUSE Bug 917806"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/919737",
+          "Description": "SUSE Bug 919737"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/921999",
+          "Description": "SUSE Bug 921999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/953359",
+          "Description": "SUSE Bug 953359"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:sudo-1.7.6p2-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:sudo-1.7.6p2-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP3:sudo-1.7.6p2-0.21.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:sudo-1.7.6p2-0.21.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "6.2",
+        "Vector": "AV:L/AC:M/Au:S/C:C/I:C/A:P"
+      }
     }
   ]
 }

@@ -31,13 +31,33 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-801,SUSE-SLE-Product-HA-15-SP3-2023-801,openSUSE-SLE-15.4-2023-801",
+      "Text": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-801,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-801,SUSE-2023-801,SUSE-SLE-Product-HA-15-SP3-2023-801,openSUSE-SLE-15.4-2023-801",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "drbd-9.0.29~0+git.9a7bc817-150300.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "drbd-kmp-default-9.0.29~0+git.9a7bc817_k5.3.18_150300.59.112-150300.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "drbd-9.0.29~0+git.9a7bc817-150300.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "drbd-kmp-default-9.0.29~0+git.9a7bc817_k5.3.18_150300.59.112-150300.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "drbd-9.0.29~0+git.9a7bc817-150300.3.7.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Availability Extension 15 SP3",

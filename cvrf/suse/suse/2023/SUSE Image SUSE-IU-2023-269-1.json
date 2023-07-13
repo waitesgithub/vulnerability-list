@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-05-10T06:29:16Z",
+        "Date": "2023-07-13T06:38:58Z",
         "Description": "current"
       }
     ]
@@ -2872,7 +2872,7 @@
     },
     {
       "CVE": "CVE-2022-2598",
-      "Description": "Undefined Behavior for Input to API in GitHub repository vim/vim prior to 9.0.0100.",
+      "Description": "Out-of-bounds Write to API in GitHub repository vim/vim prior to 9.0.0100.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -3223,7 +3223,7 @@
     },
     {
       "CVE": "CVE-2022-2845",
-      "Description": "Buffer Over-read in GitHub repository vim/vim prior to 9.0.0218.",
+      "Description": "Improper Validation of Specified Quantity in Input in GitHub repository vim/vim prior to 9.0.0218.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -5024,7 +5024,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6086,7 +6086,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": null,
@@ -6442,7 +6442,7 @@
     },
     {
       "CVE": "CVE-2023-0464",
-      "Description": "A security vulnerability has been identified in all supported versions of OpenSSL related to the verification of X.509 certificate chains that include policy constraints. Attackers may be able to exploit this vulnerability by creating a malicious certificate chain that triggers exponential use of computational resources, leading to a denial-of-service (DoS) attack on affected systems. Policy processing is disabled by default but can be enabled by passing the `-policy' argument to the command line utilities or by calling the `X509_VERIFY_PARAM_set1_policies()' function.",
+      "Description": "A security vulnerability has been identified in all supported versions\n\nof OpenSSL related to the verification of X.509 certificate chains\nthat include policy constraints.  Attackers may be able to exploit this\nvulnerability by creating a malicious certificate chain that triggers\nexponential use of computational resources, leading to a denial-of-service\n(DoS) attack on affected systems.\n\nPolicy processing is disabled by default but can be enabled by passing\nthe `-policy' argument to the command line utilities or by calling the\n`X509_VERIFY_PARAM_set1_policies()' function.",
       "Threats": [
         {
           "Type": "Impact",
@@ -7039,7 +7039,7 @@
     },
     {
       "CVE": "CVE-2023-24329",
-      "Description": "An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
+      "Description": "An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
       "Threats": [
         {
           "Type": "Impact",

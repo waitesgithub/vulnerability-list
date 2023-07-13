@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-05-10T06:28:59Z",
+        "Date": "2023-07-13T06:38:42Z",
         "Description": "current"
       }
     ]
@@ -3735,7 +3735,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4328,7 +4328,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": null,
@@ -4772,7 +4772,7 @@
     },
     {
       "CVE": "CVE-2023-0767",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "An attacker could construct a PKCS 12 cert bundle in such a way that could allow for arbitrary memory writes via PKCS 12 Safe Bag attributes being mishandled. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
@@ -5038,7 +5038,7 @@
     },
     {
       "CVE": "CVE-2023-24329",
-      "Description": "An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
+      "Description": "An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
       "Threats": [
         {
           "Type": "Impact",

@@ -146,6 +146,10 @@
       "Description": "SUSE Bug 880738"
     },
     {
+      "URL": "https://bugzilla.suse.com/924828",
+      "Description": "SUSE Bug 924828"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2014-3467/",
       "Description": "SUSE CVE CVE-2014-3467 page"
     },
@@ -156,6 +160,10 @@
     {
       "URL": "https://www.suse.com/security/cve/CVE-2014-3469/",
       "Description": "SUSE CVE CVE-2014-3469 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-2806/",
+      "Description": "SUSE CVE CVE-2015-2806 page"
     }
   ],
   "Vulnerabilities": [
@@ -276,6 +284,62 @@
         {
           "URL": "https://bugzilla.suse.com/880910",
           "Description": "SUSE Bug 880910"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libtasn1-1.5-1.28.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libtasn1-3-1.5-1.28.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libtasn1-3-32bit-1.5-1.28.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libtasn1-1.5-1.28.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libtasn1-3-1.5-1.28.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libtasn1-3-32bit-1.5-1.28.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libtasn1-3-x86-1.5-1.28.1",
+            "SUSE Linux Enterprise Server 11 SP3:libtasn1-1.5-1.28.1",
+            "SUSE Linux Enterprise Server 11 SP3:libtasn1-3-1.5-1.28.1",
+            "SUSE Linux Enterprise Server 11 SP3:libtasn1-3-32bit-1.5-1.28.1",
+            "SUSE Linux Enterprise Server 11 SP3:libtasn1-3-x86-1.5-1.28.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libtasn1-1.5-1.28.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libtasn1-3-1.5-1.28.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libtasn1-3-32bit-1.5-1.28.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libtasn1-3-x86-1.5-1.28.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libtasn1-devel-1.5-1.28.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-2806",
+      "Description": "Stack-based buffer overflow in asn1_der_decoding in libtasn1 before 4.4 allows remote attackers to have unspecified impact via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-2806.html",
+          "Description": "CVE-2015-2806"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/924828",
+          "Description": "SUSE Bug 924828"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/929414",
+          "Description": "SUSE Bug 929414"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/961491",
+          "Description": "SUSE Bug 961491"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/969208",
+          "Description": "SUSE Bug 969208"
         }
       ],
       "ProductStatuses": [

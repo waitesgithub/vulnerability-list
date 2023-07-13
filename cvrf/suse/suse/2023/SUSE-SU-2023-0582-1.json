@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-582,Image SLES12-SP5-Azure-SAP-On-Demand-2023-582,Image SLES12-SP5-EC2-SAP-BYOS-2023-582,Image SLES12-SP5-GCE-SAP-BYOS-2023-582,Image SLES12-SP5-GCE-SAP-On-Demand-2023-582,SUSE-2023-582,SUSE-OpenStack-Cloud-9-2023-582,SUSE-OpenStack-Cloud-Crowbar-9-2023-582,SUSE-SLE-SAP-12-SP4-2023-582,SUSE-SLE-SERVER-12-SP2-BCL-2023-582,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-582,SUSE-SLE-SERVER-12-SP4-LTSS-2023-582,SUSE-SLE-SERVER-12-SP5-2023-582",
+      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-582,Image SLES12-SP5-Azure-SAP-On-Demand-2023-582,Image SLES12-SP5-EC2-SAP-BYOS-2023-582,Image SLES12-SP5-GCE-SAP-BYOS-2023-582,Image SLES12-SP5-GCE-SAP-On-Demand-2023-582,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-582,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-582,SUSE-2023-582,SUSE-OpenStack-Cloud-9-2023-582,SUSE-OpenStack-Cloud-Crowbar-9-2023-582,SUSE-SLE-SAP-12-SP4-2023-582,SUSE-SLE-SERVER-12-SP2-BCL-2023-582,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-582,SUSE-SLE-SERVER-12-SP4-LTSS-2023-582,SUSE-SLE-SERVER-12-SP5-2023-582",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -61,6 +61,16 @@
       {
         "ProductReference": "xterm-308-5.9.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xterm-308-5.9.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xterm-308-5.9.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -145,6 +155,10 @@
         {
           "URL": "https://bugzilla.suse.com/1205305",
           "Description": "SUSE Bug 1205305"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211577",
+          "Description": "SUSE Bug 1211577"
         }
       ],
       "ProductStatuses": [
@@ -156,6 +170,8 @@
             "Image SLES12-SP5-EC2-SAP-BYOS:xterm-308-5.9.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:xterm-308-5.9.1",
             "Image SLES12-SP5-GCE-SAP-On-Demand:xterm-308-5.9.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:xterm-308-5.9.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:xterm-308-5.9.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:xterm-308-5.9.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:xterm-308-5.9.1",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:xterm-308-5.9.1",

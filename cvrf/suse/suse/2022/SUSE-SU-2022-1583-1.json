@@ -144,7 +144,17 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "rsyslog-module-relp-8.2106.0-150200.4.26.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "rsyslog-8.2106.0-150200.4.26.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "rsyslog-module-relp-8.2106.0-150200.4.26.1",
         "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -154,12 +164,27 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "rsyslog-module-relp-8.2106.0-150200.4.26.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "rsyslog-8.2106.0-150200.4.26.1",
         "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "rsyslog-module-relp-8.2106.0-150200.4.26.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "rsyslog-8.2106.0-150200.4.26.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "rsyslog-module-relp-8.2106.0-150200.4.26.1",
         "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
         "RelationType": "Default Component Of"
       },
@@ -945,10 +970,15 @@
             "Image SLES15-SP3-BYOS-EC2-HVM:rsyslog-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-BYOS-GCE:rsyslog-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:rsyslog-8.2106.0-150200.4.26.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:rsyslog-module-relp-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:rsyslog-8.2106.0-150200.4.26.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:rsyslog-module-relp-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:rsyslog-8.2106.0-150200.4.26.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:rsyslog-module-relp-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:rsyslog-8.2106.0-150200.4.26.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:rsyslog-module-relp-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:rsyslog-8.2106.0-150200.4.26.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:rsyslog-module-relp-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-GCE:rsyslog-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-HPC-BYOS-Azure:rsyslog-8.2106.0-150200.4.26.1",
             "Image SLES15-SP3-HPC-BYOS-EC2-HVM:rsyslog-8.2106.0-150200.4.26.1",

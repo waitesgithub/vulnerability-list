@@ -168,6 +168,58 @@
       "Description": "SUSE Bug 789951"
     },
     {
+      "URL": "https://bugzilla.suse.com/826717",
+      "Description": "SUSE Bug 826717"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/880751",
+      "Description": "SUSE Bug 880751"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/895798",
+      "Description": "SUSE Bug 895798"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/895799",
+      "Description": "SUSE Bug 895799"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/895802",
+      "Description": "SUSE Bug 895802"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/903850",
+      "Description": "SUSE Bug 903850"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/903967",
+      "Description": "SUSE Bug 903967"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/903970",
+      "Description": "SUSE Bug 903970"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/905465",
+      "Description": "SUSE Bug 905465"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/905467",
+      "Description": "SUSE Bug 905467"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/906439",
+      "Description": "SUSE Bug 906439"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/927967",
+      "Description": "SUSE Bug 927967"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/929339",
+      "Description": "SUSE Bug 929339"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2012-5510/",
       "Description": "SUSE CVE CVE-2012-5510 page"
     },
@@ -186,6 +238,54 @@
     {
       "URL": "https://www.suse.com/security/cve/CVE-2012-5515/",
       "Description": "SUSE CVE CVE-2012-5515 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-3495/",
+      "Description": "SUSE CVE CVE-2013-3495 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4021/",
+      "Description": "SUSE CVE CVE-2014-4021 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-7154/",
+      "Description": "SUSE CVE CVE-2014-7154 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-7155/",
+      "Description": "SUSE CVE CVE-2014-7155 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-7156/",
+      "Description": "SUSE CVE CVE-2014-7156 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8594/",
+      "Description": "SUSE CVE CVE-2014-8594 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8595/",
+      "Description": "SUSE CVE CVE-2014-8595 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8866/",
+      "Description": "SUSE CVE CVE-2014-8866 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8867/",
+      "Description": "SUSE CVE CVE-2014-8867 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-9030/",
+      "Description": "SUSE CVE CVE-2014-9030 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-3340/",
+      "Description": "SUSE CVE CVE-2015-3340 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-3456/",
+      "Description": "SUSE CVE CVE-2015-3456 page"
     }
   ],
   "Vulnerabilities": [
@@ -394,6 +494,610 @@
         {
           "URL": "https://bugzilla.suse.com/789950",
           "Description": "SUSE Bug 789950"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-3495",
+      "Description": "The Intel VT-d Interrupt Remapping engine in Xen 3.3.x through 4.3.x allows local guests to cause a denial of service (kernel panic) via a malformed Message Signaled Interrupt (MSI) from a PCI device that is bus mastering capable that triggers a System Error Reporting (SERR) Non-Maskable Interrupt (NMI).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-3495.html",
+          "Description": "CVE-2013-3495"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/826717",
+          "Description": "SUSE Bug 826717"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903970",
+          "Description": "SUSE Bug 903970"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4021",
+      "Description": "Xen 3.2.x through 4.4.x does not properly clean memory pages recovered from guests, which allows local guest OS users to obtain sensitive information via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4021.html",
+          "Description": "CVE-2014-4021"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/880751",
+          "Description": "SUSE Bug 880751"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903970",
+          "Description": "SUSE Bug 903970"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-7154",
+      "Description": "Race condition in HVMOP_track_dirty_vram in Xen 4.0.0 through 4.4.x does not ensure possession of the guarding lock for dirty video RAM tracking, which allows certain local guest domains to cause a denial of service via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-7154.html",
+          "Description": "CVE-2014-7154"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/880751",
+          "Description": "SUSE Bug 880751"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/895798",
+          "Description": "SUSE Bug 895798"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-7155",
+      "Description": "The x86_emulate function in arch/x86/x86_emulate/x86_emulate.c in Xen 4.4.x and earlier does not properly check supervisor mode permissions, which allows local HVM users to cause a denial of service (guest crash) or gain guest kernel mode privileges via vectors involving an (1) HLT, (2) LGDT, (3) LIDT, or (4) LMSW instruction.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-7155.html",
+          "Description": "CVE-2014-7155"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/880751",
+          "Description": "SUSE Bug 880751"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/895799",
+          "Description": "SUSE Bug 895799"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-7156",
+      "Description": "The x86_emulate function in arch/x86/x86_emulate/x86_emulate.c in Xen 3.3.x through 4.4.x does not check the supervisor mode permissions for instructions that generate software interrupts, which allows local HVM guest users to cause a denial of service (guest crash) via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-7156.html",
+          "Description": "CVE-2014-7156"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/880751",
+          "Description": "SUSE Bug 880751"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/895802",
+          "Description": "SUSE Bug 895802"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8594",
+      "Description": "The do_mmu_update function in arch/x86/mm.c in Xen 4.x through 4.4.x does not properly restrict updates to only PV page tables, which allows remote PV guests to cause a denial of service (NULL pointer dereference) by leveraging hardware emulation services for HVM guests using Hardware Assisted Paging (HAP).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8594.html",
+          "Description": "CVE-2014-8594"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903967",
+          "Description": "SUSE Bug 903967"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903970",
+          "Description": "SUSE Bug 903970"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8595",
+      "Description": "arch/x86/x86_emulate/x86_emulate.c in Xen 3.2.1 through 4.4.x does not properly check privileges, which allows local HVM guest users to gain privileges or cause a denial of service (crash) via a crafted (1) CALL, (2) JMP, (3) RETF, (4) LCALL, (5) LJMP, or (6) LRET far branch instruction.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8595.html",
+          "Description": "CVE-2014-8595"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903970",
+          "Description": "SUSE Bug 903970"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/907649",
+          "Description": "SUSE Bug 907649"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8866",
+      "Description": "The compatibility mode hypercall argument translation in Xen 3.3.x through 4.4.x, when running on a 64-bit hypervisor, allows local 32-bit HVM guests to cause a denial of service (host crash) via vectors involving altering the high halves of registers while in 64-bit mode.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8866.html",
+          "Description": "CVE-2014-8866"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903970",
+          "Description": "SUSE Bug 903970"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905465",
+          "Description": "SUSE Bug 905465"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8867",
+      "Description": "The acceleration support for the \"REP MOVS\" instruction in Xen 4.4.x, 3.2.x, and earlier lacks properly bounds checking for memory mapped I/O (MMIO) emulated in the hypervisor, which allows local HVM guests to cause a denial of service (host crash) via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8867.html",
+          "Description": "CVE-2014-8867"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903970",
+          "Description": "SUSE Bug 903970"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905467",
+          "Description": "SUSE Bug 905467"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-9030",
+      "Description": "The do_mmu_update function in arch/x86/mm.c in Xen 3.2.x through 4.4.x does not properly manage page references, which allows remote domains to cause a denial of service by leveraging control over an HVM guest and a crafted MMU_MACHPHYS_UPDATE.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-9030.html",
+          "Description": "CVE-2014-9030"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903970",
+          "Description": "SUSE Bug 903970"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/906439",
+          "Description": "SUSE Bug 906439"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-3340",
+      "Description": "Xen 4.2.x through 4.5.x does not initialize certain fields, which allows certain remote service domains to obtain sensitive information from memory via a (1) XEN_DOMCTL_gettscinfo or (2) XEN_SYSCTL_getdomaininfolist request.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-3340.html",
+          "Description": "CVE-2015-3340"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/927967",
+          "Description": "SUSE Bug 927967"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/929339",
+          "Description": "SUSE Bug 929339"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-tools-domU-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-html-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-doc-pdf-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_18_2.6.32.59_0.19-0.21.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_12_2.6.32.54_0.11.TDC-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-libs-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-4.0.3_21548_12-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-tools-domU-4.0.3_21548_12-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-3456",
+      "Description": "The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and KVM, allows local guest users to cause a denial of service (out-of-bounds write and guest crash) or possibly execute arbitrary code via the (1) FD_CMD_READ_ID, (2) FD_CMD_DRIVE_SPECIFICATION_COMMAND, or other unspecified commands, aka VENOM.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-3456.html",
+          "Description": "CVE-2015-3456"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/929339",
+          "Description": "SUSE Bug 929339"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/932770",
+          "Description": "SUSE Bug 932770"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/935900",
+          "Description": "SUSE Bug 935900"
         }
       ],
       "ProductStatuses": [

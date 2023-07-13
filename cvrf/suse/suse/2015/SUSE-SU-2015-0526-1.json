@@ -283,6 +283,10 @@
           "Description": "CVE-2013-7423"
         },
         {
+          "URL": "https://bugzilla.suse.com/1123874",
+          "Description": "SUSE Bug 1123874"
+        },
+        {
           "URL": "https://bugzilla.suse.com/915526",
           "Description": "SUSE Bug 915526"
         }
@@ -399,7 +403,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [

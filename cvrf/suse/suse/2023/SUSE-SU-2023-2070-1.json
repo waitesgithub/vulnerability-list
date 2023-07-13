@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/haproxy:latest-2023-2070,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-2070,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-2070,Container ses/7.1/ceph/prometheus-server:latest-2023-2070,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-2070,Container ses/7.1/cephcsi/cephcsi:latest-2023-2070,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2023-2070,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2023-2070,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2023-2070,Container ses/7.1/rook/ceph:latest-2023-2070,Container suse/sle-micro-rancher/5.2:latest-2023-2070,Container suse/sle-micro/5.1/toolbox:latest-2023-2070,Container suse/sle-micro/5.2/toolbox:latest-2023-2070,Container suse/sle15:15.3-2023-2070,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2070,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2070,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2070,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2070,SUSE-2023-2070,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-2070,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-2070,SUSE-SLE-Product-RT-15-SP3-2023-2070,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-2070,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-2070,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2070,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2070,SUSE-SUSE-MicroOS-5.1-2023-2070,SUSE-SUSE-MicroOS-5.2-2023-2070,SUSE-Storage-7.1-2023-2070",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2023-2070,Container ses/7.1/ceph/haproxy:latest-2023-2070,Container ses/7.1/ceph/keepalived:latest-2023-2070,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-2070,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-2070,Container ses/7.1/ceph/prometheus-server:latest-2023-2070,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-2070,Container ses/7.1/cephcsi/cephcsi:latest-2023-2070,Container ses/7.1/cephcsi/csi-attacher:v3.5.0-2023-2070,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2023-2070,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2023-2070,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2023-2070,Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1-2023-2070,Container ses/7.1/rook/ceph:latest-2023-2070,Container suse/sle-micro-rancher/5.2:latest-2023-2070,Container suse/sle-micro/5.1/toolbox:latest-2023-2070,Container suse/sle-micro/5.2/toolbox:latest-2023-2070,Container suse/sle15:15.3-2023-2070,Container trento/trento-wanda:latest-2023-2070,Container trento/trento-web:latest-2023-2070,Image SLES15-SP3-CHOST-BYOS-Aliyun-2023-2070,Image SLES15-SP3-CHOST-BYOS-Azure-2023-2070,Image SLES15-SP3-CHOST-BYOS-EC2-2023-2070,Image SLES15-SP3-CHOST-BYOS-GCE-2023-2070,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2023-2070,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-2070,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-2070,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-2070,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2070,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-2070,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2070,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2070,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-2070,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2070,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-2070,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-2070,SUSE-2023-2070,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-2070,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-2070,SUSE-SLE-Product-RT-15-SP3-2023-2070,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-2070,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-2070,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2070,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2070,SUSE-SUSE-MicroOS-5.1-2023-2070,SUSE-SUSE-MicroOS-5.2-2023-2070,SUSE-Storage-7.1-2023-2070",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,12 +40,32 @@
     "Relationships": [
       {
         "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "shadow-4.8.1-150300.4.6.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -100,6 +120,16 @@
       },
       {
         "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v3.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v3.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
         "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1",
         "RelationType": "Default Component Of"
       },
@@ -126,6 +156,16 @@
       {
         "ProductReference": "shadow-4.8.1-150300.4.6.1",
         "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-resizer:v1.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1",
         "RelationType": "Default Component Of"
       },
       {
@@ -180,12 +220,122 @@
       },
       {
         "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container trento/trento-wanda:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container trento/trento-wanda:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "shadow-4.8.1-150300.4.6.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
         "RelationType": "Default Component Of"
       },
       {
@@ -210,12 +360,42 @@
       },
       {
         "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "shadow-4.8.1-150300.4.6.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "login_defs-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "shadow-4.8.1-150300.4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -366,8 +546,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:login_defs-4.8.1-150300.4.6.1",
+            "Container ses/7.1/ceph/grafana:latest:shadow-4.8.1-150300.4.6.1",
             "Container ses/7.1/ceph/haproxy:latest:login_defs-4.8.1-150300.4.6.1",
             "Container ses/7.1/ceph/haproxy:latest:shadow-4.8.1-150300.4.6.1",
+            "Container ses/7.1/ceph/keepalived:latest:login_defs-4.8.1-150300.4.6.1",
+            "Container ses/7.1/ceph/keepalived:latest:shadow-4.8.1-150300.4.6.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:login_defs-4.8.1-150300.4.6.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:shadow-4.8.1-150300.4.6.1",
             "Container ses/7.1/ceph/prometheus-node-exporter:latest:login_defs-4.8.1-150300.4.6.1",
@@ -378,12 +562,16 @@
             "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:shadow-4.8.1-150300.4.6.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:login_defs-4.8.1-150300.4.6.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:shadow-4.8.1-150300.4.6.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:login_defs-4.8.1-150300.4.6.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:shadow-4.8.1-150300.4.6.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:login_defs-4.8.1-150300.4.6.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:shadow-4.8.1-150300.4.6.1",
             "Container ses/7.1/cephcsi/csi-provisioner:v3.2.1:login_defs-4.8.1-150300.4.6.1",
             "Container ses/7.1/cephcsi/csi-provisioner:v3.2.1:shadow-4.8.1-150300.4.6.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:login_defs-4.8.1-150300.4.6.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:shadow-4.8.1-150300.4.6.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:login_defs-4.8.1-150300.4.6.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:shadow-4.8.1-150300.4.6.1",
             "Container ses/7.1/rook/ceph:latest:login_defs-4.8.1-150300.4.6.1",
             "Container ses/7.1/rook/ceph:latest:shadow-4.8.1-150300.4.6.1",
             "Container suse/sle-micro-rancher/5.2:latest:login_defs-4.8.1-150300.4.6.1",
@@ -394,14 +582,42 @@
             "Container suse/sle-micro/5.2/toolbox:latest:shadow-4.8.1-150300.4.6.1",
             "Container suse/sle15:15.3:login_defs-4.8.1-150300.4.6.1",
             "Container suse/sle15:15.3:shadow-4.8.1-150300.4.6.1",
+            "Container trento/trento-wanda:latest:login_defs-4.8.1-150300.4.6.1",
+            "Container trento/trento-wanda:latest:shadow-4.8.1-150300.4.6.1",
+            "Container trento/trento-web:latest:login_defs-4.8.1-150300.4.6.1",
+            "Container trento/trento-web:latest:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:shadow-4.8.1-150300.4.6.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:login_defs-4.8.1-150300.4.6.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:shadow-4.8.1-150300.4.6.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:login_defs-4.8.1-150300.4.6.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:shadow-4.8.1-150300.4.6.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:login_defs-4.8.1-150300.4.6.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:shadow-4.8.1-150300.4.6.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:login_defs-4.8.1-150300.4.6.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:shadow-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:login_defs-4.8.1-150300.4.6.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:shadow-4.8.1-150300.4.6.1",
             "SUSE Enterprise Storage 7.1:login_defs-4.8.1-150300.4.6.1",
             "SUSE Enterprise Storage 7.1:shadow-4.8.1-150300.4.6.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:login_defs-4.8.1-150300.4.6.1",

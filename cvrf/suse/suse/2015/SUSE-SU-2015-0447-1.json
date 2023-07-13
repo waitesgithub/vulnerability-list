@@ -254,12 +254,60 @@
       "Description": "SUSE Security Ratings"
     },
     {
+      "URL": "https://bugzilla.suse.com/833389",
+      "Description": "SUSE Bug 833389"
+    },
+    {
       "URL": "https://bugzilla.suse.com/840485",
       "Description": "SUSE Bug 840485"
     },
     {
+      "URL": "https://bugzilla.suse.com/917597",
+      "Description": "SUSE Bug 917597"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1701/",
+      "Description": "SUSE CVE CVE-2013-1701 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1702/",
+      "Description": "SUSE CVE CVE-2013-1702 page"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2013-1705/",
       "Description": "SUSE CVE CVE-2013-1705 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1706/",
+      "Description": "SUSE CVE CVE-2013-1706 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1707/",
+      "Description": "SUSE CVE CVE-2013-1707 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1709/",
+      "Description": "SUSE CVE CVE-2013-1709 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1710/",
+      "Description": "SUSE CVE CVE-2013-1710 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1712/",
+      "Description": "SUSE CVE CVE-2013-1712 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1713/",
+      "Description": "SUSE CVE CVE-2013-1713 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1714/",
+      "Description": "SUSE CVE CVE-2013-1714 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-1717/",
+      "Description": "SUSE CVE CVE-2013-1717 page"
     },
     {
       "URL": "https://www.suse.com/security/cve/CVE-2013-1718/",
@@ -296,9 +344,161 @@
     {
       "URL": "https://www.suse.com/security/cve/CVE-2013-1737/",
       "Description": "SUSE CVE CVE-2013-1737 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0822/",
+      "Description": "SUSE CVE CVE-2015-0822 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0827/",
+      "Description": "SUSE CVE CVE-2015-0827 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0831/",
+      "Description": "SUSE CVE CVE-2015-0831 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0836/",
+      "Description": "SUSE CVE CVE-2015-0836 page"
     }
   ],
   "Vulnerabilities": [
+    {
+      "CVE": "CVE-2013-1701",
+      "Description": "Multiple unspecified vulnerabilities in the browser engine in Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, Thunderbird ESR 17.x before 17.0.8, and SeaMonkey before 2.20 allow remote attackers to cause a denial of service (memory corruption and application crash) or possibly execute arbitrary code via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1701.html",
+          "Description": "CVE-2013-1701"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/833389",
+          "Description": "SUSE Bug 833389"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1702",
+      "Description": "Multiple unspecified vulnerabilities in the browser engine in Mozilla Firefox before 23.0 and SeaMonkey before 2.20 allow remote attackers to cause a denial of service (memory corruption and application crash) or possibly execute arbitrary code via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1702.html",
+          "Description": "CVE-2013-1702"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/833389",
+          "Description": "SUSE Bug 833389"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
     {
       "CVE": "CVE-2013-1705",
       "Description": "Heap-based buffer underflow in the cryptojs_interpret_key_gen_type function in Mozilla Firefox before 23.0 and SeaMonkey before 2.20 allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted Certificate Request Message Format (CRMF) request.",
@@ -320,6 +520,538 @@
         {
           "URL": "https://bugzilla.suse.com/840485",
           "Description": "SUSE Bug 840485"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1706",
+      "Description": "Stack-based buffer overflow in maintenanceservice.exe in the Mozilla Maintenance Service in Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, and Thunderbird ESR 17.x before 17.0.8 allows local users to gain privileges via a long pathname on the command line.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1706.html",
+          "Description": "CVE-2013-1706"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1707",
+      "Description": "Stack-based buffer overflow in Mozilla Updater in Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, and Thunderbird ESR 17.x before 17.0.8 allows local users to gain privileges via a long pathname on the command line to the Mozilla Maintenance Service.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1707.html",
+          "Description": "CVE-2013-1707"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1709",
+      "Description": "Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, Thunderbird ESR 17.x before 17.0.8, and SeaMonkey before 2.20 do not properly handle the interaction between FRAME elements and history, which allows remote attackers to conduct cross-site scripting (XSS) attacks via vectors involving spoofing a relative location in a previously visited document.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1709.html",
+          "Description": "CVE-2013-1709"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/833389",
+          "Description": "SUSE Bug 833389"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1710",
+      "Description": "The crypto.generateCRMFRequest function in Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, Thunderbird ESR 17.x before 17.0.8, and SeaMonkey before 2.20 allows remote attackers to execute arbitrary JavaScript code or conduct cross-site scripting (XSS) attacks via vectors related to Certificate Request Message Format (CRMF) request generation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1710.html",
+          "Description": "CVE-2013-1710"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/833389",
+          "Description": "SUSE Bug 833389"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1712",
+      "Description": "Multiple untrusted search path vulnerabilities in updater.exe in Mozilla Updater in Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, and Thunderbird ESR 17.x before 17.0.8 on Windows 7, Windows Server 2008 R2, Windows 8, and Windows Server 2012 allow local users to gain privileges via a Trojan horse DLL in (1) the update directory or (2) the current working directory.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1712.html",
+          "Description": "CVE-2013-1712"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1713",
+      "Description": "Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, Thunderbird ESR 17.x before 17.0.8, and SeaMonkey before 2.20 use an incorrect URI within unspecified comparisons during enforcement of the Same Origin Policy, which allows remote attackers to conduct cross-site scripting (XSS) attacks or install arbitrary add-ons via a crafted web site.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1713.html",
+          "Description": "CVE-2013-1713"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/833389",
+          "Description": "SUSE Bug 833389"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1714",
+      "Description": "The Web Workers implementation in Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, Thunderbird ESR 17.x before 17.0.8, and SeaMonkey before 2.20 does not properly restrict XMLHttpRequest calls, which allows remote attackers to bypass the Same Origin Policy and conduct cross-site scripting (XSS) attacks via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1714.html",
+          "Description": "CVE-2013-1714"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/833389",
+          "Description": "SUSE Bug 833389"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-1717",
+      "Description": "Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, Thunderbird ESR 17.x before 17.0.8, and SeaMonkey before 2.20 do not properly restrict local-filesystem access by Java applets, which allows user-assisted remote attackers to read arbitrary files by leveraging a download to a fixed pathname or other predictable pathname.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-1717.html",
+          "Description": "CVE-2013-1717"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/833389",
+          "Description": "SUSE Bug 833389"
         }
       ],
       "ProductStatuses": [
@@ -932,6 +1664,326 @@
         {
           "URL": "https://bugzilla.suse.com/840485",
           "Description": "SUSE Bug 840485"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0822",
+      "Description": "The Form Autocompletion feature in Mozilla Firefox before 36.0, Firefox ESR 31.x before 31.5, and Thunderbird before 31.5 allows remote attackers to read arbitrary files via crafted JavaScript code.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0822.html",
+          "Description": "CVE-2015-0822"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/910669",
+          "Description": "SUSE Bug 910669"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/917597",
+          "Description": "SUSE Bug 917597"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/923534",
+          "Description": "SUSE Bug 923534"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/924515",
+          "Description": "SUSE Bug 924515"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0827",
+      "Description": "Heap-based buffer overflow in the mozilla::gfx::CopyRect function in Mozilla Firefox before 36.0, Firefox ESR 31.x before 31.5, and Thunderbird before 31.5 allows remote attackers to obtain sensitive information from uninitialized process memory via a malformed SVG graphic.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0827.html",
+          "Description": "CVE-2015-0827"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/910669",
+          "Description": "SUSE Bug 910669"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/917597",
+          "Description": "SUSE Bug 917597"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/923534",
+          "Description": "SUSE Bug 923534"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/924515",
+          "Description": "SUSE Bug 924515"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0831",
+      "Description": "Use-after-free vulnerability in the mozilla::dom::IndexedDB::IDBObjectStore::CreateIndex function in Mozilla Firefox before 36.0, Firefox ESR 31.x before 31.5, and Thunderbird before 31.5 allows remote attackers to execute arbitrary code or cause a denial of service (heap memory corruption) via crafted content that is improperly handled during IndexedDB index creation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0831.html",
+          "Description": "CVE-2015-0831"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/910669",
+          "Description": "SUSE Bug 910669"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/917597",
+          "Description": "SUSE Bug 917597"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/923534",
+          "Description": "SUSE Bug 923534"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/924515",
+          "Description": "SUSE Bug 924515"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libfreebl3-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-32bit-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nspr-4.9.1-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-32bit-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-nss-tools-3.13.5-0.4.2",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-32bit-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-gnomevfs-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner191-translations-1.9.1.11-0.1.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-32bit-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-gnome-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:mozilla-xulrunner192-translations-1.9.2.24-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-17.0.9esr-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:MozillaFirefox-translations-17.0.9esr-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0836",
+      "Description": "Multiple unspecified vulnerabilities in the browser engine in Mozilla Firefox before 36.0, Firefox ESR 31.x before 31.5, and Thunderbird before 31.5 allow remote attackers to cause a denial of service (memory corruption and application crash) or possibly execute arbitrary code via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0836.html",
+          "Description": "CVE-2015-0836"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/910669",
+          "Description": "SUSE Bug 910669"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/917597",
+          "Description": "SUSE Bug 917597"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/923534",
+          "Description": "SUSE Bug 923534"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/924515",
+          "Description": "SUSE Bug 924515"
         }
       ],
       "ProductStatuses": [

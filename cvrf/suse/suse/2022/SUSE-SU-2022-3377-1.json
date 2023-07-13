@@ -125,7 +125,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -148,6 +148,10 @@
         {
           "URL": "https://bugzilla.suse.com/1209225",
           "Description": "SUSE Bug 1209225"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1212326",
+          "Description": "SUSE Bug 1212326"
         }
       ],
       "ProductStatuses": [

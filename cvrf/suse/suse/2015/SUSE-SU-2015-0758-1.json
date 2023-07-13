@@ -78,8 +78,20 @@
       "Description": "SUSE Bug 868115"
     },
     {
+      "URL": "https://bugzilla.suse.com/905481",
+      "Description": "SUSE Bug 905481"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/907453",
+      "Description": "SUSE Bug 907453"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2014-0467/",
       "Description": "SUSE CVE CVE-2014-0467 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-9116/",
+      "Description": "SUSE CVE CVE-2014-9116 page"
     }
   ],
   "Vulnerabilities": [
@@ -100,6 +112,38 @@
         {
           "URL": "https://bugzilla.suse.com/868115",
           "Description": "SUSE Bug 868115"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:mutt-1.5.17-42.37.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mutt-1.5.17-42.37.1",
+            "SUSE Linux Enterprise Server 11 SP3:mutt-1.5.17-42.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mutt-1.5.17-42.37.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-9116",
+      "Description": "The write_one_header function in mutt 1.5.23 does not properly handle newline characters at the beginning of a header, which allows remote attackers to cause a denial of service (crash) via a header with an empty body, which triggers a heap-based buffer overflow in the mutt_substrdup function.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-9116.html",
+          "Description": "CVE-2014-9116"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/907453",
+          "Description": "SUSE Bug 907453"
         }
       ],
       "ProductStatuses": [

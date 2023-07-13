@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-305,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-305,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-305,Image SLES15-SP4-SAP-Azure-2023-305,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-305,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-305,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-305,Image SLES15-SP4-SAP-GCE-2023-305,Image SLES15-SP4-SAPCAL-Azure-2023-305,Image SLES15-SP4-SAPCAL-GCE-2023-305,SUSE-2023-305,SUSE-SLE-Module-Legacy-15-SP4-2023-305,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-305,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-305,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-305,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-305,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-305,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-305,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-305,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-305,SUSE-Storage-7-2023-305,SUSE-Storage-7.1-2023-305,openSUSE-SLE-15.4-2023-305",
+      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-305,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-305,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-305,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-305,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-305,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-305,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-305,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-305,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-305,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-305,SUSE-2023-305,SUSE-SLE-Module-Legacy-15-SP4-2023-305,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-305,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-305,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-305,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-305,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-305,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-305,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-305,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-305,SUSE-Storage-7-2023-305,SUSE-Storage-7.1-2023-305,openSUSE-SLE-15.4-2023-305",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -70,11 +70,6 @@
       },
       {
         "ProductReference": "libopenssl1_0_0-1.0.2p-150000.3.65.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl1_0_0-1.0.2p-150000.3.65.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -95,17 +90,22 @@
       },
       {
         "ProductReference": "libopenssl1_0_0-1.0.2p-150000.3.65.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl1_0_0-1.0.2p-150000.3.65.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl1_0_0-1.0.2p-150000.3.65.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_0_0-1.0.2p-150000.3.65.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -415,7 +415,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -446,10 +446,10 @@
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAP-Azure:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAP-GCE:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAPCAL-Azure:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAPCAL-GCE:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_0_0-devel-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl10-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl1_0_0-1.0.2p-150000.3.65.1",
@@ -513,7 +513,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -540,10 +540,10 @@
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAP-Azure:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAP-GCE:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAPCAL-Azure:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAPCAL-GCE:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_0_0-devel-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl10-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl1_0_0-1.0.2p-150000.3.65.1",
@@ -622,6 +622,14 @@
         {
           "URL": "https://bugzilla.suse.com/1207569",
           "Description": "SUSE Bug 1207569"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211136",
+          "Description": "SUSE Bug 1211136"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211503",
+          "Description": "SUSE Bug 1211503"
         }
       ],
       "ProductStatuses": [
@@ -638,10 +646,10 @@
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAP-Azure:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAP-GCE:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAPCAL-Azure:libopenssl1_0_0-1.0.2p-150000.3.65.1",
-            "Image SLES15-SP4-SAPCAL-GCE:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libopenssl1_0_0-1.0.2p-150000.3.65.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libopenssl1_0_0-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_0_0-devel-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl10-1.0.2p-150000.3.65.1",
             "SUSE Enterprise Storage 7.1:libopenssl1_0_0-1.0.2p-150000.3.65.1",

@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2016:1698-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2016-06-28T14:31:00Z",
-    "CurrentReleaseDate": "2016-06-28T14:31:00Z",
+    "InitialReleaseDate": "2016-06-28T14:31:01Z",
+    "CurrentReleaseDate": "2016-06-28T14:31:01Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2016-06-28T14:31:00Z",
+        "Date": "2016-06-28T14:31:01Z",
         "Description": "current"
       }
     ]
@@ -539,6 +539,10 @@
         {
           "URL": "https://bugzilla.suse.com/945989",
           "Description": "SUSE Bug 945989"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/964947",
+          "Description": "SUSE Bug 964947"
         }
       ],
       "ProductStatuses": [
@@ -625,7 +629,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -806,7 +810,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -840,7 +844,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1508,7 +1512,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [

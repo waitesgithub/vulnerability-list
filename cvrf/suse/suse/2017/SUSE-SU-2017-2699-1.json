@@ -786,7 +786,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -827,7 +827,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -1096,7 +1096,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -1586,7 +1586,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2496,7 +2496,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -2558,7 +2558,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2627,7 +2627,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2660,7 +2660,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2693,7 +2693,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3471,6 +3471,10 @@
         {
           "URL": "https://bugzilla.suse.com/967082",
           "Description": "SUSE Bug 967082"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/992991",
+          "Description": "SUSE Bug 992991"
         }
       ],
       "ProductStatuses": [
@@ -3499,6 +3503,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2016-3075.html",
           "Description": "CVE-2016-3075"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1123874",
+          "Description": "SUSE Bug 1123874"
         },
         {
           "URL": "https://bugzilla.suse.com/973164",
@@ -3647,6 +3655,10 @@
           "Description": "CVE-2016-3706"
         },
         {
+          "URL": "https://bugzilla.suse.com/1123874",
+          "Description": "SUSE Bug 1123874"
+        },
+        {
           "URL": "https://bugzilla.suse.com/980483",
           "Description": "SUSE Bug 980483"
         },
@@ -3717,6 +3729,10 @@
         {
           "URL": "https://bugzilla.suse.com/1081556",
           "Description": "SUSE Bug 1081556"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1123874",
+          "Description": "SUSE Bug 1123874"
         },
         {
           "URL": "https://bugzilla.suse.com/980854",
@@ -3894,7 +3910,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5249,6 +5265,10 @@
           "Description": "SUSE Bug 1038505"
         },
         {
+          "URL": "https://bugzilla.suse.com/1062104",
+          "Description": "SUSE Bug 1062104"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1120866",
           "Description": "SUSE Bug 1120866"
         },
@@ -5369,6 +5389,10 @@
           "Description": "SUSE Bug 1038505"
         },
         {
+          "URL": "https://bugzilla.suse.com/1062104",
+          "Description": "SUSE Bug 1062104"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1120866",
           "Description": "SUSE Bug 1120866"
         },
@@ -5423,6 +5447,10 @@
         {
           "URL": "https://bugzilla.suse.com/1038505",
           "Description": "SUSE Bug 1038505"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1062104",
+          "Description": "SUSE Bug 1062104"
         },
         {
           "URL": "https://bugzilla.suse.com/1116686",
@@ -5547,6 +5575,10 @@
         {
           "URL": "https://bugzilla.suse.com/1071319",
           "Description": "SUSE Bug 1071319"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1123874",
+          "Description": "SUSE Bug 1123874"
         }
       ],
       "ProductStatuses": [
@@ -5793,7 +5825,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [

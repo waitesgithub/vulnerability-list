@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/haproxy:latest-2023-1790,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-1790,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-1790,Container ses/7.1/ceph/prometheus-server:latest-2023-1790,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-1790,Container ses/7.1/cephcsi/cephcsi:latest-2023-1790,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2023-1790,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2023-1790,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2023-1790,Container ses/7.1/rook/ceph:latest-2023-1790,Container suse/sle-micro-rancher/5.2:latest-2023-1790,Container suse/sle-micro/5.1/toolbox:latest-2023-1790,Container suse/sle-micro/5.2/toolbox:latest-2023-1790,Container suse/sle15:15.2-2023-1790,Container suse/sle15:15.3-2023-1790,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-1790,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-1790,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-1790,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-1790,SUSE-2023-1790,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-1790,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-1790,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-1790,SUSE-SLE-Product-RT-15-SP3-2023-1790,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-1790,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-1790,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-1790,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-1790,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-1790,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-1790,SUSE-SUSE-MicroOS-5.1-2023-1790,SUSE-SUSE-MicroOS-5.2-2023-1790,SUSE-Storage-7-2023-1790,SUSE-Storage-7.1-2023-1790",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2023-1790,Container ses/7.1/ceph/haproxy:latest-2023-1790,Container ses/7.1/ceph/keepalived:latest-2023-1790,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-1790,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-1790,Container ses/7.1/ceph/prometheus-server:latest-2023-1790,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-1790,Container ses/7.1/cephcsi/cephcsi:latest-2023-1790,Container ses/7.1/cephcsi/csi-attacher:v3.5.0-2023-1790,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2023-1790,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2023-1790,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2023-1790,Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1-2023-1790,Container ses/7.1/rook/ceph:latest-2023-1790,Container suse/sle-micro-rancher/5.2:latest-2023-1790,Container suse/sle-micro/5.1/toolbox:latest-2023-1790,Container suse/sle-micro/5.2/toolbox:latest-2023-1790,Container suse/sle15:15.2-2023-1790,Container suse/sle15:15.3-2023-1790,Container trento/trento-wanda:latest-2023-1790,Container trento/trento-web:latest-2023-1790,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-1790,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-1790,Image SLES15-SP3-CHOST-BYOS-Aliyun-2023-1790,Image SLES15-SP3-CHOST-BYOS-Azure-2023-1790,Image SLES15-SP3-CHOST-BYOS-EC2-2023-1790,Image SLES15-SP3-CHOST-BYOS-GCE-2023-1790,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2023-1790,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-1790,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-1790,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-1790,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-1790,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-1790,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-1790,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-1790,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-1790,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-1790,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-1790,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-1790,SUSE-2023-1790,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-1790,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-1790,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-1790,SUSE-SLE-Product-RT-15-SP3-2023-1790,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-1790,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-1790,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-1790,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-1790,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-1790,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-1790,SUSE-SUSE-MicroOS-5.1-2023-1790,SUSE-SUSE-MicroOS-5.2-2023-1790,SUSE-Storage-7-2023-1790,SUSE-Storage-7.1-2023-1790",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,6 +40,21 @@
     "Relationships": [
       {
         "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
         "RelationType": "Default Component Of"
       },
@@ -51,6 +66,21 @@
       {
         "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -130,6 +160,21 @@
       },
       {
         "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v3.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v3.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v3.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
         "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1",
         "RelationType": "Default Component Of"
       },
@@ -171,6 +216,21 @@
       {
         "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
         "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-resizer:v1.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1",
         "RelationType": "Default Component Of"
       },
       {
@@ -260,12 +320,152 @@
       },
       {
         "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container trento/trento-wanda:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container trento/trento-wanda:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
         "RelationType": "Default Component Of"
       },
       {
@@ -290,12 +490,52 @@
       },
       {
         "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.62.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -806,7 +1046,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-0464",
-      "Description": "A security vulnerability has been identified in all supported versions of OpenSSL related to the verification of X.509 certificate chains that include policy constraints. Attackers may be able to exploit this vulnerability by creating a malicious certificate chain that triggers exponential use of computational resources, leading to a denial-of-service (DoS) attack on affected systems. Policy processing is disabled by default but can be enabled by passing the `-policy' argument to the command line utilities or by calling the `X509_VERIFY_PARAM_set1_policies()' function.",
+      "Description": "A security vulnerability has been identified in all supported versions\n\nof OpenSSL related to the verification of X.509 certificate chains\nthat include policy constraints.  Attackers may be able to exploit this\nvulnerability by creating a malicious certificate chain that triggers\nexponential use of computational resources, leading to a denial-of-service\n(DoS) attack on affected systems.\n\nPolicy processing is disabled by default but can be enabled by passing\nthe `-policy' argument to the command line utilities or by calling the\n`X509_VERIFY_PARAM_set1_policies()' function.",
       "Threats": [
         {
           "Type": "Impact",
@@ -827,9 +1067,15 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/grafana:latest:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -845,6 +1091,9 @@
             "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -854,6 +1103,9 @@
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -871,14 +1123,50 @@
             "Container suse/sle15:15.3:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container suse/sle15:15.3:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container suse/sle15:15.3:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-wanda:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-wanda:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container trento/trento-web:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-web:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-32bit-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl1_1-1.1.1d-150200.11.62.1",
@@ -994,15 +1282,25 @@
         {
           "URL": "https://bugzilla.suse.com/1209878",
           "Description": "SUSE Bug 1209878"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1212331",
+          "Description": "SUSE Bug 1212331"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/grafana:latest:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -1018,6 +1316,9 @@
             "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -1027,6 +1328,9 @@
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -1044,14 +1348,50 @@
             "Container suse/sle15:15.3:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container suse/sle15:15.3:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container suse/sle15:15.3:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-wanda:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-wanda:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container trento/trento-web:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-web:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-32bit-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl1_1-1.1.1d-150200.11.62.1",
@@ -1173,9 +1513,15 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/grafana:latest:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/haproxy:latest:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/ceph/keepalived:latest:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -1191,6 +1537,9 @@
             "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -1200,6 +1549,9 @@
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:openssl-1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container ses/7.1/rook/ceph:latest:openssl-1_1-1.1.1d-150200.11.62.1",
@@ -1217,14 +1569,50 @@
             "Container suse/sle15:15.3:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Container suse/sle15:15.3:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
             "Container suse/sle15:15.3:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-wanda:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-wanda:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Container trento/trento-web:latest:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Container trento/trento-web:latest:libopenssl1_1-hmac-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.62.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.62.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-32bit-1.1.1d-150200.11.62.1",
             "SUSE Enterprise Storage 7.1:libopenssl1_1-1.1.1d-150200.11.62.1",

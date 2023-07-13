@@ -31,13 +31,113 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-1769,SUSE-SLE-Module-Web-Scripting-15-SP4-2023-1769,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-1769,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-1769,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-1769,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-1769,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-1769,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-1769,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-1769,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-1769,SUSE-Storage-7-2023-1769,SUSE-Storage-7.1-2023-1769,openSUSE-SLE-15.4-2023-1769",
+      "Text": "Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-1769,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-1769,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-1769,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-1769,SUSE-2023-1769,SUSE-SLE-Module-Web-Scripting-15-SP4-2023-1769,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-1769,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-1769,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-1769,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-1769,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-1769,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-1769,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-1769,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-1769,SUSE-Storage-7-2023-1769,SUSE-Storage-7.1-2023-1769,openSUSE-SLE-15.4-2023-1769",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "tomcat-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-el-3_0-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-lib-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-el-3_0-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-lib-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-el-3_0-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-lib-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-el-3_0-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-lib-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "tomcat-9.0.43-150200.35.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7",
@@ -513,7 +613,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-24998",
-      "Description": "Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads. Note that, like all of the file upload limits, the new configuration option (FileUploadBase#setFileCountMax) is not enabled by default and must be explicitly configured.",
+      "Description": "Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.\n\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -532,12 +632,36 @@
         {
           "URL": "https://bugzilla.suse.com/1210310",
           "Description": "SUSE Bug 1210310"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211608",
+          "Description": "SUSE Bug 1211608"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-el-3_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-lib-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-el-3_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-lib-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-el-3_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-lib-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-el-3_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-lib-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-servlet-4_0-api-9.0.43-150200.35.1",
             "SUSE Enterprise Storage 7.1:tomcat-9.0.43-150200.35.1",
             "SUSE Enterprise Storage 7.1:tomcat-admin-webapps-9.0.43-150200.35.1",
             "SUSE Enterprise Storage 7.1:tomcat-el-3_0-api-9.0.43-150200.35.1",
@@ -654,6 +778,26 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-el-3_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-lib-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-el-3_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-lib-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-el-3_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-lib-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:tomcat-servlet-4_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-el-3_0-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-jsp-2_3-api-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-lib-9.0.43-150200.35.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:tomcat-servlet-4_0-api-9.0.43-150200.35.1",
             "SUSE Enterprise Storage 7.1:tomcat-9.0.43-150200.35.1",
             "SUSE Enterprise Storage 7.1:tomcat-admin-webapps-9.0.43-150200.35.1",
             "SUSE Enterprise Storage 7.1:tomcat-el-3_0-api-9.0.43-150200.35.1",

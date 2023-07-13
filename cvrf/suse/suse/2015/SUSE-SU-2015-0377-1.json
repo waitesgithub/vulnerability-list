@@ -86,6 +86,14 @@
       "Description": "SUSE CVE CVE-2014-8139 page"
     },
     {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8140/",
+      "Description": "SUSE CVE CVE-2014-8140 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8141/",
+      "Description": "SUSE CVE CVE-2014-8141 page"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2014-9636/",
       "Description": "SUSE CVE CVE-2014-9636 page"
     }
@@ -104,6 +112,82 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2014-8139.html",
           "Description": "CVE-2014-8139"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/909214",
+          "Description": "SUSE Bug 909214"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/915880",
+          "Description": "SUSE Bug 915880"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:unzip-6.00-11.13.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:unzip-6.00-11.13.1",
+            "SUSE Linux Enterprise Server 11 SP3:unzip-6.00-11.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:unzip-6.00-11.13.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8140",
+      "Description": "Heap-based buffer overflow in the test_compr_eb function in Info-ZIP UnZip 6.0 and earlier allows remote attackers to execute arbitrary code via a crafted zip file in the -t command argument to the unzip command.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8140.html",
+          "Description": "CVE-2014-8140"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/909214",
+          "Description": "SUSE Bug 909214"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/914442",
+          "Description": "SUSE Bug 914442"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/915880",
+          "Description": "SUSE Bug 915880"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:unzip-6.00-11.13.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:unzip-6.00-11.13.1",
+            "SUSE Linux Enterprise Server 11 SP3:unzip-6.00-11.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:unzip-6.00-11.13.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8141",
+      "Description": "Heap-based buffer overflow in the getZip64Data function in Info-ZIP UnZip 6.0 and earlier allows remote attackers to execute arbitrary code via a crafted zip file in the -t command argument to the unzip command.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8141.html",
+          "Description": "CVE-2014-8141"
         },
         {
           "URL": "https://bugzilla.suse.com/909214",

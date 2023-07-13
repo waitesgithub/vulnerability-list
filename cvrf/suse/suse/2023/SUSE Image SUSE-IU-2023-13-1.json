@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-05-10T06:28:43Z",
+        "Date": "2023-07-13T06:38:26Z",
         "Description": "current"
       }
     ]
@@ -3154,7 +3154,7 @@
     },
     {
       "CVE": "CVE-2022-2598",
-      "Description": "Undefined Behavior for Input to API in GitHub repository vim/vim prior to 9.0.0100.",
+      "Description": "Out-of-bounds Write to API in GitHub repository vim/vim prior to 9.0.0100.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -3305,7 +3305,7 @@
     },
     {
       "CVE": "CVE-2022-2845",
-      "Description": "Buffer Over-read in GitHub repository vim/vim prior to 9.0.0218.",
+      "Description": "Improper Validation of Specified Quantity in Input in GitHub repository vim/vim prior to 9.0.0218.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -5070,7 +5070,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5802,7 +5802,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": null,

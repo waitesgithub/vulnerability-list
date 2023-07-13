@@ -219,6 +219,14 @@
       "Description": "SUSE Bug 1114059"
     },
     {
+      "URL": "https://bugzilla.suse.com/1114157",
+      "Description": "SUSE Bug 1114157"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1114169",
+      "Description": "SUSE Bug 1114169"
+    },
+    {
       "URL": "https://bugzilla.suse.com/1117759",
       "Description": "SUSE Bug 1117759"
     },
@@ -271,11 +279,149 @@
       "Description": "SUSE Bug 1130658"
     },
     {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-10851/",
+      "Description": "SUSE CVE CVE-2018-10851 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-14626/",
+      "Description": "SUSE CVE CVE-2018-14626 page"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2018-17197/",
       "Description": "SUSE CVE CVE-2018-17197 page"
     }
   ],
   "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-10851",
+      "Description": "PowerDNS Authoritative Server 3.3.0 up to 4.1.4 excluding 4.1.5 and 4.0.6, and PowerDNS Recursor 3.2 up to 4.1.4 excluding 4.1.5 and 4.0.9, are vulnerable to a memory leak while parsing malformed records that can lead to remote denial of service.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-10851.html",
+          "Description": "CVE-2018-10851"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1114157",
+          "Description": "SUSE Bug 1114157"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1114169",
+          "Description": "SUSE Bug 1114169"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1114170",
+          "Description": "SUSE Bug 1114170"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Manager Proxy 3.1:spacewalk-base-minimal-2.7.1.21-2.35.1",
+            "SUSE Manager Proxy 3.1:spacewalk-base-minimal-config-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:cobbler-2.6.6-5.25.1",
+            "SUSE Manager Server 3.1:py26-compat-salt-2016.11.10-1.19.3",
+            "SUSE Manager Server 3.1:spacecmd-2.7.8.15-2.32.1",
+            "SUSE Manager Server 3.1:spacewalk-base-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:spacewalk-base-minimal-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:spacewalk-base-minimal-config-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:spacewalk-branding-2.7.2.17-2.31.3",
+            "SUSE Manager Server 3.1:spacewalk-html-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:spacewalk-java-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-java-config-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-java-lib-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-java-oracle-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-java-postgresql-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-taskomatic-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-utils-2.7.10.11-2.23.3",
+            "SUSE Manager Server 3.1:subscription-matcher-0.22-4.9.2",
+            "SUSE Manager Server 3.1:susemanager-3.1.19-2.34.2",
+            "SUSE Manager Server 3.1:susemanager-advanced-topics_en-pdf-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-best-practices_en-pdf-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-docs_en-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-frontend-libs-3.1.2-3.10.1",
+            "SUSE Manager Server 3.1:susemanager-getting-started_en-pdf-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-jsp_en-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-reference_en-pdf-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-schema-3.1.21-2.36.1",
+            "SUSE Manager Server 3.1:susemanager-tools-3.1.19-2.34.2",
+            "SUSE Manager Server 3.1:tika-core-1.20-1.6.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2018-14626",
+      "Description": "PowerDNS Authoritative Server 4.1.0 up to 4.1.4 inclusive and PowerDNS Recursor 4.0.0 up to 4.1.4 inclusive are vulnerable to a packet cache pollution via crafted query that can lead to denial of service.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-14626.html",
+          "Description": "CVE-2018-14626"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1114157",
+          "Description": "SUSE Bug 1114157"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1114169",
+          "Description": "SUSE Bug 1114169"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1114170",
+          "Description": "SUSE Bug 1114170"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Manager Proxy 3.1:spacewalk-base-minimal-2.7.1.21-2.35.1",
+            "SUSE Manager Proxy 3.1:spacewalk-base-minimal-config-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:cobbler-2.6.6-5.25.1",
+            "SUSE Manager Server 3.1:py26-compat-salt-2016.11.10-1.19.3",
+            "SUSE Manager Server 3.1:spacecmd-2.7.8.15-2.32.1",
+            "SUSE Manager Server 3.1:spacewalk-base-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:spacewalk-base-minimal-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:spacewalk-base-minimal-config-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:spacewalk-branding-2.7.2.17-2.31.3",
+            "SUSE Manager Server 3.1:spacewalk-html-2.7.1.21-2.35.1",
+            "SUSE Manager Server 3.1:spacewalk-java-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-java-config-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-java-lib-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-java-oracle-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-java-postgresql-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-taskomatic-2.7.46.19-2.41.3",
+            "SUSE Manager Server 3.1:spacewalk-utils-2.7.10.11-2.23.3",
+            "SUSE Manager Server 3.1:subscription-matcher-0.22-4.9.2",
+            "SUSE Manager Server 3.1:susemanager-3.1.19-2.34.2",
+            "SUSE Manager Server 3.1:susemanager-advanced-topics_en-pdf-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-best-practices_en-pdf-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-docs_en-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-frontend-libs-3.1.2-3.10.1",
+            "SUSE Manager Server 3.1:susemanager-getting-started_en-pdf-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-jsp_en-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-reference_en-pdf-3.1-10.29.4",
+            "SUSE Manager Server 3.1:susemanager-schema-3.1.21-2.36.1",
+            "SUSE Manager Server 3.1:susemanager-tools-3.1.19-2.34.2",
+            "SUSE Manager Server 3.1:tika-core-1.20-1.6.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
     {
       "CVE": "CVE-2018-17197",
       "Description": "A carefully crafted or corrupt sqlite file can cause an infinite loop in Apache Tika's SQLite3Parser in versions 1.8-1.19.1 of Apache Tika.",

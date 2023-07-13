@@ -134,6 +134,18 @@
       "Description": "SUSE Security Ratings"
     },
     {
+      "URL": "https://bugzilla.suse.com/824517",
+      "Description": "SUSE Bug 824517"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/849596",
+      "Description": "SUSE Bug 849596"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/858673",
+      "Description": "SUSE Bug 858673"
+    },
+    {
       "URL": "https://bugzilla.suse.com/868627",
       "Description": "SUSE Bug 868627"
     },
@@ -146,15 +158,230 @@
       "Description": "SUSE Bug 870444"
     },
     {
+      "URL": "https://bugzilla.suse.com/927174",
+      "Description": "SUSE Bug 927174"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/927556",
+      "Description": "SUSE Bug 927556"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/927746",
+      "Description": "SUSE Bug 927746"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/928533",
+      "Description": "SUSE Bug 928533"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-2174/",
+      "Description": "SUSE CVE CVE-2013-2174 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-4545/",
+      "Description": "SUSE CVE CVE-2013-4545 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0015/",
+      "Description": "SUSE CVE CVE-2014-0015 page"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2014-0138/",
       "Description": "SUSE CVE CVE-2014-0138 page"
     },
     {
       "URL": "https://www.suse.com/security/cve/CVE-2014-0139/",
       "Description": "SUSE CVE CVE-2014-0139 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-3143/",
+      "Description": "SUSE CVE CVE-2015-3143 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-3148/",
+      "Description": "SUSE CVE CVE-2015-3148 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-3153/",
+      "Description": "SUSE CVE CVE-2015-3153 page"
     }
   ],
   "Vulnerabilities": [
+    {
+      "CVE": "CVE-2013-2174",
+      "Description": "Heap-based buffer overflow in the curl_easy_unescape function in lib/escape.c in cURL and libcurl 7.7 through 7.30.0 allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted string ending in a \"%\" (percent) character.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-2174.html",
+          "Description": "CVE-2013-2174"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/824517",
+          "Description": "SUSE Bug 824517"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/917692",
+          "Description": "SUSE Bug 917692"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libcurl-devel-7.19.7-1.38.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-4545",
+      "Description": "cURL and libcurl 7.18.0 through 7.32.0, when built with OpenSSL, disables the certificate CN and SAN name field verification (CURLOPT_SSL_VERIFYHOST) when the digital signature verification (CURLOPT_SSL_VERIFYPEER) is disabled, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-4545.html",
+          "Description": "CVE-2013-4545"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849596",
+          "Description": "SUSE Bug 849596"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/870444",
+          "Description": "SUSE Bug 870444"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/880252",
+          "Description": "SUSE Bug 880252"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882520",
+          "Description": "SUSE Bug 882520"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/924250",
+          "Description": "SUSE Bug 924250"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libcurl-devel-7.19.7-1.38.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0015",
+      "Description": "cURL and libcurl 7.10.6 through 7.34.0, when more than one authentication method is enabled, re-uses NTLM connections, which might allow context-dependent attackers to authenticate as other users via a request.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0015.html",
+          "Description": "CVE-2014-0015"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/858673",
+          "Description": "SUSE Bug 858673"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/868627",
+          "Description": "SUSE Bug 868627"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/880252",
+          "Description": "SUSE Bug 880252"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882520",
+          "Description": "SUSE Bug 882520"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/927556",
+          "Description": "SUSE Bug 927556"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/962983",
+          "Description": "SUSE Bug 962983"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libcurl-devel-7.19.7-1.38.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "2.1",
+        "Vector": "AV:N/AC:H/Au:S/C:P/I:N/A:N"
+      }
+    },
     {
       "CVE": "CVE-2014-0138",
       "Description": "The default configuration in cURL and libcurl 7.10.6 before 7.36.0 re-uses (1) SCP, (2) SFTP, (3) POP3, (4) POP3S, (5) IMAP, (6) IMAPS, (7) SMTP, (8) SMTPS, (9) LDAP, and (10) LDAPS connections, which might allow context-dependent attackers to connect as other users via a request, a similar issue to CVE-2014-0015.",
@@ -232,6 +459,146 @@
         {
           "URL": "https://bugzilla.suse.com/882520",
           "Description": "SUSE Bug 882520"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libcurl-devel-7.19.7-1.38.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-3143",
+      "Description": "cURL and libcurl 7.10.6 through 7.41.0 does not properly re-use NTLM connections, which allows remote attackers to connect as other users via an unauthenticated request, a similar issue to CVE-2014-0015.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-3143.html",
+          "Description": "CVE-2015-3143"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/927556",
+          "Description": "SUSE Bug 927556"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libcurl-devel-7.19.7-1.38.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-3148",
+      "Description": "cURL and libcurl 7.10.6 through 7.41.0 do not properly re-use authenticated Negotiate connections, which allows remote attackers to connect as other users via a request.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-3148.html",
+          "Description": "CVE-2015-3148"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1092962",
+          "Description": "SUSE Bug 1092962"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/927746",
+          "Description": "SUSE Bug 927746"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:curl-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-32bit-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libcurl4-x86-7.19.7-1.38.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libcurl-devel-7.19.7-1.38.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-3153",
+      "Description": "The default configuration for cURL and libcurl before 7.42.1 sends custom HTTP headers to both the proxy and destination server, which might allow remote proxy servers to obtain sensitive information by reading the header contents.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-3153.html",
+          "Description": "CVE-2015-3153"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/928533",
+          "Description": "SUSE Bug 928533"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/951391",
+          "Description": "SUSE Bug 951391"
         }
       ],
       "ProductStatuses": [

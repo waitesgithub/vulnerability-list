@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2017:1444-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2017-05-30T11:19:08Z",
-    "CurrentReleaseDate": "2017-05-30T11:19:08Z",
+    "InitialReleaseDate": "2017-05-30T11:19:09Z",
+    "CurrentReleaseDate": "2017-05-30T11:19:09Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2017-05-30T11:19:08Z",
+        "Date": "2017-05-30T11:19:09Z",
         "Description": "current"
       }
     ]
@@ -305,6 +305,10 @@
           "Description": "SUSE Bug 1038505"
         },
         {
+          "URL": "https://bugzilla.suse.com/1062104",
+          "Description": "SUSE Bug 1062104"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1120866",
           "Description": "SUSE Bug 1120866"
         },
@@ -459,6 +463,10 @@
           "Description": "SUSE Bug 1038505"
         },
         {
+          "URL": "https://bugzilla.suse.com/1062104",
+          "Description": "SUSE Bug 1062104"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1120866",
           "Description": "SUSE Bug 1120866"
         },
@@ -530,6 +538,10 @@
         {
           "URL": "https://bugzilla.suse.com/1038505",
           "Description": "SUSE Bug 1038505"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1062104",
+          "Description": "SUSE Bug 1062104"
         },
         {
           "URL": "https://bugzilla.suse.com/1116686",
@@ -796,7 +808,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [

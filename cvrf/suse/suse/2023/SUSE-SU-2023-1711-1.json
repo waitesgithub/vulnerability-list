@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/haproxy:latest-2023-1711,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-1711,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-1711,Container ses/7.1/ceph/prometheus-server:latest-2023-1711,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-1711,Container ses/7.1/cephcsi/cephcsi:latest-2023-1711,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2023-1711,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2023-1711,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2023-1711,Container ses/7.1/rook/ceph:latest-2023-1711,Container suse/sle-micro-rancher/5.2:latest-2023-1711,Container suse/sle-micro/5.1/toolbox:latest-2023-1711,Container suse/sle-micro/5.2/toolbox:latest-2023-1711,Container suse/sle15:15.2-2023-1711,Container suse/sle15:15.3-2023-1711,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-1711,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-1711,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-1711,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-1711,SUSE-2023-1711,SUSE-SLE-Product-RT-15-SP3-2023-1711,SUSE-SUSE-MicroOS-5.1-2023-1711,SUSE-SUSE-MicroOS-5.2-2023-1711",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2023-1711,Container ses/7.1/ceph/haproxy:latest-2023-1711,Container ses/7.1/ceph/keepalived:latest-2023-1711,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-1711,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-1711,Container ses/7.1/ceph/prometheus-server:latest-2023-1711,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-1711,Container ses/7.1/cephcsi/cephcsi:latest-2023-1711,Container ses/7.1/cephcsi/csi-attacher:v3.5.0-2023-1711,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2023-1711,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2023-1711,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2023-1711,Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1-2023-1711,Container ses/7.1/rook/ceph:latest-2023-1711,Container suse/sle-micro-rancher/5.2:latest-2023-1711,Container suse/sle-micro/5.1/toolbox:latest-2023-1711,Container suse/sle-micro/5.2/toolbox:latest-2023-1711,Container suse/sle15:15.2-2023-1711,Container suse/sle15:15.3-2023-1711,Container trento/trento-wanda:latest-2023-1711,Container trento/trento-web:latest-2023-1711,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-1711,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-1711,Image SLES15-SP3-CHOST-BYOS-Aliyun-2023-1711,Image SLES15-SP3-CHOST-BYOS-Azure-2023-1711,Image SLES15-SP3-CHOST-BYOS-EC2-2023-1711,Image SLES15-SP3-CHOST-BYOS-GCE-2023-1711,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2023-1711,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-1711,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-1711,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-1711,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-1711,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-1711,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-1711,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-1711,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-1711,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-1711,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-1711,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-1711,SUSE-2023-1711,SUSE-SLE-Product-RT-15-SP3-2023-1711,SUSE-SUSE-MicroOS-5.1-2023-1711,SUSE-SUSE-MicroOS-5.2-2023-1711",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,7 +40,17 @@
     "Relationships": [
       {
         "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -70,6 +80,11 @@
       },
       {
         "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v3.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
         "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1",
         "RelationType": "Default Component Of"
       },
@@ -81,6 +96,11 @@
       {
         "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
         "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-resizer:v1.5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1",
         "RelationType": "Default Component Of"
       },
       {
@@ -124,6 +144,116 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Container trento/trento-wanda:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "curl-7.66.0-150200.4.52.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
         "RelationType": "Default Component Of"
@@ -131,6 +261,16 @@
       {
         "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
         "RelationType": "Default Component Of"
       },
       {
@@ -155,12 +295,42 @@
       },
       {
         "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.52.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -291,15 +461,19 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/haproxy:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/ceph/keepalived:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-node-exporter:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-provisioner:v3.2.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/rook/ceph:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:curl-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:libcurl4-7.66.0-150200.4.52.1",
@@ -308,14 +482,44 @@
             "Container suse/sle15:15.2:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:curl-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-wanda:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-web:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:curl-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.2:curl-7.66.0-150200.4.52.1",
@@ -352,15 +556,19 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/haproxy:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/ceph/keepalived:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-node-exporter:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-provisioner:v3.2.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/rook/ceph:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:curl-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:libcurl4-7.66.0-150200.4.52.1",
@@ -369,14 +577,44 @@
             "Container suse/sle15:15.2:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:curl-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-wanda:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-web:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:curl-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.2:curl-7.66.0-150200.4.52.1",
@@ -413,15 +651,19 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/haproxy:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/ceph/keepalived:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-node-exporter:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-provisioner:v3.2.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/rook/ceph:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:curl-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:libcurl4-7.66.0-150200.4.52.1",
@@ -430,14 +672,44 @@
             "Container suse/sle15:15.2:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:curl-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-wanda:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-web:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:curl-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.2:curl-7.66.0-150200.4.52.1",
@@ -474,15 +746,19 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/haproxy:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/ceph/keepalived:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-node-exporter:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-provisioner:v3.2.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/rook/ceph:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:curl-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:libcurl4-7.66.0-150200.4.52.1",
@@ -491,14 +767,44 @@
             "Container suse/sle15:15.2:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:curl-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-wanda:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-web:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:curl-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.2:curl-7.66.0-150200.4.52.1",
@@ -535,15 +841,19 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/haproxy:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/ceph/keepalived:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-node-exporter:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-provisioner:v3.2.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/rook/ceph:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:curl-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:libcurl4-7.66.0-150200.4.52.1",
@@ -552,14 +862,44 @@
             "Container suse/sle15:15.2:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:curl-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-wanda:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-web:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:curl-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.2:curl-7.66.0-150200.4.52.1",
@@ -596,15 +936,19 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/haproxy:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/ceph/keepalived:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-alertmanager:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-node-exporter:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/cephcsi:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v3.5.0:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-provisioner:v3.2.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/cephcsi/csi-resizer:v1.5.0:libcurl4-7.66.0-150200.4.52.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1:libcurl4-7.66.0-150200.4.52.1",
             "Container ses/7.1/rook/ceph:latest:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:curl-7.66.0-150200.4.52.1",
             "Container suse/sle-micro-rancher/5.2:latest:libcurl4-7.66.0-150200.4.52.1",
@@ -613,14 +957,44 @@
             "Container suse/sle15:15.2:libcurl4-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:curl-7.66.0-150200.4.52.1",
             "Container suse/sle15:15.3:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-wanda:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Container trento/trento-web:latest:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libcurl4-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:curl-7.66.0-150200.4.52.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:curl-7.66.0-150200.4.52.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:curl-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.1:libcurl4-7.66.0-150200.4.52.1",
             "SUSE Linux Enterprise Micro 5.2:curl-7.66.0-150200.4.52.1",

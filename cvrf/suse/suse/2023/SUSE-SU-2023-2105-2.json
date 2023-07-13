@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2105,SUSE-SLE-Product-RT-15-SP3-2023-2105",
+      "Text": "Container bci/golang:latest-2023-2105,SUSE-2023-2105,SUSE-SLE-Product-RT-15-SP3-2023-2105",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "go1.20-1.20.4-150000.1.11.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "go1.20-1.20.4-150000.1.11.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
@@ -161,6 +166,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -175,7 +181,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -192,6 +198,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -223,6 +230,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -237,7 +245,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -254,6 +262,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -264,7 +273,7 @@
     },
     {
       "CVE": "CVE-2023-24539",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Angle brackets (\u003c\u003e) are not considered dangerous characters when inserted into CSS contexts. Templates containing multiple actions separated by a '/' character can result in unexpectedly closing the CSS context and allowing for injection of unexpected HTML, if executed with untrusted input.",
       "Threats": [
         {
           "Type": "Impact",
@@ -285,6 +294,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -295,11 +305,11 @@
     },
     {
       "CVE": "CVE-2023-24540",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Not all valid JavaScript whitespace characters are considered to be whitespace. Templates containing whitespace characters outside of the character set \"\\t\\n\\f\\r\\u0020\\u2028\\u2029\" in JavaScript contexts that also contain actions may not be properly sanitized during execution.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -316,6 +326,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -326,7 +337,7 @@
     },
     {
       "CVE": "CVE-2023-29400",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Templates containing actions in unquoted HTML attributes (e.g. \"attr={{.}}\") executed with empty input can result in output with unexpected results when parsed due to HTML normalization rules. This may allow injection of arbitrary attributes into tags.",
       "Threats": [
         {
           "Type": "Impact",
@@ -347,6 +358,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"

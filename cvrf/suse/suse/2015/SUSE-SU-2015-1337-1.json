@@ -194,6 +194,30 @@
       "Description": "SUSE Bug 831119"
     },
     {
+      "URL": "https://bugzilla.suse.com/906152",
+      "Description": "SUSE Bug 906152"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/917127",
+      "Description": "SUSE Bug 917127"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/918195",
+      "Description": "SUSE Bug 918195"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/926762",
+      "Description": "SUSE Bug 926762"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/931442",
+      "Description": "SUSE Bug 931442"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/932698",
+      "Description": "SUSE Bug 932698"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2012-0022/",
       "Description": "SUSE CVE CVE-2012-0022 page"
     },
@@ -204,6 +228,18 @@
     {
       "URL": "https://www.suse.com/security/cve/CVE-2013-1976/",
       "Description": "SUSE CVE CVE-2013-1976 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0227/",
+      "Description": "SUSE CVE CVE-2014-0227 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0230/",
+      "Description": "SUSE CVE CVE-2014-0230 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-7810/",
+      "Description": "SUSE CVE CVE-2014-7810 page"
     }
   ],
   "Vulnerabilities": [
@@ -343,6 +379,174 @@
         {
           "URL": "https://bugzilla.suse.com/822177",
           "Description": "SUSE Bug 822177"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-webapps-6.0.18-20.35.42.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0227",
+      "Description": "java/org/apache/coyote/http11/filters/ChunkedInputFilter.java in Apache Tomcat 6.x before 6.0.42, 7.x before 7.0.55, and 8.x before 8.0.9 does not properly handle attempts to continue reading data after an error has occurred, which allows remote attackers to conduct HTTP request smuggling attacks or cause a denial of service (resource consumption) by streaming data with malformed chunked transfer coding.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0227.html",
+          "Description": "CVE-2014-0227"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/917127",
+          "Description": "SUSE Bug 917127"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/926762",
+          "Description": "SUSE Bug 926762"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/988489",
+          "Description": "SUSE Bug 988489"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-webapps-6.0.18-20.35.42.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0230",
+      "Description": "Apache Tomcat 6.x before 6.0.44, 7.x before 7.0.55, and 8.x before 8.0.9 does not properly handle cases where an HTTP response occurs before finishing the reading of an entire request body, which allows remote attackers to cause a denial of service (thread consumption) via a series of aborted upload attempts.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0230.html",
+          "Description": "CVE-2014-0230"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/926762",
+          "Description": "SUSE Bug 926762"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/988489",
+          "Description": "SUSE Bug 988489"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:tomcat6-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server 11 SP3:tomcat6-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-admin-webapps-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-docs-webapp-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-javadoc-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-jsp-2_1-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-lib-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-servlet-2_5-api-6.0.18-20.35.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:tomcat6-webapps-6.0.18-20.35.42.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-7810",
+      "Description": "The Expression Language (EL) implementation in Apache Tomcat 6.x before 6.0.44, 7.x before 7.0.58, and 8.x before 8.0.16 does not properly consider the possibility of an accessible interface implemented by an inaccessible class, which allows attackers to bypass a SecurityManager protection mechanism via a web application that leverages use of incorrect privileges during EL evaluation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-7810.html",
+          "Description": "CVE-2014-7810"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/931442",
+          "Description": "SUSE Bug 931442"
         }
       ],
       "ProductStatuses": [

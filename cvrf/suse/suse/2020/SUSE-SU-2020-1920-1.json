@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server-2020-1920,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server-2020-1920,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server-2020-1920,Image SLES15-SP1-SAPCAL-Azure-2020-1920,Image SLES15-SP1-SAPCAL-EC2-HVM-2020-1920,Image SLES15-SP1-SAPCAL-GCE-2020-1920,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2020-1920,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2020-1920,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2020-1920,Image SLES15-SP3-EC2-HVM-2020-1920,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2020-1920,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2020-1920,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2020-1920,Image SLES15-SP3-SAP-Azure-2020-1920,Image SLES15-SP3-SAP-EC2-HVM-2020-1920,Image SLES15-SP3-SAP-GCE-2020-1920,Image SLES15-SP3-SAPCAL-Azure-2020-1920,Image SLES15-SP3-SAPCAL-EC2-HVM-2020-1920,Image SLES15-SP3-SAPCAL-GCE-2020-1920,Image SLES15-SP4-SAP-Azure-2020-1920,Image SLES15-SP4-SAP-GCE-2020-1920,Image SLES15-SP4-SAPCAL-Azure-2020-1920,Image SLES15-SP4-SAPCAL-GCE-2020-1920,SUSE-2020-1920,SUSE-SLE-Module-Python2-15-SP1-2020-1920,SUSE-SLE-Module-Python2-15-SP2-2020-1920,SUSE-SLE-Product-HPC-15-2020-1920,SUSE-SLE-Product-SLES-15-2020-1920,SUSE-SLE-Product-SLES_SAP-15-2020-1920",
+      "Text": "Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server-2020-1920,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server-2020-1920,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server-2020-1920,Image SLES15-SP1-SAPCAL-Azure-2020-1920,Image SLES15-SP1-SAPCAL-EC2-HVM-2020-1920,Image SLES15-SP1-SAPCAL-GCE-2020-1920,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2020-1920,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2020-1920,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2020-1920,Image SLES15-SP3-EC2-HVM-2020-1920,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2020-1920,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2020-1920,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2020-1920,Image SLES15-SP3-SAP-Azure-2020-1920,Image SLES15-SP3-SAP-EC2-HVM-2020-1920,Image SLES15-SP3-SAP-GCE-2020-1920,Image SLES15-SP3-SAPCAL-Azure-2020-1920,Image SLES15-SP3-SAPCAL-EC2-HVM-2020-1920,Image SLES15-SP3-SAPCAL-GCE-2020-1920,SUSE-2020-1920,SUSE-SLE-Module-Python2-15-SP1-2020-1920,SUSE-SLE-Module-Python2-15-SP2-2020-1920,SUSE-SLE-Product-HPC-15-2020-1920,SUSE-SLE-Product-SLES-15-2020-1920,SUSE-SLE-Product-SLES_SAP-15-2020-1920",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -135,26 +135,6 @@
       },
       {
         "ProductReference": "python-ipaddress-1.0.18-3.3.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-ipaddress-1.0.18-3.3.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-ipaddress-1.0.18-3.3.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-ipaddress-1.0.18-3.3.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-ipaddress-1.0.18-3.3.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
         "RelationType": "Default Component Of"
       },
@@ -250,10 +230,6 @@
             "Image SLES15-SP3-SAPCAL-Azure:python-ipaddress-1.0.18-3.3.1",
             "Image SLES15-SP3-SAPCAL-EC2-HVM:python-ipaddress-1.0.18-3.3.1",
             "Image SLES15-SP3-SAPCAL-GCE:python-ipaddress-1.0.18-3.3.1",
-            "Image SLES15-SP4-SAP-Azure:python-ipaddress-1.0.18-3.3.1",
-            "Image SLES15-SP4-SAP-GCE:python-ipaddress-1.0.18-3.3.1",
-            "Image SLES15-SP4-SAPCAL-Azure:python-ipaddress-1.0.18-3.3.1",
-            "Image SLES15-SP4-SAPCAL-GCE:python-ipaddress-1.0.18-3.3.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:python-ipaddress-1.0.18-3.3.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:python-ipaddress-1.0.18-3.3.1",
             "SUSE Linux Enterprise Module for Python 2 15 SP1:python-ipaddress-1.0.18-3.3.1",

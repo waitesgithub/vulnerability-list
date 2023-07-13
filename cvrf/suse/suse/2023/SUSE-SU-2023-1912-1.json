@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-EC2-SAP-BYOS-2023-1912,SUSE-2023-1912,SUSE-SLE-Module-Legacy-12-2023-1912,SUSE-SLE-SAP-12-SP4-2023-1912,SUSE-SLE-SAP-12-SP5-2023-1912",
+      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-1912,Image SLES12-SP5-EC2-SAP-BYOS-2023-1912,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-1912,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-1912,SUSE-2023-1912,SUSE-SLE-Module-Legacy-12-2023-1912,SUSE-SLE-SAP-12-SP4-2023-1912,SUSE-SLE-SAP-12-SP5-2023-1912",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,7 +40,22 @@
     "Relationships": [
       {
         "ProductReference": "libopenssl0_9_8-0.9.8j-106.48.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.48.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.48.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.48.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -105,13 +120,20 @@
         {
           "URL": "https://bugzilla.suse.com/1209878",
           "Description": "SUSE Bug 1209878"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1212331",
+          "Description": "SUSE Bug 1212331"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-SAP-BYOS:libopenssl0_9_8-0.9.8j-106.48.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libopenssl0_9_8-0.9.8j-106.48.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libopenssl0_9_8-0.9.8j-106.48.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libopenssl0_9_8-0.9.8j-106.48.1",
             "SUSE Linux Enterprise Module for Legacy 12:libopenssl0_9_8-0.9.8j-106.48.1",
             "SUSE Linux Enterprise Module for Legacy 12:libopenssl0_9_8-32bit-0.9.8j-106.48.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libopenssl0_9_8-0.9.8j-106.48.1",

@@ -256,7 +256,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-0767",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "An attacker could construct a PKCS 12 cert bundle in such a way that could allow for arbitrary memory writes via PKCS 12 Safe Bag attributes being mishandled. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
@@ -311,11 +311,11 @@
     },
     {
       "CVE": "CVE-2023-25728",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "The \u003ccode\u003eContent-Security-Policy-Report-Only\u003c/code\u003e header could allow an attacker to leak a child iframe's unredacted URI when interaction with that iframe triggers a redirect. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -362,11 +362,11 @@
     },
     {
       "CVE": "CVE-2023-25729",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Permission prompts for opening external schemes were only shown for \u003ccode\u003eContentPrincipals\u003c/code\u003e resulting in extensions being able to open them without user interaction via \u003ccode\u003eExpandedPrincipals\u003c/code\u003e. This could lead to further malicious actions such as downloading files or interacting with software already installed on the system. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -413,11 +413,11 @@
     },
     {
       "CVE": "CVE-2023-25730",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A background script invoking \u003ccode\u003erequestFullscreen\u003c/code\u003e and then blocking the main thread could force the browser into fullscreen mode indefinitely, resulting in potential user confusion or spoofing attacks. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -464,11 +464,11 @@
     },
     {
       "CVE": "CVE-2023-25732",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When encoding data from an \u003ccode\u003einputStream\u003c/code\u003e in \u003ccode\u003expcom\u003c/code\u003e the size of the input being encoded was not correctly calculated potentially leading to an out of bounds memory write. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -515,11 +515,11 @@
     },
     {
       "CVE": "CVE-2023-25734",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "After downloading a Windows \u003ccode\u003e.url\u003c/code\u003e shortcut from the local filesystem, an attacker could supply a remote path that would lead to unexpected network requests from the operating system. This also had the potential to leak NTLM credentials to the resource.\u003cbr\u003e*This bug only affects Firefox on Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -566,11 +566,11 @@
     },
     {
       "CVE": "CVE-2023-25735",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Cross-compartment wrappers wrapping a scripted proxy could have caused objects from other compartments to be stored in the main compartment resulting in a use-after-free after unwrapping the proxy. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -617,11 +617,11 @@
     },
     {
       "CVE": "CVE-2023-25737",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "An invalid downcast from \u003ccode\u003ensTextNode\u003c/code\u003e to \u003ccode\u003eSVGElement\u003c/code\u003e could have lead to undefined behavior. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -668,11 +668,11 @@
     },
     {
       "CVE": "CVE-2023-25738",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Members of the \u003ccode\u003eDEVMODEW\u003c/code\u003e struct set by the printer device driver weren't being validated and could have resulted in invalid values which in turn would cause the browser to attempt out of bounds access to related variables.\u003cbr\u003e*This bug only affects Firefox on Windows. Other operating systems are unaffected.*. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -719,11 +719,11 @@
     },
     {
       "CVE": "CVE-2023-25739",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Module load requests that failed were not being checked as to whether or not they were cancelled causing a use-after-free in \u003ccode\u003eScriptLoadContext\u003c/code\u003e. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -770,11 +770,11 @@
     },
     {
       "CVE": "CVE-2023-25742",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When importing a SPKI RSA public key as ECDSA P-256, the key would be handled incorrectly causing the tab to crash. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -821,11 +821,11 @@
     },
     {
       "CVE": "CVE-2023-25743",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A lack of in app notification for entering fullscreen mode could have lead to a malicious website spoofing browser chrome.\u003cbr\u003e*This bug only affects Firefox Focus. Other versions of Firefox are unaffected.*. This vulnerability affects Firefox \u003c 110 and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -872,11 +872,11 @@
     },
     {
       "CVE": "CVE-2023-25744",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Mozilla developers Kershaw Chang and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 109 and Firefox ESR 102.7. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 110 and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -923,11 +923,11 @@
     },
     {
       "CVE": "CVE-2023-25746",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Mozilla developers Philipp and Gabriele Svelto reported memory safety bugs present in Firefox ESR 102.7. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Thunderbird \u003c 102.8 and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [

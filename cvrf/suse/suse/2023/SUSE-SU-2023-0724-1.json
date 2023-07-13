@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-724,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-724,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-724,Image SLES15-SP4-SAP-Azure-2023-724,Image SLES15-SP4-SAP-GCE-2023-724,Image SLES15-SP4-SAPCAL-Azure-2023-724,Image SLES15-SP4-SAPCAL-GCE-2023-724,SUSE-2023-724,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-724,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-724,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-724,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-724,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-724,SUSE-SLE-Product-RT-15-SP3-2023-724,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-724,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-724,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-724,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-724,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-724,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-724,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-724,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-724,SUSE-Storage-7-2023-724,SUSE-Storage-7.1-2023-724,openSUSE-SLE-15.4-2023-724",
+      "Text": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-724,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-724,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-724,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-724,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-724,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-724,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-724,SUSE-2023-724,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-724,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-724,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-724,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-724,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-724,SUSE-SLE-Product-RT-15-SP3-2023-724,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-724,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-724,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-724,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-724,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-724,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-724,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-724,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-724,SUSE-Storage-7-2023-724,SUSE-Storage-7.1-2023-724,openSUSE-SLE-15.4-2023-724",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,6 +40,26 @@
     "Relationships": [
       {
         "ProductReference": "libpython2_7-1_0-2.7.18-150000.48.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-2.7.18-150000.48.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython2_7-1_0-2.7.18-150000.48.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-2.7.18-150000.48.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython2_7-1_0-2.7.18-150000.48.1",
         "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -100,82 +120,22 @@
       },
       {
         "ProductReference": "libpython2_7-1_0-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "python-base-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-xml-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libpython2_7-1_0-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "python-base-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-xml-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libpython2_7-1_0-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-base-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-xml-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libpython2_7-1_0-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-base-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-xml-2.7.18-150000.48.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -822,12 +782,20 @@
         {
           "URL": "https://bugzilla.suse.com/1205244",
           "Description": "SUSE Bug 1205244"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211488",
+          "Description": "SUSE Bug 1211488"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libpython2_7-1_0-2.7.18-150000.48.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python-base-2.7.18-150000.48.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libpython2_7-1_0-2.7.18-150000.48.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python-base-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:libpython2_7-1_0-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:python-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:python-base-2.7.18-150000.48.1",
@@ -840,22 +808,10 @@
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:python-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:python-base-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:python-xml-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-Azure:libpython2_7-1_0-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-Azure:python-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-Azure:python-base-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-Azure:python-xml-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-GCE:libpython2_7-1_0-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-GCE:python-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-GCE:python-base-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-GCE:python-xml-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-Azure:libpython2_7-1_0-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-Azure:python-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-Azure:python-base-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-Azure:python-xml-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-GCE:libpython2_7-1_0-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-GCE:python-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-GCE:python-base-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-GCE:python-xml-2.7.18-150000.48.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libpython2_7-1_0-2.7.18-150000.48.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python-base-2.7.18-150000.48.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libpython2_7-1_0-2.7.18-150000.48.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python-base-2.7.18-150000.48.1",
             "SUSE Enterprise Storage 7.1:libpython2_7-1_0-2.7.18-150000.48.1",
             "SUSE Enterprise Storage 7.1:python-2.7.18-150000.48.1",
             "SUSE Enterprise Storage 7.1:python-base-2.7.18-150000.48.1",
@@ -981,7 +937,7 @@
     },
     {
       "CVE": "CVE-2023-24329",
-      "Description": "An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
+      "Description": "An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1002,6 +958,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libpython2_7-1_0-2.7.18-150000.48.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python-base-2.7.18-150000.48.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libpython2_7-1_0-2.7.18-150000.48.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python-base-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:libpython2_7-1_0-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:python-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:python-base-2.7.18-150000.48.1",
@@ -1014,22 +974,10 @@
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:python-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:python-base-2.7.18-150000.48.1",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:python-xml-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-Azure:libpython2_7-1_0-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-Azure:python-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-Azure:python-base-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-Azure:python-xml-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-GCE:libpython2_7-1_0-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-GCE:python-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-GCE:python-base-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAP-GCE:python-xml-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-Azure:libpython2_7-1_0-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-Azure:python-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-Azure:python-base-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-Azure:python-xml-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-GCE:libpython2_7-1_0-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-GCE:python-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-GCE:python-base-2.7.18-150000.48.1",
-            "Image SLES15-SP4-SAPCAL-GCE:python-xml-2.7.18-150000.48.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libpython2_7-1_0-2.7.18-150000.48.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python-base-2.7.18-150000.48.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libpython2_7-1_0-2.7.18-150000.48.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python-base-2.7.18-150000.48.1",
             "SUSE Enterprise Storage 7.1:libpython2_7-1_0-2.7.18-150000.48.1",
             "SUSE Enterprise Storage 7.1:python-2.7.18-150000.48.1",
             "SUSE Enterprise Storage 7.1:python-base-2.7.18-150000.48.1",

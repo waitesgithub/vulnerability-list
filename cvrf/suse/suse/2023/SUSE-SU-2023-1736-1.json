@@ -138,7 +138,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-25751",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Sometimes, when invalidating JIT code while following an iterator, the newly generated code could be overwritten incorrectly. This could lead to a potentially exploitable crash. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -171,7 +171,7 @@
     },
     {
       "CVE": "CVE-2023-25752",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When accessing throttled streams, the count of available bytes needed to be checked in the calling function to be within bounds. This may have lead future code to be incorrect and vulnerable. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -204,7 +204,7 @@
     },
     {
       "CVE": "CVE-2023-28162",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "While implementing AudioWorklets, some code may have casted one type to another, invalid, dynamic type. This could have led to a potentially exploitable crash. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -237,7 +237,7 @@
     },
     {
       "CVE": "CVE-2023-28163",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When downloading files through the Save As dialog on Windows with suggested filenames containing environment variable names, Windows would have resolved those in the context of the current user. \u003cbr\u003e*This bug only affects Firefox on Windows. Other versions of Firefox are unaffected.*. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -270,7 +270,7 @@
     },
     {
       "CVE": "CVE-2023-28164",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Dragging a URL from a cross-origin iframe that was removed during the drag could have led to user confusion and website spoofing attacks. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -303,7 +303,7 @@
     },
     {
       "CVE": "CVE-2023-28176",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Mozilla developers Timothy Nikkel, Andrew McCreight, and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 110 and Firefox ESR 102.8. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",

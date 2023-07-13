@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-728,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-728,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-728,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-728",
+      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-728,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-728,SUSE-2023-728,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-728,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-728,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-728",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "MozillaFirefox-102.9.0-150000.150.79.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.9.0-150000.150.79.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "MozillaFirefox-102.9.0-150000.150.79.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
@@ -173,7 +183,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-25748",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "By displaying a prompt with a long description, the fullscreen notification could have been hidden, resulting in potential user confusion or spoofing attacks. \u003cbr\u003e*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox \u003c 111.",
       "Threats": [
         {
           "Type": "Impact",
@@ -190,6 +200,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -209,7 +221,7 @@
     },
     {
       "CVE": "CVE-2023-25749",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Android applications with unpatched vulnerabilities can be launched from a browser using Intents, exposing users to these vulnerabilities. Firefox will now confirm with users that they want to launch an external application before doing so. \u003cbr\u003e*This bug only affects Firefox for Android. Other versions of Firefox are unaffected.*. This vulnerability affects Firefox \u003c 111.",
       "Threats": [
         {
           "Type": "Impact",
@@ -226,6 +238,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -245,7 +259,7 @@
     },
     {
       "CVE": "CVE-2023-25750",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Under certain circumstances, a ServiceWorker's offline cache may have leaked to the file system when using private browsing mode. This vulnerability affects Firefox \u003c 111.",
       "Threats": [
         {
           "Type": "Impact",
@@ -262,6 +276,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -281,7 +297,7 @@
     },
     {
       "CVE": "CVE-2023-25751",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Sometimes, when invalidating JIT code while following an iterator, the newly generated code could be overwritten incorrectly. This could lead to a potentially exploitable crash. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -298,6 +314,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -317,7 +335,7 @@
     },
     {
       "CVE": "CVE-2023-25752",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When accessing throttled streams, the count of available bytes needed to be checked in the calling function to be within bounds. This may have lead future code to be incorrect and vulnerable. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -334,6 +352,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -353,7 +373,7 @@
     },
     {
       "CVE": "CVE-2023-28159",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "The fullscreen notification could have been hidden on Firefox for Android by using download popups, resulting in potential user confusion or spoofing attacks. \u003cbr\u003e*This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox \u003c 111.",
       "Threats": [
         {
           "Type": "Impact",
@@ -370,6 +390,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -389,7 +411,7 @@
     },
     {
       "CVE": "CVE-2023-28160",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When following a redirect to a publicly accessible web extension file, the URL may have been translated to the actual local path, leaking potentially sensitive information. This vulnerability affects Firefox \u003c 111.",
       "Threats": [
         {
           "Type": "Impact",
@@ -406,6 +428,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -425,7 +449,7 @@
     },
     {
       "CVE": "CVE-2023-28161",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "If temporary \"one-time\" permissions, such as the ability to use the Camera, were granted to a document loaded using a file: URL, that permission persisted in that tab for all other documents loaded from a file: URL. This is potentially dangerous if the local files came from different sources, such as in a download directory. This vulnerability affects Firefox \u003c 111.",
       "Threats": [
         {
           "Type": "Impact",
@@ -442,6 +466,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -461,7 +487,7 @@
     },
     {
       "CVE": "CVE-2023-28162",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "While implementing AudioWorklets, some code may have casted one type to another, invalid, dynamic type. This could have led to a potentially exploitable crash. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -478,6 +504,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -497,7 +525,7 @@
     },
     {
       "CVE": "CVE-2023-28163",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When downloading files through the Save As dialog on Windows with suggested filenames containing environment variable names, Windows would have resolved those in the context of the current user. \u003cbr\u003e*This bug only affects Firefox on Windows. Other versions of Firefox are unaffected.*. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -514,6 +542,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -533,7 +563,7 @@
     },
     {
       "CVE": "CVE-2023-28164",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Dragging a URL from a cross-origin iframe that was removed during the drag could have led to user confusion and website spoofing attacks. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -550,6 +580,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -569,7 +601,7 @@
     },
     {
       "CVE": "CVE-2023-28176",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Mozilla developers Timothy Nikkel, Andrew McCreight, and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 110 and Firefox ESR 102.8. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -586,6 +618,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",
@@ -605,7 +639,7 @@
     },
     {
       "CVE": "CVE-2023-28177",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Mozilla developers and community members Calixte Denizet, Gabriele Svelto, Andrew McCreight, and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 110. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 111.",
       "Threats": [
         {
           "Type": "Impact",
@@ -622,6 +656,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.9.0-150000.150.79.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.9.0-150000.150.79.1",

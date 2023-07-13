@@ -1,0 +1,181 @@
+{
+  "Title": "Security update for python36",
+  "Tracking": {
+    "ID": "SUSE-SU-2023:2473-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2023-06-08T13:54:24Z",
+    "CurrentReleaseDate": "2023-06-08T13:54:24Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2023-06-08T13:54:24Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python36",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python36 fixes the following issues:\n\n- CVE-2007-4559: Fixed filter for tarfile.extractall (bsc#1203750).\n\n- Fixed unittest.mock.patch.dict returns function when applied to coroutines (bsc#1211158).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES12-SP5-Azure-BYOS-2023-2473,Image SLES12-SP5-Azure-SAP-BYOS-2023-2473,SUSE-2023-2473,SUSE-SLE-SDK-12-SP5-2023-2473,SUSE-SLE-SERVER-12-SP5-2023-2473",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-base-3.6.15-46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-base-3.6.15-46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-32bit-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-base-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-32bit-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-base-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-devel-3.6.15-46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2023/suse-su-20232473-1/",
+      "Description": "Link for SUSE-SU-2023:2473-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2023-June/015128.html",
+      "Description": "E-Mail link for SUSE-SU-2023:2473-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203750",
+      "Description": "SUSE Bug 1203750"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1211158",
+      "Description": "SUSE Bug 1211158"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2007-4559/",
+      "Description": "SUSE CVE CVE-2007-4559 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2007-4559",
+      "Description": "Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2007-4559.html",
+          "Description": "CVE-2007-4559"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203750",
+          "Description": "SUSE Bug 1203750"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204077",
+          "Description": "SUSE Bug 1204077"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:libpython3_6m1_0-3.6.15-46.1",
+            "Image SLES12-SP5-Azure-BYOS:python36-base-3.6.15-46.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libpython3_6m1_0-3.6.15-46.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:python36-base-3.6.15-46.1",
+            "SUSE Linux Enterprise Server 12 SP5:libpython3_6m1_0-3.6.15-46.1",
+            "SUSE Linux Enterprise Server 12 SP5:libpython3_6m1_0-32bit-3.6.15-46.1",
+            "SUSE Linux Enterprise Server 12 SP5:python36-3.6.15-46.1",
+            "SUSE Linux Enterprise Server 12 SP5:python36-base-3.6.15-46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpython3_6m1_0-3.6.15-46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpython3_6m1_0-32bit-3.6.15-46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python36-3.6.15-46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python36-base-3.6.15-46.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:python36-devel-3.6.15-46.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

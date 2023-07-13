@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/bci-busybox:latest-2022-3959,SUSE-2022-3959,SUSE-SLE-Module-Basesystem-15-SP4-2022-3959,openSUSE-SLE-15.4-2022-3959",
+      "Text": "Container bci/bci-busybox:15.4-2022-3959,SUSE-2022-3959,SUSE-SLE-Module-Basesystem-15-SP4-2022-3959,openSUSE-SLE-15.4-2022-3959",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,7 +40,7 @@
     "Relationships": [
       {
         "ProductReference": "busybox-1.35.0-150400.3.3.1",
-        "RelatesToProductReference": "Container bci/bci-busybox:latest",
+        "RelatesToProductReference": "Container bci/bci-busybox:15.4",
         "RelationType": "Default Component Of"
       },
       {
@@ -277,7 +277,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -315,7 +315,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -350,7 +350,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -385,7 +385,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -423,7 +423,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -461,7 +461,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -499,7 +499,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -537,7 +537,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -575,7 +575,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -610,7 +610,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -649,7 +649,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -688,7 +688,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -723,7 +723,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -754,7 +754,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -785,7 +785,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -816,7 +816,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -847,7 +847,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -878,7 +878,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -909,7 +909,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -940,7 +940,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -971,7 +971,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -1002,7 +1002,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -1033,7 +1033,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -1064,7 +1064,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -1095,7 +1095,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -1126,7 +1126,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",
@@ -1157,7 +1157,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-busybox:latest:busybox-1.35.0-150400.3.3.1",
+            "Container bci/bci-busybox:15.4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-1.35.0-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:busybox-static-1.35.0-150400.3.3.1",
             "openSUSE Leap 15.4:busybox-1.35.0-150400.3.3.1",

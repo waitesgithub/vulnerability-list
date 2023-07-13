@@ -68,6 +68,14 @@
       "Description": "SUSE Bug 887569"
     },
     {
+      "URL": "https://bugzilla.suse.com/914702",
+      "Description": "SUSE Bug 914702"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/927281",
+      "Description": "SUSE Bug 927281"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2013-3751/",
       "Description": "SUSE CVE CVE-2013-3751 page"
     },
@@ -86,6 +94,26 @@
     {
       "URL": "https://www.suse.com/security/cve/CVE-2014-4245/",
       "Description": "SUSE CVE CVE-2014-4245 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0370/",
+      "Description": "SUSE CVE CVE-2015-0370 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0455/",
+      "Description": "SUSE CVE CVE-2015-0455 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0457/",
+      "Description": "SUSE CVE CVE-2015-0457 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0479/",
+      "Description": "SUSE CVE CVE-2015-0479 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0483/",
+      "Description": "SUSE CVE CVE-2015-0483 page"
     }
   ],
   "Vulnerabilities": [
@@ -95,7 +123,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -129,7 +157,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -234,6 +262,156 @@
         {
           "URL": "https://bugzilla.suse.com/887569",
           "Description": "SUSE Bug 887569"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Manager 1.7:oracle-update-1.7-0.27.1",
+            "SUSE Manager 2.1:oracle-update-1.7-0.27.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0370",
+      "Description": "Unspecified vulnerability in the Core RDBMS component in Oracle Database Server 11.1.0.7, 11.2.0.3, 11.2.0.4, and 12.1.0.1 allows remote authenticated users to affect integrity via unknown vectors, a different vulnerability than CVE-2013-5858.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0370.html",
+          "Description": "CVE-2015-0370"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/914702",
+          "Description": "SUSE Bug 914702"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Manager 1.7:oracle-update-1.7-0.27.1",
+            "SUSE Manager 2.1:oracle-update-1.7-0.27.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0455",
+      "Description": "Unspecified vulnerability in the XDB - XML Database component in Oracle Database Server 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect confidentiality via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0455.html",
+          "Description": "CVE-2015-0455"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/927281",
+          "Description": "SUSE Bug 927281"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Manager 1.7:oracle-update-1.7-0.27.1",
+            "SUSE Manager 2.1:oracle-update-1.7-0.27.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0457",
+      "Description": "Unspecified vulnerability in the Java VM component in Oracle Database Server 11.1.0.7, 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect confidentiality, integrity, and availability via unknown vectors, a different vulnerability than CVE-2015-2629.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0457.html",
+          "Description": "CVE-2015-0457"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/927281",
+          "Description": "SUSE Bug 927281"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Manager 1.7:oracle-update-1.7-0.27.1",
+            "SUSE Manager 2.1:oracle-update-1.7-0.27.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0479",
+      "Description": "Unspecified vulnerability in the XDK and XDB - XML Database component in Oracle Database Server 11.2.0.3, 11.2.0.4, and 12.1.0.1 allows remote authenticated users to affect availability via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0479.html",
+          "Description": "CVE-2015-0479"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/927281",
+          "Description": "SUSE Bug 927281"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Manager 1.7:oracle-update-1.7-0.27.1",
+            "SUSE Manager 2.1:oracle-update-1.7-0.27.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0483",
+      "Description": "Unspecified vulnerability in the Core RDBMS component in Oracle Database Server 11.1.0.7, 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect integrity via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0483.html",
+          "Description": "CVE-2015-0483"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/927281",
+          "Description": "SUSE Bug 927281"
         }
       ],
       "ProductStatuses": [

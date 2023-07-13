@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-1794,Image SLES12-SP5-Azure-HPC-BYOS-2023-1794,Image SLES12-SP5-Azure-HPC-On-Demand-2023-1794,Image SLES12-SP5-Azure-SAP-On-Demand-2023-1794,Image SLES12-SP5-Azure-Standard-On-Demand-2023-1794,Image SLES12-SP5-EC2-BYOS-2023-1794,Image SLES12-SP5-EC2-SAP-BYOS-2023-1794,Image SLES12-SP5-GCE-BYOS-2023-1794,Image SLES12-SP5-GCE-On-Demand-2023-1794,Image SLES12-SP5-GCE-SAP-BYOS-2023-1794,Image SLES12-SP5-GCE-SAP-On-Demand-2023-1794,SUSE-2023-1794,SUSE-OpenStack-Cloud-9-2023-1794,SUSE-OpenStack-Cloud-Crowbar-9-2023-1794,SUSE-SLE-SAP-12-SP4-2023-1794,SUSE-SLE-SDK-12-SP5-2023-1794,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-1794,SUSE-SLE-SERVER-12-SP4-LTSS-2023-1794,SUSE-SLE-SERVER-12-SP5-2023-1794",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2023-1794,Image SLES12-SP5-Azure-Basic-On-Demand-2023-1794,Image SLES12-SP5-Azure-HPC-BYOS-2023-1794,Image SLES12-SP5-Azure-HPC-On-Demand-2023-1794,Image SLES12-SP5-Azure-SAP-BYOS-2023-1794,Image SLES12-SP5-Azure-SAP-On-Demand-2023-1794,Image SLES12-SP5-Azure-Standard-On-Demand-2023-1794,Image SLES12-SP5-EC2-BYOS-2023-1794,Image SLES12-SP5-EC2-ECS-On-Demand-2023-1794,Image SLES12-SP5-EC2-On-Demand-2023-1794,Image SLES12-SP5-EC2-SAP-BYOS-2023-1794,Image SLES12-SP5-GCE-BYOS-2023-1794,Image SLES12-SP5-GCE-On-Demand-2023-1794,Image SLES12-SP5-GCE-SAP-BYOS-2023-1794,Image SLES12-SP5-GCE-SAP-On-Demand-2023-1794,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-1794,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-1794,SUSE-2023-1794,SUSE-OpenStack-Cloud-9-2023-1794,SUSE-OpenStack-Cloud-Crowbar-9-2023-1794,SUSE-SLE-SAP-12-SP4-2023-1794,SUSE-SLE-SDK-12-SP5-2023-1794,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-1794,SUSE-SLE-SERVER-12-SP4-LTSS-2023-1794,SUSE-SLE-SERVER-12-SP5-2023-1794",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
@@ -55,6 +60,11 @@
       },
       {
         "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
@@ -66,6 +76,16 @@
       {
         "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -91,6 +111,16 @@
       {
         "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -328,23 +358,33 @@
         {
           "URL": "https://bugzilla.suse.com/1209878",
           "Description": "SUSE Bug 1209878"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1212331",
+          "Description": "SUSE Bug 1212331"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-HPC-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-Standard-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-EC2-BYOS:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-EC2-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-GCE-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-GCE-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-GCE-SAP-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-2.81.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libopenssl1_1-1.1.1d-2.81.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libopenssl1_1-32bit-1.1.1d-2.81.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libopenssl1_1-hmac-1.1.1d-2.81.1",
@@ -410,17 +450,23 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-HPC-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-Azure-Standard-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-EC2-BYOS:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-EC2-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-GCE-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-GCE-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:libopenssl1_1-1.1.1d-2.81.1",
             "Image SLES12-SP5-GCE-SAP-On-Demand:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-2.81.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-2.81.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libopenssl1_1-1.1.1d-2.81.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libopenssl1_1-32bit-1.1.1d-2.81.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libopenssl1_1-hmac-1.1.1d-2.81.1",

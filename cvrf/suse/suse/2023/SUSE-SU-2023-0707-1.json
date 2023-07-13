@@ -888,6 +888,10 @@
         {
           "URL": "https://bugzilla.suse.com/1205244",
           "Description": "SUSE Bug 1205244"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211488",
+          "Description": "SUSE Bug 1211488"
         }
       ],
       "ProductStatuses": [
@@ -986,7 +990,7 @@
     },
     {
       "CVE": "CVE-2023-24329",
-      "Description": "An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
+      "Description": "An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
       "Threats": [
         {
           "Type": "Impact",

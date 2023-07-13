@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-1625,Image SLES12-SP5-Azure-Standard-On-Demand-2023-1625,Image SLES12-SP5-GCE-On-Demand-2023-1625,SUSE-2023-1625,SUSE-SLE-Module-Containers-12-2023-1625",
+      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-1625,Image SLES12-SP5-Azure-Standard-On-Demand-2023-1625,Image SLES12-SP5-EC2-ECS-On-Demand-2023-1625,Image SLES12-SP5-EC2-On-Demand-2023-1625,Image SLES12-SP5-GCE-On-Demand-2023-1625,SUSE-2023-1625,SUSE-SLE-Module-Containers-12-2023-1625",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -46,6 +46,16 @@
       {
         "ProductReference": "docker-20.10.23_ce-98.89.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-20.10.23_ce-98.89.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-20.10.23_ce-98.89.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -116,6 +126,8 @@
           "ProductID": [
             "Image SLES12-SP5-Azure-Basic-On-Demand:docker-20.10.23_ce-98.89.1",
             "Image SLES12-SP5-Azure-Standard-On-Demand:docker-20.10.23_ce-98.89.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:docker-20.10.23_ce-98.89.1",
+            "Image SLES12-SP5-EC2-On-Demand:docker-20.10.23_ce-98.89.1",
             "Image SLES12-SP5-GCE-On-Demand:docker-20.10.23_ce-98.89.1",
             "SUSE Linux Enterprise Module for Containers 12:docker-20.10.23_ce-98.89.1"
           ]

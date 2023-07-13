@@ -83,8 +83,16 @@
       "Description": "SUSE Bug 875455"
     },
     {
+      "URL": "https://bugzilla.suse.com/924887",
+      "Description": "SUSE Bug 924887"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2014-0114/",
       "Description": "SUSE CVE CVE-2014-0114 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0899/",
+      "Description": "SUSE CVE CVE-2015-0899 page"
     }
   ],
   "Vulnerabilities": [
@@ -113,6 +121,47 @@
         {
           "URL": "https://bugzilla.suse.com/885963",
           "Description": "SUSE Bug 885963"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:struts-1.2.9-162.33.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:struts-javadoc-1.2.9-162.33.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:struts-manual-1.2.9-162.33.1",
+            "SUSE Manager 1.7:struts-1.2.9-162.33.1",
+            "SUSE Manager 2.1:struts-1.2.9-162.33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0899",
+      "Description": "The MultiPageValidator implementation in Apache Struts 1 1.1 through 1.3.10 allows remote attackers to bypass intended access restrictions via a modified page parameter.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0899.html",
+          "Description": "CVE-2015-0899"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/924887",
+          "Description": "SUSE Bug 924887"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/983684",
+          "Description": "SUSE Bug 983684"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/983728",
+          "Description": "SUSE Bug 983728"
         }
       ],
       "ProductStatuses": [

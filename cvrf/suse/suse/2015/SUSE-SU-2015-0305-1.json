@@ -137,7 +137,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -152,6 +152,10 @@
         {
           "URL": "https://bugzilla.suse.com/880891",
           "Description": "SUSE Bug 880891"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/881743",
+          "Description": "SUSE Bug 881743"
         },
         {
           "URL": "https://bugzilla.suse.com/883126",
@@ -389,7 +393,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "critical"
         }
       ],
       "References": [

@@ -501,6 +501,10 @@
     {
       "URL": "https://www.suse.com/security/cve/CVE-2020-12426/",
       "Description": "SUSE CVE CVE-2020-12426 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-6813/",
+      "Description": "SUSE CVE CVE-2020-6813 page"
     }
   ],
   "Vulnerabilities": [
@@ -1837,6 +1841,111 @@
         {
           "URL": "https://bugzilla.suse.com/1174230",
           "Description": "SUSE Bug 1174230"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "HPE Helion OpenStack 8:MozillaFirefox-78.0.1-112.3.1",
+            "HPE Helion OpenStack 8:MozillaFirefox-branding-SLE-78-35.3.1",
+            "HPE Helion OpenStack 8:MozillaFirefox-devel-78.0.1-112.3.1",
+            "HPE Helion OpenStack 8:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.0.1-112.3.1",
+            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-35.3.1",
+            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.0.1-112.3.1",
+            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-35.3.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-78.0.1-112.3.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-branding-SLE-78-35.3.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-78.0.1-112.3.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Enterprise Storage 5:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Enterprise Storage 5:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Enterprise Storage 5:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Enterprise Storage 5:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 7:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 7:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE OpenStack Cloud 7:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 7:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 8:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 8:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE OpenStack Cloud 8:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 8:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud Crowbar 8:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud Crowbar 8:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE OpenStack Cloud Crowbar 8:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud Crowbar 8:MozillaFirefox-translations-common-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-branding-SLE-78-35.3.1",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-devel-78.0.1-112.3.1",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-78.0.1-112.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2020-6813",
+      "Description": "When protecting CSS blocks with the nonce feature of Content Security Policy, the @import statement in the CSS block could allow an attacker to inject arbitrary styles, bypassing the intent of the Content Security Policy. This vulnerability affects Firefox \u003c 74.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-6813.html",
+          "Description": "CVE-2020-6813"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1166238",
+          "Description": "SUSE Bug 1166238"
         }
       ],
       "ProductStatuses": [

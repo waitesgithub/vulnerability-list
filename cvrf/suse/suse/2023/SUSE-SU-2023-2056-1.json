@@ -423,6 +423,10 @@
         {
           "URL": "https://bugzilla.suse.com/1194331",
           "Description": "SUSE Bug 1194331"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -495,7 +499,7 @@
     },
     {
       "CVE": "CVE-2022-32885",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 15.6 and iPadOS 15.6, macOS Monterey 12.5, Safari 15.6. Processing maliciously crafted web content may lead to arbitrary code execution",
       "Threats": [
         {
           "Type": "Impact",
@@ -506,6 +510,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-32885.html",
           "Description": "CVE-2022-32885"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -771,6 +779,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208897",
           "Description": "SUSE Bug 1208897"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -858,6 +870,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208893",
           "Description": "SUSE Bug 1208893"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -945,6 +961,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208894",
           "Description": "SUSE Bug 1208894"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -1032,6 +1052,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208895",
           "Description": "SUSE Bug 1208895"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -1119,6 +1143,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208896",
           "Description": "SUSE Bug 1208896"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -1191,7 +1219,7 @@
     },
     {
       "CVE": "CVE-2023-27932",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "This issue was addressed with improved state management. This issue is fixed in macOS Ventura 13.3, tvOS 16.4, watchOS 9.4, Safari 16.4, iOS 16.4 and iPadOS 16.4. Processing maliciously crafted web content may bypass Same Origin Policy",
       "Threats": [
         {
           "Type": "Impact",
@@ -1202,6 +1230,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-27932.html",
           "Description": "CVE-2023-27932"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -1274,7 +1306,7 @@
     },
     {
       "CVE": "CVE-2023-27954",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "The issue was addressed by removing origin information. This issue is fixed in macOS Ventura 13.3, iOS 15.7.4 and iPadOS 15.7.4, tvOS 16.4, watchOS 9.4, Safari 16.4, iOS 16.4 and iPadOS 16.4. A website may be able to track sensitive user information",
       "Threats": [
         {
           "Type": "Impact",
@@ -1285,6 +1317,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-27954.html",
           "Description": "CVE-2023-27954"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [
@@ -1357,7 +1393,7 @@
     },
     {
       "CVE": "CVE-2023-28205",
-      "Description": "A use after free issue was addressed with improved memory management. This issue is fixed in iOS 15.7.5 and iPadOS 15.7.5, Safari 16.4.1, iOS 16.4.1 and iPadOS 16.4.1, macOS Ventura 13.3.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+      "Description": "A use after free issue was addressed with improved memory management. This issue is fixed in macOS Ventura 13.3.1, iOS 16.4.1 and iPadOS 16.4.1, iOS 15.7.5 and iPadOS 15.7.5, Safari 16.4.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1372,6 +1408,10 @@
         {
           "URL": "https://bugzilla.suse.com/1210295",
           "Description": "SUSE Bug 1210295"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210731",
+          "Description": "SUSE Bug 1210731"
         }
       ],
       "ProductStatuses": [

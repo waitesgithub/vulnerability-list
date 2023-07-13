@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/keepalived:latest-2022-50,Image SLES15-SP1-SAP-Azure-2022-50,Image SLES15-SP1-SAP-Azure-BYOS-2022-50,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2022-50,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2022-50,Image SLES15-SP1-SAP-EC2-HVM-2022-50,Image SLES15-SP1-SAP-EC2-HVM-BYOS-2022-50,Image SLES15-SP1-SAP-GCE-2022-50,Image SLES15-SP1-SAP-GCE-BYOS-2022-50,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2022-50,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2022-50,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2022-50,Image SLES15-SP2-SAP-Azure-2022-50,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2022-50,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2022-50,Image SLES15-SP2-SAP-BYOS-Azure-2022-50,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2022-50,Image SLES15-SP2-SAP-BYOS-GCE-2022-50,Image SLES15-SP2-SAP-EC2-HVM-2022-50,Image SLES15-SP2-SAP-GCE-2022-50,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2022-50,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2022-50,Image SLES15-SP3-SAP-BYOS-Azure-2022-50,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2022-50,Image SLES15-SP3-SAP-BYOS-GCE-2022-50,Image SLES15-SP4-SAP-Azure-LI-BYOS-2022-50,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2022-50,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2022-50,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2022-50,Image SLES15-SP4-SAP-Hardened-BYOS-2022-50,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2022-50,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2022-50,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2022-50,SUSE-2022-50,SUSE-SLE-Module-Basesystem-15-SP3-2022-50,SUSE-SLE-Module-Packagehub-Subpackages-15-SP3-2022-50,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2022-50,SUSE-SLE-Product-HPC-15-SP1-LTSS-2022-50,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-50,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-50,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-50,SUSE-Storage-6-2022-50",
+      "Text": "Container ses/7.1/ceph/keepalived:latest-2022-50,Image SLES15-SP1-SAP-Azure-2022-50,Image SLES15-SP1-SAP-Azure-BYOS-2022-50,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2022-50,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2022-50,Image SLES15-SP1-SAP-EC2-HVM-2022-50,Image SLES15-SP1-SAP-EC2-HVM-BYOS-2022-50,Image SLES15-SP1-SAP-GCE-2022-50,Image SLES15-SP1-SAP-GCE-BYOS-2022-50,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2022-50,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2022-50,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2022-50,Image SLES15-SP2-SAP-Azure-2022-50,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2022-50,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2022-50,Image SLES15-SP2-SAP-BYOS-Azure-2022-50,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2022-50,Image SLES15-SP2-SAP-BYOS-GCE-2022-50,Image SLES15-SP2-SAP-EC2-HVM-2022-50,Image SLES15-SP2-SAP-GCE-2022-50,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2022-50,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2022-50,Image SLES15-SP3-SAP-BYOS-Azure-2022-50,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2022-50,Image SLES15-SP3-SAP-BYOS-GCE-2022-50,SUSE-2022-50,SUSE-SLE-Module-Basesystem-15-SP3-2022-50,SUSE-SLE-Module-Packagehub-Subpackages-15-SP3-2022-50,SUSE-SLE-Product-HPC-15-SP1-ESPOS-2022-50,SUSE-SLE-Product-HPC-15-SP1-LTSS-2022-50,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-50,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-50,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-50,SUSE-Storage-6-2022-50",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -495,46 +495,6 @@
       },
       {
         "ProductReference": "libsnmp30-5.7.3-10.9.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsnmp30-5.7.3-10.9.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsnmp30-5.7.3-10.9.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsnmp30-5.7.3-10.9.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsnmp30-5.7.3-10.9.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsnmp30-5.7.3-10.9.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsnmp30-5.7.3-10.9.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsnmp30-5.7.3-10.9.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsnmp30-5.7.3-10.9.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 6",
         "RelationType": "Default Component Of"
       },
@@ -920,14 +880,6 @@
             "Image SLES15-SP3-SAP-BYOS-GCE:net-snmp-5.7.3-10.9.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:perl-SNMP-5.7.3-10.9.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:snmp-mibs-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Hardened-BYOS:libsnmp30-5.7.3-10.9.1",
             "SUSE Enterprise Storage 6:libsnmp30-5.7.3-10.9.1",
             "SUSE Enterprise Storage 6:net-snmp-5.7.3-10.9.1",
             "SUSE Enterprise Storage 6:net-snmp-devel-5.7.3-10.9.1",
@@ -1091,14 +1043,6 @@
             "Image SLES15-SP3-SAP-BYOS-GCE:net-snmp-5.7.3-10.9.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:perl-SNMP-5.7.3-10.9.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:snmp-mibs-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:libsnmp30-5.7.3-10.9.1",
-            "Image SLES15-SP4-SAP-Hardened-BYOS:libsnmp30-5.7.3-10.9.1",
             "SUSE Enterprise Storage 6:libsnmp30-5.7.3-10.9.1",
             "SUSE Enterprise Storage 6:net-snmp-5.7.3-10.9.1",
             "SUSE Enterprise Storage 6:net-snmp-devel-5.7.3-10.9.1",

@@ -184,6 +184,22 @@
       "Description": "SUSE Security Ratings"
     },
     {
+      "URL": "https://bugzilla.suse.com/821818",
+      "Description": "SUSE Bug 821818"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/835760",
+      "Description": "SUSE Bug 835760"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/865804",
+      "Description": "SUSE Bug 865804"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/865993",
+      "Description": "SUSE Bug 865993"
+    },
+    {
       "URL": "https://bugzilla.suse.com/880730",
       "Description": "SUSE Bug 880730"
     },
@@ -192,11 +208,209 @@
       "Description": "SUSE Bug 880910"
     },
     {
+      "URL": "https://bugzilla.suse.com/919938",
+      "Description": "SUSE Bug 919938"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/921684",
+      "Description": "SUSE Bug 921684"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2009-5138/",
+      "Description": "SUSE CVE CVE-2009-5138 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-2116/",
+      "Description": "SUSE CVE CVE-2013-2116 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0092/",
+      "Description": "SUSE CVE CVE-2014-0092 page"
+    },
+    {
       "URL": "https://www.suse.com/security/cve/CVE-2014-3466/",
       "Description": "SUSE CVE CVE-2014-3466 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8155/",
+      "Description": "SUSE CVE CVE-2014-8155 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0282/",
+      "Description": "SUSE CVE CVE-2015-0282 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-0294/",
+      "Description": "SUSE CVE CVE-2015-0294 page"
     }
   ],
   "Vulnerabilities": [
+    {
+      "CVE": "CVE-2009-5138",
+      "Description": "GnuTLS before 2.7.6, when the GNUTLS_VERIFY_ALLOW_X509_V1_CA_CRT flag is not enabled, treats version 1 X.509 certificates as intermediate CAs, which allows remote attackers to bypass intended restrictions by leveraging a X.509 V1 certificate from a trusted CA to issue new certificates, a different vulnerability than CVE-2014-1959.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2009-5138.html",
+          "Description": "CVE-2009-5138"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/865993",
+          "Description": "SUSE Bug 865993"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise High Availability Extension 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:gnutls-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-32bit-2.4.1-24.39.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-2116",
+      "Description": "The _gnutls_ciphertext2compressed function in lib/gnutls_cipher.c in GnuTLS 2.12.23 allows remote attackers to cause a denial of service (buffer over-read and crash) via a crafted padding length. NOTE: this might be due to an incorrect fix for CVE-2013-0169.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-2116.html",
+          "Description": "CVE-2013-2116"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/821818",
+          "Description": "SUSE Bug 821818"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise High Availability Extension 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:gnutls-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-32bit-2.4.1-24.39.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0092",
+      "Description": "lib/x509/verify.c in GnuTLS before 3.1.22 and 3.2.x before 3.2.12 does not properly handle unspecified errors when verifying X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers via a crafted certificate.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0092.html",
+          "Description": "CVE-2014-0092"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/865804",
+          "Description": "SUSE Bug 865804"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/915878",
+          "Description": "SUSE Bug 915878"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise High Availability Extension 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:gnutls-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-32bit-2.4.1-24.39.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
     {
       "CVE": "CVE-2014-3466",
       "Description": "Buffer overflow in the read_server_hello function in lib/gnutls_handshake.c in GnuTLS before 3.1.25, 3.2.x before 3.2.15, and 3.3.x before 3.3.4 allows remote servers to cause a denial of service (memory corruption) or possibly execute arbitrary code via a long session id in a ServerHello message.",
@@ -214,6 +428,172 @@
         {
           "URL": "https://bugzilla.suse.com/880730",
           "Description": "SUSE Bug 880730"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise High Availability Extension 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:gnutls-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-32bit-2.4.1-24.39.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8155",
+      "Description": "GnuTLS before 2.9.10 does not verify the activation and expiration dates of CA certificates, which allows man-in-the-middle attackers to spoof servers via a certificate issued by a CA certificate that is (1) not yet valid or (2) no longer valid.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8155.html",
+          "Description": "CVE-2014-8155"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/920366",
+          "Description": "SUSE Bug 920366"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise High Availability Extension 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:gnutls-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-32bit-2.4.1-24.39.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0282",
+      "Description": "GnuTLS before 3.1.0 does not verify that the RSA PKCS #1 signature algorithm matches the signature algorithm in the certificate, which allows remote attackers to conduct downgrade attacks via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0282.html",
+          "Description": "CVE-2015-0282"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/919938",
+          "Description": "SUSE Bug 919938"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/921684",
+          "Description": "SUSE Bug 921684"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise High Availability Extension 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:gnutls-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-32bit-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libgnutls26-x86-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra-devel-2.4.1-24.39.51.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:gnutls-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls-extra26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-2.4.1-24.39.51.1",
+            "SUSE Manager 1.7:libgnutls26-32bit-2.4.1-24.39.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2015-0294",
+      "Description": "GnuTLS before 3.3.13 does not validate that the signature algorithms match when importing a certificate.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-0294.html",
+          "Description": "CVE-2015-0294"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/919938",
+          "Description": "SUSE Bug 919938"
         }
       ],
       "ProductStatuses": [

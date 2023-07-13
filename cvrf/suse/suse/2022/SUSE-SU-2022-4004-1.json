@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/python:latest-2022-4004,SUSE-2022-4004,SUSE-SLE-Module-Python3-15-SP4-2022-4004,openSUSE-SLE-15.4-2022-4004",
+      "Text": "Container bci/python:3-2022-4004,SUSE-2022-4004,SUSE-SLE-Module-Python3-15-SP4-2022-4004,openSUSE-SLE-15.4-2022-4004",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,22 +40,22 @@
     "Relationships": [
       {
         "ProductReference": "libpython3_10-1_0-3.10.8-150400.4.15.1",
-        "RelatesToProductReference": "Container bci/python:latest",
+        "RelatesToProductReference": "Container bci/python:3",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "python310-3.10.8-150400.4.15.1",
-        "RelatesToProductReference": "Container bci/python:latest",
+        "RelatesToProductReference": "Container bci/python:3",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "python310-base-3.10.8-150400.4.15.1",
-        "RelatesToProductReference": "Container bci/python:latest",
+        "RelatesToProductReference": "Container bci/python:3",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "python310-devel-3.10.8-150400.4.15.1",
-        "RelatesToProductReference": "Container bci/python:latest",
+        "RelatesToProductReference": "Container bci/python:3",
         "RelationType": "Default Component Of"
       },
       {
@@ -234,10 +234,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/python:latest:libpython3_10-1_0-3.10.8-150400.4.15.1",
-            "Container bci/python:latest:python310-3.10.8-150400.4.15.1",
-            "Container bci/python:latest:python310-base-3.10.8-150400.4.15.1",
-            "Container bci/python:latest:python310-devel-3.10.8-150400.4.15.1",
+            "Container bci/python:3:libpython3_10-1_0-3.10.8-150400.4.15.1",
+            "Container bci/python:3:python310-3.10.8-150400.4.15.1",
+            "Container bci/python:3:python310-base-3.10.8-150400.4.15.1",
+            "Container bci/python:3:python310-devel-3.10.8-150400.4.15.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:libpython3_10-1_0-3.10.8-150400.4.15.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python310-3.10.8-150400.4.15.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python310-base-3.10.8-150400.4.15.1",
@@ -284,16 +284,20 @@
         {
           "URL": "https://bugzilla.suse.com/1205244",
           "Description": "SUSE Bug 1205244"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211488",
+          "Description": "SUSE Bug 1211488"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/python:latest:libpython3_10-1_0-3.10.8-150400.4.15.1",
-            "Container bci/python:latest:python310-3.10.8-150400.4.15.1",
-            "Container bci/python:latest:python310-base-3.10.8-150400.4.15.1",
-            "Container bci/python:latest:python310-devel-3.10.8-150400.4.15.1",
+            "Container bci/python:3:libpython3_10-1_0-3.10.8-150400.4.15.1",
+            "Container bci/python:3:python310-3.10.8-150400.4.15.1",
+            "Container bci/python:3:python310-base-3.10.8-150400.4.15.1",
+            "Container bci/python:3:python310-devel-3.10.8-150400.4.15.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:libpython3_10-1_0-3.10.8-150400.4.15.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python310-3.10.8-150400.4.15.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python310-base-3.10.8-150400.4.15.1",

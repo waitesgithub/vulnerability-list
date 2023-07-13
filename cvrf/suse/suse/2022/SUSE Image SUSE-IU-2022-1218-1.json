@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-05-10T06:28:17Z",
+        "Date": "2023-07-13T06:38:03Z",
         "Description": "current"
       }
     ]
@@ -1427,9 +1427,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "Public Cloud Image google/sles-15-sp4-sapcal-v20221104-x86-64:python3-M2Crypto-0.38.0-150400.3.6.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {
@@ -3339,7 +3337,7 @@
     },
     {
       "CVE": "CVE-2022-2598",
-      "Description": "Undefined Behavior for Input to API in GitHub repository vim/vim prior to 9.0.0100.",
+      "Description": "Out-of-bounds Write to API in GitHub repository vim/vim prior to 9.0.0100.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -3645,7 +3643,7 @@
     },
     {
       "CVE": "CVE-2022-2845",
-      "Description": "Buffer Over-read in GitHub repository vim/vim prior to 9.0.0218.",
+      "Description": "Improper Validation of Specified Quantity in Input in GitHub repository vim/vim prior to 9.0.0218.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -4827,7 +4825,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,

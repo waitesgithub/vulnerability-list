@@ -276,7 +276,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -295,6 +295,10 @@
         {
           "URL": "https://bugzilla.suse.com/961491",
           "Description": "SUSE Bug 961491"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/969208",
+          "Description": "SUSE Bug 969208"
         }
       ],
       "ProductStatuses": [

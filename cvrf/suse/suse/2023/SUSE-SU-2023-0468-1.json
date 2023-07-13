@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-BYOS-2023-468,Image SLES12-SP5-Azure-Basic-On-Demand-2023-468,Image SLES12-SP5-Azure-HPC-BYOS-2023-468,Image SLES12-SP5-Azure-HPC-On-Demand-2023-468,Image SLES12-SP5-Azure-SAP-BYOS-2023-468,Image SLES12-SP5-Azure-SAP-On-Demand-2023-468,Image SLES12-SP5-Azure-Standard-On-Demand-2023-468,Image SLES12-SP5-EC2-BYOS-2023-468,Image SLES12-SP5-EC2-SAP-BYOS-2023-468,Image SLES12-SP5-GCE-BYOS-2023-468,Image SLES12-SP5-GCE-On-Demand-2023-468,Image SLES12-SP5-GCE-SAP-BYOS-2023-468,Image SLES12-SP5-GCE-SAP-On-Demand-2023-468,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-468,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-468,SUSE-2023-468,SUSE-OpenStack-Cloud-9-2023-468,SUSE-OpenStack-Cloud-Crowbar-9-2023-468,SUSE-SLE-SAP-12-SP4-2023-468,SUSE-SLE-SDK-12-SP5-2023-468,SUSE-SLE-SERVER-12-SP2-BCL-2023-468,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-468,SUSE-SLE-SERVER-12-SP4-LTSS-2023-468,SUSE-SLE-SERVER-12-SP5-2023-468",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2023-468,Image SLES12-SP5-Azure-Basic-On-Demand-2023-468,Image SLES12-SP5-Azure-HPC-BYOS-2023-468,Image SLES12-SP5-Azure-HPC-On-Demand-2023-468,Image SLES12-SP5-Azure-SAP-BYOS-2023-468,Image SLES12-SP5-Azure-SAP-On-Demand-2023-468,Image SLES12-SP5-Azure-Standard-On-Demand-2023-468,Image SLES12-SP5-EC2-BYOS-2023-468,Image SLES12-SP5-EC2-ECS-On-Demand-2023-468,Image SLES12-SP5-EC2-On-Demand-2023-468,Image SLES12-SP5-EC2-SAP-BYOS-2023-468,Image SLES12-SP5-GCE-BYOS-2023-468,Image SLES12-SP5-GCE-On-Demand-2023-468,Image SLES12-SP5-GCE-SAP-BYOS-2023-468,Image SLES12-SP5-GCE-SAP-On-Demand-2023-468,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-468,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-468,SUSE-2023-468,SUSE-OpenStack-Cloud-9-2023-468,SUSE-OpenStack-Cloud-Crowbar-9-2023-468,SUSE-SLE-SAP-12-SP4-2023-468,SUSE-SLE-SDK-12-SP5-2023-468,SUSE-SLE-SERVER-12-SP2-BCL-2023-468,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-468,SUSE-SLE-SERVER-12-SP4-LTSS-2023-468,SUSE-SLE-SERVER-12-SP5-2023-468",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -106,6 +106,16 @@
       {
         "ProductReference": "mozilla-nss-certs-3.79.4-58.94.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.79.4-58.94.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.79.4-58.94.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -885,7 +895,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-0767",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "An attacker could construct a PKCS 12 cert bundle in such a way that could allow for arbitrary memory writes via PKCS 12 Safe Bag attributes being mishandled. This vulnerability affects Firefox \u003c 110, Thunderbird \u003c 102.8, and Firefox ESR \u003c 102.8.",
       "Threats": [
         {
           "Type": "Impact",
@@ -920,6 +930,8 @@
             "Image SLES12-SP5-Azure-SAP-On-Demand:mozilla-nss-certs-3.79.4-58.94.1",
             "Image SLES12-SP5-Azure-Standard-On-Demand:mozilla-nss-certs-3.79.4-58.94.1",
             "Image SLES12-SP5-EC2-BYOS:mozilla-nss-certs-3.79.4-58.94.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:mozilla-nss-certs-3.79.4-58.94.1",
+            "Image SLES12-SP5-EC2-On-Demand:mozilla-nss-certs-3.79.4-58.94.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libfreebl3-3.79.4-58.94.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libsoftokn3-3.79.4-58.94.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:mozilla-nss-3.79.4-58.94.1",

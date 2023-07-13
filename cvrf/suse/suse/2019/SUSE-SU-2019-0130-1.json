@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP4-SAP-Azure-LI-BYOS-2019-130,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2019-130,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2019-130,SUSE-2019-130,SUSE-SLE-Module-Basesystem-15-2019-130,SUSE-SLE-Module-Desktop-Applications-15-2019-130",
+      "Text": "Image SLES15-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP4-SAP-Azure-LI-BYOS-2019-130,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2019-130,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2019-130,Image SLES15-SP5-SAP-Azure-LI-BYOS-2019-130,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2019-130,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2019-130,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2019-130,SUSE-2019-130,SUSE-SLE-Module-Basesystem-15-2019-130,SUSE-SLE-Module-Desktop-Applications-15-2019-130",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -96,6 +96,26 @@
       {
         "ProductReference": "wireshark-2.4.12-3.19.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-2.4.12-3.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-2.4.12-3.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-2.4.12-3.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-2.4.12-3.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -217,6 +237,10 @@
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:wireshark-2.4.12-3.19.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.12-3.19.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:wireshark-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwireshark9-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwiretap7-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwscodecs1-2.4.12-3.19.1",
@@ -264,6 +288,10 @@
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:wireshark-2.4.12-3.19.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.12-3.19.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:wireshark-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwireshark9-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwiretap7-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwscodecs1-2.4.12-3.19.1",
@@ -311,6 +339,10 @@
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:wireshark-2.4.12-3.19.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.12-3.19.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:wireshark-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwireshark9-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwiretap7-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwscodecs1-2.4.12-3.19.1",
@@ -358,6 +390,10 @@
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:wireshark-2.4.12-3.19.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.12-3.19.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:wireshark-2.4.12-3.19.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:wireshark-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwireshark9-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwiretap7-2.4.12-3.19.1",
             "SUSE Linux Enterprise Module for Basesystem 15:libwscodecs1-2.4.12-3.19.1",

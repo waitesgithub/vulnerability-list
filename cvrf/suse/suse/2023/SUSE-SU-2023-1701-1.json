@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-1701,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-1701,SUSE-2023-1701,SUSE-SUSE-MicroOS-5.1-2023-1701",
+      "Text": "Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-1701,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-1701,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-1701,SUSE-2023-1701,SUSE-SUSE-MicroOS-5.1-2023-1701",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -51,6 +51,26 @@
       {
         "ProductReference": "grub2-x86_64-efi-2.04-150300.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "grub2-2.04-150300.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "grub2-i386-pc-2.04-150300.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "grub2-x86_64-efi-2.04-150300.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "grub2-x86_64-xen-2.04-150300.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
         "RelationType": "Default Component Of"
       },
       {
@@ -178,6 +198,10 @@
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:grub2-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:grub2-i386-pc-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:grub2-x86_64-efi-2.04-150300.3.8.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:grub2-2.04-150300.3.8.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:grub2-i386-pc-2.04-150300.3.8.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:grub2-x86_64-efi-2.04-150300.3.8.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:grub2-x86_64-xen-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:grub2-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:grub2-i386-pc-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:grub2-x86_64-efi-2.04-150300.3.8.1",
@@ -219,6 +243,10 @@
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:grub2-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:grub2-i386-pc-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:grub2-x86_64-efi-2.04-150300.3.8.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:grub2-2.04-150300.3.8.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:grub2-i386-pc-2.04-150300.3.8.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:grub2-x86_64-efi-2.04-150300.3.8.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:grub2-x86_64-xen-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:grub2-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:grub2-i386-pc-2.04-150300.3.8.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:grub2-x86_64-efi-2.04-150300.3.8.1",

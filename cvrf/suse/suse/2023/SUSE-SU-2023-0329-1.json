@@ -208,7 +208,7 @@
     },
     {
       "CVE": "CVE-2023-0430",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Certificate OCSP revocation status was not checked when verifying S/Mime signatures. Mail signed with a revoked certificate would be displayed as having a valid signature. Thunderbird versions from 68 to 102.7.0 were affected by this bug. This vulnerability affects Thunderbird \u003c 102.7.1.",
       "Threats": [
         {
           "Type": "Impact",
@@ -245,11 +245,11 @@
     },
     {
       "CVE": "CVE-2023-23598",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Due to the Firefox GTK wrapper code's use of text/plain for drag data and GTK treating all text/plain MIMEs containing file URLs as being dragged a website could arbitrarily read a file via a call to \u003ccode\u003eDataTransfer.setData\u003c/code\u003e. This vulnerability affects Firefox \u003c 109, Thunderbird \u003c 102.7, and Firefox ESR \u003c 102.7.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -278,7 +278,7 @@
     },
     {
       "CVE": "CVE-2023-23599",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When copying a network request from the developer tools panel as a curl command the output was not being properly sanitized and could allow arbitrary commands to be hidden within. This vulnerability affects Firefox \u003c 109, Thunderbird \u003c 102.7, and Firefox ESR \u003c 102.7.",
       "Threats": [
         {
           "Type": "Impact",
@@ -311,11 +311,11 @@
     },
     {
       "CVE": "CVE-2023-23601",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Navigations were being allowed when dragging a URL from a cross-origin iframe into the same tab which could lead to website spoofing attacks. This vulnerability affects Firefox \u003c 109, Thunderbird \u003c 102.7, and Firefox ESR \u003c 102.7.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -344,11 +344,11 @@
     },
     {
       "CVE": "CVE-2023-23602",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A mishandled security check when creating a WebSocket in a WebWorker caused the Content Security Policy connect-src header to be ignored. This could lead to connections to restricted origins from inside WebWorkers. This vulnerability affects Firefox \u003c 109, Thunderbird \u003c 102.7, and Firefox ESR \u003c 102.7.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -377,11 +377,11 @@
     },
     {
       "CVE": "CVE-2023-23603",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Regular expressions used to filter out forbidden properties and values from style directives in calls to \u003ccode\u003econsole.log\u003c/code\u003e weren't accounting for external URLs. Data could then be potentially exfiltrated from the browser. This vulnerability affects Firefox \u003c 109, Thunderbird \u003c 102.7, and Firefox ESR \u003c 102.7.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -410,11 +410,11 @@
     },
     {
       "CVE": "CVE-2023-23605",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Mozilla developers and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 108 and Firefox ESR 102.6. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 109, Thunderbird \u003c 102.7, and Firefox ESR \u003c 102.7.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
