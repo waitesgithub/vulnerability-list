@@ -1,8 +1,8 @@
 {
-  "name": "bitcoin",
+  "name": "texlive",
   "secfixes": {
-    "0.21.1-r0": [
-      "CVE-2021-3195"
+    "20230506.66984-r0": [
+      "CVE-2023-32700"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
@@ -11,12 +11,11 @@
     "armhf",
     "armv7",
     "ppc64le",
-    "riscv64",
     "s390x",
     "x86",
     "x86_64"
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
   "reponame": "community",
-  "distroversion": "edge"
+  "distroversion": "v3.18"
 }
