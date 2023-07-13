@@ -161,10 +161,28 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:1584",
-      "type": "rhsa",
-      "id": "RHSA-2023:1584",
-      "title": "RHSA-2023:1584"
+      "href": "https://bugzilla.redhat.com/2150272",
+      "type": "bugzilla",
+      "id": "2150272",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2152548",
+      "type": "bugzilla",
+      "id": "2152548",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2159505",
+      "type": "bugzilla",
+      "id": "2159505",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2163379",
+      "type": "bugzilla",
+      "id": "2163379",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-4269",
@@ -191,28 +209,10 @@
       "title": "CVE-2023-0386"
     },
     {
-      "href": "https://bugzilla.redhat.com/2150272",
-      "type": "bugzilla",
-      "id": "2150272",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2152548",
-      "type": "bugzilla",
-      "id": "2152548",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2159505",
-      "type": "bugzilla",
-      "id": "2159505",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2163379",
-      "type": "bugzilla",
-      "id": "2163379",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:1584",
+      "type": "rhsa",
+      "id": "RHSA-2023:1584",
+      "title": "RHSA-2023:1584"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2023-1584.html",

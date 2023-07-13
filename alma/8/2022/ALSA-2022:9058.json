@@ -65,10 +65,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:9058",
-      "type": "rhsa",
-      "id": "RHSA-2022:9058",
-      "title": "RHSA-2022:9058"
+      "href": "https://bugzilla.redhat.com/2150009",
+      "type": "bugzilla",
+      "id": "2150009",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-1471",
@@ -77,10 +77,10 @@
       "title": "CVE-2022-1471"
     },
     {
-      "href": "https://bugzilla.redhat.com/2150009",
-      "type": "bugzilla",
-      "id": "2150009",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:9058",
+      "type": "rhsa",
+      "id": "RHSA-2022:9058",
+      "title": "RHSA-2022:9058"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-9058.html",

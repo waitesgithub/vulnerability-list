@@ -41,10 +41,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0952",
-      "type": "rhsa",
-      "id": "RHSA-2023:0952",
-      "title": "RHSA-2023:0952"
+      "href": "https://bugzilla.redhat.com/2158559",
+      "type": "bugzilla",
+      "id": "2158559",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-40897",
@@ -53,10 +53,10 @@
       "title": "CVE-2022-40897"
     },
     {
-      "href": "https://bugzilla.redhat.com/2158559",
-      "type": "bugzilla",
-      "id": "2158559",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:0952",
+      "type": "rhsa",
+      "id": "RHSA-2023:0952",
+      "title": "RHSA-2023:0952"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2023-0952.html",
@@ -74,7 +74,7 @@
   "title": "Moderate: python-setuptools security update",
   "type": "security",
   "updated_date": {
-    "$date": 1677605995000
+    "$date": 1677605996000
   },
   "version": "1"
 }

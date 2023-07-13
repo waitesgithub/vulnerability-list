@@ -24,66 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "openssl-libs",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-libs-3.0.1-41.el9_0.i686.rpm",
-        "sum": "a914bd989b8730edba072e45655036878cefb901a151d1dd3d283281eb6a8b84",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-libs",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-libs-3.0.1-41.el9_0.x86_64.rpm",
-        "sum": "1a830ad3a6dfcd671de775264a521c516bd5913837fd1a9318bddcffdeaf3ea5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-perl",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-perl-3.0.1-41.el9_0.x86_64.rpm",
-        "sum": "9d835a284fd7f3d7793aae5d2d30d1720587a56280c7bc567274d8dfeae3d3a5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-devel",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-devel-3.0.1-41.el9_0.x86_64.rpm",
-        "sum": "ae7a5ee958bbe423a43289b7f4c09c9ad551ba87e4e7439d231bd1ff243536bd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-3.0.1-41.el9_0.x86_64.rpm",
-        "sum": "e5be7dc899ff25a0e7cfaf753e434ce1fe7c0d2882667027ed0df2ec79f66273",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "openssl-perl",
         "version": "3.0.1",
         "release": "41.el9_0",
@@ -100,34 +40,22 @@
         "version": "3.0.1",
         "release": "41.el9_0",
         "epoch": "1",
+        "arch": "x86_64",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-libs-3.0.1-41.el9_0.x86_64.rpm",
+        "sum": "1a830ad3a6dfcd671de775264a521c516bd5913837fd1a9318bddcffdeaf3ea5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-libs",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
         "arch": "s390x",
         "src": "openssl-3.0.1-41.el9_0.src.rpm",
         "filename": "openssl-libs-3.0.1-41.el9_0.s390x.rpm",
         "sum": "2f4db1d05c5967b1613af2556ba65e837803a8269de5c9da87238cc480a04f07",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-3.0.1-41.el9_0.s390x.rpm",
-        "sum": "4c614245f6803d73e3c186c960ced85f97141fdb9c88ba86e45fd50b44818288",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-devel",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-devel-3.0.1-41.el9_0.s390x.rpm",
-        "sum": "803117f0b8d91424b2b980d07f14469674728f72d4e1313301e620350a578dd1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -140,6 +68,30 @@
         "src": "openssl-3.0.1-41.el9_0.src.rpm",
         "filename": "openssl-devel-3.0.1-41.el9_0.ppc64le.rpm",
         "sum": "30737533344c5641c5fcf893ed090bfb587ee819ecd8a4cbbe6353fbc120f59a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-devel",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-devel-3.0.1-41.el9_0.aarch64.rpm",
+        "sum": "32d7afc4f384cccdb7955d1102c8bbfb5a45b99675983f56f3bd570fd6940c50",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-libs",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-libs-3.0.1-41.el9_0.aarch64.rpm",
+        "sum": "378411c95ad976061f8b1588283679608eef49cf107b5253781a26f52b4ca27a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -172,34 +124,10 @@
         "version": "3.0.1",
         "release": "41.el9_0",
         "epoch": "1",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-3.0.1-41.el9_0.ppc64le.rpm",
-        "sum": "7c1118b73d5384b741cede8de2d30b2dfc2474f0d120a5fc4f045bb834032a40",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-devel",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-devel-3.0.1-41.el9_0.aarch64.rpm",
-        "sum": "32d7afc4f384cccdb7955d1102c8bbfb5a45b99675983f56f3bd570fd6940c50",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-libs",
-        "version": "3.0.1",
-        "release": "41.el9_0",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "openssl-3.0.1-41.el9_0.src.rpm",
-        "filename": "openssl-libs-3.0.1-41.el9_0.aarch64.rpm",
-        "sum": "378411c95ad976061f8b1588283679608eef49cf107b5253781a26f52b4ca27a",
+        "filename": "openssl-3.0.1-41.el9_0.s390x.rpm",
+        "sum": "4c614245f6803d73e3c186c960ced85f97141fdb9c88ba86e45fd50b44818288",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -220,10 +148,82 @@
         "version": "3.0.1",
         "release": "41.el9_0",
         "epoch": "1",
+        "arch": "ppc64le",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-3.0.1-41.el9_0.ppc64le.rpm",
+        "sum": "7c1118b73d5384b741cede8de2d30b2dfc2474f0d120a5fc4f045bb834032a40",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-devel",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-devel-3.0.1-41.el9_0.s390x.rpm",
+        "sum": "803117f0b8d91424b2b980d07f14469674728f72d4e1313301e620350a578dd1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-perl",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-perl-3.0.1-41.el9_0.x86_64.rpm",
+        "sum": "9d835a284fd7f3d7793aae5d2d30d1720587a56280c7bc567274d8dfeae3d3a5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-libs",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-libs-3.0.1-41.el9_0.i686.rpm",
+        "sum": "a914bd989b8730edba072e45655036878cefb901a151d1dd3d283281eb6a8b84",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-devel",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-devel-3.0.1-41.el9_0.x86_64.rpm",
+        "sum": "ae7a5ee958bbe423a43289b7f4c09c9ad551ba87e4e7439d231bd1ff243536bd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
         "arch": "aarch64",
         "src": "openssl-3.0.1-41.el9_0.src.rpm",
         "filename": "openssl-3.0.1-41.el9_0.aarch64.rpm",
         "sum": "be1c05ff1af91c47d6d7269987ed7820d473a25325b4bec71af18d09f7cfb02b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl",
+        "version": "3.0.1",
+        "release": "41.el9_0",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "openssl-3.0.1-41.el9_0.src.rpm",
+        "filename": "openssl-3.0.1-41.el9_0.x86_64.rpm",
+        "sum": "e5be7dc899ff25a0e7cfaf753e434ce1fe7c0d2882667027ed0df2ec79f66273",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -233,10 +233,34 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6224",
-      "type": "rhsa",
-      "id": "RHSA-2022:6224",
-      "title": "RHSA-2022:6224"
+      "href": "https://bugzilla.redhat.com/2081494",
+      "type": "bugzilla",
+      "id": "2081494",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2087911",
+      "type": "bugzilla",
+      "id": "2087911",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2087913",
+      "type": "bugzilla",
+      "id": "2087913",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2097310",
+      "type": "bugzilla",
+      "id": "2097310",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2104905",
+      "type": "bugzilla",
+      "id": "2104905",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-1292",
@@ -269,34 +293,10 @@
       "title": "CVE-2022-2097"
     },
     {
-      "href": "https://bugzilla.redhat.com/2081494",
-      "type": "bugzilla",
-      "id": "2081494",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2087911",
-      "type": "bugzilla",
-      "id": "2087911",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2087913",
-      "type": "bugzilla",
-      "id": "2087913",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2097310",
-      "type": "bugzilla",
-      "id": "2097310",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2104905",
-      "type": "bugzilla",
-      "id": "2104905",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6224",
+      "type": "rhsa",
+      "id": "RHSA-2022:6224",
+      "title": "RHSA-2022:6224"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-6224.html",

@@ -8,9 +8,33 @@
     "$date": 1652170212000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libsndfile",
+        "version": "1.0.28",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libsndfile-1.0.28-12.el8.src.rpm",
+        "filename": "libsndfile-1.0.28-12.el8.i686.rpm",
+        "sum": "084d81660adf8f1b201d64b2d73cbe6fe93477165bee7a1d19f55b58159e5dda",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libsndfile",
+        "version": "1.0.28",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libsndfile-1.0.28-12.el8.src.rpm",
+        "filename": "libsndfile-1.0.28-12.el8.ppc64le.rpm",
+        "sum": "6d917bf3dde10942972347afcf85ba95f9def1ddaffb70042f0f0d5d5f51ccb1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libsndfile",
         "version": "1.0.28",
@@ -28,10 +52,10 @@
         "version": "1.0.28",
         "release": "12.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "libsndfile-1.0.28-12.el8.src.rpm",
-        "filename": "libsndfile-devel-1.0.28-12.el8.aarch64.rpm",
-        "sum": "ab0a24151b5ae6799ce71a191dc847a96eb04864147027a198c8087ce6d01cf6",
+        "filename": "libsndfile-devel-1.0.28-12.el8.x86_64.rpm",
+        "sum": "721afc0fa3e04133a4618e323672f83a39e9a88932189cb029cd783bd8a90663",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -48,14 +72,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libsndfile",
+        "name": "libsndfile-devel",
         "version": "1.0.28",
         "release": "12.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "libsndfile-1.0.28-12.el8.src.rpm",
-        "filename": "libsndfile-1.0.28-12.el8.x86_64.rpm",
-        "sum": "b8981af35c6927a03c754379620a56904995e6b301c8b68f9d2366f2763803bb",
+        "filename": "libsndfile-devel-1.0.28-12.el8.aarch64.rpm",
+        "sum": "ab0a24151b5ae6799ce71a191dc847a96eb04864147027a198c8087ce6d01cf6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,10 +88,10 @@
         "version": "1.0.28",
         "release": "12.el8",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "libsndfile-1.0.28-12.el8.src.rpm",
-        "filename": "libsndfile-1.0.28-12.el8.ppc64le.rpm",
-        "sum": "6d917bf3dde10942972347afcf85ba95f9def1ddaffb70042f0f0d5d5f51ccb1",
+        "filename": "libsndfile-1.0.28-12.el8.x86_64.rpm",
+        "sum": "b8981af35c6927a03c754379620a56904995e6b301c8b68f9d2366f2763803bb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -82,18 +106,6 @@
         "sum": "e8166877a3a0352f006bc71c26f6c7921e3346fbf4a2cc7009d390dc2ccf6a9d",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libsndfile",
-        "version": "1.0.28",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libsndfile-1.0.28-12.el8.src.rpm",
-        "filename": "libsndfile-1.0.28-12.el8.i686.rpm",
-        "sum": "084d81660adf8f1b201d64b2d73cbe6fe93477165bee7a1d19f55b58159e5dda",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -101,16 +113,16 @@
   "pushcount": "2",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1968.html",
-      "type": "self",
-      "id": "ALSA-2022-1968",
-      "title": "ALSA-2022-1968"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2021-4156",
       "type": "cve",
       "id": "CVE-2021-4156",
       "title": "CVE-2021-4156"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-1968.html",
+      "type": "self",
+      "id": "ALSA-2022-1968",
+      "title": "ALSA-2022-1968"
     }
   ],
   "release": "0",
@@ -122,7 +134,7 @@
   "title": "Moderate: libsndfile security update",
   "type": "security",
   "updated_date": {
-    "$date": 1652170211000
+    "$date": 1678725163000
   },
   "version": "1"
 }

@@ -8,8 +8,8 @@
     "$date": 1628596847000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_nodejs",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_nodejs",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_nodejs",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_nodejs",
     "packages": [
       {
         "name": "nodejs-packaging",
@@ -36,18 +36,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nodejs-nodemon",
-        "version": "2.0.3",
-        "release": "1.module_el8.4.0+2521+c668cc9f",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.src.rpm",
-        "filename": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.noarch.rpm",
-        "sum": "9d421316512b1ef3258536e633a07d90a8fe282153109d04cd255c96e923915e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nodejs-packaging",
         "version": "17",
         "release": "3.module_el8.3.0+2023+d2377ea3",
@@ -56,6 +44,18 @@
         "src": "nodejs-packaging-17-3.module_el8.3.0+2023+d2377ea3.src.rpm",
         "filename": "nodejs-packaging-17-3.module_el8.3.0+2023+d2377ea3.noarch.rpm",
         "sum": "866fca29b11c2772a119fa9bcf208c5d4a6e7cea51445fcb2194e1ad3c4ddc0e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-nodemon",
+        "version": "2.0.3",
+        "release": "1.module_el8.4.0+2521+c668cc9f",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.src.rpm",
+        "filename": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.noarch.rpm",
+        "sum": "9d421316512b1ef3258536e633a07d90a8fe282153109d04cd255c96e923915e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,18 +88,12 @@
       "stream": "12",
       "name": "nodejs",
       "version": 8060020220621120033,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "9edba152"
     }
   },
   "pushcount": "4",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-3073.html",
-      "type": "self",
-      "id": "ALSA-2021-3073",
-      "title": "ALSA-2021-3073"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2021-22918",
       "type": "cve",
@@ -117,6 +111,12 @@
       "type": "cve",
       "id": "CVE-2021-27290",
       "title": "CVE-2021-27290"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-3073.html",
+      "type": "self",
+      "id": "ALSA-2021-3073",
+      "title": "ALSA-2021-3073"
     }
   ],
   "release": "0",

@@ -8,9 +8,33 @@
     "$date": 1666224000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
+      {
+        "name": "firefox",
+        "version": "102.4.0",
+        "release": "1.el8_6.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
+        "filename": "firefox-102.4.0-1.el8_6.alma.ppc64le.rpm",
+        "sum": "34330299b4dd6b1f3deffddb953a108c680e277940ff618d25c991da526ebc87",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox",
+        "version": "102.4.0",
+        "release": "1.el8_6.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
+        "filename": "firefox-102.4.0-1.el8_6.alma.x86_64.rpm",
+        "sum": "3fcf43fb0382593824db5aed5f15ba6b5218c19e57bb770f3cf385d83af804c7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "firefox",
         "version": "102.4.0",
@@ -34,30 +58,6 @@
         "sum": "935f188294a261ee2abda9a29e1a03224df34bbe2cabb64608fcad209ef5389a",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "firefox",
-        "version": "102.4.0",
-        "release": "1.el8_6.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
-        "filename": "firefox-102.4.0-1.el8_6.alma.x86_64.rpm",
-        "sum": "3fcf43fb0382593824db5aed5f15ba6b5218c19e57bb770f3cf385d83af804c7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "firefox",
-        "version": "102.4.0",
-        "release": "1.el8_6.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
-        "filename": "firefox-102.4.0-1.el8_6.alma.ppc64le.rpm",
-        "sum": "34330299b4dd6b1f3deffddb953a108c680e277940ff618d25c991da526ebc87",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -65,10 +65,28 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7070",
-      "type": "rhsa",
-      "id": "RHSA-2022:7070",
-      "title": "RHSA-2022:7070"
+      "href": "https://bugzilla.redhat.com/2136156",
+      "type": "bugzilla",
+      "id": "2136156",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2136157",
+      "type": "bugzilla",
+      "id": "2136157",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2136158",
+      "type": "bugzilla",
+      "id": "2136158",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2136159",
+      "type": "bugzilla",
+      "id": "2136159",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-42927",
@@ -95,28 +113,10 @@
       "title": "CVE-2022-42932"
     },
     {
-      "href": "https://bugzilla.redhat.com/2136156",
-      "type": "bugzilla",
-      "id": "2136156",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136157",
-      "type": "bugzilla",
-      "id": "2136157",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136158",
-      "type": "bugzilla",
-      "id": "2136158",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136159",
-      "type": "bugzilla",
-      "id": "2136159",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7070",
+      "type": "rhsa",
+      "id": "RHSA-2022:7070",
+      "title": "RHSA-2022:7070"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7070.html",

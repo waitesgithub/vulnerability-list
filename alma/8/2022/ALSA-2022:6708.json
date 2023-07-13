@@ -8,33 +8,9 @@
     "$date": 1664150400000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
-      {
-        "name": "thunderbird",
-        "version": "102.3.0",
-        "release": "3.el8_6.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "thunderbird-102.3.0-3.el8_6.alma.src.rpm",
-        "filename": "thunderbird-102.3.0-3.el8_6.alma.aarch64.rpm",
-        "sum": "09044814d1f4f8c58bab49c546fdb3f3d22e85e42440dc0bc5c535edd71b1468",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "thunderbird",
-        "version": "102.3.0",
-        "release": "3.el8_6.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "thunderbird-102.3.0-3.el8_6.alma.src.rpm",
-        "filename": "thunderbird-102.3.0-3.el8_6.alma.s390x.rpm",
-        "sum": "55e84337706c8933d0d74c0f168da4783f7351eb2f55d937e637e259cf34259e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "thunderbird",
         "version": "102.3.0",
@@ -52,10 +28,34 @@
         "version": "102.3.0",
         "release": "3.el8_6.alma",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "thunderbird-102.3.0-3.el8_6.alma.src.rpm",
+        "filename": "thunderbird-102.3.0-3.el8_6.alma.aarch64.rpm",
+        "sum": "09044814d1f4f8c58bab49c546fdb3f3d22e85e42440dc0bc5c535edd71b1468",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "102.3.0",
+        "release": "3.el8_6.alma",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "thunderbird-102.3.0-3.el8_6.alma.src.rpm",
         "filename": "thunderbird-102.3.0-3.el8_6.alma.ppc64le.rpm",
         "sum": "233ca6667aa7fe51f331155832110e91dc973c1b1e3a24f8ef7ab977d42e772a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "102.3.0",
+        "release": "3.el8_6.alma",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "thunderbird-102.3.0-3.el8_6.alma.src.rpm",
+        "filename": "thunderbird-102.3.0-3.el8_6.alma.s390x.rpm",
+        "sum": "55e84337706c8933d0d74c0f168da4783f7351eb2f55d937e637e259cf34259e",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -65,10 +65,64 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6708",
-      "type": "rhsa",
-      "id": "RHSA-2022:6708",
-      "title": "RHSA-2022:6708"
+      "href": "https://bugzilla.redhat.com/2123255",
+      "type": "bugzilla",
+      "id": "2123255",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2123256",
+      "type": "bugzilla",
+      "id": "2123256",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2123257",
+      "type": "bugzilla",
+      "id": "2123257",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2123258",
+      "type": "bugzilla",
+      "id": "2123258",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2128792",
+      "type": "bugzilla",
+      "id": "2128792",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2128793",
+      "type": "bugzilla",
+      "id": "2128793",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2128794",
+      "type": "bugzilla",
+      "id": "2128794",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2128795",
+      "type": "bugzilla",
+      "id": "2128795",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2128796",
+      "type": "bugzilla",
+      "id": "2128796",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2128797",
+      "type": "bugzilla",
+      "id": "2128797",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-3032",
@@ -131,64 +185,10 @@
       "title": "CVE-2022-40962"
     },
     {
-      "href": "https://bugzilla.redhat.com/2123255",
-      "type": "bugzilla",
-      "id": "2123255",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2123256",
-      "type": "bugzilla",
-      "id": "2123256",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2123257",
-      "type": "bugzilla",
-      "id": "2123257",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2123258",
-      "type": "bugzilla",
-      "id": "2123258",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2128792",
-      "type": "bugzilla",
-      "id": "2128792",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2128793",
-      "type": "bugzilla",
-      "id": "2128793",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2128794",
-      "type": "bugzilla",
-      "id": "2128794",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2128795",
-      "type": "bugzilla",
-      "id": "2128795",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2128796",
-      "type": "bugzilla",
-      "id": "2128796",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2128797",
-      "type": "bugzilla",
-      "id": "2128797",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6708",
+      "type": "rhsa",
+      "id": "RHSA-2022:6708",
+      "title": "RHSA-2022:6708"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-6708.html",

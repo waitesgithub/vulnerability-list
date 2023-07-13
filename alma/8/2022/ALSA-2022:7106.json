@@ -16,6 +16,30 @@
         "version": "1.2.11",
         "release": "19.el8_6",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "zlib-1.2.11-19.el8_6.src.rpm",
+        "filename": "zlib-devel-1.2.11-19.el8_6.ppc64le.rpm",
+        "sum": "01684f71e14e1fd71ce5b9d6140cf0c40d10003bf9bf8e7594ac5882c5a5bf95",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-static",
+        "version": "1.2.11",
+        "release": "19.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "zlib-1.2.11-19.el8_6.src.rpm",
+        "filename": "zlib-static-1.2.11-19.el8_6.aarch64.rpm",
+        "sum": "040f3083e365dce75573fb58e837d94530d488cabb9db22891a07ccf2da4df6d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-devel",
+        "version": "1.2.11",
+        "release": "19.el8_6",
+        "epoch": "0",
         "arch": "i686",
         "src": "zlib-1.2.11-19.el8_6.src.rpm",
         "filename": "zlib-devel-1.2.11-19.el8_6.i686.rpm",
@@ -44,54 +68,6 @@
         "src": "zlib-1.2.11-19.el8_6.src.rpm",
         "filename": "zlib-devel-1.2.11-19.el8_6.aarch64.rpm",
         "sum": "2dce73a86c7298aae6a35fb2146b3b56a288c651850c1d395fcb621c33512252",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib",
-        "version": "1.2.11",
-        "release": "19.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "zlib-1.2.11-19.el8_6.src.rpm",
-        "filename": "zlib-1.2.11-19.el8_6.aarch64.rpm",
-        "sum": "f0d07493dec05ced63d1dde395117bbc80a2c7ccdaa1c8c775b763a1d9e93fab",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib-static",
-        "version": "1.2.11",
-        "release": "19.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "zlib-1.2.11-19.el8_6.src.rpm",
-        "filename": "zlib-static-1.2.11-19.el8_6.aarch64.rpm",
-        "sum": "040f3083e365dce75573fb58e837d94530d488cabb9db22891a07ccf2da4df6d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib-static",
-        "version": "1.2.11",
-        "release": "19.el8_6",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "zlib-1.2.11-19.el8_6.src.rpm",
-        "filename": "zlib-static-1.2.11-19.el8_6.i686.rpm",
-        "sum": "ada217ae3d9cf92b1ca700203564acb319a869c750f6216bc95c63ce8cf22d53",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib-devel",
-        "version": "1.2.11",
-        "release": "19.el8_6",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "zlib-1.2.11-19.el8_6.src.rpm",
-        "filename": "zlib-devel-1.2.11-19.el8_6.ppc64le.rpm",
-        "sum": "01684f71e14e1fd71ce5b9d6140cf0c40d10003bf9bf8e7594ac5882c5a5bf95",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -136,6 +112,18 @@
         "version": "1.2.11",
         "release": "19.el8_6",
         "epoch": "0",
+        "arch": "i686",
+        "src": "zlib-1.2.11-19.el8_6.src.rpm",
+        "filename": "zlib-static-1.2.11-19.el8_6.i686.rpm",
+        "sum": "ada217ae3d9cf92b1ca700203564acb319a869c750f6216bc95c63ce8cf22d53",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-static",
+        "version": "1.2.11",
+        "release": "19.el8_6",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "zlib-1.2.11-19.el8_6.src.rpm",
         "filename": "zlib-static-1.2.11-19.el8_6.ppc64le.rpm",
@@ -154,6 +142,18 @@
         "sum": "c80b8467260948c92091d3fa618acd58ef2016e43c16430652a986c15fc8bbe5",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "zlib",
+        "version": "1.2.11",
+        "release": "19.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "zlib-1.2.11-19.el8_6.src.rpm",
+        "filename": "zlib-1.2.11-19.el8_6.aarch64.rpm",
+        "sum": "f0d07493dec05ced63d1dde395117bbc80a2c7ccdaa1c8c775b763a1d9e93fab",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -161,10 +161,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7106",
-      "type": "rhsa",
-      "id": "RHSA-2022:7106",
-      "title": "RHSA-2022:7106"
+      "href": "https://bugzilla.redhat.com/2116639",
+      "type": "bugzilla",
+      "id": "2116639",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-37434",
@@ -173,10 +173,10 @@
       "title": "CVE-2022-37434"
     },
     {
-      "href": "https://bugzilla.redhat.com/2116639",
-      "type": "bugzilla",
-      "id": "2116639",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7106",
+      "type": "rhsa",
+      "id": "RHSA-2022:7106",
+      "title": "RHSA-2022:7106"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7106.html",

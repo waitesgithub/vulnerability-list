@@ -28,6 +28,18 @@
         "version": "1.8.29",
         "release": "8.el8_7.1",
         "epoch": "0",
+        "arch": "s390x",
+        "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
+        "filename": "sudo-1.8.29-8.el8_7.1.s390x.rpm",
+        "sum": "9be73dec95446d6ee4a4b6bb8ad563a1095d4c60da0992552f5ea4a91f979d1c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "sudo",
+        "version": "1.8.29",
+        "release": "8.el8_7.1",
+        "epoch": "0",
         "arch": "aarch64",
         "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
         "filename": "sudo-1.8.29-8.el8_7.1.aarch64.rpm",
@@ -46,18 +58,6 @@
         "sum": "f72be42bc157e9f3f0d210ab0541b072563e0b5c239ebdf8e8821f06277a74fa",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "sudo",
-        "version": "1.8.29",
-        "release": "8.el8_7.1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
-        "filename": "sudo-1.8.29-8.el8_7.1.s390x.rpm",
-        "sum": "9be73dec95446d6ee4a4b6bb8ad563a1095d4c60da0992552f5ea4a91f979d1c",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -65,10 +65,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0284",
-      "type": "rhsa",
-      "id": "RHSA-2023:0284",
-      "title": "RHSA-2023:0284"
+      "href": "https://bugzilla.redhat.com/2161142",
+      "type": "bugzilla",
+      "id": "2161142",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2023-22809",
@@ -77,10 +77,10 @@
       "title": "CVE-2023-22809"
     },
     {
-      "href": "https://bugzilla.redhat.com/2161142",
-      "type": "bugzilla",
-      "id": "2161142",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:0284",
+      "type": "rhsa",
+      "id": "RHSA-2023:0284",
+      "title": "RHSA-2023:0284"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2023-0284.html",

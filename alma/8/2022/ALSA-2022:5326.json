@@ -16,10 +16,10 @@
         "version": "1.0.2o",
         "release": "4.el8_6",
         "epoch": "1",
-        "arch": "i686",
+        "arch": "ppc64le",
         "src": "compat-openssl10-1.0.2o-4.el8_6.src.rpm",
-        "filename": "compat-openssl10-1.0.2o-4.el8_6.i686.rpm",
-        "sum": "7e169daaddfd20101f2c7646063cc16478547e17626eac099f1faba5e92fbe00",
+        "filename": "compat-openssl10-1.0.2o-4.el8_6.ppc64le.rpm",
+        "sum": "0fa345dc427b778580d6dc0e195bef404bc005b1e56119fd4490bbee0869a074",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -28,10 +28,10 @@
         "version": "1.0.2o",
         "release": "4.el8_6",
         "epoch": "1",
-        "arch": "aarch64",
+        "arch": "i686",
         "src": "compat-openssl10-1.0.2o-4.el8_6.src.rpm",
-        "filename": "compat-openssl10-1.0.2o-4.el8_6.aarch64.rpm",
-        "sum": "f61f47a4da43fefc172d11c37a27b55b05f876c518b91a6fc26d4a714c9b69ff",
+        "filename": "compat-openssl10-1.0.2o-4.el8_6.i686.rpm",
+        "sum": "7e169daaddfd20101f2c7646063cc16478547e17626eac099f1faba5e92fbe00",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "1.0.2o",
         "release": "4.el8_6",
         "epoch": "1",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "compat-openssl10-1.0.2o-4.el8_6.src.rpm",
-        "filename": "compat-openssl10-1.0.2o-4.el8_6.ppc64le.rpm",
-        "sum": "0fa345dc427b778580d6dc0e195bef404bc005b1e56119fd4490bbee0869a074",
+        "filename": "compat-openssl10-1.0.2o-4.el8_6.aarch64.rpm",
+        "sum": "f61f47a4da43fefc172d11c37a27b55b05f876c518b91a6fc26d4a714c9b69ff",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -65,9 +65,9 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5326",
-      "type": "rhsa",
-      "id": "RHSA-2022:5326",
+      "href": "https://bugzilla.redhat.com/2062202",
+      "type": "bugzilla",
+      "id": "2062202",
       "title": ""
     },
     {
@@ -77,10 +77,22 @@
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2062202",
-      "type": "bugzilla",
-      "id": "2062202",
+      "href": "https://access.redhat.com/security/cve/CVE-2022-0778",
+      "type": "cve",
+      "id": "CVE-2022-0778",
+      "title": "CVE-2022-0778"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5326",
+      "type": "rhsa",
+      "id": "RHSA-2022:5326",
       "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5326",
+      "type": "rhsa",
+      "id": "RHSA-2022:5326",
+      "title": "RHSA-2022:5326"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-5326.html",
@@ -98,7 +110,7 @@
   "title": "Low: compat-openssl10 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658425734000
+    "$date": 1658425753000
   },
   "version": "1"
 }

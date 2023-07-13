@@ -8,30 +8,18 @@
     "$date": 1667347200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
       {
-        "name": "zlib-devel",
+        "name": "zlib",
         "version": "1.2.11",
         "release": "32.el9_0",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "aarch64",
         "src": "zlib-1.2.11-32.el9_0.src.rpm",
-        "filename": "zlib-devel-1.2.11-32.el9_0.i686.rpm",
-        "sum": "7aeb04163853e6c1212f944a2b47749d6fc187c41716c21747df46a2aaa7d0a8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib-devel",
-        "version": "1.2.11",
-        "release": "32.el9_0",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "zlib-1.2.11-32.el9_0.src.rpm",
-        "filename": "zlib-devel-1.2.11-32.el9_0.s390x.rpm",
-        "sum": "d66b3e3c74e1a0de970e452f2ecf2a25473bd39ec4511cecee4953dbc87f7073",
+        "filename": "zlib-1.2.11-32.el9_0.aarch64.rpm",
+        "sum": "41b196857449e86b42ab793f328efe1af807585073f423a007bbbde102248c9e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -48,42 +36,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "zlib-devel",
-        "version": "1.2.11",
-        "release": "32.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "zlib-1.2.11-32.el9_0.src.rpm",
-        "filename": "zlib-devel-1.2.11-32.el9_0.aarch64.rpm",
-        "sum": "a79f20e9ce5f982949ef7bc5a0916b6e166c7c8d3893ad0d703f6c96ff9c63d9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib",
-        "version": "1.2.11",
-        "release": "32.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "zlib-1.2.11-32.el9_0.src.rpm",
-        "filename": "zlib-1.2.11-32.el9_0.aarch64.rpm",
-        "sum": "41b196857449e86b42ab793f328efe1af807585073f423a007bbbde102248c9e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib",
-        "version": "1.2.11",
-        "release": "32.el9_0",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "zlib-1.2.11-32.el9_0.src.rpm",
-        "filename": "zlib-1.2.11-32.el9_0.s390x.rpm",
-        "sum": "86a49ded33cb36b31f4b962aa62cc70cd174856e9398f3a57e76aade91fc6e90",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "zlib",
         "version": "1.2.11",
         "release": "32.el9_0",
@@ -92,30 +44,6 @@
         "src": "zlib-1.2.11-32.el9_0.src.rpm",
         "filename": "zlib-1.2.11-32.el9_0.ppc64le.rpm",
         "sum": "4fb6c411525723b41c105880730d701bbbd4860e1bcdf7a25f8c9c97f91b4092",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib",
-        "version": "1.2.11",
-        "release": "32.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "zlib-1.2.11-32.el9_0.src.rpm",
-        "filename": "zlib-1.2.11-32.el9_0.x86_64.rpm",
-        "sum": "bd4009fbe4ced90f997b79ebb8733bb6ebfbba530ea731e56a0dccd6b8c33346",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib-static",
-        "version": "1.2.11",
-        "release": "32.el9_0",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "zlib-1.2.11-32.el9_0.src.rpm",
-        "filename": "zlib-static-1.2.11-32.el9_0.s390x.rpm",
-        "sum": "786a1206d349e64db5f7969555f525f8e3e85b9577ca209b4694238b39b84f7c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -136,10 +64,70 @@
         "version": "1.2.11",
         "release": "32.el9_0",
         "epoch": "0",
+        "arch": "s390x",
+        "src": "zlib-1.2.11-32.el9_0.src.rpm",
+        "filename": "zlib-static-1.2.11-32.el9_0.s390x.rpm",
+        "sum": "786a1206d349e64db5f7969555f525f8e3e85b9577ca209b4694238b39b84f7c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-devel",
+        "version": "1.2.11",
+        "release": "32.el9_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "zlib-1.2.11-32.el9_0.src.rpm",
+        "filename": "zlib-devel-1.2.11-32.el9_0.i686.rpm",
+        "sum": "7aeb04163853e6c1212f944a2b47749d6fc187c41716c21747df46a2aaa7d0a8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib",
+        "version": "1.2.11",
+        "release": "32.el9_0",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "zlib-1.2.11-32.el9_0.src.rpm",
+        "filename": "zlib-1.2.11-32.el9_0.s390x.rpm",
+        "sum": "86a49ded33cb36b31f4b962aa62cc70cd174856e9398f3a57e76aade91fc6e90",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-devel",
+        "version": "1.2.11",
+        "release": "32.el9_0",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "zlib-1.2.11-32.el9_0.src.rpm",
+        "filename": "zlib-devel-1.2.11-32.el9_0.aarch64.rpm",
+        "sum": "a79f20e9ce5f982949ef7bc5a0916b6e166c7c8d3893ad0d703f6c96ff9c63d9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-static",
+        "version": "1.2.11",
+        "release": "32.el9_0",
+        "epoch": "0",
         "arch": "aarch64",
         "src": "zlib-1.2.11-32.el9_0.src.rpm",
         "filename": "zlib-static-1.2.11-32.el9_0.aarch64.rpm",
         "sum": "bd022652eb8dd26837ac7bc1ea3dd7391c9cbe8029faa26f1d04777d86d379be",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib",
+        "version": "1.2.11",
+        "release": "32.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "zlib-1.2.11-32.el9_0.src.rpm",
+        "filename": "zlib-1.2.11-32.el9_0.x86_64.rpm",
+        "sum": "bd4009fbe4ced90f997b79ebb8733bb6ebfbba530ea731e56a0dccd6b8c33346",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -154,6 +142,18 @@
         "sum": "c7202a1a273d793ad8db472ee0599e85af120ca68d2c4261bcd73f9324f673ba",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-devel",
+        "version": "1.2.11",
+        "release": "32.el9_0",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "zlib-1.2.11-32.el9_0.src.rpm",
+        "filename": "zlib-devel-1.2.11-32.el9_0.s390x.rpm",
+        "sum": "d66b3e3c74e1a0de970e452f2ecf2a25473bd39ec4511cecee4953dbc87f7073",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -161,10 +161,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7314",
-      "type": "rhsa",
-      "id": "RHSA-2022:7314",
-      "title": "RHSA-2022:7314"
+      "href": "https://bugzilla.redhat.com/2116639",
+      "type": "bugzilla",
+      "id": "2116639",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-37434",
@@ -173,10 +173,10 @@
       "title": "CVE-2022-37434"
     },
     {
-      "href": "https://bugzilla.redhat.com/2116639",
-      "type": "bugzilla",
-      "id": "2116639",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7314",
+      "type": "rhsa",
+      "id": "RHSA-2022:7314",
+      "title": "RHSA-2022:7314"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-7314.html",
@@ -194,7 +194,7 @@
   "title": "Moderate: zlib security update",
   "type": "security",
   "updated_date": {
-    "$date": 1667424335000
+    "$date": 1667424339000
   },
   "version": "1"
 }

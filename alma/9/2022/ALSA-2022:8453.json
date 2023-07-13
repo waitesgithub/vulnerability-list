@@ -16,18 +16,6 @@
         "version": "0.8.7",
         "release": "12.el9_1.1",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "device-mapper-multipath-0.8.7-12.el9_1.1.src.rpm",
-        "filename": "device-mapper-multipath-0.8.7-12.el9_1.1.aarch64.rpm",
-        "sum": "9976eec808971da4de11ee4424a9bc43e8df8873fd827f8be17b0b016c728b3d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "device-mapper-multipath",
-        "version": "0.8.7",
-        "release": "12.el9_1.1",
-        "epoch": "0",
         "arch": "s390x",
         "src": "device-mapper-multipath-0.8.7-12.el9_1.1.src.rpm",
         "filename": "device-mapper-multipath-0.8.7-12.el9_1.1.s390x.rpm",
@@ -58,6 +46,18 @@
         "sum": "74bacab237380646a9438788f8d72e793e2c948195bff4915d209d57c0ef2b3c",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "device-mapper-multipath",
+        "version": "0.8.7",
+        "release": "12.el9_1.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "device-mapper-multipath-0.8.7-12.el9_1.1.src.rpm",
+        "filename": "device-mapper-multipath-0.8.7-12.el9_1.1.aarch64.rpm",
+        "sum": "9976eec808971da4de11ee4424a9bc43e8df8873fd827f8be17b0b016c728b3d",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -65,10 +65,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8453",
-      "type": "rhsa",
-      "id": "RHSA-2022:8453",
-      "title": "RHSA-2022:8453"
+      "href": "https://bugzilla.redhat.com/2138959",
+      "type": "bugzilla",
+      "id": "2138959",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-3787",
@@ -77,10 +77,10 @@
       "title": "CVE-2022-3787"
     },
     {
-      "href": "https://bugzilla.redhat.com/2138959",
-      "type": "bugzilla",
-      "id": "2138959",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:8453",
+      "type": "rhsa",
+      "id": "RHSA-2022:8453",
+      "title": "RHSA-2022:8453"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-8453.html",

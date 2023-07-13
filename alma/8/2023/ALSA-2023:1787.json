@@ -8,18 +8,18 @@
     "$date": 1681430400000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_7_default",
     "packages": [
       {
         "name": "firefox",
         "version": "102.10.0",
         "release": "1.el8_7.alma",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "firefox-102.10.0-1.el8_7.alma.src.rpm",
-        "filename": "firefox-102.10.0-1.el8_7.alma.aarch64.rpm",
-        "sum": "d7a80e3bf55dcc651cf40d81d7edc34abb12bb04778297c2a5458923970e366e",
+        "filename": "firefox-102.10.0-1.el8_7.alma.ppc64le.rpm",
+        "sum": "1f88acaa244d363a1b55df1e4749312db4e98b42311eed72cfe57d06db6caffb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +40,10 @@
         "version": "102.10.0",
         "release": "1.el8_7.alma",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "firefox-102.10.0-1.el8_7.alma.src.rpm",
-        "filename": "firefox-102.10.0-1.el8_7.alma.x86_64.rpm",
-        "sum": "dffe57dce948a9886666d2387633865dd52f229956c0ad5c975e0622585fd6d1",
+        "filename": "firefox-102.10.0-1.el8_7.alma.aarch64.rpm",
+        "sum": "d7a80e3bf55dcc651cf40d81d7edc34abb12bb04778297c2a5458923970e366e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "102.10.0",
         "release": "1.el8_7.alma",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "firefox-102.10.0-1.el8_7.alma.src.rpm",
-        "filename": "firefox-102.10.0-1.el8_7.alma.ppc64le.rpm",
-        "sum": "1f88acaa244d363a1b55df1e4749312db4e98b42311eed72cfe57d06db6caffb",
+        "filename": "firefox-102.10.0-1.el8_7.alma.x86_64.rpm",
+        "sum": "dffe57dce948a9886666d2387633865dd52f229956c0ad5c975e0622585fd6d1",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -65,10 +65,52 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:1787",
-      "type": "rhsa",
-      "id": "RHSA-2023:1787",
-      "title": "RHSA-2023:1787"
+      "href": "https://bugzilla.redhat.com/2186101",
+      "type": "bugzilla",
+      "id": "2186101",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2186103",
+      "type": "bugzilla",
+      "id": "2186103",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2186104",
+      "type": "bugzilla",
+      "id": "2186104",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2186105",
+      "type": "bugzilla",
+      "id": "2186105",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2186106",
+      "type": "bugzilla",
+      "id": "2186106",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2186109",
+      "type": "bugzilla",
+      "id": "2186109",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2186110",
+      "type": "bugzilla",
+      "id": "2186110",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2186111",
+      "type": "bugzilla",
+      "id": "2186111",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2023-1945",
@@ -119,52 +161,10 @@
       "title": "CVE-2023-29550"
     },
     {
-      "href": "https://bugzilla.redhat.com/2186101",
-      "type": "bugzilla",
-      "id": "2186101",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186103",
-      "type": "bugzilla",
-      "id": "2186103",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186104",
-      "type": "bugzilla",
-      "id": "2186104",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186105",
-      "type": "bugzilla",
-      "id": "2186105",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186106",
-      "type": "bugzilla",
-      "id": "2186106",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186109",
-      "type": "bugzilla",
-      "id": "2186109",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186110",
-      "type": "bugzilla",
-      "id": "2186110",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186111",
-      "type": "bugzilla",
-      "id": "2186111",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:1787",
+      "type": "rhsa",
+      "id": "RHSA-2023:1787",
+      "title": "RHSA-2023:1787"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2023-1787.html",

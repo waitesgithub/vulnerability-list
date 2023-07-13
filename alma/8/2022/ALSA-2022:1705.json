@@ -8,9 +8,21 @@
     "$date": 1651662262000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
+      {
+        "name": "firefox",
+        "version": "91.9.0",
+        "release": "1.el8_5.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "firefox-91.9.0-1.el8_5.alma.src.rpm",
+        "filename": "firefox-91.9.0-1.el8_5.alma.ppc64le.rpm",
+        "sum": "6274b4e5b2786911b9d2bc234a53a108d0e30e7d462816074e362f3bc5da3b37",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "firefox",
         "version": "91.9.0",
@@ -34,30 +46,12 @@
         "sum": "f4306fc495989c3236639398fb6bcdb9cf1694f9090088c53845096a96cae811",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "firefox",
-        "version": "91.9.0",
-        "release": "1.el8_5.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "firefox-91.9.0-1.el8_5.alma.src.rpm",
-        "filename": "firefox-91.9.0-1.el8_5.alma.ppc64le.rpm",
-        "sum": "6274b4e5b2786911b9d2bc234a53a108d0e30e7d462816074e362f3bc5da3b37",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "2",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1705.html",
-      "type": "self",
-      "id": "ALSA-2022-1705",
-      "title": "ALSA-2022-1705"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2022-29909",
       "type": "cve",
@@ -93,6 +87,12 @@
       "type": "cve",
       "id": "CVE-2022-29917",
       "title": "CVE-2022-29917"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-1705.html",
+      "type": "self",
+      "id": "ALSA-2022-1705",
+      "title": "ALSA-2022-1705"
     }
   ],
   "release": "0",
@@ -104,7 +104,7 @@
   "title": "Important: firefox security update",
   "type": "security",
   "updated_date": {
-    "$date": 1651662262000
+    "$date": 1651753644000
   },
   "version": "2"
 }

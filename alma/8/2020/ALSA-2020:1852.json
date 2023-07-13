@@ -53,16 +53,16 @@
   "pushcount": "5",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-1852.html",
-      "type": "self",
-      "id": "ALSA-2020-1852",
-      "title": "ALSA-2020-1852"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2019-13636",
       "type": "cve",
       "id": "CVE-2019-13636",
       "title": "CVE-2019-13636"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-1852.html",
+      "type": "self",
+      "id": "ALSA-2020-1852",
+      "title": "ALSA-2020-1852"
     }
   ],
   "release": "0",

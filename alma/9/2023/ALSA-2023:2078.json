@@ -12,30 +12,6 @@
     "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
       {
-        "name": "libwebp",
-        "version": "1.2.0",
-        "release": "6.el9_1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-1.2.0-6.el9_1.i686.rpm",
-        "sum": "4192cb88df348f6963e7becc6b897e80c548fd7ed55a970ccfe0dfe0e07aeb95",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp-devel",
-        "version": "1.2.0",
-        "release": "6.el9_1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-devel-1.2.0-6.el9_1.i686.rpm",
-        "sum": "f45f4e8ec54191ed1b58a0b5c64d74aa75edf7ea8e676f3cf5635f4ee5cbabb3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libwebp-devel",
         "version": "1.2.0",
         "release": "6.el9_1",
@@ -52,10 +28,46 @@
         "version": "1.2.0",
         "release": "6.el9_1",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-1.2.0-6.el9_1.x86_64.rpm",
-        "sum": "f44edbd1c7777252b7ac7840f606759b23016107a4c22a8a3bf63f66cfe18d39",
+        "filename": "libwebp-1.2.0-6.el9_1.ppc64le.rpm",
+        "sum": "2cf05f737395ca06292128afc7ac91fb6a965711eddcdee5437939a15b62c8da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp",
+        "version": "1.2.0",
+        "release": "6.el9_1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
+        "filename": "libwebp-1.2.0-6.el9_1.i686.rpm",
+        "sum": "4192cb88df348f6963e7becc6b897e80c548fd7ed55a970ccfe0dfe0e07aeb95",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp-devel",
+        "version": "1.2.0",
+        "release": "6.el9_1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
+        "filename": "libwebp-devel-1.2.0-6.el9_1.ppc64le.rpm",
+        "sum": "44b2654868922eaa3924ab3cc85703467d322fdef60d2154260f92832fd618fe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp",
+        "version": "1.2.0",
+        "release": "6.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
+        "filename": "libwebp-1.2.0-6.el9_1.aarch64.rpm",
+        "sum": "ac60aa1ce9131009acf6c137d00f78c9a323cfa4881093e1464c36fd22bce35d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,10 +100,10 @@
         "version": "1.2.0",
         "release": "6.el9_1",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-1.2.0-6.el9_1.ppc64le.rpm",
-        "sum": "2cf05f737395ca06292128afc7ac91fb6a965711eddcdee5437939a15b62c8da",
+        "filename": "libwebp-1.2.0-6.el9_1.x86_64.rpm",
+        "sum": "f44edbd1c7777252b7ac7840f606759b23016107a4c22a8a3bf63f66cfe18d39",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -100,22 +112,10 @@
         "version": "1.2.0",
         "release": "6.el9_1",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "i686",
         "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-devel-1.2.0-6.el9_1.ppc64le.rpm",
-        "sum": "44b2654868922eaa3924ab3cc85703467d322fdef60d2154260f92832fd618fe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp",
-        "version": "1.2.0",
-        "release": "6.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libwebp-1.2.0-6.el9_1.src.rpm",
-        "filename": "libwebp-1.2.0-6.el9_1.aarch64.rpm",
-        "sum": "ac60aa1ce9131009acf6c137d00f78c9a323cfa4881093e1464c36fd22bce35d",
+        "filename": "libwebp-devel-1.2.0-6.el9_1.i686.rpm",
+        "sum": "f45f4e8ec54191ed1b58a0b5c64d74aa75edf7ea8e676f3cf5635f4ee5cbabb3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -137,10 +137,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:2078",
-      "type": "rhsa",
-      "id": "RHSA-2023:2078",
-      "title": "RHSA-2023:2078"
+      "href": "https://bugzilla.redhat.com/2186102",
+      "type": "bugzilla",
+      "id": "2186102",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2023-1999",
@@ -149,10 +149,10 @@
       "title": "CVE-2023-1999"
     },
     {
-      "href": "https://bugzilla.redhat.com/2186102",
-      "type": "bugzilla",
-      "id": "2186102",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:2078",
+      "type": "rhsa",
+      "id": "RHSA-2023:2078",
+      "title": "RHSA-2023:2078"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2023-2078.html",
@@ -170,7 +170,7 @@
   "title": "Important: libwebp security update",
   "type": "security",
   "updated_date": {
-    "$date": 1683100885000
+    "$date": 1683100886000
   },
   "version": "1"
 }

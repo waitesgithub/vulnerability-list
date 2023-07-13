@@ -40,10 +40,10 @@
         "version": "1.2.11",
         "release": "18.el8_5",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "i686",
         "src": "zlib-1.2.11-18.el8_5.src.rpm",
-        "filename": "zlib-static-1.2.11-18.el8_5.x86_64.rpm",
-        "sum": "8bc12fe83114f785b7e5ac009b268016a27b16fe4e07832cda1259ba75ccef49",
+        "filename": "zlib-static-1.2.11-18.el8_5.i686.rpm",
+        "sum": "1d9b0d0afcee3707cefadd98e49420065a4210e6d2bef392c722d0fffc928040",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,22 +52,10 @@
         "version": "1.2.11",
         "release": "18.el8_5",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "zlib-1.2.11-18.el8_5.src.rpm",
-        "filename": "zlib-1.2.11-18.el8_5.x86_64.rpm",
-        "sum": "cd5f03daab39ce785ac959ea0f0eb4b29413342e447c896564b04598464f6121",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib",
-        "version": "1.2.11",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "zlib-1.2.11-18.el8_5.src.rpm",
-        "filename": "zlib-1.2.11-18.el8_5.x86_64.rpm",
-        "sum": "cd5f03daab39ce785ac959ea0f0eb4b29413342e447c896564b04598464f6121",
+        "filename": "zlib-1.2.11-18.el8_5.ppc64le.rpm",
+        "sum": "30c7d48e3b12fff68bae71c72c3eb449d118991f93d60e9dbcbb470a95709257",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,6 +84,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "zlib-devel",
+        "version": "1.2.11",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "zlib-1.2.11-18.el8_5.src.rpm",
+        "filename": "zlib-devel-1.2.11-18.el8_5.ppc64le.rpm",
+        "sum": "6c077034b5178116e32d38540f9a7ee65d8d82b097cca8569e27b8564cd3fa9d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-static",
+        "version": "1.2.11",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "zlib-1.2.11-18.el8_5.src.rpm",
+        "filename": "zlib-static-1.2.11-18.el8_5.x86_64.rpm",
+        "sum": "8bc12fe83114f785b7e5ac009b268016a27b16fe4e07832cda1259ba75ccef49",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "zlib",
         "version": "1.2.11",
         "release": "18.el8_5",
@@ -108,14 +120,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "zlib-static",
+        "name": "zlib",
         "version": "1.2.11",
         "release": "18.el8_5",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "zlib-1.2.11-18.el8_5.src.rpm",
-        "filename": "zlib-static-1.2.11-18.el8_5.i686.rpm",
-        "sum": "1d9b0d0afcee3707cefadd98e49420065a4210e6d2bef392c722d0fffc928040",
+        "filename": "zlib-1.2.11-18.el8_5.x86_64.rpm",
+        "sum": "cd5f03daab39ce785ac959ea0f0eb4b29413342e447c896564b04598464f6121",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -124,22 +136,10 @@
         "version": "1.2.11",
         "release": "18.el8_5",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "zlib-1.2.11-18.el8_5.src.rpm",
-        "filename": "zlib-1.2.11-18.el8_5.ppc64le.rpm",
-        "sum": "30c7d48e3b12fff68bae71c72c3eb449d118991f93d60e9dbcbb470a95709257",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib-devel",
-        "version": "1.2.11",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "zlib-1.2.11-18.el8_5.src.rpm",
-        "filename": "zlib-devel-1.2.11-18.el8_5.ppc64le.rpm",
-        "sum": "6c077034b5178116e32d38540f9a7ee65d8d82b097cca8569e27b8564cd3fa9d",
+        "filename": "zlib-1.2.11-18.el8_5.x86_64.rpm",
+        "sum": "cd5f03daab39ce785ac959ea0f0eb4b29413342e447c896564b04598464f6121",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -161,16 +161,16 @@
   "pushcount": "2",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1642.html",
-      "type": "self",
-      "id": "ALSA-2022-1642",
-      "title": "ALSA-2022-1642"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2018-25032",
       "type": "cve",
       "id": "CVE-2018-25032",
       "title": "CVE-2018-25032"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-1642.html",
+      "type": "self",
+      "id": "ALSA-2022-1642",
+      "title": "ALSA-2022-1642"
     }
   ],
   "release": "0",
@@ -182,7 +182,7 @@
   "title": "Important: zlib security update",
   "type": "security",
   "updated_date": {
-    "$date": 1651154834000
+    "$date": 1651254013000
   },
   "version": "2"
 }

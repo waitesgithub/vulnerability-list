@@ -407,16 +407,16 @@
   "pushcount": "6",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-4797.html",
-      "type": "self",
-      "id": "ALSA-2022-4797",
-      "title": "ALSA-2022-4797"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2022-29599",
       "type": "cve",
       "id": "CVE-2022-29599",
       "title": "CVE-2022-29599"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-4797.html",
+      "type": "self",
+      "id": "ALSA-2022-4797",
+      "title": "ALSA-2022-4797"
     }
   ],
   "release": "0",

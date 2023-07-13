@@ -40,10 +40,10 @@
         "version": "0.1.15",
         "release": "1.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "libxmlb-0.1.15-1.el8.src.rpm",
-        "filename": "libxmlb-0.1.15-1.el8.aarch64.rpm",
-        "sum": "518628277656002801a17820ab58658af415976f47b534a52eb07c64771e4271",
+        "filename": "libxmlb-0.1.15-1.el8.ppc64le.rpm",
+        "sum": "4ecb5204e65e24fea5a76a851a6fc9ccf124713e2d8fbe8df2390357f1e01806",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "0.1.15",
         "release": "1.el8",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "libxmlb-0.1.15-1.el8.src.rpm",
-        "filename": "libxmlb-0.1.15-1.el8.ppc64le.rpm",
-        "sum": "4ecb5204e65e24fea5a76a851a6fc9ccf124713e2d8fbe8df2390357f1e01806",
+        "filename": "libxmlb-0.1.15-1.el8.aarch64.rpm",
+        "sum": "518628277656002801a17820ab58658af415976f47b534a52eb07c64771e4271",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -77,10 +77,40 @@
   "pushcount": "5",
   "references": [
     {
+      "href": "https://bugzilla.redhat.com/1844316",
+      "type": "bugzilla",
+      "id": "1844316",
+      "title": ""
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2020-10759",
       "type": "cve",
       "id": "CVE-2020-10759",
       "title": "CVE-2020-10759"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2020-10759",
+      "type": "cve",
+      "id": "CVE-2020-10759",
+      "title": "CVE-2020-10759"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:4436",
+      "type": "rhsa",
+      "id": "RHSA-2020:4436",
+      "title": "RHSA-2020:4436"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-4436.html",
+      "type": "self",
+      "id": "ALSA-2020-4436",
+      "title": "ALSA-2020-4436"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-4436.html",
+      "type": "self",
+      "id": "ALSA-2020:4436",
+      "title": "ALSA-2020:4436"
     }
   ],
   "release": "0",
@@ -92,7 +122,7 @@
   "title": "Low: gnome-software and fwupd security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1658331787000
   },
   "version": "2"
 }

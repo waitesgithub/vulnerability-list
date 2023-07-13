@@ -40,10 +40,10 @@
         "version": "3.2.3",
         "release": "18.el9",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "ppc64le",
         "src": "rsync-3.2.3-18.el9.src.rpm",
-        "filename": "rsync-3.2.3-18.el9.s390x.rpm",
-        "sum": "8fbbb83bfd308d8cc9fd5430308610dff74f251316c65d0abf0a3c8294571937",
+        "filename": "rsync-3.2.3-18.el9.ppc64le.rpm",
+        "sum": "80a5233faa503ab7a879be7ea59d9884e9594c23700a078d28bfd146e2ba6630",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "3.2.3",
         "release": "18.el9",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "rsync-3.2.3-18.el9.src.rpm",
-        "filename": "rsync-3.2.3-18.el9.ppc64le.rpm",
-        "sum": "80a5233faa503ab7a879be7ea59d9884e9594c23700a078d28bfd146e2ba6630",
+        "filename": "rsync-3.2.3-18.el9.s390x.rpm",
+        "sum": "8fbbb83bfd308d8cc9fd5430308610dff74f251316c65d0abf0a3c8294571937",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -77,10 +77,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8291",
-      "type": "rhsa",
-      "id": "RHSA-2022:8291",
-      "title": "RHSA-2022:8291"
+      "href": "https://bugzilla.redhat.com/2116639",
+      "type": "bugzilla",
+      "id": "2116639",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-37434",
@@ -89,10 +89,10 @@
       "title": "CVE-2022-37434"
     },
     {
-      "href": "https://bugzilla.redhat.com/2116639",
-      "type": "bugzilla",
-      "id": "2116639",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:8291",
+      "type": "rhsa",
+      "id": "RHSA-2022:8291",
+      "title": "RHSA-2022:8291"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-8291.html",

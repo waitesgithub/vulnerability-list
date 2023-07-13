@@ -16,30 +16,6 @@
         "version": "0.11.3",
         "release": "4.el9_1.2",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
-        "filename": "pcs-0.11.3-4.el9_1.2.x86_64.rpm",
-        "sum": "8384fd9cb6f7a7d35987df7bc6146e88ff00014d63dba7c5da0b2d0062b3252e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.11.3",
-        "release": "4.el9_1.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
-        "filename": "pcs-snmp-0.11.3-4.el9_1.2.x86_64.rpm",
-        "sum": "898a944051e8638b6e075708dba8bb45752dbd2417f7a7cca5eff5d35a06ffea",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.11.3",
-        "release": "4.el9_1.2",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
         "filename": "pcs-0.11.3-4.el9_1.2.ppc64le.rpm",
@@ -72,6 +48,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "pcs",
+        "version": "0.11.3",
+        "release": "4.el9_1.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
+        "filename": "pcs-0.11.3-4.el9_1.2.x86_64.rpm",
+        "sum": "8384fd9cb6f7a7d35987df7bc6146e88ff00014d63dba7c5da0b2d0062b3252e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "pcs-snmp",
         "version": "0.11.3",
         "release": "4.el9_1.2",
@@ -80,6 +68,18 @@
         "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
         "filename": "pcs-snmp-0.11.3-4.el9_1.2.aarch64.rpm",
         "sum": "878affc3ef7204cc9f6594b615b91e5e7049f97506a638960199da53d906e965",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs-snmp",
+        "version": "0.11.3",
+        "release": "4.el9_1.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.11.3-4.el9_1.2.src.rpm",
+        "filename": "pcs-snmp-0.11.3-4.el9_1.2.x86_64.rpm",
+        "sum": "898a944051e8638b6e075708dba8bb45752dbd2417f7a7cca5eff5d35a06ffea",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -113,10 +113,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0974",
-      "type": "rhsa",
-      "id": "RHSA-2023:0974",
-      "title": "RHSA-2023:0974"
+      "href": "https://bugzilla.redhat.com/2153363",
+      "type": "bugzilla",
+      "id": "2153363",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-45442",
@@ -125,10 +125,10 @@
       "title": "CVE-2022-45442"
     },
     {
-      "href": "https://bugzilla.redhat.com/2153363",
-      "type": "bugzilla",
-      "id": "2153363",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:0974",
+      "type": "rhsa",
+      "id": "RHSA-2023:0974",
+      "title": "RHSA-2023:0974"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2023-0974.html",
@@ -146,7 +146,7 @@
   "title": "Moderate: pcs security update",
   "type": "security",
   "updated_date": {
-    "$date": 1677609351000
+    "$date": 1677609352000
   },
   "version": "1"
 }

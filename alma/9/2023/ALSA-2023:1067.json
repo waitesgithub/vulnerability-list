@@ -8,8 +8,8 @@
     "$date": 1678060800000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "pesign",
@@ -41,10 +41,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:1067",
-      "type": "rhsa",
-      "id": "RHSA-2023:1067",
-      "title": "RHSA-2023:1067"
+      "href": "https://bugzilla.redhat.com/2135420",
+      "type": "bugzilla",
+      "id": "2135420",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-3560",
@@ -53,10 +53,10 @@
       "title": "CVE-2022-3560"
     },
     {
-      "href": "https://bugzilla.redhat.com/2135420",
-      "type": "bugzilla",
-      "id": "2135420",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:1067",
+      "type": "rhsa",
+      "id": "RHSA-2023:1067",
+      "title": "RHSA-2023:1067"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2023-1067.html",

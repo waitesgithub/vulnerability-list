@@ -16,30 +16,6 @@
         "version": "2.4.7",
         "release": "26.el8_1",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "ppp-2.4.7-26.el8_1.src.rpm",
-        "filename": "ppp-2.4.7-26.el8_1.x86_64.rpm",
-        "sum": "80cc2705132ebbd99c2e6f57d2c31f106f61d282fe3fef66465e3d8ddc332954",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ppp-devel",
-        "version": "2.4.7",
-        "release": "26.el8_1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ppp-2.4.7-26.el8_1.src.rpm",
-        "filename": "ppp-devel-2.4.7-26.el8_1.x86_64.rpm",
-        "sum": "9c99fff4af9c8b639762a573a85b20ef2b7b276d2297b75625cad0dc7f0cb8be",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ppp",
-        "version": "2.4.7",
-        "release": "26.el8_1",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "ppp-2.4.7-26.el8_1.src.rpm",
         "filename": "ppp-2.4.7-26.el8_1.aarch64.rpm",
@@ -100,6 +76,30 @@
         "version": "2.4.7",
         "release": "26.el8_1",
         "epoch": "0",
+        "arch": "x86_64",
+        "src": "ppp-2.4.7-26.el8_1.src.rpm",
+        "filename": "ppp-2.4.7-26.el8_1.x86_64.rpm",
+        "sum": "80cc2705132ebbd99c2e6f57d2c31f106f61d282fe3fef66465e3d8ddc332954",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ppp-devel",
+        "version": "2.4.7",
+        "release": "26.el8_1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "ppp-2.4.7-26.el8_1.src.rpm",
+        "filename": "ppp-devel-2.4.7-26.el8_1.x86_64.rpm",
+        "sum": "9c99fff4af9c8b639762a573a85b20ef2b7b276d2297b75625cad0dc7f0cb8be",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ppp",
+        "version": "2.4.7",
+        "release": "26.el8_1",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "ppp-2.4.7-26.el8_1.src.rpm",
         "filename": "ppp-2.4.7-26.el8_1.ppc64le.rpm",
@@ -113,16 +113,16 @@
   "pushcount": "2",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-0633.html",
-      "type": "self",
-      "id": "ALSA-2020-0633",
-      "title": "ALSA-2020-0633"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2020-8597",
       "type": "cve",
       "id": "CVE-2020-8597",
       "title": "CVE-2020-8597"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-0633.html",
+      "type": "self",
+      "id": "ALSA-2020-0633",
+      "title": "ALSA-2020-0633"
     }
   ],
   "release": "0",
@@ -134,7 +134,7 @@
   "title": "Important: ppp security update",
   "type": "security",
   "updated_date": {
-    "$date": 1582815549000
+    "$date": 1628672040000
   },
   "version": "1"
 }

@@ -12,6 +12,18 @@
     "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
+        "name": "trousers",
+        "version": "0.3.15",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "trousers-0.3.15-1.el8.src.rpm",
+        "filename": "trousers-0.3.15-1.el8.aarch64.rpm",
+        "sum": "126400510c072ab32fcb9eaf86a7e47a8b1b6e2aa6b1788e7addb2bc5900faf0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "trousers-lib",
         "version": "0.3.15",
         "release": "1.el8",
@@ -48,6 +60,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "trousers-lib",
+        "version": "0.3.15",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "trousers-0.3.15-1.el8.src.rpm",
+        "filename": "trousers-lib-0.3.15-1.el8.aarch64.rpm",
+        "sum": "2b019f87be71acc90cbadb968e0e166880c8c1463d0f25dafb1a1b0586c19993",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "trousers-devel",
+        "version": "0.3.15",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "trousers-0.3.15-1.el8.src.rpm",
+        "filename": "trousers-devel-0.3.15-1.el8.i686.rpm",
+        "sum": "6caeaeb42292dcdeecace7d08cd46e28096f79028e4203a90abbec86055f1544",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "trousers",
         "version": "0.3.15",
         "release": "1.el8",
@@ -60,38 +96,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "trousers-devel",
-        "version": "0.3.15",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "trousers-0.3.15-1.el8.src.rpm",
-        "filename": "trousers-devel-0.3.15-1.el8.x86_64.rpm",
-        "sum": "da3bfc3f80060dc54f67c3b0e558267a7bc2f1587c99a5ae71a97d7ba5758f91",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "trousers",
-        "version": "0.3.15",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "trousers-0.3.15-1.el8.src.rpm",
-        "filename": "trousers-0.3.15-1.el8.aarch64.rpm",
-        "sum": "126400510c072ab32fcb9eaf86a7e47a8b1b6e2aa6b1788e7addb2bc5900faf0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "trousers-lib",
         "version": "0.3.15",
         "release": "1.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "trousers-0.3.15-1.el8.src.rpm",
-        "filename": "trousers-lib-0.3.15-1.el8.aarch64.rpm",
-        "sum": "2b019f87be71acc90cbadb968e0e166880c8c1463d0f25dafb1a1b0586c19993",
+        "filename": "trousers-lib-0.3.15-1.el8.ppc64le.rpm",
+        "sum": "af480481181857612c5646b7e8f3fe944331f64e1e3ee2b50acd2e1e2575631f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -112,22 +124,10 @@
         "version": "0.3.15",
         "release": "1.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "trousers-0.3.15-1.el8.src.rpm",
-        "filename": "trousers-devel-0.3.15-1.el8.i686.rpm",
-        "sum": "6caeaeb42292dcdeecace7d08cd46e28096f79028e4203a90abbec86055f1544",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "trousers-lib",
-        "version": "0.3.15",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "trousers-0.3.15-1.el8.src.rpm",
-        "filename": "trousers-lib-0.3.15-1.el8.ppc64le.rpm",
-        "sum": "af480481181857612c5646b7e8f3fe944331f64e1e3ee2b50acd2e1e2575631f",
+        "filename": "trousers-devel-0.3.15-1.el8.x86_64.rpm",
+        "sum": "da3bfc3f80060dc54f67c3b0e558267a7bc2f1587c99a5ae71a97d7ba5758f91",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -161,12 +161,6 @@
   "pushcount": "4",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-1627.html",
-      "type": "self",
-      "id": "ALSA-2021-1627",
-      "title": "ALSA-2021-1627"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2020-24330",
       "type": "cve",
       "id": "CVE-2020-24330",
@@ -183,6 +177,12 @@
       "type": "cve",
       "id": "CVE-2020-24332",
       "title": "CVE-2020-24332"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1627.html",
+      "type": "self",
+      "id": "ALSA-2021-1627",
+      "title": "ALSA-2021-1627"
     }
   ],
   "release": "0",

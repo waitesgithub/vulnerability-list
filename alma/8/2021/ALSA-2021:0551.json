@@ -8,9 +8,21 @@
     "$date": 1613460882000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_nodejs",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_nodejs",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_nodejs",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_nodejs",
     "packages": [
+      {
+        "name": "nodejs-packaging",
+        "version": "23",
+        "release": "3.module_el8.5.0+254+b4526b16",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.src.rpm",
+        "filename": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.noarch.rpm",
+        "sum": "46efea0b245114ef59fb19785c77620fd338becc1d36c6c3ecf7e67d916cd8ed",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "nodejs-packaging",
         "version": "23",
@@ -48,18 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nodejs-packaging",
-        "version": "23",
-        "release": "3.module_el8.5.0+254+b4526b16",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.src.rpm",
-        "filename": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.noarch.rpm",
-        "sum": "46efea0b245114ef59fb19785c77620fd338becc1d36c6c3ecf7e67d916cd8ed",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nodejs-nodemon",
         "version": "2.0.3",
         "release": "1.module_el8.5.0+85+79a7b441",
@@ -76,18 +76,12 @@
       "stream": "12",
       "name": "nodejs",
       "version": 8060020220621120033,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "9edba152"
     }
   },
   "pushcount": "2",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-0551.html",
-      "type": "self",
-      "id": "ALSA-2021-0551",
-      "title": "ALSA-2021-0551"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2020-15366",
       "type": "cve",
@@ -129,6 +123,12 @@
       "type": "cve",
       "id": "CVE-2020-8287",
       "title": "CVE-2020-8287"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-0551.html",
+      "type": "self",
+      "id": "ALSA-2021-0551",
+      "title": "ALSA-2021-0551"
     }
   ],
   "release": "0",

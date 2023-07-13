@@ -41,12 +41,6 @@
   "pushcount": "2",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-4769.html",
-      "type": "self",
-      "id": "ALSA-2022-4769",
-      "title": "ALSA-2022-4769"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2022-1529",
       "type": "cve",
       "id": "CVE-2022-1529",
@@ -57,6 +51,12 @@
       "type": "cve",
       "id": "CVE-2022-1802",
       "title": "CVE-2022-1802"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-4769.html",
+      "type": "self",
+      "id": "ALSA-2022-4769",
+      "title": "ALSA-2022-4769"
     }
   ],
   "release": "0",

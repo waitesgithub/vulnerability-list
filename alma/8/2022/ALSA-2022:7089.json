@@ -16,46 +16,10 @@
         "version": "1.3.5",
         "release": "8.el8_6",
         "epoch": "0",
-        "arch": "i686",
-        "src": "libksba-1.3.5-8.el8_6.src.rpm",
-        "filename": "libksba-devel-1.3.5-8.el8_6.i686.rpm",
-        "sum": "a14647c668ec0412be06bea2e681719549fe46cb862866c87aedaafad795fef9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libksba",
-        "version": "1.3.5",
-        "release": "8.el8_6",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libksba-1.3.5-8.el8_6.src.rpm",
-        "filename": "libksba-1.3.5-8.el8_6.i686.rpm",
-        "sum": "63dbad711859fb0c3b4c285573f31e16746d35dfde7b7c997332e63240210ada",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libksba",
-        "version": "1.3.5",
-        "release": "8.el8_6",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "libksba-1.3.5-8.el8_6.src.rpm",
-        "filename": "libksba-1.3.5-8.el8_6.x86_64.rpm",
-        "sum": "f67bb93fdfbae6451b7605e60304e333a1ddd3a28d8142ccf439fb3ad1027804",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libksba",
-        "version": "1.3.5",
-        "release": "8.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libksba-1.3.5-8.el8_6.src.rpm",
-        "filename": "libksba-1.3.5-8.el8_6.aarch64.rpm",
-        "sum": "c8c5d4aa8fb9004cecedb2a3b8f27cf7b7219b49718f7971bb4e2b8f758c227d",
+        "filename": "libksba-devel-1.3.5-8.el8_6.x86_64.rpm",
+        "sum": "0f34921b128e33dffd3250fe296e9fb7ec33b731d8cea5f75b92d6319cccf3aa",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,18 +32,6 @@
         "src": "libksba-1.3.5-8.el8_6.src.rpm",
         "filename": "libksba-devel-1.3.5-8.el8_6.aarch64.rpm",
         "sum": "4d0b066d0d01fc4d6f541161df7857db8b95e83db54bb72feb09db7ec4b0f77b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libksba-devel",
-        "version": "1.3.5",
-        "release": "8.el8_6",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libksba-1.3.5-8.el8_6.src.rpm",
-        "filename": "libksba-devel-1.3.5-8.el8_6.x86_64.rpm",
-        "sum": "0f34921b128e33dffd3250fe296e9fb7ec33b731d8cea5f75b92d6319cccf3aa",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -108,6 +60,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libksba",
+        "version": "1.3.5",
+        "release": "8.el8_6",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libksba-1.3.5-8.el8_6.src.rpm",
+        "filename": "libksba-1.3.5-8.el8_6.i686.rpm",
+        "sum": "63dbad711859fb0c3b4c285573f31e16746d35dfde7b7c997332e63240210ada",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libksba-devel",
+        "version": "1.3.5",
+        "release": "8.el8_6",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libksba-1.3.5-8.el8_6.src.rpm",
+        "filename": "libksba-devel-1.3.5-8.el8_6.i686.rpm",
+        "sum": "a14647c668ec0412be06bea2e681719549fe46cb862866c87aedaafad795fef9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libksba",
+        "version": "1.3.5",
+        "release": "8.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libksba-1.3.5-8.el8_6.src.rpm",
+        "filename": "libksba-1.3.5-8.el8_6.aarch64.rpm",
+        "sum": "c8c5d4aa8fb9004cecedb2a3b8f27cf7b7219b49718f7971bb4e2b8f758c227d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libksba-devel",
         "version": "1.3.5",
         "release": "8.el8_6",
@@ -130,6 +118,18 @@
         "sum": "f2728e4e541c2f78d9d991b3e8133a6654273c83a67736b97790e32a43d33130",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "libksba",
+        "version": "1.3.5",
+        "release": "8.el8_6",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libksba-1.3.5-8.el8_6.src.rpm",
+        "filename": "libksba-1.3.5-8.el8_6.x86_64.rpm",
+        "sum": "f67bb93fdfbae6451b7605e60304e333a1ddd3a28d8142ccf439fb3ad1027804",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -137,10 +137,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7089",
-      "type": "rhsa",
-      "id": "RHSA-2022:7089",
-      "title": "RHSA-2022:7089"
+      "href": "https://bugzilla.redhat.com/2135610",
+      "type": "bugzilla",
+      "id": "2135610",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-3515",
@@ -149,10 +149,10 @@
       "title": "CVE-2022-3515"
     },
     {
-      "href": "https://bugzilla.redhat.com/2135610",
-      "type": "bugzilla",
-      "id": "2135610",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7089",
+      "type": "rhsa",
+      "id": "RHSA-2022:7089",
+      "title": "RHSA-2022:7089"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7089.html",

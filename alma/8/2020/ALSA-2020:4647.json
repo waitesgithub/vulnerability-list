@@ -40,6 +40,18 @@
         "version": "3.22.0",
         "release": "23.el8",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "vinagre-3.22.0-23.el8.src.rpm",
+        "filename": "vinagre-3.22.0-23.el8.ppc64le.rpm",
+        "sum": "a80f0378b41c9d71516a5261916abffecc3e6831e8d678717a561bf6e57d1244",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "vinagre",
+        "version": "3.22.0",
+        "release": "23.el8",
+        "epoch": "0",
         "arch": "x86_64",
         "src": "vinagre-3.22.0-23.el8.src.rpm",
         "filename": "vinagre-3.22.0-23.el8.x86_64.rpm",
@@ -56,18 +68,6 @@
         "src": "vinagre-3.22.0-23.el8.src.rpm",
         "filename": "vinagre-3.22.0-23.el8.aarch64.rpm",
         "sum": "d3caabf880a989fdeba49e7051dfebcb8093d1487a40a6a4621c8a400a8eba25",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vinagre",
-        "version": "3.22.0",
-        "release": "23.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "vinagre-3.22.0-23.el8.src.rpm",
-        "filename": "vinagre-3.22.0-23.el8.ppc64le.rpm",
-        "sum": "a80f0378b41c9d71516a5261916abffecc3e6831e8d678717a561bf6e57d1244",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -225,6 +225,12 @@
       "type": "cve",
       "id": "CVE-2020-13397",
       "title": "CVE-2020-13397"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-4647.html",
+      "type": "self",
+      "id": "ALSA-2020-4647",
+      "title": "ALSA-2020-4647"
     }
   ],
   "release": "0",
@@ -236,7 +242,7 @@
   "title": "Moderate: freerdp and vinagre security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1636712456000
   },
   "version": "2"
 }

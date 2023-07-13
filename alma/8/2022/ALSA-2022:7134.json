@@ -161,10 +161,40 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7134",
-      "type": "rhsa",
-      "id": "RHSA-2022:7134",
-      "title": "RHSA-2022:7134"
+      "href": "https://bugzilla.redhat.com/2039448",
+      "type": "bugzilla",
+      "id": "2039448",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2066819",
+      "type": "bugzilla",
+      "id": "2066819",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2090226",
+      "type": "bugzilla",
+      "id": "2090226",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2103148",
+      "type": "bugzilla",
+      "id": "2103148",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2103153",
+      "type": "bugzilla",
+      "id": "2103153",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2114849",
+      "type": "bugzilla",
+      "id": "2114849",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-0494",
@@ -209,40 +239,10 @@
       "title": "CVE-2022-29901"
     },
     {
-      "href": "https://bugzilla.redhat.com/2039448",
-      "type": "bugzilla",
-      "id": "2039448",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2066819",
-      "type": "bugzilla",
-      "id": "2066819",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2090226",
-      "type": "bugzilla",
-      "id": "2090226",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2103148",
-      "type": "bugzilla",
-      "id": "2103148",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2103153",
-      "type": "bugzilla",
-      "id": "2103153",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2114849",
-      "type": "bugzilla",
-      "id": "2114849",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7134",
+      "type": "rhsa",
+      "id": "RHSA-2022:7134",
+      "title": "RHSA-2022:7134"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7134.html",

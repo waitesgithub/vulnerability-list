@@ -16,18 +16,6 @@
         "version": "2.12",
         "release": "11.el8",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "cpio-2.12-11.el8.src.rpm",
-        "filename": "cpio-2.12-11.el8.x86_64.rpm",
-        "sum": "4766f6057574cad05f54a13f6494075371f2b6d74ee24746899b36e98b6fbbf8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cpio",
-        "version": "2.12",
-        "release": "11.el8",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "cpio-2.12-11.el8.src.rpm",
         "filename": "cpio-2.12-11.el8.aarch64.rpm",
@@ -46,6 +34,18 @@
         "sum": "1c93544310de9c16ad8ad0831605a0ad1232b2bd3f5101030d1a451503079003",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "cpio",
+        "version": "2.12",
+        "release": "11.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "cpio-2.12-11.el8.src.rpm",
+        "filename": "cpio-2.12-11.el8.x86_64.rpm",
+        "sum": "4766f6057574cad05f54a13f6494075371f2b6d74ee24746899b36e98b6fbbf8",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -53,16 +53,16 @@
   "pushcount": "3",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1991.html",
-      "type": "self",
-      "id": "ALSA-2022-1991",
-      "title": "ALSA-2022-1991"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2021-38185",
       "type": "cve",
       "id": "CVE-2021-38185",
       "title": "CVE-2021-38185"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-1991.html",
+      "type": "self",
+      "id": "ALSA-2022-1991",
+      "title": "ALSA-2022-1991"
     }
   ],
   "release": "0",

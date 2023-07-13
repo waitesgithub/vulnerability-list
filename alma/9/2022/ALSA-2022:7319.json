@@ -8,8 +8,8 @@
     "$date": 1667347200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-nfv-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-nfv-rpms__9_default",
+    "name": "almalinux-9-for-x86_64-rt-rpms__9_default",
+    "shortname": "almalinux-9-for-x86_64-rt-rpms__9_default",
     "packages": [
       {
         "name": "kernel-rt-kvm",
@@ -161,10 +161,16 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7319",
-      "type": "rhsa",
-      "id": "RHSA-2022:7319",
-      "title": "RHSA-2022:7319"
+      "href": "https://bugzilla.redhat.com/2085300",
+      "type": "bugzilla",
+      "id": "2085300",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2114874",
+      "type": "bugzilla",
+      "id": "2114874",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-2585",
@@ -179,16 +185,10 @@
       "title": "CVE-2022-30594"
     },
     {
-      "href": "https://bugzilla.redhat.com/2085300",
-      "type": "bugzilla",
-      "id": "2085300",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2114874",
-      "type": "bugzilla",
-      "id": "2114874",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7319",
+      "type": "rhsa",
+      "id": "RHSA-2022:7319",
+      "title": "RHSA-2022:7319"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-7319.html",

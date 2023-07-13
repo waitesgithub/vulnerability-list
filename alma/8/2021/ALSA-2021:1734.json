@@ -36,18 +36,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "shim-x64",
-        "version": "15.4",
-        "release": "2.el8_1.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "shim-15.4-2.el8_1.alma.src.rpm",
-        "filename": "shim-x64-15.4-2.el8_1.alma.x86_64.rpm",
-        "sum": "985ea8336abc099a339174466fbe3ec3248a04f9b89cbc58f5d48f0a8143d568",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "shim-aa64",
         "version": "15.4",
         "release": "2.el8_1.alma",
@@ -56,6 +44,18 @@
         "src": "shim-15.4-2.el8_1.alma.src.rpm",
         "filename": "shim-aa64-15.4-2.el8_1.alma.aarch64.rpm",
         "sum": "6cfb21a2513e1cf3faea077e09b42277bd84a53dd4221db8548af8ab6aa43764",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "shim-x64",
+        "version": "15.4",
+        "release": "2.el8_1.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "shim-15.4-2.el8_1.alma.src.rpm",
+        "filename": "shim-x64-15.4-2.el8_1.alma.x86_64.rpm",
+        "sum": "985ea8336abc099a339174466fbe3ec3248a04f9b89cbc58f5d48f0a8143d568",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,12 +76,6 @@
   },
   "pushcount": "3",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-1734.html",
-      "type": "self",
-      "id": "ALSA-2021-1734",
-      "title": "ALSA-2021-1734"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2020-14372",
       "type": "cve",
@@ -123,6 +117,12 @@
       "type": "cve",
       "id": "CVE-2021-20233",
       "title": "CVE-2021-20233"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1734.html",
+      "type": "self",
+      "id": "ALSA-2021-1734",
+      "title": "ALSA-2021-1734"
     }
   ],
   "release": "0",
@@ -134,7 +134,7 @@
   "title": "Moderate: shim security update",
   "type": "security",
   "updated_date": {
-    "$date": 1621317404000
+    "$date": 1628672040000
   },
   "version": "1"
 }

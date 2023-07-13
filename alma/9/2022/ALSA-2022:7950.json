@@ -8,9 +8,21 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "weldr-client",
+        "version": "35.5",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "weldr-client-35.5-4.el9.src.rpm",
+        "filename": "weldr-client-35.5-4.el9.ppc64le.rpm",
+        "sum": "2399e22775018a59092bd7d244177a51f1221ec82f62f1a53e6e6b7fd5471f7e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "weldr-client",
         "version": "35.5",
@@ -40,18 +52,6 @@
         "version": "35.5",
         "release": "4.el9",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "weldr-client-35.5-4.el9.src.rpm",
-        "filename": "weldr-client-35.5-4.el9.ppc64le.rpm",
-        "sum": "2399e22775018a59092bd7d244177a51f1221ec82f62f1a53e6e6b7fd5471f7e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "weldr-client",
-        "version": "35.5",
-        "release": "4.el9",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "weldr-client-35.5-4.el9.src.rpm",
         "filename": "weldr-client-35.5-4.el9.aarch64.rpm",
@@ -65,10 +65,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7950",
-      "type": "rhsa",
-      "id": "RHSA-2022:7950",
-      "title": "RHSA-2022:7950"
+      "href": "https://bugzilla.redhat.com/2113814",
+      "type": "bugzilla",
+      "id": "2113814",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-32189",
@@ -77,10 +77,10 @@
       "title": "CVE-2022-32189"
     },
     {
-      "href": "https://bugzilla.redhat.com/2113814",
-      "type": "bugzilla",
-      "id": "2113814",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7950",
+      "type": "rhsa",
+      "id": "RHSA-2022:7950",
+      "title": "RHSA-2022:7950"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-7950.html",

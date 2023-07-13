@@ -16,6 +16,30 @@
         "version": "1.1.1k",
         "release": "7.el8_6",
         "epoch": "1",
+        "arch": "ppc64le",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-devel-1.1.1k-7.el8_6.ppc64le.rpm",
+        "sum": "091a6ace6f298f7991b2757e33d15480ad6fa2118756c1f407224ad5cb7b233c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-1.1.1k-7.el8_6.ppc64le.rpm",
+        "sum": "1a5d7cb333b04d97a28b09f288a97bc7782b6c32c972174d722536feb76faeda",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-devel",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
         "arch": "i686",
         "src": "openssl-1.1.1k-7.el8_6.src.rpm",
         "filename": "openssl-devel-1.1.1k-7.el8_6.i686.rpm",
@@ -52,10 +76,34 @@
         "version": "1.1.1k",
         "release": "7.el8_6",
         "epoch": "1",
+        "arch": "aarch64",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-devel-1.1.1k-7.el8_6.aarch64.rpm",
+        "sum": "374f89cc9ac86a5b36f7d1047417ad93a4113a508e6bf3e96838a0a0f3c35998",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-devel",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
         "arch": "x86_64",
         "src": "openssl-1.1.1k-7.el8_6.src.rpm",
         "filename": "openssl-devel-1.1.1k-7.el8_6.x86_64.rpm",
         "sum": "49cb90dbf9f65004b1a95b139935eef596a4f4a54010b58dacb5276910638455",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-1.1.1k-7.el8_6.aarch64.rpm",
+        "sum": "4d14de70d830bd66c7ce2a7992a303f28ac96d171da95c71620ea0ec577be880",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,34 +124,10 @@
         "version": "1.1.1k",
         "release": "7.el8_6",
         "epoch": "1",
-        "arch": "i686",
+        "arch": "ppc64le",
         "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-libs-1.1.1k-7.el8_6.i686.rpm",
-        "sum": "f21c4f589baaf33098252e04ab69105be1692668336359438f54dbbe01149c22",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-devel",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-devel-1.1.1k-7.el8_6.aarch64.rpm",
-        "sum": "374f89cc9ac86a5b36f7d1047417ad93a4113a508e6bf3e96838a0a0f3c35998",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-1.1.1k-7.el8_6.aarch64.rpm",
-        "sum": "4d14de70d830bd66c7ce2a7992a303f28ac96d171da95c71620ea0ec577be880",
+        "filename": "openssl-libs-1.1.1k-7.el8_6.ppc64le.rpm",
+        "sum": "698692867e7a2f34f38e4e9c8dfddf4bcc555d5a0d90dcf5eb9b5f1b14a5b7a2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,42 +156,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "openssl-devel",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-devel-1.1.1k-7.el8_6.ppc64le.rpm",
-        "sum": "091a6ace6f298f7991b2757e33d15480ad6fa2118756c1f407224ad5cb7b233c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-1.1.1k-7.el8_6.ppc64le.rpm",
-        "sum": "1a5d7cb333b04d97a28b09f288a97bc7782b6c32c972174d722536feb76faeda",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-libs",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-libs-1.1.1k-7.el8_6.ppc64le.rpm",
-        "sum": "698692867e7a2f34f38e4e9c8dfddf4bcc555d5a0d90dcf5eb9b5f1b14a5b7a2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "openssl-perl",
         "version": "1.1.1k",
         "release": "7.el8_6",
@@ -178,6 +166,18 @@
         "sum": "abd4e6b9918ab5140fb4aff9fb4330bcacc45940659df28bef63c31bc8d0fc3c",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-libs",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-libs-1.1.1k-7.el8_6.i686.rpm",
+        "sum": "f21c4f589baaf33098252e04ab69105be1692668336359438f54dbbe01149c22",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -185,10 +185,22 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5818",
-      "type": "rhsa",
-      "id": "RHSA-2022:5818",
-      "title": "RHSA-2022:5818"
+      "href": "https://bugzilla.redhat.com/2081494",
+      "type": "bugzilla",
+      "id": "2081494",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2097310",
+      "type": "bugzilla",
+      "id": "2097310",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2104905",
+      "type": "bugzilla",
+      "id": "2104905",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-1292",
@@ -209,21 +221,33 @@
       "title": "CVE-2022-2097"
     },
     {
-      "href": "https://bugzilla.redhat.com/2081494",
-      "type": "bugzilla",
-      "id": "2081494",
+      "href": "https://access.redhat.com/security/cve/CVE-2022-1292",
+      "type": "cve",
+      "id": "CVE-2022-1292",
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2097310",
-      "type": "bugzilla",
-      "id": "2097310",
+      "href": "https://access.redhat.com/security/cve/CVE-2022-2068",
+      "type": "cve",
+      "id": "CVE-2022-2068",
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2104905",
-      "type": "bugzilla",
-      "id": "2104905",
+      "href": "https://access.redhat.com/security/cve/CVE-2022-2097",
+      "type": "cve",
+      "id": "CVE-2022-2097",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5818",
+      "type": "rhsa",
+      "id": "RHSA-2022:5818",
+      "title": "RHSA-2022:5818"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5818",
+      "type": "rhsa",
+      "id": "RHSA-2022:5818",
       "title": ""
     },
     {

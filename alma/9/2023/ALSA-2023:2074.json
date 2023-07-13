@@ -12,66 +12,6 @@
     "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
       {
-        "name": "emacs-filesystem",
-        "version": "27.2",
-        "release": "6.el9_1.1",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-filesystem-27.2-6.el9_1.1.noarch.rpm",
-        "sum": "d6466e576a0bf2d374c78b962fa9bfc089a4041c027b49abefb0292b86d89e49",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "emacs",
-        "version": "27.2",
-        "release": "6.el9_1.1",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-27.2-6.el9_1.1.x86_64.rpm",
-        "sum": "58175e33682dcd5dd5287918a2339db42f48256a1ec9b2aae255be84faac99d5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "emacs-common",
-        "version": "27.2",
-        "release": "6.el9_1.1",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-common-27.2-6.el9_1.1.x86_64.rpm",
-        "sum": "a4935143429b0fa264eb72535b3977777f2d5ca50bded21b7b96e24d929ff1e3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "emacs-nox",
-        "version": "27.2",
-        "release": "6.el9_1.1",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-nox-27.2-6.el9_1.1.x86_64.rpm",
-        "sum": "c174a46c31bafd3909819838818d992357c8863d0efd5d68daeef095efa9ef17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "emacs-lucid",
-        "version": "27.2",
-        "release": "6.el9_1.1",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-lucid-27.2-6.el9_1.1.x86_64.rpm",
-        "sum": "da4d01937d3a3813f5bbc9b25d10c6482fdeb5e0cbb0cc853b5d9c21bedadbee",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "emacs",
         "version": "27.2",
         "release": "6.el9_1.1",
@@ -108,18 +48,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "emacs-nox",
-        "version": "27.2",
-        "release": "6.el9_1.1",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-nox-27.2-6.el9_1.1.s390x.rpm",
-        "sum": "6a01f6b17c99a5926f4c02b847a5c7b72692c5f7fe070e3a86365eeeb5ce8dc8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "emacs-common",
         "version": "27.2",
         "release": "6.el9_1.1",
@@ -128,6 +56,18 @@
         "src": "emacs-27.2-6.el9_1.1.src.rpm",
         "filename": "emacs-common-27.2-6.el9_1.1.ppc64le.rpm",
         "sum": "21d16feae964e6021b8fa6bb12e53f99d12ee910c22a91482e19bb4103c0d7d5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "emacs",
+        "version": "27.2",
+        "release": "6.el9_1.1",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "emacs-27.2-6.el9_1.1.src.rpm",
+        "filename": "emacs-27.2-6.el9_1.1.aarch64.rpm",
+        "sum": "3d77ad7e0002cf9527dd2033df7cf38c41b216642593134553385f7171cd2dae",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -148,10 +88,10 @@
         "version": "27.2",
         "release": "6.el9_1.1",
         "epoch": "1",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-27.2-6.el9_1.1.ppc64le.rpm",
-        "sum": "78911d439e9904d62853f4e32b65f42ae265fe947adc203229cc9b7be25825ec",
+        "filename": "emacs-27.2-6.el9_1.1.x86_64.rpm",
+        "sum": "58175e33682dcd5dd5287918a2339db42f48256a1ec9b2aae255be84faac99d5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -160,10 +100,10 @@
         "version": "27.2",
         "release": "6.el9_1.1",
         "epoch": "1",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-nox-27.2-6.el9_1.1.ppc64le.rpm",
-        "sum": "9cd61e963d17aadf87e666054f84465016fc5d8e8a5b7a334f9a93e9e743e1e9",
+        "filename": "emacs-nox-27.2-6.el9_1.1.s390x.rpm",
+        "sum": "6a01f6b17c99a5926f4c02b847a5c7b72692c5f7fe070e3a86365eeeb5ce8dc8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -172,10 +112,10 @@
         "version": "27.2",
         "release": "6.el9_1.1",
         "epoch": "1",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "emacs-27.2-6.el9_1.1.src.rpm",
-        "filename": "emacs-27.2-6.el9_1.1.aarch64.rpm",
-        "sum": "3d77ad7e0002cf9527dd2033df7cf38c41b216642593134553385f7171cd2dae",
+        "filename": "emacs-27.2-6.el9_1.1.ppc64le.rpm",
+        "sum": "78911d439e9904d62853f4e32b65f42ae265fe947adc203229cc9b7be25825ec",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -192,6 +132,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "emacs-nox",
+        "version": "27.2",
+        "release": "6.el9_1.1",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "emacs-27.2-6.el9_1.1.src.rpm",
+        "filename": "emacs-nox-27.2-6.el9_1.1.ppc64le.rpm",
+        "sum": "9cd61e963d17aadf87e666054f84465016fc5d8e8a5b7a334f9a93e9e743e1e9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "emacs-lucid",
         "version": "27.2",
         "release": "6.el9_1.1",
@@ -200,6 +152,54 @@
         "src": "emacs-27.2-6.el9_1.1.src.rpm",
         "filename": "emacs-lucid-27.2-6.el9_1.1.aarch64.rpm",
         "sum": "a2759f81ee408c5cde26fa22333e801307832f934d61b8b2be132431c3ffcb1d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "emacs-common",
+        "version": "27.2",
+        "release": "6.el9_1.1",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "emacs-27.2-6.el9_1.1.src.rpm",
+        "filename": "emacs-common-27.2-6.el9_1.1.x86_64.rpm",
+        "sum": "a4935143429b0fa264eb72535b3977777f2d5ca50bded21b7b96e24d929ff1e3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "emacs-nox",
+        "version": "27.2",
+        "release": "6.el9_1.1",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "emacs-27.2-6.el9_1.1.src.rpm",
+        "filename": "emacs-nox-27.2-6.el9_1.1.x86_64.rpm",
+        "sum": "c174a46c31bafd3909819838818d992357c8863d0efd5d68daeef095efa9ef17",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "emacs-filesystem",
+        "version": "27.2",
+        "release": "6.el9_1.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "emacs-27.2-6.el9_1.1.src.rpm",
+        "filename": "emacs-filesystem-27.2-6.el9_1.1.noarch.rpm",
+        "sum": "d6466e576a0bf2d374c78b962fa9bfc089a4041c027b49abefb0292b86d89e49",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "emacs-lucid",
+        "version": "27.2",
+        "release": "6.el9_1.1",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "emacs-27.2-6.el9_1.1.src.rpm",
+        "filename": "emacs-lucid-27.2-6.el9_1.1.x86_64.rpm",
+        "sum": "da4d01937d3a3813f5bbc9b25d10c6482fdeb5e0cbb0cc853b5d9c21bedadbee",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -221,10 +221,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:2074",
-      "type": "rhsa",
-      "id": "RHSA-2023:2074",
-      "title": "RHSA-2023:2074"
+      "href": "https://bugzilla.redhat.com/2180544",
+      "type": "bugzilla",
+      "id": "2180544",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2023-28617",
@@ -233,10 +233,10 @@
       "title": "CVE-2023-28617"
     },
     {
-      "href": "https://bugzilla.redhat.com/2180544",
-      "type": "bugzilla",
-      "id": "2180544",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:2074",
+      "type": "rhsa",
+      "id": "RHSA-2023:2074",
+      "title": "RHSA-2023:2074"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2023-2074.html",
@@ -254,7 +254,7 @@
   "title": "Important: emacs security update",
   "type": "security",
   "updated_date": {
-    "$date": 1683101338000
+    "$date": 1683101339000
   },
   "version": "1"
 }

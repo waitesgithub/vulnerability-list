@@ -12,54 +12,6 @@
     "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
       {
-        "name": "libXpm",
-        "version": "3.5.13",
-        "release": "8.el9_1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
-        "filename": "libXpm-3.5.13-8.el9_1.i686.rpm",
-        "sum": "a480fde4a4e7588afd28669f37c5d99d6fce30ca4b2242339d9f3291e10b2007",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libXpm-devel",
-        "version": "3.5.13",
-        "release": "8.el9_1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
-        "filename": "libXpm-devel-3.5.13-8.el9_1.i686.rpm",
-        "sum": "fb0049df50b019cd939de8765800b76f9fa151263f27e32a1be97e5a27bc2401",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libXpm-devel",
-        "version": "3.5.13",
-        "release": "8.el9_1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
-        "filename": "libXpm-devel-3.5.13-8.el9_1.x86_64.rpm",
-        "sum": "2e9410d0418317e8db5a7a1af6bb09ee05d94402000b17ef83d0dd4b14e0d786",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libXpm",
-        "version": "3.5.13",
-        "release": "8.el9_1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
-        "filename": "libXpm-3.5.13-8.el9_1.x86_64.rpm",
-        "sum": "5ae4cf2431eef2c0f025647bb722585d7d5bb6158c38ab3de3bd6a4b94f1424d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libXpm-devel",
         "version": "3.5.13",
         "release": "8.el9_1",
@@ -84,26 +36,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libXpm",
-        "version": "3.5.13",
-        "release": "8.el9_1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
-        "filename": "libXpm-3.5.13-8.el9_1.ppc64le.rpm",
-        "sum": "420f3c80dc8fd2ee8eebe1fd89c3d9a2375d92456fb55349674f2ea694690752",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libXpm-devel",
         "version": "3.5.13",
         "release": "8.el9_1",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "libXpm-3.5.13-8.el9_1.src.rpm",
-        "filename": "libXpm-devel-3.5.13-8.el9_1.ppc64le.rpm",
-        "sum": "7c6243d1a4556d1daf028449f8a90d74b22c726a1cf951eeb8153d0ee77329b4",
+        "filename": "libXpm-devel-3.5.13-8.el9_1.x86_64.rpm",
+        "sum": "2e9410d0418317e8db5a7a1af6bb09ee05d94402000b17ef83d0dd4b14e0d786",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -124,10 +64,70 @@
         "version": "3.5.13",
         "release": "8.el9_1",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
+        "filename": "libXpm-3.5.13-8.el9_1.ppc64le.rpm",
+        "sum": "420f3c80dc8fd2ee8eebe1fd89c3d9a2375d92456fb55349674f2ea694690752",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libXpm",
+        "version": "3.5.13",
+        "release": "8.el9_1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
+        "filename": "libXpm-3.5.13-8.el9_1.x86_64.rpm",
+        "sum": "5ae4cf2431eef2c0f025647bb722585d7d5bb6158c38ab3de3bd6a4b94f1424d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libXpm-devel",
+        "version": "3.5.13",
+        "release": "8.el9_1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
+        "filename": "libXpm-devel-3.5.13-8.el9_1.ppc64le.rpm",
+        "sum": "7c6243d1a4556d1daf028449f8a90d74b22c726a1cf951eeb8153d0ee77329b4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libXpm",
+        "version": "3.5.13",
+        "release": "8.el9_1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
+        "filename": "libXpm-3.5.13-8.el9_1.i686.rpm",
+        "sum": "a480fde4a4e7588afd28669f37c5d99d6fce30ca4b2242339d9f3291e10b2007",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libXpm",
+        "version": "3.5.13",
+        "release": "8.el9_1",
+        "epoch": "0",
         "arch": "aarch64",
         "src": "libXpm-3.5.13-8.el9_1.src.rpm",
         "filename": "libXpm-3.5.13-8.el9_1.aarch64.rpm",
         "sum": "b61a699c5c664d0262b279e12a2c32690fdc8428856480b18b91611bb6611c55",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libXpm-devel",
+        "version": "3.5.13",
+        "release": "8.el9_1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libXpm-3.5.13-8.el9_1.src.rpm",
+        "filename": "libXpm-devel-3.5.13-8.el9_1.i686.rpm",
+        "sum": "fb0049df50b019cd939de8765800b76f9fa151263f27e32a1be97e5a27bc2401",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -137,10 +137,22 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0383",
-      "type": "rhsa",
-      "id": "RHSA-2023:0383",
-      "title": "RHSA-2023:0383"
+      "href": "https://bugzilla.redhat.com/2160092",
+      "type": "bugzilla",
+      "id": "2160092",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2160193",
+      "type": "bugzilla",
+      "id": "2160193",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2160213",
+      "type": "bugzilla",
+      "id": "2160213",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-44617",
@@ -161,22 +173,10 @@
       "title": "CVE-2022-4883"
     },
     {
-      "href": "https://bugzilla.redhat.com/2160092",
-      "type": "bugzilla",
-      "id": "2160092",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2160193",
-      "type": "bugzilla",
-      "id": "2160193",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2160213",
-      "type": "bugzilla",
-      "id": "2160213",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:0383",
+      "type": "rhsa",
+      "id": "RHSA-2023:0383",
+      "title": "RHSA-2023:0383"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2023-0383.html",
@@ -194,7 +194,7 @@
   "title": "Important: libXpm security update",
   "type": "security",
   "updated_date": {
-    "$date": 1674572085000
+    "$date": 1678725406000
   },
   "version": "1"
 }

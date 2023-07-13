@@ -12,78 +12,6 @@
     "shortname": "almalinux-8-for-i686-appstream-rpms__8_7_default",
     "packages": [
       {
-        "name": "libxml2-devel",
-        "version": "2.9.7",
-        "release": "15.el8_7.1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "libxml2-devel-2.9.7-15.el8_7.1.i686.rpm",
-        "sum": "0c4e9bc66f6a0d7bd4a36bf18e0affd4a5ec242e470799fa250a810f720112cb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libxml2",
-        "version": "2.9.7",
-        "release": "15.el8_7.1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "libxml2-2.9.7-15.el8_7.1.i686.rpm",
-        "sum": "f0d478a49d639f29ccebbfbf5c063cfdc7407c6ef8c806f78705178d88b016f8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libxml2",
-        "version": "2.9.7",
-        "release": "15.el8_7.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "libxml2-2.9.7-15.el8_7.1.x86_64.rpm",
-        "sum": "69c90eaf4279d093dda3658ba025d2c8a93cd62c3c83a119f47e0cbd7fddbe56",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-libxml2",
-        "version": "2.9.7",
-        "release": "15.el8_7.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "python3-libxml2-2.9.7-15.el8_7.1.x86_64.rpm",
-        "sum": "ea95280b9f6ecfdf377dde822cdba053c4c184cfa61adc70ba1e9d0d6fe9b01d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libxml2",
-        "version": "2.9.7",
-        "release": "15.el8_7.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "libxml2-2.9.7-15.el8_7.1.aarch64.rpm",
-        "sum": "95647c253b5cc4b2737ab82a3057b1099317d849f9b58f8b5cf4816392d56f0d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-libxml2",
-        "version": "2.9.7",
-        "release": "15.el8_7.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "python3-libxml2-2.9.7-15.el8_7.1.aarch64.rpm",
-        "sum": "f96b7ae91529771dedde539a269d2ea5d664860b6f19291fe5963a64b75ef37c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libxml2",
         "version": "2.9.7",
         "release": "15.el8_7.1",
@@ -96,14 +24,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-libxml2",
+        "name": "libxml2-devel",
         "version": "2.9.7",
         "release": "15.el8_7.1",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "i686",
         "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "python3-libxml2-2.9.7-15.el8_7.1.ppc64le.rpm",
-        "sum": "cc3ef9ace8490ff979eb809d9464a1565e82c137ae41c39abc980de0c3b62e52",
+        "filename": "libxml2-devel-2.9.7-15.el8_7.1.i686.rpm",
+        "sum": "0c4e9bc66f6a0d7bd4a36bf18e0affd4a5ec242e470799fa250a810f720112cb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,14 +60,38 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-libxml2",
+        "name": "libxml2-devel",
         "version": "2.9.7",
         "release": "15.el8_7.1",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "ppc64le",
         "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "python3-libxml2-2.9.7-15.el8_7.1.s390x.rpm",
-        "sum": "cf14d1de7b54f2a0be219f7da8aefe05a2a4784cb70076b3b705e0175cab925d",
+        "filename": "libxml2-devel-2.9.7-15.el8_7.1.ppc64le.rpm",
+        "sum": "4bef3549b4e5f7603dc79556a678f41faa211e254b5247e29380de2f02c4493d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libxml2",
+        "version": "2.9.7",
+        "release": "15.el8_7.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+        "filename": "libxml2-2.9.7-15.el8_7.1.x86_64.rpm",
+        "sum": "69c90eaf4279d093dda3658ba025d2c8a93cd62c3c83a119f47e0cbd7fddbe56",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libxml2",
+        "version": "2.9.7",
+        "release": "15.el8_7.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+        "filename": "libxml2-2.9.7-15.el8_7.1.aarch64.rpm",
+        "sum": "95647c253b5cc4b2737ab82a3057b1099317d849f9b58f8b5cf4816392d56f0d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -156,6 +108,66 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python3-libxml2",
+        "version": "2.9.7",
+        "release": "15.el8_7.1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+        "filename": "python3-libxml2-2.9.7-15.el8_7.1.ppc64le.rpm",
+        "sum": "cc3ef9ace8490ff979eb809d9464a1565e82c137ae41c39abc980de0c3b62e52",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-libxml2",
+        "version": "2.9.7",
+        "release": "15.el8_7.1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+        "filename": "python3-libxml2-2.9.7-15.el8_7.1.s390x.rpm",
+        "sum": "cf14d1de7b54f2a0be219f7da8aefe05a2a4784cb70076b3b705e0175cab925d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-libxml2",
+        "version": "2.9.7",
+        "release": "15.el8_7.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+        "filename": "python3-libxml2-2.9.7-15.el8_7.1.x86_64.rpm",
+        "sum": "ea95280b9f6ecfdf377dde822cdba053c4c184cfa61adc70ba1e9d0d6fe9b01d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libxml2",
+        "version": "2.9.7",
+        "release": "15.el8_7.1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+        "filename": "libxml2-2.9.7-15.el8_7.1.i686.rpm",
+        "sum": "f0d478a49d639f29ccebbfbf5c063cfdc7407c6ef8c806f78705178d88b016f8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-libxml2",
+        "version": "2.9.7",
+        "release": "15.el8_7.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+        "filename": "python3-libxml2-2.9.7-15.el8_7.1.aarch64.rpm",
+        "sum": "f96b7ae91529771dedde539a269d2ea5d664860b6f19291fe5963a64b75ef37c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libxml2-devel",
         "version": "2.9.7",
         "release": "15.el8_7.1",
@@ -166,18 +178,6 @@
         "sum": "fde09b25c0d2ea0941288617ec28633b91a16f88502443edd10c8c28891b4755",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libxml2-devel",
-        "version": "2.9.7",
-        "release": "15.el8_7.1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-        "filename": "libxml2-devel-2.9.7-15.el8_7.1.ppc64le.rpm",
-        "sum": "4bef3549b4e5f7603dc79556a678f41faa211e254b5247e29380de2f02c4493d",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -185,10 +185,16 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0173",
-      "type": "rhsa",
-      "id": "RHSA-2023:0173",
-      "title": "RHSA-2023:0173"
+      "href": "https://bugzilla.redhat.com/2136266",
+      "type": "bugzilla",
+      "id": "2136266",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2136288",
+      "type": "bugzilla",
+      "id": "2136288",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-40303",
@@ -203,16 +209,10 @@
       "title": "CVE-2022-40304"
     },
     {
-      "href": "https://bugzilla.redhat.com/2136266",
-      "type": "bugzilla",
-      "id": "2136266",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136288",
-      "type": "bugzilla",
-      "id": "2136288",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:0173",
+      "type": "rhsa",
+      "id": "RHSA-2023:0173",
+      "title": "RHSA-2023:0173"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2023-0173.html",
@@ -230,7 +230,7 @@
   "title": "Moderate: libxml2 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1673872394000
+    "$date": 1678274271000
   },
   "version": "1"
 }

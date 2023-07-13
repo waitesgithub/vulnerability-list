@@ -161,9 +161,15 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5344",
-      "type": "rhsa",
-      "id": "RHSA-2022:5344",
+      "href": "https://bugzilla.redhat.com/1899177",
+      "type": "bugzilla",
+      "id": "1899177",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2061633",
+      "type": "bugzilla",
+      "id": "2061633",
       "title": ""
     },
     {
@@ -179,16 +185,28 @@
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/1899177",
-      "type": "bugzilla",
-      "id": "1899177",
+      "href": "https://access.redhat.com/security/cve/CVE-2020-28915",
+      "type": "cve",
+      "id": "CVE-2020-28915",
+      "title": "CVE-2020-28915"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-27666",
+      "type": "cve",
+      "id": "CVE-2022-27666",
+      "title": "CVE-2022-27666"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5344",
+      "type": "rhsa",
+      "id": "RHSA-2022:5344",
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2061633",
-      "type": "bugzilla",
-      "id": "2061633",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:5344",
+      "type": "rhsa",
+      "id": "RHSA-2022:5344",
+      "title": "RHSA-2022:5344"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-5344.html",

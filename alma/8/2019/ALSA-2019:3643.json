@@ -12,6 +12,18 @@
     "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
+        "name": "gettext-devel",
+        "version": "0.19.8.1",
+        "release": "17.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gettext-0.19.8.1-17.el8.src.rpm",
+        "filename": "gettext-devel-0.19.8.1-17.el8.aarch64.rpm",
+        "sum": "091732f9b62474e891b06d2b6ae64967d76ec3be91825f27adb7910d2b3e12f6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "gettext-libs",
         "version": "0.19.8.1",
         "release": "17.el8",
@@ -32,6 +44,18 @@
         "src": "gettext-0.19.8.1-17.el8.src.rpm",
         "filename": "gettext-libs-0.19.8.1-17.el8.x86_64.rpm",
         "sum": "0becbf905324c1a9dca477970a0c2961c8dbb07f086beb2c20722af916bf8dbe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gettext-libs",
+        "version": "0.19.8.1",
+        "release": "17.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "gettext-0.19.8.1-17.el8.src.rpm",
+        "filename": "gettext-libs-0.19.8.1-17.el8.ppc64le.rpm",
+        "sum": "0d241975cd501084812614ad2c02ec3fb4c4c1b13cef579b37afb389afbc2891",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,6 +68,42 @@
         "src": "gettext-0.19.8.1-17.el8.src.rpm",
         "filename": "gettext-0.19.8.1-17.el8.x86_64.rpm",
         "sum": "16a1355d775fef0abc0b17686e6bdac402c3325d8868e8d20c39a285ebe37d89",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gettext-libs",
+        "version": "0.19.8.1",
+        "release": "17.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gettext-0.19.8.1-17.el8.src.rpm",
+        "filename": "gettext-libs-0.19.8.1-17.el8.aarch64.rpm",
+        "sum": "2cfd1220a84b1aa6df6ef7db2c1dfb2907f9253dec009fdb00b3165580a9e0d0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gettext",
+        "version": "0.19.8.1",
+        "release": "17.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "gettext-0.19.8.1-17.el8.src.rpm",
+        "filename": "gettext-0.19.8.1-17.el8.ppc64le.rpm",
+        "sum": "46a3e37418de43a86b9866d50f38c1858ade2d6a2d29db0be877775cb79714ea",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gettext",
+        "version": "0.19.8.1",
+        "release": "17.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gettext-0.19.8.1-17.el8.src.rpm",
+        "filename": "gettext-0.19.8.1-17.el8.aarch64.rpm",
+        "sum": "4873d39624da8c98b87364f504f9424f3f04f4c9c1d0a060452e399bb1fa0f11",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -112,66 +172,6 @@
         "version": "0.19.8.1",
         "release": "17.el8",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "gettext-0.19.8.1-17.el8.src.rpm",
-        "filename": "gettext-devel-0.19.8.1-17.el8.aarch64.rpm",
-        "sum": "091732f9b62474e891b06d2b6ae64967d76ec3be91825f27adb7910d2b3e12f6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gettext-libs",
-        "version": "0.19.8.1",
-        "release": "17.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gettext-0.19.8.1-17.el8.src.rpm",
-        "filename": "gettext-libs-0.19.8.1-17.el8.aarch64.rpm",
-        "sum": "2cfd1220a84b1aa6df6ef7db2c1dfb2907f9253dec009fdb00b3165580a9e0d0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gettext",
-        "version": "0.19.8.1",
-        "release": "17.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gettext-0.19.8.1-17.el8.src.rpm",
-        "filename": "gettext-0.19.8.1-17.el8.aarch64.rpm",
-        "sum": "4873d39624da8c98b87364f504f9424f3f04f4c9c1d0a060452e399bb1fa0f11",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gettext-libs",
-        "version": "0.19.8.1",
-        "release": "17.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "gettext-0.19.8.1-17.el8.src.rpm",
-        "filename": "gettext-libs-0.19.8.1-17.el8.ppc64le.rpm",
-        "sum": "0d241975cd501084812614ad2c02ec3fb4c4c1b13cef579b37afb389afbc2891",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gettext",
-        "version": "0.19.8.1",
-        "release": "17.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "gettext-0.19.8.1-17.el8.src.rpm",
-        "filename": "gettext-0.19.8.1-17.el8.ppc64le.rpm",
-        "sum": "46a3e37418de43a86b9866d50f38c1858ade2d6a2d29db0be877775cb79714ea",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gettext-devel",
-        "version": "0.19.8.1",
-        "release": "17.el8",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "gettext-0.19.8.1-17.el8.src.rpm",
         "filename": "gettext-devel-0.19.8.1-17.el8.ppc64le.rpm",
@@ -185,16 +185,16 @@
   "pushcount": "3",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2019-3643.html",
-      "type": "self",
-      "id": "ALSA-2019-3643",
-      "title": "ALSA-2019-3643"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2018-18751",
       "type": "cve",
       "id": "CVE-2018-18751",
       "title": "CVE-2018-18751"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2019-3643.html",
+      "type": "self",
+      "id": "ALSA-2019-3643",
+      "title": "ALSA-2019-3643"
     }
   ],
   "release": "0",

@@ -8,21 +8,9 @@
     "$date": 1665014400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
-      {
-        "name": "squid",
-        "version": "5.2",
-        "release": "1.el9_0.2",
-        "epoch": "7",
-        "arch": "x86_64",
-        "src": "squid-5.2-1.el9_0.2.src.rpm",
-        "filename": "squid-5.2-1.el9_0.2.x86_64.rpm",
-        "sum": "6250ecd2c1d86fa46a5de752024e115cfba1f03e8e2e280538ff1647f0aa4a23",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "squid",
         "version": "5.2",
@@ -40,10 +28,10 @@
         "version": "5.2",
         "release": "1.el9_0.2",
         "epoch": "7",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "squid-5.2-1.el9_0.2.src.rpm",
-        "filename": "squid-5.2-1.el9_0.2.ppc64le.rpm",
-        "sum": "98d6df362735780f35ee4f54a054a3fcb88eedbcd4047d63dd1d4cfcc707c27e",
+        "filename": "squid-5.2-1.el9_0.2.aarch64.rpm",
+        "sum": "503a2b43117f234e2817cd37ea4061d92967051f9505779ccbb0dc2af378f76a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,22 @@
         "version": "5.2",
         "release": "1.el9_0.2",
         "epoch": "7",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "squid-5.2-1.el9_0.2.src.rpm",
-        "filename": "squid-5.2-1.el9_0.2.aarch64.rpm",
-        "sum": "503a2b43117f234e2817cd37ea4061d92967051f9505779ccbb0dc2af378f76a",
+        "filename": "squid-5.2-1.el9_0.2.x86_64.rpm",
+        "sum": "6250ecd2c1d86fa46a5de752024e115cfba1f03e8e2e280538ff1647f0aa4a23",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "squid",
+        "version": "5.2",
+        "release": "1.el9_0.2",
+        "epoch": "7",
+        "arch": "ppc64le",
+        "src": "squid-5.2-1.el9_0.2.src.rpm",
+        "filename": "squid-5.2-1.el9_0.2.ppc64le.rpm",
+        "sum": "98d6df362735780f35ee4f54a054a3fcb88eedbcd4047d63dd1d4cfcc707c27e",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -65,10 +65,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6839",
-      "type": "rhsa",
-      "id": "RHSA-2022:6839",
-      "title": "RHSA-2022:6839"
+      "href": "https://bugzilla.redhat.com/2129771",
+      "type": "bugzilla",
+      "id": "2129771",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-41318",
@@ -77,10 +77,10 @@
       "title": "CVE-2022-41318"
     },
     {
-      "href": "https://bugzilla.redhat.com/2129771",
-      "type": "bugzilla",
-      "id": "2129771",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6839",
+      "type": "rhsa",
+      "id": "RHSA-2022:6839",
+      "title": "RHSA-2022:6839"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-6839.html",

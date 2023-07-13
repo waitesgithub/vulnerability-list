@@ -28,18 +28,6 @@
         "version": "5.5.1",
         "release": "9.el8",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "zsh-5.5.1-9.el8.src.rpm",
-        "filename": "zsh-5.5.1-9.el8.x86_64.rpm",
-        "sum": "fff004cc5e301208e70733a22799bf4606e709597c9148e79d95362317c64882",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zsh",
-        "version": "5.5.1",
-        "release": "9.el8",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "zsh-5.5.1-9.el8.src.rpm",
         "filename": "zsh-5.5.1-9.el8.aarch64.rpm",
@@ -58,6 +46,18 @@
         "sum": "e2fdc503823fbcedfb55444401a1142d9384a259ffaf2a03bc7f63517f53ff1b",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "zsh",
+        "version": "5.5.1",
+        "release": "9.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "zsh-5.5.1-9.el8.src.rpm",
+        "filename": "zsh-5.5.1-9.el8.x86_64.rpm",
+        "sum": "fff004cc5e301208e70733a22799bf4606e709597c9148e79d95362317c64882",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -65,16 +65,16 @@
   "pushcount": "2",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-2120.html",
-      "type": "self",
-      "id": "ALSA-2022-2120",
-      "title": "ALSA-2022-2120"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2021-45444",
       "type": "cve",
       "id": "CVE-2021-45444",
       "title": "CVE-2021-45444"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-2120.html",
+      "type": "self",
+      "id": "ALSA-2022-2120",
+      "title": "ALSA-2022-2120"
     }
   ],
   "release": "0",

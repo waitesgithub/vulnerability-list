@@ -8,8 +8,8 @@
     "$date": 1674432000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_7_default",
     "packages": [
       {
         "name": "firefox",
@@ -28,10 +28,10 @@
         "version": "102.7.0",
         "release": "1.el8_7.alma",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "ppc64le",
         "src": "firefox-102.7.0-1.el8_7.alma.src.rpm",
-        "filename": "firefox-102.7.0-1.el8_7.alma.s390x.rpm",
-        "sum": "ea9296eabe139c59962803cf63259cf2daa3615a8c295c9ceab9c4c33559f7a0",
+        "filename": "firefox-102.7.0-1.el8_7.alma.ppc64le.rpm",
+        "sum": "90a89ddb73f409208f7d2eb2b58bb2e552effa8d36650edf62d722ad66bbbdff",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "102.7.0",
         "release": "1.el8_7.alma",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "firefox-102.7.0-1.el8_7.alma.src.rpm",
-        "filename": "firefox-102.7.0-1.el8_7.alma.ppc64le.rpm",
-        "sum": "90a89ddb73f409208f7d2eb2b58bb2e552effa8d36650edf62d722ad66bbbdff",
+        "filename": "firefox-102.7.0-1.el8_7.alma.s390x.rpm",
+        "sum": "ea9296eabe139c59962803cf63259cf2daa3615a8c295c9ceab9c4c33559f7a0",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -65,10 +65,52 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0288",
-      "type": "rhsa",
-      "id": "RHSA-2023:0288",
-      "title": "RHSA-2023:0288"
+      "href": "https://bugzilla.redhat.com/2162336",
+      "type": "bugzilla",
+      "id": "2162336",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162338",
+      "type": "bugzilla",
+      "id": "2162338",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162339",
+      "type": "bugzilla",
+      "id": "2162339",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162340",
+      "type": "bugzilla",
+      "id": "2162340",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162341",
+      "type": "bugzilla",
+      "id": "2162341",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162342",
+      "type": "bugzilla",
+      "id": "2162342",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162343",
+      "type": "bugzilla",
+      "id": "2162343",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162344",
+      "type": "bugzilla",
+      "id": "2162344",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-46871",
@@ -119,52 +161,10 @@
       "title": "CVE-2023-23605"
     },
     {
-      "href": "https://bugzilla.redhat.com/2162336",
-      "type": "bugzilla",
-      "id": "2162336",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2162338",
-      "type": "bugzilla",
-      "id": "2162338",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2162339",
-      "type": "bugzilla",
-      "id": "2162339",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2162340",
-      "type": "bugzilla",
-      "id": "2162340",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2162341",
-      "type": "bugzilla",
-      "id": "2162341",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2162342",
-      "type": "bugzilla",
-      "id": "2162342",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2162343",
-      "type": "bugzilla",
-      "id": "2162343",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2162344",
-      "type": "bugzilla",
-      "id": "2162344",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:0288",
+      "type": "rhsa",
+      "id": "RHSA-2023:0288",
+      "title": "RHSA-2023:0288"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2023-0288.html",

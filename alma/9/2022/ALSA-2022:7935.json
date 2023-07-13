@@ -16,10 +16,46 @@
         "version": "0.11.3",
         "release": "4.el9",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.11.3-4.el9.src.rpm",
+        "filename": "pcs-snmp-0.11.3-4.el9.aarch64.rpm",
+        "sum": "0c8e62410b59ff3e17f6ade4b8851dce007db1b07460a202c1aab31d558e69db",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.11.3",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "pcs-0.11.3-4.el9.src.rpm",
+        "filename": "pcs-0.11.3-4.el9.s390x.rpm",
+        "sum": "3fbad14baea8c3d649f7b649e05ba5e752a26949b2c9668bdc1e6c50cb53c68d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs-snmp",
+        "version": "0.11.3",
+        "release": "4.el9",
+        "epoch": "0",
         "arch": "x86_64",
         "src": "pcs-0.11.3-4.el9.src.rpm",
         "filename": "pcs-snmp-0.11.3-4.el9.x86_64.rpm",
         "sum": "7b283bdbbda55f6e1d4825c113966329d315aaecccee536f4efa4abd5e4c993b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.11.3",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.11.3-4.el9.src.rpm",
+        "filename": "pcs-0.11.3-4.el9.aarch64.rpm",
+        "sum": "91ec6bd3919cd651f437e6c2e378771f40fef91064166c894089eac58ff7134a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -48,54 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pcs",
-        "version": "0.11.3",
-        "release": "4.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pcs-0.11.3-4.el9.src.rpm",
-        "filename": "pcs-0.11.3-4.el9.ppc64le.rpm",
-        "sum": "faf7a8dde2f17ec53c8437053ecb81cf9d1416be8b7fbf668fbec131e501d31a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.11.3",
-        "release": "4.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.11.3-4.el9.src.rpm",
-        "filename": "pcs-snmp-0.11.3-4.el9.aarch64.rpm",
-        "sum": "0c8e62410b59ff3e17f6ade4b8851dce007db1b07460a202c1aab31d558e69db",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.11.3",
-        "release": "4.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.11.3-4.el9.src.rpm",
-        "filename": "pcs-0.11.3-4.el9.aarch64.rpm",
-        "sum": "91ec6bd3919cd651f437e6c2e378771f40fef91064166c894089eac58ff7134a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.11.3",
-        "release": "4.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "pcs-0.11.3-4.el9.src.rpm",
-        "filename": "pcs-0.11.3-4.el9.s390x.rpm",
-        "sum": "3fbad14baea8c3d649f7b649e05ba5e752a26949b2c9668bdc1e6c50cb53c68d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pcs-snmp",
         "version": "0.11.3",
         "release": "4.el9",
@@ -106,6 +94,18 @@
         "sum": "ebce80f673f35a88dff5fd651d621150105b792d47efd0fd1a329bbf167b0f7c",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.11.3",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pcs-0.11.3-4.el9.src.rpm",
+        "filename": "pcs-0.11.3-4.el9.ppc64le.rpm",
+        "sum": "faf7a8dde2f17ec53c8437053ecb81cf9d1416be8b7fbf668fbec131e501d31a",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -113,10 +113,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7935",
-      "type": "rhsa",
-      "id": "RHSA-2022:7935",
-      "title": "RHSA-2022:7935"
+      "href": "https://bugzilla.redhat.com/2066629",
+      "type": "bugzilla",
+      "id": "2066629",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-1049",
@@ -125,10 +125,10 @@
       "title": "CVE-2022-1049"
     },
     {
-      "href": "https://bugzilla.redhat.com/2066629",
-      "type": "bugzilla",
-      "id": "2066629",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7935",
+      "type": "rhsa",
+      "id": "RHSA-2022:7935",
+      "title": "RHSA-2022:7935"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-7935.html",

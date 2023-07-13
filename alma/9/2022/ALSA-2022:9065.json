@@ -8,21 +8,9 @@
     "$date": 1671062400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
-      {
-        "name": "firefox",
-        "version": "102.6.0",
-        "release": "1.el9_1.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "firefox-102.6.0-1.el9_1.alma.src.rpm",
-        "filename": "firefox-102.6.0-1.el9_1.alma.x86_64.rpm",
-        "sum": "f88c30e44c3bfcc5a0d26d91af1291ca5f34e86c3a02bce59525e9a727faddee",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "firefox",
         "version": "102.6.0",
@@ -58,6 +46,18 @@
         "sum": "bfe2c5b2bdfa87dfe708e6157c4df0ca2068d5af4d3e14327b34e870bd107222",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "firefox",
+        "version": "102.6.0",
+        "release": "1.el9_1.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "firefox-102.6.0-1.el9_1.alma.src.rpm",
+        "filename": "firefox-102.6.0-1.el9_1.alma.x86_64.rpm",
+        "sum": "f88c30e44c3bfcc5a0d26d91af1291ca5f34e86c3a02bce59525e9a727faddee",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -65,10 +65,40 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:9065",
-      "type": "rhsa",
-      "id": "RHSA-2022:9065",
-      "title": "RHSA-2022:9065"
+      "href": "https://bugzilla.redhat.com/2153441",
+      "type": "bugzilla",
+      "id": "2153441",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2153449",
+      "type": "bugzilla",
+      "id": "2153449",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2153454",
+      "type": "bugzilla",
+      "id": "2153454",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2153463",
+      "type": "bugzilla",
+      "id": "2153463",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2153466",
+      "type": "bugzilla",
+      "id": "2153466",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2153467",
+      "type": "bugzilla",
+      "id": "2153467",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-46872",
@@ -107,40 +137,10 @@
       "title": "CVE-2022-46882"
     },
     {
-      "href": "https://bugzilla.redhat.com/2153441",
-      "type": "bugzilla",
-      "id": "2153441",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2153449",
-      "type": "bugzilla",
-      "id": "2153449",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2153454",
-      "type": "bugzilla",
-      "id": "2153454",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2153463",
-      "type": "bugzilla",
-      "id": "2153463",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2153466",
-      "type": "bugzilla",
-      "id": "2153466",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2153467",
-      "type": "bugzilla",
-      "id": "2153467",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:9065",
+      "type": "rhsa",
+      "id": "RHSA-2022:9065",
+      "title": "RHSA-2022:9065"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-9065.html",

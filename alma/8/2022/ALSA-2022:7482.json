@@ -8,8 +8,8 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-i686-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-i686-powertools-rpms__8_6_default",
+    "shortname": "almalinux-8-for-i686-powertools-rpms__8_6_default",
     "packages": [
       {
         "name": "qt5-rpm-macros",
@@ -53,10 +53,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7482",
-      "type": "rhsa",
-      "id": "RHSA-2022:7482",
-      "title": "RHSA-2022:7482"
+      "href": "https://bugzilla.redhat.com/2055505",
+      "type": "bugzilla",
+      "id": "2055505",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-25255",
@@ -65,10 +65,10 @@
       "title": "CVE-2022-25255"
     },
     {
-      "href": "https://bugzilla.redhat.com/2055505",
-      "type": "bugzilla",
-      "id": "2055505",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7482",
+      "type": "rhsa",
+      "id": "RHSA-2022:7482",
+      "title": "RHSA-2022:7482"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7482.html",
@@ -86,7 +86,7 @@
   "title": "Moderate: qt5 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1668219091000
+    "$date": 1668219092000
   },
   "version": "1"
 }

@@ -8,57 +8,9 @@
     "$date": 1679270400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
-      {
-        "name": "firefox-x11",
-        "version": "102.9.0",
-        "release": "3.el9_1.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
-        "filename": "firefox-x11-102.9.0-3.el9_1.alma.x86_64.rpm",
-        "sum": "4bd929cd3091b1494937bb127e78b4e8c865a5827d5a3a5518b95627d1689086",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "firefox",
-        "version": "102.9.0",
-        "release": "3.el9_1.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
-        "filename": "firefox-102.9.0-3.el9_1.alma.x86_64.rpm",
-        "sum": "d1a634a1eb0e1cb697affb9c5f1f24b032552fc16ab98b2ba486c68947927734",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "firefox",
-        "version": "102.9.0",
-        "release": "3.el9_1.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
-        "filename": "firefox-102.9.0-3.el9_1.alma.s390x.rpm",
-        "sum": "896582eca97da5b5a79cd91143d0b5e83f519b37aae61d0e2a867865dae3f219",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "firefox-x11",
-        "version": "102.9.0",
-        "release": "3.el9_1.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
-        "filename": "firefox-x11-102.9.0-3.el9_1.alma.s390x.rpm",
-        "sum": "fabff2ce14654d377d67f2d5dfba03714dfacc512ca81b745bfac7258391a08c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "firefox",
         "version": "102.9.0",
@@ -76,10 +28,22 @@
         "version": "102.9.0",
         "release": "3.el9_1.alma",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
-        "filename": "firefox-x11-102.9.0-3.el9_1.alma.ppc64le.rpm",
-        "sum": "d92025da796e7c0d6e16bc4a38551bde02e0e940a0e43607f207b6f3ce94f7c6",
+        "filename": "firefox-x11-102.9.0-3.el9_1.alma.x86_64.rpm",
+        "sum": "4bd929cd3091b1494937bb127e78b4e8c865a5827d5a3a5518b95627d1689086",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox",
+        "version": "102.9.0",
+        "release": "3.el9_1.alma",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
+        "filename": "firefox-102.9.0-3.el9_1.alma.s390x.rpm",
+        "sum": "896582eca97da5b5a79cd91143d0b5e83f519b37aae61d0e2a867865dae3f219",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -106,6 +70,42 @@
         "sum": "cbef47ec6916b3dac9c9ec9828bcef89655fd86c2222c6973f72ac3f52931feb",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "firefox",
+        "version": "102.9.0",
+        "release": "3.el9_1.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
+        "filename": "firefox-102.9.0-3.el9_1.alma.x86_64.rpm",
+        "sum": "d1a634a1eb0e1cb697affb9c5f1f24b032552fc16ab98b2ba486c68947927734",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox-x11",
+        "version": "102.9.0",
+        "release": "3.el9_1.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
+        "filename": "firefox-x11-102.9.0-3.el9_1.alma.ppc64le.rpm",
+        "sum": "d92025da796e7c0d6e16bc4a38551bde02e0e940a0e43607f207b6f3ce94f7c6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox-x11",
+        "version": "102.9.0",
+        "release": "3.el9_1.alma",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "firefox-102.9.0-3.el9_1.alma.src.rpm",
+        "filename": "firefox-x11-102.9.0-3.el9_1.alma.s390x.rpm",
+        "sum": "fabff2ce14654d377d67f2d5dfba03714dfacc512ca81b745bfac7258391a08c",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -113,10 +113,34 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:1337",
-      "type": "rhsa",
-      "id": "RHSA-2023:1337",
-      "title": "RHSA-2023:1337"
+      "href": "https://bugzilla.redhat.com/2178458",
+      "type": "bugzilla",
+      "id": "2178458",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178460",
+      "type": "bugzilla",
+      "id": "2178460",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178466",
+      "type": "bugzilla",
+      "id": "2178466",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178470",
+      "type": "bugzilla",
+      "id": "2178470",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178472",
+      "type": "bugzilla",
+      "id": "2178472",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2023-25751",
@@ -149,34 +173,10 @@
       "title": "CVE-2023-28176"
     },
     {
-      "href": "https://bugzilla.redhat.com/2178458",
-      "type": "bugzilla",
-      "id": "2178458",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2178460",
-      "type": "bugzilla",
-      "id": "2178460",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2178466",
-      "type": "bugzilla",
-      "id": "2178466",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2178470",
-      "type": "bugzilla",
-      "id": "2178470",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2178472",
-      "type": "bugzilla",
-      "id": "2178472",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:1337",
+      "type": "rhsa",
+      "id": "RHSA-2023:1337",
+      "title": "RHSA-2023:1337"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2023-1337.html",

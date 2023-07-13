@@ -12,14 +12,14 @@
     "shortname": "almalinux-8-for-i686-powertools-rpms__8_6_default",
     "packages": [
       {
-        "name": "pandoc-common",
+        "name": "pandoc",
         "version": "2.0.6",
         "release": "6.el8_6",
         "epoch": "0",
-        "arch": "noarch",
+        "arch": "x86_64",
         "src": "pandoc-2.0.6-6.el8_6.src.rpm",
-        "filename": "pandoc-common-2.0.6-6.el8_6.noarch.rpm",
-        "sum": "a3fb4e68ad8d9bdef8259adffa7bf07b188e8b789da3e57bab0dfaed7ceb583d",
+        "filename": "pandoc-2.0.6-6.el8_6.x86_64.rpm",
+        "sum": "6287e245278932cfa8cddc5f5fdb0b842ed66c771ae438fab9267eccf78e9808",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -36,14 +36,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pandoc",
+        "name": "pandoc-common",
         "version": "2.0.6",
         "release": "6.el8_6",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "noarch",
         "src": "pandoc-2.0.6-6.el8_6.src.rpm",
-        "filename": "pandoc-2.0.6-6.el8_6.x86_64.rpm",
-        "sum": "6287e245278932cfa8cddc5f5fdb0b842ed66c771ae438fab9267eccf78e9808",
+        "filename": "pandoc-common-2.0.6-6.el8_6.noarch.rpm",
+        "sum": "a3fb4e68ad8d9bdef8259adffa7bf07b188e8b789da3e57bab0dfaed7ceb583d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -65,9 +65,9 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5597",
-      "type": "rhsa",
-      "id": "RHSA-2022:5597",
+      "href": "https://bugzilla.redhat.com/2060662",
+      "type": "bugzilla",
+      "id": "2060662",
       "title": ""
     },
     {
@@ -77,9 +77,9 @@
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2060662",
-      "type": "bugzilla",
-      "id": "2060662",
+      "href": "https://access.redhat.com/errata/RHSA-2022:5597",
+      "type": "rhsa",
+      "id": "RHSA-2022:5597",
       "title": ""
     },
     {
@@ -98,7 +98,7 @@
   "title": "Important: pandoc security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658329243000
+    "$date": 1658329291000
   },
   "version": "1"
 }

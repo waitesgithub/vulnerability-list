@@ -161,10 +161,16 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5834",
-      "type": "rhsa",
-      "id": "RHSA-2022:5834",
-      "title": "RHSA-2022:5834"
+      "href": "https://bugzilla.redhat.com/2064604",
+      "type": "bugzilla",
+      "id": "2064604",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2092427",
+      "type": "bugzilla",
+      "id": "2092427",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-1012",
@@ -179,15 +185,27 @@
       "title": "CVE-2022-32250"
     },
     {
-      "href": "https://bugzilla.redhat.com/2064604",
-      "type": "bugzilla",
-      "id": "2064604",
+      "href": "https://access.redhat.com/security/cve/CVE-2022-1012",
+      "type": "cve",
+      "id": "CVE-2022-1012",
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2092427",
-      "type": "bugzilla",
-      "id": "2092427",
+      "href": "https://access.redhat.com/security/cve/CVE-2022-32250",
+      "type": "cve",
+      "id": "CVE-2022-32250",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5834",
+      "type": "rhsa",
+      "id": "RHSA-2022:5834",
+      "title": "RHSA-2022:5834"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5834",
+      "type": "rhsa",
+      "id": "RHSA-2022:5834",
       "title": ""
     },
     {
@@ -206,7 +224,7 @@
   "title": "Important: kernel-rt security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1659684667000
+    "$date": 1659695765000
   },
   "version": "1"
 }

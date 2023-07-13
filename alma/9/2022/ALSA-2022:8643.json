@@ -16,34 +16,10 @@
         "version": "6.6.2",
         "release": "2.el9_1.1",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "ppc64le",
         "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-6.6.2-2.el9_1.1.i686.rpm",
-        "sum": "9c8e5290a36bf609612a0e87de5c0af8274e941146df35fb992f244856d5593f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish-docs",
-        "version": "6.6.2",
-        "release": "2.el9_1.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-docs-6.6.2-2.el9_1.1.x86_64.rpm",
-        "sum": "216a55798ad9f4cbc0a9b6adf4b5bd1b5b3d3794013953ec4be86c57f5ca4709",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish",
-        "version": "6.6.2",
-        "release": "2.el9_1.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-6.6.2-2.el9_1.1.x86_64.rpm",
-        "sum": "ea26ae6dba212e47bdd9b10a1ec85b40a8dbd22dbdd7bec938b62979764afd2f",
+        "filename": "varnish-6.6.2-2.el9_1.1.ppc64le.rpm",
+        "sum": "015074b6a2d07295cb76d42e190bbe321bcb98ce551b1ed673f1eefc9558936c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -60,26 +36,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "varnish",
+        "name": "varnish-devel",
         "version": "6.6.2",
         "release": "2.el9_1.1",
         "epoch": "0",
         "arch": "s390x",
         "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-6.6.2-2.el9_1.1.s390x.rpm",
-        "sum": "a05c07efbc82bd577cf62badea7ef87e6ba01d1b9b673bb25b7b9e351f175423",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish",
-        "version": "6.6.2",
-        "release": "2.el9_1.1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-6.6.2-2.el9_1.1.ppc64le.rpm",
-        "sum": "015074b6a2d07295cb76d42e190bbe321bcb98ce551b1ed673f1eefc9558936c",
+        "filename": "varnish-devel-6.6.2-2.el9_1.1.s390x.rpm",
+        "sum": "085c10efb72c94d794df0afd2eae9375e042b6d50a154e9a1bdfee603517fb33",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,34 +52,10 @@
         "version": "6.6.2",
         "release": "2.el9_1.1",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-docs-6.6.2-2.el9_1.1.ppc64le.rpm",
-        "sum": "5420baa07cbf2ec1496f94bbeeddfa1e2716a4dd4381f78dea2e1d0bb49deecb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish",
-        "version": "6.6.2",
-        "release": "2.el9_1.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-6.6.2-2.el9_1.1.aarch64.rpm",
-        "sum": "6a3cc358900b699398b9c5606ecf34b23926d626a9487872cfe29902aabe7b97",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish-docs",
-        "version": "6.6.2",
-        "release": "2.el9_1.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-docs-6.6.2-2.el9_1.1.aarch64.rpm",
-        "sum": "d91dec72b65912d9cd72a374acf8e9858790dd218bb83124b271e011db5312ea",
+        "filename": "varnish-docs-6.6.2-2.el9_1.1.x86_64.rpm",
+        "sum": "216a55798ad9f4cbc0a9b6adf4b5bd1b5b3d3794013953ec4be86c57f5ca4709",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -136,10 +76,22 @@
         "version": "6.6.2",
         "release": "2.el9_1.1",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "x86_64",
         "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-devel-6.6.2-2.el9_1.1.s390x.rpm",
-        "sum": "085c10efb72c94d794df0afd2eae9375e042b6d50a154e9a1bdfee603517fb33",
+        "filename": "varnish-devel-6.6.2-2.el9_1.1.x86_64.rpm",
+        "sum": "4d2e7f54451a0df9bb9f52bc17378e8eb193fcfccaae36e98e32323c08959026",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish-docs",
+        "version": "6.6.2",
+        "release": "2.el9_1.1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
+        "filename": "varnish-docs-6.6.2-2.el9_1.1.ppc64le.rpm",
+        "sum": "5420baa07cbf2ec1496f94bbeeddfa1e2716a4dd4381f78dea2e1d0bb49deecb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -156,6 +108,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "varnish",
+        "version": "6.6.2",
+        "release": "2.el9_1.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
+        "filename": "varnish-6.6.2-2.el9_1.1.aarch64.rpm",
+        "sum": "6a3cc358900b699398b9c5606ecf34b23926d626a9487872cfe29902aabe7b97",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "varnish-devel",
         "version": "6.6.2",
         "release": "2.el9_1.1",
@@ -168,14 +132,50 @@
         "reboot_suggested": 0
       },
       {
-        "name": "varnish-devel",
+        "name": "varnish",
+        "version": "6.6.2",
+        "release": "2.el9_1.1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
+        "filename": "varnish-6.6.2-2.el9_1.1.i686.rpm",
+        "sum": "9c8e5290a36bf609612a0e87de5c0af8274e941146df35fb992f244856d5593f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish",
+        "version": "6.6.2",
+        "release": "2.el9_1.1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
+        "filename": "varnish-6.6.2-2.el9_1.1.s390x.rpm",
+        "sum": "a05c07efbc82bd577cf62badea7ef87e6ba01d1b9b673bb25b7b9e351f175423",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish-docs",
+        "version": "6.6.2",
+        "release": "2.el9_1.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
+        "filename": "varnish-docs-6.6.2-2.el9_1.1.aarch64.rpm",
+        "sum": "d91dec72b65912d9cd72a374acf8e9858790dd218bb83124b271e011db5312ea",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish",
         "version": "6.6.2",
         "release": "2.el9_1.1",
         "epoch": "0",
         "arch": "x86_64",
         "src": "varnish-6.6.2-2.el9_1.1.src.rpm",
-        "filename": "varnish-devel-6.6.2-2.el9_1.1.x86_64.rpm",
-        "sum": "4d2e7f54451a0df9bb9f52bc17378e8eb193fcfccaae36e98e32323c08959026",
+        "filename": "varnish-6.6.2-2.el9_1.1.x86_64.rpm",
+        "sum": "ea26ae6dba212e47bdd9b10a1ec85b40a8dbd22dbdd7bec938b62979764afd2f",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -185,10 +185,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8643",
-      "type": "rhsa",
-      "id": "RHSA-2022:8643",
-      "title": "RHSA-2022:8643"
+      "href": "https://bugzilla.redhat.com/2141844",
+      "type": "bugzilla",
+      "id": "2141844",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-45060",
@@ -197,10 +197,10 @@
       "title": "CVE-2022-45060"
     },
     {
-      "href": "https://bugzilla.redhat.com/2141844",
-      "type": "bugzilla",
-      "id": "2141844",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:8643",
+      "type": "rhsa",
+      "id": "RHSA-2022:8643",
+      "title": "RHSA-2022:8643"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-8643.html",
@@ -218,7 +218,7 @@
   "title": "Important: varnish security update",
   "type": "security",
   "updated_date": {
-    "$date": 1670237088000
+    "$date": 1678725382000
   },
   "version": "1"
 }

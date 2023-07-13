@@ -12,6 +12,18 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
+        "name": "vim-enhanced",
+        "version": "8.0.1763",
+        "release": "16.el8_5.13",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
+        "filename": "vim-enhanced-8.0.1763-16.el8_5.13.aarch64.rpm",
+        "sum": "16f4576bcd3ee613cc07aca78e01eabc57beaeee79d9a2e98745350aab553572",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "vim-X11",
         "version": "8.0.1763",
         "release": "16.el8_5.13",
@@ -32,6 +44,30 @@
         "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
         "filename": "vim-common-8.0.1763-16.el8_5.13.x86_64.rpm",
         "sum": "28d89288ca858ce121f4880ebe169dd136ffdf185ca63c15dc41c5eeead05656",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "vim-common",
+        "version": "8.0.1763",
+        "release": "16.el8_5.13",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
+        "filename": "vim-common-8.0.1763-16.el8_5.13.aarch64.rpm",
+        "sum": "3230bcfeec1a117bd0eb56f90cd91eb54848fd3b64d459e059913dad97dca450",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "vim-X11",
+        "version": "8.0.1763",
+        "release": "16.el8_5.13",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
+        "filename": "vim-X11-8.0.1763-16.el8_5.13.aarch64.rpm",
+        "sum": "4384f95323f33f77e637c45db5707ea320ce4db2bec31e8356bace434510a06e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,6 +120,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "vim-minimal",
+        "version": "8.0.1763",
+        "release": "16.el8_5.13",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
+        "filename": "vim-minimal-8.0.1763-16.el8_5.13.aarch64.rpm",
+        "sum": "916b41a87cc0f95792bcb15fb273b911746f11d023adbcba5746d66856be715c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "vim-filesystem",
         "version": "8.0.1763",
         "release": "16.el8",
@@ -118,54 +166,6 @@
         "sum": "fce44851807c6ce996072be75e1373a69d118daaae0701f7bc23dcd6054af187",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "vim-enhanced",
-        "version": "8.0.1763",
-        "release": "16.el8_5.13",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
-        "filename": "vim-enhanced-8.0.1763-16.el8_5.13.aarch64.rpm",
-        "sum": "16f4576bcd3ee613cc07aca78e01eabc57beaeee79d9a2e98745350aab553572",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vim-common",
-        "version": "8.0.1763",
-        "release": "16.el8_5.13",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
-        "filename": "vim-common-8.0.1763-16.el8_5.13.aarch64.rpm",
-        "sum": "3230bcfeec1a117bd0eb56f90cd91eb54848fd3b64d459e059913dad97dca450",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vim-X11",
-        "version": "8.0.1763",
-        "release": "16.el8_5.13",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
-        "filename": "vim-X11-8.0.1763-16.el8_5.13.aarch64.rpm",
-        "sum": "4384f95323f33f77e637c45db5707ea320ce4db2bec31e8356bace434510a06e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vim-minimal",
-        "version": "8.0.1763",
-        "release": "16.el8_5.13",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
-        "filename": "vim-minimal-8.0.1763-16.el8_5.13.aarch64.rpm",
-        "sum": "916b41a87cc0f95792bcb15fb273b911746f11d023adbcba5746d66856be715c",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -183,6 +183,12 @@
       "type": "cve",
       "id": "CVE-2021-3796",
       "title": "CVE-2021-3796"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4517.html",
+      "type": "self",
+      "id": "ALSA-2021-4517",
+      "title": "ALSA-2021-4517"
     }
   ],
   "release": "0",

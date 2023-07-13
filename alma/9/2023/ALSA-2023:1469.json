@@ -8,8 +8,8 @@
     "$date": 1679875200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-nfv-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-nfv-rpms__9_1_default",
+    "name": "almalinux-9-for-x86_64-rt-rpms__9_1_default",
+    "shortname": "almalinux-9-for-x86_64-rt-rpms__9_1_default",
     "packages": [
       {
         "name": "kernel-rt-kvm",
@@ -161,10 +161,22 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:1469",
-      "type": "rhsa",
-      "id": "RHSA-2023:1469",
-      "title": "RHSA-2023:1469"
+      "href": "https://bugzilla.redhat.com/2150272",
+      "type": "bugzilla",
+      "id": "2150272",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2156322",
+      "type": "bugzilla",
+      "id": "2156322",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2163379",
+      "type": "bugzilla",
+      "id": "2163379",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-4269",
@@ -185,22 +197,10 @@
       "title": "CVE-2023-0266"
     },
     {
-      "href": "https://bugzilla.redhat.com/2150272",
-      "type": "bugzilla",
-      "id": "2150272",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2156322",
-      "type": "bugzilla",
-      "id": "2156322",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2163379",
-      "type": "bugzilla",
-      "id": "2163379",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:1469",
+      "type": "rhsa",
+      "id": "RHSA-2023:1469",
+      "title": "RHSA-2023:1469"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2023-1469.html",

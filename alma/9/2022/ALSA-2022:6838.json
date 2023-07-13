@@ -16,18 +16,6 @@
         "version": "2.2.10",
         "release": "12.el9_0.3",
         "epoch": "0",
-        "arch": "i686",
-        "src": "expat-2.2.10-12.el9_0.3.src.rpm",
-        "filename": "expat-devel-2.2.10-12.el9_0.3.i686.rpm",
-        "sum": "f7489abdb2fb41a8507f2c57b68d8d7840a7919f6223f47292acae3d559b2d4e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat-devel",
-        "version": "2.2.10",
-        "release": "12.el9_0.3",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "expat-2.2.10-12.el9_0.3.src.rpm",
         "filename": "expat-devel-2.2.10-12.el9_0.3.x86_64.rpm",
@@ -36,14 +24,62 @@
         "reboot_suggested": 0
       },
       {
-        "name": "expat-devel",
+        "name": "expat",
+        "version": "2.2.10",
+        "release": "12.el9_0.3",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "expat-2.2.10-12.el9_0.3.src.rpm",
+        "filename": "expat-2.2.10-12.el9_0.3.ppc64le.rpm",
+        "sum": "257eac91ff0ee850ab58ebfb6e202159582b0b2bbb445c761a96ca5f153f7faa",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat",
+        "version": "2.2.10",
+        "release": "12.el9_0.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "expat-2.2.10-12.el9_0.3.src.rpm",
+        "filename": "expat-2.2.10-12.el9_0.3.aarch64.rpm",
+        "sum": "4c37250a22ecb73049d7813e38d211fc2441aeccea2ce72d90b7d07d8dafa618",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat",
+        "version": "2.2.10",
+        "release": "12.el9_0.3",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "expat-2.2.10-12.el9_0.3.src.rpm",
+        "filename": "expat-2.2.10-12.el9_0.3.x86_64.rpm",
+        "sum": "7ef7bea7beb83a4aba7416d125cccadeafca2b6e83610a8c8cdf8175d00d5442",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat",
         "version": "2.2.10",
         "release": "12.el9_0.3",
         "epoch": "0",
         "arch": "s390x",
         "src": "expat-2.2.10-12.el9_0.3.src.rpm",
-        "filename": "expat-devel-2.2.10-12.el9_0.3.s390x.rpm",
-        "sum": "e48d6c1fb21f77490f701c66e38b9fd093e8dbb5a1bc0b60d40950e8da09d585",
+        "filename": "expat-2.2.10-12.el9_0.3.s390x.rpm",
+        "sum": "a69173e2b90ac69cef97a6dc65c1a0ffbf8213bf110f35d90a150c7805539601",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat-devel",
+        "version": "2.2.10",
+        "release": "12.el9_0.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "expat-2.2.10-12.el9_0.3.src.rpm",
+        "filename": "expat-devel-2.2.10-12.el9_0.3.aarch64.rpm",
+        "sum": "b01305d9f457d552e8c61ad6f1f8b4a46ff96e75a18dea458334ba42114950c4",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,58 +112,22 @@
         "version": "2.2.10",
         "release": "12.el9_0.3",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "expat-2.2.10-12.el9_0.3.src.rpm",
-        "filename": "expat-devel-2.2.10-12.el9_0.3.aarch64.rpm",
-        "sum": "b01305d9f457d552e8c61ad6f1f8b4a46ff96e75a18dea458334ba42114950c4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat",
-        "version": "2.2.10",
-        "release": "12.el9_0.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "expat-2.2.10-12.el9_0.3.src.rpm",
-        "filename": "expat-2.2.10-12.el9_0.3.aarch64.rpm",
-        "sum": "4c37250a22ecb73049d7813e38d211fc2441aeccea2ce72d90b7d07d8dafa618",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat",
-        "version": "2.2.10",
-        "release": "12.el9_0.3",
-        "epoch": "0",
         "arch": "s390x",
         "src": "expat-2.2.10-12.el9_0.3.src.rpm",
-        "filename": "expat-2.2.10-12.el9_0.3.s390x.rpm",
-        "sum": "a69173e2b90ac69cef97a6dc65c1a0ffbf8213bf110f35d90a150c7805539601",
+        "filename": "expat-devel-2.2.10-12.el9_0.3.s390x.rpm",
+        "sum": "e48d6c1fb21f77490f701c66e38b9fd093e8dbb5a1bc0b60d40950e8da09d585",
         "sum_type": 5,
         "reboot_suggested": 0
       },
       {
-        "name": "expat",
+        "name": "expat-devel",
         "version": "2.2.10",
         "release": "12.el9_0.3",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "i686",
         "src": "expat-2.2.10-12.el9_0.3.src.rpm",
-        "filename": "expat-2.2.10-12.el9_0.3.ppc64le.rpm",
-        "sum": "257eac91ff0ee850ab58ebfb6e202159582b0b2bbb445c761a96ca5f153f7faa",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat",
-        "version": "2.2.10",
-        "release": "12.el9_0.3",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "expat-2.2.10-12.el9_0.3.src.rpm",
-        "filename": "expat-2.2.10-12.el9_0.3.x86_64.rpm",
-        "sum": "7ef7bea7beb83a4aba7416d125cccadeafca2b6e83610a8c8cdf8175d00d5442",
+        "filename": "expat-devel-2.2.10-12.el9_0.3.i686.rpm",
+        "sum": "f7489abdb2fb41a8507f2c57b68d8d7840a7919f6223f47292acae3d559b2d4e",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -137,10 +137,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6838",
-      "type": "rhsa",
-      "id": "RHSA-2022:6838",
-      "title": "RHSA-2022:6838"
+      "href": "https://bugzilla.redhat.com/2130769",
+      "type": "bugzilla",
+      "id": "2130769",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-40674",
@@ -149,10 +149,10 @@
       "title": "CVE-2022-40674"
     },
     {
-      "href": "https://bugzilla.redhat.com/2130769",
-      "type": "bugzilla",
-      "id": "2130769",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6838",
+      "type": "rhsa",
+      "id": "RHSA-2022:6838",
+      "title": "RHSA-2022:6838"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-6838.html",

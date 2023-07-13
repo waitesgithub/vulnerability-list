@@ -12,6 +12,18 @@
     "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
+        "name": "grub2-efi-aa64",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-efi-aa64-2.02-123.el8_6.8.alma.aarch64.rpm",
+        "sum": "01d932816013c60e705a26e1a7508cbfc9f06ea694f6a727b544a335c7493aa5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "grub2-tools-efi",
         "version": "2.02",
         "release": "123.el8_6.8.alma",
@@ -60,6 +72,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "grub2-efi-aa64-cdboot",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-efi-aa64-cdboot-2.02-123.el8_6.8.alma.aarch64.rpm",
+        "sum": "1f15671640f59dbe7b2567e348e00d9f28eab28bb8ad4109edd79586a0408587",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools-extra",
+        "version": "2.02",
+        "release": "123.el8.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "grub2-2.02-123.el8.alma.src.rpm",
+        "filename": "grub2-tools-extra-2.02-123.el8.alma.ppc64le.rpm",
+        "sum": "1fc9c0c5858fdde1a4a3797e37f78055a0104160389a979fe0ecaa336b8e765f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "grub2-common",
         "version": "2.02",
         "release": "123.el8.alma",
@@ -80,6 +116,18 @@
         "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
         "filename": "grub2-tools-minimal-2.02-123.el8_6.8.alma.x86_64.rpm",
         "sum": "27c8cde82a9b26ac164b5c76c53a884892b8a9e98329b6483c8326dace4504f0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools-extra",
+        "version": "2.02",
+        "release": "123.el8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8.alma.src.rpm",
+        "filename": "grub2-tools-extra-2.02-123.el8.alma.aarch64.rpm",
+        "sum": "2a9ac1bd291f3a77730e15550ae7d067c4112d28febddcaadbaccb7007570e78",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -136,10 +184,46 @@
         "version": "2.02",
         "release": "123.el8_6.8.alma",
         "epoch": "1",
+        "arch": "ppc64le",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-tools-extra-2.02-123.el8_6.8.alma.ppc64le.rpm",
+        "sum": "4a040b7515ce2b548ff2995e445af9d871335ccdde8f996184f0cbc0f66465d1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools-extra",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
         "arch": "x86_64",
         "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
         "filename": "grub2-tools-extra-2.02-123.el8_6.8.alma.x86_64.rpm",
         "sum": "4fbcb218d0d9928b03207fb4aebe0652c3e81375ffc1da31d7ffaa6dabf435f1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools-extra",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-tools-extra-2.02-123.el8_6.8.alma.aarch64.rpm",
+        "sum": "54059a6ad82093fc98d93949249efaf1d735319e49daa88550c945609f950e57",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools",
+        "version": "2.02",
+        "release": "123.el8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8.alma.src.rpm",
+        "filename": "grub2-tools-2.02-123.el8.alma.aarch64.rpm",
+        "sum": "55bb3272e25536cedb5e08a94fc0fffa855f11945099afa78392a9b971610303",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -156,6 +240,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "grub2-tools-minimal",
+        "version": "2.02",
+        "release": "123.el8.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "grub2-2.02-123.el8.alma.src.rpm",
+        "filename": "grub2-tools-minimal-2.02-123.el8.alma.ppc64le.rpm",
+        "sum": "5c188255d50c4818cbe17102d0c28a1b7922cdd3a1c4708f368fc213766d67ca",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "grub2-tools-efi",
         "version": "2.02",
         "release": "123.el8.alma",
@@ -164,6 +260,30 @@
         "src": "grub2-2.02-123.el8.alma.src.rpm",
         "filename": "grub2-tools-efi-2.02-123.el8.alma.x86_64.rpm",
         "sum": "5da5b548bf1e69bb42ef26566b0e8958a35ce59799d6e92f346805d53310822e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-efi-aa64",
+        "version": "2.02",
+        "release": "123.el8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8.alma.src.rpm",
+        "filename": "grub2-efi-aa64-2.02-123.el8.alma.aarch64.rpm",
+        "sum": "600edec0d1171de5cd1a6d33292af2742c8e42f136de727d022c7985231d3ccd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-tools-2.02-123.el8_6.8.alma.aarch64.rpm",
+        "sum": "62ef7e284609117412c6358bce077dcf8d0bfcd5b61f782d28bc14693829d941",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -192,6 +312,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "grub2-tools-minimal",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-tools-minimal-2.02-123.el8_6.8.alma.aarch64.rpm",
+        "sum": "822e8b733084af75db702d180bb056f09150e953819ed81006670b2673ce3255",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "grub2-efi-x64-cdboot",
         "version": "2.02",
         "release": "123.el8_6.8.alma",
@@ -200,6 +332,42 @@
         "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
         "filename": "grub2-efi-x64-cdboot-2.02-123.el8_6.8.alma.x86_64.rpm",
         "sum": "868df926c33ff69adc7c76a185120c656643d7559fecc91c469cc361edd7918c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-efi-aa64-cdboot",
+        "version": "2.02",
+        "release": "123.el8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8.alma.src.rpm",
+        "filename": "grub2-efi-aa64-cdboot-2.02-123.el8.alma.aarch64.rpm",
+        "sum": "8a485c69aa82413a009ad546f7a186acb886c6232860d3d15eb0c8206be8bf4f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools-minimal",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-tools-minimal-2.02-123.el8_6.8.alma.ppc64le.rpm",
+        "sum": "98c4eb34bd9fece6054231ab68a36c58d73898dff0c48f073e71506aed6612fa",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools",
+        "version": "2.02",
+        "release": "123.el8.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "grub2-2.02-123.el8.alma.src.rpm",
+        "filename": "grub2-tools-2.02-123.el8.alma.ppc64le.rpm",
+        "sum": "9cc8c49fb854f2ce14e1af6691ac52a2bb5c10cacb3e481e769d601cbffabc75",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -224,6 +392,18 @@
         "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
         "filename": "grub2-pc-modules-2.02-123.el8_6.8.alma.noarch.rpm",
         "sum": "af61290162a6caa4a770460295b7318da3c9ccceea111929cb45abc11c841792",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools-minimal",
+        "version": "2.02",
+        "release": "123.el8.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "grub2-2.02-123.el8.alma.src.rpm",
+        "filename": "grub2-tools-minimal-2.02-123.el8.alma.aarch64.rpm",
+        "sum": "b602e01ecb4df85e341a584f46fa833fb27592a4bd84b4810822a9297ac6c48c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -312,6 +492,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "grub2-ppc64le",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-ppc64le-2.02-123.el8_6.8.alma.ppc64le.rpm",
+        "sum": "e011bf6bba760b96c0cc4b72ec0d00c7f39fa96578b203016b6ab44125edc0c2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-tools",
+        "version": "2.02",
+        "release": "123.el8_6.8.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
+        "filename": "grub2-tools-2.02-123.el8_6.8.alma.ppc64le.rpm",
+        "sum": "e5cdf32acff5c2c1f75e3884c7b0b48d044d1c48e7d67c4be6629054feaa734a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "grub2-pc",
         "version": "2.02",
         "release": "123.el8.alma",
@@ -370,210 +574,6 @@
         "sum": "fb1de7f3dce0f4c653a519fa3e618f5aed2e7a4d3d01e3d3dc0a2127eb927022",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-efi-aa64",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-efi-aa64-2.02-123.el8_6.8.alma.aarch64.rpm",
-        "sum": "01d932816013c60e705a26e1a7508cbfc9f06ea694f6a727b544a335c7493aa5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-efi-aa64-cdboot",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-efi-aa64-cdboot-2.02-123.el8_6.8.alma.aarch64.rpm",
-        "sum": "1f15671640f59dbe7b2567e348e00d9f28eab28bb8ad4109edd79586a0408587",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools-extra",
-        "version": "2.02",
-        "release": "123.el8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8.alma.src.rpm",
-        "filename": "grub2-tools-extra-2.02-123.el8.alma.aarch64.rpm",
-        "sum": "2a9ac1bd291f3a77730e15550ae7d067c4112d28febddcaadbaccb7007570e78",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools-extra",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-tools-extra-2.02-123.el8_6.8.alma.aarch64.rpm",
-        "sum": "54059a6ad82093fc98d93949249efaf1d735319e49daa88550c945609f950e57",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools",
-        "version": "2.02",
-        "release": "123.el8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8.alma.src.rpm",
-        "filename": "grub2-tools-2.02-123.el8.alma.aarch64.rpm",
-        "sum": "55bb3272e25536cedb5e08a94fc0fffa855f11945099afa78392a9b971610303",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-efi-aa64",
-        "version": "2.02",
-        "release": "123.el8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8.alma.src.rpm",
-        "filename": "grub2-efi-aa64-2.02-123.el8.alma.aarch64.rpm",
-        "sum": "600edec0d1171de5cd1a6d33292af2742c8e42f136de727d022c7985231d3ccd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-tools-2.02-123.el8_6.8.alma.aarch64.rpm",
-        "sum": "62ef7e284609117412c6358bce077dcf8d0bfcd5b61f782d28bc14693829d941",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools-minimal",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-tools-minimal-2.02-123.el8_6.8.alma.aarch64.rpm",
-        "sum": "822e8b733084af75db702d180bb056f09150e953819ed81006670b2673ce3255",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-efi-aa64-cdboot",
-        "version": "2.02",
-        "release": "123.el8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8.alma.src.rpm",
-        "filename": "grub2-efi-aa64-cdboot-2.02-123.el8.alma.aarch64.rpm",
-        "sum": "8a485c69aa82413a009ad546f7a186acb886c6232860d3d15eb0c8206be8bf4f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools-minimal",
-        "version": "2.02",
-        "release": "123.el8.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "grub2-2.02-123.el8.alma.src.rpm",
-        "filename": "grub2-tools-minimal-2.02-123.el8.alma.aarch64.rpm",
-        "sum": "b602e01ecb4df85e341a584f46fa833fb27592a4bd84b4810822a9297ac6c48c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools-extra",
-        "version": "2.02",
-        "release": "123.el8.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "grub2-2.02-123.el8.alma.src.rpm",
-        "filename": "grub2-tools-extra-2.02-123.el8.alma.ppc64le.rpm",
-        "sum": "1fc9c0c5858fdde1a4a3797e37f78055a0104160389a979fe0ecaa336b8e765f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools-extra",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-tools-extra-2.02-123.el8_6.8.alma.ppc64le.rpm",
-        "sum": "4a040b7515ce2b548ff2995e445af9d871335ccdde8f996184f0cbc0f66465d1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools-minimal",
-        "version": "2.02",
-        "release": "123.el8.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "grub2-2.02-123.el8.alma.src.rpm",
-        "filename": "grub2-tools-minimal-2.02-123.el8.alma.ppc64le.rpm",
-        "sum": "5c188255d50c4818cbe17102d0c28a1b7922cdd3a1c4708f368fc213766d67ca",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools-minimal",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-tools-minimal-2.02-123.el8_6.8.alma.ppc64le.rpm",
-        "sum": "98c4eb34bd9fece6054231ab68a36c58d73898dff0c48f073e71506aed6612fa",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools",
-        "version": "2.02",
-        "release": "123.el8.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "grub2-2.02-123.el8.alma.src.rpm",
-        "filename": "grub2-tools-2.02-123.el8.alma.ppc64le.rpm",
-        "sum": "9cc8c49fb854f2ce14e1af6691ac52a2bb5c10cacb3e481e769d601cbffabc75",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-ppc64le",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-ppc64le-2.02-123.el8_6.8.alma.ppc64le.rpm",
-        "sum": "e011bf6bba760b96c0cc4b72ec0d00c7f39fa96578b203016b6ab44125edc0c2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grub2-tools",
-        "version": "2.02",
-        "release": "123.el8_6.8.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "grub2-2.02-123.el8_6.8.alma.src.rpm",
-        "filename": "grub2-tools-2.02-123.el8_6.8.alma.ppc64le.rpm",
-        "sum": "e5cdf32acff5c2c1f75e3884c7b0b48d044d1c48e7d67c4be6629054feaa734a",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -581,16 +581,16 @@
   "pushcount": "3",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-2110.html",
-      "type": "self",
-      "id": "ALSA-2022-2110",
-      "title": "ALSA-2022-2110"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2021-3981",
       "type": "cve",
       "id": "CVE-2021-3981",
       "title": "CVE-2021-3981"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-2110.html",
+      "type": "self",
+      "id": "ALSA-2022-2110",
+      "title": "ALSA-2022-2110"
     }
   ],
   "release": "0",

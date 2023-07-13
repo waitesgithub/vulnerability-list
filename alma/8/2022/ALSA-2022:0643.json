@@ -8,8 +8,8 @@
     "$date": 1645550731000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "python3-pillow-tk",
@@ -24,42 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-pillow-doc",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-doc-5.1.1-18.el8_5.noarch.rpm",
-        "sum": "77fcdc9fd93c5f375179289519ef43064b05c10f2143c390fd08af864328395b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-pillow",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-5.1.1-18.el8_5.aarch64.rpm",
-        "sum": "9412c36401f155e24a2ed98ce2a799a859b2fa687db657ecfb742bdd12c2221c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-pillow-devel",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-devel-5.1.1-18.el8_5.aarch64.rpm",
-        "sum": "fca3f1ed8832dc1865388f1847a18190d36c5ac8326b7f9c0cc46a122b88cfb3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-pillow-tk",
         "version": "5.1.1",
         "release": "18.el8_5",
@@ -68,6 +32,18 @@
         "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
         "filename": "python3-pillow-tk-5.1.1-18.el8_5.x86_64.rpm",
         "sum": "233441ce841bb155e018796a576fcec001cc071aa3e071bceceae2d6f182c713",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-pillow",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-5.1.1-18.el8_5.ppc64le.rpm",
+        "sum": "276f2bba933852a829a7e91f695748a45e2ad5bf96febc76f4b1e2a33b98aaa7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -108,6 +84,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python3-pillow-doc",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-doc-5.1.1-18.el8_5.noarch.rpm",
+        "sum": "77fcdc9fd93c5f375179289519ef43064b05c10f2143c390fd08af864328395b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-pillow",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-5.1.1-18.el8_5.aarch64.rpm",
+        "sum": "9412c36401f155e24a2ed98ce2a799a859b2fa687db657ecfb742bdd12c2221c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "python3-pillow",
         "version": "5.1.1",
         "release": "18.el8_5",
@@ -120,18 +120,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-pillow",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-5.1.1-18.el8_5.ppc64le.rpm",
-        "sum": "276f2bba933852a829a7e91f695748a45e2ad5bf96febc76f4b1e2a33b98aaa7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-pillow-devel",
         "version": "5.1.1",
         "release": "18.el8_5",
@@ -140,6 +128,18 @@
         "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
         "filename": "python3-pillow-devel-5.1.1-18.el8_5.ppc64le.rpm",
         "sum": "b40f3d3038d5aebb8d4ba9ce53cd50024a10d832d68ebc072ff07a7dd70e29db",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-pillow-devel",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-devel-5.1.1-18.el8_5.aarch64.rpm",
+        "sum": "fca3f1ed8832dc1865388f1847a18190d36c5ac8326b7f9c0cc46a122b88cfb3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -161,18 +161,6 @@
   "pushcount": "3",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-0643.html",
-      "type": "self",
-      "id": "ALSA-2022-0643",
-      "title": "ALSA-2022-0643"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-22815",
-      "type": "cve",
-      "id": "CVE-2022-22815",
-      "title": "CVE-2022-22815"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2022-22816",
       "type": "cve",
       "id": "CVE-2022-22816",
@@ -183,6 +171,18 @@
       "type": "cve",
       "id": "CVE-2022-22817",
       "title": "CVE-2022-22817"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2022-22815",
+      "type": "cve",
+      "id": "CVE-2022-22815",
+      "title": "CVE-2022-22815"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-0643.html",
+      "type": "self",
+      "id": "ALSA-2022-0643",
+      "title": "ALSA-2022-0643"
     }
   ],
   "release": "0",
@@ -194,7 +194,7 @@
   "title": "Important: python-pillow security update",
   "type": "security",
   "updated_date": {
-    "$date": 1645550731000
+    "$date": 1645622795000
   },
-  "version": "2"
+  "version": "1"
 }

@@ -8,33 +8,9 @@
     "$date": 1657152000000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
-      {
-        "name": "squid",
-        "version": "5.2",
-        "release": "1.el9_0.1",
-        "epoch": "7",
-        "arch": "x86_64",
-        "src": "squid-5.2-1.el9_0.1.src.rpm",
-        "filename": "squid-5.2-1.el9_0.1.x86_64.rpm",
-        "sum": "bcbc9f5fa02d1924f595c20ec89b62034ca0adafbe3c41aad4a2c83f9a2ce6f2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "squid",
-        "version": "5.2",
-        "release": "1.el9_0.1",
-        "epoch": "7",
-        "arch": "s390x",
-        "src": "squid-5.2-1.el9_0.1.src.rpm",
-        "filename": "squid-5.2-1.el9_0.1.s390x.rpm",
-        "sum": "7df384b54cb6fd1394e05d220d400324b307abe46cf75b19119b576f4ab68400",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "squid",
         "version": "5.2",
@@ -58,6 +34,30 @@
         "sum": "61debed15088bbd352f8fea33ceb0ac11ce4f7374c1c0d924a08e6648da2368e",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "squid",
+        "version": "5.2",
+        "release": "1.el9_0.1",
+        "epoch": "7",
+        "arch": "s390x",
+        "src": "squid-5.2-1.el9_0.1.src.rpm",
+        "filename": "squid-5.2-1.el9_0.1.s390x.rpm",
+        "sum": "7df384b54cb6fd1394e05d220d400324b307abe46cf75b19119b576f4ab68400",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "squid",
+        "version": "5.2",
+        "release": "1.el9_0.1",
+        "epoch": "7",
+        "arch": "x86_64",
+        "src": "squid-5.2-1.el9_0.1.src.rpm",
+        "filename": "squid-5.2-1.el9_0.1.x86_64.rpm",
+        "sum": "bcbc9f5fa02d1924f595c20ec89b62034ca0adafbe3c41aad4a2c83f9a2ce6f2",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -65,9 +65,9 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5527",
-      "type": "rhsa",
-      "id": "RHSA-2022:5527",
+      "href": "https://bugzilla.redhat.com/2100721",
+      "type": "bugzilla",
+      "id": "2100721",
       "title": ""
     },
     {
@@ -77,9 +77,9 @@
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2100721",
-      "type": "bugzilla",
-      "id": "2100721",
+      "href": "https://access.redhat.com/errata/RHSA-2022:5527",
+      "type": "rhsa",
+      "id": "RHSA-2022:5527",
       "title": ""
     },
     {

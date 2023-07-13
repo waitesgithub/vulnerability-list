@@ -143,10 +143,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5468",
-      "type": "rhsa",
-      "id": "RHSA-2022:5468",
-      "title": "RHSA-2022:5468"
+      "href": "https://bugzilla.redhat.com/2098523",
+      "type": "bugzilla",
+      "id": "2098523",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-31626",
@@ -155,10 +155,10 @@
       "title": "CVE-2022-31626"
     },
     {
-      "href": "https://bugzilla.redhat.com/2098523",
-      "type": "bugzilla",
-      "id": "2098523",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:5468",
+      "type": "rhsa",
+      "id": "RHSA-2022:5468",
+      "title": "RHSA-2022:5468"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-5468.html",
@@ -176,7 +176,7 @@
   "title": "ALSA-2022:5468: php:8.0 security update (Important)",
   "type": "security",
   "updated_date": {
-    "$date": 1669241970000
+    "$date": 1678725317000
   },
   "version": "1"
 }

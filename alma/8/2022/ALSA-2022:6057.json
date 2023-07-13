@@ -125,10 +125,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6057",
-      "type": "rhsa",
-      "id": "RHSA-2022:6057",
-      "title": "RHSA-2022:6057"
+      "href": "https://bugzilla.redhat.com/2115183",
+      "type": "bugzilla",
+      "id": "2115183",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-34716",
@@ -137,10 +137,10 @@
       "title": "CVE-2022-34716"
     },
     {
-      "href": "https://bugzilla.redhat.com/2115183",
-      "type": "bugzilla",
-      "id": "2115183",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6057",
+      "type": "rhsa",
+      "id": "RHSA-2022:6057",
+      "title": "RHSA-2022:6057"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-6057.html",
@@ -158,7 +158,7 @@
   "title": "Moderate: .NET Core 3.1 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1660734954000
+    "$date": 1660734956000
   },
   "version": "1"
 }

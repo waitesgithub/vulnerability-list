@@ -24,30 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "booth-site",
-        "version": "1.0",
-        "release": "199.1.ac1d34c.git.el8_6.1",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "booth-1.0-199.1.ac1d34c.git.el8_6.1.src.rpm",
-        "filename": "booth-site-1.0-199.1.ac1d34c.git.el8_6.1.noarch.rpm",
-        "sum": "49521ed948e3e12ec2970897efe740f7dca8ad85091475b4e3edb8c07cacdc45",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "booth-test",
-        "version": "1.0",
-        "release": "199.1.ac1d34c.git.el8_6.1",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "booth-1.0-199.1.ac1d34c.git.el8_6.1.src.rpm",
-        "filename": "booth-test-1.0-199.1.ac1d34c.git.el8_6.1.noarch.rpm",
-        "sum": "9ba23dd05371c3e52f54f1a8d5ad6d78a1fb9a9aabf50b24d14888b0d7679a41",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "booth",
         "version": "1.0",
         "release": "199.1.ac1d34c.git.el8_6.1",
@@ -60,14 +36,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "booth-core",
+        "name": "booth-site",
         "version": "1.0",
         "release": "199.1.ac1d34c.git.el8_6.1",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "noarch",
         "src": "booth-1.0-199.1.ac1d34c.git.el8_6.1.src.rpm",
-        "filename": "booth-core-1.0-199.1.ac1d34c.git.el8_6.1.x86_64.rpm",
-        "sum": "6cb463df1514d39c170f01d50201e2d76fdd4d6b9046f244eaf91fa3f489f785",
+        "filename": "booth-site-1.0-199.1.ac1d34c.git.el8_6.1.noarch.rpm",
+        "sum": "49521ed948e3e12ec2970897efe740f7dca8ad85091475b4e3edb8c07cacdc45",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,10 +64,22 @@
         "version": "1.0",
         "release": "199.1.ac1d34c.git.el8_6.1",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "booth-1.0-199.1.ac1d34c.git.el8_6.1.src.rpm",
-        "filename": "booth-core-1.0-199.1.ac1d34c.git.el8_6.1.aarch64.rpm",
-        "sum": "ea76cddf44aa6e04d731315393c832fc1069c792a84ee45a02bac468baa10395",
+        "filename": "booth-core-1.0-199.1.ac1d34c.git.el8_6.1.x86_64.rpm",
+        "sum": "6cb463df1514d39c170f01d50201e2d76fdd4d6b9046f244eaf91fa3f489f785",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "booth-test",
+        "version": "1.0",
+        "release": "199.1.ac1d34c.git.el8_6.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "booth-1.0-199.1.ac1d34c.git.el8_6.1.src.rpm",
+        "filename": "booth-test-1.0-199.1.ac1d34c.git.el8_6.1.noarch.rpm",
+        "sum": "9ba23dd05371c3e52f54f1a8d5ad6d78a1fb9a9aabf50b24d14888b0d7679a41",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,6 +104,18 @@
         "src": "booth-1.0-199.1.ac1d34c.git.el8_6.1.src.rpm",
         "filename": "booth-1.0-199.1.ac1d34c.git.el8_6.1.ppc64le.rpm",
         "sum": "e30bc7bd8e06f0a9099fb3f56d00fc7e98ff7b49f2182de9969adfd9818a86b5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "booth-core",
+        "version": "1.0",
+        "release": "199.1.ac1d34c.git.el8_6.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "booth-1.0-199.1.ac1d34c.git.el8_6.1.src.rpm",
+        "filename": "booth-core-1.0-199.1.ac1d34c.git.el8_6.1.aarch64.rpm",
+        "sum": "ea76cddf44aa6e04d731315393c832fc1069c792a84ee45a02bac468baa10395",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -149,10 +149,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6439",
-      "type": "rhsa",
-      "id": "RHSA-2022:6439",
-      "title": "RHSA-2022:6439"
+      "href": "https://bugzilla.redhat.com/2109251",
+      "type": "bugzilla",
+      "id": "2109251",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-2553",
@@ -161,10 +161,10 @@
       "title": "CVE-2022-2553"
     },
     {
-      "href": "https://bugzilla.redhat.com/2109251",
-      "type": "bugzilla",
-      "id": "2109251",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6439",
+      "type": "rhsa",
+      "id": "RHSA-2022:6439",
+      "title": "RHSA-2022:6439"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-6439.html",
@@ -182,7 +182,7 @@
   "title": "Moderate: booth security update",
   "type": "security",
   "updated_date": {
-    "$date": 1665493262000
+    "$date": 1665493265000
   },
   "version": "1"
 }

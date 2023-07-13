@@ -8,9 +8,33 @@
     "$date": 1621318397000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "raptor2",
+        "version": "2.0.15",
+        "release": "16.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "raptor2-2.0.15-16.el8.src.rpm",
+        "filename": "raptor2-2.0.15-16.el8.i686.rpm",
+        "sum": "0691867135698774457ce88a0ab1e9b361fa1f40f27d38e9aaaecb695d6fd765",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "raptor2-devel",
+        "version": "2.0.15",
+        "release": "16.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "raptor2-2.0.15-16.el8.src.rpm",
+        "filename": "raptor2-devel-2.0.15-16.el8.ppc64le.rpm",
+        "sum": "4064c6551f4e1500572e03df13aa8d728b5b135e204ae5c271a4e1a4682d4fba",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "raptor2-devel",
         "version": "2.0.15",
@@ -20,18 +44,6 @@
         "src": "raptor2-2.0.15-16.el8.src.rpm",
         "filename": "raptor2-devel-2.0.15-16.el8.aarch64.rpm",
         "sum": "501f5f0bde369eb0282a27eb4e764e1ddda42142e72ea0a759e751bb98317627",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "raptor2",
-        "version": "2.0.15",
-        "release": "16.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "raptor2-2.0.15-16.el8.src.rpm",
-        "filename": "raptor2-2.0.15-16.el8.aarch64.rpm",
-        "sum": "ff9e5266d9616de0bd67d38919e3e373bef00396ed493acb7d003e899d870740",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -72,18 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "raptor2-devel",
-        "version": "2.0.15",
-        "release": "16.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "raptor2-2.0.15-16.el8.src.rpm",
-        "filename": "raptor2-devel-2.0.15-16.el8.ppc64le.rpm",
-        "sum": "4064c6551f4e1500572e03df13aa8d728b5b135e204ae5c271a4e1a4682d4fba",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "raptor2",
         "version": "2.0.15",
         "release": "16.el8",
@@ -100,10 +100,10 @@
         "version": "2.0.15",
         "release": "16.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "aarch64",
         "src": "raptor2-2.0.15-16.el8.src.rpm",
-        "filename": "raptor2-2.0.15-16.el8.i686.rpm",
-        "sum": "0691867135698774457ce88a0ab1e9b361fa1f40f27d38e9aaaecb695d6fd765",
+        "filename": "raptor2-2.0.15-16.el8.aarch64.rpm",
+        "sum": "ff9e5266d9616de0bd67d38919e3e373bef00396ed493acb7d003e899d870740",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -112,12 +112,6 @@
   },
   "pushcount": "3",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-1842.html",
-      "type": "self",
-      "id": "ALSA-2021-1842",
-      "title": "ALSA-2021-1842"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2017-18926",
       "type": "cve",
@@ -129,10 +123,16 @@
       "type": "cve",
       "id": "CVE-2020-25713",
       "title": "CVE-2020-25713"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1842.html",
+      "type": "self",
+      "id": "ALSA-2021-1842",
+      "title": "ALSA-2021-1842"
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -140,7 +140,7 @@
   "title": "Moderate: raptor2 security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1621318383000
+    "$date": 1636712456000
   },
   "version": "1"
 }

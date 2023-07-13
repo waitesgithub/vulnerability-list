@@ -8,9 +8,33 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "qemu-kvm-audio-pa",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-audio-pa-7.0.0-13.el9.s390x.rpm",
+        "sum": "01978350b41b64443d2d59395322f0bbb8656154dbc25afe3738920ee0509f9f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-device-display-virtio-gpu-gl",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-display-virtio-gpu-gl-7.0.0-13.el9.aarch64.rpm",
+        "sum": "0e081e4b6a87e7dbef3eb22697509a3633efe93b753c777f196d70284723ca91",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "qemu-kvm-device-display-virtio-gpu-gl",
         "version": "7.0.0",
@@ -20,6 +44,30 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-kvm-device-display-virtio-gpu-gl-7.0.0-13.el9.x86_64.rpm",
         "sum": "1a861b87d94df0bf977e8ff534273dab5d08b3c9a744c0bf4b666564f1b131a1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-device-display-virtio-gpu-ccw",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-display-virtio-gpu-ccw-7.0.0-13.el9.s390x.rpm",
+        "sum": "1aa7033a406b41886d7830a8d3985288487d2b9fc0a34a439d979ecf48f9b943",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-7.0.0-13.el9.aarch64.rpm",
+        "sum": "1c2806e7197a2f9171005efc9d5beca7ab4df038ea804ac482573f3093fbf06b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -36,6 +84,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-common",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-common-7.0.0-13.el9.s390x.rpm",
+        "sum": "26184fb20ad36ed0cf9b66a712c8fd842f295e2e32bff66316fd452c7fbf04db",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-device-display-virtio-gpu-pci-gl",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-display-virtio-gpu-pci-gl-7.0.0-13.el9.aarch64.rpm",
+        "sum": "28cd8d2dc9448ab65fcf37d478e02cf106c195f2244f1806291683b30b0013e9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "qemu-kvm-device-display-virtio-gpu-pci-gl",
         "version": "7.0.0",
         "release": "13.el9",
@@ -44,6 +116,18 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-kvm-device-display-virtio-gpu-pci-gl-7.0.0-13.el9.x86_64.rpm",
         "sum": "312acf7a7370cadfb3485a956d8e9da3a930b7ea1203aeeb538b2b1e7f5e69da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-guest-agent",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-guest-agent-7.0.0-13.el9.aarch64.rpm",
+        "sum": "328c2db8e209670775510c39ca7da5f4543e57467aa1c9dbf8bd559aaf6c6ed6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -60,6 +144,102 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-img",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-img-7.0.0-13.el9.aarch64.rpm",
+        "sum": "39941738f790bc828e34bb978546b7e61b7e402f0967cc786f4a2ebf5f703b36",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-device-display-virtio-gpu",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-display-virtio-gpu-7.0.0-13.el9.s390x.rpm",
+        "sum": "39eef99a7a7e4002723484120d313c8f68d983bbd334c63f30ae4fb7b47aeee7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-block-rbd",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-block-rbd-7.0.0-13.el9.aarch64.rpm",
+        "sum": "3b24d970348a646538f77abef55216a4076b441ea99330e2e2be7dfa96e9e221",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-guest-agent",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-guest-agent-7.0.0-13.el9.ppc64le.rpm",
+        "sum": "3efe04a21fba6bcb670b54f03b923574613f2319882ec69dc586d70c838dec11",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-guest-agent",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-guest-agent-7.0.0-13.el9.s390x.rpm",
+        "sum": "43ce90c54a2d4b0d42f7d379e809ba9035573b9fdd12eea56d0726223b5efe51",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-pr-helper",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-pr-helper-7.0.0-13.el9.aarch64.rpm",
+        "sum": "48a9435aba637945e4df23c10a444d47d4da66aae20a71f3d71cf6931c6558eb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-device-display-virtio-gpu-pci",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-display-virtio-gpu-pci-7.0.0-13.el9.aarch64.rpm",
+        "sum": "49cfe8210d2a789fcbb072336ad2bc3f2de59a41f88b73ee311476f8ac43be85",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-img",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-img-7.0.0-13.el9.ppc64le.rpm",
+        "sum": "5224f243829f2d60ce19f35dbbdb434f1a8d13244f7ecf540fab2071338db03d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "qemu-kvm-tools",
         "version": "7.0.0",
         "release": "13.el9",
@@ -68,6 +248,18 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-kvm-tools-7.0.0-13.el9.x86_64.rpm",
         "sum": "55b3d071d03228d5a1728e7db765bba6790525392faf28af2e4cb48fecfb80a1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-tools",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-tools-7.0.0-13.el9.s390x.rpm",
+        "sum": "55ce02b6f5f872398b828d9e0a16cbc7f26df8a81152b1d7f133e62f1327662d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,6 +276,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-img",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-img-7.0.0-13.el9.s390x.rpm",
+        "sum": "61d52a4cb129054d2822343a84594e3f2a22d26d020664bbe58d0d7c2a5ade5d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-block-curl",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-block-curl-7.0.0-13.el9.aarch64.rpm",
+        "sum": "630d62a4c1d9f2d69973d3a744b4a5d8bb829282ad9fe5afc1255e1f090bb851",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "qemu-kvm-audio-pa",
         "version": "7.0.0",
         "release": "13.el9",
@@ -92,6 +308,18 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-kvm-audio-pa-7.0.0-13.el9.x86_64.rpm",
         "sum": "653438168ec12926cecc665f05b492570df50ee48e525e431624ac60d01a66fa",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-audio-pa",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-audio-pa-7.0.0-13.el9.aarch64.rpm",
+        "sum": "65437cfbbd447361a797d94a304e7b7f147af45f503a0845fa7dac31432d16b0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,6 +360,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-curl",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-block-curl-7.0.0-13.el9.s390x.rpm",
+        "sum": "806c308ab8a010fdbef0072dcd256e7fcc0abe1b4d7712097e744804f0dcde20",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "qemu-kvm-device-display-virtio-gpu-pci",
         "version": "7.0.0",
         "release": "13.el9",
@@ -156,6 +396,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-rbd",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-block-rbd-7.0.0-13.el9.s390x.rpm",
+        "sum": "898f9f53e52b54765c9b48ec730f27f25e886b92646f50dafceae9df4f94ecaa",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "qemu-kvm-ui-opengl",
         "version": "7.0.0",
         "release": "13.el9",
@@ -164,6 +416,18 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-kvm-ui-opengl-7.0.0-13.el9.x86_64.rpm",
         "sum": "8fa1a8e85ebd1bd42d569f4bc5e32c499116ac7607ac0cc4cef1662b1b119be1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-device-usb-host",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-usb-host-7.0.0-13.el9.aarch64.rpm",
+        "sum": "92034accf7482c3009b092d4e5880b488fd3b39e176832f57d33bda30e60d940",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -192,6 +456,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-device-display-virtio-gpu",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-display-virtio-gpu-7.0.0-13.el9.aarch64.rpm",
+        "sum": "a0bcffa162be6194a763bd3a252b876b20f13c0f6fb23be11748474b88ef29ec",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "qemu-kvm-common",
         "version": "7.0.0",
         "release": "13.el9",
@@ -200,174 +476,6 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-kvm-common-7.0.0-13.el9.x86_64.rpm",
         "sum": "a1af2b8a492f4d3c58dfd369d433613586cda15b86f6a74a8d7c60ef47ffac87",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-display-virtio-gpu",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "x86_64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-display-virtio-gpu-7.0.0-13.el9.x86_64.rpm",
-        "sum": "ae7da58219717a9ae1e61f385f78221191abf01b8d05fd64b554f694e4b03f8e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-usb-host",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "x86_64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-usb-host-7.0.0-13.el9.x86_64.rpm",
-        "sum": "b3c465d1efe6efb44b2b6ac03f5e5bb97562cc6865648a59acbdd05741165698",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-usb-redirect",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "x86_64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-usb-redirect-7.0.0-13.el9.x86_64.rpm",
-        "sum": "e0dc15306707759f289ba52d9a844b47870d84a12b8537e32ea74f886f49c78b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-curl",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "x86_64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-block-curl-7.0.0-13.el9.x86_64.rpm",
-        "sum": "e4d197f24efe1e1b74d25031e7f2a7fb0d378b8d91ebe13bf880cb5dc35b4cf7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-docs",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "x86_64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-docs-7.0.0-13.el9.x86_64.rpm",
-        "sum": "f0b8dd0c8a949119ee98350cbbd2c130e4098225f60ea2a72175e24d8e503bcd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-audio-pa",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-audio-pa-7.0.0-13.el9.s390x.rpm",
-        "sum": "01978350b41b64443d2d59395322f0bbb8656154dbc25afe3738920ee0509f9f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-display-virtio-gpu-ccw",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-display-virtio-gpu-ccw-7.0.0-13.el9.s390x.rpm",
-        "sum": "1aa7033a406b41886d7830a8d3985288487d2b9fc0a34a439d979ecf48f9b943",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-common",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-common-7.0.0-13.el9.s390x.rpm",
-        "sum": "26184fb20ad36ed0cf9b66a712c8fd842f295e2e32bff66316fd452c7fbf04db",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-display-virtio-gpu",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-display-virtio-gpu-7.0.0-13.el9.s390x.rpm",
-        "sum": "39eef99a7a7e4002723484120d313c8f68d983bbd334c63f30ae4fb7b47aeee7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-guest-agent",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-guest-agent-7.0.0-13.el9.s390x.rpm",
-        "sum": "43ce90c54a2d4b0d42f7d379e809ba9035573b9fdd12eea56d0726223b5efe51",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-tools",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-tools-7.0.0-13.el9.s390x.rpm",
-        "sum": "55ce02b6f5f872398b828d9e0a16cbc7f26df8a81152b1d7f133e62f1327662d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-img",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-img-7.0.0-13.el9.s390x.rpm",
-        "sum": "61d52a4cb129054d2822343a84594e3f2a22d26d020664bbe58d0d7c2a5ade5d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-curl",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-block-curl-7.0.0-13.el9.s390x.rpm",
-        "sum": "806c308ab8a010fdbef0072dcd256e7fcc0abe1b4d7712097e744804f0dcde20",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-rbd",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-block-rbd-7.0.0-13.el9.s390x.rpm",
-        "sum": "898f9f53e52b54765c9b48ec730f27f25e886b92646f50dafceae9df4f94ecaa",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -396,6 +504,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-device-display-virtio-gpu",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "x86_64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-display-virtio-gpu-7.0.0-13.el9.x86_64.rpm",
+        "sum": "ae7da58219717a9ae1e61f385f78221191abf01b8d05fd64b554f694e4b03f8e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-device-usb-host",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "x86_64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-usb-host-7.0.0-13.el9.x86_64.rpm",
+        "sum": "b3c465d1efe6efb44b2b6ac03f5e5bb97562cc6865648a59acbdd05741165698",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "qemu-pr-helper",
         "version": "7.0.0",
         "release": "13.el9",
@@ -404,6 +536,18 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-pr-helper-7.0.0-13.el9.s390x.rpm",
         "sum": "b55c70b1599c4afea6e674cde9ffc9d440ebef791a142089ebe6aa5d991b0420",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-docs",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "aarch64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-docs-7.0.0-13.el9.aarch64.rpm",
+        "sum": "b7fbdcf7dc9c1a24952aef78d68e454e7e3520cb36f43130b05463fd2ad48af1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -432,198 +576,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-core",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "s390x",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-core-7.0.0-13.el9.s390x.rpm",
-        "sum": "f2dce77348a7ae9188b04bd5d2890099e3e7ebe92ac50e956370d9c578987baf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-guest-agent",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-guest-agent-7.0.0-13.el9.ppc64le.rpm",
-        "sum": "3efe04a21fba6bcb670b54f03b923574613f2319882ec69dc586d70c838dec11",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-img",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-img-7.0.0-13.el9.ppc64le.rpm",
-        "sum": "5224f243829f2d60ce19f35dbbdb434f1a8d13244f7ecf540fab2071338db03d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-display-virtio-gpu-gl",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-display-virtio-gpu-gl-7.0.0-13.el9.aarch64.rpm",
-        "sum": "0e081e4b6a87e7dbef3eb22697509a3633efe93b753c777f196d70284723ca91",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-7.0.0-13.el9.aarch64.rpm",
-        "sum": "1c2806e7197a2f9171005efc9d5beca7ab4df038ea804ac482573f3093fbf06b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-display-virtio-gpu-pci-gl",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-display-virtio-gpu-pci-gl-7.0.0-13.el9.aarch64.rpm",
-        "sum": "28cd8d2dc9448ab65fcf37d478e02cf106c195f2244f1806291683b30b0013e9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-guest-agent",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-guest-agent-7.0.0-13.el9.aarch64.rpm",
-        "sum": "328c2db8e209670775510c39ca7da5f4543e57467aa1c9dbf8bd559aaf6c6ed6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-img",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-img-7.0.0-13.el9.aarch64.rpm",
-        "sum": "39941738f790bc828e34bb978546b7e61b7e402f0967cc786f4a2ebf5f703b36",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-rbd",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-block-rbd-7.0.0-13.el9.aarch64.rpm",
-        "sum": "3b24d970348a646538f77abef55216a4076b441ea99330e2e2be7dfa96e9e221",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-pr-helper",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-pr-helper-7.0.0-13.el9.aarch64.rpm",
-        "sum": "48a9435aba637945e4df23c10a444d47d4da66aae20a71f3d71cf6931c6558eb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-display-virtio-gpu-pci",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-display-virtio-gpu-pci-7.0.0-13.el9.aarch64.rpm",
-        "sum": "49cfe8210d2a789fcbb072336ad2bc3f2de59a41f88b73ee311476f8ac43be85",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-curl",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-block-curl-7.0.0-13.el9.aarch64.rpm",
-        "sum": "630d62a4c1d9f2d69973d3a744b4a5d8bb829282ad9fe5afc1255e1f090bb851",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-audio-pa",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-audio-pa-7.0.0-13.el9.aarch64.rpm",
-        "sum": "65437cfbbd447361a797d94a304e7b7f147af45f503a0845fa7dac31432d16b0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-usb-host",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-usb-host-7.0.0-13.el9.aarch64.rpm",
-        "sum": "92034accf7482c3009b092d4e5880b488fd3b39e176832f57d33bda30e60d940",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-device-display-virtio-gpu",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-device-display-virtio-gpu-7.0.0-13.el9.aarch64.rpm",
-        "sum": "a0bcffa162be6194a763bd3a252b876b20f13c0f6fb23be11748474b88ef29ec",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-docs",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "aarch64",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-kvm-docs-7.0.0-13.el9.aarch64.rpm",
-        "sum": "b7fbdcf7dc9c1a24952aef78d68e454e7e3520cb36f43130b05463fd2ad48af1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "qemu-kvm-common",
         "version": "7.0.0",
         "release": "13.el9",
@@ -632,6 +584,18 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-kvm-common-7.0.0-13.el9.aarch64.rpm",
         "sum": "d0e3e0896154be1d48a85212bd33b0a4c4c31fa300c04718aa12c31d8093f14f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-device-usb-redirect",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "x86_64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-device-usb-redirect-7.0.0-13.el9.x86_64.rpm",
+        "sum": "e0dc15306707759f289ba52d9a844b47870d84a12b8537e32ea74f886f49c78b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -648,6 +612,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-curl",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "x86_64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-block-curl-7.0.0-13.el9.x86_64.rpm",
+        "sum": "e4d197f24efe1e1b74d25031e7f2a7fb0d378b8d91ebe13bf880cb5dc35b4cf7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "qemu-kvm-tools",
         "version": "7.0.0",
         "release": "13.el9",
@@ -658,6 +634,30 @@
         "sum": "ef917bede676cedc5ea06834a505e1b43f2669b8fcde9d326bc9d5f221d3e20d",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-docs",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "x86_64",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-docs-7.0.0-13.el9.x86_64.rpm",
+        "sum": "f0b8dd0c8a949119ee98350cbbd2c130e4098225f60ea2a72175e24d8e503bcd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-core",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "s390x",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-kvm-core-7.0.0-13.el9.s390x.rpm",
+        "sum": "f2dce77348a7ae9188b04bd5d2890099e3e7ebe92ac50e956370d9c578987baf",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -665,10 +665,28 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7967",
-      "type": "rhsa",
-      "id": "RHSA-2022:7967",
-      "title": "RHSA-2022:7967"
+      "href": "https://bugzilla.redhat.com/1951118",
+      "type": "bugzilla",
+      "id": "1951118",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/1973784",
+      "type": "bugzilla",
+      "id": "1973784",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/1999073",
+      "type": "bugzilla",
+      "id": "1999073",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2035002",
+      "type": "bugzilla",
+      "id": "2035002",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2021-3507",
@@ -695,28 +713,10 @@
       "title": "CVE-2021-4158"
     },
     {
-      "href": "https://bugzilla.redhat.com/1951118",
-      "type": "bugzilla",
-      "id": "1951118",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/1973784",
-      "type": "bugzilla",
-      "id": "1973784",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/1999073",
-      "type": "bugzilla",
-      "id": "1999073",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2035002",
-      "type": "bugzilla",
-      "id": "2035002",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7967",
+      "type": "rhsa",
+      "id": "RHSA-2022:7967",
+      "title": "RHSA-2022:7967"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-7967.html",

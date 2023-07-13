@@ -12,42 +12,6 @@
     "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
-        "name": "dovecot",
-        "version": "2.3.8",
-        "release": "9.el8",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "dovecot-2.3.8-9.el8.src.rpm",
-        "filename": "dovecot-2.3.8-9.el8.i686.rpm",
-        "sum": "1adef135ba134e6c69617ae46d132245edbf72ec9fad7a0b95599ec91abb90eb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dovecot-devel",
-        "version": "2.3.8",
-        "release": "9.el8",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "dovecot-2.3.8-9.el8.src.rpm",
-        "filename": "dovecot-devel-2.3.8-9.el8.i686.rpm",
-        "sum": "826807eaf189312f9934de88c82ce7ed571fcb3dc090a7ce8b93c23d9d5f9de6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dovecot-devel",
-        "version": "2.3.8",
-        "release": "9.el8",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "dovecot-2.3.8-9.el8.src.rpm",
-        "filename": "dovecot-devel-2.3.8-9.el8.x86_64.rpm",
-        "sum": "a0af14e8fa58b9a79fc6b1a65b97c29f9e64fc950a99e59c85f5870d52ca54ab",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "dovecot-mysql",
         "version": "2.3.8",
         "release": "9.el8",
@@ -56,6 +20,18 @@
         "src": "dovecot-2.3.8-9.el8.src.rpm",
         "filename": "dovecot-mysql-2.3.8-9.el8.x86_64.rpm",
         "sum": "0e032e7ddb44c0b22e410c634486dc260173f181ace37d8c3c0a1c29bfa7c4e0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot",
+        "version": "2.3.8",
+        "release": "9.el8",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "dovecot-2.3.8-9.el8.src.rpm",
+        "filename": "dovecot-2.3.8-9.el8.i686.rpm",
+        "sum": "1adef135ba134e6c69617ae46d132245edbf72ec9fad7a0b95599ec91abb90eb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,6 +60,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "dovecot-devel",
+        "version": "2.3.8",
+        "release": "9.el8",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "dovecot-2.3.8-9.el8.src.rpm",
+        "filename": "dovecot-devel-2.3.8-9.el8.i686.rpm",
+        "sum": "826807eaf189312f9934de88c82ce7ed571fcb3dc090a7ce8b93c23d9d5f9de6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "dovecot",
         "version": "2.3.8",
         "release": "9.el8",
@@ -92,6 +80,18 @@
         "src": "dovecot-2.3.8-9.el8.src.rpm",
         "filename": "dovecot-2.3.8-9.el8.x86_64.rpm",
         "sum": "9d4c29092e252a10689b5c4bd10bcdd519b2583c805ef4cb25b178019ee4d4c5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot-devel",
+        "version": "2.3.8",
+        "release": "9.el8",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "dovecot-2.3.8-9.el8.src.rpm",
+        "filename": "dovecot-devel-2.3.8-9.el8.x86_64.rpm",
+        "sum": "a0af14e8fa58b9a79fc6b1a65b97c29f9e64fc950a99e59c85f5870d52ca54ab",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -122,7 +122,7 @@
   "title": "Moderate: dovecot security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1636712456000
   },
   "version": "1"
 }

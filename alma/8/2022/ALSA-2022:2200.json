@@ -125,12 +125,6 @@
   "pushcount": "5",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-2200.html",
-      "type": "self",
-      "id": "ALSA-2022-2200",
-      "title": "ALSA-2022-2200"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2022-23267",
       "type": "cve",
       "id": "CVE-2022-23267",
@@ -147,6 +141,12 @@
       "type": "cve",
       "id": "CVE-2022-29145",
       "title": "CVE-2022-29145"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-2200.html",
+      "type": "self",
+      "id": "ALSA-2022-2200",
+      "title": "ALSA-2022-2200"
     }
   ],
   "release": "0",

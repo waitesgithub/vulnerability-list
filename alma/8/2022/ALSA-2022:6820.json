@@ -41,10 +41,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6820",
-      "type": "rhsa",
-      "id": "RHSA-2022:6820",
-      "title": "RHSA-2022:6820"
+      "href": "https://bugzilla.redhat.com/2126789",
+      "type": "bugzilla",
+      "id": "2126789",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-25857",
@@ -53,10 +53,10 @@
       "title": "CVE-2022-25857"
     },
     {
-      "href": "https://bugzilla.redhat.com/2126789",
-      "type": "bugzilla",
-      "id": "2126789",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6820",
+      "type": "rhsa",
+      "id": "RHSA-2022:6820",
+      "title": "RHSA-2022:6820"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-6820.html",

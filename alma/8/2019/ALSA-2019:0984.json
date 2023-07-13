@@ -8,8 +8,8 @@
     "$date": 1557200433000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_python36",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_python36",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_python36",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_python36",
     "packages": [
       {
         "name": "python3-docs",
@@ -64,18 +64,12 @@
       "stream": "3.6",
       "name": "python36",
       "version": 8050020211009220235,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "982725ab"
     }
   },
   "pushcount": "3",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2019-0984.html",
-      "type": "self",
-      "id": "ALSA-2019-0984",
-      "title": "ALSA-2019-0984"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2019-7164",
       "type": "cve",
@@ -87,6 +81,12 @@
       "type": "cve",
       "id": "CVE-2019-7548",
       "title": "CVE-2019-7548"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2019-0984.html",
+      "type": "self",
+      "id": "ALSA-2019-0984",
+      "title": "ALSA-2019-0984"
     }
   ],
   "release": "0",

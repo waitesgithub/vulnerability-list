@@ -24,6 +24,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libicu-devel",
+        "version": "60.3",
+        "release": "2.el8_1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "icu-60.3-2.el8_1.src.rpm",
+        "filename": "libicu-devel-60.3-2.el8_1.ppc64le.rpm",
+        "sum": "2aa8023d1fd8a556be8040892e53f7063ea4add2fb79373c3fffedfea9123b0f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libicu",
+        "version": "60.3",
+        "release": "2.el8_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "icu-60.3-2.el8_1.src.rpm",
+        "filename": "libicu-60.3-2.el8_1.aarch64.rpm",
+        "sum": "78e299c77d5906965f6aaf0205b319626b60b6915b797228399467f3af6da98a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "icu",
+        "version": "60.3",
+        "release": "2.el8_1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "icu-60.3-2.el8_1.src.rpm",
+        "filename": "icu-60.3-2.el8_1.ppc64le.rpm",
+        "sum": "7eb04eb491880b55120925f13799e541f30e0777f55666478e1dca5f0e322870",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libicu",
         "version": "60.3",
         "release": "2.el8_1",
@@ -72,6 +108,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libicu",
+        "version": "60.3",
+        "release": "2.el8_1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "icu-60.3-2.el8_1.src.rpm",
+        "filename": "libicu-60.3-2.el8_1.ppc64le.rpm",
+        "sum": "a7e6532a6ee685d345f98f1d5e8b75b9577b1b9c07a6486b5f3a576117a15dbe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libicu-devel",
         "version": "60.3",
         "release": "2.el8_1",
@@ -92,6 +140,18 @@
         "src": "icu-60.3-2.el8_1.src.rpm",
         "filename": "Packages/libicu-devel-60.3-2.el8_1.i686.rpm",
         "sum": "c726a04b305aca5bc9d1719255d15ceb75eb91eced86d692343c393a80dd9150",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "icu",
+        "version": "60.3",
+        "release": "2.el8_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "icu-60.3-2.el8_1.src.rpm",
+        "filename": "icu-60.3-2.el8_1.aarch64.rpm",
+        "sum": "d08f8a032e6cc5882d1fa7b802acb817ce99c910e76de48c82a9a95f0170b6c8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,30 +192,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libicu",
-        "version": "60.3",
-        "release": "2.el8_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "icu-60.3-2.el8_1.src.rpm",
-        "filename": "libicu-60.3-2.el8_1.aarch64.rpm",
-        "sum": "78e299c77d5906965f6aaf0205b319626b60b6915b797228399467f3af6da98a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "icu",
-        "version": "60.3",
-        "release": "2.el8_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "icu-60.3-2.el8_1.src.rpm",
-        "filename": "icu-60.3-2.el8_1.aarch64.rpm",
-        "sum": "d08f8a032e6cc5882d1fa7b802acb817ce99c910e76de48c82a9a95f0170b6c8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libicu-devel",
         "version": "60.3",
         "release": "2.el8_1",
@@ -166,42 +202,6 @@
         "sum": "fdee34fee8d9985787ba6ce30a329f0dca6c8e2bb2a8a095056e7d3842fa9d79",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libicu-devel",
-        "version": "60.3",
-        "release": "2.el8_1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "icu-60.3-2.el8_1.src.rpm",
-        "filename": "libicu-devel-60.3-2.el8_1.ppc64le.rpm",
-        "sum": "2aa8023d1fd8a556be8040892e53f7063ea4add2fb79373c3fffedfea9123b0f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "icu",
-        "version": "60.3",
-        "release": "2.el8_1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "icu-60.3-2.el8_1.src.rpm",
-        "filename": "icu-60.3-2.el8_1.ppc64le.rpm",
-        "sum": "7eb04eb491880b55120925f13799e541f30e0777f55666478e1dca5f0e322870",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libicu",
-        "version": "60.3",
-        "release": "2.el8_1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "icu-60.3-2.el8_1.src.rpm",
-        "filename": "libicu-60.3-2.el8_1.ppc64le.rpm",
-        "sum": "a7e6532a6ee685d345f98f1d5e8b75b9577b1b9c07a6486b5f3a576117a15dbe",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -209,16 +209,16 @@
   "pushcount": "3",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-0902.html",
-      "type": "self",
-      "id": "ALSA-2020-0902",
-      "title": "ALSA-2020-0902"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2020-10531",
       "type": "cve",
       "id": "CVE-2020-10531",
       "title": "CVE-2020-10531"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-0902.html",
+      "type": "self",
+      "id": "ALSA-2020-0902",
+      "title": "ALSA-2020-0902"
     }
   ],
   "release": "0",

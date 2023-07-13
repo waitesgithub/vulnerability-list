@@ -8,8 +8,8 @@
     "$date": 1667347200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
       {
         "name": "pki-symkey",
@@ -60,62 +60,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pki-acme",
-        "version": "11.0.6",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-acme-11.0.6-2.el9_0.noarch.rpm",
-        "sum": "7b1d3aedda9b7ea346d9730a6d7066fa2e1b406b4d9b0a55cb8ccce598d9900c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pki-server",
-        "version": "11.0.6",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-server-11.0.6-2.el9_0.noarch.rpm",
-        "sum": "81de71c2f5baa1a1a9dfd5835efeb21ec435c73b06c57646f86cd4791c1d620e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pki-tools",
         "version": "11.0.6",
         "release": "2.el9_0",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-tools-11.0.6-2.el9_0.x86_64.rpm",
-        "sum": "adbaf75bce96b1010c21d25d810d6223ac67b2749dadc832b6f1d6c5152bd4b6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pki-base",
-        "version": "11.0.6",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-base-11.0.6-2.el9_0.noarch.rpm",
-        "sum": "b5255a17f14305055a701fa99beabc0fa64becfd31413319cb6f77b7f57d8a7c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pki-ca",
-        "version": "11.0.6",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-ca-11.0.6-2.el9_0.noarch.rpm",
-        "sum": "e656727cd48c57a2caa56693717055ad5cc708a1a8bcb2dc3dd86d4fa5897305",
+        "filename": "pki-tools-11.0.6-2.el9_0.aarch64.rpm",
+        "sum": "3fbd528ab199de810b96d497a8d59d2b1694a69d909c22439ce783d22715c991",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -156,6 +108,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "pki-acme",
+        "version": "11.0.6",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
+        "filename": "pki-acme-11.0.6-2.el9_0.noarch.rpm",
+        "sum": "7b1d3aedda9b7ea346d9730a6d7066fa2e1b406b4d9b0a55cb8ccce598d9900c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pki-server",
+        "version": "11.0.6",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
+        "filename": "pki-server-11.0.6-2.el9_0.noarch.rpm",
+        "sum": "81de71c2f5baa1a1a9dfd5835efeb21ec435c73b06c57646f86cd4791c1d620e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "pki-symkey",
         "version": "11.0.6",
         "release": "2.el9_0",
@@ -172,10 +148,22 @@
         "version": "11.0.6",
         "release": "2.el9_0",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-tools-11.0.6-2.el9_0.aarch64.rpm",
-        "sum": "3fbd528ab199de810b96d497a8d59d2b1694a69d909c22439ce783d22715c991",
+        "filename": "pki-tools-11.0.6-2.el9_0.x86_64.rpm",
+        "sum": "adbaf75bce96b1010c21d25d810d6223ac67b2749dadc832b6f1d6c5152bd4b6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pki-base",
+        "version": "11.0.6",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
+        "filename": "pki-base-11.0.6-2.el9_0.noarch.rpm",
+        "sum": "b5255a17f14305055a701fa99beabc0fa64becfd31413319cb6f77b7f57d8a7c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -190,6 +178,18 @@
         "sum": "be8ea91d0b03c8dc1d3f74ff49e1c26f55c7e8ee11a11f68dc4d3bd8cdaa5244",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "pki-ca",
+        "version": "11.0.6",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
+        "filename": "pki-ca-11.0.6-2.el9_0.noarch.rpm",
+        "sum": "e656727cd48c57a2caa56693717055ad5cc708a1a8bcb2dc3dd86d4fa5897305",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -197,10 +197,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7326",
-      "type": "rhsa",
-      "id": "RHSA-2022:7326",
-      "title": "RHSA-2022:7326"
+      "href": "https://bugzilla.redhat.com/2104676",
+      "type": "bugzilla",
+      "id": "2104676",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-2414",
@@ -209,10 +209,10 @@
       "title": "CVE-2022-2414"
     },
     {
-      "href": "https://bugzilla.redhat.com/2104676",
-      "type": "bugzilla",
-      "id": "2104676",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7326",
+      "type": "rhsa",
+      "id": "RHSA-2022:7326",
+      "title": "RHSA-2022:7326"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-7326.html",
@@ -230,7 +230,7 @@
   "title": "Important: pki-core security update",
   "type": "security",
   "updated_date": {
-    "$date": 1667425163000
+    "$date": 1667425164000
   },
   "version": "1"
 }

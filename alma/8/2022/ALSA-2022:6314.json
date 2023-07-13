@@ -12,26 +12,14 @@
     "shortname": "almalinux-8-for-x86_64-highavailability-rpms__8_6_default",
     "packages": [
       {
-        "name": "pcs-snmp",
-        "version": "0.10.12",
-        "release": "6.el8_6.2.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.10.12-6.el8_6.2.alma.src.rpm",
-        "filename": "pcs-snmp-0.10.12-6.el8_6.2.alma.x86_64.rpm",
-        "sum": "63748c0642f1d7a65e6f3d5c3402f4548b9afe31a340356808d5efc99df20335",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pcs",
         "version": "0.10.12",
         "release": "6.el8_6.2.alma",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "pcs-0.10.12-6.el8_6.2.alma.src.rpm",
-        "filename": "pcs-0.10.12-6.el8_6.2.alma.x86_64.rpm",
-        "sum": "ded1fe126c7df6aabc3539bb461713bb60ac65a491ac3ee9c8d5395110f27e89",
+        "filename": "pcs-0.10.12-6.el8_6.2.alma.ppc64le.rpm",
+        "sum": "0b79ea9860bec7fa27a4ed8476386a77efa446ccc4beba9ae4b9bbd6e1b969a9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,10 +52,34 @@
         "version": "0.10.12",
         "release": "6.el8_6.2.alma",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "pcs-0.10.12-6.el8_6.2.alma.src.rpm",
-        "filename": "pcs-0.10.12-6.el8_6.2.alma.ppc64le.rpm",
-        "sum": "0b79ea9860bec7fa27a4ed8476386a77efa446ccc4beba9ae4b9bbd6e1b969a9",
+        "filename": "pcs-0.10.12-6.el8_6.2.alma.s390x.rpm",
+        "sum": "4d482071ac2d835e19d0e98f7e367324a99c448388c6c88bcc0b759200234026",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs-snmp",
+        "version": "0.10.12",
+        "release": "6.el8_6.2.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.10.12-6.el8_6.2.alma.src.rpm",
+        "filename": "pcs-snmp-0.10.12-6.el8_6.2.alma.x86_64.rpm",
+        "sum": "63748c0642f1d7a65e6f3d5c3402f4548b9afe31a340356808d5efc99df20335",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.10.12",
+        "release": "6.el8_6.2.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.10.12-6.el8_6.2.alma.src.rpm",
+        "filename": "pcs-0.10.12-6.el8_6.2.alma.x86_64.rpm",
+        "sum": "ded1fe126c7df6aabc3539bb461713bb60ac65a491ac3ee9c8d5395110f27e89",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -80,18 +92,6 @@
         "src": "pcs-0.10.12-6.el8_6.2.alma.src.rpm",
         "filename": "pcs-snmp-0.10.12-6.el8_6.2.alma.ppc64le.rpm",
         "sum": "e26367575c7b3dff81ee67e104ba48538739b761535e595f938a2b45629c4f47",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.10.12",
-        "release": "6.el8_6.2.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "pcs-0.10.12-6.el8_6.2.alma.src.rpm",
-        "filename": "pcs-0.10.12-6.el8_6.2.alma.s390x.rpm",
-        "sum": "4d482071ac2d835e19d0e98f7e367324a99c448388c6c88bcc0b759200234026",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -113,10 +113,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6314",
-      "type": "rhsa",
-      "id": "RHSA-2022:6314",
-      "title": "RHSA-2022:6314"
+      "href": "https://bugzilla.redhat.com/2116815",
+      "type": "bugzilla",
+      "id": "2116815",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-2735",
@@ -125,10 +125,10 @@
       "title": "CVE-2022-2735"
     },
     {
-      "href": "https://bugzilla.redhat.com/2116815",
-      "type": "bugzilla",
-      "id": "2116815",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6314",
+      "type": "rhsa",
+      "id": "RHSA-2022:6314",
+      "title": "RHSA-2022:6314"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-6314.html",

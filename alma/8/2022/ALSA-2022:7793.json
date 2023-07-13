@@ -40,6 +40,18 @@
         "version": "3.1.3",
         "release": "19.el8",
         "epoch": "0",
+        "arch": "s390x",
+        "src": "rsync-3.1.3-19.el8.src.rpm",
+        "filename": "rsync-3.1.3-19.el8.s390x.rpm",
+        "sum": "8dcaef9a28ea217956e18069801824396bd8cdb549d6bff34e381753248903ee",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rsync",
+        "version": "3.1.3",
+        "release": "19.el8",
+        "epoch": "0",
         "arch": "aarch64",
         "src": "rsync-3.1.3-19.el8.src.rpm",
         "filename": "rsync-3.1.3-19.el8.aarch64.rpm",
@@ -58,18 +70,6 @@
         "sum": "ce35471896e8017b2e8272a2c1bc8a73dbd27b4b9a1e46e11d28c88dff76d77a",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "rsync",
-        "version": "3.1.3",
-        "release": "19.el8",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "rsync-3.1.3-19.el8.src.rpm",
-        "filename": "rsync-3.1.3-19.el8.s390x.rpm",
-        "sum": "8dcaef9a28ea217956e18069801824396bd8cdb549d6bff34e381753248903ee",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -77,10 +77,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7793",
-      "type": "rhsa",
-      "id": "RHSA-2022:7793",
-      "title": "RHSA-2022:7793"
+      "href": "https://bugzilla.redhat.com/2116639",
+      "type": "bugzilla",
+      "id": "2116639",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-37434",
@@ -89,10 +89,10 @@
       "title": "CVE-2022-37434"
     },
     {
-      "href": "https://bugzilla.redhat.com/2116639",
-      "type": "bugzilla",
-      "id": "2116639",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7793",
+      "type": "rhsa",
+      "id": "RHSA-2022:7793",
+      "title": "RHSA-2022:7793"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7793.html",

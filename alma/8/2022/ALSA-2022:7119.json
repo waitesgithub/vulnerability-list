@@ -8,30 +8,18 @@
     "$date": 1666656000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
       {
-        "name": "mysql-server",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
+        "name": "mecab-ipadic",
+        "version": "2.7.0.20070801",
+        "release": "16.module_el8.6.0+3340+d764b636",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-server-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "3b948e0c6800094c1e00aae042c269113d9164c0bc9432f0764e0cf39b7946e5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-devel",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-devel-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "54922adee154abdf0dfea34d9ff0dbdce85fc2eff73b4102c8ecc2bec247c0de",
+        "arch": "x86_64",
+        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "01c25f1a3512236bd73267caa3bea6476ca3a7c377c5977467aeb9f40023dbdd",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +28,34 @@
         "version": "8.0.30",
         "release": "1.module_el8.6.0+3340+d764b636",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "56d11640cea0ed8a25d31011b9a3ab59884d5aef9eabb069ee5bb23222000e20",
+        "filename": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "01faffc78c69b7997b49c1b3b16ba7030c433ad08d1ea07807c63ed37e5eca72",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-server",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-server-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "0d8075587990df99bc61c3b512c1acbd12315bca0491a835669649a9d59c11b0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "1e8399ce648192f39a328d19b47e935cd25e23a27ff34fc9da8d6eefaa92f625",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,34 +64,10 @@
         "version": "8.0.30",
         "release": "1.module_el8.6.0+3340+d764b636",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-test-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "9c8346e2f44a58c08d123f9bea76011e286b38821f0948db6db300ce537a4619",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-common",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-common-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "b24876000328536f13b70adcdb1fcbc0bb667735c7a0cfc7fecdc554d1a9ba92",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab-ipadic-EUCJP",
-        "version": "2.7.0.20070801",
-        "release": "16.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "bfd023117a52dcf9986284c9558a973c78a257078d76983f4b01b6c739f8c0e2",
+        "filename": "mysql-test-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "1f82f49537a84efb11840b7dfa8bca4e1420140ade49f7d970ffc947cec8dbf3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,46 +76,10 @@
         "version": "8.0.30",
         "release": "1.module_el8.6.0+3340+d764b636",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-libs-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "c6148f908881db5b854a7bfc6129f860b0d7e39a35da073064e3dc5508f5114b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab",
-        "version": "0.996",
-        "release": "2.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mecab-0.996-2.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "e1c7024f127b0836925cb951490c38855bc0f97fa958be73c2b0ab72a8dcb6cc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-errmsg",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-errmsg-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "f50b1470c072905a0f78f7d51450966cf235210b2bd92210600aa410631a7fa4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab-ipadic",
-        "version": "2.7.0.20070801",
-        "release": "16.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.aarch64.rpm",
-        "sum": "fc3f77b5fcaa8e4ab1f6f41fb62a85beef210a516ce6011b0e5b577ce9ab25d3",
+        "filename": "mysql-libs-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "299f11f8926f26e918d0d7aa67a565512ff2860299cbbb1b9c1d604776eed1f4",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -156,6 +108,54 @@
         "reboot_suggested": 0
       },
       {
+        "name": "mysql-server",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-server-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "35283b8bd53346eb6281b2a414d4afacb0dbe722b5306cdfa4cc8d15face2abc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-libs",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-libs-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "35ecffce085b8777596dc7f3fee4dbe4bb65af6081dc4291a46dbdd26f96188e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-server",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-server-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "3b948e0c6800094c1e00aae042c269113d9164c0bc9432f0764e0cf39b7946e5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-test",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-test-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "3bb8ddeb2c879058242b61bc822854c37c1a3401d97d02f7a2bb73b9652b85b6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mysql-devel",
         "version": "8.0.30",
         "release": "1.module_el8.6.0+3340+d764b636",
@@ -164,6 +164,18 @@
         "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
         "filename": "mysql-devel-8.0.30-1.module_el8.6.0+3340+d764b636.s390x.rpm",
         "sum": "43f2b0f69b1588c199713f28d265a217c7c70f064ab407070127927c52061564",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-common",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-common-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "4cef1a132c53d1284d888892f0773b22a1844335e0c99a009c31014b1423520b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -180,6 +192,54 @@
         "reboot_suggested": 0
       },
       {
+        "name": "mysql-devel",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-devel-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "5295cfb0dd04865f123e959010020081c896520ce5d6e84223ba32f6f342e896",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-devel",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-devel-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "54922adee154abdf0dfea34d9ff0dbdce85fc2eff73b4102c8ecc2bec247c0de",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "56d11640cea0ed8a25d31011b9a3ab59884d5aef9eabb069ee5bb23222000e20",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mecab-ipadic",
+        "version": "2.7.0.20070801",
+        "release": "16.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "647ca52ce18fd28458d3dd5f66b2fcce7833184f043fa3825aff73b90ca98992",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mysql-errmsg",
         "version": "8.0.30",
         "release": "1.module_el8.6.0+3340+d764b636",
@@ -192,6 +252,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "mysql-errmsg",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-errmsg-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "74c4fb9dfad31d64923070db21570aea06d960962fd3de8187a19604f0edd600",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-devel",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-devel-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "8279b579bcbbea18cb6cc38773613bbbec47816ed73d40d77bc98756c99baea5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mecab-ipadic-EUCJP",
         "version": "2.7.0.20070801",
         "release": "16.module_el8.6.0+3340+d764b636",
@@ -200,6 +284,42 @@
         "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
         "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.s390x.rpm",
         "sum": "85ab51ff2897e18fb0fa62f38a21f7f77c1037510fcb24f6fc7f9580966833ff",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-common",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-common-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "8b4331102f3b3801ad3730bcc49d56217a4fb5c0a378915bbb6f355ca6623381",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-errmsg",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-errmsg-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "8c689e2c487f6f232e2b6018ab8e21de605be07427874621dccac0161c8d6883",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-test",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-test-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "9c8346e2f44a58c08d123f9bea76011e286b38821f0948db6db300ce537a4619",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -240,6 +360,90 @@
         "reboot_suggested": 0
       },
       {
+        "name": "mecab",
+        "version": "0.996",
+        "release": "2.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mecab-0.996-2.module_el8.6.0+3340+d764b636.x86_64.rpm",
+        "sum": "ad92d845da106629c38f53bf00066da345d350ac0d997f8b0ab94651b56637de",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-common",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-common-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "b24876000328536f13b70adcdb1fcbc0bb667735c7a0cfc7fecdc554d1a9ba92",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mecab-ipadic-EUCJP",
+        "version": "2.7.0.20070801",
+        "release": "16.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "bfd023117a52dcf9986284c9558a973c78a257078d76983f4b01b6c739f8c0e2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mecab-ipadic-EUCJP",
+        "version": "2.7.0.20070801",
+        "release": "16.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "c4483a52848d75b301b2b8546e2225b43efbb42b9728a5d96257f8d47218d506",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql-libs",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-libs-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "c6148f908881db5b854a7bfc6129f860b0d7e39a35da073064e3dc5508f5114b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mecab",
+        "version": "0.996",
+        "release": "2.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mecab-0.996-2.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+        "sum": "dbce2d021f017d84496e6347e8815843d7c012e85d4da679f1ac185095f9268d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mecab",
+        "version": "0.996",
+        "release": "2.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mecab-0.996-2.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "e1c7024f127b0836925cb951490c38855bc0f97fa958be73c2b0ab72a8dcb6cc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mysql",
         "version": "8.0.30",
         "release": "1.module_el8.6.0+3340+d764b636",
@@ -264,6 +468,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "mysql-errmsg",
+        "version": "8.0.30",
+        "release": "1.module_el8.6.0+3340+d764b636",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
+        "filename": "mysql-errmsg-8.0.30-1.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "f50b1470c072905a0f78f7d51450966cf235210b2bd92210600aa410631a7fa4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mecab-ipadic-EUCJP",
         "version": "2.7.0.20070801",
         "release": "16.module_el8.6.0+3151+3a7073b7",
@@ -272,114 +488,6 @@
         "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3151+3a7073b7.src.rpm",
         "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.6.0+3151+3a7073b7.s390x.rpm",
         "sum": "f516c4c762d9a360ae46cbbf93b663f44d46105232f44f441f3cc3b692d3fbe6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab-ipadic",
-        "version": "2.7.0.20070801",
-        "release": "16.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "01c25f1a3512236bd73267caa3bea6476ca3a7c377c5977467aeb9f40023dbdd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "01faffc78c69b7997b49c1b3b16ba7030c433ad08d1ea07807c63ed37e5eca72",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-server",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-server-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "0d8075587990df99bc61c3b512c1acbd12315bca0491a835669649a9d59c11b0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-libs",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-libs-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "299f11f8926f26e918d0d7aa67a565512ff2860299cbbb1b9c1d604776eed1f4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-test",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-test-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "3bb8ddeb2c879058242b61bc822854c37c1a3401d97d02f7a2bb73b9652b85b6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-devel",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-devel-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "5295cfb0dd04865f123e959010020081c896520ce5d6e84223ba32f6f342e896",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-common",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-common-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "8b4331102f3b3801ad3730bcc49d56217a4fb5c0a378915bbb6f355ca6623381",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-errmsg",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-errmsg-8.0.30-1.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "8c689e2c487f6f232e2b6018ab8e21de605be07427874621dccac0161c8d6883",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab",
-        "version": "0.996",
-        "release": "2.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mecab-0.996-2.module_el8.6.0+3340+d764b636.x86_64.rpm",
-        "sum": "ad92d845da106629c38f53bf00066da345d350ac0d997f8b0ab94651b56637de",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -396,122 +504,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mysql",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "1e8399ce648192f39a328d19b47e935cd25e23a27ff34fc9da8d6eefaa92f625",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-test",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-test-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "1f82f49537a84efb11840b7dfa8bca4e1420140ade49f7d970ffc947cec8dbf3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-server",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-server-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "35283b8bd53346eb6281b2a414d4afacb0dbe722b5306cdfa4cc8d15face2abc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-libs",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-libs-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "35ecffce085b8777596dc7f3fee4dbe4bb65af6081dc4291a46dbdd26f96188e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-common",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-common-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "4cef1a132c53d1284d888892f0773b22a1844335e0c99a009c31014b1423520b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mecab-ipadic",
         "version": "2.7.0.20070801",
         "release": "16.module_el8.6.0+3340+d764b636",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "647ca52ce18fd28458d3dd5f66b2fcce7833184f043fa3825aff73b90ca98992",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-errmsg",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-errmsg-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "74c4fb9dfad31d64923070db21570aea06d960962fd3de8187a19604f0edd600",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mysql-devel",
-        "version": "8.0.30",
-        "release": "1.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mysql-8.0.30-1.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mysql-devel-8.0.30-1.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "8279b579bcbbea18cb6cc38773613bbbec47816ed73d40d77bc98756c99baea5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab-ipadic-EUCJP",
-        "version": "2.7.0.20070801",
-        "release": "16.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "c4483a52848d75b301b2b8546e2225b43efbb42b9728a5d96257f8d47218d506",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab",
-        "version": "0.996",
-        "release": "2.module_el8.6.0+3340+d764b636",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
-        "filename": "mecab-0.996-2.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-        "sum": "dbce2d021f017d84496e6347e8815843d7c012e85d4da679f1ac185095f9268d",
+        "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.aarch64.rpm",
+        "sum": "fc3f77b5fcaa8e4ab1f6f41fb62a85beef210a516ce6011b0e5b577ce9ab25d3",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -520,17 +520,683 @@
       "stream": "8.0",
       "name": "mysql",
       "version": 8060020221025181128,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "9edba152"
     }
   },
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7119",
-      "type": "rhsa",
-      "id": "RHSA-2022:7119",
-      "title": "RHSA-2022:7119"
+      "href": "https://bugzilla.redhat.com/2016089",
+      "type": "bugzilla",
+      "id": "2016089",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016090",
+      "type": "bugzilla",
+      "id": "2016090",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016091",
+      "type": "bugzilla",
+      "id": "2016091",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016093",
+      "type": "bugzilla",
+      "id": "2016093",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016094",
+      "type": "bugzilla",
+      "id": "2016094",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016095",
+      "type": "bugzilla",
+      "id": "2016095",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016097",
+      "type": "bugzilla",
+      "id": "2016097",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016098",
+      "type": "bugzilla",
+      "id": "2016098",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016099",
+      "type": "bugzilla",
+      "id": "2016099",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016100",
+      "type": "bugzilla",
+      "id": "2016100",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016101",
+      "type": "bugzilla",
+      "id": "2016101",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016104",
+      "type": "bugzilla",
+      "id": "2016104",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016105",
+      "type": "bugzilla",
+      "id": "2016105",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016106",
+      "type": "bugzilla",
+      "id": "2016106",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016107",
+      "type": "bugzilla",
+      "id": "2016107",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016108",
+      "type": "bugzilla",
+      "id": "2016108",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016109",
+      "type": "bugzilla",
+      "id": "2016109",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016110",
+      "type": "bugzilla",
+      "id": "2016110",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016111",
+      "type": "bugzilla",
+      "id": "2016111",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016112",
+      "type": "bugzilla",
+      "id": "2016112",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016113",
+      "type": "bugzilla",
+      "id": "2016113",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016114",
+      "type": "bugzilla",
+      "id": "2016114",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016117",
+      "type": "bugzilla",
+      "id": "2016117",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016118",
+      "type": "bugzilla",
+      "id": "2016118",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016119",
+      "type": "bugzilla",
+      "id": "2016119",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016120",
+      "type": "bugzilla",
+      "id": "2016120",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016121",
+      "type": "bugzilla",
+      "id": "2016121",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016122",
+      "type": "bugzilla",
+      "id": "2016122",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016124",
+      "type": "bugzilla",
+      "id": "2016124",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016126",
+      "type": "bugzilla",
+      "id": "2016126",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016127",
+      "type": "bugzilla",
+      "id": "2016127",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016128",
+      "type": "bugzilla",
+      "id": "2016128",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016129",
+      "type": "bugzilla",
+      "id": "2016129",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016130",
+      "type": "bugzilla",
+      "id": "2016130",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016131",
+      "type": "bugzilla",
+      "id": "2016131",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016132",
+      "type": "bugzilla",
+      "id": "2016132",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016133",
+      "type": "bugzilla",
+      "id": "2016133",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016134",
+      "type": "bugzilla",
+      "id": "2016134",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016135",
+      "type": "bugzilla",
+      "id": "2016135",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016137",
+      "type": "bugzilla",
+      "id": "2016137",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2016138",
+      "type": "bugzilla",
+      "id": "2016138",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043620",
+      "type": "bugzilla",
+      "id": "2043620",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043621",
+      "type": "bugzilla",
+      "id": "2043621",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043622",
+      "type": "bugzilla",
+      "id": "2043622",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043623",
+      "type": "bugzilla",
+      "id": "2043623",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043624",
+      "type": "bugzilla",
+      "id": "2043624",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043625",
+      "type": "bugzilla",
+      "id": "2043625",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043626",
+      "type": "bugzilla",
+      "id": "2043626",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043627",
+      "type": "bugzilla",
+      "id": "2043627",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043628",
+      "type": "bugzilla",
+      "id": "2043628",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043629",
+      "type": "bugzilla",
+      "id": "2043629",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043630",
+      "type": "bugzilla",
+      "id": "2043630",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043631",
+      "type": "bugzilla",
+      "id": "2043631",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043632",
+      "type": "bugzilla",
+      "id": "2043632",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043633",
+      "type": "bugzilla",
+      "id": "2043633",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043634",
+      "type": "bugzilla",
+      "id": "2043634",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043635",
+      "type": "bugzilla",
+      "id": "2043635",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043636",
+      "type": "bugzilla",
+      "id": "2043636",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043637",
+      "type": "bugzilla",
+      "id": "2043637",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043638",
+      "type": "bugzilla",
+      "id": "2043638",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043639",
+      "type": "bugzilla",
+      "id": "2043639",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043640",
+      "type": "bugzilla",
+      "id": "2043640",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043641",
+      "type": "bugzilla",
+      "id": "2043641",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043642",
+      "type": "bugzilla",
+      "id": "2043642",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043643",
+      "type": "bugzilla",
+      "id": "2043643",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043644",
+      "type": "bugzilla",
+      "id": "2043644",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043645",
+      "type": "bugzilla",
+      "id": "2043645",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043646",
+      "type": "bugzilla",
+      "id": "2043646",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043647",
+      "type": "bugzilla",
+      "id": "2043647",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2043648",
+      "type": "bugzilla",
+      "id": "2043648",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082636",
+      "type": "bugzilla",
+      "id": "2082636",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082637",
+      "type": "bugzilla",
+      "id": "2082637",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082638",
+      "type": "bugzilla",
+      "id": "2082638",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082639",
+      "type": "bugzilla",
+      "id": "2082639",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082640",
+      "type": "bugzilla",
+      "id": "2082640",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082641",
+      "type": "bugzilla",
+      "id": "2082641",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082642",
+      "type": "bugzilla",
+      "id": "2082642",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082643",
+      "type": "bugzilla",
+      "id": "2082643",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082644",
+      "type": "bugzilla",
+      "id": "2082644",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082645",
+      "type": "bugzilla",
+      "id": "2082645",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082646",
+      "type": "bugzilla",
+      "id": "2082646",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082647",
+      "type": "bugzilla",
+      "id": "2082647",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082648",
+      "type": "bugzilla",
+      "id": "2082648",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082649",
+      "type": "bugzilla",
+      "id": "2082649",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082650",
+      "type": "bugzilla",
+      "id": "2082650",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082651",
+      "type": "bugzilla",
+      "id": "2082651",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082652",
+      "type": "bugzilla",
+      "id": "2082652",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082653",
+      "type": "bugzilla",
+      "id": "2082653",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082654",
+      "type": "bugzilla",
+      "id": "2082654",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082655",
+      "type": "bugzilla",
+      "id": "2082655",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082656",
+      "type": "bugzilla",
+      "id": "2082656",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082657",
+      "type": "bugzilla",
+      "id": "2082657",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082658",
+      "type": "bugzilla",
+      "id": "2082658",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2082659",
+      "type": "bugzilla",
+      "id": "2082659",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115283",
+      "type": "bugzilla",
+      "id": "2115283",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115284",
+      "type": "bugzilla",
+      "id": "2115284",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115285",
+      "type": "bugzilla",
+      "id": "2115285",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115286",
+      "type": "bugzilla",
+      "id": "2115286",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115287",
+      "type": "bugzilla",
+      "id": "2115287",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115288",
+      "type": "bugzilla",
+      "id": "2115288",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115289",
+      "type": "bugzilla",
+      "id": "2115289",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115290",
+      "type": "bugzilla",
+      "id": "2115290",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115291",
+      "type": "bugzilla",
+      "id": "2115291",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115292",
+      "type": "bugzilla",
+      "id": "2115292",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115293",
+      "type": "bugzilla",
+      "id": "2115293",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115294",
+      "type": "bugzilla",
+      "id": "2115294",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115295",
+      "type": "bugzilla",
+      "id": "2115295",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115296",
+      "type": "bugzilla",
+      "id": "2115296",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115297",
+      "type": "bugzilla",
+      "id": "2115297",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115298",
+      "type": "bugzilla",
+      "id": "2115298",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115299",
+      "type": "bugzilla",
+      "id": "2115299",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2115301",
+      "type": "bugzilla",
+      "id": "2115301",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2021-2478",
@@ -1205,676 +1871,10 @@
       "title": "CVE-2022-21569"
     },
     {
-      "href": "https://bugzilla.redhat.com/2016089",
-      "type": "bugzilla",
-      "id": "2016089",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016090",
-      "type": "bugzilla",
-      "id": "2016090",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016091",
-      "type": "bugzilla",
-      "id": "2016091",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016093",
-      "type": "bugzilla",
-      "id": "2016093",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016094",
-      "type": "bugzilla",
-      "id": "2016094",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016095",
-      "type": "bugzilla",
-      "id": "2016095",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016097",
-      "type": "bugzilla",
-      "id": "2016097",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016098",
-      "type": "bugzilla",
-      "id": "2016098",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016099",
-      "type": "bugzilla",
-      "id": "2016099",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016100",
-      "type": "bugzilla",
-      "id": "2016100",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016101",
-      "type": "bugzilla",
-      "id": "2016101",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016104",
-      "type": "bugzilla",
-      "id": "2016104",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016105",
-      "type": "bugzilla",
-      "id": "2016105",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016106",
-      "type": "bugzilla",
-      "id": "2016106",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016107",
-      "type": "bugzilla",
-      "id": "2016107",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016108",
-      "type": "bugzilla",
-      "id": "2016108",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016109",
-      "type": "bugzilla",
-      "id": "2016109",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016110",
-      "type": "bugzilla",
-      "id": "2016110",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016111",
-      "type": "bugzilla",
-      "id": "2016111",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016112",
-      "type": "bugzilla",
-      "id": "2016112",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016113",
-      "type": "bugzilla",
-      "id": "2016113",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016114",
-      "type": "bugzilla",
-      "id": "2016114",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016117",
-      "type": "bugzilla",
-      "id": "2016117",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016118",
-      "type": "bugzilla",
-      "id": "2016118",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016119",
-      "type": "bugzilla",
-      "id": "2016119",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016120",
-      "type": "bugzilla",
-      "id": "2016120",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016121",
-      "type": "bugzilla",
-      "id": "2016121",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016122",
-      "type": "bugzilla",
-      "id": "2016122",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016124",
-      "type": "bugzilla",
-      "id": "2016124",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016126",
-      "type": "bugzilla",
-      "id": "2016126",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016127",
-      "type": "bugzilla",
-      "id": "2016127",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016128",
-      "type": "bugzilla",
-      "id": "2016128",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016129",
-      "type": "bugzilla",
-      "id": "2016129",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016130",
-      "type": "bugzilla",
-      "id": "2016130",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016131",
-      "type": "bugzilla",
-      "id": "2016131",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016132",
-      "type": "bugzilla",
-      "id": "2016132",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016133",
-      "type": "bugzilla",
-      "id": "2016133",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016134",
-      "type": "bugzilla",
-      "id": "2016134",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016135",
-      "type": "bugzilla",
-      "id": "2016135",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016137",
-      "type": "bugzilla",
-      "id": "2016137",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2016138",
-      "type": "bugzilla",
-      "id": "2016138",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043620",
-      "type": "bugzilla",
-      "id": "2043620",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043621",
-      "type": "bugzilla",
-      "id": "2043621",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043622",
-      "type": "bugzilla",
-      "id": "2043622",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043623",
-      "type": "bugzilla",
-      "id": "2043623",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043624",
-      "type": "bugzilla",
-      "id": "2043624",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043625",
-      "type": "bugzilla",
-      "id": "2043625",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043626",
-      "type": "bugzilla",
-      "id": "2043626",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043627",
-      "type": "bugzilla",
-      "id": "2043627",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043628",
-      "type": "bugzilla",
-      "id": "2043628",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043629",
-      "type": "bugzilla",
-      "id": "2043629",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043630",
-      "type": "bugzilla",
-      "id": "2043630",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043631",
-      "type": "bugzilla",
-      "id": "2043631",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043632",
-      "type": "bugzilla",
-      "id": "2043632",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043633",
-      "type": "bugzilla",
-      "id": "2043633",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043634",
-      "type": "bugzilla",
-      "id": "2043634",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043635",
-      "type": "bugzilla",
-      "id": "2043635",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043636",
-      "type": "bugzilla",
-      "id": "2043636",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043637",
-      "type": "bugzilla",
-      "id": "2043637",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043638",
-      "type": "bugzilla",
-      "id": "2043638",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043639",
-      "type": "bugzilla",
-      "id": "2043639",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043640",
-      "type": "bugzilla",
-      "id": "2043640",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043641",
-      "type": "bugzilla",
-      "id": "2043641",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043642",
-      "type": "bugzilla",
-      "id": "2043642",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043643",
-      "type": "bugzilla",
-      "id": "2043643",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043644",
-      "type": "bugzilla",
-      "id": "2043644",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043645",
-      "type": "bugzilla",
-      "id": "2043645",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043646",
-      "type": "bugzilla",
-      "id": "2043646",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043647",
-      "type": "bugzilla",
-      "id": "2043647",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043648",
-      "type": "bugzilla",
-      "id": "2043648",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082636",
-      "type": "bugzilla",
-      "id": "2082636",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082637",
-      "type": "bugzilla",
-      "id": "2082637",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082638",
-      "type": "bugzilla",
-      "id": "2082638",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082639",
-      "type": "bugzilla",
-      "id": "2082639",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082640",
-      "type": "bugzilla",
-      "id": "2082640",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082641",
-      "type": "bugzilla",
-      "id": "2082641",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082642",
-      "type": "bugzilla",
-      "id": "2082642",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082643",
-      "type": "bugzilla",
-      "id": "2082643",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082644",
-      "type": "bugzilla",
-      "id": "2082644",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082645",
-      "type": "bugzilla",
-      "id": "2082645",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082646",
-      "type": "bugzilla",
-      "id": "2082646",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082647",
-      "type": "bugzilla",
-      "id": "2082647",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082648",
-      "type": "bugzilla",
-      "id": "2082648",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082649",
-      "type": "bugzilla",
-      "id": "2082649",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082650",
-      "type": "bugzilla",
-      "id": "2082650",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082651",
-      "type": "bugzilla",
-      "id": "2082651",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082652",
-      "type": "bugzilla",
-      "id": "2082652",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082653",
-      "type": "bugzilla",
-      "id": "2082653",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082654",
-      "type": "bugzilla",
-      "id": "2082654",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082655",
-      "type": "bugzilla",
-      "id": "2082655",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082656",
-      "type": "bugzilla",
-      "id": "2082656",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082657",
-      "type": "bugzilla",
-      "id": "2082657",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082658",
-      "type": "bugzilla",
-      "id": "2082658",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082659",
-      "type": "bugzilla",
-      "id": "2082659",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115283",
-      "type": "bugzilla",
-      "id": "2115283",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115284",
-      "type": "bugzilla",
-      "id": "2115284",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115285",
-      "type": "bugzilla",
-      "id": "2115285",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115286",
-      "type": "bugzilla",
-      "id": "2115286",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115287",
-      "type": "bugzilla",
-      "id": "2115287",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115288",
-      "type": "bugzilla",
-      "id": "2115288",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115289",
-      "type": "bugzilla",
-      "id": "2115289",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115290",
-      "type": "bugzilla",
-      "id": "2115290",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115291",
-      "type": "bugzilla",
-      "id": "2115291",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115292",
-      "type": "bugzilla",
-      "id": "2115292",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115293",
-      "type": "bugzilla",
-      "id": "2115293",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115294",
-      "type": "bugzilla",
-      "id": "2115294",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115295",
-      "type": "bugzilla",
-      "id": "2115295",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115296",
-      "type": "bugzilla",
-      "id": "2115296",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115297",
-      "type": "bugzilla",
-      "id": "2115297",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115298",
-      "type": "bugzilla",
-      "id": "2115298",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115299",
-      "type": "bugzilla",
-      "id": "2115299",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2115301",
-      "type": "bugzilla",
-      "id": "2115301",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7119",
+      "type": "rhsa",
+      "id": "RHSA-2022:7119",
+      "title": "RHSA-2022:7119"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7119.html",
@@ -1892,7 +1892,7 @@
   "title": "Moderate: mysql:8.0 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1666768088000
+    "$date": 1666865526000
   },
   "version": "1"
 }

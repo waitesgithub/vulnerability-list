@@ -41,10 +41,40 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7811",
-      "type": "rhsa",
-      "id": "RHSA-2022:7811",
-      "title": "RHSA-2022:7811"
+      "href": "https://bugzilla.redhat.com/2048356",
+      "type": "bugzilla",
+      "id": "2048356",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2056350",
+      "type": "bugzilla",
+      "id": "2056350",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2056354",
+      "type": "bugzilla",
+      "id": "2056354",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2056363",
+      "type": "bugzilla",
+      "id": "2056363",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2056366",
+      "type": "bugzilla",
+      "id": "2056366",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2056370",
+      "type": "bugzilla",
+      "id": "2056370",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-23990",
@@ -83,40 +113,10 @@
       "title": "CVE-2022-25315"
     },
     {
-      "href": "https://bugzilla.redhat.com/2048356",
-      "type": "bugzilla",
-      "id": "2048356",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2056350",
-      "type": "bugzilla",
-      "id": "2056350",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2056354",
-      "type": "bugzilla",
-      "id": "2056354",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2056363",
-      "type": "bugzilla",
-      "id": "2056363",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2056366",
-      "type": "bugzilla",
-      "id": "2056366",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2056370",
-      "type": "bugzilla",
-      "id": "2056370",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7811",
+      "type": "rhsa",
+      "id": "RHSA-2022:7811",
+      "title": "RHSA-2022:7811"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7811.html",

@@ -8,9 +8,21 @@
     "$date": 1568129569000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-deps",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-deps",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_pki-deps",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_pki-deps",
     "packages": [
+      {
+        "name": "python-nss-doc",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+150+5f0dbea0.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.src.rpm",
+        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.ppc64le.rpm",
+        "sum": "03edf785b6a7fde48ad82738b7b919a2682d2ab600a3cf32da8c2d32ee514d88",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "xmlstreambuffer",
         "version": "1.5.4",
@@ -24,6 +36,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "glassfish-fastinfoset",
+        "version": "1.2.13",
+        "release": "9.module_el8.5.0+150+5f0dbea0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "glassfish-fastinfoset-1.2.13-9.module_el8.5.0+150+5f0dbea0.src.rpm",
+        "filename": "glassfish-fastinfoset-1.2.13-9.module_el8.5.0+150+5f0dbea0.noarch.rpm",
+        "sum": "0e0b6d0f9e207aa9058915bd93e8b323eac9d6e201a0c5e27f08ea346484b236",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "jakarta-commons-httpclient",
         "version": "3.1",
         "release": "28.module_el8.5.0+2577+9e95fe00",
@@ -32,6 +56,30 @@
         "src": "jakarta-commons-httpclient-3.1-28.module_el8.5.0+2577+9e95fe00.src.rpm",
         "filename": "jakarta-commons-httpclient-3.1-28.module_el8.5.0+2577+9e95fe00.noarch.rpm",
         "sum": "10bd8b35a7627089633a2b991411dbde04fc44bce205e99a070803b525ac27a8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "javassist",
+        "version": "3.18.1",
+        "release": "8.module_el8.5.0+150+5f0dbea0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "javassist-3.18.1-8.module_el8.5.0+150+5f0dbea0.src.rpm",
+        "filename": "javassist-3.18.1-8.module_el8.5.0+150+5f0dbea0.noarch.rpm",
+        "sum": "11b781188a17f0b07d390b6ce48e64925091577135ed6a2c3d0469823013291f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "xalan-j2",
+        "version": "2.7.1",
+        "release": "38.module_el8.5.0+150+5f0dbea0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "xalan-j2-2.7.1-38.module_el8.5.0+150+5f0dbea0.src.rpm",
+        "filename": "xalan-j2-2.7.1-38.module_el8.5.0+150+5f0dbea0.noarch.rpm",
+        "sum": "15085c202a11c2802e08b4453b95f2992aa6719c11c734307ecd54bd0cd82eab",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,6 +104,30 @@
         "src": "slf4j-1.7.25-4.module_el8.6.0+2752+f1f3449e.src.rpm",
         "filename": "slf4j-1.7.25-4.module_el8.6.0+2752+f1f3449e.noarch.rpm",
         "sum": "292e8ea233b72dd09de80498503fb693f33e3c296ba8a00d7b43a587e6561dbd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+150+5f0dbea0.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.ppc64le.rpm",
+        "sum": "2d52840b92786dc299c9aab9593858a469f292ddce0f558c0b1f752cf1f1bf3f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "velocity",
+        "version": "1.7",
+        "release": "24.module_el8.5.0+150+5f0dbea0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "velocity-1.7-24.module_el8.5.0+150+5f0dbea0.src.rpm",
+        "filename": "velocity-1.7-24.module_el8.5.0+150+5f0dbea0.noarch.rpm",
+        "sum": "306a57bd339701bc4d3ed57b17b7f9f1d20df9109d22b5d6f91f46caa5668e5d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -122,6 +194,18 @@
       {
         "name": "xerces-j2",
         "version": "2.11.0",
+        "release": "34.module_el8.5.0+150+5f0dbea0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "xerces-j2-2.11.0-34.module_el8.5.0+150+5f0dbea0.src.rpm",
+        "filename": "xerces-j2-2.11.0-34.module_el8.5.0+150+5f0dbea0.noarch.rpm",
+        "sum": "534a20e408d0dfc6c783782c10a39f8d55a5e6c98cfe056765725d57fd4e0855",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "xerces-j2",
+        "version": "2.11.0",
         "release": "34.module_el8.5.0+2577+9e95fe00",
         "epoch": "0",
         "arch": "noarch",
@@ -152,6 +236,18 @@
         "src": "xalan-j2-2.7.1-38.module_el8.5.0+2577+9e95fe00.src.rpm",
         "filename": "xalan-j2-2.7.1-38.module_el8.5.0+2577+9e95fe00.noarch.rpm",
         "sum": "5e01e9a7a21bd38e4949ec1366498734538cdb68e247e8d88bdaf0ef50802941",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bea-stax-api",
+        "version": "1.2.0",
+        "release": "16.module_el8.5.0+150+5f0dbea0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "bea-stax-1.2.0-16.module_el8.5.0+150+5f0dbea0.src.rpm",
+        "filename": "bea-stax-api-1.2.0-16.module_el8.5.0+150+5f0dbea0.noarch.rpm",
+        "sum": "5ee5b9250a21e4ddf394baec222e5303d6cfdf36a64d15b507653c99db34873d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -192,282 +288,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "bea-stax-api",
-        "version": "1.2.0",
-        "release": "16.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "bea-stax-1.2.0-16.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "bea-stax-api-1.2.0-16.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "6d944b415c59e5519365c59135ffef18839255c479277d2701d01e0500192256",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xml-commons-apis",
-        "version": "1.4.01",
-        "release": "25.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "xml-commons-apis-1.4.01-25.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "xml-commons-apis-1.4.01-25.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "8b391528f92eddaaf0a0dc3f634718c438659c3f97dd0d7d7131ce9d8090be64",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "glassfish-jaxb-runtime",
-        "version": "2.2.11",
-        "release": "11.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "glassfish-jaxb-2.2.11-11.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "glassfish-jaxb-runtime-2.2.11-11.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "9686df16e5d697e4060189f8f12487883b69cacdf0f54670b6725b396f4c8262",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
-        "sum": "ae60fc0416f6002b600d429d0ec5f54876e7a259bd5ba480de5886d03b28e23d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "glassfish-fastinfoset",
-        "version": "1.2.13",
-        "release": "9.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "glassfish-fastinfoset-1.2.13-9.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "glassfish-fastinfoset-1.2.13-9.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "b5cab09d52a8dc6754f3b7bc81d80d8dc4478417ca882c36785c2cc6a9253ce3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "glassfish-jaxb-api",
-        "version": "2.2.12",
-        "release": "8.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "glassfish-jaxb-api-2.2.12-8.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "glassfish-jaxb-api-2.2.12-8.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "beb7a887367ef8539a8eb20d5a62e1351577f84cc665b8f955d2cf96b5780024",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "slf4j",
-        "version": "1.7.25",
-        "release": "4.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "slf4j-1.7.25-4.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "slf4j-1.7.25-4.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "c109b72a68915ed0cf53730c115d81ce088f19ac2582206dff3642c5076b3f17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "apache-commons-lang",
-        "version": "2.6",
-        "release": "21.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "apache-commons-lang-2.6-21.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "apache-commons-lang-2.6-21.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "c1cbb22cc5abd53350cd3fd27187e0c988d3872f91ec160039b3ad02565d2b50",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "javassist-javadoc",
-        "version": "3.18.1",
-        "release": "8.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "javassist-3.18.1-8.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "javassist-javadoc-3.18.1-8.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "d07761752107a818daea7ef556c2681fd35efa739687f7942f851ffc835dedb1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xsom",
-        "version": "0",
-        "release": "19.20110809svn.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "xsom-0-19.20110809svn.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "xsom-0-19.20110809svn.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "d373cee4cbd659168ea847d6d2d6429859b6d8c9c41877d6d25a93b30cc2362a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "stax-ex",
-        "version": "1.7.7",
-        "release": "8.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "stax-ex-1.7.7-8.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "stax-ex-1.7.7-8.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "df93c43fcc001714d329e6035685b00548226c69384543a54f57a08a53a4fdd2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "glassfish-jaxb-core",
-        "version": "2.2.11",
-        "release": "11.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "glassfish-jaxb-2.2.11-11.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "glassfish-jaxb-core-2.2.11-11.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "f3a8585e28b69dd773b7d7ab4f83781e36e963bb23aeb03ffcbdb34b1e1cd9bb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "jackson-module-jaxb-annotations",
-        "version": "2.7.6",
-        "release": "4.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "jackson-module-jaxb-annotations-2.7.6-4.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "jackson-module-jaxb-annotations-2.7.6-4.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "fb515d40cac152aad1609b30a1c9d0055f7c1bb842273f558573965a13fed76d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
-        "sum": "c715d300c489d952c2abd192c47eb696c0ed6b286bb55883fecbf1d07f96a412",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python-nss-doc",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
-        "sum": "f77a753add8d4d4cc9e8393982a0c220fd0ea5b7b2247e5f2c1399f723202eb0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python-nss-doc",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+150+5f0dbea0.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.src.rpm",
-        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.ppc64le.rpm",
-        "sum": "03edf785b6a7fde48ad82738b7b919a2682d2ab600a3cf32da8c2d32ee514d88",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "glassfish-fastinfoset",
-        "version": "1.2.13",
-        "release": "9.module_el8.5.0+150+5f0dbea0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "glassfish-fastinfoset-1.2.13-9.module_el8.5.0+150+5f0dbea0.src.rpm",
-        "filename": "glassfish-fastinfoset-1.2.13-9.module_el8.5.0+150+5f0dbea0.noarch.rpm",
-        "sum": "0e0b6d0f9e207aa9058915bd93e8b323eac9d6e201a0c5e27f08ea346484b236",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "javassist",
-        "version": "3.18.1",
-        "release": "8.module_el8.5.0+150+5f0dbea0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "javassist-3.18.1-8.module_el8.5.0+150+5f0dbea0.src.rpm",
-        "filename": "javassist-3.18.1-8.module_el8.5.0+150+5f0dbea0.noarch.rpm",
-        "sum": "11b781188a17f0b07d390b6ce48e64925091577135ed6a2c3d0469823013291f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xalan-j2",
-        "version": "2.7.1",
-        "release": "38.module_el8.5.0+150+5f0dbea0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "xalan-j2-2.7.1-38.module_el8.5.0+150+5f0dbea0.src.rpm",
-        "filename": "xalan-j2-2.7.1-38.module_el8.5.0+150+5f0dbea0.noarch.rpm",
-        "sum": "15085c202a11c2802e08b4453b95f2992aa6719c11c734307ecd54bd0cd82eab",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+150+5f0dbea0.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.ppc64le.rpm",
-        "sum": "2d52840b92786dc299c9aab9593858a469f292ddce0f558c0b1f752cf1f1bf3f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "velocity",
-        "version": "1.7",
-        "release": "24.module_el8.5.0+150+5f0dbea0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "velocity-1.7-24.module_el8.5.0+150+5f0dbea0.src.rpm",
-        "filename": "velocity-1.7-24.module_el8.5.0+150+5f0dbea0.noarch.rpm",
-        "sum": "306a57bd339701bc4d3ed57b17b7f9f1d20df9109d22b5d6f91f46caa5668e5d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xerces-j2",
-        "version": "2.11.0",
-        "release": "34.module_el8.5.0+150+5f0dbea0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "xerces-j2-2.11.0-34.module_el8.5.0+150+5f0dbea0.src.rpm",
-        "filename": "xerces-j2-2.11.0-34.module_el8.5.0+150+5f0dbea0.noarch.rpm",
-        "sum": "534a20e408d0dfc6c783782c10a39f8d55a5e6c98cfe056765725d57fd4e0855",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bea-stax-api",
-        "version": "1.2.0",
-        "release": "16.module_el8.5.0+150+5f0dbea0",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "bea-stax-1.2.0-16.module_el8.5.0+150+5f0dbea0.src.rpm",
-        "filename": "bea-stax-api-1.2.0-16.module_el8.5.0+150+5f0dbea0.noarch.rpm",
-        "sum": "5ee5b9250a21e4ddf394baec222e5303d6cfdf36a64d15b507653c99db34873d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "xml-commons-apis",
         "version": "1.4.01",
         "release": "25.module_el8.5.0+150+5f0dbea0",
@@ -476,6 +296,18 @@
         "src": "xml-commons-apis-1.4.01-25.module_el8.5.0+150+5f0dbea0.src.rpm",
         "filename": "xml-commons-apis-1.4.01-25.module_el8.5.0+150+5f0dbea0.noarch.rpm",
         "sum": "6776726a047a53927b34c7b4e89ca4c61ff08afc198c8e333061b3489c3df7b7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bea-stax-api",
+        "version": "1.2.0",
+        "release": "16.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "bea-stax-1.2.0-16.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "bea-stax-api-1.2.0-16.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "6d944b415c59e5519365c59135ffef18839255c479277d2701d01e0500192256",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -564,6 +396,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "xml-commons-apis",
+        "version": "1.4.01",
+        "release": "25.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "xml-commons-apis-1.4.01-25.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "xml-commons-apis-1.4.01-25.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "8b391528f92eddaaf0a0dc3f634718c438659c3f97dd0d7d7131ce9d8090be64",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "stax-ex",
         "version": "1.7.7",
         "release": "8.module_el8.5.0+150+5f0dbea0",
@@ -572,6 +416,18 @@
         "src": "stax-ex-1.7.7-8.module_el8.5.0+150+5f0dbea0.src.rpm",
         "filename": "stax-ex-1.7.7-8.module_el8.5.0+150+5f0dbea0.noarch.rpm",
         "sum": "90cf5539e0d4055abf9b0d022c8c10f05ba1068215b360c1085bde6f066f77ac",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "glassfish-jaxb-runtime",
+        "version": "2.2.11",
+        "release": "11.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "glassfish-jaxb-2.2.11-11.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "glassfish-jaxb-runtime-2.2.11-11.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "9686df16e5d697e4060189f8f12487883b69cacdf0f54670b6725b396f4c8262",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -600,6 +456,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
+        "sum": "ae60fc0416f6002b600d429d0ec5f54876e7a259bd5ba480de5886d03b28e23d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "glassfish-fastinfoset",
+        "version": "1.2.13",
+        "release": "9.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "glassfish-fastinfoset-1.2.13-9.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "glassfish-fastinfoset-1.2.13-9.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "b5cab09d52a8dc6754f3b7bc81d80d8dc4478417ca882c36785c2cc6a9253ce3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "glassfish-jaxb-runtime",
         "version": "2.2.11",
         "release": "11.module_el8.5.0+150+5f0dbea0",
@@ -612,6 +492,54 @@
         "reboot_suggested": 0
       },
       {
+        "name": "glassfish-jaxb-api",
+        "version": "2.2.12",
+        "release": "8.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "glassfish-jaxb-api-2.2.12-8.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "glassfish-jaxb-api-2.2.12-8.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "beb7a887367ef8539a8eb20d5a62e1351577f84cc665b8f955d2cf96b5780024",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "slf4j",
+        "version": "1.7.25",
+        "release": "4.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "slf4j-1.7.25-4.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "slf4j-1.7.25-4.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "c109b72a68915ed0cf53730c115d81ce088f19ac2582206dff3642c5076b3f17",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "apache-commons-lang",
+        "version": "2.6",
+        "release": "21.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "apache-commons-lang-2.6-21.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "apache-commons-lang-2.6-21.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "c1cbb22cc5abd53350cd3fd27187e0c988d3872f91ec160039b3ad02565d2b50",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
+        "sum": "c715d300c489d952c2abd192c47eb696c0ed6b286bb55883fecbf1d07f96a412",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "xml-commons-resolver",
         "version": "1.2",
         "release": "26.module_el8.5.0+150+5f0dbea0",
@@ -620,6 +548,30 @@
         "src": "xml-commons-resolver-1.2-26.module_el8.5.0+150+5f0dbea0.src.rpm",
         "filename": "xml-commons-resolver-1.2-26.module_el8.5.0+150+5f0dbea0.noarch.rpm",
         "sum": "ca4eca1d74c226ffc0a680bc5b32b0f00b1d7daae7f19582aeed0e76d0e20225",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "javassist-javadoc",
+        "version": "3.18.1",
+        "release": "8.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "javassist-3.18.1-8.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "javassist-javadoc-3.18.1-8.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "d07761752107a818daea7ef556c2681fd35efa739687f7942f851ffc835dedb1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "xsom",
+        "version": "0",
+        "release": "19.20110809svn.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "xsom-0-19.20110809svn.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "xsom-0-19.20110809svn.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "d373cee4cbd659168ea847d6d2d6429859b6d8c9c41877d6d25a93b30cc2362a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -644,6 +596,18 @@
         "src": "glassfish-jaxb-api-2.2.12-8.module_el8.5.0+150+5f0dbea0.src.rpm",
         "filename": "glassfish-jaxb-api-2.2.12-8.module_el8.5.0+150+5f0dbea0.noarch.rpm",
         "sum": "dc1c3935eb23eabee759ca26ee60b02f498ca9083d0e24fc3fd0f767dcbf3e8b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "stax-ex",
+        "version": "1.7.7",
+        "release": "8.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "stax-ex-1.7.7-8.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "stax-ex-1.7.7-8.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "df93c43fcc001714d329e6035685b00548226c69384543a54f57a08a53a4fdd2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -682,29 +646,65 @@
         "sum": "ef482473fca00f95cfe02e1057056e98e87908cb07aed0e28d505b5cd99b91c7",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "glassfish-jaxb-core",
+        "version": "2.2.11",
+        "release": "11.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "glassfish-jaxb-2.2.11-11.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "glassfish-jaxb-core-2.2.11-11.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "f3a8585e28b69dd773b7d7ab4f83781e36e963bb23aeb03ffcbdb34b1e1cd9bb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python-nss-doc",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
+        "sum": "f77a753add8d4d4cc9e8393982a0c220fd0ea5b7b2247e5f2c1399f723202eb0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "jackson-module-jaxb-annotations",
+        "version": "2.7.6",
+        "release": "4.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "jackson-module-jaxb-annotations-2.7.6-4.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "jackson-module-jaxb-annotations-2.7.6-4.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "fb515d40cac152aad1609b30a1c9d0055f7c1bb842273f558573965a13fed76d",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "10.6",
       "name": "pki-deps",
       "version": 8050020211010083254,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "b4937e53"
     }
   },
   "pushcount": "3",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2019-2720.html",
-      "type": "self",
-      "id": "ALSA-2019-2720",
-      "title": "ALSA-2019-2720"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2019-12384",
       "type": "cve",
       "id": "CVE-2019-12384",
       "title": "CVE-2019-12384"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2019-2720.html",
+      "type": "self",
+      "id": "ALSA-2019-2720",
+      "title": "ALSA-2019-2720"
     }
   ],
   "release": "0",

@@ -8,9 +8,33 @@
     "$date": 1572976333000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_container-tools",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_container-tools",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_container-tools",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_container-tools",
     "packages": [
+      {
+        "name": "oci-systemd-hook",
+        "version": "0.1.15",
+        "release": "2.git2d0b8a3.module_el8.5.0+119+9a9ec082",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.src.rpm",
+        "filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+        "sum": "3f0297ea60af68d82bac1e3ff0466762adac366c8888335e60681908c5146ba7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "oci-umount",
+        "version": "2.3.4",
+        "release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
+        "epoch": "2",
+        "arch": "ppc64le",
+        "src": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.src.rpm",
+        "filename": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+        "sum": "6a69d33989417b5db165ed7f7d5c377e2da96c932944e9aeb391bb252300e3c1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "oci-umount",
         "version": "2.3.4",
@@ -20,30 +44,6 @@
         "src": "oci-umount-2.3.4-2.git87f9237.module_el8.4.0+2496+12421f43.src.rpm",
         "filename": "oci-umount-2.3.4-2.git87f9237.module_el8.4.0+2496+12421f43.aarch64.rpm",
         "sum": "770d344d61dc1877c84a45a546afae1a8f23794049e5a2ec2a2da48f0ebf626b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "oci-systemd-hook",
-        "version": "0.1.15",
-        "release": "2.git2d0b8a3.module_el8.4.0+2496+12421f43",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.4.0+2496+12421f43.src.rpm",
-        "filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.4.0+2496+12421f43.aarch64.rpm",
-        "sum": "82a7c609f0920121fc1ce28ccf8a437f07063d9b4d2c930cec3d6894d962fe15",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "fuse-overlayfs",
-        "version": "0.3",
-        "release": "5.module_el8.4.0+2496+12421f43",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.src.rpm",
-        "filename": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.aarch64.rpm",
-        "sum": "90cde31a5e68574aba6ec587bbcb2a0de1926524b781da2f5cd98a055369d4e5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -74,36 +74,36 @@
       {
         "name": "oci-systemd-hook",
         "version": "0.1.15",
-        "release": "2.git2d0b8a3.module_el8.3.0+2044+12421f43",
+        "release": "2.git2d0b8a3.module_el8.4.0+2496+12421f43",
         "epoch": "1",
-        "arch": "x86_64",
-        "src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.src.rpm",
-        "filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.x86_64.rpm",
-        "sum": "b0316c313c77ab89cb757717f70d4033c6593a3ea657981a4c351d397629218a",
+        "arch": "aarch64",
+        "src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.4.0+2496+12421f43.src.rpm",
+        "filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.4.0+2496+12421f43.aarch64.rpm",
+        "sum": "82a7c609f0920121fc1ce28ccf8a437f07063d9b4d2c930cec3d6894d962fe15",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "fuse-overlayfs",
+        "version": "0.3",
+        "release": "5.module_el8.4.0+2496+12421f43",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.src.rpm",
+        "filename": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.aarch64.rpm",
+        "sum": "90cde31a5e68574aba6ec587bbcb2a0de1926524b781da2f5cd98a055369d4e5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
       {
         "name": "oci-systemd-hook",
         "version": "0.1.15",
-        "release": "2.git2d0b8a3.module_el8.5.0+119+9a9ec082",
+        "release": "2.git2d0b8a3.module_el8.3.0+2044+12421f43",
         "epoch": "1",
-        "arch": "ppc64le",
-        "src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.src.rpm",
-        "filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-        "sum": "3f0297ea60af68d82bac1e3ff0466762adac366c8888335e60681908c5146ba7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "oci-umount",
-        "version": "2.3.4",
-        "release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
-        "epoch": "2",
-        "arch": "ppc64le",
-        "src": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.src.rpm",
-        "filename": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-        "sum": "6a69d33989417b5db165ed7f7d5c377e2da96c932944e9aeb391bb252300e3c1",
+        "arch": "x86_64",
+        "src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.src.rpm",
+        "filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.x86_64.rpm",
+        "sum": "b0316c313c77ab89cb757717f70d4033c6593a3ea657981a4c351d397629218a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -123,19 +123,13 @@
     "module": {
       "stream": "1.0",
       "name": "container-tools",
-      "version": 8040020210617090548,
-      "arch": "aarch64",
+      "version": 8040020210609195049,
+      "arch": "x86_64",
       "context": "830d479e"
     }
   },
   "pushcount": "6",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2019-3494.html",
-      "type": "self",
-      "id": "ALSA-2019-3494",
-      "title": "ALSA-2019-3494"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2019-10214",
       "type": "cve",
@@ -147,6 +141,12 @@
       "type": "cve",
       "id": "CVE-2019-14378",
       "title": "CVE-2019-14378"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2019-3494.html",
+      "type": "self",
+      "id": "ALSA-2019-3494",
+      "title": "ALSA-2019-3494"
     }
   ],
   "release": "0",

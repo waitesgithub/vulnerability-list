@@ -8,8 +8,8 @@
     "$date": 1660003200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-nfv-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-nfv-rpms__9_default",
+    "name": "almalinux-9-for-x86_64-rt-rpms__9_default",
+    "shortname": "almalinux-9-for-x86_64-rt-rpms__9_default",
     "packages": [
       {
         "name": "kernel-rt-debug-core",
@@ -161,10 +161,28 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6002",
-      "type": "rhsa",
-      "id": "RHSA-2022:6002",
+      "href": "https://bugzilla.redhat.com/2039448",
+      "type": "bugzilla",
+      "id": "2039448",
       "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2070220",
+      "type": "bugzilla",
+      "id": "2070220",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-0494",
+      "type": "cve",
+      "id": "CVE-2022-0494",
+      "title": "CVE-2022-0494"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-1055",
+      "type": "cve",
+      "id": "CVE-2022-1055",
+      "title": "CVE-2022-1055"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-0494",
@@ -179,15 +197,15 @@
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2039448",
-      "type": "bugzilla",
-      "id": "2039448",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:6002",
+      "type": "rhsa",
+      "id": "RHSA-2022:6002",
+      "title": "RHSA-2022:6002"
     },
     {
-      "href": "https://bugzilla.redhat.com/2070220",
-      "type": "bugzilla",
-      "id": "2070220",
+      "href": "https://access.redhat.com/errata/RHSA-2022:6002",
+      "type": "rhsa",
+      "id": "RHSA-2022:6002",
       "title": ""
     },
     {

@@ -8,9 +8,21 @@
     "$date": 1621318141000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libvncserver-devel",
+        "version": "0.9.11",
+        "release": "17.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libvncserver-0.9.11-17.el8.src.rpm",
+        "filename": "libvncserver-devel-0.9.11-17.el8.x86_64.rpm",
+        "sum": "3208117cf82714bfcb05156e8f1cf08fb9c299884dd49b60144800b3f21432b2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libvncserver",
         "version": "0.9.11",
@@ -24,14 +36,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libvncserver-devel",
+        "name": "libvncserver",
         "version": "0.9.11",
         "release": "17.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "i686",
         "src": "libvncserver-0.9.11-17.el8.src.rpm",
-        "filename": "libvncserver-devel-0.9.11-17.el8.aarch64.rpm",
-        "sum": "d493b52633e6d63611bbe9f9920783589d4e88f22a8c8b0cc864ee715dcfa2bf",
+        "filename": "libvncserver-0.9.11-17.el8.i686.rpm",
+        "sum": "66a0b92a14b69f733340ebe8efa4d49a2fa2a57e0156a4b44e0c1ba1cc19f1c2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +52,10 @@
         "version": "0.9.11",
         "release": "17.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "libvncserver-0.9.11-17.el8.src.rpm",
-        "filename": "libvncserver-devel-0.9.11-17.el8.x86_64.rpm",
-        "sum": "3208117cf82714bfcb05156e8f1cf08fb9c299884dd49b60144800b3f21432b2",
+        "filename": "libvncserver-devel-0.9.11-17.el8.ppc64le.rpm",
+        "sum": "7166caa6f0068a3b9ef43ff0c4750e9f9ee7d37210b1be38a1d9b496af07e7e2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,10 +88,10 @@
         "version": "0.9.11",
         "release": "17.el8",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "libvncserver-0.9.11-17.el8.src.rpm",
-        "filename": "libvncserver-devel-0.9.11-17.el8.ppc64le.rpm",
-        "sum": "7166caa6f0068a3b9ef43ff0c4750e9f9ee7d37210b1be38a1d9b496af07e7e2",
+        "filename": "libvncserver-devel-0.9.11-17.el8.aarch64.rpm",
+        "sum": "d493b52633e6d63611bbe9f9920783589d4e88f22a8c8b0cc864ee715dcfa2bf",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -94,30 +106,12 @@
         "sum": "e6b8ee46687541fb9342ebbfac1c6e1318b3a2dcdc1d9607139799e26378eb3d",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libvncserver",
-        "version": "0.9.11",
-        "release": "17.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libvncserver-0.9.11-17.el8.src.rpm",
-        "filename": "libvncserver-0.9.11-17.el8.i686.rpm",
-        "sum": "66a0b92a14b69f733340ebe8efa4d49a2fa2a57e0156a4b44e0c1ba1cc19f1c2",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "2",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-1811.html",
-      "type": "self",
-      "id": "ALSA-2021-1811",
-      "title": "ALSA-2021-1811"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2018-21247",
       "type": "cve",
@@ -147,10 +141,16 @@
       "type": "cve",
       "id": "CVE-2020-25708",
       "title": "CVE-2020-25708"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1811.html",
+      "type": "self",
+      "id": "ALSA-2021-1811",
+      "title": "ALSA-2021-1811"
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -158,7 +158,7 @@
   "title": "Moderate: libvncserver security update",
   "type": "security",
   "updated_date": {
-    "$date": 1621318124000
+    "$date": 1636712456000
   },
   "version": "1"
 }

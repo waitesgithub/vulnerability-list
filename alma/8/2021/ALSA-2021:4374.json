@@ -52,6 +52,42 @@
         "version": "5.33",
         "release": "20.el8",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "file-5.33-20.el8.src.rpm",
+        "filename": "file-devel-5.33-20.el8.aarch64.rpm",
+        "sum": "69bf90a1c2d9f6ffd18be854fbb1c7ffc752109d3c74f31fd2006179ef1a7dd5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "file-devel",
+        "version": "5.33",
+        "release": "20.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "file-5.33-20.el8.src.rpm",
+        "filename": "file-devel-5.33-20.el8.i686.rpm",
+        "sum": "7c7c8e69ec1d3002bc851c1bce409904035d192f425af44f51e44d0e7638385c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "file",
+        "version": "5.33",
+        "release": "20.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "file-5.33-20.el8.src.rpm",
+        "filename": "file-5.33-20.el8.aarch64.rpm",
+        "sum": "7edc703ad5702df36cb92bc01ab139d6436d869e843d23cdfb0001b7f6a5fbd3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "file-devel",
+        "version": "5.33",
+        "release": "20.el8",
+        "epoch": "0",
         "arch": "x86_64",
         "src": "file-5.33-20.el8.src.rpm",
         "filename": "file-devel-5.33-20.el8.x86_64.rpm",
@@ -72,30 +108,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "file-devel",
-        "version": "5.33",
-        "release": "20.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "file-5.33-20.el8.src.rpm",
-        "filename": "file-devel-5.33-20.el8.aarch64.rpm",
-        "sum": "69bf90a1c2d9f6ffd18be854fbb1c7ffc752109d3c74f31fd2006179ef1a7dd5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "file",
-        "version": "5.33",
-        "release": "20.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "file-5.33-20.el8.src.rpm",
-        "filename": "file-5.33-20.el8.aarch64.rpm",
-        "sum": "7edc703ad5702df36cb92bc01ab139d6436d869e843d23cdfb0001b7f6a5fbd3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "file-libs",
         "version": "5.33",
         "release": "20.el8",
@@ -104,18 +116,6 @@
         "src": "file-5.33-20.el8.src.rpm",
         "filename": "file-libs-5.33-20.el8.aarch64.rpm",
         "sum": "b4c16671a545a9f066105acd1065c7434618de9fdafeb2601fc480365c7f8760",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "file-devel",
-        "version": "5.33",
-        "release": "20.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "file-5.33-20.el8.src.rpm",
-        "filename": "file-devel-5.33-20.el8.i686.rpm",
-        "sum": "7c7c8e69ec1d3002bc851c1bce409904035d192f425af44f51e44d0e7638385c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -161,16 +161,16 @@
   "pushcount": "3",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-4374.html",
-      "type": "self",
-      "id": "ALSA-2021-4374",
-      "title": "ALSA-2021-4374"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2019-18218",
       "type": "cve",
       "id": "CVE-2019-18218",
       "title": "CVE-2019-18218"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4374.html",
+      "type": "self",
+      "id": "ALSA-2021-4374",
+      "title": "ALSA-2021-4374"
     }
   ],
   "release": "0",
@@ -182,7 +182,7 @@
   "title": "Moderate: file security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636463342000
+    "$date": 1636712461000
   },
   "version": "2"
 }

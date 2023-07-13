@@ -8,21 +8,9 @@
     "$date": 1658793600000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
-      {
-        "name": "grafana",
-        "version": "7.5.11",
-        "release": "5.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "grafana-7.5.11-5.el9_0.src.rpm",
-        "filename": "grafana-7.5.11-5.el9_0.x86_64.rpm",
-        "sum": "bb262b6754ae1591ab41a6a69aa8165457e359727ea270ba73373b5abddfad49",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "grafana",
         "version": "7.5.11",
@@ -52,6 +40,18 @@
         "version": "7.5.11",
         "release": "5.el9_0",
         "epoch": "0",
+        "arch": "x86_64",
+        "src": "grafana-7.5.11-5.el9_0.src.rpm",
+        "filename": "grafana-7.5.11-5.el9_0.x86_64.rpm",
+        "sum": "bb262b6754ae1591ab41a6a69aa8165457e359727ea270ba73373b5abddfad49",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grafana",
+        "version": "7.5.11",
+        "release": "5.el9_0",
+        "epoch": "0",
         "arch": "aarch64",
         "src": "grafana-7.5.11-5.el9_0.src.rpm",
         "filename": "grafana-7.5.11-5.el9_0.aarch64.rpm",
@@ -65,9 +65,9 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5716",
-      "type": "rhsa",
-      "id": "RHSA-2022:5716",
+      "href": "https://bugzilla.redhat.com/2104367",
+      "type": "bugzilla",
+      "id": "2104367",
       "title": ""
     },
     {
@@ -77,9 +77,9 @@
       "title": ""
     },
     {
-      "href": "https://bugzilla.redhat.com/2104367",
-      "type": "bugzilla",
-      "id": "2104367",
+      "href": "https://access.redhat.com/errata/RHSA-2022:5716",
+      "type": "rhsa",
+      "id": "RHSA-2022:5716",
       "title": ""
     },
     {

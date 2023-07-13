@@ -8,8 +8,8 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
       {
         "name": "grafana",
@@ -20,18 +20,6 @@
         "src": "grafana-7.5.15-3.el8.src.rpm",
         "filename": "grafana-7.5.15-3.el8.aarch64.rpm",
         "sum": "0daf94976e09f3e5c49431fb39652b5187db134d60ed3dd39a25771f0e3e2595",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grafana",
-        "version": "7.5.15",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "grafana-7.5.15-3.el8.src.rpm",
-        "filename": "grafana-7.5.15-3.el8.s390x.rpm",
-        "sum": "bdc9b7c7f26a2af7374489f8bfa3195ee2c1f15954bbfb66fd192d1c51e3ae46",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -58,6 +46,18 @@
         "sum": "bc7501e47aba03f6f7520c1928fab9299badc0be23b67f4f543ea0676e987a55",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "grafana",
+        "version": "7.5.15",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "grafana-7.5.15-3.el8.src.rpm",
+        "filename": "grafana-7.5.15-3.el8.s390x.rpm",
+        "sum": "bdc9b7c7f26a2af7374489f8bfa3195ee2c1f15954bbfb66fd192d1c51e3ae46",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -65,10 +65,94 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7519",
-      "type": "rhsa",
-      "id": "RHSA-2022:7519",
-      "title": "RHSA-2022:7519"
+      "href": "https://bugzilla.redhat.com/2044628",
+      "type": "bugzilla",
+      "id": "2044628",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2045880",
+      "type": "bugzilla",
+      "id": "2045880",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2050648",
+      "type": "bugzilla",
+      "id": "2050648",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2050742",
+      "type": "bugzilla",
+      "id": "2050742",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2050743",
+      "type": "bugzilla",
+      "id": "2050743",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2065290",
+      "type": "bugzilla",
+      "id": "2065290",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107342",
+      "type": "bugzilla",
+      "id": "2107342",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107371",
+      "type": "bugzilla",
+      "id": "2107371",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107374",
+      "type": "bugzilla",
+      "id": "2107374",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107376",
+      "type": "bugzilla",
+      "id": "2107376",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107383",
+      "type": "bugzilla",
+      "id": "2107383",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107386",
+      "type": "bugzilla",
+      "id": "2107386",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107388",
+      "type": "bugzilla",
+      "id": "2107388",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107390",
+      "type": "bugzilla",
+      "id": "2107390",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2107392",
+      "type": "bugzilla",
+      "id": "2107392",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2021-23648",
@@ -161,94 +245,10 @@
       "title": "CVE-2022-32148"
     },
     {
-      "href": "https://bugzilla.redhat.com/2044628",
-      "type": "bugzilla",
-      "id": "2044628",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2045880",
-      "type": "bugzilla",
-      "id": "2045880",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2050648",
-      "type": "bugzilla",
-      "id": "2050648",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2050742",
-      "type": "bugzilla",
-      "id": "2050742",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2050743",
-      "type": "bugzilla",
-      "id": "2050743",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2065290",
-      "type": "bugzilla",
-      "id": "2065290",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107342",
-      "type": "bugzilla",
-      "id": "2107342",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107371",
-      "type": "bugzilla",
-      "id": "2107371",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107374",
-      "type": "bugzilla",
-      "id": "2107374",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107376",
-      "type": "bugzilla",
-      "id": "2107376",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107383",
-      "type": "bugzilla",
-      "id": "2107383",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107386",
-      "type": "bugzilla",
-      "id": "2107386",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107388",
-      "type": "bugzilla",
-      "id": "2107388",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107390",
-      "type": "bugzilla",
-      "id": "2107390",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107392",
-      "type": "bugzilla",
-      "id": "2107392",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7519",
+      "type": "rhsa",
+      "id": "RHSA-2022:7519",
+      "title": "RHSA-2022:7519"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7519.html",

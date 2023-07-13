@@ -8,8 +8,8 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "ignition",
@@ -65,10 +65,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8126",
-      "type": "rhsa",
-      "id": "RHSA-2022:8126",
-      "title": "RHSA-2022:8126"
+      "href": "https://bugzilla.redhat.com/2082274",
+      "type": "bugzilla",
+      "id": "2082274",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-1706",
@@ -77,10 +77,10 @@
       "title": "CVE-2022-1706"
     },
     {
-      "href": "https://bugzilla.redhat.com/2082274",
-      "type": "bugzilla",
-      "id": "2082274",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:8126",
+      "type": "rhsa",
+      "id": "RHSA-2022:8126",
+      "title": "RHSA-2022:8126"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-8126.html",

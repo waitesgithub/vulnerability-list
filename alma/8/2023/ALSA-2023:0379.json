@@ -12,30 +12,6 @@
     "shortname": "almalinux-8-for-i686-appstream-rpms__8_7_default",
     "packages": [
       {
-        "name": "libXpm",
-        "version": "3.5.12",
-        "release": "9.el8_7",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libXpm-3.5.12-9.el8_7.src.rpm",
-        "filename": "libXpm-3.5.12-9.el8_7.i686.rpm",
-        "sum": "3f1740643bf999eb4e8e767299800c7b1d7e8e6901e8788201b56037854d54ef",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libXpm-devel",
-        "version": "3.5.12",
-        "release": "9.el8_7",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libXpm-3.5.12-9.el8_7.src.rpm",
-        "filename": "libXpm-devel-3.5.12-9.el8_7.i686.rpm",
-        "sum": "aaab6782231a31ce538f1b0a39a9a5d555bec9e970ebc32f8d591b1f5ba3d3d3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libXpm-devel",
         "version": "3.5.12",
         "release": "9.el8_7",
@@ -44,6 +20,18 @@
         "src": "libXpm-3.5.12-9.el8_7.src.rpm",
         "filename": "libXpm-devel-3.5.12-9.el8_7.aarch64.rpm",
         "sum": "2f0543bbdf0a6790c878019d175e637b8b53ce6f75d065298cd9ae3af7f36c8c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libXpm",
+        "version": "3.5.12",
+        "release": "9.el8_7",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libXpm-3.5.12-9.el8_7.src.rpm",
+        "filename": "libXpm-3.5.12-9.el8_7.i686.rpm",
+        "sum": "3f1740643bf999eb4e8e767299800c7b1d7e8e6901e8788201b56037854d54ef",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,22 +52,10 @@
         "version": "3.5.12",
         "release": "9.el8_7",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "ppc64le",
         "src": "libXpm-3.5.12-9.el8_7.src.rpm",
-        "filename": "libXpm-devel-3.5.12-9.el8_7.s390x.rpm",
-        "sum": "af8773b75abf055e7f87e404eb87a2686458722f77068a20cbfa26133830f623",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libXpm",
-        "version": "3.5.12",
-        "release": "9.el8_7",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "libXpm-3.5.12-9.el8_7.src.rpm",
-        "filename": "libXpm-3.5.12-9.el8_7.s390x.rpm",
-        "sum": "f3be09544337336e9f29580a6bd759d63580d15cca329a32dfdf03f6ef36ab9a",
+        "filename": "libXpm-devel-3.5.12-9.el8_7.ppc64le.rpm",
+        "sum": "4ecf78b20300ef0b41a69e45325b6ce8c1f49f91efd9847179234df18d811a1f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -112,10 +88,22 @@
         "version": "3.5.12",
         "release": "9.el8_7",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "i686",
         "src": "libXpm-3.5.12-9.el8_7.src.rpm",
-        "filename": "libXpm-devel-3.5.12-9.el8_7.ppc64le.rpm",
-        "sum": "4ecf78b20300ef0b41a69e45325b6ce8c1f49f91efd9847179234df18d811a1f",
+        "filename": "libXpm-devel-3.5.12-9.el8_7.i686.rpm",
+        "sum": "aaab6782231a31ce538f1b0a39a9a5d555bec9e970ebc32f8d591b1f5ba3d3d3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libXpm-devel",
+        "version": "3.5.12",
+        "release": "9.el8_7",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "libXpm-3.5.12-9.el8_7.src.rpm",
+        "filename": "libXpm-devel-3.5.12-9.el8_7.s390x.rpm",
+        "sum": "af8773b75abf055e7f87e404eb87a2686458722f77068a20cbfa26133830f623",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -130,6 +118,18 @@
         "sum": "bb8dce370874a8adedff68b6f0b2a4f60a9f7192c40393f81a0c653096394ab8",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "libXpm",
+        "version": "3.5.12",
+        "release": "9.el8_7",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "libXpm-3.5.12-9.el8_7.src.rpm",
+        "filename": "libXpm-3.5.12-9.el8_7.s390x.rpm",
+        "sum": "f3be09544337336e9f29580a6bd759d63580d15cca329a32dfdf03f6ef36ab9a",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -137,10 +137,22 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0379",
-      "type": "rhsa",
-      "id": "RHSA-2023:0379",
-      "title": "RHSA-2023:0379"
+      "href": "https://bugzilla.redhat.com/2160092",
+      "type": "bugzilla",
+      "id": "2160092",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2160193",
+      "type": "bugzilla",
+      "id": "2160193",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2160213",
+      "type": "bugzilla",
+      "id": "2160213",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-44617",
@@ -161,22 +173,10 @@
       "title": "CVE-2022-4883"
     },
     {
-      "href": "https://bugzilla.redhat.com/2160092",
-      "type": "bugzilla",
-      "id": "2160092",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2160193",
-      "type": "bugzilla",
-      "id": "2160193",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2160213",
-      "type": "bugzilla",
-      "id": "2160213",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:0379",
+      "type": "rhsa",
+      "id": "RHSA-2023:0379",
+      "title": "RHSA-2023:0379"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2023-0379.html",
@@ -194,7 +194,7 @@
   "title": "Important: libXpm security update",
   "type": "security",
   "updated_date": {
-    "$date": 1674566971000
+    "$date": 1678725405000
   },
   "version": "1"
 }

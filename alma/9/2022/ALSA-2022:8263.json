@@ -8,9 +8,21 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "dpdk-tools",
+        "version": "21.11.2",
+        "release": "1.el9_1",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "dpdk-21.11.2-1.el9_1.src.rpm",
+        "filename": "dpdk-tools-21.11.2-1.el9_1.aarch64.rpm",
+        "sum": "042d3fd7b30a5edbc2951f40dd5a8822d21742ab50baadea8b1e4b984cf48d63",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "dpdk-doc",
         "version": "21.11.2",
@@ -36,6 +48,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "dpdk-devel",
+        "version": "21.11.2",
+        "release": "1.el9_1",
+        "epoch": "2",
+        "arch": "ppc64le",
+        "src": "dpdk-21.11.2-1.el9_1.src.rpm",
+        "filename": "dpdk-devel-21.11.2-1.el9_1.ppc64le.rpm",
+        "sum": "3a2f0fcdc1b94465421d31b71d4db454901b324fb8b86d91acafc9f64938f95a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "dpdk",
         "version": "21.11.2",
         "release": "1.el9_1",
@@ -52,10 +76,10 @@
         "version": "21.11.2",
         "release": "1.el9_1",
         "epoch": "2",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "dpdk-21.11.2-1.el9_1.src.rpm",
-        "filename": "dpdk-devel-21.11.2-1.el9_1.x86_64.rpm",
-        "sum": "61db799c74e45ac1995264ff76d7c7feb031b10eb15c2a55897c2e0c2a1eb9e5",
+        "filename": "dpdk-devel-21.11.2-1.el9_1.aarch64.rpm",
+        "sum": "48fe292cb31d7e88259264a7461329821fc1212f91c04cf0a5fe00614f5a6cc8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,10 +88,10 @@
         "version": "21.11.2",
         "release": "1.el9_1",
         "epoch": "2",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "dpdk-21.11.2-1.el9_1.src.rpm",
-        "filename": "dpdk-devel-21.11.2-1.el9_1.ppc64le.rpm",
-        "sum": "3a2f0fcdc1b94465421d31b71d4db454901b324fb8b86d91acafc9f64938f95a",
+        "filename": "dpdk-devel-21.11.2-1.el9_1.x86_64.rpm",
+        "sum": "61db799c74e45ac1995264ff76d7c7feb031b10eb15c2a55897c2e0c2a1eb9e5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,34 +112,10 @@
         "version": "21.11.2",
         "release": "1.el9_1",
         "epoch": "2",
-        "arch": "ppc64le",
-        "src": "dpdk-21.11.2-1.el9_1.src.rpm",
-        "filename": "dpdk-21.11.2-1.el9_1.ppc64le.rpm",
-        "sum": "975c0528fc93701451e79ddfcee843996a7b6d4ab95165c9414ecae945bde762",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dpdk-tools",
-        "version": "21.11.2",
-        "release": "1.el9_1",
-        "epoch": "2",
         "arch": "aarch64",
         "src": "dpdk-21.11.2-1.el9_1.src.rpm",
-        "filename": "dpdk-tools-21.11.2-1.el9_1.aarch64.rpm",
-        "sum": "042d3fd7b30a5edbc2951f40dd5a8822d21742ab50baadea8b1e4b984cf48d63",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dpdk-devel",
-        "version": "21.11.2",
-        "release": "1.el9_1",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "dpdk-21.11.2-1.el9_1.src.rpm",
-        "filename": "dpdk-devel-21.11.2-1.el9_1.aarch64.rpm",
-        "sum": "48fe292cb31d7e88259264a7461329821fc1212f91c04cf0a5fe00614f5a6cc8",
+        "filename": "dpdk-21.11.2-1.el9_1.aarch64.rpm",
+        "sum": "8d83a5491213cd552b897f5167c3cf078625009630d34e224c573da84ec3d268",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -124,10 +124,10 @@
         "version": "21.11.2",
         "release": "1.el9_1",
         "epoch": "2",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "dpdk-21.11.2-1.el9_1.src.rpm",
-        "filename": "dpdk-21.11.2-1.el9_1.aarch64.rpm",
-        "sum": "8d83a5491213cd552b897f5167c3cf078625009630d34e224c573da84ec3d268",
+        "filename": "dpdk-21.11.2-1.el9_1.ppc64le.rpm",
+        "sum": "975c0528fc93701451e79ddfcee843996a7b6d4ab95165c9414ecae945bde762",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -137,10 +137,22 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8263",
-      "type": "rhsa",
-      "id": "RHSA-2022:8263",
-      "title": "RHSA-2022:8263"
+      "href": "https://bugzilla.redhat.com/2025882",
+      "type": "bugzilla",
+      "id": "2025882",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2099475",
+      "type": "bugzilla",
+      "id": "2099475",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2123549",
+      "type": "bugzilla",
+      "id": "2123549",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2021-3839",
@@ -161,22 +173,10 @@
       "title": "CVE-2022-28199"
     },
     {
-      "href": "https://bugzilla.redhat.com/2025882",
-      "type": "bugzilla",
-      "id": "2025882",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2099475",
-      "type": "bugzilla",
-      "id": "2099475",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2123549",
-      "type": "bugzilla",
-      "id": "2123549",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:8263",
+      "type": "rhsa",
+      "id": "RHSA-2022:8263",
+      "title": "RHSA-2022:8263"
     },
     {
       "href": "https://errata.almalinux.org/9/ALSA-2022-8263.html",

@@ -24,14 +24,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libwebp",
+        "name": "libwebp-devel",
         "version": "1.0.0",
         "release": "8.el8_7",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "s390x",
         "src": "libwebp-1.0.0-8.el8_7.src.rpm",
-        "filename": "libwebp-1.0.0-8.el8_7.i686.rpm",
-        "sum": "c13f168eb4a898045c7876a5d233ae04452461f8971925f8a620dd515dafc5d1",
+        "filename": "libwebp-devel-1.0.0-8.el8_7.s390x.rpm",
+        "sum": "2d74139588799de3854971e376bb595cbe0250147e6b1b0aed1f6e54967b60b4",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -48,26 +48,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libwebp-devel",
+        "name": "libwebp",
         "version": "1.0.0",
         "release": "8.el8_7",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "libwebp-1.0.0-8.el8_7.src.rpm",
-        "filename": "libwebp-devel-1.0.0-8.el8_7.aarch64.rpm",
-        "sum": "c4964cf808cfd5e4570499de558a062e9842d98074568adfb179dbcfd80192f9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp-devel",
-        "version": "1.0.0",
-        "release": "8.el8_7",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "libwebp-1.0.0-8.el8_7.src.rpm",
-        "filename": "libwebp-devel-1.0.0-8.el8_7.s390x.rpm",
-        "sum": "2d74139588799de3854971e376bb595cbe0250147e6b1b0aed1f6e54967b60b4",
+        "filename": "libwebp-1.0.0-8.el8_7.x86_64.rpm",
+        "sum": "7e34819b2c6e169f5b4b87c4cc141a0f0d6ed61ce49fd33ea3c49062882a51c0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,22 +76,10 @@
         "version": "1.0.0",
         "release": "8.el8_7",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "libwebp-1.0.0-8.el8_7.src.rpm",
-        "filename": "libwebp-1.0.0-8.el8_7.x86_64.rpm",
-        "sum": "7e34819b2c6e169f5b4b87c4cc141a0f0d6ed61ce49fd33ea3c49062882a51c0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp-devel",
-        "version": "1.0.0",
-        "release": "8.el8_7",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libwebp-1.0.0-8.el8_7.src.rpm",
-        "filename": "libwebp-devel-1.0.0-8.el8_7.x86_64.rpm",
-        "sum": "fa1eb37361bd7f98f5281480ee16bed57e160080b66916942b159512d098f1dc",
+        "filename": "libwebp-1.0.0-8.el8_7.ppc64le.rpm",
+        "sum": "bc57c39468803a82087488b11eeda390f84077ca95fe5ab346e40dcfbe2cbef9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -112,10 +88,22 @@
         "version": "1.0.0",
         "release": "8.el8_7",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "i686",
         "src": "libwebp-1.0.0-8.el8_7.src.rpm",
-        "filename": "libwebp-1.0.0-8.el8_7.ppc64le.rpm",
-        "sum": "bc57c39468803a82087488b11eeda390f84077ca95fe5ab346e40dcfbe2cbef9",
+        "filename": "libwebp-1.0.0-8.el8_7.i686.rpm",
+        "sum": "c13f168eb4a898045c7876a5d233ae04452461f8971925f8a620dd515dafc5d1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp-devel",
+        "version": "1.0.0",
+        "release": "8.el8_7",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libwebp-1.0.0-8.el8_7.src.rpm",
+        "filename": "libwebp-devel-1.0.0-8.el8_7.aarch64.rpm",
+        "sum": "c4964cf808cfd5e4570499de558a062e9842d98074568adfb179dbcfd80192f9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -130,6 +118,18 @@
         "sum": "e6d12d40226e3cb5190f0fbb57e256bff94fbfc3d91bc17b004cdd82b6901631",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp-devel",
+        "version": "1.0.0",
+        "release": "8.el8_7",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libwebp-1.0.0-8.el8_7.src.rpm",
+        "filename": "libwebp-devel-1.0.0-8.el8_7.x86_64.rpm",
+        "sum": "fa1eb37361bd7f98f5281480ee16bed57e160080b66916942b159512d098f1dc",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -137,10 +137,10 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:2076",
-      "type": "rhsa",
-      "id": "RHSA-2023:2076",
-      "title": "RHSA-2023:2076"
+      "href": "https://bugzilla.redhat.com/2186102",
+      "type": "bugzilla",
+      "id": "2186102",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2023-1999",
@@ -149,10 +149,10 @@
       "title": "CVE-2023-1999"
     },
     {
-      "href": "https://bugzilla.redhat.com/2186102",
-      "type": "bugzilla",
-      "id": "2186102",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2023:2076",
+      "type": "rhsa",
+      "id": "RHSA-2023:2076",
+      "title": "RHSA-2023:2076"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2023-2076.html",

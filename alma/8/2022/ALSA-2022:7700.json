@@ -16,18 +16,6 @@
         "version": "1.0.3",
         "release": "11.el8",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "gdisk-1.0.3-11.el8.src.rpm",
-        "filename": "gdisk-1.0.3-11.el8.x86_64.rpm",
-        "sum": "d516fdd8f05efa0adfa10ab7a785784a4def9eaf5f308a286951ceacf8555590",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gdisk",
-        "version": "1.0.3",
-        "release": "11.el8",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "gdisk-1.0.3-11.el8.src.rpm",
         "filename": "gdisk-1.0.3-11.el8.aarch64.rpm",
@@ -58,6 +46,18 @@
         "sum": "b1740601eebef6785d49d595360c4fe87df869d2c12a9163573ede4b7c9c21a1",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "gdisk",
+        "version": "1.0.3",
+        "release": "11.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gdisk-1.0.3-11.el8.src.rpm",
+        "filename": "gdisk-1.0.3-11.el8.x86_64.rpm",
+        "sum": "d516fdd8f05efa0adfa10ab7a785784a4def9eaf5f308a286951ceacf8555590",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -65,10 +65,16 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7700",
-      "type": "rhsa",
-      "id": "RHSA-2022:7700",
-      "title": "RHSA-2022:7700"
+      "href": "https://bugzilla.redhat.com/2051939",
+      "type": "bugzilla",
+      "id": "2051939",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2051943",
+      "type": "bugzilla",
+      "id": "2051943",
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2020-0256",
@@ -83,16 +89,10 @@
       "title": "CVE-2021-0308"
     },
     {
-      "href": "https://bugzilla.redhat.com/2051939",
-      "type": "bugzilla",
-      "id": "2051939",
-      "title": ""
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2051943",
-      "type": "bugzilla",
-      "id": "2051943",
-      "title": ""
+      "href": "https://access.redhat.com/errata/RHSA-2022:7700",
+      "type": "rhsa",
+      "id": "RHSA-2022:7700",
+      "title": "RHSA-2022:7700"
     },
     {
       "href": "https://errata.almalinux.org/8/ALSA-2022-7700.html",
