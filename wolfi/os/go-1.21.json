@@ -1,0 +1,16 @@
+{
+  "name": "go-1.21",
+  "secfixes": {
+    "0": [
+      "CVE-2020-29509",
+      "CVE-2020-29511"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

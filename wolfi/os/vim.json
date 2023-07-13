@@ -14,7 +14,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.wolfi.dev",
   "reponame": "os"
