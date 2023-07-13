@@ -39,12 +39,12 @@
         "Value": "CVE-2020-35923"
       }
     ],
-    "Description": "An issue was discovered in the ordered-float crate before 1.1.1 and 2.x before 2.0.1 for Rust. After using an assignment operators such as `NotNan::add_assign`, `NotNan::mul_assign`, etc., it was possible for the resulting `NotNan` value to contain a `NaN`. This could cause undefined behavior in safe code, because the safe `NotNan::cmp` method contains internal unsafe code that assumes the value is never `NaN`. (It could also cause undefined behavior in third-party unsafe code that makes the same assumption, as well as logic errors in safe code.)",
+    "Description": "After using an assignment operators such as NotNan::add_assign, NotNan::mul_assign, etc., it was possible for the resulting NotNan value to contain a NaN. This could cause undefined behavior in safe code, because the safe NotNan::cmp method contains internal unsafe code that assumes the value is never NaN. (It could also cause undefined behavior in third-party unsafe code that makes the same assumption, as well as logic errors in safe code.)\n\nThis was mitigated starting in version 0.4.0, by panicking if the assigned value is NaN. However, in affected versions from 0.4.0 onward, code that uses the NotNan value during unwinding, or that continues after catching the panic, could still observe the invalid value and trigger undefined behavior.\n\nThe flaw is fully corrected in versions 1.1.1 and 2.0.1, by ensuring that the assignment operators panic without modifying the operand, if the result would be NaN.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:50:30Z",
     "Severity": "MODERATE",
     "Summary": "ordered_float:NotNan may contain NaN after panic in assignment operators",
-    "UpdatedAt": "2023-03-29T19:59:57Z",
+    "UpdatedAt": "2023-06-13T19:52:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,

@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2022-03-11T20:32:38Z",
   "Package": {
     "Ecosystem": "GO",
@@ -20,6 +20,9 @@
         "Url": "https://huntr.dev/bounties/8d221f92-b2b1-4878-bc31-66ff272e5ceb"
       },
       {
+        "Url": "https://github.com/go-gitea/gitea/commit/3e5c844a7758fa29126d201f4f98bf21bca6d314"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-jr9c-h74f-2v28"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2022-0905"
       }
     ],
-    "Description": "Gitea 1.16.3 and prior is vulnerable to improper authorization. A patch is available and is anticipated to be part of the 1.16.4 release.",
+    "Description": "Gitea 1.16.3 and prior is vulnerable to missing authorization. A patch is available as part of the 1.16.4 release.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-03-11T00:02:35Z",
-    "Severity": "MODERATE",
-    "Summary": "Improper Authorization in Gitea",
-    "UpdatedAt": "2023-01-27T05:00:39Z",
+    "Severity": "HIGH",
+    "Summary": "Gitea Missing Authorization vulnerability",
+    "UpdatedAt": "2023-06-30T20:12:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.1,

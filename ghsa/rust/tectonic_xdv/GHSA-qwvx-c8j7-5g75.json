@@ -20,6 +20,12 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0112.html"
       },
       {
+        "Url": "https://github.com/tectonic-typesetting/tectonic/issues/752"
+      },
+      {
+        "Url": "https://github.com/tectonic-typesetting/tectonic/commit/cdff034e6d93cdfdafd13d8c6956e22fa5a57b79"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-qwvx-c8j7-5g75"
       }
     ],
@@ -33,12 +39,12 @@
         "Value": "CVE-2021-45703"
       }
     ],
-    "Description": "An issue was discovered in the tectonic_xdv crate before 0.1.12 for Rust. XdvParser::\u003cT\u003e::process may read from uninitialized memory locations.",
+    "Description": "Affected versions of this crate passes an uninitialized buffer to a user-provided Read implementation.\n\nArbitrary Read implementations can read from the uninitialized buffer (memory exposure) and also can return incorrect number of bytes written to the buffer. Reading from uninitialized memory produces undefined values that can quickly invoke undefined behavior.\n\nThe problem was fixed in commit `cdff034` by zero-initializing the buffer before passing it to a user-provided Read implementation.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:09:19Z",
     "Severity": "CRITICAL",
     "Summary": "Use of Uninitialized Resource in tectonic_xdv",
-    "UpdatedAt": "2023-02-03T05:03:37Z",
+    "UpdatedAt": "2023-06-13T22:01:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

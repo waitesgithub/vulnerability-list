@@ -1,6 +1,6 @@
 {
   "Severity": "LOW",
-  "UpdatedAt": "2022-11-23T15:26:44Z",
+  "UpdatedAt": "2023-07-10T19:08:08Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "sweetalert2"
@@ -31,7 +31,7 @@
     "PublishedAt": "2022-11-23T15:26:43Z",
     "Severity": "LOW",
     "Summary": "sweetalert2 v11.4.9 and above contains hidden functionality",
-    "UpdatedAt": "2023-01-11T05:03:34Z",
+    "UpdatedAt": "2023-07-10T19:08:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
@@ -43,7 +43,7 @@
       "FirstPatchedVersion": {
         "Identifier": ""
       },
-      "VulnerableVersionRange": "\u003e= 11.4.9"
+      "VulnerableVersionRange": "\u003e= 11.4.9, \u003c 11.6.14"
     }
   ]
 }

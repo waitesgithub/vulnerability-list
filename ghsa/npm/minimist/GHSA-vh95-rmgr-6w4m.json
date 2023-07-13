@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2020-04-03T21:42:10Z",
+  "UpdatedAt": "2023-07-07T18:36:02Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "minimist"
@@ -14,22 +14,25 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7598"
       },
       {
-        "Url": "https://github.com/substack/minimist/commit/38a4d1caead72ef99e824bb420a2528eec03d9ab"
-      },
-      {
-        "Url": "https://github.com/substack/minimist/commit/63e7ed05aa4b1889ec2f3b196426db4500cbda94"
-      },
-      {
         "Url": "https://snyk.io/vuln/SNYK-JS-MINIMIST-559764"
       },
       {
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2020-06/msg00024.html"
       },
       {
-        "Url": "https://github.com/substack/minimist/commit/4cf1354839cb972e38496d35e12f806eea92c11f#diff-a1e0ee62c91705696ddb71aa30ad4f95"
+        "Url": "https://www.npmjs.com/advisories/1179"
       },
       {
-        "Url": "https://www.npmjs.com/advisories/1179"
+        "Url": "https://github.com/minimistjs/minimist/commit/10bd4cdf49d9686d48214be9d579a9cdfda37c68"
+      },
+      {
+        "Url": "https://github.com/minimistjs/minimist/commit/38a4d1caead72ef99e824bb420a2528eec03d9ab"
+      },
+      {
+        "Url": "https://github.com/minimistjs/minimist/commit/4cf1354839cb972e38496d35e12f806eea92c11f#diff-a1e0ee62c91705696ddb71aa30ad4f95"
+      },
+      {
+        "Url": "https://github.com/minimistjs/minimist/commit/63e7ed05aa4b1889ec2f3b196426db4500cbda94"
       },
       {
         "Url": "https://github.com/advisories/GHSA-vh95-rmgr-6w4m"
@@ -50,7 +53,7 @@
     "PublishedAt": "2020-04-03T21:48:32Z",
     "Severity": "MODERATE",
     "Summary": "Prototype Pollution in minimist",
-    "UpdatedAt": "2023-02-01T05:02:57Z",
+    "UpdatedAt": "2023-07-07T18:36:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.6,

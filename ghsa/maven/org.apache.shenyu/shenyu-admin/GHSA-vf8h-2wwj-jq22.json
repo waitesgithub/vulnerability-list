@@ -33,12 +33,12 @@
         "Value": "CVE-2022-42735"
       }
     ],
-    "Description": "Improper Privilege Management vulnerability in Apache Software Foundation Apache ShenYu. ShenYu Admin allows low-privilege low-level administrators create users with higher privileges than their own. This issue affects Apache ShenYu: 2.5.0. Upgrade to Apache ShenYu 2.5.1 or apply patch https://github.com/apache/shenyu/pull/3958 https://github.com/apache/shenyu/pull/3958.",
+    "Description": "Improper Privilege Management vulnerability in Apache Software Foundation Apache ShenYu. ShenYu Admin allows low-privilege low-level administrators create users with higher privileges than their own. This issue affects Apache ShenYu: 2.5.0. Upgrade to Apache ShenYu 2.5.1 or apply patch https://github.com/apache/shenyu/pull/3958.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-02-15T12:30:26Z",
     "Severity": "HIGH",
     "Summary": "Privilege escalation in Apache ShenYu",
-    "UpdatedAt": "2023-02-24T16:07:44Z",
+    "UpdatedAt": "2023-06-27T21:05:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

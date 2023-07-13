@@ -33,12 +33,12 @@
         "Value": "CVE-2022-0277"
       }
     ],
-    "Description": "Improper Access Control in Packagist microweber/microweber prior to 1.2.11.",
+    "Description": "In Microweber prior to 1.2.11, a non-admin user is able to access other users' sensitive information.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-21T18:06:16Z",
     "Severity": "MODERATE",
-    "Summary": "Improper Access Control in microweber",
-    "UpdatedAt": "2023-02-03T05:05:15Z",
+    "Summary": "Microweber Incorrect Permission Assignment for Critical Resource vulnerability",
+    "UpdatedAt": "2023-07-09T05:01:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

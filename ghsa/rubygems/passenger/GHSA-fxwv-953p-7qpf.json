@@ -29,9 +29,6 @@
         "Url": "https://lists.debian.org/debian-lts-announce/2018/06/msg00007.html"
       },
       {
-        "Url": "https://puppet.com/security/cve/passenger-dec-2015-security-fixes"
-      },
-      {
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2015-12/msg00024.html"
       },
       {
@@ -39,6 +36,12 @@
       },
       {
         "Url": "http://www.openwall.com/lists/oss-security/2015/12/07/2"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/passenger/CVE-2015-7519.yml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20220327073056/https://www.puppet.com/security/cve/passenger-dec-2015-security-fixes"
       }
     ],
     "Identifiers": [
@@ -51,12 +54,12 @@
         "Value": "CVE-2015-7519"
       }
     ],
-    "Description": "agent/Core/Controller/SendRequest.cpp in Phusion Passenger before 4.0.60 and 5.0.x before 5.0.22, when used in Apache integration mode or in standalone mode without a filtering proxy, allows remote attackers to spoof headers passed to applications by using an _ (underscore) character instead of a - (dash) character in an HTTP header, as demonstrated by an X_User header.",
+    "Description": "`agent/Core/Controller/SendRequest.cpp` in Phusion Passenger before 4.0.60 and 5.0.x before 5.0.22, when used in Apache integration mode or in standalone mode without a filtering proxy, allows remote attackers to spoof headers passed to applications by using an `_` (underscore) character instead of a `-` (dash) character in an HTTP header, as demonstrated by an `X_User` header.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-10-10T17:29:13Z",
     "Severity": "LOW",
-    "Summary": "Phusion Passenger allows remote attackers to spoof headers passed to applications by using an _ (underscore) character instead of a - (dash) character in an HTTP header",
-    "UpdatedAt": "2023-01-09T05:02:53Z",
+    "Summary": "Phusion Passenger allows remote attackers to spoof headers",
+    "UpdatedAt": "2023-07-05T18:39:03Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 3.7,

@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-08-02T18:09:13Z",
+  "UpdatedAt": "2023-06-09T21:09:15Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rdoc"
@@ -53,7 +53,7 @@
     "PublishedAt": "2021-09-01T18:53:15Z",
     "Severity": "HIGH",
     "Summary": "Arbitrary Code Execution in Rdoc",
-    "UpdatedAt": "2023-01-27T05:02:32Z",
+    "UpdatedAt": "2023-06-09T21:09:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7,
@@ -65,7 +65,19 @@
       "FirstPatchedVersion": {
         "Identifier": "6.3.1"
       },
-      "VulnerableVersionRange": "\u003e= 3.11, \u003c 6.3.1"
+      "VulnerableVersionRange": "\u003e= 6.3.0, \u003c 6.3.1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "6.2.1.1"
+      },
+      "VulnerableVersionRange": "\u003e= 6.2.0, \u003c 6.2.1.1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "6.1.2.1"
+      },
+      "VulnerableVersionRange": "\u003e= 3.11, \u003c 6.1.2.1"
     }
   ]
 }

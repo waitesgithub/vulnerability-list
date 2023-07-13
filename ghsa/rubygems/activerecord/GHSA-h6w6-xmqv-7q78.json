@@ -20,9 +20,6 @@
         "Url": "https://bugzilla.redhat.com/show_bug.cgi?id=731438"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-h6w6-xmqv-7q78"
-      },
-      {
         "Url": "http://groups.google.com/group/rubyonrails-security/msg/b1a85d36b0f9dd30?dmode=source\u0026output=gplain"
       },
       {
@@ -51,6 +48,12 @@
       },
       {
         "Url": "http://www.openwall.com/lists/oss-security/2011/08/22/5"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activerecord/CVE-2011-2930.yml"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-h6w6-xmqv-7q78"
       }
     ],
     "Identifiers": [
@@ -63,12 +66,12 @@
         "Value": "CVE-2011-2930"
       }
     ],
-    "Description": "Multiple SQL injection vulnerabilities in the quote_table_name method in the ActiveRecord adapters in activerecord/lib/active_record/connection_adapters/ in Ruby on Rails before 2.3.13, 3.0.x before 3.0.10, and 3.1.x before 3.1.0.rc5 allow remote attackers to execute arbitrary SQL commands via a crafted column name.",
+    "Description": "Multiple SQL injection vulnerabilities in the `quote_table_name` method in the ActiveRecord adapters in `activerecord/lib/active_record/connection_adapters/` in Ruby on Rails before 2.3.13, 3.0.x before 3.0.10, and 3.1.x before 3.1.0.rc5 allow remote attackers to execute arbitrary SQL commands via a crafted column name.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects activerecord",
-    "UpdatedAt": "2023-01-09T05:02:55Z",
+    "Summary": "activerecord vulnerable to SQL Injection",
+    "UpdatedAt": "2023-05-12T17:14:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

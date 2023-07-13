@@ -21,6 +21,9 @@
       },
       {
         "Url": "http://www.vapid.dhs.org/advisories/paratrooper-api-key-pingdom.html"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/paratrooper-pingdom/CVE-2014-1233.yml"
       }
     ],
     "Identifiers": [
@@ -33,12 +36,12 @@
         "Value": "CVE-2014-1233"
       }
     ],
-    "Description": "The paratrooper-pingdom gem 1.0.0 for Ruby allows local users to obtain the App-Key, username, and password values by listing the curl process.",
+    "Description": "The paratrooper-pingdom gem 1.0.0 for Ruby allows local users to obtain the App-Key, username, and password values by listing the curl process.\n\n### Vulnerable Code:\n\nFrom: `paratrooper-pingdom-1.0.0/lib/paratrooper-pingdom.rb`\n\n```ruby\ndef setup(options = {})\n  %x[curl https://api.pingdom.com/api/2.0/checks -X PUT -d \"paused=true\" -H \"App-Key: #{app_key}\" -u \"#{username}:#{password}\"]        \nend\n\ndef teardown(options = {})\n  %x[curl https://api.pingdom.com/api/2.0/checks -X PUT -d \"paused=false\" -H \"App-Key: #{app_key}\" -u \"#{username}:#{password}\"]        \nend\n```\n\nA malicious user could monitor the process tree to steal the API key, username and password for the API login.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "LOW",
-    "Summary": "Low severity vulnerability that affects paratrooper-pingdom",
-    "UpdatedAt": "2023-01-09T05:03:16Z",
+    "Summary": "Local API Login Credentials Disclosure in paratrooper-pingdom",
+    "UpdatedAt": "2023-07-05T18:46:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

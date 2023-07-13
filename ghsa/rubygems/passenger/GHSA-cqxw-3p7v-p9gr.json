@@ -21,6 +21,12 @@
       },
       {
         "Url": "https://github.com/phusion/passenger/blob/stable-5.1/CHANGELOG"
+      },
+      {
+        "Url": "https://blog.phusion.nl/2017/01/10/passenger-5-1-1/"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/passenger/CVE-2016-10345.yml"
       }
     ],
     "Identifiers": [
@@ -38,7 +44,7 @@
     "PublishedAt": "2018-08-21T17:08:03Z",
     "Severity": "HIGH",
     "Summary": "Phusion Passenger uses a known /tmp filename",
-    "UpdatedAt": "2023-01-09T05:03:01Z",
+    "UpdatedAt": "2023-06-09T20:23:04Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.8,

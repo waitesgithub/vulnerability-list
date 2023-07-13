@@ -20,6 +20,9 @@
         "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/airbrake-ruby/CVE-2019-16060.yml"
       },
       {
+        "Url": "https://github.com/airbrake/airbrake-ruby/pull/469/commits/d29925e7838031bf7dea7016b22de52532503796"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-2p82-v77v-mppr"
       }
     ],
@@ -37,8 +40,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-09-11T23:05:57Z",
     "Severity": "CRITICAL",
-    "Summary": "Airbrake",
-    "UpdatedAt": "2023-02-01T05:02:41Z",
+    "Summary": "Airbrake keys not being filtered",
+    "UpdatedAt": "2023-07-05T20:04:42Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

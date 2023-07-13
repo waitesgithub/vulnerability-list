@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-01-05T21:16:31Z",
+  "UpdatedAt": "2023-06-13T20:21:59Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "rusqlite"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0128.html"
+      },
+      {
+        "Url": "https://github.com/rusqlite/rusqlite/issues/1048"
       },
       {
         "Url": "https://github.com/advisories/GHSA-cm8g-544f-p9x9"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-01-06T22:03:16Z",
     "Severity": "HIGH",
     "Summary": "Use After Free in rusqlite",
-    "UpdatedAt": "2023-02-03T05:03:24Z",
+    "UpdatedAt": "2023-06-13T20:21:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

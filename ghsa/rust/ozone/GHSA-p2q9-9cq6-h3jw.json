@@ -30,12 +30,12 @@
         "Value": "CVE-2020-35877"
       }
     ],
-    "Description": "An issue was discovered in the ozone crate through 2020-07-04 for Rust. Memory safety is violated because of out-of-bounds access.",
+    "Description": "An issue was discovered in the ozone crate through version 0.1.0 for Rust. Memory safety is violated because of out-of-bounds access.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:47:46Z",
     "Severity": "CRITICAL",
     "Summary": "Out of bounds read in Ozone",
-    "UpdatedAt": "2023-02-01T05:06:04Z",
+    "UpdatedAt": "2023-06-13T20:11:35Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

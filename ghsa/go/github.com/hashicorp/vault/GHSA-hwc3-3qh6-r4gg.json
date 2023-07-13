@@ -17,6 +17,9 @@
         "Url": "https://discuss.hashicorp.com/t/hcsec-2023-11-vault-s-pki-issuer-endpoint-did-not-correctly-authorize-access-to-issuer-metadata/52079/1"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230526-0008/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-hwc3-3qh6-r4gg"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2023-03-30T03:30:38Z",
     "Severity": "MODERATE",
     "Summary": "HashiCorp Vault's PKI mount vulnerable to denial of service",
-    "UpdatedAt": "2023-04-07T19:22:56Z",
+    "UpdatedAt": "2023-05-26T21:48:52Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

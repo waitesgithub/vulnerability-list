@@ -33,6 +33,9 @@
       },
       {
         "Url": "http://openwall.com/lists/oss-security/2014/01/30/3"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/passenger/CVE-2014-1831.yml"
       }
     ],
     "Identifiers": [
@@ -45,12 +48,12 @@
         "Value": "CVE-2014-1831"
       }
     ],
-    "Description": "Phusion Passenger before 4.0.38 allows local users to write to certain files and directories via a symlink attack on (1) control_process.pid or a (2) generation-* file.",
+    "Description": "Phusion Passenger before 4.0.38 allows local users to write to certain files and directories via a symlink attack on \n1. `control_process.pid` or \n2. a generation-* file.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-10-10T17:29:20Z",
     "Severity": "LOW",
-    "Summary": "Low severity vulnerability that affects passenger",
-    "UpdatedAt": "2023-01-09T05:03:00Z",
+    "Summary": "Insecure use of temporary files in passenger",
+    "UpdatedAt": "2023-07-05T18:49:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

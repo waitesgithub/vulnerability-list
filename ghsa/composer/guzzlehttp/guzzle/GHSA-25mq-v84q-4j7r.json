@@ -32,6 +32,9 @@
         "Url": "https://www.debian.org/security/2022/dsa-5246"
       },
       {
+        "Url": "https://security.gentoo.org/glsa/202305-24"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-25mq-v84q-4j7r"
       }
     ],
@@ -50,7 +53,7 @@
     "PublishedAt": "2022-06-21T16:57:10Z",
     "Severity": "HIGH",
     "Summary": "CURLOPT_HTTPAUTH option not cleared on change of origin",
-    "UpdatedAt": "2023-01-29T05:00:53Z",
+    "UpdatedAt": "2023-05-22T20:28:04Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.7,

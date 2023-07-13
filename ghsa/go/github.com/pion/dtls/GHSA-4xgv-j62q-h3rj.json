@@ -33,8 +33,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-02-07T18:36:47Z",
     "Severity": "MODERATE",
-    "Summary": "Pion DTLS is vulnerable to panic via Hello Verify Request unmarshal",
-    "UpdatedAt": "2023-04-04T21:43:13Z",
+    "Summary": "Panic during unmarshal of Hello Verify Request in github.com/pion/dtls/v2",
+    "UpdatedAt": "2023-06-13T23:50:40Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,

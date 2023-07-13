@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-02-09T20:02:50Z",
+  "UpdatedAt": "2023-06-13T23:49:44Z",
   "Package": {
     "Ecosystem": "GO",
     "Name": "github.com/rancher/wrangler"
@@ -59,7 +59,7 @@
     "PublishedAt": "2023-01-25T19:40:43Z",
     "Severity": "HIGH",
     "Summary": "Command injection in Git package in Wrangler",
-    "UpdatedAt": "2023-04-19T19:39:44Z",
+    "UpdatedAt": "2023-06-13T23:49:44Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -67,6 +67,18 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.8.5-security1"
+      },
+      "VulnerableVersionRange": "\u003e= 0.8.0, \u003c 0.8.5-security1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.7.4-security1"
+      },
+      "VulnerableVersionRange": "\u003c 0.7.4-security1"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "1.0.1"
@@ -78,18 +90,6 @@
         "Identifier": "0.8.11"
       },
       "VulnerableVersionRange": "\u003e= 0.8.6, \u003c 0.8.11"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.8.5-security1"
-      },
-      "VulnerableVersionRange": "\u003e= 0.8.0, \u003c= 0.8.4"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.7.4-security1"
-      },
-      "VulnerableVersionRange": "\u003c= 0.7.3"
     }
   ]
 }

@@ -42,12 +42,12 @@
         "Value": "CVE-2020-8185"
       }
     ],
-    "Description": "There is a vulnerability in versions of Rails prior to 6.0.3.2 that allowed\nan untrusted user to run any pending migrations on a Rails app running in\nproduction.\n\nThis vulnerability has been assigned the CVE identifier CVE-2020-8185.\n\nVersions Affected:  6.0.0 \u003c rails \u003c 6.0.3.2\nNot affected:       Applications with `config.action_dispatch.show_exceptions = false` (this is not a default setting in production)\nFixed Versions:     rails \u003e= 6.0.3.2\n\nImpact\n------\n\nUsing this issue, an attacker would be able to execute any migrations that\nare pending for a Rails app running in production mode. It is important to\nnote that an attacker is limited to running migrations the application\ndeveloper has already defined in their application and ones that have not\nalready ran.\n\nWorkarounds\n-----------\n\nUntil such time as the patch can be applied, application developers should\ndisable the ActionDispatch middleware in their production environment via\na line such as this one in their config/environment/production.rb:\n\n`config.middleware.delete ActionDispatch::ActionableExceptions`",
+    "Description": "There is a vulnerability in versions of Rails prior to 6.0.3.2 that allowed an untrusted user to run any pending migrations on a Rails app running in production.\n\nThis vulnerability has been assigned the CVE identifier CVE-2020-8185.\n\nVersions Affected:  6.0.0 \u003c rails \u003c 6.0.3.2\nNot affected:       Applications with `config.action_dispatch.show_exceptions = false` (this is not a default setting in production)\nFixed Versions:     rails \u003e= 6.0.3.2\n\nImpact\n------\n\nUsing this issue, an attacker would be able to execute any migrations that are pending for a Rails app running in production mode. It is important to note that an attacker is limited to running migrations the application developer has already defined in their application and ones that have not already run.\n\nWorkarounds\n-----------\n\nUntil such time as the patch can be applied, application developers should disable the ActionDispatch middleware in their production environment via a line such as this one in their config/environment/production.rb:\n\n`config.middleware.delete ActionDispatch::ActionableExceptions`",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-06-24T17:40:33Z",
     "Severity": "MODERATE",
     "Summary": "Untrusted users can run pending migrations in production in Rails",
-    "UpdatedAt": "2023-02-01T05:04:14Z",
+    "UpdatedAt": "2023-07-05T20:24:21Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

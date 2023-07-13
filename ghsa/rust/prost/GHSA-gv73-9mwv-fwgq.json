@@ -36,12 +36,12 @@
         "Value": "CVE-2020-35858"
       }
     ],
-    "Description": "An issue was discovered in the prost crate before 0.6.1 for Rust. There is stack consumption via a crafted message, causing a denial of service (e.g., x86) or possibly remote code execution (e.g., ARM).",
+    "Description": "Affected versions of this crate contained a bug in which decoding untrusted input could overflow the stack. On architectures with stack probes (like x86), this can be used for denial of service attacks, while on architectures without stack probes (like ARM) overflowing the stack is unsound and can result in potential memory corruption (or even RCE).",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:46:11Z",
     "Severity": "CRITICAL",
     "Summary": "Out of bounds write in prost",
-    "UpdatedAt": "2023-04-04T21:46:51Z",
+    "UpdatedAt": "2023-06-13T20:33:11Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

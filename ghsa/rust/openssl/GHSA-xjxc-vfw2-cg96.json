@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T21:24:24Z",
+  "UpdatedAt": "2023-06-13T19:56:27Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "openssl"
@@ -38,7 +38,7 @@
     "PublishedAt": "2021-08-25T20:43:45Z",
     "Severity": "CRITICAL",
     "Summary": "Use after free in openssl",
-    "UpdatedAt": "2023-01-11T05:05:46Z",
+    "UpdatedAt": "2023-06-13T19:56:27Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.10.9"
       },
-      "VulnerableVersionRange": "\u003c 0.10.9"
+      "VulnerableVersionRange": "\u003e= 0.10.8, \u003c 0.10.9"
     }
   ]
 }

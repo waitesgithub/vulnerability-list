@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-08-19T20:51:29Z",
+  "UpdatedAt": "2023-06-13T20:05:18Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "multihash"
@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35909"
       }
     ],
-    "Description": "An issue was discovered in the multihash crate before 0.11.3 for Rust. The from_slice parsing code can panic via unsanitized data from a network server.",
+    "Description": "In versions prior 0.11.3 it's possible to make from_slice panic by feeding it certain malformed input. It's never documented that from_slice (and from_bytes which wraps it) can panic, and its' return type (Result\u003cSelf, DecodeError\u003e) suggests otherwise. In practice, from_slice/from_bytes is frequently used in networking code and is being called with unsanitized data from untrusted sources. This can allow attackers to cause DoS by causing an unexpected panic in the network client's code..",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:49:41Z",
     "Severity": "HIGH",
     "Summary": "Unexpected panic in multihash",
-    "UpdatedAt": "2023-01-11T05:05:31Z",
+    "UpdatedAt": "2023-06-13T20:05:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

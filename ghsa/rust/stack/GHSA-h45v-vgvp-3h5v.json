@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35895"
       }
     ],
-    "Description": "An issue was discovered in the stack crate before 0.3.1 for Rust. ArrayVec has an out-of-bounds write via element insertion.",
+    "Description": "ArrayVec::insert allows insertion of an element into the array object into the specified index. Due to a missing check on the upperbound of this index, it is possible to write out of bounds.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:49:13Z",
     "Severity": "CRITICAL",
     "Summary": "Out-of-bounds write in stack",
-    "UpdatedAt": "2023-01-27T05:00:32Z",
+    "UpdatedAt": "2023-06-13T20:54:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

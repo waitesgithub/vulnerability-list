@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-05-17T18:47:01Z",
+  "UpdatedAt": "2023-05-22T18:12:25Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "squirrelly"
@@ -17,7 +17,13 @@
         "Url": "https://securitylab.github.com/advisories/GHSL-2021-023-squirrelly/"
       },
       {
-        "Url": "https://www.npmjs.com/package/squirrelly"
+        "Url": "https://github.com/squirrellyjs/squirrelly/pull/254"
+      },
+      {
+        "Url": "https://github.com/squirrellyjs/squirrelly/commit/c12418a026f73df645ba927fd29358efe02fed1e"
+      },
+      {
+        "Url": "https://github.com/squirrellyjs/squirrelly/commit/dca7a1e7ee91d8a6ffffb655f3f15647486db9da"
       },
       {
         "Url": "https://github.com/advisories/GHSA-q8j6-pwqx-pm96"
@@ -33,12 +39,12 @@
         "Value": "CVE-2021-32819"
       }
     ],
-    "Description": "Squirrelly is a template engine implemented in JavaScript that works out of the box with ExpressJS. Squirrelly mixes pure template data with engine configuration options through the Express render API. By overwriting internal configuration options remote code execution may be triggered in downstream applications. There is currently no fix for these issues as of the publication of this CVE. The latest version of squirrelly is currently 8.0.8. For complete details refer to the referenced GHSL-2021-023.",
+    "Description": "Squirrelly is a template engine implemented in JavaScript that works out of the box with ExpressJS. Squirrelly mixes pure template data with engine configuration options through the Express render API. By overwriting internal configuration options remote code execution may be triggered in downstream applications. Version 9.0.0 has a fix for this issue. For complete details refer to the referenced GHSL-2021-023.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-05-17T20:58:02Z",
     "Severity": "HIGH",
     "Summary": "Insecure template handling in Squirrelly",
-    "UpdatedAt": "2023-02-01T05:05:33Z",
+    "UpdatedAt": "2023-05-22T18:12:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8,
@@ -48,7 +54,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "9.0.0"
       },
       "VulnerableVersionRange": "\u003c= 8.0.8"
     }

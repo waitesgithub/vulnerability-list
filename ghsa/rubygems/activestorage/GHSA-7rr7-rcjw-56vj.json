@@ -33,12 +33,12 @@
         "Value": "CVE-2018-16477"
       }
     ],
-    "Description": "A bypass vulnerability in Active Storage \u003e= 5.2.0 for Google Cloud Storage and Disk services allow an attacker to modify the `content-disposition` and `content-type` parameters which can be used in with HTML files and have them executed inline. Additionally, if combined with other techniques such as cookie bombing and specially crafted AppCache manifests, an attacker can gain access to private signed URLs within a specific storage path.",
+    "Description": "A bypass vulnerability in Active Storage \u003e= 5.2.0 for Google Cloud Storage and Disk services allow an attacker to modify the `content-disposition` and `content-type` parameters which can be used in with HTML files and have them executed inline. Additionally, if combined with other techniques such as cookie bombing and specially crafted AppCache manifests, an attacker can gain access to private signed URLs within a specific storage path.\n\nVulnerable apps are those using either GCS or the Disk service in production. Other storage services such as S3 or Azure aren't affected.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-12-05T17:17:02Z",
     "Severity": "MODERATE",
     "Summary": "Exposure of Sensitive Information to an Unauthorized Actor in activestorage",
-    "UpdatedAt": "2023-01-09T05:03:45Z",
+    "UpdatedAt": "2023-07-05T19:08:31Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

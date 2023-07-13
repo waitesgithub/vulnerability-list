@@ -1,6 +1,6 @@
 {
   "Severity": "LOW",
-  "UpdatedAt": "2023-04-18T22:19:59Z",
+  "UpdatedAt": "2023-06-13T22:44:09Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.eclipse.jetty:jetty-server"
@@ -29,6 +29,12 @@
         "Url": "https://www.rfc-editor.org/rfc/rfc6265"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230526-0001/"
+      },
+      {
+        "Url": "https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-p26g-97m4-6q7c"
       }
     ],
@@ -47,7 +53,7 @@
     "PublishedAt": "2023-04-18T22:19:57Z",
     "Severity": "LOW",
     "Summary": "Eclipse Jetty's cookie parsing of quoted values can exfiltrate values from other cookies",
-    "UpdatedAt": "2023-04-18T22:19:59Z",
+    "UpdatedAt": "2023-06-13T22:44:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 2.4,
@@ -55,6 +61,12 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "9.4.51.v20230217"
+      },
+      "VulnerableVersionRange": "\u003c 9.4.51.v20230217"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "12.0.0.beta0"
@@ -72,12 +84,6 @@
         "Identifier": "10.0.14"
       },
       "VulnerableVersionRange": "\u003e= 10.0.0, \u003c 10.0.14"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "9.4.51"
-      },
-      "VulnerableVersionRange": "\u003c 9.4.51"
     }
   ]
 }

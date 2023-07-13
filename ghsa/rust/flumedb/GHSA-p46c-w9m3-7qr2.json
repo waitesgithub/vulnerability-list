@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-01-10T23:36:20Z",
+  "UpdatedAt": "2023-06-13T18:08:04Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "flumedb"
@@ -26,6 +26,9 @@
         "Url": "https://github.com/sunrise-choir/flumedb-rs/commit/14b7440271c9d2316fab52c745e21087559364f6"
       },
       {
+        "Url": "https://github.com/sunrise-choir/flumedb-rs/issues/10"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-p46c-w9m3-7qr2"
       }
     ],
@@ -39,12 +42,12 @@
         "Value": "CVE-2021-45684"
       }
     ],
-    "Description": "An issue was discovered in the flumedb crate through 2021-01-07 for Rust. read_entry may read from uninitialized memory locations.",
+    "Description": "Affected versions of this crate passes an uninitialized buffer to a user-provided Read implementation. There are two of such cases (go_offset_log::read_entry() \u0026 offset_log::read_entry()).\n\nArbitrary Read implementations can read from the uninitialized buffer (memory exposure) and also can return incorrect number of bytes written to the buffer. Reading from uninitialized memory produces undefined values that can quickly invoke undefined behavior.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:18:35Z",
     "Severity": "CRITICAL",
     "Summary": "Use of Uninitialized Resource in flumedb.",
-    "UpdatedAt": "2023-02-03T05:00:50Z",
+    "UpdatedAt": "2023-06-13T18:08:04Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -56,7 +59,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.1.6"
       },
-      "VulnerableVersionRange": "\u003c= 0.1.5"
+      "VulnerableVersionRange": "\u003c 0.1.6"
     }
   ]
 }

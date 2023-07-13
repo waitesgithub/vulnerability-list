@@ -24,6 +24,12 @@
       },
       {
         "Url": "http://www.vupen.com/english/advisories/2006/1949"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rwiki/CVE-2006-2582.yml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20090501134922/http://www2a.biglobe.ne.jp/~seki/ruby/rwiki.html"
       }
     ],
     "Identifiers": [
@@ -40,8 +46,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects rwiki",
-    "UpdatedAt": "2023-01-09T05:03:17Z",
+    "Summary": "Remote code execution in rwiki",
+    "UpdatedAt": "2023-06-12T16:42:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

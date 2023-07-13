@@ -38,7 +38,13 @@
         "Url": "https://bugzilla.redhat.com/show_bug.cgi?id=1095105"
       },
       {
-        "Url": "http://matasano.com/research/AnatomyOfRailsVuln-CVE-2014-0130.pdf"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2014-0130.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/NkKc7vTW70o"
+      },
+      {
+        "Url": "https://web.archive.org/web/20150319054505/http://matasano.com/research/AnatomyOfRailsVuln-CVE-2014-0130.pdf"
       },
       {
         "Url": "https://github.com/advisories/GHSA-6x85-j5j2-27jx"
@@ -59,7 +65,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
     "Summary": "actionpack Path Traversal vulnerability",
-    "UpdatedAt": "2023-02-23T05:06:54Z",
+    "UpdatedAt": "2023-07-05T19:17:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

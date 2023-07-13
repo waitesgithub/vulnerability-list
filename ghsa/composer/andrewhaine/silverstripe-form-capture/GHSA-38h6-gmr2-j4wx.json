@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-04-03T21:06:31Z",
+  "UpdatedAt": "2023-06-21T18:01:34Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "andrewhaine/silverstripe-form-capture"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://github.com/bigfork/silverstripe-form-capture/commit/5b3aa39dd1eef042f173167b0fa4d3f717971772"
+      },
+      {
+        "Url": "https://github.com/bigfork/silverstripe-form-capture/commit/3a7a3c480e3fccddce9c5f359796d45a8302a622"
       },
       {
         "Url": "https://github.com/advisories/GHSA-38h6-gmr2-j4wx"
@@ -38,7 +41,7 @@
     "PublishedAt": "2023-04-03T21:06:31Z",
     "Severity": "MODERATE",
     "Summary": "Silverstripe Form Capture vulnerable to stored cross-site-scripting",
-    "UpdatedAt": "2023-04-20T05:07:50Z",
+    "UpdatedAt": "2023-06-21T18:01:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -48,21 +51,21 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.1.0"
+        "Identifier": "1.0.2"
       },
-      "VulnerableVersionRange": "\u003e= 1.0.0, \u003c= 1.0.1"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.2.5"
-      },
-      "VulnerableVersionRange": "\u003e= 2.0.0, \u003c= 2.2.4"
+      "VulnerableVersionRange": "\u003e= 0.2.0, \u003c= 0.2.3"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "1.0.2"
       },
-      "VulnerableVersionRange": "\u003e= 0.2.0, \u003c= 0.2.3"
+      "VulnerableVersionRange": "\u003e= 1.0.0, \u003c 1.0.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.2.5"
+      },
+      "VulnerableVersionRange": "\u003e= 2.0.0, \u003c 2.2.5"
     }
   ]
 }

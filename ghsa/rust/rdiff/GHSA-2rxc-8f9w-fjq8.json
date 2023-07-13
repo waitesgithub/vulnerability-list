@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0094.html"
       },
       {
+        "Url": "https://github.com/dyule/rdiff/issues/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-2rxc-8f9w-fjq8"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2021-45694"
       }
     ],
-    "Description": "An issue was discovered in the rdiff crate through 2021-02-03 for Rust. Window may read from uninitialized memory locations.",
+    "Description": "An issue was discovered in the rdiff crate through version 0.1.2 for Rust. Window may read from uninitialized memory locations.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:14:13Z",
     "Severity": "HIGH",
     "Summary": "Window may read from uninitialized memory locations in rdiff",
-    "UpdatedAt": "2023-02-03T05:03:46Z",
+    "UpdatedAt": "2023-06-13T20:24:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

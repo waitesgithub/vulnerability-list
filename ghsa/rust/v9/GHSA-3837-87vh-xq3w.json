@@ -39,12 +39,12 @@
         "Value": "CVE-2020-36447"
       }
     ],
-    "Description": "v9 is a slim data engine for Data Oriented Design. An issue was discovered in the v9 crate through 2020-12-18 for Rust. There is an unconditional implementation of Sync for SyncRef\u003cT\u003e.",
+    "Description": "Affected versions of this crate unconditionally implement Sync for SyncRef\u003cT\u003e. This definition allows data races if \u0026T is accessible through \u0026SyncRef.\n\nSyncRef\u003cT\u003e derives Clone and Debug, and the default implementations of those traits access \u0026T by invoking T::clone() \u0026 T::fmt(). It is possible to create data races \u0026 undefined behavior by concurrently invoking SyncRef\u003cT\u003e::clone() or SyncRef\u003cT\u003e::fmt() from multiple threads with T: !Sync.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:57:07Z",
     "Severity": "HIGH",
     "Summary": "Data race in v9",
-    "UpdatedAt": "2023-02-03T05:03:42Z",
+    "UpdatedAt": "2023-06-13T22:35:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

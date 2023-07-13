@@ -26,12 +26,12 @@
         "Value": "GHSA-8892-84wf-cg8f"
       }
     ],
-    "Description": "Affected versions of this crate unconditionally implement Send/Sync for `SyncChannel\u003cT\u003e`.\n`SyncChannel\u003cT\u003e` doesn't provide access to `\u0026T` but merely serves as a channel that consumes and returns owned `T`.\n\nUsers can create UB in safe Rust by sending `T: !Send` to other threads with `SyncChannel::send/recv` APIs. Using `T = Arc\u003cCell\u003c_\u003e` allows to create data races (which can lead to memory corruption), and using `T = MutexGuard\u003cT\u003e` allows to unlock a mutex from a thread that didn't lock the mutex.\n",
+    "Description": "Affected versions of this crate unconditionally implement Send/Sync for `SyncChannel\u003cT\u003e`. `SyncChannel\u003cT\u003e` doesn't provide access to `\u0026T` but merely serves as a channel that consumes and returns owned `T`. Users can create UB in safe Rust by sending `T: !Send` to other threads with `SyncChannel::send/recv` APIs. Using `T = Arc\u003cCell\u003c_\u003e` allows to create data races (which can lead to memory corruption), and using `T = MutexGuard\u003cT\u003e` allows to unlock a mutex from a thread that didn't lock the mutex.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T21:00:16Z",
     "Severity": "HIGH",
     "Summary": "SyncChannel\u003cT\u003e can move 'T: !Send' to other threads",
-    "UpdatedAt": "2023-01-11T05:05:28Z",
+    "UpdatedAt": "2023-06-13T21:01:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

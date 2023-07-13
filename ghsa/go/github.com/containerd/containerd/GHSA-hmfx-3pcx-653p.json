@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-02-16T14:11:33Z",
+  "UpdatedAt": "2023-06-13T23:54:56Z",
   "Package": {
     "Ecosystem": "GO",
     "Name": "github.com/containerd/containerd"
@@ -62,7 +62,7 @@
     "PublishedAt": "2023-02-16T14:11:33Z",
     "Severity": "MODERATE",
     "Summary": "Supplementary groups are not set up properly in github.com/containerd/containerd",
-    "UpdatedAt": "2023-02-24T19:12:22Z",
+    "UpdatedAt": "2023-06-13T23:54:56Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
@@ -72,15 +72,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.6.18"
+        "Identifier": "1.5.18"
       },
-      "VulnerableVersionRange": "\u003e= 1.6.0, \u003c 1.6.18"
+      "VulnerableVersionRange": "\u003c 1.5.18"
     },
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.5.18"
+        "Identifier": "1.6.18"
       },
-      "VulnerableVersionRange": "\u003c= 1.5.17"
+      "VulnerableVersionRange": "\u003e= 1.6.0, \u003c 1.6.18"
     }
   ]
 }

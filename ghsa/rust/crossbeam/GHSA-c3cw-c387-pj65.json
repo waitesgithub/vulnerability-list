@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T21:24:34Z",
+  "UpdatedAt": "2023-06-13T17:11:25Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "crossbeam"
@@ -33,12 +33,12 @@
         "Value": "CVE-2018-20996"
       }
     ],
-    "Description": "An issue was discovered in the crossbeam crate before 0.4.1 for Rust. There is a double free because of destructor mishandling.",
+    "Description": "Even if an element is popped from a queue, crossbeam would run its destructor inside the epoch-based garbage collector. This is a source of double frees.\n\nThe flaw was corrected by wrapping elements inside queues in a ManuallyDrop.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:43:21Z",
     "Severity": "CRITICAL",
     "Summary": "Double free in crossbeam",
-    "UpdatedAt": "2023-01-11T05:06:02Z",
+    "UpdatedAt": "2023-06-13T17:11:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.4.1"
       },
-      "VulnerableVersionRange": "\u003c 0.4.1"
+      "VulnerableVersionRange": "\u003e= 0.4.0, \u003c 0.4.1"
     }
   ]
 }

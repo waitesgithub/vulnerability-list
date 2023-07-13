@@ -1,6 +1,6 @@
 {
-  "Severity": "LOW",
-  "UpdatedAt": "2020-07-07T16:32:21Z",
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2023-06-27T20:31:39Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.mapfish.print:print-standalone"
@@ -36,12 +36,12 @@
         "Value": "CVE-2020-15232"
       }
     ],
-    "Description": "### Impact\nA user can do to an XML External Entity (XXE) attack with the provided SDL style.\n\n### Patches\nUse version \u003e= 3.24\n\n### Workarounds\nNo\n\n### References\n* https://cwe.mitre.org/data/definitions/611.html\n* https://github.com/mapfish/mapfish-print/pull/1397/commits/e1d0527d13db06b2b62ca7d6afb9e97dacd67a0e\n\n### For more information\nIf you have any questions or comments about this advisory Comment the pull request: https://github.com/mapfish/mapfish-print/pull/1397",
+    "Description": "### Impact\nA user can do to an XML External Entity (XXE) attack with the provided SDL style.\n\n### Patches\nUse version \u003e= 3.24\n\n### Workarounds\nNo\n\n### References\n* https://cwe.mitre.org/data/definitions/611.html\n* https://github.com/mapfish/mapfish-print/pull/1397/commits/e1d0527d13db06b2b62ca7d6afb9e97dacd67a0e\n\n### For more information\nIf you have any questions or comments about this advisory Comment the pull request: https://github.com/mapfish/mapfish-print/pull/1397\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-07-07T16:32:45Z",
-    "Severity": "LOW",
+    "Severity": "CRITICAL",
     "Summary": "XXE attack in Mapfish Print",
-    "UpdatedAt": "2023-01-09T05:03:19Z",
+    "UpdatedAt": "2023-06-27T20:31:39Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.3,
@@ -53,7 +53,7 @@
       "FirstPatchedVersion": {
         "Identifier": "3.24"
       },
-      "VulnerableVersionRange": "\u003c 3.24"
+      "VulnerableVersionRange": "\u003e= 3.0, \u003c 3.24"
     }
   ]
 }

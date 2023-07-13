@@ -17,6 +17,9 @@
         "Url": "https://github.com/spree/spree_auth_devise/security/advisories/GHSA-8xfw-5q82-3652"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/spree_auth_devise/CVE-2021-41275.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8xfw-5q82-3652"
       }
     ],
@@ -31,7 +34,7 @@
     "PublishedAt": "2021-11-18T20:15:23Z",
     "Severity": "CRITICAL",
     "Summary": "Authentication Bypass by CSRF Weakness",
-    "UpdatedAt": "2023-01-09T05:05:31Z",
+    "UpdatedAt": "2023-05-26T15:07:06Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.3,

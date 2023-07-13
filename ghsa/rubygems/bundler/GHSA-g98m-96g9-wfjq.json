@@ -24,6 +24,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-g98m-96g9-wfjq"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bundler/CVE-2019-3881.yml"
       }
     ],
     "Identifiers": [
@@ -36,12 +39,12 @@
         "Value": "CVE-2019-3881"
       }
     ],
-    "Description": "Bundler prior to 2.1.0 uses a predictable path in /tmp/, created with insecure permissions as a storage location for gems, if locations under the user's home directory are not available. If Bundler is used in a scenario where the user does not have a writable home directory, an attacker could place malicious code in this directory that would be later loaded and executed.",
+    "Description": "Bundler prior to 2.1.0 uses a predictable path in `/tmp/`, created with insecure permissions as a storage location for gems, if locations under the user's home directory are not available. If Bundler is used in a scenario where the user does not have a writable home directory, an attacker could place malicious code in this directory that would be later loaded and executed.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-05-10T14:53:59Z",
     "Severity": "HIGH",
     "Summary": "Insecure path handling in Bundler",
-    "UpdatedAt": "2023-02-01T05:05:28Z",
+    "UpdatedAt": "2023-07-05T20:18:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7,

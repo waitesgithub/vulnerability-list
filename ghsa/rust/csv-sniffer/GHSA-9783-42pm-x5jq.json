@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-01-10T23:41:54Z",
+  "UpdatedAt": "2023-06-13T17:22:24Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "csv-sniffer"
@@ -23,6 +23,9 @@
         "Url": "https://github.com/jblondin/csv-sniffer/pull/2"
       },
       {
+        "Url": "https://github.com/jblondin/csv-sniffer/issues/1"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-9783-42pm-x5jq"
       }
     ],
@@ -36,12 +39,12 @@
         "Value": "CVE-2021-45686"
       }
     ],
-    "Description": "An issue was discovered in the csv-sniffer crate through 2021-01-05 for Rust. preamble_skipcount may read from uninitialized memory locations.",
+    "Description": "Affected versions of this crate passes an uninitialized buffer to a user-provided Read implementation (within fn preamble_skipcount()).\n\nArbitrary Read implementations can read from the uninitialized buffer (memory exposure) and also can return incorrect number of bytes written to the buffer. Reading from uninitialized memory produces undefined values that can quickly invoke undefined behavior.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:13:58Z",
     "Severity": "CRITICAL",
     "Summary": "Use of Uninitialized Resource in csv-sniffer.",
-    "UpdatedAt": "2023-02-03T05:00:52Z",
+    "UpdatedAt": "2023-06-13T17:22:24Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -51,9 +54,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.3.0"
+        "Identifier": "0.2.0"
       },
-      "VulnerableVersionRange": "\u003c 0.3.0"
+      "VulnerableVersionRange": "\u003c 0.2.0"
     }
   ]
 }

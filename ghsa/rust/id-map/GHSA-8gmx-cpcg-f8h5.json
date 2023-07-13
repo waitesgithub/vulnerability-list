@@ -33,12 +33,12 @@
         "Value": "CVE-2021-30455"
       }
     ],
-    "Description": "An issue was discovered in the id-map crate through 2021-02-26 for Rust. A double free can occur in IdMap::clone_from upon a .clone panic.",
+    "Description": "The clone_from implementation for IdMap drops the values present in the map and then begins cloning values from the other map. If a .clone() call pancics, then the afformentioned dropped elements can be freed again.\nget_or_insert\n\nget_or_insert reserves space for a value, before calling the user provided insertion function f. If the function f panics then uninitialized or previously freed memory can be dropped.\nremove_set\n\nWhen removing a set of elements, ptr::drop_in_place is called on each of the element to be removed. If the Drop impl of one of these elements panics then the previously dropped elements can be dropped again.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:55:11Z",
     "Severity": "CRITICAL",
     "Summary": "Double-free in id-map",
-    "UpdatedAt": "2023-01-09T05:05:34Z",
+    "UpdatedAt": "2023-06-22T05:03:19Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

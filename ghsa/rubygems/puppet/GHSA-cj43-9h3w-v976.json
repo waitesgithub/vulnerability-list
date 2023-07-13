@@ -14,9 +14,6 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2013-4761"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-cj43-9h3w-v976"
-      },
-      {
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2014-01/msg00009.html"
       },
       {
@@ -30,6 +27,15 @@
       },
       {
         "Url": "http://www.debian.org/security/2013/dsa-2761"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/puppet/CVE-2013-4761.yml"
+      },
+      {
+        "Url": "https://www.puppet.com/security/cve/cve-2013-4761-resourcetype-remote-code-execution-vulnerability"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-cj43-9h3w-v976"
       }
     ],
     "Identifiers": [
@@ -47,7 +53,7 @@
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
     "Summary": "Puppet allows remote attackers to execute arbitrary Ruby programs from the master via the resource_type service",
-    "UpdatedAt": "2023-01-12T05:02:02Z",
+    "UpdatedAt": "2023-05-12T17:26:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

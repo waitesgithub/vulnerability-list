@@ -17,9 +17,6 @@
         "Url": "https://github.com/advisories/GHSA-rg5m-3fqp-6px8"
       },
       {
-        "Url": "https://groups.google.com/forum/message/raw?msg=ruby-security-ann/yvlR1Vx44c8/elKJkpO2KVgJ"
-      },
-      {
         "Url": "http://lists.opensuse.org/opensuse-updates/2013-12/msg00091.html"
       },
       {
@@ -33,6 +30,12 @@
       },
       {
         "Url": "http://www.debian.org/security/2014/dsa-2888"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionmailer/CVE-2013-4389.yml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20201208175929/https://groups.google.com/forum/message/raw?msg=ruby-security-ann/yvlR1Vx44c8/elKJkpO2KVgJ"
       }
     ],
     "Identifiers": [
@@ -49,8 +52,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects actionmailer",
-    "UpdatedAt": "2023-01-09T05:03:14Z",
+    "Summary": "actionmailer email address processing causes Denial of service",
+    "UpdatedAt": "2023-07-04T00:18:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

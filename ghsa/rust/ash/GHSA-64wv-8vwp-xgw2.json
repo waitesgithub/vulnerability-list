@@ -32,6 +32,9 @@
         "Url": "https://github.com/ash-rs/ash/compare/0.33.0...0.33.1"
       },
       {
+        "Url": "https://github.com/MaikKlein/ash/issues/354"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-64wv-8vwp-xgw2"
       }
     ],
@@ -50,7 +53,7 @@
     "PublishedAt": "2022-01-06T22:13:02Z",
     "Severity": "CRITICAL",
     "Summary": "Use of Uninitialized Resource in ash.",
-    "UpdatedAt": "2023-04-17T16:30:59Z",
+    "UpdatedAt": "2023-06-13T16:01:37Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

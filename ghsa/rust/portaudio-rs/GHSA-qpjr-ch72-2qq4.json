@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2019-0022.html"
       },
       {
+        "Url": "https://github.com/mvdnes/portaudio-rs/commit/7466df019f6739732fd91401017942c22364ef61"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-qpjr-ch72-2qq4"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2019-16881"
       }
     ],
-    "Description": "An issue was discovered in the portaudio-rs crate through 0.3.1 for Rust. There is a use-after-free with resultant arbitrary code execution because of a lack of unwind safety in stream_callback and stream_finished_callback.",
+    "Description": "Affected versions of this crate is not panic safe within callback functions stream_callback and stream_finished_callback. The call to user-provided closure might panic before a mem::forget call, which then causes a use after free that grants attacker to control the callback function pointer. This allows an attacker to construct an arbitrary code execution .",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:45:17Z",
     "Severity": "CRITICAL",
     "Summary": "Use after free in portaudio-rs",
-    "UpdatedAt": "2023-01-11T05:06:01Z",
+    "UpdatedAt": "2023-06-13T20:35:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

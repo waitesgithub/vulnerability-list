@@ -36,12 +36,12 @@
         "Value": "CVE-2017-1000168"
       }
     ],
-    "Description": "The `scalarmult()` function included in previous versions of this crate\naccepted all-zero public keys, for which the resulting Diffie-Hellman shared\nsecret will always be zero regardless of the private key used.\n\nThis issue was fixed by checking for this class of keys and rejecting them\nif they are used.\n",
+    "Description": "The scalarmult() function included in previous versions of this crate accepted all-zero public keys, for which the resulting Diffie-Hellman shared secret will always be zero regardless of the private key used.\n\nThis issue was fixed by checking for this class of keys and rejecting them if they are used.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T21:00:41Z",
     "Severity": "MODERATE",
     "Summary": "scalarmult() vulnerable to degenerate public keys",
-    "UpdatedAt": "2023-01-11T05:05:38Z",
+    "UpdatedAt": "2023-06-13T20:56:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

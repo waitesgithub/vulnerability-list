@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-01-06T13:29:00Z",
+  "UpdatedAt": "2023-06-13T21:46:57Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "tremor-script"
@@ -18,6 +18,12 @@
       },
       {
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0111.html"
+      },
+      {
+        "Url": "https://github.com/tremor-rs/tremor-runtime/pull/1217"
+      },
+      {
+        "Url": "https://github.com/tremor-rs/tremor-runtime/commit/1a2efcdbe68e5e7fd0a05836ac32d2cde78a0b2e"
       },
       {
         "Url": "https://github.com/advisories/GHSA-9qvw-46gf-4fv8"
@@ -38,7 +44,7 @@
     "PublishedAt": "2022-01-06T22:09:07Z",
     "Severity": "HIGH",
     "Summary": "Use After Free in tremor-script",
-    "UpdatedAt": "2023-02-03T05:03:45Z",
+    "UpdatedAt": "2023-06-13T21:46:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -50,7 +56,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.11.6"
       },
-      "VulnerableVersionRange": "\u003c 0.11.6"
+      "VulnerableVersionRange": "\u003e= 0.7.2, \u003c 0.11.6"
     }
   ]
 }

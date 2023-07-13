@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-06-23T06:49:10Z",
+  "UpdatedAt": "2023-06-07T14:12:07Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.jenkins-ci.main:jenkins-core"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-05-24T19:19:45Z",
     "Severity": "CRITICAL",
     "Summary": "Multiple vulnerabilities allow bypassing path filtering of agent-to-controller access control in Jenkins",
-    "UpdatedAt": "2023-02-01T05:06:55Z",
+    "UpdatedAt": "2023-06-07T14:12:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9,
@@ -45,15 +45,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "2.319"
+        "Identifier": "2.303.3"
       },
-      "VulnerableVersionRange": "\u003e= 2.304, \u003c= 2.318"
+      "VulnerableVersionRange": "\u003c 2.303.2"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.319"
       },
-      "VulnerableVersionRange": "\u003c 2.303.2"
+      "VulnerableVersionRange": "\u003e= 2.304, \u003c= 2.318"
     }
   ]
 }

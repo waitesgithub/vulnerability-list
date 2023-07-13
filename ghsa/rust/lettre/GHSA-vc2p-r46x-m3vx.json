@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-14T22:36:50Z",
+  "UpdatedAt": "2023-06-13T17:41:46Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "lettre"
@@ -44,7 +44,7 @@
     "PublishedAt": "2021-08-25T20:56:48Z",
     "Severity": "MODERATE",
     "Summary": "Argument injection in lettre",
-    "UpdatedAt": "2023-01-11T05:05:28Z",
+    "UpdatedAt": "2023-06-13T17:41:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
@@ -56,7 +56,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.7.1"
       },
-      "VulnerableVersionRange": "\u003c 0.7.1"
+      "VulnerableVersionRange": "\u003e= 0.7.0, \u003c 0.7.1"
     },
     {
       "FirstPatchedVersion": {

@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-16T23:55:32Z",
+  "UpdatedAt": "2023-06-22T05:03:12Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "futures-util"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-05-24T17:37:49Z",
     "Severity": "MODERATE",
     "Summary": "Improper `Sync` implementation on `FuturesUnordered` in futures-utils can cause data corruption",
-    "UpdatedAt": "2023-01-27T05:02:59Z",
+    "UpdatedAt": "2023-06-22T05:03:12Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.3.2"
       },
-      "VulnerableVersionRange": "\u003c 0.3.2"
+      "VulnerableVersionRange": "\u003e= 0.3.0, \u003c 0.3.2"
     }
   ]
 }

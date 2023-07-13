@@ -45,12 +45,12 @@
         "Value": "CVE-2020-29243"
       }
     ],
-    "Description": "dhowden tag before 0.0.0-20201120070457-d52dcb253c63 allows `panic: runtime error: index out of range` via `readAPICFrame`.",
+    "Description": "Due to improper bounds checking, a number of methods in dhowden tag before 0.0.0-20201120070457-d52dcb253c63 can trigger a panic via `readAPICFrame` due to attempted out-of-bounds reads. If the package is used to parse user supplied input, this may be used as a vector for a denial of service attack.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T17:37:26Z",
     "Severity": "MODERATE",
-    "Summary": "dhowden tag Improper Validation of Array Index vulnerability",
-    "UpdatedAt": "2023-02-07T22:41:03Z",
+    "Summary": "dhowden tag panic due to out-of-bounds read",
+    "UpdatedAt": "2023-07-12T20:41:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

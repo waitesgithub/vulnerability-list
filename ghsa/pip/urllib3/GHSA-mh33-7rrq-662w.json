@@ -47,6 +47,9 @@
         "Url": "http://www.openwall.com/lists/oss-security/2019/04/19/1"
       },
       {
+        "Url": "https://github.com/urllib3/urllib3/commit/1efadf43dc63317cd9eaa3e0fdb9e05ab07254b1"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-mh33-7rrq-662w"
       }
     ],
@@ -60,12 +63,12 @@
         "Value": "CVE-2019-11324"
       }
     ],
-    "Description": "The urllib3 library before 1.24.2 for Python mishandles certain cases where the desired set of CA certificates is different from the OS store of CA certificates, which results in SSL connections succeeding in situations where a verification failure is the correct outcome. This is related to use of the ssl_context, ca_certs, or ca_certs_dir argument.",
+    "Description": "The urllib3 library before 1.24.2 for Python mishandles certain cases where the desired set of CA certificates is different from the OS store of CA certificates, which results in SSL connections succeeding in situations where a verification failure is the correct outcome. This is related to use of the `ssl_context`, `ca_certs`, or `ca_certs_dir` argument.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-04-19T16:55:10Z",
     "Severity": "HIGH",
     "Summary": "Improper Certificate Validation",
-    "UpdatedAt": "2023-02-01T05:01:41Z",
+    "UpdatedAt": "2023-05-31T05:00:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

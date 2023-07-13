@@ -33,12 +33,12 @@
         "Value": "CVE-2020-25795"
       }
     ],
-    "Description": "An issue was discovered in the sized-chunks crate through 0.6.2 for Rust. In the Chunk implementation, insert_from can have a memory-safety issue upon a panic.",
+    "Description": "Chunk:\n\n* Array size is not checked when constructed with unit() and pair().\n* Array size is not checked when constructed with From\u003cInlineArray\u003cA, T\u003e\u003e.\n* Clone and insert_from are not panic-safe; A panicking iterator causes memory safety issues with them.\n\nInlineArray:\n\n* Generates unaligned references for types with a large alignment requirement.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:45:01Z",
     "Severity": "HIGH",
     "Summary": "Missing release of memory in sized-chunks",
-    "UpdatedAt": "2023-01-27T05:00:34Z",
+    "UpdatedAt": "2023-06-13T20:38:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

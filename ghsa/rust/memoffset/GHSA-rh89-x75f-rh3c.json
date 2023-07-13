@@ -33,12 +33,12 @@
         "Value": "CVE-2019-15553"
       }
     ],
-    "Description": "An issue was discovered in the memoffset crate before 0.5.0 for Rust. offset_of and span_of can cause exposure of uninitialized memory.",
+    "Description": "Affected versions of this crate caused traps and/or memory unsafety by zero-initializing references. They also could lead to uninitialized memory being dropped if the field for which the offset is requested was behind a deref coercion, and that deref coercion caused a panic. The flaw was corrected by using MaybeUninit.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:44:00Z",
     "Severity": "HIGH",
     "Summary": "Exposure of uninitialized memory in memoffset",
-    "UpdatedAt": "2023-01-11T05:05:48Z",
+    "UpdatedAt": "2023-06-13T18:43:23Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

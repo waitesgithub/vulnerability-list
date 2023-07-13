@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-14T20:19:47Z",
+  "UpdatedAt": "2023-06-13T22:32:20Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "wasmtime"
@@ -50,7 +50,7 @@
     "PublishedAt": "2021-09-20T19:54:05Z",
     "Severity": "MODERATE",
     "Summary": "Use after free passing `externref`s to Wasm in Wasmtime",
-    "UpdatedAt": "2023-01-27T05:00:34Z",
+    "UpdatedAt": "2023-06-13T22:32:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.3,
@@ -62,7 +62,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.30.0"
       },
-      "VulnerableVersionRange": "\u003e= 0.19.0, \u003c 0.30.0"
+      "VulnerableVersionRange": "\u003c 0.30.0"
     }
   ]
 }

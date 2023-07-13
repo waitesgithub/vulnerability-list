@@ -29,6 +29,9 @@
         "Url": "https://github.com/spring-projects/spring-boot/releases/tag/v3.0.6"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230601-0009/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-g5h3-w546-pj7f"
       }
     ],
@@ -47,7 +50,7 @@
     "PublishedAt": "2023-04-20T21:33:27Z",
     "Severity": "CRITICAL",
     "Summary": "Spring Boot Security Bypass with Wildcard Pattern Matching on Cloud Foundry",
-    "UpdatedAt": "2023-05-02T11:43:16Z",
+    "UpdatedAt": "2023-06-06T17:05:40Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

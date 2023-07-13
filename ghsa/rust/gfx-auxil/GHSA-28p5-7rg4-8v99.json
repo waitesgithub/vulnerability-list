@@ -26,12 +26,12 @@
         "Value": "GHSA-28p5-7rg4-8v99"
       }
     ],
-    "Description": "Affected versions of this crate passes an uninitialized buffer to a user-provided `Read` implementation.\n\nArbitrary `Read` implementations can read from the uninitialized buffer (memory exposure) and also can return incorrect number of bytes written to the buffer.\nReading from uninitialized memory produces undefined values that can quickly invoke undefined behavior.\n",
+    "Description": "Affected versions of this crate passes an uninitialized buffer to a user-provided `Read` implementation.\nArbitrary `Read` implementations can read from the uninitialized buffer (memory exposure) and also can return incorrect number of bytes written to the buffer.\nReading from uninitialized memory produces undefined values that can quickly invoke undefined behavior.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-06-16T23:59:12Z",
     "Severity": "HIGH",
     "Summary": "Reading on uninitialized buffer may cause UB ( `gfx_auxil::read_spirv()` )",
-    "UpdatedAt": "2023-01-12T05:00:57Z",
+    "UpdatedAt": "2023-06-13T17:33:21Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

@@ -39,12 +39,12 @@
         "Value": "CVE-2019-25001"
       }
     ],
-    "Description": "An issue was discovered in the serde_cbor crate before 0.10.2 for Rust. The CBOR deserializer can cause stack consumption via nested semantic tags.",
+    "Description": "Affected versions of this crate did not properly check if semantic tags were nested excessively during deserialization. This allows an attacker to craft small (\u003c 1 kB) CBOR documents that cause a stack overflow. The flaw was corrected by limiting the allowed number of nested tags.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:45:51Z",
     "Severity": "HIGH",
     "Summary": "Out of bounds write in serde_cbor",
-    "UpdatedAt": "2023-05-01T21:39:32Z",
+    "UpdatedAt": "2023-06-13T21:04:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

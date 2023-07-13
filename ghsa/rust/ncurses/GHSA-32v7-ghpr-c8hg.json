@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-08-18T17:45:14Z",
+  "UpdatedAt": "2023-06-13T18:30:36Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "ncurses"
@@ -36,12 +36,12 @@
         "Value": "CVE-2019-15547"
       }
     ],
-    "Description": "An issue was discovered in the ncurses crate for Rust. There are format string issues in printw functions because C format arguments are mishandled.",
+    "Description": "ncurses exposes functions from the ncurses library which:\n* Pass buffers without length to C functions that may write an arbitrary amount of data, leading to a buffer overflow. (instr, mvwinstr, etc)\n* Passes rust \u0026str to strings expecting C format arguments, allowing hostile input to execute a format string attack, which trivially allows writing arbitrary data to stack memory (functions in the printw family).\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:58:47Z",
     "Severity": "HIGH",
     "Summary": "Mishandling of format strings in ncurses",
-    "UpdatedAt": "2023-01-09T05:05:34Z",
+    "UpdatedAt": "2023-06-13T18:30:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

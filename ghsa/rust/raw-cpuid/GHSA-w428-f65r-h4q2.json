@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-03-16T17:39:47Z",
+  "UpdatedAt": "2023-06-13T20:25:04Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "raw-cpuid"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0089.html"
+      },
+      {
+        "Url": "https://github.com/gz/rust-cpuid/issues/43"
       },
       {
         "Url": "https://github.com/advisories/GHSA-w428-f65r-h4q2"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-01-06T22:13:12Z",
     "Severity": "CRITICAL",
     "Summary": "Deserialization of Untrusted Data in rust-cpuid",
-    "UpdatedAt": "2023-03-16T17:39:47Z",
+    "UpdatedAt": "2023-06-13T20:25:04Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -50,7 +53,7 @@
       "FirstPatchedVersion": {
         "Identifier": "9.1.1"
       },
-      "VulnerableVersionRange": "\u003c 9.1.1"
+      "VulnerableVersionRange": "\u003e= 3.1.0, \u003c 9.1.1"
     }
   ]
 }

@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0102.html"
       },
       {
+        "Url": "https://github.com/Richard-W/late-static/commit/11f396c"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-wr55-mf5c-hhwm"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2020-36209"
       }
     ],
-    "Description": "An issue was discovered in the late-static crate before 0.4.0 for Rust. Because Sync is implemented for LateStatic with T: Send, a data race can occur.",
+    "Description": "Affected versions of this crate implemented Sync for LateStatic with T: Send, so that it is possible to create a data race to a type T: Send + !Sync (e.g. Cell\u003cT\u003e).\n\nThis can result in a memory corruption or other kinds of undefined behavior.\n\nThe flaw was corrected in commit 11f396c by replacing the T: Send bound to T: Sync bound in the Sync impl for LateStatic\u003cT\u003e.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:50:44Z",
     "Severity": "HIGH",
     "Summary": "Data races in late-static",
-    "UpdatedAt": "2023-01-11T05:05:30Z",
+    "UpdatedAt": "2023-06-13T18:16:03Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7,

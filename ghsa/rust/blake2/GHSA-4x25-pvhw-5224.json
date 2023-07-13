@@ -1,5 +1,5 @@
 {
-  "Severity": "HIGH",
+  "Severity": "CRITICAL",
   "UpdatedAt": "2021-08-19T21:22:55Z",
   "Package": {
     "Ecosystem": "RUST",
@@ -36,9 +36,9 @@
     "Description": "An issue was discovered in the blake2 crate before 0.8.1 for Rust. The BLAKE2b and BLAKE2s algorithms, when used with HMAC, produce incorrect results because the block sizes are half of the required sizes.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:44:20Z",
-    "Severity": "HIGH",
+    "Severity": "CRITICAL",
     "Summary": "Algorithms compute incorrect results in blake2",
-    "UpdatedAt": "2023-02-01T05:06:13Z",
+    "UpdatedAt": "2023-06-22T05:03:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

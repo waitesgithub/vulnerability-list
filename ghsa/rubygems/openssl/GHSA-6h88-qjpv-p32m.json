@@ -38,7 +38,10 @@
         "Url": "http://www.openwall.com/lists/oss-security/2016/10/01/2"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/93031"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/openssl/CVE-2016-7798.yml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20210121065227/https://www.securityfocus.com/bid/93031/info"
       }
     ],
     "Identifiers": [
@@ -56,7 +59,7 @@
     "PublishedAt": "2017-10-24T18:33:35Z",
     "Severity": "HIGH",
     "Summary": "OpenSSL gem for Ruby using inadequate encryption strength",
-    "UpdatedAt": "2023-01-09T05:02:43Z",
+    "UpdatedAt": "2023-07-03T19:22:26Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

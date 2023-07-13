@@ -32,7 +32,13 @@
         "Url": "http://www.openwall.com/lists/oss-security/2015/09/17/2"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/76789"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/devise-two-factor/CVE-2015-7225.yml"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2015/09/06/2"
+      },
+      {
+        "Url": "https://web.archive.org/web/20210122192452/https://www.securityfocus.com/bid/76789/"
       }
     ],
     "Identifiers": [
@@ -45,12 +51,12 @@
         "Value": "CVE-2015-7225"
       }
     ],
-    "Description": "Tinfoil Devise-two-factor before 2.0.0 does not strictly follow section 5.2 of RFC 6238 and does not \"burn\" a successfully validated one-time password (aka OTP), which allows remote or physically proximate attackers with a target user's login credentials to log in as said user by obtaining the OTP through performing a man-in-the-middle attack between the provider and verifier, or shoulder surfing, and replaying the OTP in the current time-step.",
+    "Description": "Tinfoil Devise-two-factor before 2.0.0 does not strictly follow [RFC 6238 § 5.2 ](https://datatracker.ietf.org/doc/html/rfc6238#section-5.2) and does not \"burn\" a successfully validated one-time password (aka OTP), which allows physically proximate attackers with a target user's login credentials to log in as said user by obtaining the OTP through performing a man-in-the-middle attack between the provider and verifier, or \"shoulder surfing\", and replaying the OTP in the current time-step.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-08-28T22:34:15Z",
     "Severity": "MODERATE",
     "Summary": "Tinfoil Devise-two-factor does not \"burn\" a successfully validated one-time password (OTP)",
-    "UpdatedAt": "2023-01-09T05:03:28Z",
+    "UpdatedAt": "2023-07-05T20:45:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,

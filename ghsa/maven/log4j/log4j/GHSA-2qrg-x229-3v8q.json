@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2019-12-27T22:02:40Z",
+  "UpdatedAt": "2023-05-24T20:58:15Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "log4j:log4j"
@@ -366,12 +366,12 @@
         "Value": "CVE-2019-17571"
       }
     ],
-    "Description": "Included in Log4j 1.2 is a SocketServer class that is vulnerable to deserialization of untrusted data which can be exploited to remotely execute arbitrary code when combined with a deserialization gadget when listening to untrusted network traffic for log data. This affects Log4j versions up to 1.2 up to 1.2.17.\n\nUsers are advised to migrate to `org.apache.logging.log4j:log4j-core`.",
+    "Description": "Included in Log4j 1.2 is a SocketServer class that is vulnerable to deserialization of untrusted data which can be exploited to remotely execute arbitrary code when combined with a deserialization gadget when listening to untrusted network traffic for log data. This affects Log4j versions 1.2 up to 1.2.17.\n\nUsers are advised to migrate to `org.apache.logging.log4j:log4j-core`.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-01-06T18:43:49Z",
     "Severity": "CRITICAL",
     "Summary": "Deserialization of Untrusted Data in Log4j",
-    "UpdatedAt": "2023-01-28T05:00:54Z",
+    "UpdatedAt": "2023-05-24T20:58:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -383,7 +383,7 @@
       "FirstPatchedVersion": {
         "Identifier": ""
       },
-      "VulnerableVersionRange": "\u003e= 1.2, \u003c= 1.2.27"
+      "VulnerableVersionRange": "\u003e= 1.2, \u003c= 1.2.17"
     }
   ]
 }

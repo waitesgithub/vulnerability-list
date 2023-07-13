@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-30T21:25:00Z",
+  "UpdatedAt": "2023-05-22T15:19:58Z",
   "Package": {
     "Ecosystem": "GO",
     "Name": "github.com/gen2brain/go-unarr"
@@ -15,6 +15,12 @@
       },
       {
         "Url": "https://github.com/gen2brain/go-unarr/issues/21"
+      },
+      {
+        "Url": "https://github.com/gen2brain/go-unarr/commit/239ec404d348280b50bbf671327709e8857fc5f4"
+      },
+      {
+        "Url": "https://github.com/gen2brain/go-unarr/releases/tag/v0.1.4"
       },
       {
         "Url": "https://github.com/advisories/GHSA-v9j4-cp63-qv62"
@@ -35,7 +41,7 @@
     "PublishedAt": "2021-09-01T18:32:02Z",
     "Severity": "CRITICAL",
     "Summary": "Tarslip in go-unarr",
-    "UpdatedAt": "2023-02-01T05:06:18Z",
+    "UpdatedAt": "2023-05-22T15:19:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -45,9 +51,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "0.1.4"
       },
-      "VulnerableVersionRange": "\u003c= 0.1.1"
+      "VulnerableVersionRange": "\u003c 0.1.4"
     }
   ]
 }

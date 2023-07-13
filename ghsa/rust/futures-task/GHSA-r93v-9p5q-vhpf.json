@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-06-16T23:58:43Z",
+  "UpdatedAt": "2023-06-13T17:25:42Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "futures-task"
@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35906"
       }
     ],
-    "Description": "An issue was discovered in the futures-task crate before 0.3.6 for Rust. futures_task::waker may cause a use-after-free in a non-static type situation.",
+    "Description": "Affected versions of the crate did not properly implement a 'static lifetime bound on the waker function. This resulted in a use-after-free if Waker::wake() is called after original data had been dropped.\n\nThe flaw was corrected by adding 'static lifetime bound to the data waker takes.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T17:37:49Z",
     "Severity": "HIGH",
     "Summary": "futures_task::waker may cause a use-after-free if used on a type that isn't 'static",
-    "UpdatedAt": "2023-01-27T05:02:43Z",
+    "UpdatedAt": "2023-06-13T17:25:42Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.8,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.3.6"
       },
-      "VulnerableVersionRange": "\u003c 0.3.6"
+      "VulnerableVersionRange": "\u003e= 0.2.1, \u003c 0.3.6"
     }
   ]
 }

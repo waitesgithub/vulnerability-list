@@ -33,12 +33,12 @@
         "Value": "CVE-2021-29941"
       }
     ],
-    "Description": "An issue was discovered in the reorder crate through 2021-02-24 for Rust. swap_index has an out-of-bounds write if an iterator returns a len() that is too small.",
+    "Description": "swap_index takes an iterator and swaps the items with their corresponding indexes. It reserves capacity and sets the length of the vector based on the .len() method of the iterator.\n\nIf the len() returned by the iterator is larger than the actual number of elements yielded, then swap_index creates a vector containing uninitialized members. If the len() returned by the iterator is smaller than the actual number of members yielded, then swap_index can write out of bounds past its allocated vector.\n\nAs noted by the Rust documentation, len() and size_hint() are primarily meant for optimization and incorrect values from their implementations should not lead to memory safety violations.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:54:08Z",
     "Severity": "HIGH",
     "Summary": "Out of bounds write in reorder",
-    "UpdatedAt": "2023-01-11T05:05:29Z",
+    "UpdatedAt": "2023-06-13T20:27:28Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.3,

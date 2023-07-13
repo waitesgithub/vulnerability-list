@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-20T22:50:07Z",
+  "UpdatedAt": "2023-06-01T05:00:46Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.jenkins-ci.plugins:mailer"
@@ -36,12 +36,12 @@
         "Value": "CVE-2022-20614"
       }
     ],
-    "Description": "A missing permission check in Jenkins Mailer Plugin 391.ve4a_38c1b_cf4b_ and earlier allows attackers with Overall/Read access to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname.",
+    "Description": "Jenkins Mailer Plugin prior to 408.vd726a_1130320 and 1.34.2 does not perform a permission check in a method implementing form validation.\n\nThis allows attackers with Overall/Read access to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname.\n\nAdditionally, this form validation method does not require POST requests, resulting in a cross-site request forgery (CSRF) vulnerability.\n\nMailer Plugin 408.vd726a_1130320 and 1.34.2 requires POST requests and Overall/Administer permission for the affected form validation method.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-13T00:01:04Z",
     "Severity": "MODERATE",
     "Summary": "Incorrect Permission Assignment for Critical Resource in Jenkins Mailer Plugin",
-    "UpdatedAt": "2023-01-30T05:03:37Z",
+    "UpdatedAt": "2023-06-01T05:00:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
@@ -51,9 +51,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "408.vd726a_1130320"
+        "Identifier": "1.34.2"
       },
-      "VulnerableVersionRange": "\u003c= 391.ve4a38c1bcf4b"
+      "VulnerableVersionRange": "\u003c 1.34.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "408.vd726a"
+      },
+      "VulnerableVersionRange": "\u003e= 391.ve4a38c1bcf4b, \u003c 408.vd726a"
     }
   ]
 }

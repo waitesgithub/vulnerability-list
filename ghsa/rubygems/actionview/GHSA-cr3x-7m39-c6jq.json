@@ -45,12 +45,12 @@
         "Value": "CVE-2020-8163"
       }
     ],
-    "Description": "The is a code injection vulnerability in versions of Rails prior to 5.0.1 that wouldallow an attacker who controlled the `locals` argument of a `render` call to perform a RCE.",
+    "Description": "The is a code injection vulnerability in versions of Rails prior to 5.0.1 that would allow an attacker who controlled the `locals` argument of a `render` call to perform a RCE.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-07-07T16:34:27Z",
     "Severity": "HIGH",
-    "Summary": "Potential remote code execution of user-provided local names in ActionView",
-    "UpdatedAt": "2023-02-01T05:04:08Z",
+    "Summary": "Remote code execution via user-provided local names in ActionView",
+    "UpdatedAt": "2023-07-05T20:22:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

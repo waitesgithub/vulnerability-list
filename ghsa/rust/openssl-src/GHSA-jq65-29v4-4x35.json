@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-04-03T19:16:27Z",
+  "UpdatedAt": "2023-06-16T22:15:37Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "openssl-src"
@@ -131,7 +131,7 @@
     "PublishedAt": "2021-08-25T20:45:15Z",
     "Severity": "HIGH",
     "Summary": "Null pointer deference in openssl-src ",
-    "UpdatedAt": "2023-04-03T19:16:27Z",
+    "UpdatedAt": "2023-06-16T22:15:37Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -143,7 +143,7 @@
       "FirstPatchedVersion": {
         "Identifier": "111.9.0"
       },
-      "VulnerableVersionRange": "\u003c 111.9.0"
+      "VulnerableVersionRange": "\u003e= 111.6.0, \u003c 111.9.0"
     }
   ]
 }

@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0108.html"
       },
       {
+        "Url": "https://github.com/nervosnetwork/ckb/security/advisories/GHSA-48vq-8jqv-gm6f"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-2969-8hh9-57jc"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-01-06T22:09:49Z",
     "Severity": "HIGH",
     "Summary": "Allocation of Resources Without Limits or Throttling in ckb",
-    "UpdatedAt": "2023-02-03T05:03:37Z",
+    "UpdatedAt": "2023-06-13T17:05:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

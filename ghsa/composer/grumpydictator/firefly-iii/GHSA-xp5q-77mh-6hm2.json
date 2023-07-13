@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-08-24T20:02:08Z",
+  "UpdatedAt": "2023-07-06T21:27:25Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "grumpydictator/firefly-iii"
@@ -38,7 +38,7 @@
     "PublishedAt": "2021-08-25T14:50:17Z",
     "Severity": "MODERATE",
     "Summary": "firefly-iii is vulnerable to Cross-Site Request Forgery (CSRF)",
-    "UpdatedAt": "2023-02-01T05:06:23Z",
+    "UpdatedAt": "2023-07-06T21:27:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
@@ -48,7 +48,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "5.6.0"
       },
       "VulnerableVersionRange": "\u003c 5.6.0"
     }

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-18T20:16:41Z",
+  "UpdatedAt": "2023-06-13T22:04:50Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "sys-info"
@@ -36,12 +36,12 @@
         "Value": "CVE-2020-36434"
       }
     ],
-    "Description": "An issue was discovered in the sys-info crate before 0.8.0 for Rust. sys_info::disk_info calls can trigger a double free.",
+    "Description": "Affected versions of sys-info use a static, global, list to store temporary disk information while running. The function that cleans up this list, DFCleanup, assumes a single threaded environment and will try to free the same memory twice in a multithreaded environment. This results in consistent double-frees and segfaults when calling sys_info::disk_info from multiple threads at once. The issue was fixed by moving the global variable into a local scope.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:58:15Z",
     "Severity": "CRITICAL",
     "Summary": "Double free in sys-info ",
-    "UpdatedAt": "2023-02-03T05:05:56Z",
+    "UpdatedAt": "2023-06-13T22:04:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

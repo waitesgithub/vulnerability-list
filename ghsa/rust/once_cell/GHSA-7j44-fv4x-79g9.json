@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-08-19T21:22:59Z",
+  "UpdatedAt": "2023-06-13T19:58:13Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "once_cell"
@@ -39,12 +39,12 @@
         "Value": "CVE-2019-16141"
       }
     ],
-    "Description": "An issue was discovered in the once_cell crate before 1.0.1 for Rust. There is a panic during initialization of Lazy.",
+    "Description": "If during the first dereference of Lazy the initialization function panics, subsequent dereferences will execute std::hints::unreachable_unchecked. Applications with panic = \"abort\" are not affected, as there will be no subsequent dereferences.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:44:18Z",
     "Severity": "HIGH",
     "Summary": "Improper Input Validation in once_cell",
-    "UpdatedAt": "2023-03-30T23:02:16Z",
+    "UpdatedAt": "2023-06-13T19:58:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -56,7 +56,7 @@
       "FirstPatchedVersion": {
         "Identifier": "1.0.1"
       },
-      "VulnerableVersionRange": "\u003c 1.0.1"
+      "VulnerableVersionRange": "\u003e= 0.2.5, \u003c 1.0.1"
     }
   ]
 }

@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0100.html"
       },
       {
+        "Url": "https://github.com/RustCrypto/hashes/pull/314"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-fc7x-2cmc-8j2g"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2021-45696"
       }
     ],
-    "Description": "An issue was discovered in the sha2 crate 0.9.7 before 0.9.8 for Rust. Hashes of long messages may be incorrect when the AVX2-accelerated backend is used.",
+    "Description": "The v0.9.7 release of the sha2 crate introduced a new AVX2-accelerated backend which was automatically enabled for all x86/x86_64 CPUs where AVX2 support was autodetected at runtime.\n\nThis backend was buggy and would miscompute results for long messages (i.e. messages spanning multiple SHA blocks).\n\nThe crate has since been yanked, but any users who upgraded to v0.9.7 should immediately upgrade to v0.9.8 and recompute any hashes which were previously computed by v0.9.7.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:10:26Z",
     "Severity": "CRITICAL",
     "Summary": "Incorrect hash in sha2",
-    "UpdatedAt": "2023-02-03T05:03:45Z",
+    "UpdatedAt": "2023-06-13T20:41:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

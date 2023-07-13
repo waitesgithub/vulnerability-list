@@ -38,6 +38,18 @@
         "Url": "http://www.openwall.com/lists/oss-security/2021/12/14/5"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2021-22881.yml"
+      },
+      {
+        "Url": "https://groups.google.com/g/rubyonrails-security/c/zN_3qA26l6E"
+      },
+      {
+        "Url": "https://github.com/rails/rails/commit/b5de7b3a4787d8a55aaad39f477c16e3af65e444"
+      },
+      {
+        "Url": "https://github.com/rails/rails/blob/v6.1.2.1/actionpack/CHANGELOG.md"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8877-prq4-9xfw"
       }
     ],
@@ -51,12 +63,12 @@
         "Value": "CVE-2021-22881"
       }
     ],
-    "Description": "The Host Authorization middleware in Action Pack before 6.1.2.1, 6.0.3.5 suffers from an open redirect vulnerability. Specially crafted `Host` headers in combination with certain \"allowed host\" formats can cause the Host Authorization middleware in Action Pack to redirect users to a malicious website. Impacted applications will have allowed hosts with a leading dot. When an allowed host contains a leading dot, a specially crafted `Host` header can be used to redirect to a malicious website.",
+    "Description": "The Host Authorization middleware in Action Pack before 6.1.2.1, 6.0.3.5 suffers from an open redirect vulnerability. Specially crafted `Host` headers in combination with certain \"allowed host\" formats can cause the Host Authorization middleware in Action Pack to redirect users to a malicious website. ",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-03-02T03:44:17Z",
     "Severity": "MODERATE",
-    "Summary": "Open Redirect in actionpack",
-    "UpdatedAt": "2023-02-01T05:05:16Z",
+    "Summary": "Actionpack Open Redirect Vulnerability ",
+    "UpdatedAt": "2023-07-03T22:06:03Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

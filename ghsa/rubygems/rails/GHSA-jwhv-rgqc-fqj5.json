@@ -54,6 +54,9 @@
       },
       {
         "Url": "http://www.vupen.com/english/advisories/2007/4238"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rails/CVE-2007-5380.yml"
       }
     ],
     "Identifiers": [
@@ -70,8 +73,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects rails",
-    "UpdatedAt": "2023-01-09T05:02:57Z",
+    "Summary": "Session fixation vulnerability in Rails ",
+    "UpdatedAt": "2023-05-11T13:50:53Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

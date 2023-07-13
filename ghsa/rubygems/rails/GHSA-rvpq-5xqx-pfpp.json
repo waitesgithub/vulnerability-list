@@ -42,6 +42,12 @@
       },
       {
         "Url": "http://www.vupen.com/english/advisories/2006/3237"
+      },
+      {
+        "Url": "https://github.com/presidentbeef/rails-security-history/blob/master/vulnerabilities.md"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rails/CVE-2006-4111.yml"
       }
     ],
     "Identifiers": [
@@ -58,8 +64,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects rails",
-    "UpdatedAt": "2023-01-09T05:03:23Z",
+    "Summary": "Ruby on Rails vulnerable to code injection",
+    "UpdatedAt": "2023-05-11T13:57:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

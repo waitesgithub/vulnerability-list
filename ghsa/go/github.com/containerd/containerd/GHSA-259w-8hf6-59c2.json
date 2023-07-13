@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-02-16T14:12:37Z",
+  "UpdatedAt": "2023-06-13T23:55:09Z",
   "Package": {
     "Ecosystem": "GO",
     "Name": "github.com/containerd/containerd"
@@ -47,7 +47,7 @@
     "PublishedAt": "2023-02-16T14:12:36Z",
     "Severity": "MODERATE",
     "Summary": "OCI image importer memory exhaustion in github.com/containerd/containerd",
-    "UpdatedAt": "2023-02-24T19:11:48Z",
+    "UpdatedAt": "2023-06-13T23:55:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,
@@ -57,15 +57,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.6.18"
+        "Identifier": "1.5.18"
       },
-      "VulnerableVersionRange": "\u003e= 1.6.0, \u003c 1.6.18"
+      "VulnerableVersionRange": "\u003c 1.5.18"
     },
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.5.18"
+        "Identifier": "1.6.18"
       },
-      "VulnerableVersionRange": "\u003c= 1.5.17"
+      "VulnerableVersionRange": "\u003e= 1.6.0, \u003c 1.6.18"
     }
   ]
 }

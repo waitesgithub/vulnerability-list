@@ -39,12 +39,12 @@
         "Value": "CVE-2016-10932"
       }
     ],
-    "Description": "An issue was discovered in the hyper crate before 0.9.4 for Rust on Windows. There is an HTTPS man-in-the-middle vulnerability because hostname verification was omitted.",
+    "Description": "When used on Windows platforms, all versions of Hyper prior to 0.9.4 did not perform hostname verification when making HTTPS requests.\n\nThis allows an attacker to perform MitM attacks by preventing any valid CA-issued certificate, even if there's a hostname mismatch.\n\nThe problem was addressed by leveraging rust-openssl's built-in support for hostname verification.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:43:06Z",
     "Severity": "MODERATE",
     "Summary": "HTTPS MitM vulnerability due to lack of hostname verification",
-    "UpdatedAt": "2023-03-31T15:57:52Z",
+    "UpdatedAt": "2023-06-13T17:38:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.8,

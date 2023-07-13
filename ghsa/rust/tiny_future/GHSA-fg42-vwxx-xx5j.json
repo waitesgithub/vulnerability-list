@@ -20,6 +20,12 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0118.html"
       },
       {
+        "Url": "https://github.com/KizzyCode/tiny_future/issues/1"
+      },
+      {
+        "Url": "https://github.com/KizzyCode/tiny_future-rust/commit/c7919199a0f6d1ce0e3c33499d1b37f862c990e4"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-fg42-vwxx-xx5j"
       }
     ],
@@ -33,12 +39,12 @@
         "Value": "CVE-2020-36438"
       }
     ],
-    "Description": "An issue was discovered in the tiny_future crate before 0.4.0 for Rust. Future\u003cT\u003e does not have bounds on its Send and Sync traits.\n",
+    "Description": "tiny_future contains a light-weight implementation of Futures. The Future type it has lacked bound on its Send and Sync traits. This allows for a bug where non-thread safe types such as Cell can be used in Futures and cause data races in concurrent programs. The flaw was corrected in commit `c791919` by adding trait bounds to Future's Send and Sync.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:58:53Z",
     "Severity": "HIGH",
     "Summary": "Data race in tiny_future",
-    "UpdatedAt": "2023-01-27T05:00:52Z",
+    "UpdatedAt": "2023-06-13T22:05:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

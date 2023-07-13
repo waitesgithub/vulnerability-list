@@ -29,6 +29,9 @@
         "Url": "https://github.com/hashicorp/vault/releases/tag/v1.13.1"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230526-0008/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-v3hp-mcj5-pg39"
       }
     ],
@@ -47,7 +50,7 @@
     "PublishedAt": "2023-03-30T03:30:38Z",
     "Severity": "MODERATE",
     "Summary": "HashiCorp Vault’s Microsoft SQL Database Storage Backend Vulnerable to SQL Injection Via Configuration File",
-    "UpdatedAt": "2023-04-06T22:55:58Z",
+    "UpdatedAt": "2023-05-26T21:48:42Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.7,

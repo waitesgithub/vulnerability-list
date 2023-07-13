@@ -36,12 +36,12 @@
         "Value": "CVE-2021-3663"
       }
     ],
-    "Description": "firefly-iii is vulnerable to Improper Restriction of Excessive Authentication Attempts",
+    "Description": "firefly-iii is vulnerable to Improper Lack of Restriction of Excessive Authentication Attempts",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-09T20:38:37Z",
     "Severity": "MODERATE",
-    "Summary": " Improper Restriction of Excessive Authentication Attempts",
-    "UpdatedAt": "2023-02-01T05:05:55Z",
+    "Summary": " No Restriction of Excessive Authentication Attempts in Firefly III",
+    "UpdatedAt": "2023-07-06T21:34:26Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,

@@ -33,12 +33,12 @@
         "Value": "CVE-2020-36466"
       }
     ],
-    "Description": "An issue was discovered in the cgc crate through 2020-12-10 for Rust. Ptr implements Send and Sync for all types.",
+    "Description": "An issue was discovered in the cgc crate through 2020-12-10 for Rust. Ptr implements Send and Sync for all types",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:56:14Z",
     "Severity": "MODERATE",
     "Summary": "Data races in cgc",
-    "UpdatedAt": "2023-02-01T05:05:56Z",
+    "UpdatedAt": "2023-06-13T17:07:44Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,

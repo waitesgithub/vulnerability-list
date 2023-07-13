@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-20T22:46:47Z",
+  "UpdatedAt": "2023-05-30T19:35:38Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.jenkins-ci.plugins.workflow:workflow-cps-global-lib"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-02-16T00:01:35Z",
     "Severity": "MODERATE",
     "Summary": "Improper Link Resolution Before File Access in Jenkins Pipeline: Shared Groovy Libraries Plugin",
-    "UpdatedAt": "2023-01-27T05:00:35Z",
+    "UpdatedAt": "2023-05-30T19:35:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
@@ -45,9 +45,21 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "2.18.1"
+      },
+      "VulnerableVersionRange": "\u003c 2.18.1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.21.1"
+      },
+      "VulnerableVersionRange": "\u003e= 2.19, \u003c 2.21.1"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "561.va_ce0de3c2d69"
       },
-      "VulnerableVersionRange": "\u003c= 552.vd9cc05b8a2e1"
+      "VulnerableVersionRange": "\u003e= 2.22, \u003c= 552.vd9cc05b8a2e1"
     }
   ]
 }

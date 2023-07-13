@@ -23,6 +23,9 @@
         "Url": "https://github.com/xfix/enum-map/blob/master/CHANGELOG.md#version-202"
       },
       {
+        "Url": "https://gitlab.com/KonradBorowski/enum-map/-/blob/master/CHANGELOG.md#version-202"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-rxhx-9fj6-6h2m"
       }
     ],
@@ -37,7 +40,7 @@
     "PublishedAt": "2022-06-16T23:53:32Z",
     "Severity": "HIGH",
     "Summary": "enum_map macro can cause UB when `Enum` trait is incorrectly implemented",
-    "UpdatedAt": "2023-01-12T05:01:04Z",
+    "UpdatedAt": "2023-06-13T17:27:37Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

@@ -33,12 +33,12 @@
         "Value": "CVE-2022-0596"
       }
     ],
-    "Description": "Business Logic Errors in Packagist microweber/microweber prior to 1.2.11.",
+    "Description": "Microweber prior to version 1.2.11 can have a negative product amount. This could allow an attacker to manipulate the total value and get products for free.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-02-16T00:01:45Z",
     "Severity": "MODERATE",
-    "Summary": "Business Logic Errors in microweber",
-    "UpdatedAt": "2023-02-03T05:06:05Z",
+    "Summary": "Microweber vulnerable to Improper Validation of Specified Quantity in Input",
+    "UpdatedAt": "2023-06-30T20:09:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,

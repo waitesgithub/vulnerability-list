@@ -26,6 +26,9 @@
         "Url": "https://www.debian.org/security/2022/dsa-5246"
       },
       {
+        "Url": "https://security.gentoo.org/glsa/202305-24"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-q559-8m2m-g699"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2022-06-21T20:07:16Z",
     "Severity": "HIGH",
     "Summary": "Change in port should be considered a change in origin",
-    "UpdatedAt": "2023-01-28T05:02:18Z",
+    "UpdatedAt": "2023-05-22T20:28:14Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.7,

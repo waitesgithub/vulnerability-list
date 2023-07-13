@@ -26,6 +26,9 @@
         "Url": "http://www.openwall.com/lists/oss-security/2023/05/02/1"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/pyspark/PYSEC-2023-72.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-59hw-j9g6-mfg3"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2023-05-02T09:30:17Z",
     "Severity": "HIGH",
     "Summary": "Apache Spark UI vulnerable to Command Injection",
-    "UpdatedAt": "2023-05-02T16:51:05Z",
+    "UpdatedAt": "2023-06-06T18:22:52Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

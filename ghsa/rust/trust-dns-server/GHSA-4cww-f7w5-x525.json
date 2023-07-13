@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-08-19T21:20:03Z",
+  "UpdatedAt": "2023-06-13T22:25:57Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "trust-dns-server"
@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35857"
       }
     ],
-    "Description": "An issue was discovered in the trust-dns-server crate before 0.18.1 for Rust. DNS MX and SRV null targets are mishandled, causing stack consumption.",
+    "Description": "There's a stack overflow leading to a crash and potential DOS when processing additional records for return of MX or SRV record types from the server. This is only possible when a zone is configured with a null target for MX or SRV records. Prior to 0.16.0 the additional record processing was not supported by trust-dns-server. There Are no known issues with upgrading from 0.16 or 0.17 to 0.18.1. The remidy should be to upgrade to 0.18.1. If unable to do so, MX, SRV or other record types with a target to the null type, should be avoided.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:46:13Z",
     "Severity": "HIGH",
     "Summary": "Stack consumption in trust-dns-server",
-    "UpdatedAt": "2023-01-11T05:06:01Z",
+    "UpdatedAt": "2023-06-13T22:25:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.18.1"
       },
-      "VulnerableVersionRange": "\u003c 0.18.1"
+      "VulnerableVersionRange": "\u003e= 0.16.0, \u003c 0.18.1"
     }
   ]
 }

@@ -30,12 +30,12 @@
         "Value": "CVE-2020-35878"
       }
     ],
-    "Description": "An issue was discovered in the ozone crate through 2020-07-04 for Rust. Memory safety is violated because of the dropping of uninitialized memory.",
+    "Description": "An issue was discovered in the ozone crate through version 0.1.0 for Rust. Memory safety is violated because of the dropping of uninitialized memory.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:47:41Z",
     "Severity": "CRITICAL",
     "Summary": "Drop of uninitialized memory in Ozone",
-    "UpdatedAt": "2023-01-09T05:05:35Z",
+    "UpdatedAt": "2023-06-13T19:52:21Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

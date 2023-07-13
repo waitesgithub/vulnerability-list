@@ -14,9 +14,6 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2012-2695"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-76wq-xw4h-f8wj"
-      },
-      {
         "Url": "https://groups.google.com/group/rubyonrails-security/msg/aee3413fb038bf56?dmode=source\u0026output=gplain"
       },
       {
@@ -33,6 +30,15 @@
       },
       {
         "Url": "http://rhn.redhat.com/errata/RHSA-2013-0154.html"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activerecord/CVE-2012-2695.yml"
+      },
+      {
+        "Url": "https://groups.google.com/g/rubyonrails-security/c/l4L0TEVAz1k/m/Vr84sD9B464J"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-76wq-xw4h-f8wj"
       }
     ],
     "Identifiers": [
@@ -49,8 +55,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects activerecord",
-    "UpdatedAt": "2023-01-09T05:02:35Z",
+    "Summary": "activerecord vulnerable to SQL Injection",
+    "UpdatedAt": "2023-05-12T17:04:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

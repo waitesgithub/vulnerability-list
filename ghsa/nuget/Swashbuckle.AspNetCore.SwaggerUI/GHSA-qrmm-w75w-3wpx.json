@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-01-06T20:17:42Z",
+  "UpdatedAt": "2023-06-02T21:23:46Z",
   "Package": {
     "Ecosystem": "NUGET",
     "Name": "Swashbuckle.AspNetCore.SwaggerUI"
@@ -37,7 +37,7 @@
     "PublishedAt": "2021-12-09T19:08:38Z",
     "Severity": "MODERATE",
     "Summary": "Server side request forgery in SwaggerUI",
-    "UpdatedAt": "2023-01-06T20:17:42Z",
+    "UpdatedAt": "2023-06-02T21:23:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
@@ -47,9 +47,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "6.4"
+        "Identifier": "6.3.0"
       },
-      "VulnerableVersionRange": "\u003c 6.4"
+      "VulnerableVersionRange": "\u003c 6.3.0"
     }
   ]
 }

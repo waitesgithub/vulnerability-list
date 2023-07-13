@@ -20,6 +20,12 @@
         "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/nbconvert/PYSEC-2022-249.yaml"
       },
       {
+        "Url": "https://github.com/jupyter/nbviewer/security/advisories/GHSA-h274-fcvj-h2wm"
+      },
+      {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00003.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-9jmq-rx5f-8jwq"
       }
     ],
@@ -38,7 +44,7 @@
     "PublishedAt": "2022-08-10T17:51:53Z",
     "Severity": "MODERATE",
     "Summary": "nbconvert vulnerable to cross-site scripting (XSS) via multiple exploit paths",
-    "UpdatedAt": "2023-01-28T05:04:11Z",
+    "UpdatedAt": "2023-06-06T17:24:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

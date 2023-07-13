@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-08-19T18:45:16Z",
+  "UpdatedAt": "2023-06-13T18:15:14Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "lazy-init"
@@ -38,7 +38,7 @@
     "PublishedAt": "2021-08-25T20:52:59Z",
     "Severity": "MODERATE",
     "Summary": "Out of bounds read in lazy-init",
-    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "UpdatedAt": "2023-06-13T18:15:14Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
@@ -48,9 +48,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.5.0"
+        "Identifier": "0.4.0"
       },
-      "VulnerableVersionRange": "\u003c 0.5.0"
+      "VulnerableVersionRange": "\u003c 0.4.0"
     }
   ]
 }

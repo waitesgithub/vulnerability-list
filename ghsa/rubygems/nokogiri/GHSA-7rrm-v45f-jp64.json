@@ -14,6 +14,12 @@
         "Url": "https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-7rrm-v45f-jp64"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3541"
+      },
+      {
+        "Url": "https://github.com/sparklemotion/nokogiri/commit/9b90a8854f74b5f672a437ba0043a503bc259d1b"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-7rrm-v45f-jp64"
       }
     ],
@@ -27,8 +33,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-05-17T20:52:05Z",
     "Severity": "MODERATE",
-    "Summary": "Update packaged dependency libxml2 from 2.9.10 to 2.9.12",
-    "UpdatedAt": "2023-01-09T05:04:29Z",
+    "Summary": "Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12",
+    "UpdatedAt": "2023-07-07T17:19:16Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

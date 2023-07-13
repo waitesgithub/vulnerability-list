@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T21:21:37Z",
+  "UpdatedAt": "2023-06-13T20:26:15Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "rgb"
@@ -33,12 +33,12 @@
         "Value": "CVE-2020-25016"
       }
     ],
-    "Description": "A safety violation was discovered in the rgb crate before 0.8.20 for Rust, leading to (for example) dereferencing of arbitrary pointers or disclosure of uninitialized memory. This occurs because structs can be treated as bytes for read and write operations.",
+    "Description": "Affected versions of rgb crate allow viewing and modifying data of any type T wrapped in RGB\u003cT\u003e as bytes, and do not correctly constrain RGB\u003cT\u003e and other wrapper structures to the types for which it is safe to do so.\n\nSafety violation possible for a type wrapped in RGB\u003cT\u003e and similar wrapper structures:\n\n* If T contains padding, viewing it as bytes may lead to exposure of contents of uninitialized memory.\n* If T contains a pointer, modifying it as bytes may lead to dereferencing of arbitrary pointers.\n* Any safety and/or validity invariants for T may be violated.\n\nThe issue was resolved by requiring all types wrapped in structures provided by RGB crate to implement an unsafe marker trait.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:45:12Z",
     "Severity": "CRITICAL",
     "Summary": "Out of bounds access in rgb",
-    "UpdatedAt": "2023-01-11T05:06:01Z",
+    "UpdatedAt": "2023-06-13T20:26:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.1,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.8.20"
       },
-      "VulnerableVersionRange": "\u003c 0.8.20"
+      "VulnerableVersionRange": "\u003e= 0.5.4, \u003c 0.8.20"
     }
   ]
 }

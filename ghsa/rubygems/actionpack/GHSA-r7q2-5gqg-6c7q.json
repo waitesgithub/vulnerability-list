@@ -20,9 +20,6 @@
         "Url": "https://bugzilla.redhat.com/show_bug.cgi?id=731432"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-r7q2-5gqg-6c7q"
-      },
-      {
         "Url": "http://groups.google.com/group/rubyonrails-security/msg/cbbbba6e4f7eaf61?dmode=source\u0026output=gplain"
       },
       {
@@ -51,6 +48,15 @@
       },
       {
         "Url": "http://www.openwall.com/lists/oss-security/2011/08/22/5"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2011-2929.yml"
+      },
+      {
+        "Url": "https://rubyonrails.org/2011/8/16/ann-rails-3-1-0-rc6"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-r7q2-5gqg-6c7q"
       }
     ],
     "Identifiers": [
@@ -63,12 +69,12 @@
         "Value": "CVE-2011-2929"
       }
     ],
-    "Description": "The template selection functionality in actionpack/lib/action_view/template/resolver.rb in Ruby on Rails 3.0.x before 3.0.10 and 3.1.x before 3.1.0.rc6 does not properly handle glob characters, which allows remote attackers to render arbitrary views via a crafted URL, related to a \"filter skipping vulnerability.\"",
+    "Description": "The template selection functionality in `actionpack/lib/action_view/template/resolver.rb` in Ruby on Rails 3.0.x before 3.0.10 and 3.1.x before 3.1.0.rc6 does not properly handle glob characters, which allows remote attackers to render arbitrary views via a crafted URL, related to a \"filter skipping vulnerability.\"",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects actionpack",
-    "UpdatedAt": "2023-01-09T05:03:35Z",
+    "Summary": "actionpack Improper Input Validation vulnerability",
+    "UpdatedAt": "2023-05-21T05:00:39Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

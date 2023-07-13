@@ -52,8 +52,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-02-07T22:59:30Z",
     "Severity": "LOW",
-    "Summary": "Improper Input Validation in etcd",
-    "UpdatedAt": "2023-02-08T22:42:40Z",
+    "Summary": "Panic due to malformed WALs in go.etcd.io/etcd",
+    "UpdatedAt": "2023-06-13T23:48:33Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 3.7,

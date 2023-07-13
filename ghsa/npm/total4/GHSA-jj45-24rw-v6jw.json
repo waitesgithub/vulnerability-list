@@ -1,5 +1,5 @@
 {
-  "Severity": "HIGH",
+  "Severity": "MODERATE",
   "UpdatedAt": "2023-05-05T02:17:47Z",
   "Package": {
     "Ecosystem": "NPM",
@@ -45,13 +45,13 @@
     "Description": "A stored cross-site scripting (XSS) vulnerability in TotalJS allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the platform name field in the settings module.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-05-04T21:30:27Z",
-    "Severity": "HIGH",
+    "Severity": "MODERATE",
     "Summary": "Cross-site scripting in TotalJS",
-    "UpdatedAt": "2023-05-10T17:20:28Z",
+    "UpdatedAt": "2023-05-11T14:07:32Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [

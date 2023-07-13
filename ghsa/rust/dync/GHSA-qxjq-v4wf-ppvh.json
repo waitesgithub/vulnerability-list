@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35903"
       }
     ],
-    "Description": "An issue was discovered in the dync crate before 0.5.0 for Rust. VecCopy allows misaligned element access because u8 is not always the type in question.",
+    "Description": "VecCopy::data is created as a Vec of u8 but can be used to store and retrieve elements of different types leading to misaligned access.\n\nThe issue was resolved in v0.5.0 by replacing data being stored by Vec\u003cu8\u003e with a custom managed pointer. Elements are now stored and retrieved using types with proper alignment corresponding to original types.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:49:47Z",
     "Severity": "MODERATE",
     "Summary": "Out of bounds read in dync",
-    "UpdatedAt": "2023-01-27T05:00:32Z",
+    "UpdatedAt": "2023-06-13T17:12:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,

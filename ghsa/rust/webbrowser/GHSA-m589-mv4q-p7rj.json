@@ -20,6 +20,9 @@
         "Url": "https://github.com/amodm/webbrowser-rs/releases/tag/v0.8.3"
       },
       {
+        "Url": "https://github.com/amodm/webbrowser-rs/commit/431b5139e274b7e456bea27e768aaa121b97be4c"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-m589-mv4q-p7rj"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2023-01-13T21:30:26Z",
     "Severity": "CRITICAL",
     "Summary": "webbrowser-rs allows attackers to access arbitrary files via supplying a crafted URL",
-    "UpdatedAt": "2023-01-23T18:49:44Z",
+    "UpdatedAt": "2023-05-22T18:36:54Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

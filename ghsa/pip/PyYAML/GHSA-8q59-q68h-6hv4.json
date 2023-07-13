@@ -32,6 +32,12 @@
         "Url": "https://www.oracle.com/security-alerts/cpujul2022.html"
       },
       {
+        "Url": "https://github.com/SeldonIO/seldon-core/issues/2252"
+      },
+      {
+        "Url": "https://github.com/yaml/pyyaml/issues/420"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8q59-q68h-6hv4"
       }
     ],
@@ -50,7 +56,7 @@
     "PublishedAt": "2021-03-25T21:26:26Z",
     "Severity": "CRITICAL",
     "Summary": "Improper Input Validation in PyYAML",
-    "UpdatedAt": "2023-01-27T05:02:44Z",
+    "UpdatedAt": "2023-07-06T19:31:39Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

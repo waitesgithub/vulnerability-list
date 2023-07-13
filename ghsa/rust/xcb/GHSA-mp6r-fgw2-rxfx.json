@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-06-14T20:21:56Z",
+  "UpdatedAt": "2023-06-13T22:28:56Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "xcb"
@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0019.html"
       },
       {
+        "Url": "https://github.com/rust-x-bindings/rust-xcb/issues/95"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-mp6r-fgw2-rxfx"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2021-26956"
       }
     ],
-    "Description": "An issue was discovered in the xcb crate through 2021-02-04 for Rust. It has a soundness violation because bytes from an X server can be interpreted as any data type returned by xcb::xproto::GetPropertyReply::value.",
+    "Description": "The function xcb::xproto::GetPropertyReply::value() returns a slice of type T where T is an unconstrained type parameter. The raw bytes received from the X11 server are interpreted as the requested type. The users of the xcb crate are advised to only call this function with the intended types. These are u8, u16, and u32.\n\nThis issue is tracked here: https://github.com/rust-x-bindings/rust-xcb/issues/95",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:53:27Z",
     "Severity": "CRITICAL",
-    "Summary": "Multiple soundness issues",
-    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "Summary": "Arbitrary return types in xcb",
+    "UpdatedAt": "2023-06-13T22:28:56Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-08-19T21:25:19Z",
+  "UpdatedAt": "2023-06-13T17:39:47Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "hyper"
@@ -33,12 +33,12 @@
         "Value": "CVE-2017-18587"
       }
     ],
-    "Description": "An issue was discovered in the hyper crate before 0.9.18 for Rust. It mishandles newlines in headers.",
+    "Description": "Serializing of headers to the socket did not filter the values for newline bytes (\\r or \\n), which allowed for header values to split a request or response. People would not likely include newlines in the headers in their own applications, so the way for most people to exploit this is if an application constructs headers based on unsanitized user input.\n\nThis issue was fixed by replacing all newline characters with a space during serialization of a header value.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:43:04Z",
     "Severity": "MODERATE",
     "Summary": "Headers containing newline characters can split messages in hyper",
-    "UpdatedAt": "2023-01-27T05:00:33Z",
+    "UpdatedAt": "2023-06-13T17:39:47Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
@@ -48,9 +48,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "0.9.18"
+      },
+      "VulnerableVersionRange": "\u003c 0.9.18"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "0.10.2"
       },
-      "VulnerableVersionRange": "\u003c 0.10.2"
+      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c 0.10.2"
     }
   ]
 }

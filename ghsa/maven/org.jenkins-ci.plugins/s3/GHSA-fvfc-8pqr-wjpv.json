@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-05-19T19:02:06Z",
+  "UpdatedAt": "2023-05-24T14:43:36Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.jenkins-ci.plugins:s3"
@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2021-05-11/#SECURITY-2200"
       },
       {
+        "Url": "https://github.com/CVEProject/cvelist/blob/2d78eb36f4d084db7fb35f1535d8d84fdcb7d859/2021/21xxx/CVE-2021-21650.json"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-fvfc-8pqr-wjpv"
       }
     ],
@@ -30,12 +33,12 @@
         "Value": "CVE-2021-21650"
       }
     ],
-    "Description": "Jenkins S3 publisher Plugin 0.11.6 and earlier does not perform Run/Artifacts permission checks in various HTTP endpoints and API models, allowing attackers with Item/Read permission to obtain information about artifacts uploaded to S3, if the optional Run/Artifacts permission is enabled.",
+    "Description": "Jenkins S3 publisher Plugin prior to 0.11.7 and 0.11.5.1 does not perform Run/Artifacts permission checks in various HTTP endpoints and API models.\n\nThis allows attackers with Item/Read permission to obtain information about artifacts uploaded to S3, if the optional Run/Artifacts permission is enabled.\n\nS3 publisher Plugin 0.11.7 and 0.11.5.1 requires Run/Artifacts permission to obtain information about artifacts if this permission is enabled.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-06-16T17:29:08Z",
     "Severity": "MODERATE",
     "Summary": "Missing Authorization in Jenkins S3 publisher Plugin",
-    "UpdatedAt": "2023-02-01T05:05:53Z",
+    "UpdatedAt": "2023-05-24T14:43:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
@@ -45,9 +48,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "0.11.5.1"
+      },
+      "VulnerableVersionRange": "\u003c 0.11.5.1"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "0.11.7"
       },
-      "VulnerableVersionRange": "\u003c 0.11.7"
+      "VulnerableVersionRange": "= 0.11.6"
     }
   ]
 }

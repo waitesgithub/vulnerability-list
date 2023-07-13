@@ -32,6 +32,12 @@
         "Url": "https://security.netapp.com/advisory/ntap-20210805-0009/"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activerecord/CVE-2021-22880.yml"
+      },
+      {
+        "Url": "https://groups.google.com/g/rubyonrails-security/c/ZzUqCh9vyhI"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8hc4-xxm3-5ppp"
       }
     ],
@@ -49,8 +55,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-03-02T03:44:14Z",
     "Severity": "HIGH",
-    "Summary": "Active Record subject to Regular Expression Denial-of-Service",
-    "UpdatedAt": "2023-03-14T00:18:27Z",
+    "Summary": "Active Record subject to Regular Expression Denial-of-Service (ReDoS)",
+    "UpdatedAt": "2023-07-03T22:08:31Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

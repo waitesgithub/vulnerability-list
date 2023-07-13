@@ -33,16 +33,16 @@
         "Value": "CVE-2022-23118"
       }
     ],
-    "Description": "Jenkins Debian Package Builder Plugin 1.6.11 and earlier implements functionality that allows agents to invoke command-line `git` at an attacker-specified path on the controller, allowing attackers able to control agent processes to invoke arbitrary OS commands on the controller.",
+    "Description": "Jenkins Debian Package Builder Plugin 1.6.11 and earlier implements functionality that allows agent processes to invoke command-line git at an attacker-specified path on the controller.\n\nThis allows attackers able to control agent processes to invoke arbitrary OS commands on the controller.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-13T00:00:52Z",
     "Severity": "HIGH",
     "Summary": "Agent-to-controller security bypass in Jenkins Debian Package Builder Plugin",
-    "UpdatedAt": "2023-02-03T05:04:27Z",
+    "UpdatedAt": "2023-06-27T22:31:33Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

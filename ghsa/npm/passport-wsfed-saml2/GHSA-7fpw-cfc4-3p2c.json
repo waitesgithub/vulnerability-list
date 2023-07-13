@@ -24,19 +24,15 @@
       {
         "Type": "GHSA",
         "Value": "GHSA-7fpw-cfc4-3p2c"
-      },
-      {
-        "Type": "CVE",
-        "Value": "CVE-2017-16897"
       }
     ],
-    "Description": "A vulnerability has been discovered in the Auth0 passport-wsfed-saml2 library affecting versions \u003c 3.0.5. This vulnerability allows an attacker to impersonate another user and potentially elevate their privileges if the SAML identity provider does not sign the full SAML response (e.g., only signs the assertion within the response).",
+    "Description": "## Duplicate advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-77fw-rf4v-vfp9. This link is maintained to preserve external references.\n\n## Original Description\nA vulnerability has been discovered in the Auth0 passport-wsfed-saml2 library affecting versions \u003c 3.0.5. This vulnerability allows an attacker to impersonate another user and potentially elevate their privileges if the SAML identity provider does not sign the full SAML response (e.g., only signs the assertion within the response).",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-12-28T22:51:45Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects passport-wsfed-saml2",
-    "UpdatedAt": "2023-01-09T05:02:45Z",
-    "WithdrawnAt": "",
+    "Summary": "Duplicate advisory: High severity vulnerability that affects passport-wsfed-saml2",
+    "UpdatedAt": "2023-06-21T22:00:10Z",
+    "WithdrawnAt": "2023-06-21T22:00:08Z",
     "CVSS": {
       "Score": 8.1,
       "VectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"

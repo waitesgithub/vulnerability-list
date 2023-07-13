@@ -17,10 +17,13 @@
         "Url": "https://snyk.io/vuln/npm:react:20131217"
       },
       {
-        "Url": "https://www.npmjs.com/advisories/1420"
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2013-7035"
       },
       {
-        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2013-7035"
+        "Url": "https://github.com/facebook/react/commit/393a889aaceb761f058b09a701f889fa8f8b4e64"
+      },
+      {
+        "Url": "https://github.com/facebook/react/commit/94a9a3e752fe089ab23f3a90c26d20d46d62ab10"
       },
       {
         "Url": "https://github.com/advisories/GHSA-g53w-52xc-2j85"
@@ -41,7 +44,7 @@
     "PublishedAt": "2020-09-04T16:52:57Z",
     "Severity": "MODERATE",
     "Summary": "Cross-Site Scripting in react",
-    "UpdatedAt": "2023-01-09T05:04:12Z",
+    "UpdatedAt": "2023-05-22T18:28:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-12-17T19:38:01Z",
+  "UpdatedAt": "2023-06-13T17:04:29Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "crossbeam-channel"
@@ -47,7 +47,7 @@
     "PublishedAt": "2021-08-25T21:01:13Z",
     "Severity": "HIGH",
     "Summary": "crossbeam-channel Undefined Behavior before v0.4.4",
-    "UpdatedAt": "2023-01-29T05:02:54Z",
+    "UpdatedAt": "2023-06-13T17:04:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
@@ -59,7 +59,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.4.4"
       },
-      "VulnerableVersionRange": "\u003c 0.4.4"
+      "VulnerableVersionRange": "= 0.4.3"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "Severity": "LOW",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-03-14T23:01:51Z",
   "Package": {
     "Ecosystem": "GO",
@@ -20,6 +20,9 @@
         "Url": "https://pkg.go.dev/vuln/GO-2023-1631"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24535"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-hw7c-3rfg-p46j"
       }
     ],
@@ -36,13 +39,13 @@
     "Description": "Parsing invalid messages can panic.\n\nParsing a text-format message which contains a potential number consisting of a minus sign, one or more characters of whitespace, and no further input will cause a panic.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-03-14T23:01:50Z",
-    "Severity": "LOW",
+    "Severity": "HIGH",
     "Summary": "Panic leading to denial of service",
-    "UpdatedAt": "2023-03-14T23:01:51Z",
+    "UpdatedAt": "2023-06-16T17:45:51Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   },
   "Versions": [

@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-04-07T23:15:23Z",
+  "UpdatedAt": "2023-06-09T19:53:20Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "puppet"
@@ -17,6 +17,9 @@
         "Url": "https://puppet.com/security/cve/CVE-2020-7942/"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/puppet/CVE-2020-7942.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-gqvf-892r-vjm5"
       }
     ],
@@ -30,12 +33,12 @@
         "Value": "CVE-2020-7942"
       }
     ],
-    "Description": "Previously, Puppet operated on a model that a node with a valid certificate was entitled to all information in the system and that a compromised certificate allowed access to everything in the infrastructure. When a node's catalog falls back to the `default` node, the catalog can be retrieved for a different node by modifying facts for the Puppet run. This issue can be mitigated by setting `strict_hostname_checking = true` in `puppet.conf` on your Puppet master. Puppet 6.13.0 changes the default behavior for strict_hostname_checking from false to true. It is recommended that Puppet Open Source and Puppet Enterprise users that are not upgrading still set strict_hostname_checking to true to ensure secure behavior.",
+    "Description": "Previously, Puppet operated on the model that a node with a valid certificate was entitled to all information in the system and that a compromised certificate allowed access to everything in the infrastructure. When a node's catalog falls back to the `default` node, the catalog can be retrieved for a different node by modifying facts for the Puppet run. This issue can be mitigated by setting `strict_hostname_checking = true` in `puppet.conf` on your Puppet master. Puppet 6.13.0 changes the default behavior for strict_hostname_checking from false to true. It is recommended that Puppet Open Source and Puppet Enterprise users that are not upgrading still set strict_hostname_checking to true to ensure secure behavior.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-04-13T15:42:19Z",
     "Severity": "MODERATE",
     "Summary": "Improper Certificate Validation in Puppet",
-    "UpdatedAt": "2023-02-01T05:05:14Z",
+    "UpdatedAt": "2023-07-05T19:26:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
@@ -45,9 +48,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "5.5.19"
+      },
+      "VulnerableVersionRange": "\u003c 5.5.19"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "6.13.0"
       },
-      "VulnerableVersionRange": "\u003c 6.13.0"
+      "VulnerableVersionRange": "\u003e= 6.0.0, \u003c 6.13.0"
     }
   ]
 }

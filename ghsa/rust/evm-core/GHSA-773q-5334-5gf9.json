@@ -17,6 +17,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0066.html"
       },
       {
+        "Url": "https://github.com/rust-blockchain/evm"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-773q-5334-5gf9"
       }
     ],
@@ -31,7 +34,7 @@
     "PublishedAt": "2021-08-25T20:55:36Z",
     "Severity": "MODERATE",
     "Summary": "Memory over-allocation in evm-core",
-    "UpdatedAt": "2023-01-11T05:05:28Z",
+    "UpdatedAt": "2023-06-13T17:20:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

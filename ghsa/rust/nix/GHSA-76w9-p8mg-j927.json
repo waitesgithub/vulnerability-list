@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-01-05T23:13:24Z",
+  "UpdatedAt": "2023-06-13T18:32:57Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "nix"
@@ -23,6 +23,9 @@
         "Url": "https://github.com/advisories/GHSA-wgrg-5h56-jg27"
       },
       {
+        "Url": "https://github.com/nix-rust/nix/issues/1541"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-76w9-p8mg-j927"
       }
     ],
@@ -36,12 +39,12 @@
         "Value": "CVE-2021-45707"
       }
     ],
-    "Description": "An issue was discovered in the nix crate before 0.20.2, 0.21.x before 0.21.2, and 0.22.x before 0.22.2 for Rust. unistd::getgrouplist has an out-of-bounds write if a user is in more than 16 /etc/groups groups.",
+    "Description": "On certain platforms, if a user has more than 16 groups, the nix::unistd::getgrouplist function will call the libc getgrouplist function with a length parameter greater than the size of the buffer it provides, resulting in an out-of-bounds write and memory corruption.\n\nThe libc getgrouplist function takes an in/out parameter ngroups specifying the size of the group buffer. When the buffer is too small to hold all of the requested user's group memberships, some libc implementations, including glibc and Solaris libc, will modify ngroups to indicate the actual number of groups for the user, in addition to returning an error. The version of nix::unistd::getgrouplist in nix 0.16.0 and up will resize the buffer to twice its size, but will not read or modify the ngroups variable. Thus, if the user has more than twice as many groups as the initial buffer size of 8, the next call to getgrouplist will then write past the end of the buffer.\n\nThe issue would require editing /etc/groups to exploit, which is usually only editable by the root user.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:07:14Z",
     "Severity": "CRITICAL",
     "Summary": "Out-of-bounds Write in nix",
-    "UpdatedAt": "2023-01-30T05:02:18Z",
+    "UpdatedAt": "2023-06-13T18:32:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -49,6 +52,12 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.20.2"
+      },
+      "VulnerableVersionRange": "\u003e= 0.16.0, \u003c 0.20.2"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "0.22.2"
@@ -60,12 +69,6 @@
         "Identifier": "0.21.2"
       },
       "VulnerableVersionRange": "\u003e= 0.21.0, \u003c 0.21.2"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.20.2"
-      },
-      "VulnerableVersionRange": "\u003c 0.20.2"
     }
   ]
 }

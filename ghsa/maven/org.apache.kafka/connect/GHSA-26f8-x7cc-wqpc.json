@@ -23,6 +23,9 @@
         "Url": "https://hackerone.com/reports/1529790"
       },
       {
+        "Url": "http://packetstormsecurity.com/files/173151/Apache-Druid-JNDI-Injection-Remote-Code-Execution.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-26f8-x7cc-wqpc"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2023-02-07T21:30:23Z",
     "Severity": "HIGH",
     "Summary": "Apache Kafka Connect vulnerable to Deserialization of Untrusted Data",
-    "UpdatedAt": "2023-02-16T19:07:41Z",
+    "UpdatedAt": "2023-06-27T21:56:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

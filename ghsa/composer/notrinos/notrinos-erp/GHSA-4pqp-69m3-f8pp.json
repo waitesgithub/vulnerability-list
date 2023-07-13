@@ -42,12 +42,12 @@
         "Value": "CVE-2023-24788"
       }
     ],
-    "Description": "NotrinosERP v0.7 was discovered to contain a SQL injection vulnerability via the OrderNumber parameter at `/NotrinosERP/sales/customer_delivery.php`.",
+    "Description": "NotrinosERP v0.7 was discovered to contain a SQL injection vulnerability via the OrderNumber parameter at `/NotrinosERP/sales/customer_delivery.php`. ",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-03-23T21:30:19Z",
     "Severity": "HIGH",
     "Summary": "NotrinosERP vulnerable to SQL Injection",
-    "UpdatedAt": "2023-04-10T21:34:14Z",
+    "UpdatedAt": "2023-05-11T20:58:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

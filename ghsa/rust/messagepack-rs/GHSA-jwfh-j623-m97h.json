@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0092.html"
       },
       {
+        "Url": "https://github.com/otake84/messagepack-rs/issues/2"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-jwfh-j623-m97h"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-01-06T22:12:35Z",
     "Severity": "CRITICAL",
     "Summary": "Use of Uninitialized Resource in messagepack-rs",
-    "UpdatedAt": "2023-02-03T05:03:52Z",
+    "UpdatedAt": "2023-06-13T18:39:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0082.html"
       },
       {
+        "Url": "https://github.com/Eolu/vec-const/issues/1#issuecomment-898908241"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-x76r-966h-5qv9"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-01-06T22:15:56Z",
     "Severity": "HIGH",
     "Summary": "Out-of-bounds Write in vec-const",
-    "UpdatedAt": "2023-02-03T05:03:47Z",
+    "UpdatedAt": "2023-06-13T22:24:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

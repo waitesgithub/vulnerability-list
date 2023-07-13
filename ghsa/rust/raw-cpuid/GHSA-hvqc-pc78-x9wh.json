@@ -36,12 +36,12 @@
         "Value": "CVE-2021-26306"
       }
     ],
-    "Description": "An issue was discovered in the raw-cpuid crate before 9.0.0 for Rust. It has unsound transmute calls within as_string() methods.",
+    "Description": "VendorInfo::as_string(), SoCVendorBrand::as_string(), and ExtendedFunctionInfo::processor_brand_string() construct byte slices using std::slice::from_raw_parts(), with data coming from #[repr(Rust)] structs. This is always undefined behavior.\nThis flaw has been fixed in v9.0.0, by making the relevant structs #[repr(C)].",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:53:10Z",
     "Severity": "HIGH",
     "Summary": "Soundness issue in raw-cpuid",
-    "UpdatedAt": "2023-01-27T05:02:08Z",
+    "UpdatedAt": "2023-06-13T20:30:27Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

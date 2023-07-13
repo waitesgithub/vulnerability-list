@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-08-19T21:18:27Z",
+  "UpdatedAt": "2023-06-13T17:18:26Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "flatbuffers"
@@ -38,7 +38,7 @@
     "PublishedAt": "2021-08-25T20:47:36Z",
     "Severity": "HIGH",
     "Summary": "Dangling reference in flatbuffers",
-    "UpdatedAt": "2023-01-11T05:06:01Z",
+    "UpdatedAt": "2023-06-13T17:18:26Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "2.0.0"
       },
-      "VulnerableVersionRange": "\u003c 2.0.0"
+      "VulnerableVersionRange": "\u003e= 0.4.0, \u003c 2.0.0"
     }
   ]
 }

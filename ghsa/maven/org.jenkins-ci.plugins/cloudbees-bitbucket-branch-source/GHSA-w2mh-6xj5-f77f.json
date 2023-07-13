@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-20T22:49:22Z",
+  "UpdatedAt": "2023-05-24T17:10:41Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.jenkins-ci.plugins:cloudbees-bitbucket-branch-source"
@@ -20,6 +20,9 @@
         "Url": "http://www.openwall.com/lists/oss-security/2022/01/12/6"
       },
       {
+        "Url": "https://github.com/CVEProject/cvelist/blob/2d78eb36f4d084db7fb35f1535d8d84fdcb7d859/2022/20xxx/CVE-2022-20618.json"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-w2mh-6xj5-f77f"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2022-20618"
       }
     ],
-    "Description": "A missing permission check in Jenkins Bitbucket Branch Source Plugin 737.vdf9dc06105be and earlier allows attackers with Overall/Read access to enumerate credentials IDs of credentials stored in Jenkins.",
+    "Description": "Jenkins Bitbucket Branch Source Plugin prior to 746.v350d2781c184, 725.vd9f8be0fa250, 2.9.11.2, and 2.9.7.2 does not perform permission checks in several HTTP endpoints.\n\nThis allows attackers with Overall/Read access to enumerate credentials IDs of credentials stored in Jenkins. Those can be used as part of an attack to capture the credentials using another vulnerability.\n\nAn enumeration of credentials IDs in Bitbucket Branch Source Plugin 746.v350d2781c184, 725.vd9f8be0fa250, 2.9.11.2, and 2.9.7.2 requires the appropriate permissions.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-13T00:01:02Z",
     "Severity": "MODERATE",
     "Summary": "Incorrect Permission Assignment for Critical Resource in Jenkins Bitbucket Branch Source Plugin",
-    "UpdatedAt": "2023-02-01T05:07:17Z",
+    "UpdatedAt": "2023-05-24T17:10:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
@@ -48,9 +51,27 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "2.9.7.2"
+      },
+      "VulnerableVersionRange": "\u003c 2.9.7.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.9.11.2"
+      },
+      "VulnerableVersionRange": "\u003e= 2.9.8, \u003c 2.9.11.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "725.vd9f8be0fa250"
+      },
+      "VulnerableVersionRange": "\u003e= 720.vbe985dd73d66, \u003c 725.vd9f8be0fa250"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "746.v350d2781c184"
       },
-      "VulnerableVersionRange": "\u003c= 737.vdf9dc06105be"
+      "VulnerableVersionRange": "\u003e= 726.v7e6f53de133c, \u003c 746.v350d2781c184"
     }
   ]
 }

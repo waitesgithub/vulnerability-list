@@ -30,6 +30,9 @@
       },
       {
         "Url": "http://www.securityfocus.com/bid/32359"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rails/CVE-2008-5189.yml"
       }
     ],
     "Identifiers": [
@@ -46,8 +49,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects rails",
-    "UpdatedAt": "2023-01-09T05:03:10Z",
+    "Summary": "rails is vulnerable to CRLF injection",
+    "UpdatedAt": "2023-05-11T13:47:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

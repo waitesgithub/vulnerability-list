@@ -20,6 +20,12 @@
         "Url": "https://huntr.dev/bounties/ea82cfc9-b55c-41fe-ae58-0d0e0bd7ab62"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0871"
+      },
+      {
+        "Url": "https://github.com/gogs/gogs/issues/6810"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-gw5h-h6hj-f56g"
       }
     ],
@@ -27,14 +33,18 @@
       {
         "Type": "GHSA",
         "Value": "GHSA-gw5h-h6hj-f56g"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-0871"
       }
     ],
     "Description": "### Impact\n\nExpired PAM accounts and accounts with expired passwords are continued to be seen as valid. Installations use PAM as authentication sources are affected.\n\n### Patches\n\nExpired PAM accounts and accounts with expired passwords are no longer being seen as valid. Users should upgrade to 0.12.5 or the latest 0.13.0+dev.\n\n### Workarounds\n\nIn addition to marking PAM accounts as expired, also disable/lock them. Running `usermod -L \u003cusername\u003e` will add an exclamation mark to the password hash and would result in wrong passwords responses when trying to login. \n\n### References\n\nhttps://huntr.dev/bounties/ea82cfc9-b55c-41fe-ae58-0d0e0bd7ab62/\n\n### For more information\n\nIf you have any questions or comments about this advisory, please post on https://github.com/gogs/gogs/issues/6810.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-03-14T22:58:37Z",
     "Severity": "HIGH",
-    "Summary": "Improper Authorization in Gogs",
-    "UpdatedAt": "2023-01-11T05:05:35Z",
+    "Summary": "Gogs vulnerable to improper PAM authorization handling",
+    "UpdatedAt": "2023-06-30T22:11:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.2,

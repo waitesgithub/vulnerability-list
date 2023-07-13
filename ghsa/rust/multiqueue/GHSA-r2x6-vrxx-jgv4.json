@@ -36,12 +36,12 @@
         "Value": "CVE-2020-36463"
       }
     ],
-    "Description": "An issue was discovered in the multiqueue crate through 2020-12-25 for Rust. There are unconditional implementations of Send for InnerSend\u003cRW, T\u003e, InnerRecv\u003cRW, T\u003e, FutInnerSend\u003cRW, T\u003e, and FutInnerRecv\u003cRW, T\u003e.",
+    "Description": "Affected versions of this crate unconditionally implemented Send for types used in queue implementations (InnerSend\u003cRW, T\u003e, InnerRecv\u003cRW, T\u003e, FutInnerSend\u003cRW, T\u003e, FutInnerRecv\u003cRW, T\u003e). This allows users to send non-Send types to other threads, which can lead to data race bugs or other undefined behavior.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:58:07Z",
     "Severity": "HIGH",
     "Summary": "Data races in multiqueue",
-    "UpdatedAt": "2023-02-01T05:06:12Z",
+    "UpdatedAt": "2023-06-13T18:34:58Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

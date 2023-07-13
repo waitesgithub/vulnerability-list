@@ -26,10 +26,10 @@
         "Url": "http://seclists.org/oss-sec/2013/q4/43"
       },
       {
-        "Url": "http://secunia.com/advisories/55151"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/wicked/CVE-2013-4413.yml"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/62891"
+        "Url": "https://web.archive.org/web/20210508170740/http://www.securityfocus.com/bid/62891"
       }
     ],
     "Identifiers": [
@@ -42,12 +42,12 @@
         "Value": "CVE-2013-4413"
       }
     ],
-    "Description": "Directory traversal vulnerability in controller/concerns/render_redirect.rb in the Wicked gem before 1.0.1 for Ruby allows remote attackers to read arbitrary files via a %2E%2E%2F (encoded dot dot slash) in the step.",
+    "Description": "The Wicked gem prior to v1.0.1 allows a remote attacker to traverse directories on the system via a vulnerability in `controller/concerns/render_redirect.rb`. An attacker can send a specially-crafted URL request containing `%2E%2E%2F` directory traversal sequences to read arbitrary files on the system.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects wicked",
-    "UpdatedAt": "2023-01-09T05:03:36Z",
+    "Summary": "Wicked gem contains Path traversal vulnerability",
+    "UpdatedAt": "2023-07-04T00:25:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

@@ -33,12 +33,12 @@
         "Value": "CVE-2021-30457"
       }
     ],
-    "Description": "An issue was discovered in the id-map crate through 2021-02-26 for Rust. A double free can occur in remove_set upon a panic in a Drop impl.",
+    "Description": "A double free can occur in remove_set upon a panic in a Drop impl. When removing a set of elements, ptr::drop_in_place is called on each of the element to be removed. If the Drop impl of one of these elements panics then the previously dropped elements can be dropped again.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:55:14Z",
     "Severity": "CRITICAL",
     "Summary": "Double-free in id-map",
-    "UpdatedAt": "2023-01-09T05:05:06Z",
+    "UpdatedAt": "2023-06-13T18:19:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

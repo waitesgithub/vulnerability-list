@@ -26,12 +26,12 @@
         "Value": "GHSA-m325-rxjv-pwph"
       }
     ],
-    "Description": "Affected versions of this crate passed an uninitialized buffer to a\nuser-provided `Read` instance in:\n\n* `deserialize_binary`\n* `deserialize_string`\n* `deserialize_extension_others`\n* `deserialize_string_primitive`\n\nThis can result in safe `Read` implementations reading from the uninitialized\nbuffer leading to undefined behavior.\n\n",
+    "Description": "Affected versions of this crate passed an uninitialized buffer to a\nuser-provided `Read` instance in:\n\n* `deserialize_binary`\n* `deserialize_string`\n* `deserialize_extension_others`\n* `deserialize_string_primitive`\n\nThis can result in safe `Read` implementations reading from the uninitialized\nbuffer leading to undefined behavior.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-06-17T00:11:41Z",
     "Severity": "HIGH",
     "Summary": "Deserialization functions pass uninitialized memory to user-provided Read",
-    "UpdatedAt": "2023-01-12T05:00:59Z",
+    "UpdatedAt": "2023-06-13T18:41:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

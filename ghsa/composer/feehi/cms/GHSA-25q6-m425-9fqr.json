@@ -17,9 +17,6 @@
         "Url": "https://github.com/liufee/cms/issues/61"
       },
       {
-        "Url": "https://github.com/liufee/cms"
-      },
-      {
         "Url": "http://packetstormsecurity.com/files/168012/Feehi-CMS-2.1.1-Cross-Site-Scripting.html"
       },
       {
@@ -36,12 +33,12 @@
         "Value": "CVE-2022-34140"
       }
     ],
-    "Description": "A stored cross-site scripting (XSS) vulnerability in /index.php?r=site%2Fsignup of Feehi CMS v2.1.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the username field.",
+    "Description": "A stored cross-site scripting (XSS) vulnerability in `/index.php?r=site%2Fsignup` of Feehi CMS v2.1.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the username field.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-07-29T00:00:47Z",
     "Severity": "MODERATE",
     "Summary": "Feehi CMS Cross-site Scripting",
-    "UpdatedAt": "2023-01-31T05:01:32Z",
+    "UpdatedAt": "2023-07-07T19:02:06Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-11-23T22:31:06Z",
+  "UpdatedAt": "2023-07-07T21:13:29Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "com.h2database:h2"
@@ -18,6 +18,12 @@
       },
       {
         "Url": "https://sites.google.com/sonatype.com/vulnerabilities/sonatype-2022-6243"
+      },
+      {
+        "Url": "https://github.com/h2database/h2database/pull/3833"
+      },
+      {
+        "Url": "https://github.com/h2database/h2database/commit/581ed18ff9d6b3761d851620ed88a3994a351a0d"
       },
       {
         "Url": "https://github.com/advisories/GHSA-22wj-vf5f-wrvj"
@@ -38,7 +44,7 @@
     "PublishedAt": "2022-11-23T21:30:31Z",
     "Severity": "HIGH",
     "Summary": "Password exposure in H2 Database ",
-    "UpdatedAt": "2023-02-02T05:08:17Z",
+    "UpdatedAt": "2023-07-07T21:14:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.8,
@@ -48,9 +54,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "2.2.220"
       },
-      "VulnerableVersionRange": "\u003c= 2.1.214"
+      "VulnerableVersionRange": "\u003c 2.2.220"
     }
   ]
 }

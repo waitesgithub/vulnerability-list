@@ -26,6 +26,9 @@
         "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/geocoder/CVE-2020-7981.yml"
       },
       {
+        "Url": "https://github.com/alexreisner/geocoder/blob/master/CHANGELOG.md#161-2020-jan-23"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-864j-6qpp-cmrr"
       }
     ],
@@ -39,12 +42,12 @@
         "Value": "CVE-2020-7981"
       }
     ],
-    "Description": "sql.rb in Geocoder before 1.6.1 allows Boolean-based SQL injection when within_bounding_box is used in conjunction with untrusted sw_lat, sw_lng, ne_lat, or ne_lng data.",
+    "Description": "sql.rb in Geocoder before 1.6.1 allows Boolean-based SQL injection when `within_bounding_box` is used in conjunction with untrusted `sw_lat`, `sw_lng`, `ne_lat`, or `ne_lng` data.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-06-10T20:03:02Z",
     "Severity": "CRITICAL",
     "Summary": "SQL Injection in Geocoder",
-    "UpdatedAt": "2023-01-09T05:02:21Z",
+    "UpdatedAt": "2023-07-05T19:29:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

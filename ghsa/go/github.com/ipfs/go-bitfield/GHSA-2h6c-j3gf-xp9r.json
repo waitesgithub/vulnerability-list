@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-02-10T19:52:46Z",
+  "UpdatedAt": "2023-06-13T23:53:07Z",
   "Package": {
     "Ecosystem": "GO",
     "Name": "github.com/ipfs/go-bitfield"
@@ -41,7 +41,7 @@
     "PublishedAt": "2023-02-10T19:52:45Z",
     "Severity": "MODERATE",
     "Summary": "IPFS go-bitfield vulnerable to DoS via malformed size arguments",
-    "UpdatedAt": "2023-02-17T20:32:19Z",
+    "UpdatedAt": "2023-06-13T23:53:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,
@@ -53,7 +53,7 @@
       "FirstPatchedVersion": {
         "Identifier": "1.1.0"
       },
-      "VulnerableVersionRange": "= 1.0.0"
+      "VulnerableVersionRange": "\u003c 1.1.0"
     }
   ]
 }

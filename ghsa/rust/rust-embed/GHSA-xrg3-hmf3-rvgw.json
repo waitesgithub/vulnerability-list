@@ -36,12 +36,12 @@
         "Value": "CVE-2021-45712"
       }
     ],
-    "Description": "An issue was discovered in the rust-embed crate before 6.3.0 for Rust. A ../ directory traversal can sometimes occur in debug mode.",
+    "Description": "When running in debug mode and the debug-embed (off by default) feature is not enabled, the generated get method does not check that the input path is a child of the folder given.\n\nThis allows attackers to read arbitrary files in the file system if they have control over the filename given. The following code will print the contents of your /etc/passwd if adjusted with a correct number of ../s depending on where it is run from.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:03:56Z",
     "Severity": "HIGH",
     "Summary": "Path Traversal in rust-embed",
-    "UpdatedAt": "2023-02-03T05:03:16Z",
+    "UpdatedAt": "2023-06-13T20:41:58Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

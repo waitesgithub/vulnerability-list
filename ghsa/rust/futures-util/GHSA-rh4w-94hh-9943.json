@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-16T23:55:13Z",
+  "UpdatedAt": "2023-06-13T17:24:14Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "futures-util"
@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35905"
       }
     ],
-    "Description": "An issue was discovered in the futures-util crate before 0.3.7 for Rust. MutexGuard::map can cause a data race for certain closure situations (in safe code).",
+    "Description": "Affected versions of the crate had a Send/Sync implementation for MappedMutexGuard that only considered variance on T, while MappedMutexGuard dereferenced to U.\n\nThis could of led to data races in safe Rust code when a closure used in MutexGuard::map() returns U that is unrelated to T.\n\nThe issue was fixed by fixing Send and Sync implementations, and by adding a PhantomData\u003c\u0026'a mut U\u003e marker to the MappedMutexGuard type to tell the compiler that the guard is over U too.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T17:37:49Z",
     "Severity": "MODERATE",
     "Summary": "MutexGuard::map can cause a data race in safe code",
-    "UpdatedAt": "2023-01-27T05:02:39Z",
+    "UpdatedAt": "2023-06-13T17:24:14Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.3.7"
       },
-      "VulnerableVersionRange": "\u003c 0.3.7"
+      "VulnerableVersionRange": "\u003e= 0.3.2, \u003c 0.3.7"
     }
   ]
 }

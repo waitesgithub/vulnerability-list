@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T21:24:31Z",
+  "UpdatedAt": "2023-06-13T21:04:33Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "safe-transmute"
@@ -36,12 +36,12 @@
         "Value": "CVE-2018-21000"
       }
     ],
-    "Description": "An issue was discovered in the safe-transmute crate before 0.10.1 for Rust. A constructor's arguments are in the wrong order, causing heap memory corruption.",
+    "Description": "Affected versions of this crate switched the length and capacity arguments in the Vec::from_raw_parts() constructor, which could lead to memory corruption or data leakage.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:43:23Z",
     "Severity": "CRITICAL",
     "Summary": "Heap overflow or corruption in safe-transmute",
-    "UpdatedAt": "2023-04-14T19:21:30Z",
+    "UpdatedAt": "2023-06-13T21:04:33Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -53,7 +53,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.10.1"
       },
-      "VulnerableVersionRange": "\u003c 0.10.1"
+      "VulnerableVersionRange": "\u003e= 0.4.0, \u003c 0.10.1"
     }
   ]
 }

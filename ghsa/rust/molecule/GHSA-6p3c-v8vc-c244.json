@@ -23,6 +23,9 @@
         "Url": "https://github.com/nervosnetwork/molecule/pull/49"
       },
       {
+        "Url": "https://github.com/nervosnetwork/molecule/security/advisories/GHSA-82hm-vh7g-hrh9"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-6p3c-v8vc-c244"
       }
     ],
@@ -36,12 +39,12 @@
         "Value": "CVE-2021-45697"
       }
     ],
-    "Description": "An issue was discovered in the molecule crate before 0.7.2 for Rust. A FixVec partial read has an incorrect result.",
+    "Description": "Anyone who uses total_size(..) function to partial read the length of any FixVec will get an incorrect result, due to an incorrect implementation. This has been resolved in the 0.7.2 release.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:10:34Z",
     "Severity": "CRITICAL",
     "Summary": "The `total_size` function for partial read the length of any `FixVec` is incorrect in molecule.",
-    "UpdatedAt": "2023-02-03T05:03:45Z",
+    "UpdatedAt": "2023-06-13T18:33:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

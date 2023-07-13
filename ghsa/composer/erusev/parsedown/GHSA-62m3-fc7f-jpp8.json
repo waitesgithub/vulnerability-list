@@ -17,6 +17,12 @@
         "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/erusev/parsedown/CVE-2019-10905.yaml"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10905"
+      },
+      {
+        "Url": "https://github.com/erusev/parsedown/releases/tag/1.7.2"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-62m3-fc7f-jpp8"
       }
     ],
@@ -35,7 +41,7 @@
     "PublishedAt": "2022-03-26T00:09:58Z",
     "Severity": "HIGH",
     "Summary": "Class-Name Injection",
-    "UpdatedAt": "2023-01-11T05:05:57Z",
+    "UpdatedAt": "2023-07-06T19:32:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

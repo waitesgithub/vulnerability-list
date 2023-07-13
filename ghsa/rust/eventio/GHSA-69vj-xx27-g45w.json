@@ -33,12 +33,12 @@
         "Value": "CVE-2020-36216"
       }
     ],
-    "Description": "An issue was discovered in Input\u003cR\u003e in the eventio crate before 0.5.1 for Rust. Because a non-Send type can be sent to a different thread, a data race and memory corruption can occur.",
+    "Description": "Input\u003cR\u003e implements Send without requiring R: Send.\n\nAffected versions of this crate allows users to send non-Send types to other threads, which can lead to undefined behavior such as data race and memory corruption.\n\nThe flaw was corrected in version 0.5.1 by adding R: Send bound to the Send impl of Input\u003cR\u003e.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:51:49Z",
     "Severity": "MODERATE",
     "Summary": "Data race in eventio",
-    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "UpdatedAt": "2023-06-13T18:12:43Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,

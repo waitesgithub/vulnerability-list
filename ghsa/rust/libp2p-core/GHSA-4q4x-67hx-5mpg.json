@@ -30,12 +30,12 @@
         "Value": "CVE-2019-15545"
       }
     ],
-    "Description": "An issue was discovered in the libp2p-core crate before 0.8.1 for Rust. Attackers can spoof ed25519 signatures.",
+    "Description": "Affected versions of this crate did not properly verify ed25519 signatures. Any signature with a correct length was considered valid. This allows an attacker to impersonate any node identity.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:44:08Z",
     "Severity": "HIGH",
     "Summary": "Failure to properly verify ed25519 signatures in libp2p-core",
-    "UpdatedAt": "2023-01-09T05:05:36Z",
+    "UpdatedAt": "2023-06-13T17:43:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

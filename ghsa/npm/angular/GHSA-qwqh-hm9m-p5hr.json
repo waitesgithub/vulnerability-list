@@ -20,6 +20,15 @@
         "Url": "https://stackblitz.com/edit/angularjs-vulnerability-inpur-url-validation-redos"
       },
       {
+        "Url": "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-5406326"
+      },
+      {
+        "Url": "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBANGULAR-5406328"
+      },
+      {
+        "Url": "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-5406327"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-qwqh-hm9m-p5hr"
       }
     ],
@@ -38,7 +47,7 @@
     "PublishedAt": "2023-03-30T06:30:25Z",
     "Severity": "MODERATE",
     "Summary": "angular vulnerable to regular expression denial of service via the \u003cinput type=\"url\"\u003e element",
-    "UpdatedAt": "2023-04-03T13:07:42Z",
+    "UpdatedAt": "2023-05-22T21:31:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,

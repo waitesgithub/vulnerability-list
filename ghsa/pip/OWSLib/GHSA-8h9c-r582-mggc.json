@@ -29,6 +29,15 @@
         "Url": "https://securitylab.github.com/advisories/GHSL-2022-131_owslib/"
       },
       {
+        "Url": "https://www.debian.org/security/2023/dsa-5426"
+      },
+      {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/owslib/PYSEC-2023-86.yaml"
+      },
+      {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00032.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8h9c-r582-mggc"
       }
     ],
@@ -47,7 +56,7 @@
     "PublishedAt": "2023-03-07T20:41:36Z",
     "Severity": "HIGH",
     "Summary": "OWSLib vulnerable to XML External Entity (XXE) Injection",
-    "UpdatedAt": "2023-03-20T14:00:07Z",
+    "UpdatedAt": "2023-06-27T19:46:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.2,

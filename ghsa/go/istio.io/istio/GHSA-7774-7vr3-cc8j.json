@@ -20,6 +20,15 @@
         "Url": "https://datatracker.ietf.org/doc/html/rfc4343"
       },
       {
+        "Url": "https://github.com/istio/istio/commit/084b417a486dbe9b9024d4812877016a484572b1"
+      },
+      {
+        "Url": "https://github.com/istio/istio/commit/76ed51413ddd2a7fa253a368ab20a9cec5fb1cbe"
+      },
+      {
+        "Url": "https://github.com/istio/istio/commit/90b00bdf891e6c770cb3235c14a9b1fda96cc7c5"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-7774-7vr3-cc8j"
       }
     ],
@@ -38,7 +47,7 @@
     "PublishedAt": "2021-08-30T16:15:56Z",
     "Severity": "HIGH",
     "Summary": "Authorization Policy Bypass Due to Case Insensitive Host Comparison",
-    "UpdatedAt": "2023-01-27T05:02:08Z",
+    "UpdatedAt": "2023-05-22T18:26:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.3,

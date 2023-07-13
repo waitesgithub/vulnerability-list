@@ -14,28 +14,22 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5029"
       },
       {
-        "Url": "https://chromereleases.googleblog.com/2017/03/stable-channel-update-for-desktop.html"
-      },
-      {
-        "Url": "https://crbug.com/676623"
-      },
-      {
         "Url": "https://git.gnome.org/browse/libxslt/commit/?id=08ab2774b870de1c7b5a48693df75e8154addae5"
       },
       {
         "Url": "https://github.com/advisories/GHSA-pf6m-fxpq-fg8v"
       },
       {
-        "Url": "http://rhn.redhat.com/errata/RHSA-2017-0499.html"
+        "Url": "https://github.com/sparklemotion/nokogiri/issues/1634"
       },
       {
-        "Url": "http://www.debian.org/security/2017/dsa-3810"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/nokogiri/CVE-2017-5029.yml"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/96767"
+        "Url": "https://ubuntu.com/security/CVE-2017-5029"
       },
       {
-        "Url": "http://www.securitytracker.com/id/1038157"
+        "Url": "https://ubuntu.com/security/notices/USN-3271-1"
       }
     ],
     "Identifiers": [
@@ -52,8 +46,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-07-31T18:21:29Z",
     "Severity": "HIGH",
-    "Summary": "Nokogiri lacked integer overflow checks",
-    "UpdatedAt": "2023-02-01T05:04:00Z",
+    "Summary": "Nokogiri implementation of libxslt lacks integer overflow checks",
+    "UpdatedAt": "2023-07-03T23:57:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

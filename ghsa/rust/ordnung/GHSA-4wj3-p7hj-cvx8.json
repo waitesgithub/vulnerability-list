@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35891"
       }
     ],
-    "Description": "An issue was discovered in the ordnung crate through 2020-09-03 for Rust. compact::Vec violates memory safety via a remove() double free.",
+    "Description": "An issue was discovered in the ordnung crate through version 0.0.1 for Rust. compact::Vec violates memory safety via a remove() double free.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:48:47Z",
     "Severity": "HIGH",
     "Summary": "Double free in ordnung",
-    "UpdatedAt": "2023-01-09T05:05:14Z",
+    "UpdatedAt": "2023-06-13T20:13:31Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

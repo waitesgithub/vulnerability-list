@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35875"
       }
     ],
-    "Description": "An issue was discovered in the tokio-rustls crate before 0.13.1 for Rust. Excessive memory usage may occur when data arrives quickly.",
+    "Description": "tokio-rustls does not call process_new_packets immediately after read, so the expected termination condition wants_read always returns true. As long as new incoming data arrives faster than it is processed and the reader does not return pending, data will be buffered. This may cause DoS.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:46:54Z",
     "Severity": "HIGH",
     "Summary": "Excessive memory usage in tokio-rustls",
-    "UpdatedAt": "2023-01-11T05:06:01Z",
+    "UpdatedAt": "2023-06-13T21:56:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

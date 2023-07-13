@@ -20,10 +20,16 @@
         "Url": "https://bugzilla.redhat.com/show_bug.cgi?id=839166"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-vxf6-w9mp-95hm"
+        "Url": "http://puppetlabs.com/security/cve/cve-2012-3408/"
       },
       {
-        "Url": "http://puppetlabs.com/security/cve/cve-2012-3408/"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/puppet/CVE-2012-3408.yml"
+      },
+      {
+        "Url": "https://www.puppet.com/security/cve/cve-2012-3408-agent-impersonation"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-vxf6-w9mp-95hm"
       }
     ],
     "Identifiers": [
@@ -36,12 +42,12 @@
         "Value": "CVE-2012-3408"
       }
     ],
-    "Description": "lib/puppet/network/authstore.rb in Puppet before 2.7.18, and Puppet Enterprise before 2.5.2, supports use of IP addresses in certnames without warning of potential risks, which might allow remote attackers to spoof an agent by acquiring a previously used IP address.",
+    "Description": "`lib/puppet/network/authstore.rb` in Puppet before 2.7.18, and Puppet Enterprise before 2.5.2, supports use of IP addresses in certnames without warning of potential risks, which might allow remote attackers to spoof an agent by acquiring a previously used IP address.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "LOW",
-    "Summary": "Low severity vulnerability that affects puppet",
-    "UpdatedAt": "2023-02-01T05:04:05Z",
+    "Summary": "Puppet supports use of IP addresses in certnames without warning of potential risks",
+    "UpdatedAt": "2023-05-12T17:24:43Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

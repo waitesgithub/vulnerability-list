@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0091.html"
       },
       {
+        "Url": "https://github.com/gfx-rs/gfx/issues/3567"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-ff2r-xpwq-6whj"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2021-45689"
       }
     ],
-    "Description": "An issue was discovered in the gfx-auxil crate through 2021-01-07 for Rust. gfx_auxil::read_spirv may read from uninitialized memory locations.",
+    "Description": "Affected versions of this crate passes an uninitialized buffer to a user-provided Read implementation.\n\nArbitrary Read implementations can read from the uninitialized buffer (memory exposure) and also can return incorrect number of bytes written to the buffer. Reading from uninitialized memory produces undefined values that can quickly invoke undefined behavior.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:12:14Z",
     "Severity": "CRITICAL",
     "Summary": "Use of Uninitialized Resource in gfx-auxil",
-    "UpdatedAt": "2023-02-03T05:03:45Z",
+    "UpdatedAt": "2023-06-22T05:03:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

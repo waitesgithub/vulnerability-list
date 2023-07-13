@@ -36,12 +36,12 @@
         "Value": "CVE-2020-35926"
       }
     ],
-    "Description": "An issue was discovered in the nanorand crate before 0.5.1 for Rust. It caused any random number generator (even ChaCha) to return all zeroes because integer truncation was mishandled.",
+    "Description": "In versions of nanorand prior to 0.5.1, RandomGen implementations for standard unsigned integers could fail to properly generate numbers, due to using bit-shifting to truncate a 64-bit number, rather than just an as conversion. This often manifested as RNGs returning nothing but 0, including the cryptographically secure ChaCha random number generator.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:50:24Z",
     "Severity": "MODERATE",
     "Summary": "Improper random number generation in nanorand",
-    "UpdatedAt": "2023-01-11T05:05:30Z",
+    "UpdatedAt": "2023-06-13T20:01:40Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.1,

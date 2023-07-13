@@ -17,6 +17,9 @@
         "Url": "https://spring.io/security/cve-2023-20862"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230526-0002/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-x873-6rgc-94jc"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2023-04-19T21:30:26Z",
     "Severity": "CRITICAL",
     "Summary": "Spring Security logout not clearing security context",
-    "UpdatedAt": "2023-05-05T22:58:08Z",
+    "UpdatedAt": "2023-05-26T21:51:43Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

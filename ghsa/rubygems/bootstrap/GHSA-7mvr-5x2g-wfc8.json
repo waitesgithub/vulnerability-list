@@ -62,6 +62,18 @@
         "Url": "http://seclists.org/fulldisclosure/2019/May/13"
       },
       {
+        "Url": "https://github.com/twbs/bootstrap/issues/26428"
+      },
+      {
+        "Url": "https://github.com/twbs/bootstrap/commit/2d90d369bbc2bd2647620246c55cec8c4705e3d0"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bootstrap/CVE-2018-14042.yml"
+      },
+      {
+        "Url": "https://www.tenable.com/security/tns-2021-14"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-7mvr-5x2g-wfc8"
       }
     ],
@@ -80,7 +92,7 @@
     "PublishedAt": "2018-09-13T15:50:32Z",
     "Severity": "MODERATE",
     "Summary": "Bootstrap Cross-site Scripting vulnerability",
-    "UpdatedAt": "2023-01-23T20:48:57Z",
+    "UpdatedAt": "2023-05-22T16:07:37Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

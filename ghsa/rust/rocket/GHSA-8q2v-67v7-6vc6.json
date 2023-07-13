@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-08-19T21:07:50Z",
+  "UpdatedAt": "2023-06-13T20:48:28Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "rocket"
@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35882"
       }
     ],
-    "Description": "An issue was discovered in the rocket crate before 0.4.5 for Rust. LocalRequest::clone creates more than one mutable references to the same object, possibly causing a data race.",
+    "Description": "The affected version of rocket contains a Clone trait implementation of LocalRequest that reuses the pointer to inner Request object. This causes data race in rare combinations of APIs if the original and the cloned objects are modified at the same time.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:48:07Z",
     "Severity": "HIGH",
     "Summary": "Data races in rocket",
-    "UpdatedAt": "2023-01-11T05:06:00Z",
+    "UpdatedAt": "2023-06-13T20:48:28Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.4.5"
       },
-      "VulnerableVersionRange": "\u003c 0.4.5"
+      "VulnerableVersionRange": "\u003e= 0.4.0, \u003c 0.4.5"
     }
   ]
 }

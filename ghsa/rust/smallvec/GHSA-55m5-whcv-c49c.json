@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2018-0018.html"
       },
       {
+        "Url": "https://github.com/servo/rust-smallvec/issues/126"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-55m5-whcv-c49c"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2018-25023"
       }
     ],
-    "Description": "An issue was discovered in the smallvec crate before 0.6.13 for Rust. It can create an uninitialized value of any type, including a reference type.",
+    "Description": "Affected versions of this crate called mem::uninitialized() to create values of a user-supplied type T. This is unsound e.g. if T is a reference type (which must be non-null and thus may not remain uninitialized). The flaw was corrected by avoiding the use of mem::uninitialized(), using MaybeUninit instead.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:20:28Z",
     "Severity": "HIGH",
     "Summary": "Use of Uninitialized Resource in smallvec",
-    "UpdatedAt": "2023-02-03T05:03:46Z",
+    "UpdatedAt": "2023-06-13T20:53:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

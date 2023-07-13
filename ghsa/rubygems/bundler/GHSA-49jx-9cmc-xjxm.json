@@ -35,7 +35,10 @@
         "Url": "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/70099"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bundler/CVE-2013-0334.yml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20210122060358/https://www.securityfocus.com/bid/70099/"
       },
       {
         "Url": "https://github.com/advisories/GHSA-49jx-9cmc-xjxm"
@@ -56,7 +59,7 @@
     "PublishedAt": "2022-05-05T02:48:48Z",
     "Severity": "MODERATE",
     "Summary": "Bundler may install gems from a different source than expected",
-    "UpdatedAt": "2023-03-20T19:50:23Z",
+    "UpdatedAt": "2023-07-03T21:30:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

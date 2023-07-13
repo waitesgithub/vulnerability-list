@@ -20,7 +20,10 @@
         "Url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0450"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/102486"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rails_admin/CVE-2017-12098.yml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20210116160904/http://www.securityfocus.com/bid/102486"
       }
     ],
     "Identifiers": [
@@ -37,8 +40,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-03-05T19:37:23Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects rails_admin",
-    "UpdatedAt": "2023-02-04T05:06:14Z",
+    "Summary": "rails_admin ruby gem XSS",
+    "UpdatedAt": "2023-07-03T21:59:03Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

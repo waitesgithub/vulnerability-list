@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T21:23:45Z",
+  "UpdatedAt": "2023-06-13T21:37:37Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "smallvec"
@@ -33,12 +33,12 @@
         "Value": "CVE-2019-15554"
       }
     ],
-    "Description": "An issue was discovered in the smallvec crate before 0.6.10 for Rust. There is memory corruption for certain grow attempts with less than the current capacity.",
+    "Description": "Attempting to call grow on a spilled SmallVec with a value less than the current capacity causes corruption of memory allocator data structures. An attacker that controls the value passed to grow may exploit this flaw to obtain memory contents or gain remote code execution.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:43:58Z",
     "Severity": "CRITICAL",
     "Summary": "Memory corruption in smallvec",
-    "UpdatedAt": "2023-01-11T05:06:02Z",
+    "UpdatedAt": "2023-06-13T21:37:37Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.6.10"
       },
-      "VulnerableVersionRange": "\u003c 0.6.10"
+      "VulnerableVersionRange": "\u003e= 0.6.3, \u003c 0.6.10"
     }
   ]
 }

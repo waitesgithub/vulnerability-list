@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-gj4p-3wh3-2rmf"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/yard/CVE-2017-17042.yml"
       }
     ],
     "Identifiers": [
@@ -30,12 +33,12 @@
         "Value": "CVE-2017-17042"
       }
     ],
-    "Description": "lib/yard/core_ext/file.rb in the server in YARD before 0.9.11 does not block relative paths with an initial ../ sequence, which allows attackers to conduct directory traversal attacks and read arbitrary files.",
+    "Description": "`lib/yard/core_ext/file.rb` in the server in YARD before 0.9.11 does not block relative paths with an initial `../` sequence, which allows attackers to conduct directory traversal attacks and read arbitrary files.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-12-21T00:47:25Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects yard",
-    "UpdatedAt": "2023-01-09T05:03:17Z",
+    "Summary": "Arbitrary file read vulnerability in yard server",
+    "UpdatedAt": "2023-07-05T17:53:10Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

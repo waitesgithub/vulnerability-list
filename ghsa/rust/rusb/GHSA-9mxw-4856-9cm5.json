@@ -33,12 +33,12 @@
         "Value": "CVE-2020-36206"
       }
     ],
-    "Description": "An issue was discovered in the rusb crate before 0.7.0 for Rust. Because of a lack of Send and Sync bounds, a data race and memory corruption can occur.",
+    "Description": "Affected versions of rusb did not require UsbContext to implement Send and Sync. However, through Device and DeviceHandle it is possible to use UsbContexts across threads. This issue allows non-thread safe UsbContext types to be used concurrently leading to data races and memory corruption. The issue was fixed by adding Send and Sync bounds to UsbContext.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:50:51Z",
     "Severity": "HIGH",
     "Summary": "Data races in rusb",
-    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "UpdatedAt": "2023-06-13T20:46:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7,

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T21:22:38Z",
+  "UpdatedAt": "2023-06-13T16:57:57Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "compact_arena"
@@ -33,12 +33,12 @@
         "Value": "CVE-2019-16139"
       }
     ],
-    "Description": "An issue was discovered in the compact_arena crate before 0.4.0 for Rust. Generativity is mishandled, leading to an out-of-bounds write or read.",
+    "Description": "Affected versions of this crate did not properly implement the generativity, because the invariant lifetimes were not necessarily dropped.\n\nThis allows an attacker to mix up two arenas, using indices created from one arena with another one. This might lead to an out-of-bounds read or write access into the memory reserved for the arena.\n\nThe flaw was corrected by implementing generativity correctly in version 0.4.0.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:44:48Z",
     "Severity": "CRITICAL",
     "Summary": "Out of bounds access in compact_arena",
-    "UpdatedAt": "2023-01-27T05:00:34Z",
+    "UpdatedAt": "2023-06-13T16:57:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

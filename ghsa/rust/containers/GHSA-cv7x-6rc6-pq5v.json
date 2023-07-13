@@ -33,12 +33,12 @@
         "Value": "CVE-2021-25907"
       }
     ],
-    "Description": "An issue was discovered in the containers crate before 0.9.11 for Rust. When a panic occurs, a util::{mutate,mutate2} double drop can be performed.",
+    "Description": "Upon panic in a user-provided function f, fn mutate() \u0026 fn mutate2 drops twice a same object.\n\nAffected versions of this crate did not guard against double drop while temporarily duplicating an object's ownership with ptr::read().\n\nDropping a same object can result in memory corruption.\n\nThe flaw was corrected in version \"0.9.11\" by fixing the code to abort upon panic.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:53:05Z",
     "Severity": "CRITICAL",
     "Summary": "Double free in containers",
-    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "UpdatedAt": "2023-06-13T17:00:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

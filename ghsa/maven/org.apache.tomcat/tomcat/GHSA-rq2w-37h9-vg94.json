@@ -1,5 +1,5 @@
 {
-  "Severity": "LOW",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-01-05T12:02:51Z",
   "Package": {
     "Ecosystem": "MAVEN",
@@ -26,6 +26,9 @@
         "Url": "https://github.com/apache/tomcat/commit/b336f4e58893ea35114f1e4a415657f723b1298e"
       },
       {
+        "Url": "https://security.gentoo.org/glsa/202305-37"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-rq2w-37h9-vg94"
       }
     ],
@@ -42,13 +45,13 @@
     "Description": "The `JsonErrorReportValve` in Apache Tomcat 8.5.83, 9.0.40 to 9.0.68 and 10.1.0-M1 to 10.1.1 does not escape the `type`, `message` or `description` values. In some circumstances these are constructed from user provided data and it was therefore possible for users to supply values that invalidated or manipulated the JSON output.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-01-03T21:30:21Z",
-    "Severity": "LOW",
+    "Severity": "HIGH",
     "Summary": "Apache Tomcat improperly escapes input from JsonErrorReportValve",
-    "UpdatedAt": "2023-01-29T05:01:24Z",
+    "UpdatedAt": "2023-06-27T20:23:10Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
     }
   },
   "Versions": [

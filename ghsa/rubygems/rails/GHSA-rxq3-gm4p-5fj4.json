@@ -39,6 +39,9 @@
       },
       {
         "Url": "http://www.vupen.com/english/advisories/2009/1802"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rails/CVE-2009-2422.yml"
       }
     ],
     "Identifiers": [
@@ -55,8 +58,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects rails",
-    "UpdatedAt": "2023-01-09T05:03:14Z",
+    "Summary": "rails vulnerable to improper authentication",
+    "UpdatedAt": "2023-05-11T13:58:45Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

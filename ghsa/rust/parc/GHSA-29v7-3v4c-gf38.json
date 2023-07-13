@@ -36,12 +36,12 @@
         "Value": "CVE-2020-36454"
       }
     ],
-    "Description": "An issue was discovered in the parc crate through 2020-11-14 for Rust. LockWeak\u003cT\u003e has an unconditional implementation of Send without trait bounds on T.",
+    "Description": "In the affected versions of this crate, LockWeak\u003cT\u003e unconditionally implemented Send with no trait bounds on T. LockWeak\u003cT\u003e doesn't own T and only provides \u0026T. This allows concurrent access to a non-Sync T, which can cause undefined behavior like data races.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:57:24Z",
     "Severity": "HIGH",
     "Summary": "Data races in parc",
-    "UpdatedAt": "2023-02-01T05:05:56Z",
+    "UpdatedAt": "2023-06-13T20:11:12Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

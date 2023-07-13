@@ -23,6 +23,9 @@
         "Url": "https://lists.apache.org/thread/kqf5lxmko133780clsp827xfsh4xd3fl"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2023-60.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vcf6-3wv2-5vcr"
       }
     ],
@@ -41,11 +44,11 @@
     "PublishedAt": "2023-05-08T12:30:28Z",
     "Severity": "MODERATE",
     "Summary": "Apache Airflow vulnerable to stored Cross-site Scripting",
-    "UpdatedAt": "2023-05-08T20:25:07Z",
+    "UpdatedAt": "2023-06-06T17:46:30Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [

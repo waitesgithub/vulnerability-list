@@ -26,12 +26,12 @@
         "Value": "GHSA-mcrf-7hf9-f6q5"
       }
     ],
-    "Description": "Affected versions of this crate pre-allocate memory on deserializing raw\nbuffers without checking whether there is sufficient data available.\n\nThis allows an attacker to do denial-of-service attacks by sending small\nmsgpack messages that allocate gigabytes of memory.\n",
+    "Description": "Affected versions of this crate pre-allocate memory on deserializing raw buffers without checking whether there is sufficient data available. This allows an attacker to do denial-of-service attacks by sending small msgpack messages that allocate gigabytes of memory.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T21:00:09Z",
     "Severity": "MODERATE",
     "Summary": "Unchecked vector pre-allocation",
-    "UpdatedAt": "2023-01-11T05:05:28Z",
+    "UpdatedAt": "2023-06-13T20:48:56Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

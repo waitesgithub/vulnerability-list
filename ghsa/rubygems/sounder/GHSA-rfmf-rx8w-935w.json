@@ -18,6 +18,12 @@
       },
       {
         "Url": "http://vapid.dhs.org/advisories/sounder-ruby-gem-cmd-inj.html"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/sounder/CVE-2013-5647.yml"
+      },
+      {
+        "Url": "https://github.com/adamzaninovich/sounder/blob/v1.0.1/lib/sounder/sound.rb"
       }
     ],
     "Identifiers": [
@@ -34,8 +40,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects sounder",
-    "UpdatedAt": "2023-01-09T05:03:36Z",
+    "Summary": "Sounder Contains Arbitrary Command Execution Vulnerability",
+    "UpdatedAt": "2023-07-03T21:20:19Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

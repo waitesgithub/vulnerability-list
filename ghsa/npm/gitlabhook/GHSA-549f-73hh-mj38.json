@@ -17,9 +17,6 @@
         "Url": "https://hackerone.com/reports/685447"
       },
       {
-        "Url": "https://www.npmjs.com/advisories/1174"
-      },
-      {
         "Url": "http://packetstormsecurity.com/files/154598/NPMJS-gitlabhook-0.0.17-Remote-Command-Execution.html"
       },
       {
@@ -41,11 +38,11 @@
     "PublishedAt": "2019-09-16T22:24:02Z",
     "Severity": "CRITICAL",
     "Summary": "Command Injection in gitlabhook",
-    "UpdatedAt": "2023-01-09T05:02:03Z",
+    "UpdatedAt": "2023-06-01T19:46:41Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 10,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
     }
   },
   "Versions": [

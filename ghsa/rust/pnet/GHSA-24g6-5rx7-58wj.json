@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-01-06T18:31:08Z",
+  "UpdatedAt": "2023-06-13T20:25:31Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "pnet"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://rustsec.org/advisories/RUSTSEC-2019-0037.html"
+      },
+      {
+        "Url": "https://github.com/libpnet/libpnet/issues/449"
       },
       {
         "Url": "https://github.com/advisories/GHSA-24g6-5rx7-58wj"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-01-06T22:18:07Z",
     "Severity": "HIGH",
     "Summary": "Missing Initialization of Resource in pnet",
-    "UpdatedAt": "2023-02-03T05:03:52Z",
+    "UpdatedAt": "2023-06-13T20:25:31Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2019-06-13T16:15:28Z",
+  "UpdatedAt": "2023-06-09T20:31:55Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "ruby-openid"
@@ -26,6 +26,15 @@
         "Url": "https://security.gentoo.org/glsa/202003-09"
       },
       {
+        "Url": "https://github.com/openid/ruby-openid/commit/d181a8a2099c64365a1d24b29f6b6b646673a131"
+      },
+      {
+        "Url": "https://github.com/openid/ruby-openid/releases/tag/v2.9.0"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-openid/CVE-2019-11027.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-fqfj-cmh6-hj49"
       }
     ],
@@ -39,12 +48,12 @@
         "Value": "CVE-2019-11027"
       }
     ],
-    "Description": "Ruby OpenID (aka ruby-openid) through 2.8.0 has a remotely exploitable flaw. This library is used by Rails web applications to integrate with OpenID Providers. Severity can range from medium to critical, depending on how a web application developer chose to employ the ruby-openid library. Developers who based their OpenID integration heavily on the \"example app\" provided by the project are at highest risk.",
+    "Description": "Ruby OpenID (aka ruby-openid) through 2.8.0 is vulnerable to SSRF. Ruby-openid performs discovery first, and then verification. This allows an attacker to change the URL used for discovery and trick the server into connecting to the URL, which might be a private server not publicly accessible. Severity can range from medium to critical, depending on how a web application developer chose to employ the ruby-openid library. Developers who based their OpenID integration heavily on the \"example app\" provided by the project are at highest risk.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-06-13T16:15:56Z",
     "Severity": "CRITICAL",
-    "Summary": "Ruby OpenID",
-    "UpdatedAt": "2023-01-09T05:01:36Z",
+    "Summary": "ruby-openid SSRF via claimed_id request",
+    "UpdatedAt": "2023-07-05T19:06:47Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -54,9 +63,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "2.9.0"
       },
-      "VulnerableVersionRange": "\u003c= 2.7.0"
+      "VulnerableVersionRange": "\u003c 2.9.0"
     }
   ]
 }

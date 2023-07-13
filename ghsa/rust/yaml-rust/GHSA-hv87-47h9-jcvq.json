@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2018-0006.html"
       },
       {
+        "Url": "https://github.com/chyh1990/yaml-rust/commit/d61b49cb90391fc4f7f72a1abe597476c8651a07"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-hv87-47h9-jcvq"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2018-20993"
       }
     ],
-    "Description": "An issue was discovered in the yaml-rust crate before 0.4.1 for Rust. There is uncontrolled recursion during deserialization.",
+    "Description": "Affected versions of this crate did not prevent deep recursion while deserializing data structures. This allows an attacker to make a YAML file with deeply nested structures that causes an abort while deserializing it. The flaw was corrected by checking the recursion depth.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:43:13Z",
     "Severity": "HIGH",
     "Summary": "Uncontrolled recursion in rust-yaml",
-    "UpdatedAt": "2023-01-11T05:06:02Z",
+    "UpdatedAt": "2023-06-13T22:23:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

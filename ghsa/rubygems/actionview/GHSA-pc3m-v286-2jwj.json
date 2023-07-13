@@ -44,6 +44,12 @@
         "Url": "https://web.archive.org/web/20200812154343/https://puppet.com/security/cve/cve-2016-6316"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2016-6316.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/I-VWr034ouk"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-pc3m-v286-2jwj"
       }
     ],
@@ -62,7 +68,7 @@
     "PublishedAt": "2017-10-24T18:33:35Z",
     "Severity": "MODERATE",
     "Summary": "actionview Cross-site Scripting vulnerability",
-    "UpdatedAt": "2023-01-23T17:59:44Z",
+    "UpdatedAt": "2023-07-03T23:40:17Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

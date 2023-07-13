@@ -30,6 +30,9 @@
       },
       {
         "Url": "http://www.openwall.com/lists/oss-security/2013/07/16/6"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/passenger/CVE-2013-4136.yml"
       }
     ],
     "Identifiers": [
@@ -46,8 +49,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects passenger",
-    "UpdatedAt": "2023-01-09T05:02:26Z",
+    "Summary": "insecure temporary directory usage in passenger",
+    "UpdatedAt": "2023-06-09T20:17:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

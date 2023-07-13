@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-08-19T20:50:27Z",
+  "UpdatedAt": "2023-06-13T17:09:35Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "branca"
@@ -39,12 +39,12 @@
         "Value": "CVE-2020-35918"
       }
     ],
-    "Description": "An issue was discovered in the branca crate before 0.10.0 for Rust. Decoding tokens (with invalid base62 data) can panic.",
+    "Description": "Prior to 0.10.0 it was possible to have both decoding functions panic unexpectedly, by supplying tokens with an incorrect base62 encoding.\nThe documentation stated that an error should have been reported instead.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:49:50Z",
     "Severity": "MODERATE",
     "Summary": "Unexpected panic when decoding tokens in branca",
-    "UpdatedAt": "2023-04-03T21:09:30Z",
+    "UpdatedAt": "2023-06-13T17:09:35Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,

@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35874"
       }
     ],
-    "Description": "An issue was discovered in the internment crate through 2020-05-28 for Rust. ArcIntern::drop has a race condition and resultant use-after-free.",
+    "Description": "ArcIntern::drop has a race condition where it can release memory which is about to get another user. The new user will get a reference to freed memory.\n\nThis was fixed by serializing access to an interned object while it is being deallocated.\n\nVersions prior to 0.3.12 used stronger locking which avoided the problem.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:46:51Z",
     "Severity": "HIGH",
     "Summary": "Use after free in internment",
-    "UpdatedAt": "2023-01-11T05:06:01Z",
+    "UpdatedAt": "2023-06-13T18:17:01Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

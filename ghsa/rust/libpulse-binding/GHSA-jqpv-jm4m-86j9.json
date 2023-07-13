@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-01-06T18:29:32Z",
+  "UpdatedAt": "2023-06-13T17:45:07Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "libpulse-binding"
@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2018-0021.html"
       },
       {
+        "Url": "https://github.com/jnqnfe/pulse-binding-rust/security/advisories/GHSA-ghpq-vjxw-ch5w"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-jqpv-jm4m-86j9"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2018-25028"
       }
     ],
-    "Description": "An issue was discovered in the libpulse-binding crate before 1.2.1 for Rust. get_context can cause a use-after-free.",
+    "Description": "Affected versions contained a pair of use-after-free issues with the objects returned by the get_format_info and get_context methods of Stream objects. These objects were mistakenly being constructed without setting an important flag to prevent destruction of the underlying C objects they reference upon their own destruction.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:17:50Z",
     "Severity": "HIGH",
     "Summary": "Use After Free in libpulse-binding",
-    "UpdatedAt": "2023-02-03T05:03:45Z",
+    "UpdatedAt": "2023-06-13T17:45:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

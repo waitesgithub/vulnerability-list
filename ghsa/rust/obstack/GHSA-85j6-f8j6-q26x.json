@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35894"
       }
     ],
-    "Description": "An issue was discovered in the obstack crate before 0.1.4 for Rust. Unaligned references can occur.",
+    "Description": "Obstack generates unaligned references for types that require a large alignment.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:48:12Z",
     "Severity": "HIGH",
     "Summary": "Unaligned references in Obstack",
-    "UpdatedAt": "2023-01-11T05:06:00Z",
+    "UpdatedAt": "2023-06-13T20:00:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

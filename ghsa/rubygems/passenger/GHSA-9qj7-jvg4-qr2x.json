@@ -33,6 +33,9 @@
       },
       {
         "Url": "https://access.redhat.com/security/cve/CVE-2013-2119"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/passenger/CVE-2013-2119.yml"
       }
     ],
     "Identifiers": [
@@ -45,12 +48,12 @@
         "Value": "CVE-2013-2119"
       }
     ],
-    "Description": "Phusion Passenger gem before 3.0.21 and 4.0.x before 4.0.5 for Ruby allows local users to cause a denial of service (prevent application start) or gain privileges by pre-creating a temporary \"config\" file in a directory with a predictable name in /tmp/ before it is used by the gem.",
+    "Description": "Phusion Passenger gem before 3.0.21 and 4.0.x before 4.0.5 for Ruby allows local users to cause a denial of service (prevent application start) or gain privileges by pre-creating a temporary \"config\" file in a directory with a predictable name in `/tmp/` before it is used by the gem.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
-    "Summary": "Denial of service in passenger",
-    "UpdatedAt": "2023-02-03T20:38:34Z",
+    "Summary": "Phusion Passenger Denial of Service",
+    "UpdatedAt": "2023-07-05T18:50:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

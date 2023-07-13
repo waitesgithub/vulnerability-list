@@ -20,6 +20,9 @@
         "Url": "https://github.com/notaryproject/notation-go/releases/tag/v1.0.0-rc.3"
       },
       {
+        "Url": "https://github.com/notaryproject/notation-go/pull/275"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-87x9-7grx-m28v"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2023-02-22T00:03:49Z",
     "Severity": "HIGH",
     "Summary": "notation-go has excessive memory allocation on verification",
-    "UpdatedAt": "2023-02-22T00:03:57Z",
+    "UpdatedAt": "2023-07-12T14:17:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

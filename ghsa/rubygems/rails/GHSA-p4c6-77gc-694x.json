@@ -48,6 +48,12 @@
       },
       {
         "Url": "http://www.vupen.com/english/advisories/2007/4238"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rails/CVE-2007-6077.yml"
+      },
+      {
+        "Url": "https://rubyonrails.org/2007/11/24/ruby-on-rails-1-2-6-security-and-maintenance-release"
       }
     ],
     "Identifiers": [
@@ -64,8 +70,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects rails",
-    "UpdatedAt": "2023-01-09T05:03:22Z",
+    "Summary": "session fixation protection mechanism in cgi_process.rb in Rails",
+    "UpdatedAt": "2023-05-11T13:54:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

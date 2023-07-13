@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0094.html"
       },
       {
+        "Url": "https://github.com/diwic/reffers-rs/commit/6dd7ca0d50f2464df708975cdafcfaeeb6d41c66"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-39xg-8p43-h76x"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2020-36203"
       }
     ],
-    "Description": "An issue was discovered in the reffers crate through 2020-12-01 for Rust. ARefss can contain a !Send,!Sync object, leading to a data race and memory corruption.",
+    "Description": "ARefss\u003c'a, V\u003e is a type that is assumed to contain objects that are Send + Sync.\n\nIn the affected versions of this crate, Send/Sync traits are unconditionally implemented for ARefss\u003c'a, V\u003e.\n\nBy using the ARefss::map() API, we can insert a !Send or !Sync object into ARefss\u003c'a, V\u003e. After that, it is possible to create a data race to the inner object of ARefss\u003c'a, V\u003e, which can lead to undefined behavior \u0026 memory corruption.\n\nThe flaw was corrected in commit `6dd7ca0` by adding trait bound V: Send + Sync to ARefss::map() API.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:51:40Z",
     "Severity": "MODERATE",
     "Summary": "Data races in reffers",
-    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "UpdatedAt": "2023-06-13T20:28:37Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,

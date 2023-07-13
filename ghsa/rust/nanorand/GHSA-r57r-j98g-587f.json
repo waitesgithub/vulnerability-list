@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-01-05T23:20:35Z",
+  "UpdatedAt": "2023-06-13T18:38:09Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "nanorand"
@@ -41,7 +41,7 @@
     "PublishedAt": "2022-01-06T22:08:56Z",
     "Severity": "CRITICAL",
     "Summary": "Pointer dereference in nanorand",
-    "UpdatedAt": "2023-02-03T05:03:37Z",
+    "UpdatedAt": "2023-06-13T18:38:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -53,7 +53,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.6.1"
       },
-      "VulnerableVersionRange": "\u003c 0.6.1"
+      "VulnerableVersionRange": "\u003e= 0.5.0, \u003c 0.6.1"
     }
   ]
 }

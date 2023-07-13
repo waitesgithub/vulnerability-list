@@ -33,12 +33,12 @@
         "Value": "CVE-2019-16880"
       }
     ],
-    "Description": "An issue was discovered in the linea crate through 0.9.4 for Rust. There is double free in the Matrix::zip_elements method.",
+    "Description": "Affected versions of this crate did not properly implements the Matrix::zip_elements method, which causes an double free when the given trait implementation might panic. This allows an attacker to corrupt or take control of the memory.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:44:13Z",
     "Severity": "CRITICAL",
     "Summary": "Double free in linea",
-    "UpdatedAt": "2023-01-09T05:05:06Z",
+    "UpdatedAt": "2023-06-13T17:45:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-09-07T23:21:53Z",
+  "UpdatedAt": "2023-07-07T22:06:02Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "eslint-scope"
@@ -37,7 +37,7 @@
     "PublishedAt": "2018-07-12T19:52:02Z",
     "Severity": "CRITICAL",
     "Summary": "Malicious Package in eslint-scope",
-    "UpdatedAt": "2023-01-12T05:07:35Z",
+    "UpdatedAt": "2023-07-07T22:06:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.1,
@@ -47,7 +47,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "4.0.0"
+        "Identifier": "3.7.3"
       },
       "VulnerableVersionRange": "= 3.7.2"
     }

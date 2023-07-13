@@ -33,12 +33,12 @@
         "Value": "CVE-2019-25004"
       }
     ],
-    "Description": "An issue was discovered in the flatbuffers crate before 0.6.1 for Rust. Arbitrary bytes can be reinterpreted as a bool, defeating soundness.",
+    "Description": "The implementation of impl Follow for bool allows to reinterpret arbitrary bytes as a bool.\n\nIn Rust bool has stringent requirements for its in-memory representation. Use of this function allows to violate these requirements and invoke undefined behaviour in safe code.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:46:49Z",
     "Severity": "CRITICAL",
     "Summary": "Unsound casting in flatbuffers",
-    "UpdatedAt": "2023-01-11T05:05:48Z",
+    "UpdatedAt": "2023-06-13T17:17:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -23,6 +23,15 @@
         "Url": "https://weblog.rubyonrails.org/2018/11/27/Rails-4-2-5-0-5-1-5-2-have-been-released/"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activejob/CVE-2018-16476.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/FL4dSdzr2zw"
+      },
+      {
+        "Url": "https://github.com/rails/rails/commit/970b0d754be7c71a760d9b807eea32297fd838e3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-q2qw-rmrh-vv42"
       }
     ],
@@ -41,7 +50,7 @@
     "PublishedAt": "2018-12-05T17:24:27Z",
     "Severity": "HIGH",
     "Summary": "Improper Access Control in activejob",
-    "UpdatedAt": "2023-01-09T05:04:19Z",
+    "UpdatedAt": "2023-06-30T19:52:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

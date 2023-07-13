@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-12-01T23:45:18Z",
+  "UpdatedAt": "2023-05-22T19:33:00Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.jenkins-ci.plugins:promoted-builds"
@@ -33,12 +33,12 @@
         "Value": "CVE-2022-29049"
       }
     ],
-    "Description": "promoted builds Plugin provides dedicated support for defining promotions using [Job DSL Plugin](https://plugins.jenkins.io/job-dsl).\n\npromoted builds Plugin 873.v6149db_d64130 and earlier does not validate the names of promotions defined in Job DSL. This allows attackers with Job/Configure permission to create a promotion with an unsafe name. As a result, the promotion name could be used for cross-site scripting (XSS) or to replace other `config.xml` files.",
+    "Description": "Jenkins promoted builds Plugin provides dedicated support for defining promotions using [Job DSL Plugin](https://plugins.jenkins.io/job-dsl).\n\npromoted builds Plugin 873.v6149db_d64130 and earlier does not validate the names of promotions defined in Job DSL. This allows attackers with Job/Configure permission to create a promotion with an unsafe name. As a result, the promotion name could be used for cross-site scripting (XSS) or to replace other `config.xml` files.\n\npromoted builds Plugin 876.v99d29788b_36b_ and 3.10.1 validates the name of promotions.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-04-13T00:00:16Z",
     "Severity": "HIGH",
     "Summary": "Promotion names in Jenkins promoted builds Plugin are not validated when using Job DSL",
-    "UpdatedAt": "2023-01-27T05:01:35Z",
+    "UpdatedAt": "2023-05-22T19:33:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8,
@@ -48,9 +48,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "876.v99d29788b"
       },
-      "VulnerableVersionRange": "\u003e= 3.11, \u003c= 873.v6149db"
+      "VulnerableVersionRange": "\u003e= 3.11, \u003c 876.v99d29788b"
     },
     {
       "FirstPatchedVersion": {

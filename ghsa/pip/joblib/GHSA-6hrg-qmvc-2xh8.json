@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-04-21T20:06:30Z",
+  "UpdatedAt": "2023-07-06T19:33:38Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "joblib"
@@ -47,6 +47,9 @@
         "Url": "https://github.com/joblib/joblib/commit/6638b9e9711ad1ebbf6dd95aa7cee0dca9897b42"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/joblib/PYSEC-2022-288.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-6hrg-qmvc-2xh8"
       }
     ],
@@ -60,12 +63,12 @@
         "Value": "CVE-2022-21797"
       }
     ],
-    "Description": "The package joblib from 0 and before 1.1.1 and 1.2.0 is vulnerable to Arbitrary Code Execution via the `pre_dispatch` flag in `Parallel()` class due to the `eval()` statement.",
+    "Description": "The package joblib from 0 and before 1.2.0 is vulnerable to Arbitrary Code Execution via the `pre_dispatch` flag in `Parallel()` class due to the `eval()` statement.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-09-27T00:00:22Z",
     "Severity": "CRITICAL",
     "Summary": "joblib vulnerable to arbitrary code execution",
-    "UpdatedAt": "2023-04-21T20:06:30Z",
+    "UpdatedAt": "2023-07-06T19:33:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -75,9 +78,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.1.1"
+        "Identifier": "1.2.0"
       },
-      "VulnerableVersionRange": "\u003c 1.1.1"
+      "VulnerableVersionRange": "\u003c 1.2.0"
     }
   ]
 }

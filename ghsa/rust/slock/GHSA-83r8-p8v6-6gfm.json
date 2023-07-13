@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-11-28T16:02:43Z",
+  "UpdatedAt": "2023-06-13T20:56:17Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "slock"
@@ -31,7 +31,7 @@
     "PublishedAt": "2021-08-25T21:00:20Z",
     "Severity": "HIGH",
     "Summary": "Slock\u003cT\u003e allows sending non-Send types across thread boundaries",
-    "UpdatedAt": "2023-01-08T05:04:38Z",
+    "UpdatedAt": "2023-06-13T20:56:17Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
@@ -43,7 +43,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.2.0"
       },
-      "VulnerableVersionRange": "\u003c= 0.1.2"
+      "VulnerableVersionRange": "\u003c 0.2.0"
     }
   ]
 }

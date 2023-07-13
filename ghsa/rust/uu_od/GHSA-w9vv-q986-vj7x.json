@@ -20,6 +20,24 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0043.html"
       },
       {
+        "Url": "https://github.com/uutils/coreutils/pull/1730"
+      },
+      {
+        "Url": "https://github.com/uutils/coreutils/pull/1738"
+      },
+      {
+        "Url": "https://github.com/uutils/coreutils/pull/1739"
+      },
+      {
+        "Url": "https://github.com/uutils/coreutils/commit/39d62c6c1f809022c903180471c10fde6ecd12d1"
+      },
+      {
+        "Url": "https://github.com/uutils/coreutils/commit/5935876f38498b0c1f657d031171eb17028def6f"
+      },
+      {
+        "Url": "https://github.com/uutils/coreutils/commit/7341a1a033aa5980ac59bc9d4df978b396de4fad"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-w9vv-q986-vj7x"
       }
     ],
@@ -38,7 +56,7 @@
     "PublishedAt": "2021-08-25T20:54:24Z",
     "Severity": "HIGH",
     "Summary": "Out of bounds read in uu_od",
-    "UpdatedAt": "2023-02-03T05:05:57Z",
+    "UpdatedAt": "2023-05-22T16:06:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.3,

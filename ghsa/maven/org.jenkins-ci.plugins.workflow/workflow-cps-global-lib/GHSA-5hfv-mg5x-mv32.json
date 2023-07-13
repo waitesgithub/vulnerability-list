@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-20T22:47:02Z",
+  "UpdatedAt": "2023-05-31T17:26:34Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.jenkins-ci.plugins.workflow:workflow-cps-global-lib"
@@ -30,12 +30,12 @@
         "Value": "CVE-2022-25178"
       }
     ],
-    "Description": "Jenkins Pipeline: Shared Groovy Libraries Plugin 552.vd9cc05b8a2e1 and earlier does not restrict the names of resources passed to the libraryResource step, allowing attackers able to configure Pipelines permission to read arbitrary files on the Jenkins controller file system.",
+    "Description": "Jenkins Pipeline: Shared Groovy Libraries Plugin does not restrict the names of resources passed to the libraryResource step, allowing attackers able to configure Pipelines permission to read arbitrary files on the Jenkins controller file system.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-02-16T00:01:33Z",
     "Severity": "MODERATE",
     "Summary": "Improper Limitation of a Pathname to a Restricted Directory in Jenkins Pipeline: Shared Groovy Libraries Plugin",
-    "UpdatedAt": "2023-01-27T05:00:35Z",
+    "UpdatedAt": "2023-05-31T17:26:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
@@ -45,9 +45,21 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "2.18.1"
+      },
+      "VulnerableVersionRange": "\u003c 2.18.1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.21.1"
+      },
+      "VulnerableVersionRange": "\u003e= 2.19, \u003c 2.21.1"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "561.va_ce0de3c2d69"
       },
-      "VulnerableVersionRange": "\u003c= 552.vd9cc05b8a2e1"
+      "VulnerableVersionRange": "\u003e= 2.22, \u003c= 552.vd9cc05b8a2e1"
     }
   ]
 }

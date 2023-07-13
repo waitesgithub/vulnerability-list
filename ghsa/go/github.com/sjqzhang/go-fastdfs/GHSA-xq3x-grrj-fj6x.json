@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-04-07T22:24:59Z",
+  "UpdatedAt": "2023-06-13T23:48:48Z",
   "Package": {
     "Ecosystem": "GO",
     "Name": "github.com/sjqzhang/go-fastdfs"
@@ -23,7 +23,13 @@
         "Url": "https://vuldb.com/?id.224768"
       },
       {
+        "Url": "https://github.com/sjqzhang/go-fastdfs/commit/61cbff5124c61e292994099372b11c06cdb5b80b"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-xq3x-grrj-fj6x"
+      },
+      {
+        "Url": "https://github.com/yangyanglo/ForCVE/blob/93a16663cd32a36d37d8a0f0102e1592254d0279/2023-0x05.md"
       }
     ],
     "Identifiers": [
@@ -41,7 +47,7 @@
     "PublishedAt": "2023-04-02T12:30:16Z",
     "Severity": "CRITICAL",
     "Summary": "sjqzhang go-fastdfs vulnerable to path traversal",
-    "UpdatedAt": "2023-04-07T22:24:59Z",
+    "UpdatedAt": "2023-06-13T23:48:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -51,9 +57,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.4.5-0.20230408141131-61cbff5124c6"
       },
-      "VulnerableVersionRange": "\u003c= 1.4.3"
+      "VulnerableVersionRange": "\u003c 1.4.5-0.20230408141131-61cbff5124c6"
     }
   ]
 }

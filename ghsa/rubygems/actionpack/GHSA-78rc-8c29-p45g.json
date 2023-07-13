@@ -50,6 +50,12 @@
         "Url": "https://web.archive.org/web/20211205173437/https://securitytracker.com/id/1035122"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2016-2098.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/ly-IH-fxr_Q"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-78rc-8c29-p45g"
       }
     ],
@@ -68,7 +74,7 @@
     "PublishedAt": "2017-10-24T18:33:35Z",
     "Severity": "HIGH",
     "Summary": "actionpack allows remote code execution via application's unrestricted use of render method",
-    "UpdatedAt": "2023-01-23T15:11:26Z",
+    "UpdatedAt": "2023-07-03T18:58:44Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.3,

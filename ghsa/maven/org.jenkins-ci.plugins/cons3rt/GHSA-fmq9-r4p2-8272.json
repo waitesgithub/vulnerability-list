@@ -33,12 +33,12 @@
         "Value": "CVE-2022-41255"
       }
     ],
-    "Description": "CONS3RT Plugin 1.0.0 and earlier stores Cons3rt API token unencrypted in job `config.xml` files on the Jenkins controller as part of its configuration.\n\nThis API token can be viewed by users with access to the Jenkins controller file system.",
+    "Description": "Jenkins CONS3RT Plugin 1.0.0 and earlier stores Cons3rt API token unencrypted in job `config.xml` files on the Jenkins controller as part of its configuration.\n\nThis API token can be viewed by users with access to the Jenkins controller file system.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-09-22T00:00:26Z",
     "Severity": "LOW",
     "Summary": "API token stored in plain text by Jenkins CONS3RT Plugin",
-    "UpdatedAt": "2023-01-31T05:02:20Z",
+    "UpdatedAt": "2023-06-27T20:52:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 3.3,

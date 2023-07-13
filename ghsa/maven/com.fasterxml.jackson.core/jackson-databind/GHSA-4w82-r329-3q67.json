@@ -168,12 +168,12 @@
         "Value": "CVE-2020-8840"
       }
     ],
-    "Description": "FasterXML jackson-databind 2.x before 2.6.7.4, 2.7.x before 2.7.9.7, 2.8.x before 2.8.11.5 and 2.9.x before 2.9.10.2  lacks certain xbean-reflect/JNDI blocking, as demonstrated by org.apache.xbean.propertyeditor.JndiConverter.",
+    "Description": "FasterXML jackson-databind 2.x before 2.6.7.4, 2.7.x before 2.7.9.7, 2.8.x before 2.8.11.5 and 2.9.x before 2.9.10.2 lacks certain xbean-reflect/JNDI blocking, as demonstrated by org.apache.xbean.propertyeditor.JndiConverter.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-03-04T20:52:14Z",
     "Severity": "CRITICAL",
     "Summary": "Deserialization of Untrusted Data in jackson-databind",
-    "UpdatedAt": "2023-02-01T05:02:39Z",
+    "UpdatedAt": "2023-06-08T19:02:12Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

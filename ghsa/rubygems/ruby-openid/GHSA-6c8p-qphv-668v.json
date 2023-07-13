@@ -36,6 +36,9 @@
       },
       {
         "Url": "http://www.openwall.com/lists/oss-security/2013/03/03/8"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-openid/CVE-2013-1812.yml"
       }
     ],
     "Identifiers": [
@@ -52,8 +55,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects ruby-openid",
-    "UpdatedAt": "2023-01-09T05:02:43Z",
+    "Summary": "Denial of service in ruby-openid",
+    "UpdatedAt": "2023-06-09T20:18:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

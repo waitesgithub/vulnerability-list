@@ -83,12 +83,6 @@
         "Url": "http://rhn.redhat.com/errata/RHSA-2016-2035.html"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/91481"
-      },
-      {
-        "Url": "http://www.securitytracker.com/id/1036165"
-      },
-      {
         "Url": "https://github.com/belaban/JGroups/commit/eeaf5241cce464ef21a2dfc4938729ade9ebef36"
       },
       {
@@ -96,6 +90,12 @@
       },
       {
         "Url": "https://issues.redhat.com/browse/JGRP-2074"
+      },
+      {
+        "Url": "https://web.archive.org/web/20161013163606/http://www.securityfocus.com/bid/91481"
+      },
+      {
+        "Url": "https://web.archive.org/web/20201207092245/http://www.securitytracker.com/id/1036165"
       },
       {
         "Url": "https://github.com/advisories/GHSA-rc7h-x6cq-988q"
@@ -116,7 +116,7 @@
     "PublishedAt": "2022-05-13T01:03:31Z",
     "Severity": "CRITICAL",
     "Summary": "Improper Input Validation in JGroups",
-    "UpdatedAt": "2023-01-29T05:03:17Z",
+    "UpdatedAt": "2023-06-01T19:57:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

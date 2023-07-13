@@ -36,12 +36,12 @@
         "Value": "CVE-2021-28035"
       }
     ],
-    "Description": "Affected versions of stack_dst used a push_inner function that increased the internal length of the array and then called val.clone(). If the val.clone() call panics, the stack could drop an already dropped element or drop uninitialized memory. This issue was fixed in 2a4d538 by increasing the length of the array after elements are cloned.\n",
+    "Description": "Affected versions of stack_dst used a push_inner function that increased the internal length of the array and then called val.clone(). If the val.clone() call panics, the stack could drop an already dropped element or drop uninitialized memory. This issue was fixed in `2a4d538` by increasing the length of the array after elements are cloned.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-09-01T18:30:55Z",
     "Severity": "CRITICAL",
     "Summary": "Drop of uninitialized memory in stack_dst",
-    "UpdatedAt": "2023-01-27T05:00:34Z",
+    "UpdatedAt": "2023-06-13T20:53:06Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

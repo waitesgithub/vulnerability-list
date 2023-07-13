@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T21:22:51Z",
+  "UpdatedAt": "2023-06-22T05:03:03Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "chttp"
@@ -33,12 +33,12 @@
         "Value": "CVE-2019-16140"
       }
     ],
-    "Description": "An issue was discovered in the chttp crate before 0.1.3 for Rust. There is a use-after-free during buffer conversion.",
+    "Description": "The From implementation for Vec was not properly implemented, returning a vector backed by freed memory. This could lead to memory corruption or be exploited to cause undefined behavior.\n\nA fix was published in version 0.1.3.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:44:40Z",
     "Severity": "CRITICAL",
     "Summary": "Use-after-free in chttp",
-    "UpdatedAt": "2023-01-11T05:05:48Z",
+    "UpdatedAt": "2023-06-22T05:03:03Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.1.3"
       },
-      "VulnerableVersionRange": "\u003c 0.1.3"
+      "VulnerableVersionRange": "\u003e= 0.1.1, \u003c 0.1.3"
     }
   ]
 }

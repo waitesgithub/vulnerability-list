@@ -99,12 +99,12 @@
         "Value": "CVE-2013-2172"
       }
     ],
-    "Description": "jcp/xml/dsig/internal/dom/DOMCanonicalizationMethod.java in Apache Santuario XML Security for Java 1.4.x before 1.4.8 and 1.5.x before 1.5.5 allows context-dependent attackers to spoof an XML Signature by using the CanonicalizationMethod parameter to specify an arbitrary weak \"canonicalization algorithm to apply to the SignedInfo part of the Signature.\"",
+    "Description": "`jcp/xml/dsig/internal/dom/DOMCanonicalizationMethod.java` in Apache Santuario XML Security for Java 1.4.x before 1.4.8 and 1.5.x before 1.5.5 allows context-dependent attackers to spoof an XML Signature by using the CanonicalizationMethod parameter to specify an arbitrary weak \"canonicalization algorithm to apply to the SignedInfo part of the Signature.\"",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-13T01:05:56Z",
     "Severity": "MODERATE",
     "Summary": "Inefficient Algorithmic Complexity in Apache Santuario XML Security",
-    "UpdatedAt": "2023-02-15T22:11:29Z",
+    "UpdatedAt": "2023-06-01T19:51:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

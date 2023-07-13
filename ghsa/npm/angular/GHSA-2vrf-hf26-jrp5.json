@@ -20,6 +20,15 @@
         "Url": "https://stackblitz.com/edit/angularjs-vulnerability-angular-copy-redos"
       },
       {
+        "Url": "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-5406320"
+      },
+      {
+        "Url": "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBANGULAR-5406322"
+      },
+      {
+        "Url": "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-5406321"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-2vrf-hf26-jrp5"
       }
     ],
@@ -38,7 +47,7 @@
     "PublishedAt": "2023-03-30T06:30:26Z",
     "Severity": "MODERATE",
     "Summary": "angular vulnerable to regular expression denial of service via the angular.copy() utility",
-    "UpdatedAt": "2023-04-03T13:07:51Z",
+    "UpdatedAt": "2023-05-22T21:31:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,

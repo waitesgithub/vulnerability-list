@@ -17,6 +17,12 @@
         "Url": "https://discuss.hashicorp.com/t/hcsec-2023-10-vault-vulnerable-to-cache-timing-attacks-during-seal-and-unseal-operations/52078"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230526-0008/"
+      },
+      {
+        "Url": "https://github.com/hashicorp/vault/pull/19495"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vq4h-9ghm-qmrr"
       }
     ],
@@ -35,7 +41,7 @@
     "PublishedAt": "2023-03-30T03:30:38Z",
     "Severity": "MODERATE",
     "Summary": "HashiCorp Vault's implementation of Shamir's secret sharing vulnerable to cache-timing attacks",
-    "UpdatedAt": "2023-04-07T19:23:02Z",
+    "UpdatedAt": "2023-06-13T23:52:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,

@@ -29,6 +29,12 @@
         "Url": "https://github.com/pallets/flask/releases/tag/2.2.5"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/flask/PYSEC-2023-62.yaml"
+      },
+      {
+        "Url": "https://www.debian.org/security/2023/dsa-5442"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-m2qf-hxjv-5gpq"
       }
     ],
@@ -47,7 +53,7 @@
     "PublishedAt": "2023-05-01T19:22:20Z",
     "Severity": "HIGH",
     "Summary": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
-    "UpdatedAt": "2023-05-02T18:53:01Z",
+    "UpdatedAt": "2023-06-30T20:23:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

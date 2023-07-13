@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0107.html"
       },
       {
+        "Url": "https://github.com/nervosnetwork/ckb/security/advisories/GHSA-v666-6w97-pcwm"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8gjm-h3xj-mp6w"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-01-06T22:10:43Z",
     "Severity": "CRITICAL",
     "Summary": "RPC call failure in ckb",
-    "UpdatedAt": "2023-02-03T05:03:46Z",
+    "UpdatedAt": "2023-06-13T17:06:01Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

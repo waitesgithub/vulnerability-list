@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2018-01-22T13:30:19Z",
+  "UpdatedAt": "2023-05-31T17:47:44Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "jquery"
@@ -21,12 +21,6 @@
       },
       {
         "Url": "https://github.com/jquery/jquery/commit/b078a62013782c7424a4a61a240c23c4c0b42614"
-      },
-      {
-        "Url": "https://github.com/advisories/GHSA-rmxg-73gg-4p98"
-      },
-      {
-        "Url": "https://www.npmjs.com/advisories/328"
       },
       {
         "Url": "https://github.com/jquery/jquery/pull/2588/commits/c254d308a7d3f1eac4d0b42837804cfffcba4bb2"
@@ -134,7 +128,28 @@
         "Url": "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/105658"
+        "Url": "https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-450227"
+      },
+      {
+        "Url": "https://github.com/jquery/jquery/issues/2432#issuecomment-403761229"
+      },
+      {
+        "Url": "https://github.com/rails/jquery-rails/blob/master/CHANGELOG.md#420"
+      },
+      {
+        "Url": "https://github.com/rails/jquery-rails/blob/v4.2.0/vendor/assets/javascripts/jquery3.js#L9377"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200227030101/http://www.securityfocus.com/bid/105658"
+      },
+      {
+        "Url": "https://github.com/rails/jquery-rails/releases/tag/v4.2.0"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/jquery-rails/CVE-2015-9251.yml"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-rmxg-73gg-4p98"
       }
     ],
     "Identifiers": [
@@ -152,7 +167,7 @@
     "PublishedAt": "2018-01-22T13:32:06Z",
     "Severity": "MODERATE",
     "Summary": "Cross-Site Scripting (XSS) in jquery",
-    "UpdatedAt": "2023-02-01T05:04:10Z",
+    "UpdatedAt": "2023-07-10T12:59:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -164,7 +179,13 @@
       "FirstPatchedVersion": {
         "Identifier": "3.0.0"
       },
-      "VulnerableVersionRange": "\u003c 3.0.0"
+      "VulnerableVersionRange": "\u003e= 1.12.3, \u003c 3.0.0"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.12.2"
+      },
+      "VulnerableVersionRange": "\u003c 1.12.2"
     }
   ]
 }

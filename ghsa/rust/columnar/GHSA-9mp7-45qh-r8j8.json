@@ -20,6 +20,9 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2021-0087.html"
       },
       {
+        "Url": "https://github.com/frankmcsherry/columnar/issues/6"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-9mp7-45qh-r8j8"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2021-45685"
       }
     ],
-    "Description": "An issue was discovered in the columnar crate through 2021-01-07 for Rust. ColumnarReadExt::read_typed_vec may read from uninitialized memory locations.",
+    "Description": "Affected versions of this crate passes an uninitialized buffer to a user-provided Read implementation (ColumnarReadExt::read_typed_vec()).\n\nArbitrary Read implementations can read from the uninitialized buffer (memory exposure) and also can return incorrect number of bytes written to the buffer. Reading from uninitialized memory produces undefined values that can quickly invoke undefined behavior.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-01-06T22:13:46Z",
     "Severity": "CRITICAL",
-    "Summary": "Use of Uninitialized Resource in columnar.",
-    "UpdatedAt": "2023-02-03T05:03:45Z",
+    "Summary": "columnar: Read on uninitialized buffer may cause UB (ColumnarReadExt::read_typed_vec())",
+    "UpdatedAt": "2023-06-13T17:04:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

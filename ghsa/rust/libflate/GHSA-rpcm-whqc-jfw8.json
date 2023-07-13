@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T21:22:32Z",
+  "UpdatedAt": "2023-06-13T17:42:24Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "libflate"
@@ -44,7 +44,7 @@
     "PublishedAt": "2021-08-25T20:44:53Z",
     "Severity": "CRITICAL",
     "Summary": "Use after free in libflate",
-    "UpdatedAt": "2023-04-19T20:30:33Z",
+    "UpdatedAt": "2023-06-13T17:42:24Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -56,7 +56,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.1.25"
       },
-      "VulnerableVersionRange": "\u003c 0.1.25"
+      "VulnerableVersionRange": "\u003e= 0.1.14, \u003c 0.1.25"
     }
   ]
 }

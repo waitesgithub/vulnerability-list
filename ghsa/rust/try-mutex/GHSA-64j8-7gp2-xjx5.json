@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35924"
       }
     ],
-    "Description": "An issue was discovered in the try-mutex crate before 0.3.0 for Rust. TryMutex\u003cT\u003e allows cross-thread sending of a non-Send type.",
+    "Description": "Affected versions of this crate unconditionally implemented Sync trait for TryMutex\u003cT\u003e type. This allows users to put non-Send T type in TryMutex and send it to another thread, which can cause a data race. The flaw was corrected in the 0.3.0 release by adding T: Send bound for the Sync trait implementation.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:50:28Z",
     "Severity": "MODERATE",
     "Summary": "Data races in try-mutex",
-    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "UpdatedAt": "2023-06-13T22:26:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,

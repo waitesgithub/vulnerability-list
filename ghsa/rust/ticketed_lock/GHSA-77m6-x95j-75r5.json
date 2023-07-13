@@ -20,6 +20,12 @@
         "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0119.html"
       },
       {
+        "Url": "https://github.com/kvark/ticketed_lock/issues/7"
+      },
+      {
+        "Url": "https://github.com/kvark/ticketed_lock/commit/a986a9335d591fa5c826157d1674d47aa525357f"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-77m6-x95j-75r5"
       }
     ],
@@ -33,12 +39,12 @@
         "Value": "CVE-2020-36439"
       }
     ],
-    "Description": "An issue was discovered in the ticketed_lock crate before 0.3.0 for Rust. There are unconditional implementations of Send for ReadTicket\u003cT\u003e and WriteTicket\u003cT\u003e.",
+    "Description": "Affected versions of this crate unconditionally implemented Send for ReadTicket\u003cT\u003e \u0026 WriteTicket\u003cT\u003e. This allows to send non-Send T to other threads. This can allows creating data races by cloning types with internal mutability and sending them to other threads (as T of ReadTicket\u003cT\u003e/WriteTicket\u003cT\u003e). Such data races can cause memory corruption or other undefined behavior. The flaw was corrected in commit `a986a93` by adding T: Send bounds to Send impls of ReadTicket\u003cT\u003e/WriteTicket\u003cT\u003e.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:58:58Z",
     "Severity": "HIGH",
     "Summary": "Data races in ticketed_lock",
-    "UpdatedAt": "2023-02-01T05:06:12Z",
+    "UpdatedAt": "2023-06-13T22:07:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

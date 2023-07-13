@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-08-19T20:51:02Z",
+  "UpdatedAt": "2023-06-13T17:12:10Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "crossbeam-channel"
@@ -33,12 +33,12 @@
         "Value": "CVE-2020-35904"
       }
     ],
-    "Description": "An issue was discovered in the crossbeam-channel crate before 0.4.4 for Rust. It has incorrect expectations about the relationship between the memory allocation and how many iterator elements there are.",
+    "Description": "The affected version of this crate's the bounded channel incorrectly assumes that Vec::from_iter has allocated capacity that same as the number of iterator elements. Vec::from_iter does not actually guarantee that and may allocate extra memory. The destructor of the bounded channel reconstructs Vec from the raw pointer based on the incorrect assumes described above. This is unsound and causing deallocation with the incorrect capacity when Vec::from_iter has allocated different sizes with the number of iterator elements.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:49:43Z",
     "Severity": "MODERATE",
     "Summary": "Incorrect buffer size in crossbeam-channel",
-    "UpdatedAt": "2023-01-11T05:05:40Z",
+    "UpdatedAt": "2023-06-13T17:12:10Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.4.4"
       },
-      "VulnerableVersionRange": "\u003c 0.4.4"
+      "VulnerableVersionRange": "\u003e= 0.4.3, \u003c 0.4.4"
     }
   ]
 }

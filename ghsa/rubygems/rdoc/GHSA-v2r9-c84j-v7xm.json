@@ -23,16 +23,10 @@
         "Url": "https://github.com/advisories/GHSA-v2r9-c84j-v7xm"
       },
       {
-        "Url": "http://blog.segment7.net/2013/02/06/rdoc-xss-vulnerability-cve-2013-0256-releases-3-9-5-3-12-1-4-0-0-rc-2"
-      },
-      {
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2013-04/msg00015.html"
       },
       {
         "Url": "http://lists.opensuse.org/opensuse-updates/2013-02/msg00048.html"
-      },
-      {
-        "Url": "http://rhn.redhat.com/errata/RHSA-2013-0548.html"
       },
       {
         "Url": "http://rhn.redhat.com/errata/RHSA-2013-0686.html"
@@ -44,13 +38,16 @@
         "Url": "http://rhn.redhat.com/errata/RHSA-2013-0728.html"
       },
       {
-        "Url": "http://secunia.com/advisories/52774"
-      },
-      {
         "Url": "http://www.ruby-lang.org/en/news/2013/02/06/rdoc-xss-cve-2013-0256/"
       },
       {
         "Url": "http://www.ubuntu.com/usn/USN-1733-1"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rdoc/CVE-2013-0256.yml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20130402173730/http://blog.segment7.net:80/2013/02/06/rdoc-xss-vulnerability-cve-2013-0256-releases-3-9-5-3-12-1-4-0-0-rc-2"
       }
     ],
     "Identifiers": [
@@ -67,8 +64,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects rdoc",
-    "UpdatedAt": "2023-02-01T05:04:11Z",
+    "Summary": "RDoc contains XSS vulnerability",
+    "UpdatedAt": "2023-07-05T20:39:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

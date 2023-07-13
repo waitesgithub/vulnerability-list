@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-17T00:14:34Z",
+  "UpdatedAt": "2023-06-13T20:09:09Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "qwutils"
@@ -20,6 +20,9 @@
         "Url": "https://github.com/qwertz19281/rust_utils/issues/3"
       },
       {
+        "Url": "https://github.com/qwertz19281/rust_utils/commit/20cb73d"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-68p4-pjpf-xwcq"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2021-26954"
       }
     ],
-    "Description": "An issue was discovered in the qwutils crate before 0.3.1 for Rust. When a Clone panic occurs, insert_slice_clone can perform a double drop.",
+    "Description": "Affected versions of this crate used ptr::copy when inserting into the middle of a Vec. When ownership was temporarily duplicated during this copy, it calls the clone method of a user provided element.\n\nThis issue can result in an element being double-freed if the clone call panics.\n\nCommit `20cb73d` fixed this issue by adding a set_len(0) call before operating on the vector to avoid dropping the elements during a panic.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T17:41:47Z",
     "Severity": "MODERATE",
     "Summary": "insert_slice_clone can double drop if Clone panics.",
-    "UpdatedAt": "2023-01-27T05:03:01Z",
+    "UpdatedAt": "2023-06-13T20:09:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,

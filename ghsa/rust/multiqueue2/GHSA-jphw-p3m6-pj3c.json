@@ -33,12 +33,12 @@
         "Value": "CVE-2020-36214"
       }
     ],
-    "Description": "An issue was discovered in the multiqueue2 crate before 0.1.7 for Rust. Because a non-Send type can be sent to a different thread, a data race can occur.",
+    "Description": "Affected versions of this crate unconditionally implemented Send for types used in queue implementations (InnerSend\u003cRW, T\u003e, InnerRecv\u003cRW, T\u003e, FutInnerSend\u003cRW, T\u003e, FutInnerRecv\u003cRW, T\u003e).\n\nThis allows users to send non-Send types to other threads, which can lead to data race bugs or other undefined behavior.\n\nThe flaw was corrected in v0.1.7 by adding T: Send bound to to the Send impl of four data types explained above.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:51:54Z",
     "Severity": "MODERATE",
     "Summary": "Data races in multiqueue2",
-    "UpdatedAt": "2023-01-11T05:05:30Z",
+    "UpdatedAt": "2023-06-13T20:04:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,
