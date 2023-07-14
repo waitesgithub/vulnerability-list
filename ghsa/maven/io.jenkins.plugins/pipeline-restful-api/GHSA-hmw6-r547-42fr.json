@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2023-07-12/#SECURITY-3126"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2023/07/12/2"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-hmw6-r547-42fr"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2023-07-12T18:30:38Z",
     "Severity": "HIGH",
     "Summary": "Jenkins Pipeline restFul API Plugin vulnerable to Cross Site Request Forgery",
-    "UpdatedAt": "2023-07-12T22:31:55Z",
+    "UpdatedAt": "2023-07-14T13:46:22Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

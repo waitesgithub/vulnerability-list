@@ -23,6 +23,9 @@
         "Url": "https://github.com/apache/airflow/commit/6724eeb6210d5965937eaf9dae3e476eb30f8268"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2023/07/12/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-hg6c-qqcm-r79r"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2023-07-03T12:30:34Z",
     "Severity": "CRITICAL",
     "Summary": "Apache Airflow Hive Provider Beeline remote code execution with Principal",
-    "UpdatedAt": "2023-07-11T16:35:05Z",
+    "UpdatedAt": "2023-07-14T13:41:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -23,6 +23,9 @@
         "Url": "https://github.com/sqlfluff/sqlfluff/releases/tag/2.1.2"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/sqlfluff/PYSEC-2023-111.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-jqhc-m2j3-fjrx"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2023-07-06T21:05:43Z",
     "Severity": "MODERATE",
     "Summary": "SQLFluff users with access to config file, using `libary_path` may call arbitrary python code",
-    "UpdatedAt": "2023-07-06T21:06:30Z",
+    "UpdatedAt": "2023-07-14T13:26:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.3,

@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-07-10T21:54:46Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -36,13 +36,13 @@
     "Description": "TeamPass prior to 3.0.10 allows unauthenticated actors to view application-specific and user data and files by viewing an endpoint directory listing.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-08T09:30:27Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "TeamPass information exposure vulnerability",
-    "UpdatedAt": "2023-07-10T21:54:46Z",
+    "UpdatedAt": "2023-07-14T15:51:46Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 5.3,
-      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2023-07-12/#SECURITY-3164"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2023/07/12/2"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-p4wr-9wfm-f9jw"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2023-07-12T18:30:38Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins SAML Single Sign On(SSO) Plugin missing permission check",
-    "UpdatedAt": "2023-07-12T22:31:03Z",
+    "UpdatedAt": "2023-07-14T13:43:27Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,

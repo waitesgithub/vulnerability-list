@@ -53,6 +53,9 @@
         "Url": "https://pkg.go.dev/vuln/GO-2022-0209"
       },
       {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00017.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-r5c5-pr8j-pfp7"
       }
     ],
@@ -71,7 +74,7 @@
     "PublishedAt": "2022-05-24T16:45:25Z",
     "Severity": "MODERATE",
     "Summary": "golang.org/x/crypto/salsa20/salsa uses insufficiently random values",
-    "UpdatedAt": "2023-02-24T17:20:09Z",
+    "UpdatedAt": "2023-07-14T18:01:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,

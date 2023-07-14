@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2023-07-12/#SECURITY-3130"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2023/07/12/2"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-w3p4-7823-m33q"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2023-07-12T18:30:38Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Datadog Plugin does not perform a permission check in an HTTP endpoint.",
-    "UpdatedAt": "2023-07-12T19:49:55Z",
+    "UpdatedAt": "2023-07-14T13:43:21Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.2,
