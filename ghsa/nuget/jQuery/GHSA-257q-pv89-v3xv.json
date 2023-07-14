@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-07T15:08:27Z",
+  "UpdatedAt": "2023-07-13T20:49:58Z",
   "Package": {
     "Ecosystem": "NUGET",
     "Name": "jQuery"
@@ -56,7 +56,7 @@
     "PublishedAt": "2023-06-26T21:30:58Z",
     "Severity": "MODERATE",
     "Summary": "jQuery Cross Site Scripting vulnerability",
-    "UpdatedAt": "2023-07-10T13:07:18Z",
+    "UpdatedAt": "2023-07-13T20:49:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -68,7 +68,7 @@
       "FirstPatchedVersion": {
         "Identifier": "3.5.0"
       },
-      "VulnerableVersionRange": "\u003e= 2.2.0, \u003c 3.5.0"
+      "VulnerableVersionRange": "\u003e= 1.0.3, \u003c 3.5.0"
     }
   ]
 }

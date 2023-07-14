@@ -1,9 +1,9 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-05T20:26:49Z",
+  "UpdatedAt": "2023-07-13T20:45:19Z",
   "Package": {
     "Ecosystem": "NUGET",
-    "Name": "Grpc.AspNetCore.Server"
+    "Name": "Grpc.Core"
   },
   "Advisory": {
     "DatabaseId": 213885,
@@ -44,7 +44,7 @@
     "PublishedAt": "2023-07-05T19:12:51Z",
     "Severity": "HIGH",
     "Summary": "Connection confusion in gRPC",
-    "UpdatedAt": "2023-07-10T13:04:10Z",
+    "UpdatedAt": "2023-07-13T20:45:19Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.4,
