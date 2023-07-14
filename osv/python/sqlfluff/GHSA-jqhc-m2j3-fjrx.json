@@ -1,6 +1,6 @@
 {
   "id": "GHSA-jqhc-m2j3-fjrx",
-  "modified": "2023-07-06T21:15:48.782491Z",
+  "modified": "2023-07-14T13:30:50.749033Z",
   "published": "2023-07-06T21:05:43Z",
   "aliases": [
     "CVE-2023-36830"
@@ -151,6 +151,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sqlfluff/sqlfluff/commit/6cdc38d76bedab4801b035c04d3c2b3aea17de86"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/sqlfluff/PYSEC-2023-111.yaml"
     },
     {
       "type": "PACKAGE",

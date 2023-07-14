@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2023-98",
-  "modified": "2023-07-13T14:38:19.158303Z",
+  "modified": "2023-07-14T14:49:54.747365Z",
   "published": "2023-07-03T21:15:00Z",
   "aliases": [
     "CVE-2023-36258"
@@ -257,7 +257,8 @@
         "0.0.99rc0",
         "0.0.230",
         "0.0.231",
-        "0.0.232"
+        "0.0.232",
+        "0.0.233"
       ],
       "database_specific": {
         "source": "https://github.com/pypa/advisory-database/blob/main/vulns/langchain/PYSEC-2023-98.yaml"
