@@ -1,6 +1,6 @@
 {
   "id": "GHSA-m678-f26j-3hrp",
-  "modified": "2023-06-09T22:34:15.811347Z",
+  "modified": "2023-07-14T22:03:52.018048Z",
   "published": "2022-10-26T22:07:00Z",
   "aliases": [
     "CVE-2022-39286"
@@ -65,6 +65,11 @@
         "4.9.1rc0",
         "4.9.2"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "jupyter_core.application.JupyterApp.config_file_paths"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/10/GHSA-m678-f26j-3hrp/GHSA-m678-f26j-3hrp.json"
       }
