@@ -4,12 +4,12 @@
     "ID": "openSUSE-SU-2023:0159-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-06-29T12:17:45Z",
-    "CurrentReleaseDate": "2023-06-29T12:17:45Z",
+    "InitialReleaseDate": "2023-06-29T12:17:46Z",
+    "CurrentReleaseDate": "2023-06-29T12:17:46Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-06-29T12:17:45Z",
+        "Date": "2023-06-29T12:17:46Z",
         "Description": "current"
       }
     ]
@@ -39,23 +39,43 @@
   "ProductTree": {
     "Relationships": [
       {
-        "ProductReference": "chromedriver-114.0.5735.198-bp154.2.96.1",
+        "ProductReference": "chromedriver-114.0.5735.198-bp155.2.10.1",
         "RelatesToProductReference": "SUSE Package Hub 15 SP4",
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "chromium-114.0.5735.198-bp154.2.96.1",
+        "ProductReference": "chromium-114.0.5735.198-bp155.2.10.1",
         "RelatesToProductReference": "SUSE Package Hub 15 SP4",
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "chromedriver-114.0.5735.198-bp154.2.96.1",
+        "ProductReference": "chromedriver-114.0.5735.198-bp155.2.10.1",
+        "RelatesToProductReference": "SUSE Package Hub 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "chromium-114.0.5735.198-bp155.2.10.1",
+        "RelatesToProductReference": "SUSE Package Hub 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "chromedriver-114.0.5735.198-bp155.2.10.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "chromium-114.0.5735.198-bp154.2.96.1",
+        "ProductReference": "chromium-114.0.5735.198-bp155.2.10.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "chromedriver-114.0.5735.198-bp155.2.10.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "chromium-114.0.5735.198-bp155.2.10.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
         "RelationType": "Default Component Of"
       }
     ]
@@ -110,10 +130,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "SUSE Package Hub 15 SP4:chromedriver-114.0.5735.198-bp154.2.96.1",
-            "SUSE Package Hub 15 SP4:chromium-114.0.5735.198-bp154.2.96.1",
-            "openSUSE Leap 15.4:chromedriver-114.0.5735.198-bp154.2.96.1",
-            "openSUSE Leap 15.4:chromium-114.0.5735.198-bp154.2.96.1"
+            "SUSE Package Hub 15 SP4:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP4:chromium-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP5:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP5:chromium-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.4:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.4:chromium-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.5:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.5:chromium-114.0.5735.198-bp155.2.10.1"
           ]
         }
       ],
@@ -142,10 +166,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "SUSE Package Hub 15 SP4:chromedriver-114.0.5735.198-bp154.2.96.1",
-            "SUSE Package Hub 15 SP4:chromium-114.0.5735.198-bp154.2.96.1",
-            "openSUSE Leap 15.4:chromedriver-114.0.5735.198-bp154.2.96.1",
-            "openSUSE Leap 15.4:chromium-114.0.5735.198-bp154.2.96.1"
+            "SUSE Package Hub 15 SP4:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP4:chromium-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP5:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP5:chromium-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.4:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.4:chromium-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.5:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.5:chromium-114.0.5735.198-bp155.2.10.1"
           ]
         }
       ],
@@ -174,10 +202,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "SUSE Package Hub 15 SP4:chromedriver-114.0.5735.198-bp154.2.96.1",
-            "SUSE Package Hub 15 SP4:chromium-114.0.5735.198-bp154.2.96.1",
-            "openSUSE Leap 15.4:chromedriver-114.0.5735.198-bp154.2.96.1",
-            "openSUSE Leap 15.4:chromium-114.0.5735.198-bp154.2.96.1"
+            "SUSE Package Hub 15 SP4:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP4:chromium-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP5:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "SUSE Package Hub 15 SP5:chromium-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.4:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.4:chromium-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.5:chromedriver-114.0.5735.198-bp155.2.10.1",
+            "openSUSE Leap 15.5:chromium-114.0.5735.198-bp155.2.10.1"
           ]
         }
       ],

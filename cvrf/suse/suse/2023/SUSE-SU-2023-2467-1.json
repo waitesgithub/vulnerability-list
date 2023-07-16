@@ -31,13 +31,33 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP4-SAP-BYOS-2023-2467,Image SLES15-SP4-SAP-BYOS-GCE-2023-2467,Image SLES15-SP4-SAP-Hardened-2023-2467,Image SLES15-SP4-SAP-Hardened-Azure-2023-2467,Image SLES15-SP4-SAP-Hardened-GCE-2023-2467,Image SLES15-SP5-SAP-Azure-2023-2467,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-2467,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-2467,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-2467,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-2467,Image SLES15-SP5-SAP-BYOS-EC2-2023-2467,Image SLES15-SP5-SAP-EC2-2023-2467,Image SLES15-SP5-SAP-GCE-2023-2467,Image SLES15-SP5-SAP-Hardened-Azure-2023-2467,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2467,Image SLES15-SP5-SAP-Hardened-GCE-2023-2467,SUSE-2023-2467,SUSE-SLE-Module-Basesystem-15-SP4-2023-2467,SUSE-SLE-Module-Basesystem-15-SP5-2023-2467,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-2467,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-2467,SUSE-SLE-Product-RT-15-SP3-2023-2467,openSUSE-SLE-15.4-2023-2467,openSUSE-SLE-15.5-2023-2467",
+      "Text": "Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2467,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2467,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2467,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2467,Image SLES15-SP4-SAP-BYOS-2023-2467,Image SLES15-SP4-SAP-BYOS-GCE-2023-2467,Image SLES15-SP4-SAP-Hardened-2023-2467,Image SLES15-SP4-SAP-Hardened-Azure-2023-2467,Image SLES15-SP4-SAP-Hardened-GCE-2023-2467,Image SLES15-SP5-SAP-Azure-2023-2467,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-2467,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-2467,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-2467,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-2467,Image SLES15-SP5-SAP-BYOS-EC2-2023-2467,Image SLES15-SP5-SAP-EC2-2023-2467,Image SLES15-SP5-SAP-GCE-2023-2467,Image SLES15-SP5-SAP-Hardened-Azure-2023-2467,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2467,Image SLES15-SP5-SAP-Hardened-GCE-2023-2467,SUSE-2023-2467,SUSE-SLE-Module-Basesystem-15-SP4-2023-2467,SUSE-SLE-Module-Basesystem-15-SP5-2023-2467,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-2467,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-2467,SUSE-SLE-Product-RT-15-SP3-2023-2467,openSUSE-SLE-15.4-2023-2467,openSUSE-SLE-15.5-2023-2467",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libwebp7-1.0.3-150200.3.5.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
@@ -356,6 +376,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwebp7-1.0.3-150200.3.5.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwebp7-1.0.3-150200.3.5.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwebp7-1.0.3-150200.3.5.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwebp7-1.0.3-150200.3.5.1",
             "Image SLES15-SP4-SAP-BYOS-GCE:libwebp7-1.0.3-150200.3.5.1",
             "Image SLES15-SP4-SAP-BYOS:libwebp7-1.0.3-150200.3.5.1",
             "Image SLES15-SP4-SAP-Hardened-Azure:libwebp7-1.0.3-150200.3.5.1",

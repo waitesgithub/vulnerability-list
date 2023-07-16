@@ -39,13 +39,23 @@
   "ProductTree": {
     "Relationships": [
       {
-        "ProductReference": "gifsicle-1.94-bp154.2.3.1",
+        "ProductReference": "gifsicle-1.94-bp155.3.3.1",
         "RelatesToProductReference": "SUSE Package Hub 15 SP4",
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "gifsicle-1.94-bp154.2.3.1",
+        "ProductReference": "gifsicle-1.94-bp155.3.3.1",
+        "RelatesToProductReference": "SUSE Package Hub 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gifsicle-1.94-bp155.3.3.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gifsicle-1.94-bp155.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
         "RelationType": "Default Component Of"
       }
     ]
@@ -92,8 +102,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "SUSE Package Hub 15 SP4:gifsicle-1.94-bp154.2.3.1",
-            "openSUSE Leap 15.4:gifsicle-1.94-bp154.2.3.1"
+            "SUSE Package Hub 15 SP4:gifsicle-1.94-bp155.3.3.1",
+            "SUSE Package Hub 15 SP5:gifsicle-1.94-bp155.3.3.1",
+            "openSUSE Leap 15.4:gifsicle-1.94-bp155.3.3.1",
+            "openSUSE Leap 15.5:gifsicle-1.94-bp155.3.3.1"
           ]
         }
       ],

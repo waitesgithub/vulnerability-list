@@ -219,17 +219,7 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "libfreebl3-hmac-3.79-150400.3.7.1",
-        "RelatesToProductReference": "Container suse/pcp:5",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "libsoftokn3-3.79-150400.3.7.1",
-        "RelatesToProductReference": "Container suse/pcp:5",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-hmac-3.79-150400.3.7.1",
         "RelatesToProductReference": "Container suse/pcp:5",
         "RelationType": "Default Component Of"
       },
@@ -249,17 +239,7 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "libfreebl3-hmac-3.79-150400.3.7.1",
-        "RelatesToProductReference": "Container suse/pcp:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "libsoftokn3-3.79-150400.3.7.1",
-        "RelatesToProductReference": "Container suse/pcp:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-hmac-3.79-150400.3.7.1",
         "RelatesToProductReference": "Container suse/pcp:latest",
         "RelationType": "Default Component Of"
       },
@@ -2362,15 +2342,11 @@
             "Container suse/389-ds:latest:mozilla-nss-certs-3.79-150400.3.7.1",
             "Container suse/389-ds:latest:mozilla-nss-tools-3.79-150400.3.7.1",
             "Container suse/pcp:5:libfreebl3-3.79-150400.3.7.1",
-            "Container suse/pcp:5:libfreebl3-hmac-3.79-150400.3.7.1",
             "Container suse/pcp:5:libsoftokn3-3.79-150400.3.7.1",
-            "Container suse/pcp:5:libsoftokn3-hmac-3.79-150400.3.7.1",
             "Container suse/pcp:5:mozilla-nss-3.79-150400.3.7.1",
             "Container suse/pcp:5:mozilla-nss-certs-3.79-150400.3.7.1",
             "Container suse/pcp:latest:libfreebl3-3.79-150400.3.7.1",
-            "Container suse/pcp:latest:libfreebl3-hmac-3.79-150400.3.7.1",
             "Container suse/pcp:latest:libsoftokn3-3.79-150400.3.7.1",
-            "Container suse/pcp:latest:libsoftokn3-hmac-3.79-150400.3.7.1",
             "Container suse/pcp:latest:mozilla-nss-3.79-150400.3.7.1",
             "Container suse/pcp:latest:mozilla-nss-certs-3.79-150400.3.7.1",
             "Container suse/sle-micro-rancher/5.3:latest:libfreebl3-3.79-150400.3.7.1",

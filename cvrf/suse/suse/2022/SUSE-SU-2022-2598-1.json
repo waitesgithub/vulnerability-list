@@ -1364,13 +1364,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2022-32742.html",
           "Description": "CVE-2022-32742"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201496",
+          "Description": "SUSE Bug 1201496"
         },
         {
           "URL": "https://bugzilla.suse.com/1202815",
