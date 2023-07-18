@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "CRITICAL",
   "UpdatedAt": "2023-07-11T22:46:05Z",
   "Package": {
     "Ecosystem": "PIP",
@@ -36,13 +36,13 @@
     "Description": "xalpha v0.11.4 is vulnerable to Remote Command Execution (RCE).",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-11T15:31:18Z",
-    "Severity": "MODERATE",
+    "Severity": "CRITICAL",
     "Summary": "xalpha vulnerable to Remote Code Execution",
-    "UpdatedAt": "2023-07-11T22:46:05Z",
+    "UpdatedAt": "2023-07-18T17:56:54Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [
