@@ -33,12 +33,12 @@
         "Value": "CVE-2019-16751"
       }
     ],
-    "Description": "An issue was discovered in Devise Token Auth through 1.1.2. The omniauth failure endpoint is vulnerable to Reflected Cross Site Scripting (XSS) through the message parameter. Unauthenticated attackers can craft a URL that executes a malicious JavaScript payload in the victim's browser. This affects the fallback_render method in the omniauth callbacks controller.",
+    "Description": "An issue was discovered in Devise Token Auth through 1.1.2. The omniauth failure endpoint is vulnerable to Reflected Cross Site Scripting (XSS) through the message parameter. Unauthenticated attackers can craft a URL that executes a malicious JavaScript payload in the victim's browser. This affects the `fallback_render` method in the omniauth callbacks controller.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T16:56:43Z",
     "Severity": "MODERATE",
     "Summary": "Devise Token Auth vulnerable to Cross-site Scripting",
-    "UpdatedAt": "2023-03-14T23:35:39Z",
+    "UpdatedAt": "2023-07-17T21:15:04Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
