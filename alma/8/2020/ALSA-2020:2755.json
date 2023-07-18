@@ -8,8 +8,8 @@
     "$date": 1593102689000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
         "name": "libnghttp2",
@@ -72,6 +72,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libnghttp2",
+        "version": "1.33.0",
+        "release": "3.el8_2.1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
+        "filename": "Packages/libnghttp2-1.33.0-3.el8_2.1.i686.rpm",
+        "sum": "bc985967f917e0ddb99c9966440165b80c2df104f035968c0f58e39324e5f743",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libnghttp2-devel",
         "version": "1.33.0",
         "release": "3.el8_2.1",
@@ -116,6 +128,18 @@
         "src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
         "filename": "libnghttp2-devel-1.33.0-3.el8_2.1.aarch64.rpm",
         "sum": "e0c2098672b447bf3bd43f0c4f8e47b2f1a41f481facc10e36f0545c074ee200",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libnghttp2",
+        "version": "1.33.0",
+        "release": "3.el8_2.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
+        "filename": "libnghttp2-1.33.0-3.el8_2.1.x86_64.rpm",
+        "sum": "ec2b6aee4dc42e190d0aecb2eb236f4e0d83356ccfd8ee813cb31d1ed8da3e29",
         "sum_type": 5,
         "reboot_suggested": 0
       },
