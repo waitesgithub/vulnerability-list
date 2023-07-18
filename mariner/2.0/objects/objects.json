@@ -6,6 +6,26 @@
       "Name": "kata-containers-cc"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27197001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27192001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27180001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27154001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27150001",
       "Version": "1",
       "Name": "msft-golang"
@@ -19,6 +39,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27122001",
       "Version": "1",
       "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27087001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27078001",
+      "Version": "1",
+      "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27065001",
@@ -119,6 +149,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26784001",
       "Version": "1",
       "Name": "sysstat"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26783001",
+      "Version": "1",
+      "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26782001",
@@ -244,6 +279,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26368001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26342001",
+      "Version": "1",
+      "Name": "cloud-init"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26341001",
@@ -739,6 +779,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:25320001",
       "Version": "3",
       "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25318001",
+      "Version": "1",
+      "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25317001",
