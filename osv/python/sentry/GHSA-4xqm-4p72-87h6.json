@@ -1,6 +1,6 @@
 {
   "id": "GHSA-4xqm-4p72-87h6",
-  "modified": "2023-07-07T16:48:12.337163Z",
+  "modified": "2023-07-18T19:31:22.628695Z",
   "published": "2023-07-06T22:55:44Z",
   "aliases": [
     "CVE-2023-36829"
@@ -64,6 +64,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/getsentry/sentry"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/sentry/PYSEC-2023-115.yaml"
     }
   ]
 }
