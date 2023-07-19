@@ -5,10 +5,10 @@
     "date": "2023-06-27 23:45"
   },
   "updated": {
-    "date": "2023-06-28 00:21"
+    "date": "2023-07-03 20:17"
   },
   "severity": "important",
-  "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2023-1206:\n\tPlaceholder Text\n",
+  "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2023-1206:\n\tAn issue was found in the Linux kernel's IPv6 TCP connection tracking code, which could lead to high CPU usage with certain traffic patterns.\n",
   "packages": [
     {
       "name": "kernel-tools-debuginfo",
