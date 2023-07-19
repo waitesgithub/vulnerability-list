@@ -1,9 +1,9 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-06-22T18:24:11Z",
+  "UpdatedAt": "2023-07-19T14:39:30Z",
   "Package": {
     "Ecosystem": "MAVEN",
-    "Name": "org.springframework:spring-core"
+    "Name": "org.springframework:spring-web"
   },
   "Advisory": {
     "DatabaseId": 166371,
@@ -35,6 +35,18 @@
         "Url": "https://www.oracle.com/security-alerts/cpujul2022.html"
       },
       {
+        "Url": "https://github.com/spring-projects/spring-framework/issues/26931"
+      },
+      {
+        "Url": "https://github.com/spring-projects/spring-framework/commit/0d0d75e25322d8161002d861fff3ec04ba8be5ac"
+      },
+      {
+        "Url": "https://github.com/spring-projects/spring-framework/commit/cce60c479c22101f24b2b4abebb6d79440b120d1"
+      },
+      {
+        "Url": "https://spring.io/security/cve-2021-22118"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-gfwj-fwqj-fp3v"
       }
     ],
@@ -53,7 +65,7 @@
     "PublishedAt": "2022-05-24T19:03:28Z",
     "Severity": "HIGH",
     "Summary": "Improper Privilege Management in Spring Framework",
-    "UpdatedAt": "2023-01-30T05:02:05Z",
+    "UpdatedAt": "2023-07-19T14:39:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.8,
