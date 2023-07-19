@@ -33,12 +33,12 @@
         "Value": "CVE-2019-18835"
       }
     ],
-    "Description": "Matrix Synapse before 1.5.0 mishandles signature checking on some federation APIs. Events sent over /send_join, /send_leave, and /invite may not be correctly signed, or may not come from the expected servers.",
+    "Description": "Matrix Synapse before 1.5.0 mishandles signature checking on some federation APIs. Events sent over `/send_join`, `/send_leave`, and `/invite` may not be correctly signed, or may not come from the expected servers.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T22:01:05Z",
     "Severity": "HIGH",
     "Summary": "Improper Verification of Cryptographic Signature in matrix-synapse",
-    "UpdatedAt": "2023-01-28T05:02:46Z",
+    "UpdatedAt": "2023-07-18T18:29:14Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.6,

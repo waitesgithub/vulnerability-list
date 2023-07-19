@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-06-27T22:32:05Z",
+  "UpdatedAt": "2023-07-18T19:55:27Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "word-wrap"
@@ -23,6 +23,9 @@
         "Url": "https://github.com/jonschlinkert/word-wrap/blob/master/index.js#L39"
       },
       {
+        "Url": "https://github.com/jonschlinkert/word-wrap/releases/tag/1.2.4"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-j8xg-fqg3-53r7"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2023-06-22T06:30:18Z",
     "Severity": "MODERATE",
     "Summary": "word-wrap vulnerable to Regular Expression Denial of Service",
-    "UpdatedAt": "2023-06-27T22:32:05Z",
+    "UpdatedAt": "2023-07-18T19:55:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
@@ -51,9 +54,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.2.4"
       },
-      "VulnerableVersionRange": "\u003c= 1.2.3"
+      "VulnerableVersionRange": "\u003c 1.2.4"
     }
   ]
 }

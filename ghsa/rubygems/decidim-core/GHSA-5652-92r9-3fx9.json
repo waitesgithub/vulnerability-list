@@ -23,6 +23,12 @@
         "Url": "https://github.com/decidim/decidim/releases/tag/v0.27.3"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/decidim-core/CVE-2023-34089.yml"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/decidim/CVE-2023-34089.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-5652-92r9-3fx9"
       }
     ],
@@ -36,12 +42,12 @@
         "Value": "CVE-2023-34089"
       }
     ],
-    "Description": "### Impact\n\nThe processes filter feature is susceptible to Cross-site scripting. This allows a remote attacker to execute JavaScript code in the context of a currently logged-in user. An attacker could use this vulnerability to make other users endorse or support proposals they have no intention of supporting or endorsing.\n\n### Patches\n\nThe problem was patched in [v0.27.3](https://github.com/decidim/decidim/releases/tag/v0.27.3) and [v0.26.6](https://github.com/decidim/decidim/releases/tag/v0.26.6)\n",
+    "Description": "### Impact\n\nThe processes filter feature is susceptible to Cross-site scripting. This allows a remote attacker to execute JavaScript code in the context of a currently logged-in user. An attacker could use this vulnerability to make other users endorse or support proposals they have no intention of supporting or endorsing.\n\n### Patches\n\nThe problem was patched in [v0.27.3](https://github.com/decidim/decidim/releases/tag/v0.27.3) and [v0.26.7](https://github.com/decidim/decidim/releases/tag/v0.26.7)\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-11T22:46:57Z",
     "Severity": "HIGH",
     "Summary": "Decidim Cross-site Scripting vulnerability in the processes filter",
-    "UpdatedAt": "2023-07-11T22:47:05Z",
+    "UpdatedAt": "2023-07-18T19:10:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

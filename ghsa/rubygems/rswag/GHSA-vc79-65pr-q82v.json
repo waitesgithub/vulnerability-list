@@ -20,6 +20,9 @@
         "Url": "https://github.com/rswag/rswag/compare/2.9.0...2.10.1"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rswag/CVE-2023-38337.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vc79-65pr-q82v"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2023-07-15T00:30:34Z",
     "Severity": "MODERATE",
     "Summary": "rswag vulnerable to arbitrary JSON and YAML file read via directory traversal",
-    "UpdatedAt": "2023-07-17T10:44:30Z",
+    "UpdatedAt": "2023-07-18T19:13:04Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

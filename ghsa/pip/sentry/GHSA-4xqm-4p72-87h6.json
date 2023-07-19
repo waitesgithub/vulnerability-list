@@ -29,6 +29,9 @@
         "Url": "https://github.com/getsentry/self-hosted/releases/tag/23.6.2"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/sentry/PYSEC-2023-115.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-4xqm-4p72-87h6"
       }
     ],
@@ -47,7 +50,7 @@
     "PublishedAt": "2023-07-06T22:55:44Z",
     "Severity": "MODERATE",
     "Summary": "Sentry CORS misconfiguration",
-    "UpdatedAt": "2023-07-07T16:29:53Z",
+    "UpdatedAt": "2023-07-18T19:14:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.8,
