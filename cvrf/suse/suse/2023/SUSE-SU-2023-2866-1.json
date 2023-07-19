@@ -1,0 +1,173 @@
+{
+  "Title": "Security update for python-requests",
+  "Tracking": {
+    "ID": "SUSE-SU-2023:2866-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2023-07-18T09:09:32Z",
+    "CurrentReleaseDate": "2023-07-18T09:09:32Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2023-07-18T09:09:32Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python-requests",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python-requests fixes the following issues:\n\n- CVE-2023-32681: Fixed unintended leak of Proxy-Authorization header (bsc#1211674).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2023-2866,SUSE-SLE-Micro-5.3-2023-2866,SUSE-SLE-Micro-5.4-2023-2866,SUSE-SLE-Module-Basesystem-15-SP4-2023-2866,SUSE-SLE-Module-Basesystem-15-SP5-2023-2866,SUSE-SLE-Product-RT-15-SP3-2023-2866,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2866,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2866,SUSE-SUSE-MicroOS-5.1-2023-2866,SUSE-SUSE-MicroOS-5.2-2023-2866,openSUSE-Leap-Micro-5.3-2023-2866,openSUSE-SLE-15.4-2023-2866,openSUSE-SLE-15.5-2023-2866",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-150300.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2023/suse-su-20232866-1/",
+      "Description": "Link for SUSE-SU-2023:2866-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2023-July/015522.html",
+      "Description": "E-Mail link for SUSE-SU-2023:2866-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1211674",
+      "Description": "SUSE Bug 1211674"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-32681/",
+      "Description": "SUSE CVE CVE-2023-32681 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2023-32681",
+      "Description": "Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use `rebuild_proxies` to reattach the `Proxy-Authorization` header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.\n\n",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-32681.html",
+          "Description": "CVE-2023-32681"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211674",
+          "Description": "SUSE Bug 1211674"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Micro 5.1:python3-requests-2.24.0-150300.3.3.1",
+            "SUSE Linux Enterprise Micro 5.2:python3-requests-2.24.0-150300.3.3.1",
+            "SUSE Linux Enterprise Micro 5.3:python3-requests-2.24.0-150300.3.3.1",
+            "SUSE Linux Enterprise Micro 5.4:python3-requests-2.24.0-150300.3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-requests-2.24.0-150300.3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP5:python3-requests-2.24.0-150300.3.3.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:python3-requests-2.24.0-150300.3.3.1",
+            "SUSE Manager Proxy 4.2:python3-requests-2.24.0-150300.3.3.1",
+            "SUSE Manager Server 4.2:python2-requests-2.24.0-150300.3.3.1",
+            "SUSE Manager Server 4.2:python3-requests-2.24.0-150300.3.3.1",
+            "openSUSE Leap 15.4:python3-requests-2.24.0-150300.3.3.1",
+            "openSUSE Leap 15.5:python3-requests-2.24.0-150300.3.3.1",
+            "openSUSE Leap Micro 5.3:python3-requests-2.24.0-150300.3.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
