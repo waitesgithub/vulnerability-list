@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2023-109",
-  "modified": "2023-07-17T16:50:49.698466Z",
+  "modified": "2023-07-19T17:35:38.340112Z",
   "published": "2023-07-06T14:15:00Z",
   "aliases": [
     "CVE-2023-36188"
@@ -260,7 +260,9 @@
         "0.0.232",
         "0.0.233",
         "0.0.234",
-        "0.0.235"
+        "0.0.235",
+        "0.0.236",
+        "0.0.237"
       ],
       "database_specific": {
         "source": "https://github.com/pypa/advisory-database/blob/main/vulns/langchain/PYSEC-2023-109.yaml"
