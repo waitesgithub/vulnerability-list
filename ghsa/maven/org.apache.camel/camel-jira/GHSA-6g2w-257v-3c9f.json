@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "LOW",
   "UpdatedAt": "2023-07-10T21:53:10Z",
   "Package": {
     "Ecosystem": "MAVEN",
@@ -42,13 +42,13 @@
     "Description": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Software Foundation Apache Camel. This issue affects Apache Camel from 3.X through \u003c=3.14.8, from 3.18.X through \u003c=3.18.7, from 3.20.X through \u003c= 3.20.5, from 4.X through \u003c= 4.0.0-M3.\n\nUsers should upgrade to 3.14.9, 3.18.8, 3.20.6 or 3.21.0 and for users on Camel 4.x update to 4.0.0-RC1\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-10T18:30:49Z",
-    "Severity": "MODERATE",
+    "Severity": "LOW",
     "Summary": "Apache Camel information exposure vulnerability",
-    "UpdatedAt": "2023-07-10T21:53:10Z",
+    "UpdatedAt": "2023-07-19T10:49:18Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 3.3,
+      "VectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
     }
   },
   "Versions": [
