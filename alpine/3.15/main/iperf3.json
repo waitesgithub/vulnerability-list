@@ -1,15 +1,8 @@
 {
-  "name": "nghttp2",
+  "name": "iperf3",
   "secfixes": {
-    "1.39.2-r0": [
-      "CVE-2019-9511",
-      "CVE-2019-9513"
-    ],
-    "1.41.0-r0": [
-      "CVE-2020-11080"
-    ],
-    "1.47.0-r1": [
-      "CVE-2023-35945"
+    "3.10.1-r1": [
+      "CVE-2023-38403"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
@@ -24,5 +17,5 @@
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
   "reponame": "main",
-  "distroversion": "v3.16"
+  "distroversion": "v3.15"
 }
