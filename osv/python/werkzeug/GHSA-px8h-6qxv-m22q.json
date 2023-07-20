@@ -1,6 +1,6 @@
 {
   "id": "GHSA-px8h-6qxv-m22q",
-  "modified": "2023-04-11T01:48:25.804041Z",
+  "modified": "2023-07-19T22:19:28.808750Z",
   "published": "2023-02-15T15:37:03Z",
   "aliases": [
     "CVE-2023-23934"
@@ -109,6 +109,11 @@
         "2.2.1",
         "2.2.2"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "werkzeug.http.parse_cookie"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/02/GHSA-px8h-6qxv-m22q/GHSA-px8h-6qxv-m22q.json"
       }

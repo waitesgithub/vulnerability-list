@@ -1,6 +1,6 @@
 {
   "id": "GHSA-6hrg-qmvc-2xh8",
-  "modified": "2023-07-06T19:48:01.952744Z",
+  "modified": "2023-07-19T22:34:07.537624Z",
   "published": "2022-09-27T00:00:22Z",
   "aliases": [
     "CVE-2022-21797"
@@ -127,6 +127,11 @@
         "1.1.0a0",
         "1.1.1"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "joblib._utils.eval_expr"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/09/GHSA-6hrg-qmvc-2xh8/GHSA-6hrg-qmvc-2xh8.json"
       }

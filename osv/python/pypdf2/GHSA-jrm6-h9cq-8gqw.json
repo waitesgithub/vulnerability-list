@@ -1,6 +1,6 @@
 {
   "id": "GHSA-jrm6-h9cq-8gqw",
-  "modified": "2023-06-30T22:33:15.102167Z",
+  "modified": "2023-07-19T19:33:51.208963Z",
   "published": "2023-06-30T22:17:52Z",
   "aliases": [
     "CVE-2023-36810"
@@ -86,6 +86,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/py-pdf/pypdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/07/msg00019.html"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "GHSA-xg9f-g7g7-2323",
-  "modified": "2023-04-11T01:18:51.835564Z",
+  "modified": "2023-07-19T22:34:18.231687Z",
   "published": "2023-02-15T15:36:26Z",
   "aliases": [
     "CVE-2023-25577"
@@ -109,6 +109,11 @@
         "2.2.1",
         "2.2.2"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "werkzeug.Request.from_values"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/02/GHSA-xg9f-g7g7-2323/GHSA-xg9f-g7g7-2323.json"
       }
