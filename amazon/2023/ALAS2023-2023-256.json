@@ -1,0 +1,68 @@
+{
+  "id": "ALAS2023-2023-256",
+  "title": "Amazon Linux 2023 - ALAS2023-2023-256: Low priority package update for java-1.8.0-amazon-corretto",
+  "issued": {
+    "date": "2023-07-17 20:46"
+  },
+  "updated": {
+    "date": "2023-07-17 20:46"
+  },
+  "severity": "Low",
+  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-22049:\n\tPlaceholder CVE. Details forthcoming\n\nCVE-2023-22045:\n\tPlaceholder CVE. Details forthcoming\n\nCVE-2023-22043:\n\tPlaceholder CVE. Details forthcoming\n",
+  "packages": [
+    {
+      "name": "java-1.8.0-amazon-corretto",
+      "epoch": "1",
+      "version": "1.8.0_382.b05",
+      "release": "1.amzn2023",
+      "arch": "aarch64",
+      "filename": "Packages/java-1.8.0-amazon-corretto-1.8.0_382.b05-1.amzn2023.aarch64.rpm"
+    },
+    {
+      "name": "java-1.8.0-amazon-corretto",
+      "epoch": "1",
+      "version": "1.8.0_382.b05",
+      "release": "1.amzn2023",
+      "arch": "x86_64",
+      "filename": "Packages/java-1.8.0-amazon-corretto-1.8.0_382.b05-1.amzn2023.x86_64.rpm"
+    },
+    {
+      "name": "java-1.8.0-amazon-corretto-devel",
+      "epoch": "1",
+      "version": "1.8.0_382.b05",
+      "release": "1.amzn2023",
+      "arch": "aarch64",
+      "filename": "Packages/java-1.8.0-amazon-corretto-devel-1.8.0_382.b05-1.amzn2023.aarch64.rpm"
+    },
+    {
+      "name": "java-1.8.0-amazon-corretto-devel",
+      "epoch": "1",
+      "version": "1.8.0_382.b05",
+      "release": "1.amzn2023",
+      "arch": "x86_64",
+      "filename": "Packages/java-1.8.0-amazon-corretto-devel-1.8.0_382.b05-1.amzn2023.x86_64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22043",
+      "id": "CVE-2023-22043",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045",
+      "id": "CVE-2023-22045",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049",
+      "id": "CVE-2023-22049",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2023-22043",
+    "CVE-2023-22045",
+    "CVE-2023-22049"
+  ]
+}
