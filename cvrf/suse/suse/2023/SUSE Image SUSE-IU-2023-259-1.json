@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-07-19T06:39:12Z",
+        "Date": "2023-07-20T06:39:55Z",
         "Description": "current"
       }
     ]
@@ -839,7 +839,7 @@
     },
     {
       "CVE": "CVE-2022-28737",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "There's a possible overflow in handle_image() when shim tries to load and execute crafted EFI executables; The handle_image() function takes into account the SizeOfRawData field from each section to be loaded. An attacker can leverage this to perform out-of-bound writes into memory. Arbitrary code execution is not discarded in such scenario.",
       "Threats": [
         {
           "Type": "Impact",
