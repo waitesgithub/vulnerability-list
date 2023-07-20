@@ -20,6 +20,9 @@
         "Url": "https://github.com/ethyca/fides/releases/tag/2.16.0"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-37480"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-g95c-2jgm-hqc6"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2023-07-18T19:22:18Z",
     "Severity": "LOW",
     "Summary": "Fides Webserver Vulnerable to Zip Bomb File Uploads",
-    "UpdatedAt": "2023-07-18T19:23:13Z",
+    "UpdatedAt": "2023-07-19T20:06:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 2.7,

@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-11T22:47:05Z",
+  "UpdatedAt": "2023-07-19T20:52:17Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "decidim-core"
@@ -17,9 +17,6 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34089"
       },
       {
-        "Url": "https://github.com/decidim/decidim/releases/tag/v0.26.6"
-      },
-      {
         "Url": "https://github.com/decidim/decidim/releases/tag/v0.27.3"
       },
       {
@@ -27,6 +24,9 @@
       },
       {
         "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/decidim/CVE-2023-34089.yml"
+      },
+      {
+        "Url": "https://github.com/decidim/decidim/releases/tag/v0.26.7"
       },
       {
         "Url": "https://github.com/advisories/GHSA-5652-92r9-3fx9"
@@ -47,7 +47,7 @@
     "PublishedAt": "2023-07-11T22:46:57Z",
     "Severity": "HIGH",
     "Summary": "Decidim Cross-site Scripting vulnerability in the processes filter",
-    "UpdatedAt": "2023-07-18T19:10:55Z",
+    "UpdatedAt": "2023-07-19T20:52:17Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
@@ -57,15 +57,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.27.3"
+        "Identifier": "0.26.7"
       },
-      "VulnerableVersionRange": "\u003e= 0.27.0, \u003c 0.27.3"
+      "VulnerableVersionRange": "\u003e= 0.14.0, \u003c 0.26.7"
     },
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.26.6"
+        "Identifier": "0.27.3"
       },
-      "VulnerableVersionRange": "\u003e= 0.14.0, \u003c 0.26.6"
+      "VulnerableVersionRange": "\u003e= 0.27.0, \u003c 0.27.3"
     }
   ]
 }

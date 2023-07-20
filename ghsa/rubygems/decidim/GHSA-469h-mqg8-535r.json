@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-11T22:47:02Z",
+  "UpdatedAt": "2023-07-19T19:19:45Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "decidim"
@@ -17,10 +17,16 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32693"
       },
       {
-        "Url": "https://github.com/decidim/decidim/releases/tag/v0.26.6"
+        "Url": "https://github.com/decidim/decidim/releases/tag/v0.27.3"
       },
       {
-        "Url": "https://github.com/decidim/decidim/releases/tag/v0.27.3"
+        "Url": "https://github.com/decidim/decidim/releases/tag/v0.26.7"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/decidim-core/CVE-2023-32693.yml"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/decidim/CVE-2023-32693.yml"
       },
       {
         "Url": "https://github.com/advisories/GHSA-469h-mqg8-535r"
@@ -36,12 +42,12 @@
         "Value": "CVE-2023-32693"
       }
     ],
-    "Description": "### Impact\n\nThe external link feature is susceptible to Cross-site scripting. This allows a remote attacker to execute JavaScript code in the context of a currently logged-in user. An attacker could use this vulnerability to make other users endorse or support proposals they have no intention of supporting or endorsing.\n\n### Patches\n\nThe problem was patched in [v0.27.3](https://github.com/decidim/decidim/releases/tag/v0.27.3) and [v0.26.6](https://github.com/decidim/decidim/releases/tag/v0.26.6)\n",
+    "Description": "### Impact\n\nThe external link feature is susceptible to Cross-site scripting. This allows a remote attacker to execute JavaScript code in the context of a currently logged-in user. An attacker could use this vulnerability to make other users endorse or support proposals they have no intention of supporting or endorsing.\n\n### Patches\n\nThe problem was patched in [v0.27.3](https://github.com/decidim/decidim/releases/tag/v0.27.3) and [v0.26.7](https://github.com/decidim/decidim/releases/tag/v0.26.7)\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-11T22:47:01Z",
     "Severity": "HIGH",
     "Summary": "Decidim Cross-site Scripting vulnerability in the external link redirections",
-    "UpdatedAt": "2023-07-11T22:47:02Z",
+    "UpdatedAt": "2023-07-19T19:19:45Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
@@ -51,15 +57,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.27.3"
+        "Identifier": "0.26.7"
       },
-      "VulnerableVersionRange": "\u003e= 0.27.0, \u003c 0.27.3"
+      "VulnerableVersionRange": "\u003e= 0.25.0, \u003c 0.26.7"
     },
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.26.6"
+        "Identifier": "0.27.3"
       },
-      "VulnerableVersionRange": "\u003e= 0.25.0, \u003c 0.26.6"
+      "VulnerableVersionRange": "\u003e= 0.27.0, \u003c 0.27.3"
     }
   ]
 }
