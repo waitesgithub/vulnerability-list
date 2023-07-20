@@ -29,12 +29,12 @@
         "Value": "GHSA-q9w4-w667-qqj4"
       }
     ],
-    "Description": "### Problem\n\nIt has been discovered that the `ckeditor-wordcount-plugin` plugin for CKEditor4 is susceptible to cross-site scripting when switching to the source code mode.\n\n### Solution\n\nUpdate to version 1.17.11 of the `ckeditor-wordcount-plugin` plugin.\n\n### Credits\n\n* @sypets for reporting this finding to the TYPO3 Security Team\n* @ohader for fixing the issue on behalf of the TYPO3 Security Team\n",
+    "Description": "### Problem\n\nIt has been discovered that the `ckeditor-wordcount-plugin` plugin for CKEditor4 is susceptible to cross-site scripting when switching to the source code mode.\n\n### Solution\n\nUpdate to version 1.17.12 of the `ckeditor-wordcount-plugin` plugin.\n\n### Credits\n\n* @sypets for reporting this finding to the TYPO3 Security Team\n* @ohader for fixing the issue on behalf of the TYPO3 Security Team\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-10T21:54:03Z",
     "Severity": "MODERATE",
     "Summary": "ckeditor-wordcount-plugin vulnerable to Cross-site Scripting in Source Mode of Editor",
-    "UpdatedAt": "2023-07-11T13:48:21Z",
+    "UpdatedAt": "2023-07-20T05:02:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
