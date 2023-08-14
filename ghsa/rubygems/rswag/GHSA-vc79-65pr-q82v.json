@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-07-17T10:44:30Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
@@ -39,13 +39,13 @@
     "Description": "rswag before 2.10.1 allows remote attackers to read arbitrary JSON and YAML files via directory traversal, because rswag-api can expose a file that is not the OpenAPI (or Swagger) specification file of a project.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-15T00:30:34Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "rswag vulnerable to arbitrary JSON and YAML file read via directory traversal",
-    "UpdatedAt": "2023-07-18T19:13:04Z",
+    "UpdatedAt": "2023-07-27T16:11:54Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

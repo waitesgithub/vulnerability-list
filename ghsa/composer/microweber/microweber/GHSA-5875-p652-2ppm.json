@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-03-01T21:09:06Z",
+  "UpdatedAt": "2023-08-03T17:34:38Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "microweber/microweber"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-02-27T00:00:16Z",
     "Severity": "MODERATE",
     "Summary": "Exposure of Resource to Wrong Sphere in microweber",
-    "UpdatedAt": "2023-02-03T05:06:41Z",
+    "UpdatedAt": "2023-08-03T17:34:39Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
@@ -48,9 +48,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.3"
+        "Identifier": "1.3.0"
       },
-      "VulnerableVersionRange": "\u003c 1.3"
+      "VulnerableVersionRange": "\u003c 1.3.0"
     }
   ]
 }

@@ -23,6 +23,9 @@
         "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2023-106.yaml"
       },
       {
+        "Url": "https://github.com/apache/airflow/commit/116e607ddcb32480e57c342f48226545ac6fc315"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-3h4m-m55v-gx4m"
       }
     ],
@@ -41,11 +44,11 @@
     "PublishedAt": "2023-07-12T12:31:36Z",
     "Severity": "MODERATE",
     "Summary": "Apache Airflow Improper Input Validation vulnerability",
-    "UpdatedAt": "2023-07-12T17:30:48Z",
+    "UpdatedAt": "2023-07-21T18:22:20Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 6.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
     }
   },
   "Versions": [

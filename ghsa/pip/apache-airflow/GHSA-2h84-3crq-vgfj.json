@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-12T17:30:23Z",
+  "UpdatedAt": "2023-07-20T19:15:29Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "apache-airflow"
@@ -18,6 +18,12 @@
       },
       {
         "Url": "https://lists.apache.org/thread/vsflptk5dt30vrfggn96nx87d7zr6yvw"
+      },
+      {
+        "Url": "https://github.com/apache/airflow/commit/ac65b82eeeeaa670e09a83c7da65cbac7e89f8db"
+      },
+      {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2023-119.yaml"
       },
       {
         "Url": "https://github.com/advisories/GHSA-2h84-3crq-vgfj"
@@ -38,11 +44,11 @@
     "PublishedAt": "2023-07-12T12:31:36Z",
     "Severity": "MODERATE",
     "Summary": "Apache Airflow Incorrect Authorization vulnerability",
-    "UpdatedAt": "2023-07-12T17:30:23Z",
+    "UpdatedAt": "2023-07-21T18:00:03Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 6.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

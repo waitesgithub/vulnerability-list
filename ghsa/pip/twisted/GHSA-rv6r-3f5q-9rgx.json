@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-03-03T19:02:10Z",
+  "UpdatedAt": "2023-07-24T19:35:18Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "twisted"
@@ -21,9 +21,6 @@
       },
       {
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-21716"
-      },
-      {
-        "Url": "https://github.com/twisted/twisted/commit/89c395ee794e85a9657b112c4351417850330ef9"
       },
       {
         "Url": "https://github.com/twisted/twisted/releases/tag/twisted-22.2.0"
@@ -62,7 +59,7 @@
     "PublishedAt": "2022-03-03T19:02:08Z",
     "Severity": "HIGH",
     "Summary": "Twisted SSH client and server deny of service during SSH handshake.",
-    "UpdatedAt": "2023-01-27T05:03:13Z",
+    "UpdatedAt": "2023-07-24T19:35:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

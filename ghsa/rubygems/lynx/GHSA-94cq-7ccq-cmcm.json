@@ -26,6 +26,9 @@
         "Url": "http://www.vapid.dhs.org/advisories/lynx-0.2.0.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lynx/CVE-2014-5002.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-94cq-7ccq-cmcm"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2018-01-24T17:10:45Z",
     "Severity": "HIGH",
     "Summary": "lynx doesn't properly sanitize user input and exposes database password to unauthorized users",
-    "UpdatedAt": "2023-01-23T20:52:59Z",
+    "UpdatedAt": "2023-07-31T20:47:40Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.8,

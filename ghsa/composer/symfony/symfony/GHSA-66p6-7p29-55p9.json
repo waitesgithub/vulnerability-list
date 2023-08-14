@@ -1,0 +1,86 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2023-07-25T19:14:03Z",
+  "Package": {
+    "Ecosystem": "COMPOSER",
+    "Name": "symfony/symfony"
+  },
+  "Advisory": {
+    "DatabaseId": 87457,
+    "Id": "GSA_kwCzR0hTQS02NnA2LTdwMjktNTVwOc4AAVWh",
+    "GhsaId": "GHSA-66p6-7p29-55p9",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2018-14774"
+      },
+      {
+        "Url": "https://github.com/symfony/symfony/commit/725dee4cd8b4ccd52e335ae4b4522242cea9bd4a"
+      },
+      {
+        "Url": "https://symfony.com/blog/cve-2018-14774-possible-host-header-injection-when-using-httpcache"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-66p6-7p29-55p9"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-66p6-7p29-55p9"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2018-14774"
+      }
+    ],
+    "Description": "An issue was discovered in HttpKernel in Symfony 2.7.0 through 2.7.48, 2.8.0 through 2.8.43, 3.3.0 through 3.3.17, 3.4.0 through 3.4.13, 4.0.0 through 4.0.13, and 4.1.0 through 4.1.2. When using HttpCache, the values of the X-Forwarded-Host headers are implicitly set as trusted while this should be forbidden, leading to potential host header injection.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-14T02:20:59Z",
+    "Severity": "HIGH",
+    "Summary": "Symfony Host Header Injection",
+    "UpdatedAt": "2023-07-25T19:14:03Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.2,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003e= 4.1.0, \u003c= 4.1.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003e= 4.0.0, \u003c= 4.0.13"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003e= 3.4.0, \u003c= 3.4.13"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003e= 3.3.0, \u003c= 3.3.17"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003e= 2.8.0, \u003c= 2.8.43"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003e= 2.7.0, \u003c= 2.7.48"
+    }
+  ]
+}

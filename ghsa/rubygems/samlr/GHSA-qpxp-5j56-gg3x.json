@@ -36,12 +36,12 @@
         "Value": "CVE-2018-20857"
       }
     ],
-    "Description": "Zendesk Samlr before 2.6.2 allows an XML nodes comment attack such as a name_id node with user@example.com followed by \u003c!----\u003e. and then the attacker's domain name.",
+    "Description": "Zendesk Samlr before 2.6.2 allows an XML nodes comment attack such as a name_id node with user@example.com followed by `\u003c!----\u003e`. and then the attacker's domain name.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-07-31T04:22:03Z",
     "Severity": "HIGH",
-    "Summary": "Improper Input Validation in Zendesk Samlr",
-    "UpdatedAt": "2023-05-04T19:51:19Z",
+    "Summary": "samlr XML nodes comment attack",
+    "UpdatedAt": "2023-08-08T16:12:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

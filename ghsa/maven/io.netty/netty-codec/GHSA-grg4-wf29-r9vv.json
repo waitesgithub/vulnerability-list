@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-09-24T16:21:31Z",
+  "UpdatedAt": "2023-08-04T19:57:08Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "io.netty:netty-codec"
@@ -83,7 +83,7 @@
     "PublishedAt": "2021-09-09T17:11:21Z",
     "Severity": "HIGH",
     "Summary": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
-    "UpdatedAt": "2023-01-28T05:03:13Z",
+    "UpdatedAt": "2023-08-07T19:32:33Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -95,7 +95,7 @@
       "FirstPatchedVersion": {
         "Identifier": "4.1.68.Final"
       },
-      "VulnerableVersionRange": "\u003c= 4.1.67"
+      "VulnerableVersionRange": "\u003c 4.1.68.Final"
     }
   ]
 }

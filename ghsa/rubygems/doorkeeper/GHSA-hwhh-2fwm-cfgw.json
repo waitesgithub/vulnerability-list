@@ -23,13 +23,19 @@
         "Url": "https://github.com/rubysec/ruby-advisory-db/pull/328/files"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-hwhh-2fwm-cfgw"
-      },
-      {
         "Url": "https://github.com/doorkeeper-gem/doorkeeper/releases/tag/v4.3.0"
       },
       {
         "Url": "https://github.com/doorkeeper-gem/doorkeeper/commit/7b1a8373ecd69768c896000c7971dbf48948c1b5"
+      },
+      {
+        "Url": "https://blog.justinbull.ca/cve-2018-1000088-stored-xss-in-doorkeeper/"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/doorkeeper/CVE-2018-1000088.yml"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-hwhh-2fwm-cfgw"
       }
     ],
     "Identifiers": [
@@ -47,7 +53,7 @@
     "PublishedAt": "2018-03-13T20:44:48Z",
     "Severity": "MODERATE",
     "Summary": "Doorkeeper is vulnerable to stored XSS and code execution",
-    "UpdatedAt": "2023-04-06T21:16:53Z",
+    "UpdatedAt": "2023-07-31T21:11:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

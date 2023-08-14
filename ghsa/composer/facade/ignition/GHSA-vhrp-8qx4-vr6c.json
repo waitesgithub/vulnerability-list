@@ -1,5 +1,5 @@
 {
-  "Severity": "HIGH",
+  "Severity": "CRITICAL",
   "UpdatedAt": "2021-11-18T21:07:27Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -39,9 +39,9 @@
     "Description": "The Ignition component before 1.16.15, and 2.0.x before 2.0.6, for Laravel has a \"fix variable names\" feature that can lead to incorrect access control.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-11-19T20:18:20Z",
-    "Severity": "HIGH",
+    "Severity": "CRITICAL",
     "Summary": "Incorrect Access Control in Ignition",
-    "UpdatedAt": "2023-02-01T05:06:33Z",
+    "UpdatedAt": "2023-08-08T19:59:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

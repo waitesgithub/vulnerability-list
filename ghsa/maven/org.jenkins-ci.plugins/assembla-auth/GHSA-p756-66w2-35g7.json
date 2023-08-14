@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-07-12T22:30:43Z",
   "Package": {
     "Ecosystem": "MAVEN",
@@ -36,13 +36,13 @@
     "Description": "Jenkins Assembla Auth Plugin 1.14 and earlier does not implement a state parameter in its OAuth flow, a unique and non-guessable value associated with each authentication request.\n\nThis vulnerability allows attackers to trick users into logging in to the attacker’s account.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-12T18:30:39Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Jenkins Assembla Auth Plugin vulnerable to cross-site request forgery",
-    "UpdatedAt": "2023-07-14T14:00:37Z",
+    "UpdatedAt": "2023-07-20T13:59:20Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 4.6,
-      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N"
+      "Score": 8.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

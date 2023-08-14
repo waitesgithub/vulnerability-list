@@ -30,12 +30,12 @@
         "Value": "CVE-2021-28380"
       }
     ],
-    "Description": "The aimeos (aka Aimeos shop and e-commerce framework) extension before 19.10.12 and 20.x before 20.10.5 for TYPO3 allows XSS via a backend user account.",
+    "Description": "The aimeos (aka Aimeos shop and e-commerce framework) extension before 19.10.12 and 20.x before 20.10.5 for TYPO3 allows Cross-site Scripting (XSS) via a backend user account.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T17:44:38Z",
     "Severity": "MODERATE",
-    "Summary": "Aimeos Typo3 extension contains XSS vulnerability",
-    "UpdatedAt": "2023-07-10T23:06:27Z",
+    "Summary": "Aimeos Typo3 extension contains Cross-site Scripting vulnerability",
+    "UpdatedAt": "2023-08-03T18:51:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

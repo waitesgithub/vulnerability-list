@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-07-12T22:30:58Z",
   "Package": {
     "Ecosystem": "MAVEN",
@@ -36,13 +36,13 @@
     "Description": "Jenkins Sumologic Publisher Plugin 2.2.1 and earlier does not perform a permission check in a method implementing form validation.\n\nThis allows attackers with Overall/Read permission to connect to an attacker-specified URL.\n\nAdditionally, this form validation method does not require POST requests, resulting in a cross-site request forgery (CSRF) vulnerability.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-12T18:30:39Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Jenkins Sumologic Publisher Plugin vulnerable to cross-site request forgery",
-    "UpdatedAt": "2023-07-14T13:46:27Z",
+    "UpdatedAt": "2023-07-20T14:29:55Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 4.3,
-      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+      "Score": 8.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

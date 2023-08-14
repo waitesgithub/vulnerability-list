@@ -20,6 +20,9 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-37271"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/restrictedpython/PYSEC-2023-118.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-wqc8-x2pr-7jqh"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2023-07-10T21:53:22Z",
     "Severity": "HIGH",
     "Summary": "RestrictedPython vulnerable to arbitrary code execution via stack frame sandbox escape",
-    "UpdatedAt": "2023-07-11T21:26:41Z",
+    "UpdatedAt": "2023-07-20T18:59:27Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.4,

@@ -33,12 +33,12 @@
         "Value": "CVE-2021-20183"
       }
     ],
-    "Description": "It was found in Moodle before version 3.10.1 that some search inputs were vulnerable to reflected XSS due to insufficient escaping of search queries.",
+    "Description": "It was found in Moodle before version 4.0.0-beta that some search inputs were vulnerable to reflected Cross-site Scripting (XSS) due to insufficient escaping of search queries.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T17:40:31Z",
     "Severity": "MODERATE",
-    "Summary": "Moodle Vulnerable to Reflected XSS",
-    "UpdatedAt": "2023-07-10T22:24:00Z",
+    "Summary": "Moodle Vulnerable to Reflected Cross-site Scripting",
+    "UpdatedAt": "2023-08-03T18:33:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

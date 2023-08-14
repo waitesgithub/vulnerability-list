@@ -30,12 +30,12 @@
         "Value": "CVE-2023-37466"
       }
     ],
-    "Description": "In vm2 for versions up to 3.9.19, `Promise` handler sanitization can be bypassed, allowing attackers to escape the sandbox and run arbitrary code.\n\n### Impact\nRemote Code Execution, assuming the attacker has arbitrary code execution primitive inside the context of vm2 sandbox.\n\n### Patches\nNone.\n\n### Workarounds\nNone.\n\n### References\nPoC is to be disclosed on or after the 8th of August.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n- Open an issue in [VM2](https://github.com/patriksimek/vm2)",
+    "Description": "In vm2 for versions up to 3.9.19, `Promise` handler sanitization can be bypassed, allowing attackers to escape the sandbox and run arbitrary code.\n\n### Impact\nRemote Code Execution, assuming the attacker has arbitrary code execution primitive inside the context of vm2 sandbox.\n\n### Patches\nNone.\n\n### Workarounds\nNone.\n\n### References\nPoC is to be disclosed on or after the 5th of September.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n- Open an issue in [VM2](https://github.com/patriksimek/vm2)\n\nThanks to [Xion](https://twitter.com/0x10n) (SeungHyun Lee) of [KAIST Hacking Lab](https://kaist-hacking.github.io/) for disclosing this vulnerability.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-13T17:02:02Z",
     "Severity": "CRITICAL",
     "Summary": "vm2 Sandbox Escape vulnerability",
-    "UpdatedAt": "2023-07-14T14:01:19Z",
+    "UpdatedAt": "2023-07-24T20:03:33Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

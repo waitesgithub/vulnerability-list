@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-01-24T22:48:51Z",
+  "UpdatedAt": "2023-07-21T19:19:15Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "snipe/snipe-it"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://huntr.dev/bounties/81c6b974-d0b3-410b-a902-8324a55b1368"
+      },
+      {
+        "Url": "https://github.com/snipe/snipe-it/commit/512dbfee7acfcafa1524c8b2fb4cc4ef96958d0b"
       },
       {
         "Url": "https://github.com/advisories/GHSA-xc47-3rch-cv57"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-01-26T20:24:23Z",
     "Severity": "MODERATE",
     "Summary": "Improper Access Control in snipe-it",
-    "UpdatedAt": "2023-02-03T05:04:54Z",
+    "UpdatedAt": "2023-07-21T19:19:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,
@@ -48,7 +51,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "5.3.8"
       },
       "VulnerableVersionRange": "\u003c= 5.3.7"
     }

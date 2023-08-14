@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-01-09T21:56:10Z",
+  "UpdatedAt": "2023-07-21T18:02:33Z",
   "Package": {
     "Ecosystem": "GO",
     "Name": "github.com/KubeOperator/kubepi"
@@ -23,6 +23,9 @@
         "Url": "https://github.com/KubeOperator/KubePi/releases/tag/v1.6.4"
       },
       {
+        "Url": "https://github.com/1Panel-dev/KubePi/security/advisories/GHSA-gqx8-hxmv-c4v4"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-gqx8-hxmv-c4v4"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2023-01-09T21:56:09Z",
     "Severity": "HIGH",
     "Summary": "KubePi may allow unauthorized access to system API",
-    "UpdatedAt": "2023-02-24T16:37:54Z",
+    "UpdatedAt": "2023-07-21T18:02:33Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -51,7 +54,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.6.4"
       },
       "VulnerableVersionRange": "\u003c= 1.6.3"
     }

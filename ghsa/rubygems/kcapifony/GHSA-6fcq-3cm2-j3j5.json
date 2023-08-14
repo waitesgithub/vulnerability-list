@@ -23,6 +23,9 @@
         "Url": "http://www.vapid.dhs.org/advisories/kcapifony-2.1.6.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/kcapifony/CVE-2014-5001.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-6fcq-3cm2-j3j5"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2018-07-23T19:50:11Z",
     "Severity": "HIGH",
     "Summary": "Kcapifony gem for Ruby places database user passwords on the command line",
-    "UpdatedAt": "2023-01-25T23:02:53Z",
+    "UpdatedAt": "2023-07-31T20:51:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.8,

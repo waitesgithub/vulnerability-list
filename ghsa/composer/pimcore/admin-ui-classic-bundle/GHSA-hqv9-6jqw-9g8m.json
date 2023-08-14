@@ -44,11 +44,11 @@
     "PublishedAt": "2023-07-12T17:29:02Z",
     "Severity": "MODERATE",
     "Summary": "Pimcore admin UI vulnerable to Cross-site Scripting in 2 factor authentication setup page",
-    "UpdatedAt": "2023-07-12T17:29:03Z",
+    "UpdatedAt": "2023-07-20T14:59:48Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 5,
-      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L"
+      "Score": 6.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [

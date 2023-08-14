@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-01-11T18:42:50Z",
+  "UpdatedAt": "2023-07-21T19:16:53Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "dolibarr/dolibarr"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-01-12T22:54:50Z",
     "Severity": "MODERATE",
     "Summary": "Logic error in dolibarr",
-    "UpdatedAt": "2023-02-03T05:04:13Z",
+    "UpdatedAt": "2023-07-21T19:16:53Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
@@ -48,9 +48,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "15.0.0"
       },
-      "VulnerableVersionRange": "\u003c= 14.0.4"
+      "VulnerableVersionRange": "\u003c 15.0.0"
     }
   ]
 }

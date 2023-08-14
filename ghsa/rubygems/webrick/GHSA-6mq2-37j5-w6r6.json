@@ -17,12 +17,6 @@
         "Url": "https://github.com/advisories/GHSA-6mq2-37j5-w6r6"
       },
       {
-        "Url": "http://secunia.com/advisories/37949"
-      },
-      {
-        "Url": "http://securitytracker.com/id?1023429"
-      },
-      {
         "Url": "http://www.redhat.com/support/errata/RHSA-2011-0908.html"
       },
       {
@@ -32,16 +26,22 @@
         "Url": "http://www.ruby-lang.org/en/news/2010/01/10/webrick-escape-sequence-injection"
       },
       {
-        "Url": "http://www.securityfocus.com/archive/1/508830/100/0/threaded"
-      },
-      {
-        "Url": "http://www.securityfocus.com/bid/37710"
-      },
-      {
         "Url": "http://www.ush.it/team/ush/hack_httpd_escape/adv.txt"
       },
       {
-        "Url": "http://www.vupen.com/english/advisories/2010/0089"
+        "Url": "https://web.archive.org/web/20100113155532/http://www.vupen.com/english/advisories/2010/0089"
+      },
+      {
+        "Url": "https://web.archive.org/web/20100815010948/http://secunia.com/advisories/37949"
+      },
+      {
+        "Url": "https://web.archive.org/web/20170402100552/http://securitytracker.com/id?1023429"
+      },
+      {
+        "Url": "https://web.archive.org/web/20170908140655/http://www.securityfocus.com/archive/1/508830/100/0/threaded"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200228145937/http://www.securityfocus.com/bid/37710"
       }
     ],
     "Identifiers": [
@@ -58,8 +58,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects webrick",
-    "UpdatedAt": "2023-01-09T05:02:43Z",
+    "Summary": "WEBrick Improper Input Validation vulnerability",
+    "UpdatedAt": "2023-08-01T21:37:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

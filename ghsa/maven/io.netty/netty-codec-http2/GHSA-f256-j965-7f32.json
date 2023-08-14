@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-06-14T21:26:31Z",
+  "UpdatedAt": "2023-08-04T19:55:52Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "io.netty:netty-codec-http2"
@@ -209,7 +209,7 @@
     "PublishedAt": "2021-03-30T15:10:38Z",
     "Severity": "MODERATE",
     "Summary": "Possible request smuggling in HTTP/2 due missing validation of content-length",
-    "UpdatedAt": "2023-02-01T05:05:21Z",
+    "UpdatedAt": "2023-08-07T19:31:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,
@@ -221,7 +221,7 @@
       "FirstPatchedVersion": {
         "Identifier": "4.1.61.Final"
       },
-      "VulnerableVersionRange": "\u003c= 4.1.60.Final"
+      "VulnerableVersionRange": "\u003e= 4.0.0, \u003c 4.1.61.Final"
     }
   ]
 }

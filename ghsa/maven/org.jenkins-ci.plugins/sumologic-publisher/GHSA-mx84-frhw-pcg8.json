@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2023-07-12/#SECURITY-3117"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2023/07/12/2"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-mx84-frhw-pcg8"
       }
     ],
@@ -35,11 +38,11 @@
     "PublishedAt": "2023-07-12T18:30:39Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Sumologic Publisher Plugin missing permission check",
-    "UpdatedAt": "2023-07-12T22:30:54Z",
+    "UpdatedAt": "2023-07-20T14:02:16Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 4.3,
-      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+      "Score": 6.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
     }
   },
   "Versions": [

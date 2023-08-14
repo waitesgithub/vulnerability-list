@@ -14,9 +14,6 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7581"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-9h6g-gp95-x3q5"
-      },
-      {
         "Url": "https://groups.google.com/forum/message/raw?msg=ruby-security-ann/dthJ5wL69JE/IdvCimtZEgAJ"
       },
       {
@@ -41,10 +38,19 @@
         "Url": "http://www.openwall.com/lists/oss-security/2016/01/25/16"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/81677"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2015-7581.yml"
       },
       {
-        "Url": "http://www.securitytracker.com/id/1034816"
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/dthJ5wL69JE"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200228001849/http://www.securityfocus.com/bid/81677"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200516093752/http://www.securitytracker.com/id/1034816"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-9h6g-gp95-x3q5"
       }
     ],
     "Identifiers": [
@@ -62,7 +68,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "HIGH",
     "Summary": "actionpack is vulnerable to denial of service because of a wildcard controller route",
-    "UpdatedAt": "2023-01-09T05:02:50Z",
+    "UpdatedAt": "2023-07-31T20:57:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

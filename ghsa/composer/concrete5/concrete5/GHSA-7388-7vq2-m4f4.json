@@ -36,12 +36,12 @@
         "Value": "CVE-2021-28145"
       }
     ],
-    "Description": "Concrete CMS (formerly concrete5) before 8.5.5 allows remote authenticated users to conduct XSS attacks via a crafted survey block. This requires at least Editor privileges.",
+    "Description": "Concrete CMS (formerly concrete5) before 8.5.5 allows remote authenticated users to conduct Cross-site Scripting (XSS) attacks via a crafted survey block. This requires at least Editor privileges.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T17:44:52Z",
     "Severity": "MODERATE",
-    "Summary": "Concrete CMS XSS via Survey Blocks",
-    "UpdatedAt": "2023-07-10T22:52:03Z",
+    "Summary": "Concrete CMS Cross-site Scripting via Survey Blocks",
+    "UpdatedAt": "2023-08-03T19:39:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

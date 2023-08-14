@@ -14,9 +14,6 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7576"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-p692-7mm3-3fxg"
-      },
-      {
         "Url": "https://groups.google.com/forum/message/raw?msg=ruby-security-ann/ANv0HDHEC3k/T8Hgq-hYEgAJ"
       },
       {
@@ -50,13 +47,22 @@
         "Url": "http://www.openwall.com/lists/oss-security/2016/01/25/8"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/81803"
-      },
-      {
-        "Url": "http://www.securitytracker.com/id/1034816"
-      },
-      {
         "Url": "https://github.com/rails/rails/commit/17e6f1507b7f2c2a883c180f4f9548445d6dfbd"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2015-7576.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/ANv0HDHEC3k"
+      },
+      {
+        "Url": "https://web.archive.org/web/20160405205300/http://www.securitytracker.com/id/1034816"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200228001849/http://www.securityfocus.com/bid/81803"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-p692-7mm3-3fxg"
       }
     ],
     "Identifiers": [
@@ -74,7 +80,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "LOW",
     "Summary": "actionpack is vulnerable to remote bypass authentication",
-    "UpdatedAt": "2023-01-11T05:07:24Z",
+    "UpdatedAt": "2023-07-31T20:59:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 3.7,

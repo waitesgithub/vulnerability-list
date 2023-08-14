@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-12T17:30:02Z",
+  "UpdatedAt": "2023-07-20T19:29:50Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "apache-airflow"
@@ -23,6 +23,9 @@
         "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2023-103.yaml"
       },
       {
+        "Url": "https://github.com/apache/airflow/commit/d01248382fe45a5f5a7fdeed4082a80c5f814ad8"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-xvw9-3mhm-xjqq"
       }
     ],
@@ -41,11 +44,11 @@
     "PublishedAt": "2023-07-12T12:31:35Z",
     "Severity": "MODERATE",
     "Summary": "Apache Airflow information disclosure vulnerability",
-    "UpdatedAt": "2023-07-12T17:30:02Z",
+    "UpdatedAt": "2023-07-20T19:29:50Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 6.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

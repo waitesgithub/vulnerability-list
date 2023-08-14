@@ -1,5 +1,5 @@
 {
-  "Severity": "LOW",
+  "Severity": "MODERATE",
   "UpdatedAt": "2023-07-12T19:49:51Z",
   "Package": {
     "Ecosystem": "MAVEN",
@@ -36,13 +36,13 @@
     "Description": "Jenkins Active Directory Plugin allows testing a new, unsaved configuration by performing a connection test (the button labeled \"Test Domain\").\n\nActive Directory Plugin 2.30 and earlier ignores the \"Require TLS\" and \"StartTls\" options and always performs the connection test to Active directory unencrypted. This allows attackers able to capture network traffic between the Jenkins controller and Active Directory servers to obtain Active Directory credentials.\n\nThis only affects the connection test. Connections established during the login process are encrypted if the corresponding TLS option is enabled.\n\nActive Directory Plugin 2.30.1 considers the \"Require TLS\" and \"StartTls\" options for connection tests.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-12T18:30:38Z",
-    "Severity": "LOW",
+    "Severity": "MODERATE",
     "Summary": "Jenkins Active Directory Plugin vulnerable to Active Directory credential disclosure",
-    "UpdatedAt": "2023-07-14T13:42:40Z",
+    "UpdatedAt": "2023-07-20T14:53:02Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 3.1,
-      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N"
+      "Score": 5.9,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [
