@@ -1,6 +1,6 @@
 {
   "id": "GHSA-ggwr-4vr8-g7wv",
-  "modified": "2023-07-12T18:06:03.501077Z",
+  "modified": "2023-07-21T18:30:53.886324Z",
   "published": "2023-07-12T12:31:36Z",
   "aliases": [
     "CVE-2023-22887"
@@ -198,6 +198,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/airflow/pull/32293"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/airflow/commit/05bd90f563649f2e9c8f0c85cf5838315a665a02"
     },
     {
       "type": "PACKAGE",

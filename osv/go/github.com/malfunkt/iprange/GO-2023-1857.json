@@ -1,7 +1,10 @@
 {
   "id": "GO-2023-1857",
-  "modified": "2023-07-11T18:44:34Z",
+  "modified": "2023-07-24T16:24:24Z",
   "published": "2023-07-11T18:44:34Z",
+  "aliases": [
+    "GHSA-f99h-w337-mv56"
+  ],
   "summary": "Panic when parsing ranges with invalid masks in github.com/malfunkt/iprange",
   "details": "Parsing a range with a mask larger than 32 bits causes a panic.",
   "affected": [

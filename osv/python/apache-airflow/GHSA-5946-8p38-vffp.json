@@ -1,6 +1,6 @@
 {
   "id": "GHSA-5946-8p38-vffp",
-  "modified": "2023-07-12T18:05:51.080574Z",
+  "modified": "2023-07-21T18:30:53.479801Z",
   "published": "2023-07-12T12:31:36Z",
   "aliases": [
     "CVE-2023-22888"
@@ -198,6 +198,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/airflow/pull/32293"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/airflow/commit/05bd90f563649f2e9c8f0c85cf5838315a665a02"
     },
     {
       "type": "PACKAGE",

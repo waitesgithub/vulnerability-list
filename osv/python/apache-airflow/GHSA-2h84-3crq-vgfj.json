@@ -1,6 +1,6 @@
 {
   "id": "GHSA-2h84-3crq-vgfj",
-  "modified": "2023-07-12T17:50:54.382833Z",
+  "modified": "2023-07-21T18:29:33.855780Z",
   "published": "2023-07-12T12:31:36Z",
   "aliases": [
     "CVE-2023-35908"
@@ -185,6 +185,11 @@
         "2.6.2rc2",
         "2.6.3rc1"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "airflow.www.auth.has_access"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/07/GHSA-2h84-3crq-vgfj/GHSA-2h84-3crq-vgfj.json"
       }
@@ -200,8 +205,16 @@
       "url": "https://github.com/apache/airflow/pull/32014"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/apache/airflow/commit/ac65b82eeeeaa670e09a83c7da65cbac7e89f8db"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/apache/airflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2023-119.yaml"
     },
     {
       "type": "WEB",

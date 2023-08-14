@@ -1,6 +1,6 @@
 {
   "id": "GHSA-656c-6cxf-hvcv",
-  "modified": "2023-04-11T01:44:46.792289Z",
+  "modified": "2023-08-07T13:00:48.803738Z",
   "published": "2021-06-18T18:33:40Z",
   "aliases": [
     "CVE-2021-33026"
@@ -21,7 +21,9 @@
             {
               "introduced": "0"
             },
-            {}
+            {
+              "last_affected": "1.10.1"
+            }
           ]
         }
       ],
@@ -46,6 +48,11 @@
         "1.8.0",
         "1.9.0"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          ""
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-656c-6cxf-hvcv/GHSA-656c-6cxf-hvcv.json"
       }
@@ -63,6 +70,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/sh4nks/flask-caching/pull/209"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-656c-6cxf-hvcv"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/flask-caching/PYSEC-2021-13.yaml"
     },
     {
       "type": "PACKAGE",

@@ -1,6 +1,6 @@
 {
   "id": "GHSA-xvw9-3mhm-xjqq",
-  "modified": "2023-07-12T17:49:17.699184Z",
+  "modified": "2023-07-20T19:48:14.939345Z",
   "published": "2023-07-12T12:31:35Z",
   "aliases": [
     "CVE-2022-46651"
@@ -185,6 +185,14 @@
         "2.6.2rc2",
         "2.6.3rc1"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "airflow.www.views.ConnectionModelView._iter_extra_field_names",
+          "airflow.www.views.ConnectionModelView.add_columns",
+          "airflow.www.views.ConnectionModelView.edit_columns",
+          "airflow.www.views.ConnectionModelView.prefill_form"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/07/GHSA-xvw9-3mhm-xjqq/GHSA-xvw9-3mhm-xjqq.json"
       }
@@ -198,6 +206,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/airflow/pull/32309"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/airflow/commit/d01248382fe45a5f5a7fdeed4082a80c5f814ad8"
     },
     {
       "type": "PACKAGE",
