@@ -1,17 +1,10 @@
 {
   "name": "kots",
   "secfixes": {
-    "1.98.2-r2": [
-      "GHSA-2x32-jm95-2cpx",
-      "GHSA-m9hp-7r99-94h5",
-      "GHSA-vh7g-p26c-j2cw"
-    ],
-    "1.98.3-r1": [
+    "0": [
       "CVE-2020-26290",
-      "CVE-2022-39222",
-      "CVE-2023-1732",
-      "CVE-2023-2253",
-      "CVE-2023-30551"
+      "CVE-2020-27847",
+      "CVE-2022-39222"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

@@ -3,6 +3,11 @@
   "secfixes": {
     "3.11.1-r0": [
       "CVE-2023-25165"
+    ],
+    "3.12.2-r1": [
+      "CVE-2023-28840",
+      "CVE-2023-28841",
+      "CVE-2023-28842"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

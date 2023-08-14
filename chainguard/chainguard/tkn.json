@@ -1,0 +1,17 @@
+{
+  "name": "tkn",
+  "secfixes": {
+    "0": [
+      "GHSA-2h5h-59f5-c5x9",
+      "GHSA-frqx-jfcm-6jjr",
+      "GHSA-w2h3-vvvq-3m53"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

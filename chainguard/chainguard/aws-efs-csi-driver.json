@@ -1,0 +1,18 @@
+{
+  "name": "aws-efs-csi-driver",
+  "secfixes": {
+    "0": [
+      "CVE-2019-11255",
+      "CVE-2023-2431",
+      "CVE-2023-2727",
+      "CVE-2023-2728"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
