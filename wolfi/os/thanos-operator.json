@@ -1,12 +1,8 @@
 {
-  "name": "telegraf",
+  "name": "thanos-operator",
   "secfixes": {
     "0": [
-      "CVE-2019-3826",
-      "GHSA-2w8w-qhg4-f78j"
-    ],
-    "1.27.0-r1": [
-      "CVE-2023-34231"
+      "CVE-2019-3826"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

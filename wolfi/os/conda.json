@@ -1,12 +1,16 @@
 {
-  "name": "telegraf",
+  "name": "conda",
   "secfixes": {
     "0": [
-      "CVE-2019-3826",
-      "GHSA-2w8w-qhg4-f78j"
+      "CVE-2007-4559",
+      "CVE-2018-20225",
+      "CVE-2023-36632"
     ],
-    "1.27.0-r1": [
-      "CVE-2023-34231"
+    "23.7.2-r1": [
+      "CVE-2023-38325",
+      "GHSA-5cpq-8wj7-hf2v",
+      "GHSA-jm77-qphf-c4w8",
+      "GHSA-xqr8-7jwr-rhp7"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

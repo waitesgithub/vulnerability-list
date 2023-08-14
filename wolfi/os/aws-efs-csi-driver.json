@@ -1,12 +1,11 @@
 {
-  "name": "telegraf",
+  "name": "aws-efs-csi-driver",
   "secfixes": {
     "0": [
-      "CVE-2019-3826",
-      "GHSA-2w8w-qhg4-f78j"
-    ],
-    "1.27.0-r1": [
-      "CVE-2023-34231"
+      "CVE-2019-11255",
+      "CVE-2023-2431",
+      "CVE-2023-2727",
+      "CVE-2023-2728"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

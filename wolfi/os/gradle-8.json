@@ -1,12 +1,14 @@
 {
-  "name": "telegraf",
+  "name": "gradle-8",
   "secfixes": {
     "0": [
-      "CVE-2019-3826",
-      "GHSA-2w8w-qhg4-f78j"
+      "CVE-2022-37866",
+      "CVE-2022-45868",
+      "CVE-2023-35116"
     ],
-    "1.27.0-r1": [
-      "CVE-2023-34231"
+    "8.2.1-r1": [
+      "CVE-2020-8908",
+      "CVE-2023-2976"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

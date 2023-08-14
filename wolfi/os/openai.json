@@ -1,12 +1,9 @@
 {
-  "name": "telegraf",
+  "name": "openai",
   "secfixes": {
-    "0": [
-      "CVE-2019-3826",
-      "GHSA-2w8w-qhg4-f78j"
-    ],
-    "1.27.0-r1": [
-      "CVE-2023-34231"
+    "0.27.8-r1": [
+      "CVE-2023-37276",
+      "CVE-2023-37920"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

@@ -1,12 +1,11 @@
 {
-  "name": "telegraf",
+  "name": "consul-1.15",
   "secfixes": {
-    "0": [
-      "CVE-2019-3826",
-      "GHSA-2w8w-qhg4-f78j"
-    ],
-    "1.27.0-r1": [
-      "CVE-2023-34231"
+    "1.15.5-r0": [
+      "CVE-2022-3920",
+      "CVE-2022-40716",
+      "CVE-2023-0845",
+      "CVE-2023-1297"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

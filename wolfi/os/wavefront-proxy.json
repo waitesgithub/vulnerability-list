@@ -1,12 +1,11 @@
 {
-  "name": "telegraf",
+  "name": "wavefront-proxy",
   "secfixes": {
     "0": [
-      "CVE-2019-3826",
-      "GHSA-2w8w-qhg4-f78j"
+      "CVE-2023-35116"
     ],
-    "1.27.0-r1": [
-      "CVE-2023-34231"
+    "13.1-r1": [
+      "CVE-2023-34462"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
