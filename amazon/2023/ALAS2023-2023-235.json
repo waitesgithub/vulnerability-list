@@ -5,7 +5,7 @@
     "date": "2023-07-05 20:13"
   },
   "updated": {
-    "date": "2023-07-05 20:13"
+    "date": "2023-07-20 00:56"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-34241:\n\tA vulnerability was found in CUPS. This issue occurs due to logging data of free memory to the logging service AFTER the connection has been closed, when it should have logged the data immediately before the connection closed, resulting in a use-after-free in cupsdAcceptClient() in scheduler/client.c\n",

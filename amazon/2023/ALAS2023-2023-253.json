@@ -5,7 +5,7 @@
     "date": "2023-07-17 20:45"
   },
   "updated": {
-    "date": "2023-07-17 20:45"
+    "date": "2023-07-20 00:55"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-26966:\n\tlibtiff 4.5.0 is vulnerable to Buffer Overflow in uv_encode() when libtiff reads a corrupted little-endian TIFF file and specifies the output to be big-endian.\n",

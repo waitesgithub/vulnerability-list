@@ -5,10 +5,10 @@
     "date": "2020-10-22 18:38"
   },
   "updated": {
-    "date": "2020-10-22 22:34"
+    "date": "2023-08-03 18:09"
   },
   "severity": "medium",
-  "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2020-0570:\n\tUncontrolled search path in the QT Library before 5.14.0, 5.12.7 and 5.9.10 may allow an authenticated user to potentially enable elevation of privilege via local access.\n1800604: CVE-2020-0570 qt: files placed by attacker can influence the working directory and lead to malicious code execution\n\nCVE-2020-0569:\n\tNo description is available for this CVE.\n1800600: CVE-2020-0569 qt: files placed by attacker can influence the working directory and lead to malicious code execution\n",
+  "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2020-24742:\n\tAn issue has been fixed in Qt versions 5.14.0 where QPluginLoader attempts to load plugins relative to the working directory, allowing attackers to execute arbitrary code via crafted files.\n\nCVE-2020-0570:\n\tUncontrolled search path in the QT Library before 5.14.0, 5.12.7 and 5.9.10 may allow an authenticated user to potentially enable elevation of privilege via local access.\n\nCVE-2020-0569:\n\tOut of bounds write in Intel(R) PROSet/Wireless WiFi products on Windows 10 may allow an authenticated user to potentially enable denial of service via local access.\n",
   "packages": [
     {
       "name": "qt5-qtbase",
@@ -277,10 +277,16 @@
       "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0570",
       "id": "CVE-2020-0570",
       "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24742",
+      "id": "CVE-2020-24742",
+      "type": "cve"
     }
   ],
   "cveids": [
     "CVE-2020-0569",
-    "CVE-2020-0570"
+    "CVE-2020-0570",
+    "CVE-2020-24742"
   ]
 }

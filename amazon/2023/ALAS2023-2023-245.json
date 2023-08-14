@@ -5,7 +5,7 @@
     "date": "2023-07-05 20:13"
   },
   "updated": {
-    "date": "2023-07-05 20:13"
+    "date": "2023-07-20 00:56"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-40897:\n\tPython Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.\n",

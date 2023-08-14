@@ -5,7 +5,7 @@
     "date": "2023-07-05 20:13"
   },
   "updated": {
-    "date": "2023-07-05 20:13"
+    "date": "2023-07-20 00:56"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-2911:\n\tIf the `recursive-clients` quota is reached on a BIND 9 resolver configured with both `stale-answer-enable yes;` and `stale-answer-client-timeout 0;`, a sequence of serve-stale-related lookups could cause `named` to loop and terminate unexpectedly due to a stack overflow.\nThis issue affects BIND 9 versions 9.16.33 through 9.16.41, 9.18.7 through 9.18.15, 9.16.33-S1 through 9.16.41-S1, and 9.18.11-S1 through 9.18.15-S1.\n\nCVE-2023-2828:\n\tA vulnerability was found in BIND. The effectiveness of the cache-cleaning algorithm used in named can be severely diminished by querying the resolver for specific RRsets in a certain order, effectively allowing the configured max-cache-size limit to exceed significantly.\n",

@@ -5,7 +5,7 @@
     "date": "2023-07-17 20:46"
   },
   "updated": {
-    "date": "2023-07-17 20:46"
+    "date": "2023-07-20 00:55"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-25435:\n\tlibtiff 4.5.0 is vulnerable to Buffer Overflow via extractContigSamplesShifted8bits() at /libtiff/tools/tiffcrop.c:3753.\n\nCVE-2023-25434:\n\tlibtiff 4.5.0 is vulnerable to Buffer Overflow via extractContigSamplesBytes() at /libtiff/tools/tiffcrop.c:3215.\n",

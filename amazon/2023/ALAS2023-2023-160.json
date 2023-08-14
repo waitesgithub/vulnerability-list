@@ -5,10 +5,10 @@
     "date": "2023-04-13 17:56"
   },
   "updated": {
-    "date": "2023-04-19 21:51"
+    "date": "2023-08-03 20:26"
   },
   "severity": "Medium",
-  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-1583:\n\tA NULL pointer dereference has been discovered in the Linux Kernel, in io_file_bitmap_get in io_uring/filetable.c.\n\nCVE-2022-4269:\n\tA flaw was found in the Linux kernel Traffic Control (TC) subsystem. Using a specific networking configuration (redirecting egress packets to ingress using TC action \"mirred\") a local unprivileged user could trigger a CPU soft lockup (ABBA deadlock) when the transport protocol in use (TCP or SCTP) does a retransmission, resulting in a denial of service condition.\n",
+  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-2194:\n\tAn out-of-bounds write vulnerability was found in the Linux kernel's SLIMpro I2C device driver. The userspace \"data-\u003eblock[0]\" variable was not capped to a number between 0-255 and was used as the size of a memcpy, possibly writing beyond the end of dma_buffer. This flaw could allow a local privileged user to crash the system or potentially achieve code execution.\n\nCVE-2023-1583:\n\tA NULL pointer dereference has been discovered in the Linux Kernel, in io_file_bitmap_get in io_uring/filetable.c.\n\nCVE-2022-4269:\n\tA flaw was found in the Linux kernel Traffic Control (TC) subsystem. Using a specific networking configuration (redirecting egress packets to ingress using TC action \"mirred\") a local unprivileged user could trigger a CPU soft lockup (ABBA deadlock) when the transport protocol in use (TCP or SCTP) does a retransmission, resulting in a denial of service condition.\n",
   "packages": [
     {
       "name": "bpftool-debuginfo",
@@ -317,10 +317,16 @@
       "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1583",
       "id": "CVE-2023-1583",
       "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2194",
+      "id": "CVE-2023-2194",
+      "type": "cve"
     }
   ],
   "cveids": [
     "CVE-2022-4269",
-    "CVE-2023-1583"
+    "CVE-2023-1583",
+    "CVE-2023-2194"
   ]
 }
