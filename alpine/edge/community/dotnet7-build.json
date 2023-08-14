@@ -21,6 +21,12 @@
     "7.0.109-r0": [
       "CVE-2023-33127",
       "CVE-2023-33170"
+    ],
+    "7.0.110-r0": [
+      "CVE-2023-38178",
+      "CVE-2023-35390",
+      "CVE-2023-38180",
+      "CVE-2023-35391"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
