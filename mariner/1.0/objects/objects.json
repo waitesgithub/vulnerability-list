@@ -1,6 +1,111 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27363001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27359001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27358001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27357001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27355001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27354001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27353001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27328001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27290001",
+      "Version": "1",
+      "Name": "uclibc-ng"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27289001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27288001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27287001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27268001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27266001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27225001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27224001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27223001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27212001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27211001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27196001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27194001",
+      "Version": "1",
+      "Name": "perl"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27193001",
       "Version": "1",
       "Name": "kernel"
@@ -9,6 +114,26 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27182001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27158001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27157001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27147001",
+      "Version": "1",
+      "Name": "yajl"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27128001",
+      "Version": "1",
+      "Name": "mozjs60"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27054001",
@@ -24,6 +149,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27052001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27034001",
+      "Version": "1",
+      "Name": "libcap"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27002001",
@@ -186,6 +316,16 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26360001",
+      "Version": "1",
+      "Name": "cloud-init"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26343001",
+      "Version": "1",
+      "Name": "cloud-init"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26337001",
       "Version": "1",
       "Name": "kernel"
@@ -301,6 +441,11 @@
       "Name": "protobuf-c"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26102001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26092001",
       "Version": "0",
       "Name": "grpc"
@@ -354,6 +499,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:25982001",
       "Version": "1",
       "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25964001",
+      "Version": "1",
+      "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25951001",
@@ -422,6 +572,11 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25753001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25752001",
       "Version": "1",
       "Name": "kernel"
     },
@@ -1137,7 +1292,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13165001",
-      "Version": "0",
+      "Version": "1",
       "Name": "mozjs60"
     },
     {
