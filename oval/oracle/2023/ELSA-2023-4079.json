@@ -1,19 +1,14 @@
 {
-  "Title": "ELSA-2023-4062:  thunderbird security update (IMPORTANT)",
-  "Description": "[102.13.0-2.0.1]\n- Replaced thunderbird-redhat-default-prefs.js with thunderbird-oracle-default-prefs.js\n- Enabled aarch64 build\n\n[102.13.0-2]\n- Update to 102.13.0 build2\n\n[102.13.0-1]\n- Update to 102.13.0 build1",
+  "Title": "ELSA-2023-4079:  firefox security update (IMPORTANT)",
+  "Description": "[102.13.0-2.0.1]\n- Remove upstream references [Orabug: 30143292]\n- Update distribution for Oracle Linux [Orabug: 30143292]\n- Add firefox-oracle-default-prefs.js and remove the corresponding Red Hat file\n\n[102.13.0-2]\n- Update to 102.13.0 build2\n\n[102.13.0-1]\n- Update to 102.13.0 build1",
   "Platform": [
     "Oracle Linux 7"
   ],
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2023-4062.html",
-      "ID": "ELSA-2023-4062"
-    },
-    {
-      "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2023-37211.html",
-      "ID": "CVE-2023-37211"
+      "URI": "https://linux.oracle.com/errata/ELSA-2023-4079.html",
+      "ID": "ELSA-2023-4079"
     },
     {
       "Source": "CVE",
@@ -34,6 +29,11 @@
       "Source": "CVE",
       "URI": "https://linux.oracle.com/cve/CVE-2023-37208.html",
       "ID": "CVE-2023-37208"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2023-37211.html",
+      "ID": "CVE-2023-37211"
     }
   ],
   "Criteria": {
@@ -50,10 +50,10 @@
                 "Criterias": null,
                 "Criterions": [
                   {
-                    "Comment": "thunderbird is earlier than 0:102.13.0-2.0.1.el7_9"
+                    "Comment": "firefox is earlier than 0:102.13.0-2.0.1.el7_9"
                   },
                   {
-                    "Comment": "thunderbird is signed with the Oracle Linux 7 key"
+                    "Comment": "firefox is signed with the Oracle Linux 7 key"
                   }
                 ]
               }
@@ -72,10 +72,10 @@
                 "Criterias": null,
                 "Criterions": [
                   {
-                    "Comment": "thunderbird is earlier than 0:102.13.0-2.0.1.el7_9"
+                    "Comment": "firefox is earlier than 0:102.13.0-2.0.1.el7_9"
                   },
                   {
-                    "Comment": "thunderbird is signed with the Oracle Linux 7 key"
+                    "Comment": "firefox is signed with the Oracle Linux 7 key"
                   }
                 ]
               }
@@ -100,11 +100,6 @@
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2023-37211.html",
-      "ID": "CVE-2023-37211"
-    },
-    {
-      "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2023-37207.html",
       "ID": "CVE-2023-37207"
     },
@@ -122,6 +117,11 @@
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2023-37208.html",
       "ID": "CVE-2023-37208"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2023-37211.html",
+      "ID": "CVE-2023-37211"
     }
   ],
   "Issued": {
