@@ -708,18 +708,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "apcu-panel",
-        "version": "5.1.17",
-        "release": "1.module_el8.4.0+2229+b272fdef",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "php-pecl-apcu-5.1.17-1.module_el8.4.0+2229+b272fdef.src.rpm",
-        "filename": "apcu-panel-5.1.17-1.module_el8.4.0+2229+b272fdef.noarch.rpm",
-        "sum": "a01f70ad3560a523b327f41c0073b0bba28415d03bb33e05ec867da7734e134a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-pecl-apcu-devel",
         "version": "5.1.17",
         "release": "1.module_el8.5.0+152+112d3b8c",
@@ -792,18 +780,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-pecl-rrd",
-        "version": "2.0.1",
-        "release": "1.module_el8.6.0+2750+78feabcb",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-pecl-rrd-2.0.1-1.module_el8.6.0+2750+78feabcb.src.rpm",
-        "filename": "php-pecl-rrd-2.0.1-1.module_el8.6.0+2750+78feabcb.aarch64.rpm",
-        "sum": "ab26fdec075c6dfeddba50bb0a878c3b8c1de0819a2d61dbc4797c908a767e7f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-enchant",
         "version": "7.3.20",
         "release": "1.module_el8.5.0+152+112d3b8c",
@@ -824,18 +800,6 @@
         "src": "php-7.3.20-1.module_el8.3.0+2009+b272fdef.src.rpm",
         "filename": "php-recode-7.3.20-1.module_el8.3.0+2009+b272fdef.x86_64.rpm",
         "sum": "b001a50f7997c219a5275741a5b7261c0796fb9781900dde50c5129f5238d6a4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pear",
-        "version": "1.10.9",
-        "release": "1.module_el8.4.0+2229+b272fdef",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "php-pear-1.10.9-1.module_el8.4.0+2229+b272fdef.src.rpm",
-        "filename": "php-pear-1.10.9-1.module_el8.4.0+2229+b272fdef.noarch.rpm",
-        "sum": "b06f3e9ac5238fe0b4bdf33b132e90843b41e9f9314820704ca69bd6f3d6c8ed",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -956,18 +920,6 @@
         "src": "libzip-1.5.2-1.module_el8.3.0+2009+b272fdef.src.rpm",
         "filename": "libzip-tools-1.5.2-1.module_el8.3.0+2009+b272fdef.x86_64.rpm",
         "sum": "c002d0bc75bc864c63147f13c1c1821c7193db44ac165128ec18f15d2029f7c6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "apcu-panel",
-        "version": "5.1.17",
-        "release": "1.module_el8.5.0+152+112d3b8c",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "php-pecl-apcu-5.1.17-1.module_el8.5.0+152+112d3b8c.src.rpm",
-        "filename": "apcu-panel-5.1.17-1.module_el8.5.0+152+112d3b8c.noarch.rpm",
-        "sum": "c13147e87b02bc1f2d7194ef58621f974ecaa2be90798324a6babab09d22d04c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1100,18 +1052,6 @@
         "src": "php-7.3.20-1.module_el8.5.0+152+112d3b8c.src.rpm",
         "filename": "php-odbc-7.3.20-1.module_el8.5.0+152+112d3b8c.ppc64le.rpm",
         "sum": "d73f0168061e7a5ffbf96750c7889acb4b9ce59d6c5f6718357e1b64690e2f6a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pear",
-        "version": "1.10.9",
-        "release": "1.module_el8.5.0+152+112d3b8c",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "php-pear-1.10.9-1.module_el8.5.0+152+112d3b8c.src.rpm",
-        "filename": "php-pear-1.10.9-1.module_el8.5.0+152+112d3b8c.noarch.rpm",
-        "sum": "dc1ae38515c015f032c1b69915fd60c2480453f2ef4ac3ed04fff8bf2d52a93e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1256,18 +1196,6 @@
         "src": "php-pecl-zip-1.15.4-1.module_el8.3.0+2009+b272fdef.src.rpm",
         "filename": "php-pecl-zip-1.15.4-1.module_el8.3.0+2009+b272fdef.x86_64.rpm",
         "sum": "f4a151bc46ecf13f5b8a083c59c4bfec82647805a9850c5febf0298da5d68f15",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pecl-rrd",
-        "version": "2.0.1",
-        "release": "1.module_el8.6.0+2750+78feabcb",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-pecl-rrd-2.0.1-1.module_el8.6.0+2750+78feabcb.src.rpm",
-        "filename": "php-pecl-rrd-2.0.1-1.module_el8.6.0+2750+78feabcb.x86_64.rpm",
-        "sum": "f6547f37e9020ceba5cddb3e03fe23dee4d9f38f70fe33ce2d8ffe9a5bf83499",
         "sum_type": 5,
         "reboot_suggested": 0
       },

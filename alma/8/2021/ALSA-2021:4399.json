@@ -108,18 +108,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-idle",
-        "version": "3.6.8",
-        "release": "41.el8.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-41.el8.alma.src.rpm",
-        "filename": "python3-idle-3.6.8-41.el8.alma.x86_64.rpm",
-        "sum": "57808902a9d821a8909fe8e03fd80048266f49f5918e0a6562886fb63284010f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-tkinter",
         "version": "3.6.8",
         "release": "41.el8.alma",
@@ -140,18 +128,6 @@
         "src": "python3-3.6.8-41.el8.src.rpm",
         "filename": "platform-python-3.6.8-41.el8.i686.rpm",
         "sum": "678d40a9f1757ec61626641a22c76977447fe49f395d1985fb459790e57d504c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "platform-python-debug",
-        "version": "3.6.8",
-        "release": "41.el8.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-41.el8.alma.src.rpm",
-        "filename": "platform-python-debug-3.6.8-41.el8.alma.x86_64.rpm",
-        "sum": "726e01a45d33b1f14f1dcb19d4fa33a4ff5b9e3979f2a16badd7670747b030fd",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -224,30 +200,6 @@
         "src": "python3-3.6.8-41.el8.src.rpm",
         "filename": "python3-tkinter-3.6.8-41.el8.i686.rpm",
         "sum": "eca3be99584ebff72280a6581640960062a9a827fda560a7d5d1867285ac75de",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-tkinter",
-        "version": "3.6.8",
-        "release": "41.el8.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-41.el8.alma.src.rpm",
-        "filename": "python3-tkinter-3.6.8-41.el8.alma.x86_64.rpm",
-        "sum": "f5074a8fdc6d47d423e504158a1dd740243e322f2963b4f66c015cc0311bb93f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "platform-python-devel",
-        "version": "3.6.8",
-        "release": "41.el8.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-41.el8.alma.src.rpm",
-        "filename": "platform-python-devel-3.6.8-41.el8.alma.x86_64.rpm",
-        "sum": "fe4ef3a400b1af8aa1ab185a3c27678568597b3284ca22f556195fb93de588b8",
         "sum_type": 5,
         "reboot_suggested": 0
       }

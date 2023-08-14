@@ -24,30 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nginx-all-modules",
-        "version": "1.14.1",
-        "release": "9.module_el8.4.0+2221+af250afe.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "nginx-1.14.1-9.module_el8.4.0+2221+af250afe.alma.src.rpm",
-        "filename": "nginx-all-modules-1.14.1-9.module_el8.4.0+2221+af250afe.alma.noarch.rpm",
-        "sum": "06558b60976f5d3160bfb517aa28c730ccd0472acb384586601be82bcbf72bbc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-all-modules",
-        "version": "1.14.1",
-        "release": "9.module_el8.5.0+34+dc1cfba5.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "nginx-1.14.1-9.module_el8.5.0+34+dc1cfba5.alma.src.rpm",
-        "filename": "nginx-all-modules-1.14.1-9.module_el8.5.0+34+dc1cfba5.alma.noarch.rpm",
-        "sum": "07e12aa5d9e8159a874f760be02f2bd169ac4191ccb41f4913545846b6aedf8f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nginx-mod-mail",
         "version": "1.14.1",
         "release": "9.module_el8.4.0+2221+af250afe.alma",
@@ -228,18 +204,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nginx-filesystem",
-        "version": "1.14.1",
-        "release": "9.module_el8.5.0+34+dc1cfba5.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "nginx-1.14.1-9.module_el8.5.0+34+dc1cfba5.alma.src.rpm",
-        "filename": "nginx-filesystem-1.14.1-9.module_el8.5.0+34+dc1cfba5.alma.noarch.rpm",
-        "sum": "a112bec460df74213de7cb75a7bc26638e6e423e58f3359c3e814dabb4a802ba",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nginx-mod-http-perl",
         "version": "1.14.1",
         "release": "9.module_el8.5.0+34+dc1cfba5.alma",
@@ -284,18 +248,6 @@
         "src": "nginx-1.14.1-9.module_el8.3.0+2165+af250afe.alma.src.rpm",
         "filename": "nginx-mod-http-perl-1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64.rpm",
         "sum": "c70f32782b2fcc1844069bc1f769e70eccefc168f270b882efebeae9c8a1ea93",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-filesystem",
-        "version": "1.14.1",
-        "release": "9.module_el8.4.0+2221+af250afe.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "nginx-1.14.1-9.module_el8.4.0+2221+af250afe.alma.src.rpm",
-        "filename": "nginx-filesystem-1.14.1-9.module_el8.4.0+2221+af250afe.alma.noarch.rpm",
-        "sum": "e2e912aa7c93be68fe08df142fb06abce120b42bea1877d2c6d9e02eaac0f09f",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -144,18 +144,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "podman-docker",
-        "version": "1.6.4",
-        "release": "28.module_el8.5.0+2842+7d0cf290",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "podman-1.6.4-28.module_el8.5.0+2842+7d0cf290.src.rpm",
-        "filename": "podman-docker-1.6.4-28.module_el8.5.0+2842+7d0cf290.noarch.rpm",
-        "sum": "3963859e3707693a3f31268cfe0f7f32693051f58a9a96ab18b36907619cecf8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "containers-common",
         "version": "0.1.41",
         "release": "4.module_el8.5.0+2635+e4386a39",
@@ -200,18 +188,6 @@
         "src": "udica-0.2.1-2.module_el8.5.0+108+00865455.src.rpm",
         "filename": "udica-0.2.1-2.module_el8.5.0+108+00865455.noarch.rpm",
         "sum": "49cfff6dc507f3d74fb6e02a7fd3da4cf45ab5291e37c150c487a8bd14eb2884",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "crit",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "crit-3.12-9.module_el8.5.0+2635+e4386a39.aarch64.rpm",
-        "sum": "49f025353b8c5bbe0dde27e4856c1a658fab31a65c8e54115d3585b848e49bed",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -336,18 +312,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "criu",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "criu-3.12-9.module_el8.5.0+2635+e4386a39.aarch64.rpm",
-        "sum": "666eb84fbad2ec9559f88a3013441a0bccad5aa8c1dbb68926527a804e6a9b45",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "skopeo",
         "version": "0.1.41",
         "release": "4.module_el8.5.0+2635+e4386a39",
@@ -464,18 +428,6 @@
         "src": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.src.rpm",
         "filename": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.x86_64.rpm",
         "sum": "872ed560d33d70e3e657deeedd8b39852165aed41071d03fdfc22107a83e0b37",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-criu",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "python3-criu-3.12-9.module_el8.5.0+2635+e4386a39.aarch64.rpm",
-        "sum": "8a6bd5f9dae470f5c25726c4af82c3d4abecba87ea2e4097268901569ecae8f7",
         "sum_type": 5,
         "reboot_suggested": 0
       },

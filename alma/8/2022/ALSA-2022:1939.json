@@ -26,36 +26,12 @@
       {
         "name": "squid",
         "version": "4.15",
-        "release": "3.module_el8.6.0+3010+383bc947.1",
-        "epoch": "7",
-        "arch": "ppc64le",
-        "src": "squid-4.15-3.module_el8.6.0+3010+383bc947.1.src.rpm",
-        "filename": "squid-4.15-3.module_el8.6.0+3010+383bc947.1.ppc64le.rpm",
-        "sum": "1eb9bd5dc2acb029e88bd369697ebc19961f5ae4c2c4f5873e06d629138667f5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "squid",
-        "version": "4.15",
         "release": "3.module_el8.6.0+2741+01592ae8",
         "epoch": "7",
         "arch": "aarch64",
         "src": "squid-4.15-3.module_el8.6.0+2741+01592ae8.src.rpm",
         "filename": "squid-4.15-3.module_el8.6.0+2741+01592ae8.aarch64.rpm",
         "sum": "2e23a667f812a3e08f6a4bb925abf73bc61c387c5ea24ec155eb18c46237fad6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "squid",
-        "version": "4.15",
-        "release": "3.module_el8.6.0+3010+383bc947.1",
-        "epoch": "7",
-        "arch": "aarch64",
-        "src": "squid-4.15-3.module_el8.6.0+3010+383bc947.1.src.rpm",
-        "filename": "squid-4.15-3.module_el8.6.0+3010+383bc947.1.aarch64.rpm",
-        "sum": "31d5a76a29b709a804c97c452b918a258f5ee8ea1c73076b45e710035e3d0671",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,18 +92,6 @@
         "src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
         "filename": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.aarch64.rpm",
         "sum": "c6410e4bb614a814925e18f8c72f24ebafaf58481f30e6c70024919f51b4739b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "squid",
-        "version": "4.15",
-        "release": "3.module_el8.6.0+3010+383bc947.1",
-        "epoch": "7",
-        "arch": "x86_64",
-        "src": "squid-4.15-3.module_el8.6.0+3010+383bc947.1.src.rpm",
-        "filename": "squid-4.15-3.module_el8.6.0+3010+383bc947.1.x86_64.rpm",
-        "sum": "d3246c0bf36b0d3ccbf2c81a60330a3a7f78d2797e19c3577de1b0874e1e6734",
         "sum_type": 5,
         "reboot_suggested": 0
       },

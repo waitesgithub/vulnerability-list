@@ -60,18 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libslirp-devel",
-        "version": "4.4.0",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libslirp-4.4.0-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "libslirp-devel-4.4.0-1.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "117cc5c8f2bb1a0e8a2f14f9f6d478c8103f0fec58b77b6bc0eaa3f87878d054",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "podman-tests",
         "version": "4.0.2",
         "release": "6.module_el8.6.0+2878+e681bc44",
@@ -116,18 +104,6 @@
         "src": "fuse-overlayfs-1.8.2-1.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "fuse-overlayfs-1.8.2-1.module_el8.6.0+2877+8e437bf5.ppc64le.rpm",
         "sum": "1a2b4946c3a1b8feb08c93f3fbe61998ff15b16d6630119857f9d274bb35bfab",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "toolbox-tests",
-        "version": "0.0.99.3",
-        "release": "0.4.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "toolbox-tests-0.0.99.3-0.4.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "1a53b926035883772f84583ce92f0be4203f1e4172f22009a9aa5e52ebdfc9ba",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -216,18 +192,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "udica",
-        "version": "0.2.6",
-        "release": "4.module_el8.6.0+3070+1510fbd1",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "udica-0.2.6-4.module_el8.6.0+3070+1510fbd1.src.rpm",
-        "filename": "udica-0.2.6-4.module_el8.6.0+3070+1510fbd1.noarch.rpm",
-        "sum": "2926b29b66060ecc500aca9689324f4d9df745e11d7cd535a4322a0a12613dfc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libslirp-devel",
         "version": "4.4.0",
         "release": "1.module_el8.6.0+2877+8e437bf5",
@@ -248,30 +212,6 @@
         "src": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2877+8e437bf5.ppc64le.rpm",
         "sum": "2c16ac4ff3c1ee7cee387837ef921c534a8be31013097e5979272845efa04357",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "slirp4netns",
-        "version": "1.1.8",
-        "release": "2.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "slirp4netns-1.1.8-2.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "slirp4netns-1.1.8-2.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "2c47f3d2ba2dfdf3ed76ca2a795e736b7ff31bd622d96ecb906bff2db148611b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-podman",
-        "version": "4.0.0",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "python-podman-4.0.0-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "python3-podman-4.0.0-1.module_el8.6.0+2878+e681bc44.noarch.rpm",
-        "sum": "2d4728923430db97672ab61c7eb54c4c59a769c7ea970d5f9ea5f0ca3c5ce3ef",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -300,18 +240,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "criu-devel",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-devel-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "321bac0410a0ecd1eb6ab4965f9af2dc88d5764565b4f6e9208b4111123dfe76",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "podman-plugins",
         "version": "4.0.2",
         "release": "6.module_el8.6.0+2878+e681bc44",
@@ -320,18 +248,6 @@
         "src": "podman-4.0.2-6.module_el8.6.0+2878+e681bc44.src.rpm",
         "filename": "podman-plugins-4.0.2-6.module_el8.6.0+2878+e681bc44.x86_64.rpm",
         "sum": "32f1cade26c21940f3673a3b73a40fbcae9adb1fbba27b6fab5e26dc1443e94f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "crun",
-        "version": "1.4.4",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "crun-1.4.4-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "crun-1.4.4-1.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "35663c8bcfcedda4fc8434112b0d44b6d70ffbb0c813a457df40b61ee503d96a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -452,30 +368,6 @@
         "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "toolbox-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.ppc64le.rpm",
         "sum": "45d30bcfff5f07cf9b2a2d58d3242a387466d1e4534b084ddfd673de537d47a9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "conmon",
-        "version": "2.1.0",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "2",
-        "arch": "ppc64le",
-        "src": "conmon-2.1.0-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "conmon-2.1.0-1.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "46104f20ca99d382cf60f3f73b5687202dc8f05e0629a35bec27b67b54845ac6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libslirp",
-        "version": "4.4.0",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libslirp-4.4.0-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "libslirp-4.4.0-1.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "4641597803bcd8e7e39d10d8b53eca4d5308156c845bf01ccd0bf6d39ae6918d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -624,30 +516,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "oci-seccomp-bpf-hook",
-        "version": "1.2.3",
-        "release": "3.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "66980f399ac7d212605566ac5d7cfa00bda68a1e95bcb3c5ce0db188b748882d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu-devel",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-devel-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "68d8abc810dbb50fc3283e5366f8efd5fd4d4fcbafaef1f5b3690a82441e3a1f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "slirp4netns",
         "version": "1.1.8",
         "release": "2.module_el8.6.0+2877+8e437bf5",
@@ -684,18 +552,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "fuse-overlayfs",
-        "version": "1.8.2",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "fuse-overlayfs-1.8.2-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "fuse-overlayfs-1.8.2-1.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "701004b2297bac98cecd4d8492dc1672db75a3d799aad8d7d1f4755c09673287",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "crit",
         "version": "3.15",
         "release": "3.module_el8.6.0+2751+06427ca3",
@@ -704,18 +560,6 @@
         "src": "criu-3.15-3.module_el8.6.0+2751+06427ca3.src.rpm",
         "filename": "crit-3.15-3.module_el8.6.0+2751+06427ca3.aarch64.rpm",
         "sum": "7055982e31c042f06853ab7bbe8a039ce6ec10ac971d0d957788eca71b28fc7e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "udica",
-        "version": "0.2.6",
-        "release": "2.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "udica-0.2.6-2.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "udica-0.2.6-2.module_el8.6.0+2878+e681bc44.noarch.rpm",
-        "sum": "7215234e210d0e4ca0e10db7a7c6b2d6b80e372aa1eb34a48f3809bbd303fe5f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -788,18 +632,6 @@
         "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "python3-criu-3.15-3.module_el8.6.0+2877+8e437bf5.ppc64le.rpm",
         "sum": "7976419c3d8db18c68368174d996837ad167d8b7143e88d8b82516b1162d8695",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "crit",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "crit-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "7c52b9b64e52b73a17d4dd67861c493d34aab88e50a61db0ac638ccb8dcbaaa9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -972,18 +804,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "skopeo",
-        "version": "1.6.1",
-        "release": "2.module_el8.6.0+2878+e681bc44",
-        "epoch": "2",
-        "arch": "ppc64le",
-        "src": "skopeo-1.6.1-2.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "skopeo-1.6.1-2.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "9d366a67feb1d43cbaf36629a62ef47c8753e86185b8746ac0d2fd83560207ff",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "buildah-tests",
         "version": "1.24.2",
         "release": "4.module_el8.6.0+2878+e681bc44",
@@ -1016,18 +836,6 @@
         "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "toolbox-tests-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.ppc64le.rpm",
         "sum": "9f11e04092c533ef98b69de54e63412924ee62a6a34b94543961ee36de8a0ccd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu-libs",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-libs-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "9fd2f719eb978644e173104e6b8c5750e4983922617a144c27f481f921c69666",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1076,18 +884,6 @@
         "src": "containernetworking-plugins-1.0.1-2.module_el8.6.0+2878+e681bc44.src.rpm",
         "filename": "containernetworking-plugins-1.0.1-2.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
         "sum": "b293eb2eb8b2e242b2ef93a5d1dbecaabf35704f2a7a5207f16b71e1c94a4c03",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "skopeo-tests",
-        "version": "1.6.1",
-        "release": "2.module_el8.6.0+2878+e681bc44",
-        "epoch": "2",
-        "arch": "ppc64le",
-        "src": "skopeo-1.6.1-2.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "skopeo-tests-1.6.1-2.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "b773fb949258966ce392c4de314dfe380dd32cd4c354d263d5333a4014c4eb64",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1152,42 +948,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "criu",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "d25f08c8c890e02e5bfb448b8724ddcb4adab67b82b1e27eedd2f4454250f9ba",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "dbb73dc856ee3c9642e0db9436268d0897e1f88b4d899e1237ebc1aebe92f4a1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-criu",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "python3-criu-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "dcd960b907a89716bf407f69ecf18f213334d097712c11a32787e7c22cd6d303",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "containers-common",
         "version": "1",
         "release": "27.module_el8.6.0+2878+e681bc44",
@@ -1220,30 +980,6 @@
         "src": "runc-1.0.3-2.module_el8.6.0+2878+e681bc44.src.rpm",
         "filename": "runc-1.0.3-2.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
         "sum": "dfc8b59fde2d9e78a26c83af9c60f843c65691ebc5493652aa39954de32efa6b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu-libs",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-libs-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "e0d5994b60332abc700e5c715ce2f9d8fab05b942b4c379b12577fd8fd7dbcfd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cockpit-podman",
-        "version": "43",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "cockpit-podman-43-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "cockpit-podman-43-1.module_el8.6.0+2878+e681bc44.noarch.rpm",
-        "sum": "e18449fa7b86b7dc50952db59f3b914a5e3c73cb269ce93d7b5aa00c49624f04",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1332,18 +1068,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "crit",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "crit-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "eeb3f987f89ae7d49fb4c5f7c1a14e73e72b9832a6648ba7be3ce532a507dab5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-criu",
         "version": "3.15",
         "release": "3.module_el8.6.0+2751+06427ca3",
@@ -1368,18 +1092,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-criu",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "python3-criu-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "fb0179377a3571e32adc1f3f032f870585a55d05b4fa2b325033626804e9a756",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "podman-tests",
         "version": "4.0.2",
         "release": "6.module_el8.6.0+2878+e681bc44",
@@ -1388,18 +1100,6 @@
         "src": "podman-4.0.2-6.module_el8.6.0+2878+e681bc44.src.rpm",
         "filename": "podman-tests-4.0.2-6.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
         "sum": "fd9674dade9b51ae8f494f707166ca4356cd5fc66e9bf560be7444eec1aefce3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "toolbox",
-        "version": "0.0.99.3",
-        "release": "0.4.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "toolbox-0.0.99.3-0.4.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "fdf48e8bcdcd68189d3f70ab791dbbb49a362d95f07bfc4673c257de63f0cad9",
         "sum_type": 5,
         "reboot_suggested": 0
       },

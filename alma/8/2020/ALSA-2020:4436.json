@@ -8,8 +8,8 @@
     "$date": 1604405070000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
         "name": "libxmlb",
@@ -58,18 +58,6 @@
         "sum": "518628277656002801a17820ab58658af415976f47b534a52eb07c64771e4271",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libxmlb",
-        "version": "0.1.15",
-        "release": "1.el8.0.1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libxmlb-0.1.15-1.el8.0.1.src.rpm",
-        "filename": "libxmlb-0.1.15-1.el8.0.1.ppc64le.rpm",
-        "sum": "6ddbf5fafd1ba406829586a3f0e2ffe57fa723195f27e13a0ffb13f7e2c92f5f",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -114,7 +102,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",

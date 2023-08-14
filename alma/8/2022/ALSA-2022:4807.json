@@ -204,18 +204,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgres-decoderbufs",
-        "version": "0.10.0",
-        "release": "2.module_el8.6.0+2760+1746ec94",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
-        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.x86_64.rpm",
-        "sum": "77c2586f944e08d0a073c739b9eeeedc0d9ca7da51f43a0dcdc3a1c383a1b0fe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-test",
         "version": "12.11",
         "release": "2.module_el8.6.0+2905+eb237fb8",
@@ -248,18 +236,6 @@
         "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
         "filename": "postgresql-static-12.11-2.module_el8.6.0+2905+eb237fb8.ppc64le.rpm",
         "sum": "87f6c76608da1797fdb0e9271347c3ed7b18851e650f7d573c837cd0aff88e79",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pg_repack",
-        "version": "1.4.6",
-        "release": "3.module_el8.6.0+2760+1746ec94",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pg_repack-1.4.6-3.module_el8.6.0+2760+1746ec94.src.rpm",
-        "filename": "pg_repack-1.4.6-3.module_el8.6.0+2760+1746ec94.x86_64.rpm",
-        "sum": "92f387cdf31b3872470fb3402126bc72e2e6f6b342192bc2333465e896810c0b",
         "sum_type": 5,
         "reboot_suggested": 0
       },

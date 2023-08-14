@@ -60,30 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "apcu-panel",
-        "version": "5.1.12",
-        "release": "2.module_el8.4.0+2228+7c76a223",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "apcu-panel-5.1.12-2.module_el8.4.0+2228+7c76a223.noarch.rpm",
-        "sum": "0f363505bde763ed390306e0ef440cbe60457d9406acdb957172a16db1746bff",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pear",
-        "version": "1.10.5",
-        "release": "9.module_el8.5.0+53+9945c2af",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "php-pear-1.10.5-9.module_el8.5.0+53+9945c2af.src.rpm",
-        "filename": "php-pear-1.10.5-9.module_el8.5.0+53+9945c2af.noarch.rpm",
-        "sum": "0f3762b3dfe3e02f22eb0476d0f2663de16f758712d49a79e74ae593df8e1df9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-bcmath",
         "version": "7.2.24",
         "release": "1.module_el8.3.0+2010+7c76a223",
@@ -192,18 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "apcu-panel",
-        "version": "5.1.12",
-        "release": "2.module_el8.5.0+53+9945c2af",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "php-pecl-apcu-5.1.12-2.module_el8.5.0+53+9945c2af.src.rpm",
-        "filename": "apcu-panel-5.1.12-2.module_el8.5.0+53+9945c2af.noarch.rpm",
-        "sum": "213a42fe0adbe7439c6b96ec35c81473613dc19659c0e0beeef70ac8a9d0f4df",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-snmp",
         "version": "7.2.24",
         "release": "1.module_el8.3.0+2010+7c76a223",
@@ -260,18 +224,6 @@
         "src": "php-7.2.24-1.module_el8.3.0+2010+7c76a223.src.rpm",
         "filename": "php-devel-7.2.24-1.module_el8.3.0+2010+7c76a223.x86_64.rpm",
         "sum": "2dedb08f531526616c5ce6a7f7310f045af97c0492294763f86ddc0a77851d5e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pear",
-        "version": "1.10.5",
-        "release": "9.module_el8.4.0+2228+7c76a223",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "php-pear-1.10.5-9.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "php-pear-1.10.5-9.module_el8.4.0+2228+7c76a223.noarch.rpm",
-        "sum": "2f5e5bbd8f0a085da623392259779401897a9f540009ca468f65db2da5112317",
         "sum_type": 5,
         "reboot_suggested": 0
       },

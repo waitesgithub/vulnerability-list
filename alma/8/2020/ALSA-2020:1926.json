@@ -72,18 +72,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "crit",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "crit-3.12-9.module_el8.5.0+2635+e4386a39.aarch64.rpm",
-        "sum": "49f025353b8c5bbe0dde27e4856c1a658fab31a65c8e54115d3585b848e49bed",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "runc",
         "version": "1.0.0",
         "release": "56.rc5.dev.git2abd837.module_el8.3.0+2044+12421f43",
@@ -120,18 +108,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "criu",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "criu-3.12-9.module_el8.5.0+2635+e4386a39.aarch64.rpm",
-        "sum": "666eb84fbad2ec9559f88a3013441a0bccad5aa8c1dbb68926527a804e6a9b45",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "oci-umount",
         "version": "2.3.4",
         "release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
@@ -152,30 +128,6 @@
         "src": "oci-umount-2.3.4-2.git87f9237.module_el8.4.0+2496+12421f43.src.rpm",
         "filename": "oci-umount-2.3.4-2.git87f9237.module_el8.4.0+2496+12421f43.aarch64.rpm",
         "sum": "770d344d61dc1877c84a45a546afae1a8f23794049e5a2ec2a2da48f0ebf626b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "criu-3.12-9.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-        "sum": "77d775c227e5b4a7d4125c02569ce0b41289eccd674d9351ef76a660a14a802f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-criu",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "python3-criu-3.12-9.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-        "sum": "7a2cd300025e49469279c67a6a997e4f2cdc6319fb2e8c916e516721d8a9ce37",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -228,18 +180,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-criu",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "python3-criu-3.12-9.module_el8.5.0+2635+e4386a39.aarch64.rpm",
-        "sum": "8a6bd5f9dae470f5c25726c4af82c3d4abecba87ea2e4097268901569ecae8f7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "fuse-overlayfs",
         "version": "0.3",
         "release": "5.module_el8.4.0+2496+12421f43",
@@ -248,18 +188,6 @@
         "src": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.src.rpm",
         "filename": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.aarch64.rpm",
         "sum": "90cde31a5e68574aba6ec587bbcb2a0de1926524b781da2f5cd98a055369d4e5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "crit",
-        "version": "3.12",
-        "release": "9.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.12-9.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "crit-3.12-9.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-        "sum": "964ef4726ccf1aacfe5506f7ec783381872fba29682aca7a41676f2b6b06a558",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -360,18 +288,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "container-selinux",
-        "version": "2.124.0",
-        "release": "1.gitf958d0c.module_el8.5.0+119+9a9ec082",
-        "epoch": "2",
-        "arch": "noarch",
-        "src": "container-selinux-2.124.0-1.gitf958d0c.module_el8.5.0+119+9a9ec082.src.rpm",
-        "filename": "container-selinux-2.124.0-1.gitf958d0c.module_el8.5.0+119+9a9ec082.noarch.rpm",
-        "sum": "c83e9302090ec5787a50054769adf3c3ba519c64a7e2c8f232e7207648153c57",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "slirp4netns",
         "version": "0.1",
         "release": "5.dev.gitc4e1bc5.module_el8.5.0+119+9a9ec082",
@@ -392,18 +308,6 @@
         "src": "criu-3.12-9.module_el8.5.0+119+9a9ec082.src.rpm",
         "filename": "python3-criu-3.12-9.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
         "sum": "ef0097fef0bd6b1b1c65098059f5e5627c67535f0213dd41ddd25a10dae2d4cf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "container-selinux",
-        "version": "2.124.0",
-        "release": "1.gitf958d0c.module_el8.4.0+2496+12421f43",
-        "epoch": "2",
-        "arch": "noarch",
-        "src": "container-selinux-2.124.0-1.gitf958d0c.module_el8.4.0+2496+12421f43.src.rpm",
-        "filename": "container-selinux-2.124.0-1.gitf958d0c.module_el8.4.0+2496+12421f43.noarch.rpm",
-        "sum": "fc46dadb9071e3faf1c33c553a81684828a6650c47f3cf2aa53be065133fa0c1",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -48,18 +48,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "opendnssec",
-        "version": "2.1.7",
-        "release": "1.module_el8.6.0+2881+2f24dc92",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "opendnssec-2.1.7-1.module_el8.6.0+2881+2f24dc92.src.rpm",
-        "filename": "opendnssec-2.1.7-1.module_el8.6.0+2881+2f24dc92.x86_64.rpm",
-        "sum": "1fe673d6d2c3499b5db94d8410ff2d2151e8289777634e839b0095afd19404e6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-qrcode-core",
         "version": "5.1",
         "release": "12.module_el8.6.0+2737+7e73ea90",
@@ -152,18 +140,6 @@
         "src": "pyusb-1.0.0-9.module_el8.5.0+2603+92118e57.src.rpm",
         "filename": "python3-pyusb-1.0.0-9.module_el8.5.0+2603+92118e57.noarch.rpm",
         "sum": "7af6ad5524a1b4092c8fe8a9a1132eef1eb36dc1f4d99276ca331be50c7081c1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "softhsm",
-        "version": "2.6.0",
-        "release": "5.module_el8.6.0+2881+2f24dc92",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "softhsm-2.6.0-5.module_el8.6.0+2881+2f24dc92.src.rpm",
-        "filename": "softhsm-2.6.0-5.module_el8.6.0+2881+2f24dc92.x86_64.rpm",
-        "sum": "811210ae191e3e43bd6c050dc62929aa8ceffa91282ea200b96845b8a1425de2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -380,18 +356,6 @@
         "src": "python-jwcrypto-0.5.0-1.module_el8.6.0+2737+7e73ea90.src.rpm",
         "filename": "python3-jwcrypto-0.5.0-1.module_el8.6.0+2737+7e73ea90.noarch.rpm",
         "sum": "e7181e32732011f2fbe1f8711ac9564db09bafd81b7729a9f619c89bdabab375",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "softhsm-devel",
-        "version": "2.6.0",
-        "release": "5.module_el8.6.0+2881+2f24dc92",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "softhsm-2.6.0-5.module_el8.6.0+2881+2f24dc92.src.rpm",
-        "filename": "softhsm-devel-2.6.0-5.module_el8.6.0+2881+2f24dc92.x86_64.rpm",
-        "sum": "f004bec0bb3248d09ad4724c0c8acfc9cc5466028bcd72bb63d52490efb4bfe8",
         "sum_type": 5,
         "reboot_suggested": 0
       },

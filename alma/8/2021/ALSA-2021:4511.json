@@ -8,8 +8,8 @@
     "$date": 1636450693000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
         "name": "libcurl-devel",
@@ -50,24 +50,12 @@
       {
         "name": "libcurl-minimal",
         "version": "7.61.1",
-        "release": "22.el8_6.3",
+        "release": "22.el8",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-minimal-7.61.1-22.el8_6.3.ppc64le.rpm",
-        "sum": "137e6fe7998ae7326d88beaaedb3d3fdb4550e8398aab6ebf6bcc273b861af17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl-devel",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-devel-7.61.1-22.el8_6.3.ppc64le.rpm",
-        "sum": "1ac8fa83ab2c2a24f5a0e91c319dd34919b27c393ccd713a6e5eb4d65f901ec8",
+        "arch": "x86_64",
+        "src": "curl-7.61.1-22.el8.src.rpm",
+        "filename": "libcurl-minimal-7.61.1-22.el8.x86_64.rpm",
+        "sum": "11752ab6bd172e9d75092ccdd955c0368b9e56d08db411e602102f6bf861bc03",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -120,14 +108,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "curl",
+        "name": "libcurl",
         "version": "7.61.1",
-        "release": "22.el8_6.3",
+        "release": "22.el8",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "curl-7.61.1-22.el8_6.3.ppc64le.rpm",
-        "sum": "7c8c33e8ef2fff76fdbad76b8cf33dd4a2141eb5ea712629a82140829be87946",
+        "arch": "x86_64",
+        "src": "curl-7.61.1-22.el8.src.rpm",
+        "filename": "libcurl-7.61.1-22.el8.x86_64.rpm",
+        "sum": "5583b14d7514f0902a365721af91b76306e8d45a52ee05576f5a0d8b6977b662",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -144,26 +132,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libcurl",
+        "name": "libcurl-devel",
         "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-7.61.1-22.el8_6.3.ppc64le.rpm",
-        "sum": "88a6cf7d41c57bb8151d4feee1a9a87f51cb237b157004dafba52198599042b6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "curl",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
+        "release": "22.el8",
         "epoch": "0",
         "arch": "x86_64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "curl-7.61.1-22.el8_6.3.x86_64.rpm",
-        "sum": "8ec25b3b5302e7a6f8ccd8d1dddcbace7619dc5d6c90ec8798f58c77e745433c",
+        "src": "curl-7.61.1-22.el8.src.rpm",
+        "filename": "libcurl-devel-7.61.1-22.el8.x86_64.rpm",
+        "sum": "7f649ec9feff74c0430287a93a5c32cd139d5f53c599d57bd06717175f3d0af1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -192,66 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "curl",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "curl-7.61.1-22.el8_6.3.aarch64.rpm",
-        "sum": "b99917ca74325e9f36d540906621d98da28c8174f6224caaeac65bb6dbe52493",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-7.61.1-22.el8_6.3.x86_64.rpm",
-        "sum": "bd648b796d5b4ee60a5938a3441327481c89bfe108abe34848c3e092e3d9c5ab",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl-devel",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-devel-7.61.1-22.el8_6.3.x86_64.rpm",
-        "sum": "c9120f5ba86224d970732d8bd63db50261332103f8e10a5e8499dc1c69db7407",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl-minimal",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-minimal-7.61.1-22.el8_6.3.x86_64.rpm",
-        "sum": "d0aa45bc21c7146a07becf148ea54dd3b78caf7d42a0c677ae145e12f4cfbbff",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-7.61.1-22.el8_6.3.aarch64.rpm",
-        "sum": "e3c8f80e702b0c0bdb9ab460008f6b702dd100f389eca734b832432763242d29",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libcurl-devel",
         "version": "7.61.1",
         "release": "22.el8",
@@ -264,18 +180,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libcurl-devel",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-devel-7.61.1-22.el8_6.3.aarch64.rpm",
-        "sum": "f07127a9aba8e71f4e015e0bbc1f511efcc6d7d830b8f8ea80bc1336a49f1bed",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libcurl-minimal",
         "version": "7.61.1",
         "release": "22.el8",
@@ -284,18 +188,6 @@
         "src": "curl-7.61.1-22.el8.src.rpm",
         "filename": "libcurl-minimal-7.61.1-22.el8.ppc64le.rpm",
         "sum": "f81d6741d5e9ddb1a506312c5d7f55821091046afc2e42a5dfb53057855a1ae6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl-minimal",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-minimal-7.61.1-22.el8_6.3.aarch64.rpm",
-        "sum": "fbd024cc955f816e0edd333b07d23ba5eea455b59fc85543e03787c6f5e7ce59",
         "sum_type": 5,
         "reboot_suggested": 0
       }

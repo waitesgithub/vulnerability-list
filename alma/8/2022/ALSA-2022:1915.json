@@ -12,18 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_httpd",
     "packages": [
       {
-        "name": "mod_session",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "mod_session-2.4.37-47.module_el8.6.0+2935+fb177b09.2.aarch64.rpm",
-        "sum": "13e9578000eecd0dbcfed08c9095957474e664d62820e40431b0c11a7ebb7c64",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mod_md",
         "version": "2.0.8",
         "release": "8.module_el8.6.0+2872+fe0ff7aa",
@@ -96,30 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mod_session",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "mod_session-2.4.37-47.module_el8.6.0+2935+fb177b09.2.x86_64.rpm",
-        "sum": "303ee4b091cf506958bc236b9d8a4c6cd9d9c1920dca95a9f9543f4ca052056f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd-tools",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "httpd-tools-2.4.37-47.module_el8.6.0+2935+fb177b09.2.aarch64.rpm",
-        "sum": "3879dd1b1577ab544825f9ad64f0a0fa99b8b76f9dc94a91dfc10a87a475db1d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mod_md",
         "version": "2.0.8",
         "release": "8.module_el8.6.0+2872+fe0ff7aa",
@@ -128,18 +92,6 @@
         "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
         "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.x86_64.rpm",
         "sum": "3b1e101e6a9192ff94ee4d007aff494cf5631948586568da7a1c6ac1255c8a68",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.x86_64.rpm",
-        "sum": "41726ce814965a91c3533e1a0955106d98b70a6f1f45b5cc16572aeea43acc80",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -192,30 +144,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mod_proxy_html",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "mod_proxy_html-2.4.37-47.module_el8.6.0+2935+fb177b09.2.aarch64.rpm",
-        "sum": "5eb08a18134749bb05c7bfb8b303a943d9c41e2548578d502d2ebb83dc6f1803",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd-devel",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "httpd-devel-2.4.37-47.module_el8.6.0+2935+fb177b09.2.aarch64.rpm",
-        "sum": "6015a6454dbcd80e08cc11fb07bf0808aaa2490f07c4b86ea918a49be1a9d9ed",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mod_http2",
         "version": "1.15.7",
         "release": "5.module_el8.6.0+2872+fe0ff7aa",
@@ -240,30 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mod_ldap",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "mod_ldap-2.4.37-47.module_el8.6.0+2935+fb177b09.2.aarch64.rpm",
-        "sum": "6a4acbfdfbcbcbff0d177aed263c605e40ffc378e8027350ae58e6ed00f753b3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.aarch64.rpm",
-        "sum": "6dd4078bfec7647232cb7cf01ecff1271dff83b2ffcdda809993f8c99fb107e4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "httpd-devel",
         "version": "2.4.37",
         "release": "47.module_el8.6.0+2872+fe0ff7aa.1.alma",
@@ -284,18 +188,6 @@
         "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
         "filename": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.ppc64le.rpm",
         "sum": "8032f8f8d45ae5473e3031a24a55435df35bb2a292fa7d070df3e7a85f1da434",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd-devel",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "httpd-devel-2.4.37-47.module_el8.6.0+2935+fb177b09.2.x86_64.rpm",
-        "sum": "8eff78e8e2b77afa9d008c0e24d741fb20ed018b0c1fe3bebcc93c9b30c4dd16",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -332,18 +224,6 @@
         "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
         "filename": "mod_ssl-2.4.37-47.module_el8.6.0+2935+fb177b09.2.ppc64le.rpm",
         "sum": "a1f1159085651501db63ca17a7269dd8c6facf4df3a5e450aaf2edab2dbb286b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_proxy_html",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "mod_proxy_html-2.4.37-47.module_el8.6.0+2935+fb177b09.2.x86_64.rpm",
-        "sum": "a8232a20dd92584623c9dcac0bd6f203ae0e3873078e2a626fbdd6448ce5d67b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -396,18 +276,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mod_ssl",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "mod_ssl-2.4.37-47.module_el8.6.0+2935+fb177b09.2.x86_64.rpm",
-        "sum": "c0131eba7ffe6c8c96978b2405f92b5cd5835905155efdacc526d0a5bc241dc8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mod_proxy_html",
         "version": "2.4.37",
         "release": "47.module_el8.6.0+2872+fe0ff7aa.1.alma",
@@ -440,18 +308,6 @@
         "src": "httpd-2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma.src.rpm",
         "filename": "httpd-tools-2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma.x86_64.rpm",
         "sum": "d423eb1a5929c743e75d3e722b7fe4edccca4c6c4c15b771e8541a3423b7ffcf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_ssl",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "mod_ssl-2.4.37-47.module_el8.6.0+2935+fb177b09.2.aarch64.rpm",
-        "sum": "d78e50d01530acf446b07821a9ce46c4fd244a1dbf38e57c2138d1875291a8e3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -516,18 +372,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "httpd-tools",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "httpd-tools-2.4.37-47.module_el8.6.0+2935+fb177b09.2.x86_64.rpm",
-        "sum": "fd160fef1dd7c8637bf8a0ba38392a98501ed81a5c26ac10149c470c3b76a61f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "httpd-devel",
         "version": "2.4.37",
         "release": "47.module_el8.6.0+2872+fe0ff7aa.1.alma",
@@ -536,18 +380,6 @@
         "src": "httpd-2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma.src.rpm",
         "filename": "httpd-devel-2.4.37-47.module_el8.6.0+2872+fe0ff7aa.1.alma.aarch64.rpm",
         "sum": "fe0025c8043d5ea52f757d61c87d43a626fe69ef25a98ba709608d40a0c80411",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_ldap",
-        "version": "2.4.37",
-        "release": "47.module_el8.6.0+2935+fb177b09.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "httpd-2.4.37-47.module_el8.6.0+2935+fb177b09.2.src.rpm",
-        "filename": "mod_ldap-2.4.37-47.module_el8.6.0+2935+fb177b09.2.x86_64.rpm",
-        "sum": "ffc2e50dac706947019f656824dfe76a5fcc9c382cf64ac803b107cd9277de9c",
         "sum_type": 5,
         "reboot_suggested": 0
       }

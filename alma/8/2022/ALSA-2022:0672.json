@@ -120,30 +120,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "rubygem-openssl",
-        "version": "2.1.2",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-openssl-2.1.2-109.module_el8.6.0+2966+77bc279f.i686.rpm",
-        "sum": "23a869ac2da3cd469b3f6512b48dd10419563a4fe614e0596ac8ee69a90c0e8a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-openssl",
-        "version": "2.1.2",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-openssl-2.1.2-109.module_el8.6.0+2966+77bc279f.x86_64.rpm",
-        "sum": "2476412038459200834d79bfb689674b2636084da8017b64d4125fa039c7b00a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "rubygem-pg",
         "version": "1.0.0",
         "release": "2.module_el8.5.0+2625+ec418553",
@@ -164,18 +140,6 @@
         "src": "rubygem-abrt-0.3.0-4.module_el8.5.0+2625+ec418553.src.rpm",
         "filename": "rubygem-abrt-0.3.0-4.module_el8.5.0+2625+ec418553.noarch.rpm",
         "sum": "251a37b9981b1ac6685904e0475b4cd0ae97be504b69cbc002896057cff48bbe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-json",
-        "version": "2.1.0",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-json-2.1.0-109.module_el8.6.0+2966+77bc279f.i686.rpm",
-        "sum": "29af631807d0df5d23cdbdfa940c7ecb24ff645840b222e1f05fef86fec0cdd7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -308,18 +272,6 @@
         "src": "ruby-2.5.9-109.module_el8.5.0+2627+d9c243ca.src.rpm",
         "filename": "rubygem-openssl-2.1.2-109.module_el8.5.0+2627+d9c243ca.x86_64.rpm",
         "sum": "515d58201fff949d43001821efafc7948fc5d565807bc55e13c3f3c64d3d3336",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-openssl",
-        "version": "2.1.2",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-openssl-2.1.2-109.module_el8.6.0+2966+77bc279f.aarch64.rpm",
-        "sum": "591f22551e99666f247305ff6e3d39046a431fb9c2b69fa02c73ecb7376f673f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -516,18 +468,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "rubygem-openssl",
-        "version": "2.1.2",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-openssl-2.1.2-109.module_el8.6.0+2966+77bc279f.ppc64le.rpm",
-        "sum": "8fe493d896118703b1e6d38948358bf170f504adc3945adb6f712bb3d478066f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "ruby-irb",
         "version": "2.5.9",
         "release": "109.module_el8.5.0+259+8cec6917",
@@ -708,42 +648,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "rubygem-json",
-        "version": "2.1.0",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-json-2.1.0-109.module_el8.6.0+2966+77bc279f.aarch64.rpm",
-        "sum": "c60e549ece8fdf9af5df76419d5053c0bb396fcc0a636d38b4d4d5936de84f5d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-json",
-        "version": "2.1.0",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-json-2.1.0-109.module_el8.6.0+2966+77bc279f.x86_64.rpm",
-        "sum": "c994406ee5b6f344d9b250e69443c0de605b72fe28d419c386e1424039114c0f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-json",
-        "version": "2.1.0",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-json-2.1.0-109.module_el8.6.0+2966+77bc279f.ppc64le.rpm",
-        "sum": "c9afcabc42def9d971ef1723b5f3d6dfdb3714472bc940b8064ff05036e1cd13",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "rubygem-rdoc",
         "version": "6.0.1.1",
         "release": "109.module_el8.5.0+2627+d9c243ca",
@@ -752,18 +656,6 @@
         "src": "ruby-2.5.9-109.module_el8.5.0+2627+d9c243ca.src.rpm",
         "filename": "rubygem-rdoc-6.0.1.1-109.module_el8.5.0+2627+d9c243ca.noarch.rpm",
         "sum": "ca87b90e6d237fd03924b4669282e1aaffb1eb0a56c6a6bbfa41c4add507e797",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-rake",
-        "version": "12.3.3",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-rake-12.3.3-109.module_el8.6.0+2966+77bc279f.noarch.rpm",
-        "sum": "cd27b8d89827bd254d72838d0692aa50385c7b79aa47659d03b0b32e1679ed25",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -896,18 +788,6 @@
         "src": "rubygem-bundler-1.16.1-4.module_el8.5.0+2625+ec418553.src.rpm",
         "filename": "rubygem-bundler-doc-1.16.1-4.module_el8.5.0+2625+ec418553.noarch.rpm",
         "sum": "e7bc7a169d1ab8e47160679f08d7f5d8c38e09c4dec5ec1b347c98bd07901732",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-xmlrpc",
-        "version": "0.3.0",
-        "release": "109.module_el8.6.0+2966+77bc279f",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "ruby-2.6.10-109.module_el8.6.0+2966+77bc279f.src.rpm",
-        "filename": "rubygem-xmlrpc-0.3.0-109.module_el8.6.0+2966+77bc279f.noarch.rpm",
-        "sum": "ef692b3cc107ffa39960fd5a3f2f153a68434e67e0c1317bbca33fa8bce65398",
         "sum_type": 5,
         "reboot_suggested": 0
       },

@@ -12,18 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-highavailability-rpms__8_0_default",
     "packages": [
       {
-        "name": "pcs",
-        "version": "0.10.12",
-        "release": "6.el8_6.1.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pcs-0.10.12-6.el8_6.1.alma.src.rpm",
-        "filename": "pcs-0.10.12-6.el8_6.1.alma.ppc64le.rpm",
-        "sum": "18a46cea0a78109bfefafae83455fd144519c037150e5a1898e909c68b698c95",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pcs-snmp",
         "version": "0.10.12",
         "release": "6.el8.alma",
@@ -32,30 +20,6 @@
         "src": "pcs-0.10.12-6.el8.alma.src.rpm",
         "filename": "pcs-snmp-0.10.12-6.el8.alma.x86_64.rpm",
         "sum": "45a807aba2faeff11c5b3c68f2588f27bd3e20039c74b48c20a5e58c9fd5553c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.10.12",
-        "release": "6.el8_6.1.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.10.12-6.el8_6.1.alma.src.rpm",
-        "filename": "pcs-0.10.12-6.el8_6.1.alma.x86_64.rpm",
-        "sum": "5938d00d650342a6e9d048932d7149f01f62b50bc0c9e87ed45ae56b1ea92dbf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.10.12",
-        "release": "6.el8_6.1.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.10.12-6.el8_6.1.alma.src.rpm",
-        "filename": "pcs-snmp-0.10.12-6.el8_6.1.alma.x86_64.rpm",
-        "sum": "74546c4afd2c810ef596be221325089c4bbf0a5e9bc637c21e734806bb5ed818",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -92,18 +56,6 @@
         "src": "pcs-0.10.12-6.el8.alma.src.rpm",
         "filename": "pcs-0.10.12-6.el8.alma.x86_64.rpm",
         "sum": "e4d405fdf530d43297d2eeee331e4dc2383564cd3f6703b96a383a5dfc4f3efc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.10.12",
-        "release": "6.el8_6.1.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pcs-0.10.12-6.el8_6.1.alma.src.rpm",
-        "filename": "pcs-snmp-0.10.12-6.el8_6.1.alma.ppc64le.rpm",
-        "sum": "e6fd4fc7f351e3cc0847f6bf586efa20627601ef3a09a74969556267b24acc23",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -36,54 +36,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libslirp-devel",
-        "version": "4.4.0",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libslirp-4.4.0-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "libslirp-devel-4.4.0-1.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "117cc5c8f2bb1a0e8a2f14f9f6d478c8103f0fec58b77b6bc0eaa3f87878d054",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "toolbox-tests",
-        "version": "0.0.99.3",
-        "release": "0.4.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "toolbox-tests-0.0.99.3-0.4.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "1a53b926035883772f84583ce92f0be4203f1e4172f22009a9aa5e52ebdfc9ba",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "toolbox-tests",
-        "version": "0.0.99.3",
-        "release": "0.4.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "toolbox-tests-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "2375b4ff5cd53d810af7a3f6004ec86a1ee80e781b34433b61422ec4603c999d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libslirp-devel",
-        "version": "4.4.0",
-        "release": "1.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libslirp-4.4.0-1.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "libslirp-devel-4.4.0-1.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "2bda7ff20959fc2c6a059846f63836c69a3871794cd7b5154866ecc6a4545b0c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "oci-seccomp-bpf-hook",
         "version": "1.2.3",
         "release": "3.module_el8.6.0+2877+8e437bf5",
@@ -92,18 +44,6 @@
         "src": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2877+8e437bf5.ppc64le.rpm",
         "sum": "2c16ac4ff3c1ee7cee387837ef921c534a8be31013097e5979272845efa04357",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu-devel",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-devel-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "321bac0410a0ecd1eb6ab4965f9af2dc88d5764565b4f6e9208b4111123dfe76",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -194,36 +134,12 @@
       {
         "name": "libslirp",
         "version": "4.4.0",
-        "release": "1.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libslirp-4.4.0-1.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "libslirp-4.4.0-1.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "4641597803bcd8e7e39d10d8b53eca4d5308156c845bf01ccd0bf6d39ae6918d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libslirp",
-        "version": "4.4.0",
         "release": "1.module_el8.5.0+2613+1b78b731",
         "epoch": "0",
         "arch": "x86_64",
         "src": "libslirp-4.4.0-1.module_el8.5.0+2613+1b78b731.src.rpm",
         "filename": "libslirp-4.4.0-1.module_el8.5.0+2613+1b78b731.x86_64.rpm",
         "sum": "472d12661f595930968a14cc09a04b89f300db6e42e97dd515168d6b7032070d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "oci-seccomp-bpf-hook",
-        "version": "1.2.3",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "48fecef3eb3e8f87e104271b9ff3e451b6b958762faf3c652633dcfd368a2dbe",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -248,30 +164,6 @@
         "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.ppc64le.rpm",
         "sum": "54f8c67b8625f8a94da53cdf5f83851e62ab4c69f421c7e60ca99caab011958b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "oci-seccomp-bpf-hook",
-        "version": "1.2.3",
-        "release": "3.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "66980f399ac7d212605566ac5d7cfa00bda68a1e95bcb3c5ce0db188b748882d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu-devel",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-devel-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "68d8abc810dbb50fc3283e5366f8efd5fd4d4fcbafaef1f5b3690a82441e3a1f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -320,30 +212,6 @@
         "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "python3-criu-3.15-3.module_el8.6.0+2877+8e437bf5.ppc64le.rpm",
         "sum": "7976419c3d8db18c68368174d996837ad167d8b7143e88d8b82516b1162d8695",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "crit",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "crit-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "7c52b9b64e52b73a17d4dd67861c493d34aab88e50a61db0ac638ccb8dcbaaa9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "toolbox",
-        "version": "0.0.99.3",
-        "release": "0.4.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "toolbox-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "7fc15e522194d5414ce006c017d2162f5ba49538575694a6ead836f971ac9af9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -444,18 +312,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "criu-libs",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-libs-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "9fd2f719eb978644e173104e6b8c5750e4983922617a144c27f481f921c69666",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "slirp4netns",
         "version": "1.1.8",
         "release": "1.module_el8.5.0+2613+1b78b731",
@@ -480,18 +336,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "slirp4netns",
-        "version": "1.1.8",
-        "release": "1.module_el8.6.0+2876+9ed4eae2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-        "filename": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-        "sum": "ae330e32cefa5765da6bb66e2805eb85c5042ea98056d9222309322d5f336160",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "toolbox-tests",
         "version": "0.0.99.3",
         "release": "0.4.module_el8.6.0+2877+8e437bf5",
@@ -500,42 +344,6 @@
         "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.src.rpm",
         "filename": "toolbox-tests-0.0.99.3-0.4.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
         "sum": "c48a5e89c186350e90896125749033c7ea1fc1d01f90d7ff56c5a50b0bac2d0d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "d25f08c8c890e02e5bfb448b8724ddcb4adab67b82b1e27eedd2f4454250f9ba",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "criu",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "dbb73dc856ee3c9642e0db9436268d0897e1f88b4d899e1237ebc1aebe92f4a1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-criu",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "python3-criu-3.15-3.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "dcd960b907a89716bf407f69ecf18f213334d097712c11a32787e7c22cd6d303",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -564,18 +372,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "criu-libs",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "criu-libs-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "e0d5994b60332abc700e5c715ce2f9d8fab05b942b4c379b12577fd8fd7dbcfd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "oci-seccomp-bpf-hook",
         "version": "1.2.3",
         "release": "3.module_el8.5.0+2613+1b78b731",
@@ -584,18 +380,6 @@
         "src": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.5.0+2613+1b78b731.src.rpm",
         "filename": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
         "sum": "e326929cdb0d0aca7da92470da430e075847559e5836e61b4881e7a3d9e1503a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libslirp",
-        "version": "4.4.0",
-        "release": "1.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libslirp-4.4.0-1.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "libslirp-4.4.0-1.module_el8.6.0+2877+8e437bf5.x86_64.rpm",
-        "sum": "e79d04839688384f66c8053a605f5b73e43b256bdb77d4027031ebc8909aacd3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -612,18 +396,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "crit",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "crit-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "eeb3f987f89ae7d49fb4c5f7c1a14e73e72b9832a6648ba7be3ce532a507dab5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "slirp4netns",
         "version": "1.1.8",
         "release": "1.module_el8.6.0+2876+9ed4eae2",
@@ -632,30 +404,6 @@
         "src": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
         "filename": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.aarch64.rpm",
         "sum": "f9f089fce7f81a740a5e0f4b0bd3d6bdf571a5957dde324c949f356db249314e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-criu",
-        "version": "3.15",
-        "release": "3.module_el8.6.0+2877+8e437bf5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "criu-3.15-3.module_el8.6.0+2877+8e437bf5.src.rpm",
-        "filename": "python3-criu-3.15-3.module_el8.6.0+2877+8e437bf5.aarch64.rpm",
-        "sum": "fb0179377a3571e32adc1f3f032f870585a55d05b4fa2b325033626804e9a756",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "toolbox",
-        "version": "0.0.99.3",
-        "release": "0.4.module_el8.6.0+2878+e681bc44",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "toolbox-0.0.99.3-0.4.module_el8.6.0+2878+e681bc44.src.rpm",
-        "filename": "toolbox-0.0.99.3-0.4.module_el8.6.0+2878+e681bc44.ppc64le.rpm",
-        "sum": "fdf48e8bcdcd68189d3f70ab791dbbb49a362d95f07bfc4673c257de63f0cad9",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -24,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nginx-all-modules",
-        "version": "1.16.1",
-        "release": "2.module_el8.5.0+35+6a1225c3.1.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "nginx-1.16.1-2.module_el8.5.0+35+6a1225c3.1.alma.src.rpm",
-        "filename": "nginx-all-modules-1.16.1-2.module_el8.5.0+35+6a1225c3.1.alma.noarch.rpm",
-        "sum": "06a628e1c31da2f140d97e785bc2e8ddb1c482ebc66a3712b36917b8ef876c2d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nginx-mod-mail",
         "version": "1.16.1",
         "release": "2.module_el8.5.0+35+6a1225c3.1.alma",
@@ -188,18 +176,6 @@
         "src": "nginx-1.16.1-2.module_el8.4.0+2470+68135136.1.alma.src.rpm",
         "filename": "nginx-mod-stream-1.16.1-2.module_el8.4.0+2470+68135136.1.alma.x86_64.rpm",
         "sum": "9d636e4f73349caa4e60c00511dcdb7baad70755442a9ed5a5895e264ad8fcbf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-filesystem",
-        "version": "1.16.1",
-        "release": "2.module_el8.5.0+35+6a1225c3.1.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "nginx-1.16.1-2.module_el8.5.0+35+6a1225c3.1.alma.src.rpm",
-        "filename": "nginx-filesystem-1.16.1-2.module_el8.5.0+35+6a1225c3.1.alma.noarch.rpm",
-        "sum": "a0337f5de3ab170ef9a502ab5a58dac0c706c07edc143258b64909eabc2b4544",
         "sum_type": 5,
         "reboot_suggested": 0
       },

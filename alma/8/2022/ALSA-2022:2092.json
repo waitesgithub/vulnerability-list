@@ -8,8 +8,8 @@
     "$date": 1652165627000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
         "name": "bind-pkcs11",
@@ -248,6 +248,18 @@
         "src": "bind-9.11.36-3.el8.src.rpm",
         "filename": "bind-libs-lite-9.11.36-3.el8.aarch64.rpm",
         "sum": "7d1f82c8fea87fc2bf25d06ffea2d16696da9b8c480ae277dd7bd713852c81fe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-export-devel",
+        "version": "9.11.36",
+        "release": "3.el8",
+        "epoch": "32",
+        "arch": "x86_64",
+        "src": "bind-9.11.36-3.el8.src.rpm",
+        "filename": "bind-export-devel-9.11.36-3.el8.x86_64.rpm",
+        "sum": "7e381f4dfda24e1e98e6db21f9fae7679b721fca3f905bf4dd04720248642c75",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -536,6 +548,18 @@
         "src": "bind-9.11.36-3.el8.src.rpm",
         "filename": "bind-sdb-9.11.36-3.el8.aarch64.rpm",
         "sum": "f629da41cdee9ab20f8891dd9387f2aa29980b6b93ca2125316d35bcae9435a9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-export-libs",
+        "version": "9.11.36",
+        "release": "3.el8",
+        "epoch": "32",
+        "arch": "x86_64",
+        "src": "bind-9.11.36-3.el8.src.rpm",
+        "filename": "bind-export-libs-9.11.36-3.el8.x86_64.rpm",
+        "sum": "f7bfd1c1aad137f3928ddd7290484a590e74e6fadff8f068b856736a42cb9eb9",
         "sum_type": 5,
         "reboot_suggested": 0
       },

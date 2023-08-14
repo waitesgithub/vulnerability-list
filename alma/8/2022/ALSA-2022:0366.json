@@ -8,8 +8,8 @@
     "$date": 1643746366000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
         "name": "vim-enhanced",
@@ -84,18 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "vim-filesystem",
-        "version": "8.0.1763",
-        "release": "16.el8_5.4",
-        "epoch": "2",
-        "arch": "noarch",
-        "src": "vim-8.0.1763-16.el8_5.4.src.rpm",
-        "filename": "vim-filesystem-8.0.1763-16.el8_5.4.noarch.rpm",
-        "sum": "804068a8934e1837e2a40a437cd08ab5eb310f0051ffdd3a68c262d938a0438a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "vim-minimal",
         "version": "8.0.1763",
         "release": "16.el8_5.13",
@@ -108,30 +96,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "vim-enhanced",
-        "version": "8.0.1763",
-        "release": "16.el8_5.4",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "vim-8.0.1763-16.el8_5.4.src.rpm",
-        "filename": "vim-enhanced-8.0.1763-16.el8_5.4.x86_64.rpm",
-        "sum": "9a9ba600677f467c98405378eeb61f3c40d279d78b26eb4483956565a2f61e19",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vim-common",
-        "version": "8.0.1763",
-        "release": "16.el8_5.4",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "vim-8.0.1763-16.el8_5.4.src.rpm",
-        "filename": "vim-common-8.0.1763-16.el8_5.4.x86_64.rpm",
-        "sum": "aee65a42580ddb3d1eee887f9d50e87ea3dcea4faf2c7b02986831ddbc283e49",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "vim-minimal",
         "version": "8.0.1763",
         "release": "16.el8_5.13",
@@ -140,18 +104,6 @@
         "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
         "filename": "vim-minimal-8.0.1763-16.el8_5.13.x86_64.rpm",
         "sum": "d2f9436ce89cb90eaa1baa73776dd834d9650098e6a9ce23f466f808966c896b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vim-X11",
-        "version": "8.0.1763",
-        "release": "16.el8_5.4",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "vim-8.0.1763-16.el8_5.4.src.rpm",
-        "filename": "vim-X11-8.0.1763-16.el8_5.4.x86_64.rpm",
-        "sum": "f31036cf80d177358dd58e73282bc7df277600f384cfa7aa32c9c80e68d07059",
         "sum_type": 5,
         "reboot_suggested": 0
       },

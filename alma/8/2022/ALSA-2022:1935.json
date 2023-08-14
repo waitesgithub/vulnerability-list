@@ -12,18 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
       {
-        "name": "php-xml",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-xml-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "00f3618885272388a5bba961d434057333c722674e512b739e20c1528b6f8ae8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-pdo",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -44,18 +32,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-mysqlnd-7.4.19-2.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "02a7b574dd0bd777d7612e7a4096ab0b0757d90927f5228175c8cf7cf64072c6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-soap",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-soap-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "044ce93247a718b30803225734041182fec1e1adb29e2338bfe67f1ea6a1a5bf",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,18 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-opcache",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-opcache-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "053642e24cf9a71856b89ad5de296ae6e8a460f54cceaa7135b5a37fb2edcbaa",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-mysqlnd",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -110,36 +74,12 @@
       {
         "name": "php-devel",
         "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-devel-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "05d3f213c20cf324ad55f1f9b6c4f1d3dc7ce5a4656613af0e6b8083d53d921c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-devel",
-        "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
         "epoch": "0",
         "arch": "aarch64",
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-devel-7.4.19-2.module_el8.6.0+2750+78feabcb.aarch64.rpm",
         "sum": "05faca0541c0ab8007ea914819d2e7f396d12ebb95c06a9610014ea21825acfe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-ldap",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-ldap-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "0619fa04fb8342ed4fbf1d96346c25b0d2637200563ec4297b523408f2533efc",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -164,42 +104,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-bcmath-7.4.19-2.module_el8.6.0+2750+78feabcb.aarch64.rpm",
         "sum": "0822d94bb95b7ece28db078ed1ffb1153c702e136ee8562aad684ba0e55faae9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-devel",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-devel-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "09b7f0512ff2eb9a94556d944e669708219ab4f98b6f882b31f29c13262d6b17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-ffi",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-ffi-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "0bdd1ffec131abc9d356ab9cb9a4b0199aac36bc44d6c26a782a63c5b5c81e8a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-ffi",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-ffi-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "0ca05c640176877b73eac776dd86e3120417e59dd57dd68c8a4970adcbe0a8c1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -230,84 +134,12 @@
       {
         "name": "php-pgsql",
         "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-pgsql-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "13544b1cd2627c167cc57d1114e0db1eb69af9cac6583899934adbef072179c0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-common",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-common-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "13fc69f51a4f3b9c4b96a2e0371a2d80b17d45d15c2a5d04c37e529421fda876",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-snmp",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-snmp-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "142f7c8448c804b485bcac46743f8c472307d680c076c9dd117711a1e9fb338b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pgsql",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-pgsql-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "147d46026457bdcb59cdba1d2374bf58e49661217e97e3f209d3238aa1c7dce4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pgsql",
-        "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
         "epoch": "0",
         "arch": "x86_64",
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-pgsql-7.4.19-2.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "1664af155a12e40989d9d5d8075335ca4ac1faf7c1e51a15c9f312c0f3f53d73",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-dba",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-dba-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "19edda669094ac16ca7ccc74d3d6825d4e3284b49a700422e83942dcbe0b3743",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-cli",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-cli-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "1d489e8c97ba66f311c4956c67d95741d1b118703f182bc5f70b1ce5919b2196",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -336,18 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-common",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-common-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "1ffd60d73deaadf8739e2f1f1f585269b91a16d8e5b231a79058fa95354baf20",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-pear",
         "version": "1.10.12",
         "release": "1.module_el8.6.0+2750+78feabcb",
@@ -360,30 +180,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-odbc",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-odbc-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "22b1b117174ad13be77a6da97757d5fc89c696a822d90f09e298cbe5c70e4c17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "2355e972c8e2672e1ac9c0cd396dd9f541b526907c67c5e4779b5a9523482c05",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-xmlrpc",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -392,18 +188,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-xmlrpc-7.4.19-2.module_el8.6.0+2750+78feabcb.aarch64.rpm",
         "sum": "240b6bb77be19c9450653b2f9daee781e2ef915f3a5c6b79019609885776e50b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-xmlrpc",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-xmlrpc-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "24f405331be1d4fda0e4e5a58cbd6b8aaeb4286dbce0c0def66224634d837faf",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -446,30 +230,6 @@
       {
         "name": "php-intl",
         "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-intl-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "290115dedb24400d95c230d13b52a35af761ab8748b487b18dff570d4863cba4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-gd",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-gd-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "2b295f6c6e1afc980699f67c90ba2962f86b244eca9bd7268f70aa6ddd79a0bb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-intl",
-        "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
         "epoch": "0",
         "arch": "aarch64",
@@ -488,30 +248,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-pdo-7.4.19-2.module_el8.6.0+2750+78feabcb.aarch64.rpm",
         "sum": "31a71a9a9c9bb899d82bf46abb85aea2dd6dc4ecdb914edf34b09278bd351306",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-json",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-json-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "31ed8db4c0ce8f43b886ec6c8368733eddf2bae7c8523bed898d642db1d6217a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-enchant",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-enchant-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "325e4a68c7e4611a4b27377fa93437ea37fd6394ea8fcd9fd1e42eab7c1784bc",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -536,30 +272,6 @@
         "src": "php-pecl-apcu-5.1.18-1.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-pecl-apcu-5.1.18-1.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "370d615e16a95b30b0b9d1aa21a0997e2615b63323933a662ef70d9373bebd76",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-json",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-json-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "373af15a8562165cbe33f3cd7aa27016e5b941f1e7578eff60d0b4148f91a4a3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-fpm",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-fpm-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "3cc09b9af8c4ad4142273a748ba6f625ecca4f82c5c802a5614bc064d81c8c37",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -596,18 +308,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-process-7.4.19-2.module_el8.6.0+2750+78feabcb.ppc64le.rpm",
         "sum": "3f2a85a1dbc8d89e03593581925730e4cd1ab44f80d1f321c5b7a8b4d4e9bdd5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-soap",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-soap-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "40be56aa6fa51e127444877a4b2287bac72da318da54181f81e13c8e6b01ad6d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -660,42 +360,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-cli",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-cli-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "4ce3564b1a0e86a657b757ce6402af2b13a3decc24ac16d3e044e64b4ce3e3a2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-ldap",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-ldap-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "4e565418eb85e1224b253169f1adc9f3a79fcc7375c0dffad6cb34b3c115d687",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-process",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-process-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "508e769dfd63fa515dc4e41462e501b981db5c8e8e78748d29bb56f7c17f1fc3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-enchant",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -732,18 +396,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-mysqlnd",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-mysqlnd-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "54d3788a1032c164e50ae9fc605735996059bcb638e33020a9af14600d7ab9eb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "apcu-panel",
         "version": "5.1.18",
         "release": "1.module_el8.6.0+2750+78feabcb",
@@ -768,18 +420,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-pdo",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-pdo-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "576cc402a337b1f51a2ba6993312ef390aad7c23e5a18067b902a671e5b3bcad",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-xml",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -800,18 +440,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-fpm-7.4.19-2.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "594a2e7a869f8dc7af3ba38f3d8141870f5b124716072d6a816108651d0c34c4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-json",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-json-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "59508ef37f2e77d90eddd901a4a9044cf90a671def423b90273dc0db12db1b57",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -912,78 +540,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-dba",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-dba-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "6258096abcde65ec8dd6acab792aeca94bf22d1f5598f9b4ddb4631f6162c8f6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-common",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-common-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "6274bf93bc0454c5e68dd0f22ec869d865dee44f484b14762b5fb37d03c013a6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-xmlrpc",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-xmlrpc-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "6371bb7eeefccaed86ab141128a32948fdcd561fb2dffb7dd74a7d8fb4cc5395",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-devel",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-devel-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "66036441e6070373096b5d897b2126f8ac62367f30117a06e0adc254a1daf773",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "664032e6c1f85ddb29e781da86c78acd935e2556aade40112121df2b75824da2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-ldap",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-ldap-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "68a5b51110f850c8b02168d5ff613e752a6d03c6978b560e685cf068e89edc36",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-enchant",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -992,18 +548,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-enchant-7.4.19-2.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "6b3d79172435ee470be0cfed5bcdc5a1e8dbac7eaa4892b1dff70aae629b9916",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-opcache",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-opcache-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "6b79f858312edc2bf08c33a97820a38ce77d0ed3a1f3243a2c85b06ff1dbb298",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1032,102 +576,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-fpm",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-fpm-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "6df133e9f26e8a0a002edd02f92d4305240fca16be3fd4129a622c19eadf0c4d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "6fd2cf2eeb21eeac0d0c779e2d510cf5f34ec9cf3785980051313bd09c6d2468",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-gd",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-gd-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "73d283154b9e1fb3d377c52c7372d3c0860000cd2553f54dd2f8a138ab87811d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-gmp",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-gmp-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "74c1d15c85083800c7c555ed0b4a82bbfca1ccfbdb34eec03eae9b8e5c6722e3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-snmp",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-snmp-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "76413ae08824a7f4c27703b935e40fc968e38df626e763eb49560764677c1f8d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-dba",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-dba-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "776ddabd066864b8674147e3d4636186af493feb3855104d0475ad9c46dbf7ce",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-embedded",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-embedded-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "79156a415e6c76ba6fffe4faa3ee705b2f7ac4893d74f90e1f2b1d4e879db3b4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-ffi",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-ffi-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "79372c282615a5ce74b499860b38fb224bfd1f7d8f37a7416098847efd13c91c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-cli",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -1148,18 +596,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-mbstring-7.4.19-2.module_el8.6.0+2750+78feabcb.ppc64le.rpm",
         "sum": "7c5f81c79435f3200ec3879f612c593c6837e81530b44d77532a379a0357c001",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-snmp",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-snmp-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "7cf75a83adf76b6a8c36cba5dfd462198aeb333ec5a2587e194fb7a49ea61bd4",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1272,18 +708,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-mbstring",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-mbstring-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "8b4439e162d348c98663963ff817e29b9a740a3458ea281f8cbfe02c5dbd3e91",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-ldap",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -1356,18 +780,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-pdo",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-pdo-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "9077bd54b2fbca1d787f659bcb7f9b9d969a06ab9891225bf50cfe506733fe9a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-xml",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -1412,54 +824,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-soap-7.4.19-2.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "936ac7d9f43e28bc244c504b2d3cb569639790785e567d7031cd6071addde14f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-intl",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-intl-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "93b9f05ebcc2b5f2e2afbe3dd35c537154fbbd06626b8195c7e9ef6e5eeeee6d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-mbstring",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-mbstring-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "95992b7eeff6bef35d085ee7d0caaa9db9e0d44087f6847af59cf0333ccd4bd6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-gd",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-gd-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "963c4244d1924f4593f5ff47721f515502fc2df88add17036ec2f3f3df8c2ede",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-bcmath",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-bcmath-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "97f8f2b426680af9a1d16ecdaca36446d5636c34c16ed1b9be12de5fe0fec498",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1560,30 +924,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-bcmath",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-bcmath-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "a36f78320284ba360ed36f7a272d27475757fd79db4f7a5084997cd1fe346f7e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-process",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-process-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "a520912c72a4faca6d86fb30b3f44d286cbfdfbccec76e433ccad579fbf4d955",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-gd",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -1592,42 +932,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-gd-7.4.19-2.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "a67485333763643f352320f6b9102ef2db9ece43554034be4c4c67c0e720073d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pgsql",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-pgsql-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "a7ba903a03add14401e9e8b61365d2e51f5872f973e35465cc2933ca38fe53f8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-mbstring",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-mbstring-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "a8198bd96fb7f2de0ec8e90e800bac61e71b088fb8bd7aaec0005c74fe45502c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-mysqlnd",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-mysqlnd-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "a98d761120267620192e1fcc1ed984fac06f5a760c795ef700f82760aaaca893",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1704,42 +1008,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-enchant",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-enchant-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "b039537f039db77645cb04d7aa1bba9dfc8657464becfd7e65a159bc119a8720",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-enchant",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-enchant-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "b03f2cb159f9030531118c877154f4e5af7289da870a9430825da2aa513c8a14",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-cli",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-cli-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "b84f87c7cd19af3deee0955ab0c084bbeee93c8146844641c8e060df7ed98a17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-mbstring",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -1760,18 +1028,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-odbc-7.4.19-2.module_el8.6.0+2750+78feabcb.ppc64le.rpm",
         "sum": "b9b4014a09a09dbde7b947be67d846c807f47c9a9f603195a646f4e2f59a9c76",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-odbc",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-odbc-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "ba9880407d7a704cb57d803f5faff38b398ee675b132cefeef7bb8167fcbcb01",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1848,18 +1104,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-odbc",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-odbc-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "c6411aa7cd002f3d54d574a7aae8832652f1797e092e20cc9c2a70fdc10357e5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-pdo",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -1892,18 +1136,6 @@
         "src": "libzip-1.6.1-1.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "libzip-1.6.1-1.module_el8.6.0+2750+78feabcb.aarch64.rpm",
         "sum": "c7bc3b5263c1404b4e421d19405013342e2315367e8d48e4fa9a8997ccbf28c7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-fpm",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-fpm-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "cc9edafb5f3fdb7b8c8eba347878938a5f1ce04972ed98007586b2490e9e05e3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1968,30 +1200,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-xml",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-xml-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "d80a5e0d28c583d8d53a7599b4ddd3ce103b5d2a1b8fde014a473c73747b9c4c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-dbg",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-dbg-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "ddb50b8b92e2d703ac7ba8b3dff895e9352055c091c4cfe4cead6cce9a62c958",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-common",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -2000,54 +1208,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-common-7.4.19-2.module_el8.6.0+2750+78feabcb.ppc64le.rpm",
         "sum": "de59ea6289d3ca203c48c6995a0c3a2614b40a9bd294862b20d292bd3d801f51",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pdo",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-pdo-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "de7333c82b1336ed7bcd9ae46cd0ce28a0dcb6250adfb0a5d849c9f76be04520",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-process",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-process-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "df553cfd675468efcc0b6e4a1fa6dd60dd51266a1247d6deb7ec5e24d84b27b7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-embedded",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-embedded-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "e2d6c70e11b69b3790e2414350ed0f58eae6891f268f1677baac60af3c21ba54",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-xmlrpc",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-xmlrpc-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "e2f1060326301f55ecc684898b99569f96a76afc376614f7d4b2164a0b73d92d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2064,66 +1224,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-gmp",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-gmp-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "e6fe7185c5b0cc913dbc58d55e963e16a73f934f3567754c6c0d5f0176857092",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-gmp",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-gmp-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "e73a4aa39cdd1c9be7d9754db0f70a23dd9218e3489fae2b10cee1bbf820eb03",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-opcache",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-opcache-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "e76802ef1be434a86cbfb20ff27596a702dc9eee5752d4d5c8da2eefa81ae276",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-intl",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-intl-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "e83a0ca45ef47e89fa7ebe427ef15e4198c9e425157eeafb312043540d8adc77",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-mysqlnd",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-mysqlnd-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "ea8ee134302af620b2e25885c2ab2fa4bbdcb5492e2f3d0f4a55c1d0cd60c2a9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-process",
         "version": "7.4.19",
         "release": "2.module_el8.6.0+2750+78feabcb",
@@ -2132,30 +1232,6 @@
         "src": "php-7.4.19-2.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-process-7.4.19-2.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "ef5fe0cefa61dd4ea49a5192dafb70eba269e728ae31b2c7c17fa698635ddaea",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-xml",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-xml-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "f13fb59e1cd8e5bfe93a7927b5c564592b7881c631f5a357e661693aeaf3423c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-dbg",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-dbg-7.4.19-3.module_el8.6.0+2976+8b9a0d08.ppc64le.rpm",
-        "sum": "f184891ae1b221c6122cd144d8e0c79532bfd316522abd2d723b18e3cdc0f157",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2172,30 +1248,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "php-embedded",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-embedded-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "f47630b051b6ce36e22b71570307ee78b8a81333165b0a9e2d61f2b85bfe9446",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-bcmath",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-bcmath-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "f50fbd84220dcf1e10adf2b4cd4cf09ab36c4c787956db927a14dc055da81bb4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "php-pecl-rrd",
         "version": "2.0.1",
         "release": "1.module_el8.6.0+2750+78feabcb",
@@ -2204,18 +1256,6 @@
         "src": "php-pecl-rrd-2.0.1-1.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "php-pecl-rrd-2.0.1-1.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "f6547f37e9020ceba5cddb3e03fe23dee4d9f38f70fe33ce2d8ffe9a5bf83499",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-dbg",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-dbg-7.4.19-3.module_el8.6.0+2976+8b9a0d08.aarch64.rpm",
-        "sum": "f6981a31ba04b13901bc6d89339631a7b05fa3323504a2bf726e0a9f6f8e9a05",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2240,18 +1280,6 @@
         "src": "libzip-1.6.1-1.module_el8.6.0+2750+78feabcb.src.rpm",
         "filename": "libzip-devel-1.6.1-1.module_el8.6.0+2750+78feabcb.x86_64.rpm",
         "sum": "fb8646b700958a0ce1af00a40b074c19402ad05a00cf7f290a064f84376fa6c4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-soap",
-        "version": "7.4.19",
-        "release": "3.module_el8.6.0+2976+8b9a0d08",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "php-7.4.19-3.module_el8.6.0+2976+8b9a0d08.src.rpm",
-        "filename": "php-soap-7.4.19-3.module_el8.6.0+2976+8b9a0d08.x86_64.rpm",
-        "sum": "ffb286952da7a2e79117610bac32224986613d37458b7ced5ff1990c88c24839",
         "sum_type": 5,
         "reboot_suggested": 0
       },

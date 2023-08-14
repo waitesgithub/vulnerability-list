@@ -48,30 +48,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "sgabios",
-        "version": "0.20170427git",
-        "release": "3.module_el8.6.0+2880+7d9e3703",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
-        "sum": "10c316eb182ae0134137305cfccd854100de46a99cfbc54bdc6db9e65b3511bf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "netcf",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
-        "sum": "19c2ec93f97c1be0f0911d35f398649b7b3f4deb6bf1e6275f23cbff9b58ec45",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libiscsi-utils",
         "version": "1.18.0",
         "release": "8.module_el8.3.0+2048+e7a0a3ea",
@@ -116,18 +92,6 @@
         "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
         "filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
         "sum": "475718b68490ef173aef57f3aa680f5862a6799ade88eacbaf51738aed5af001",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libiscsi-utils",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
-        "sum": "4dbd442ce224c83e5a26390d6bdd140153b4ea7d002ad7ef9af9f0b1d54d187f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -252,18 +216,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libiscsi-devel",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
-        "sum": "8ac9c1cf99d96d888cb39604753ede9c0caf2a336d01f575d0227b34c2e31ea5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libiscsi-utils",
         "version": "1.18.0",
         "release": "8.module_el8.5.0+2608+72063365",
@@ -272,18 +224,6 @@
         "src": "libiscsi-1.18.0-8.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "libiscsi-utils-1.18.0-8.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "915899381f0be974278b335ff979803bee2443232428c4f5a558c0e9b1cd9024",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "netcf-devel",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
-        "sum": "95c2ccf6299b401a619a68bdf87b9ff7f67c1417289258a33eeb1c64d6429a32",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -360,18 +300,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "netcf-libs",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
-        "sum": "c1f77de614d5d2d0406846c00c46fb8ad1ca478339c98a5180604646d309c9b4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libiscsi",
         "version": "1.18.0",
         "release": "8.module_el8.6.0+2880+7d9e3703",
@@ -392,18 +320,6 @@
         "src": "netcf-0.2.8-12.module_el8.3.0+2048+e7a0a3ea.src.rpm",
         "filename": "netcf-libs-0.2.8-12.module_el8.3.0+2048+e7a0a3ea.i686.rpm",
         "sum": "eb138f7be869d051491087b5952d125d192a791e8e30ba220ede3ea10cb170c5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libiscsi",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
-        "sum": "eb6c0bd60519108418a74887f4a91a2e88fc3971d99d0d4e5cb630f5c769d6e1",
         "sum_type": 5,
         "reboot_suggested": 0
       },

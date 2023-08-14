@@ -8,8 +8,8 @@
     "$date": 1647335513000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
         "name": "vim-common",
@@ -32,30 +32,6 @@
         "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
         "filename": "vim-enhanced-8.0.1763-16.el8_5.13.aarch64.rpm",
         "sum": "16f4576bcd3ee613cc07aca78e01eabc57beaeee79d9a2e98745350aab553572",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vim-X11",
-        "version": "8.0.1763",
-        "release": "16.el8_5.13",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
-        "filename": "vim-X11-8.0.1763-16.el8_5.13.x86_64.rpm",
-        "sum": "259b268faa875d2a49c2b5017b052c172fb0a59c4245428465c7805a63631596",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vim-common",
-        "version": "8.0.1763",
-        "release": "16.el8_5.13",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
-        "filename": "vim-common-8.0.1763-16.el8_5.13.x86_64.rpm",
-        "sum": "28d89288ca858ce121f4880ebe169dd136ffdf185ca63c15dc41c5eeead05656",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -152,18 +128,6 @@
         "src": "vim-8.0.1763-16.el8_5.12.src.rpm",
         "filename": "vim-enhanced-8.0.1763-16.el8_5.12.x86_64.rpm",
         "sum": "e39138b8e0d65c5ef15ef6adc32435524144f50d20d01c15a1fe56eeea6d2014",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vim-enhanced",
-        "version": "8.0.1763",
-        "release": "16.el8_5.13",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "vim-8.0.1763-16.el8_5.13.src.rpm",
-        "filename": "vim-enhanced-8.0.1763-16.el8_5.13.x86_64.rpm",
-        "sum": "fce44851807c6ce996072be75e1373a69d118daaae0701f7bc23dcd6054af187",
         "sum_type": 5,
         "reboot_suggested": 0
       }
