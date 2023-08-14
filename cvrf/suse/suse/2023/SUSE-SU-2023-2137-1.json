@@ -31,13 +31,38 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2137,SUSE-SLE-Module-Containers-12-2023-2137",
+      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-2137,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2137,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2137,Image SLES12-SP5-EC2-On-Demand-2023-2137,Image SLES12-SP5-GCE-On-Demand-2023-2137,SUSE-2023-2137,SUSE-SLE-Module-Containers-12-2023-2137",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "runc-1.1.5-16.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "runc-1.1.5-16.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "runc-1.1.5-16.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "runc-1.1.5-16.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "runc-1.1.5-16.31.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "runc-1.1.5-16.31.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 12",

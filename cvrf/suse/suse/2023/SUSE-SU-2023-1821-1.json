@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-1821,Image SLES12-SP5-Azure-SAP-On-Demand-2023-1821,Image SLES12-SP5-EC2-SAP-BYOS-2023-1821,Image SLES12-SP5-GCE-SAP-BYOS-2023-1821,Image SLES12-SP5-GCE-SAP-On-Demand-2023-1821,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-1821,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-1821,SUSE-2023-1821,SUSE-OpenStack-Cloud-9-2023-1821,SUSE-OpenStack-Cloud-Crowbar-9-2023-1821,SUSE-SLE-SAP-12-SP4-2023-1821,SUSE-SLE-SDK-12-SP5-2023-1821,SUSE-SLE-SERVER-12-SP2-BCL-2023-1821,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-1821,SUSE-SLE-SERVER-12-SP4-LTSS-2023-1821,SUSE-SLE-SERVER-12-SP5-2023-1821,SUSE-SLE-WE-12-SP5-2023-1821",
+      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-1821,Image SLES12-SP5-Azure-SAP-On-Demand-2023-1821,Image SLES12-SP5-EC2-SAP-BYOS-2023-1821,Image SLES12-SP5-EC2-SAP-On-Demand-2023-1821,Image SLES12-SP5-GCE-SAP-BYOS-2023-1821,Image SLES12-SP5-GCE-SAP-On-Demand-2023-1821,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-1821,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-1821,SUSE-2023-1821,SUSE-OpenStack-Cloud-9-2023-1821,SUSE-OpenStack-Cloud-Crowbar-9-2023-1821,SUSE-SLE-SAP-12-SP4-2023-1821,SUSE-SLE-SDK-12-SP5-2023-1821,SUSE-SLE-SERVER-12-SP2-BCL-2023-1821,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-1821,SUSE-SLE-SERVER-12-SP4-LTSS-2023-1821,SUSE-SLE-SERVER-12-SP5-2023-1821,SUSE-SLE-WE-12-SP5-2023-1821",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -51,6 +51,11 @@
       {
         "ProductReference": "libharfbuzz0-1.4.5-8.3.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libharfbuzz0-1.4.5-8.3.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -245,6 +250,10 @@
         {
           "URL": "https://bugzilla.suse.com/1207922",
           "Description": "SUSE Bug 1207922"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213939",
+          "Description": "SUSE Bug 1213939"
         }
       ],
       "ProductStatuses": [
@@ -254,6 +263,7 @@
             "Image SLES12-SP5-Azure-SAP-BYOS:libharfbuzz0-1.4.5-8.3.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libharfbuzz0-1.4.5-8.3.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libharfbuzz0-1.4.5-8.3.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libharfbuzz0-1.4.5-8.3.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:libharfbuzz0-1.4.5-8.3.1",
             "Image SLES12-SP5-GCE-SAP-On-Demand:libharfbuzz0-1.4.5-8.3.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libharfbuzz0-1.4.5-8.3.1",

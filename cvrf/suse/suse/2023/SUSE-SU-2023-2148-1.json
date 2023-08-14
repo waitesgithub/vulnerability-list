@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-2148,Image SLES15-SP3-CHOST-BYOS-Aliyun-2023-2148,Image SLES15-SP3-CHOST-BYOS-Azure-2023-2148,Image SLES15-SP3-CHOST-BYOS-EC2-2023-2148,Image SLES15-SP3-CHOST-BYOS-GCE-2023-2148,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2023-2148,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-2148,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-2148,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-2148,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-2148,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-2148,SUSE-2023-2148,SUSE-SLE-Module-Live-Patching-15-SP3-2023-2148,SUSE-SLE-Product-HA-15-SP3-2023-2148,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-2148,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-2148,SUSE-SLE-Product-RT-15-SP3-2023-2148,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-2148,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-2148,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2148,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2148,SUSE-SUSE-MicroOS-5.1-2023-2148,SUSE-SUSE-MicroOS-5.2-2023-2148,SUSE-Storage-7.1-2023-2148,openSUSE-SLE-15.4-2023-2148",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-2148,Image SLES15-SP3-CHOST-BYOS-Aliyun-2023-2148,Image SLES15-SP3-CHOST-BYOS-Azure-2023-2148,Image SLES15-SP3-CHOST-BYOS-EC2-2023-2148,Image SLES15-SP3-CHOST-BYOS-GCE-2023-2148,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2023-2148,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-2148,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-2148,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-2148,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2148,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-2148,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2148,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2148,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-2148,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2148,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-2148,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-2148,SUSE-2023-2148,SUSE-SLE-Module-Live-Patching-15-SP3-2023-2148,SUSE-SLE-Product-HA-15-SP3-2023-2148,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-2148,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-2148,SUSE-SLE-Product-RT-15-SP3-2023-2148,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-2148,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-2148,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2148,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2148,SUSE-SUSE-MicroOS-5.1-2023-2148,SUSE-SUSE-MicroOS-5.2-2023-2148,SUSE-Storage-7.1-2023-2148,openSUSE-SLE-15.4-2023-2148",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -81,6 +81,36 @@
       {
         "ProductReference": "kernel-default-5.3.18-150300.59.121.2",
         "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.121.2",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.121.2",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.121.2",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.121.2",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.121.2",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.121.2",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -864,6 +894,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -1017,6 +1053,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -1190,6 +1232,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -1343,6 +1391,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -1496,6 +1550,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -1649,6 +1709,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -1802,6 +1868,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -1959,6 +2031,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -2101,6 +2179,14 @@
         {
           "URL": "https://bugzilla.suse.com/1210500",
           "Description": "SUSE Bug 1210500"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -2116,6 +2202,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -2273,6 +2365,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -2426,6 +2524,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -2579,6 +2683,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -2732,6 +2842,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -2874,6 +2990,14 @@
         {
           "URL": "https://bugzilla.suse.com/1210662",
           "Description": "SUSE Bug 1210662"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -2889,6 +3013,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -3031,6 +3161,10 @@
         {
           "URL": "https://bugzilla.suse.com/1210630",
           "Description": "SUSE Bug 1210630"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -3046,6 +3180,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",
@@ -3199,6 +3339,12 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.121.2",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.121.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.121.2",

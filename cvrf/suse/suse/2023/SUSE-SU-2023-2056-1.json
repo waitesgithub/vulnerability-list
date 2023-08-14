@@ -427,6 +427,10 @@
         {
           "URL": "https://bugzilla.suse.com/1210731",
           "Description": "SUSE Bug 1210731"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213802",
+          "Description": "SUSE Bug 1213802"
         }
       ],
       "ProductStatuses": [
@@ -1219,7 +1223,7 @@
     },
     {
       "CVE": "CVE-2023-27932",
-      "Description": "This issue was addressed with improved state management. This issue is fixed in macOS Ventura 13.3, tvOS 16.4, watchOS 9.4, Safari 16.4, iOS 16.4 and iPadOS 16.4. Processing maliciously crafted web content may bypass Same Origin Policy",
+      "Description": "This issue was addressed with improved state management. This issue is fixed in macOS Ventura 13.3, Safari 16.4, iOS 16.4 and iPadOS 16.4, tvOS 16.4, watchOS 9.4. Processing maliciously crafted web content may bypass Same Origin Policy.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1306,7 +1310,7 @@
     },
     {
       "CVE": "CVE-2023-27954",
-      "Description": "The issue was addressed by removing origin information. This issue is fixed in macOS Ventura 13.3, iOS 15.7.4 and iPadOS 15.7.4, tvOS 16.4, watchOS 9.4, Safari 16.4, iOS 16.4 and iPadOS 16.4. A website may be able to track sensitive user information",
+      "Description": "The issue was addressed by removing origin information. This issue is fixed in macOS Ventura 13.3, Safari 16.4, iOS 16.4 and iPadOS 16.4, iOS 15.7.4 and iPadOS 15.7.4, tvOS 16.4, watchOS 9.4. A website may be able to track sensitive user information.",
       "Threats": [
         {
           "Type": "Impact",
@@ -1393,7 +1397,7 @@
     },
     {
       "CVE": "CVE-2023-28205",
-      "Description": "A use after free issue was addressed with improved memory management. This issue is fixed in macOS Ventura 13.3.1, iOS 16.4.1 and iPadOS 16.4.1, iOS 15.7.5 and iPadOS 15.7.5, Safari 16.4.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+      "Description": "A use after free issue was addressed with improved memory management. This issue is fixed in Safari 16.4.1, iOS 15.7.5 and iPadOS 15.7.5, iOS 16.4.1 and iPadOS 16.4.1, macOS Ventura 13.3.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
       "Threats": [
         {
           "Type": "Impact",

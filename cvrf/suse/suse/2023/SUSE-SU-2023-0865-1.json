@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp5:latest-2023-865,Image SLES12-SP5-Azure-BYOS-2023-865,Image SLES12-SP5-Azure-Basic-On-Demand-2023-865,Image SLES12-SP5-Azure-HPC-BYOS-2023-865,Image SLES12-SP5-Azure-HPC-On-Demand-2023-865,Image SLES12-SP5-Azure-SAP-BYOS-2023-865,Image SLES12-SP5-Azure-SAP-On-Demand-2023-865,Image SLES12-SP5-Azure-Standard-On-Demand-2023-865,Image SLES12-SP5-EC2-BYOS-2023-865,Image SLES12-SP5-EC2-ECS-On-Demand-2023-865,Image SLES12-SP5-EC2-On-Demand-2023-865,Image SLES12-SP5-EC2-SAP-BYOS-2023-865,Image SLES12-SP5-GCE-BYOS-2023-865,Image SLES12-SP5-GCE-On-Demand-2023-865,Image SLES12-SP5-GCE-SAP-BYOS-2023-865,Image SLES12-SP5-GCE-SAP-On-Demand-2023-865,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-865,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-865,SUSE-2023-865,SUSE-SLE-SDK-12-SP5-2023-865,SUSE-SLE-SERVER-12-SP5-2023-865",
+      "Text": "Container suse/sles12sp5:latest-2023-865,Image SLES12-SP5-Azure-BYOS-2023-865,Image SLES12-SP5-Azure-Basic-On-Demand-2023-865,Image SLES12-SP5-Azure-HPC-BYOS-2023-865,Image SLES12-SP5-Azure-HPC-On-Demand-2023-865,Image SLES12-SP5-Azure-SAP-BYOS-2023-865,Image SLES12-SP5-Azure-SAP-On-Demand-2023-865,Image SLES12-SP5-Azure-Standard-On-Demand-2023-865,Image SLES12-SP5-EC2-BYOS-2023-865,Image SLES12-SP5-EC2-ECS-On-Demand-2023-865,Image SLES12-SP5-EC2-On-Demand-2023-865,Image SLES12-SP5-EC2-SAP-BYOS-2023-865,Image SLES12-SP5-EC2-SAP-On-Demand-2023-865,Image SLES12-SP5-GCE-BYOS-2023-865,Image SLES12-SP5-GCE-On-Demand-2023-865,Image SLES12-SP5-GCE-SAP-BYOS-2023-865,Image SLES12-SP5-GCE-SAP-On-Demand-2023-865,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-865,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-865,SUSE-2023-865,SUSE-SLE-SDK-12-SP5-2023-865,SUSE-SLE-SERVER-12-SP5-2023-865",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -146,6 +146,16 @@
       {
         "ProductReference": "libcurl4-7.60.0-11.60.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.60.0-11.60.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.60.0-11.60.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -345,6 +355,8 @@
             "Image SLES12-SP5-EC2-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libcurl4-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:curl-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-On-Demand:curl-7.60.0-11.60.1",
@@ -414,6 +426,8 @@
             "Image SLES12-SP5-EC2-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libcurl4-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:curl-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-On-Demand:curl-7.60.0-11.60.1",
@@ -483,6 +497,8 @@
             "Image SLES12-SP5-EC2-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libcurl4-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:curl-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-On-Demand:curl-7.60.0-11.60.1",
@@ -552,6 +568,8 @@
             "Image SLES12-SP5-EC2-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libcurl4-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:curl-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-On-Demand:curl-7.60.0-11.60.1",
@@ -621,6 +639,8 @@
             "Image SLES12-SP5-EC2-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libcurl4-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:curl-7.60.0-11.60.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:curl-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-BYOS:libcurl4-7.60.0-11.60.1",
             "Image SLES12-SP5-GCE-On-Demand:curl-7.60.0-11.60.1",

@@ -31,13 +31,113 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2836,SUSE-SLE-Module-Basesystem-15-SP5-2023-2836,SUSE-SLE-Module-Server-Applications-15-SP5-2023-2836,openSUSE-SLE-15.5-2023-2836",
+      "Text": "Image SLES15-SP5-BYOS-EC2-2023-2836,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-2836,Image SLES15-SP5-CHOST-BYOS-Azure-2023-2836,Image SLES15-SP5-CHOST-BYOS-EC2-2023-2836,Image SLES15-SP5-CHOST-BYOS-GCE-2023-2836,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-2836,Image SLES15-SP5-EC2-2023-2836,Image SLES15-SP5-HPC-BYOS-EC2-2023-2836,Image SLES15-SP5-SAP-BYOS-EC2-2023-2836,Image SLES15-SP5-SAPCAL-EC2-2023-2836,SUSE-2023-2836,SUSE-SLE-Module-Basesystem-15-SP5-2023-2836,SUSE-SLE-Module-Server-Applications-15-SP5-2023-2836,openSUSE-SLE-15.5-2023-2836",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.42-150500.8.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "bind-utils-9.16.42-150500.8.3.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP5",
@@ -138,6 +238,26 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-BYOS-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-BYOS-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-SAPCAL-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-SAPCAL-EC2:python3-bind-9.16.42-150500.8.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:bind-utils-9.16.42-150500.8.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:python3-bind-9.16.42-150500.8.3.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP5:bind-9.16.42-150500.8.3.1",
@@ -178,6 +298,26 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-BYOS-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-BYOS-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:python3-bind-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-SAPCAL-EC2:bind-utils-9.16.42-150500.8.3.1",
+            "Image SLES15-SP5-SAPCAL-EC2:python3-bind-9.16.42-150500.8.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:bind-utils-9.16.42-150500.8.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:python3-bind-9.16.42-150500.8.3.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP5:bind-9.16.42-150500.8.3.1",

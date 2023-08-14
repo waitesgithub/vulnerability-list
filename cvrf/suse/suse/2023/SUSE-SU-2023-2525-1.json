@@ -44,6 +44,16 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "go1.19-doc-1.19.10-150000.1.34.1",
+        "RelatesToProductReference": "Container bci/golang:1.19",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.19-race-1.19.10-150000.1.34.1",
+        "RelatesToProductReference": "Container bci/golang:1.19",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "go1.19-1.19.10-150000.1.34.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
         "RelationType": "Default Component Of"
@@ -195,6 +205,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.10-150000.1.34.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.10-150000.1.34.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-doc-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-race-1.19.10-150000.1.34.1",
@@ -239,6 +251,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.10-150000.1.34.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.10-150000.1.34.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-doc-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-race-1.19.10-150000.1.34.1",
@@ -283,6 +297,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.10-150000.1.34.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.10-150000.1.34.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-doc-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-race-1.19.10-150000.1.34.1",
@@ -327,6 +343,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.10-150000.1.34.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.10-150000.1.34.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-doc-1.19.10-150000.1.34.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.19-race-1.19.10-150000.1.34.1",

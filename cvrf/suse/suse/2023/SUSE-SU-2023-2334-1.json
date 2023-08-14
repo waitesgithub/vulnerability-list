@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP4-SAP-2023-2334,Image SLES15-SP4-SAP-Azure-2023-2334,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2334,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2334,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2334,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2334,Image SLES15-SP4-SAP-BYOS-2023-2334,Image SLES15-SP4-SAP-BYOS-GCE-2023-2334,Image SLES15-SP4-SAP-GCE-2023-2334,Image SLES15-SP4-SAP-Hardened-2023-2334,Image SLES15-SP4-SAP-Hardened-Azure-2023-2334,Image SLES15-SP4-SAP-Hardened-GCE-2023-2334,Image SLES15-SP4-SAPCAL-2023-2334,Image SLES15-SP4-SAPCAL-Azure-2023-2334,Image SLES15-SP4-SAPCAL-GCE-2023-2334,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-2334,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-2334,Image SLES15-SP5-Hardened-BYOS-Azure-2023-2334,Image SLES15-SP5-Hardened-BYOS-EC2-2023-2334,Image SLES15-SP5-Hardened-BYOS-GCE-2023-2334,Image SLES15-SP5-SAP-Azure-2023-2334,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-2334,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-2334,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-2334,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-2334,Image SLES15-SP5-SAP-BYOS-EC2-2023-2334,Image SLES15-SP5-SAP-EC2-2023-2334,Image SLES15-SP5-SAP-GCE-2023-2334,Image SLES15-SP5-SAP-Hardened-Azure-2023-2334,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2334,Image SLES15-SP5-SAP-Hardened-GCE-2023-2334,Image SLES15-SP5-SAPCAL-Azure-2023-2334,Image SLES15-SP5-SAPCAL-EC2-2023-2334,Image SLES15-SP5-SAPCAL-GCE-2023-2334,SUSE-2023-2334,SUSE-SLE-Micro-5.3-2023-2334,SUSE-SLE-Micro-5.4-2023-2334,SUSE-SLE-Module-Basesystem-15-SP4-2023-2334,SUSE-SLE-Module-Basesystem-15-SP5-2023-2334,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-2334,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-2334,SUSE-SLE-Product-RT-15-SP3-2023-2334,SUSE-SUSE-MicroOS-5.2-2023-2334,openSUSE-Leap-Micro-5.3-2023-2334,openSUSE-SLE-15.4-2023-2334,openSUSE-SLE-15.5-2023-2334",
+      "Text": "Container suse/nginx:latest-2023-2334,Image SLES15-SP4-SAP-2023-2334,Image SLES15-SP4-SAP-Azure-2023-2334,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2334,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2334,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2334,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2334,Image SLES15-SP4-SAP-BYOS-2023-2334,Image SLES15-SP4-SAP-BYOS-GCE-2023-2334,Image SLES15-SP4-SAP-GCE-2023-2334,Image SLES15-SP4-SAP-Hardened-2023-2334,Image SLES15-SP4-SAP-Hardened-Azure-2023-2334,Image SLES15-SP4-SAP-Hardened-GCE-2023-2334,Image SLES15-SP4-SAPCAL-2023-2334,Image SLES15-SP4-SAPCAL-Azure-2023-2334,Image SLES15-SP4-SAPCAL-GCE-2023-2334,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-2334,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-2334,Image SLES15-SP5-GCE-2023-2334,Image SLES15-SP5-Hardened-BYOS-EC2-2023-2334,Image SLES15-SP5-SAP-Azure-2023-2334,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-2334,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-2334,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-2334,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-2334,Image SLES15-SP5-SAP-BYOS-EC2-2023-2334,Image SLES15-SP5-SAP-EC2-2023-2334,Image SLES15-SP5-SAP-GCE-2023-2334,Image SLES15-SP5-SAP-Hardened-Azure-2023-2334,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2334,Image SLES15-SP5-SAP-Hardened-GCE-2023-2334,Image SLES15-SP5-SAPCAL-EC2-2023-2334,SUSE-2023-2334,SUSE-SLE-Micro-5.3-2023-2334,SUSE-SLE-Micro-5.4-2023-2334,SUSE-SLE-Module-Basesystem-15-SP4-2023-2334,SUSE-SLE-Module-Basesystem-15-SP5-2023-2334,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-2334,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-2334,SUSE-SLE-Product-RT-15-SP3-2023-2334,SUSE-SUSE-MicroOS-5.2-2023-2334,openSUSE-Leap-Micro-5.3-2023-2334,openSUSE-SLE-15.4-2023-2334,openSUSE-SLE-15.5-2023-2334",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libtiff5-4.0.9-150000.45.28.1",
+        "RelatesToProductReference": "Container suse/nginx:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libtiff5-4.0.9-150000.45.28.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP",
@@ -125,17 +130,12 @@
       },
       {
         "ProductReference": "libtiff5-4.0.9-150000.45.28.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libtiff5-4.0.9-150000.45.28.1",
         "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libtiff5-4.0.9-150000.45.28.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -195,17 +195,7 @@
       },
       {
         "ProductReference": "libtiff5-4.0.9-150000.45.28.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libtiff5-4.0.9-150000.45.28.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libtiff5-4.0.9-150000.45.28.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -453,6 +443,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -470,9 +461,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -484,9 +474,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -540,6 +528,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -557,9 +546,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -571,9 +559,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -627,6 +613,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -644,9 +631,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -658,9 +644,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -714,6 +698,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -731,9 +716,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -745,9 +729,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -801,6 +783,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -818,9 +801,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -832,9 +814,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -888,6 +868,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -905,9 +886,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -919,9 +899,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -975,6 +953,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -992,9 +971,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -1006,9 +984,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -1062,6 +1038,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -1079,9 +1056,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -1093,9 +1069,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -1149,6 +1123,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -1166,9 +1141,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -1180,9 +1154,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",
@@ -1236,6 +1208,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -1253,9 +1226,8 @@
             "Image SLES15-SP4-SAPCAL:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libtiff5-4.0.9-150000.45.28.1",
+            "Image SLES15-SP5-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libtiff5-4.0.9-150000.45.28.1",
@@ -1267,9 +1239,7 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libtiff5-4.0.9-150000.45.28.1",
             "Image SLES15-SP5-SAPCAL-EC2:libtiff5-4.0.9-150000.45.28.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.2:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.3:libtiff5-4.0.9-150000.45.28.1",
             "SUSE Linux Enterprise Micro 5.4:libtiff5-4.0.9-150000.45.28.1",

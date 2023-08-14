@@ -44,6 +44,16 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "go1.19-doc-1.19.7-150000.1.23.1",
+        "RelatesToProductReference": "Container bci/golang:1.19",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.19-race-1.19.7-150000.1.23.1",
+        "RelatesToProductReference": "Container bci/golang:1.19",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "go1.19-1.19.7-150000.1.23.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
         "RelationType": "Default Component Of"
@@ -248,6 +258,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-doc-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-race-1.19.7-150000.1.23.1",
@@ -301,6 +313,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-doc-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-race-1.19.7-150000.1.23.1",
@@ -354,6 +368,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-doc-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-race-1.19.7-150000.1.23.1",
@@ -407,6 +423,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-doc-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-race-1.19.7-150000.1.23.1",
@@ -460,6 +478,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:1.19:go1.19-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-doc-1.19.7-150000.1.23.1",
+            "Container bci/golang:1.19:go1.19-race-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-doc-1.19.7-150000.1.23.1",
             "SUSE Enterprise Storage 7.1:go1.19-race-1.19.7-150000.1.23.1",

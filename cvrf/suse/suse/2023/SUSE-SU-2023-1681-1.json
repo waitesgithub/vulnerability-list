@@ -463,7 +463,7 @@
     },
     {
       "CVE": "CVE-2023-23518",
-      "Description": "The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13.2, macOS Monterey 12.6.3, tvOS 16.3, Safari 16.3, watchOS 9.3, iOS 16.3 and iPadOS 16.3, macOS Big Sur 11.7.3. Processing maliciously crafted web content may lead to arbitrary code execution.",
+      "Description": "The issue was addressed with improved memory handling. This issue is fixed in macOS Monterey 12.6.3, macOS Ventura 13.2, watchOS 9.3, macOS Big Sur 11.7.3, Safari 16.3, tvOS 16.3, iOS 16.3 and iPadOS 16.3. Processing maliciously crafted web content may lead to arbitrary code execution.",
       "Threats": [
         {
           "Type": "Impact",
@@ -550,7 +550,7 @@
     },
     {
       "CVE": "CVE-2023-23529",
-      "Description": "A type confusion issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.2.1, iOS 16.3.1 and iPadOS 16.3.1, Safari 16.3. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited..",
+      "Description": "A type confusion issue was addressed with improved checks. This issue is fixed in iOS 15.7.4 and iPadOS 15.7.4, iOS 16.3.1 and iPadOS 16.3.1, macOS Ventura 13.2.1, Safari 16.3. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
       "Threats": [
         {
           "Type": "Impact",

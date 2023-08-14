@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp4:latest-2023-2112,Container suse/sles12sp5:latest-2023-2112,Image SLES12-SP5-Azure-BYOS-2023-2112,Image SLES12-SP5-Azure-SAP-BYOS-2023-2112,Image SLES12-SP5-EC2-BYOS-2023-2112,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2112,Image SLES12-SP5-EC2-On-Demand-2023-2112,Image SLES12-SP5-EC2-SAP-BYOS-2023-2112,Image SLES12-SP5-GCE-On-Demand-2023-2112,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2112,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2112,SUSE-2023-2112,SUSE-SLE-SDK-12-SP5-2023-2112,SUSE-SLE-SERVER-12-SP5-2023-2112",
+      "Text": "Container suse/sles12sp4:latest-2023-2112,Container suse/sles12sp5:latest-2023-2112,Image SLES12-SP5-Azure-BYOS-2023-2112,Image SLES12-SP5-Azure-Basic-On-Demand-2023-2112,Image SLES12-SP5-Azure-HPC-BYOS-2023-2112,Image SLES12-SP5-Azure-HPC-On-Demand-2023-2112,Image SLES12-SP5-Azure-SAP-BYOS-2023-2112,Image SLES12-SP5-Azure-SAP-On-Demand-2023-2112,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2112,Image SLES12-SP5-EC2-BYOS-2023-2112,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2112,Image SLES12-SP5-EC2-On-Demand-2023-2112,Image SLES12-SP5-EC2-SAP-BYOS-2023-2112,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2112,Image SLES12-SP5-GCE-BYOS-2023-2112,Image SLES12-SP5-GCE-On-Demand-2023-2112,Image SLES12-SP5-GCE-SAP-BYOS-2023-2112,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2112,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2112,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2112,SUSE-2023-2112,SUSE-SLE-SDK-12-SP5-2023-2112,SUSE-SLE-SERVER-12-SP5-2023-2112",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -100,6 +100,81 @@
       },
       {
         "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -121,6 +196,56 @@
       {
         "ProductReference": "terminfo-base-5.9-81.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -220,6 +345,56 @@
       },
       {
         "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
         "RelationType": "Default Component Of"
       },
@@ -241,6 +416,56 @@
       {
         "ProductReference": "terminfo-base-5.9-81.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-5.9-81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -458,11 +683,36 @@
             "Image SLES12-SP5-Azure-BYOS:ncurses-utils-5.9-81.1",
             "Image SLES12-SP5-Azure-BYOS:terminfo-5.9-81.1",
             "Image SLES12-SP5-Azure-BYOS:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:terminfo-5.9-81.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:terminfo-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:terminfo-5.9-81.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:terminfo-base-5.9-81.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libncurses5-5.9-81.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libncurses6-5.9-81.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:ncurses-utils-5.9-81.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:terminfo-5.9-81.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:terminfo-5.9-81.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:terminfo-5.9-81.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:terminfo-base-5.9-81.1",
             "Image SLES12-SP5-EC2-BYOS:libncurses5-5.9-81.1",
             "Image SLES12-SP5-EC2-BYOS:libncurses6-5.9-81.1",
             "Image SLES12-SP5-EC2-BYOS:ncurses-utils-5.9-81.1",
@@ -482,11 +732,31 @@
             "Image SLES12-SP5-EC2-SAP-BYOS:ncurses-utils-5.9-81.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:terminfo-5.9-81.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:terminfo-5.9-81.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-GCE-BYOS:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-GCE-BYOS:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-GCE-BYOS:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-GCE-BYOS:terminfo-5.9-81.1",
+            "Image SLES12-SP5-GCE-BYOS:terminfo-base-5.9-81.1",
             "Image SLES12-SP5-GCE-On-Demand:libncurses5-5.9-81.1",
             "Image SLES12-SP5-GCE-On-Demand:libncurses6-5.9-81.1",
             "Image SLES12-SP5-GCE-On-Demand:ncurses-utils-5.9-81.1",
             "Image SLES12-SP5-GCE-On-Demand:terminfo-5.9-81.1",
             "Image SLES12-SP5-GCE-On-Demand:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:terminfo-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:terminfo-base-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libncurses5-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libncurses6-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:ncurses-utils-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:terminfo-5.9-81.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:terminfo-base-5.9-81.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libncurses5-5.9-81.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libncurses6-5.9-81.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:ncurses-utils-5.9-81.1",

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-EC2-BYOS-2023-845,Image SLES12-SP5-EC2-ECS-On-Demand-2023-845,Image SLES12-SP5-EC2-On-Demand-2023-845,Image SLES12-SP5-EC2-SAP-BYOS-2023-845,SUSE-2023-845,SUSE-SLE-SDK-12-SP5-2023-845,SUSE-SLE-SERVER-12-SP5-2023-845",
+      "Text": "Image SLES12-SP5-EC2-BYOS-2023-845,Image SLES12-SP5-EC2-ECS-On-Demand-2023-845,Image SLES12-SP5-EC2-On-Demand-2023-845,Image SLES12-SP5-EC2-SAP-BYOS-2023-845,Image SLES12-SP5-EC2-SAP-On-Demand-2023-845,SUSE-2023-845,SUSE-SLE-SDK-12-SP5-2023-845,SUSE-SLE-SERVER-12-SP5-2023-845",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -76,6 +76,16 @@
       {
         "ProductReference": "xen-tools-domU-4.12.4_34-3.88.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.12.4_34-3.88.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.12.4_34-3.88.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -223,6 +233,8 @@
             "Image SLES12-SP5-EC2-On-Demand:xen-tools-domU-4.12.4_34-3.88.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:xen-libs-4.12.4_34-3.88.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:xen-tools-domU-4.12.4_34-3.88.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xen-libs-4.12.4_34-3.88.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xen-tools-domU-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-doc-html-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-libs-32bit-4.12.4_34-3.88.1",
@@ -272,6 +284,8 @@
             "Image SLES12-SP5-EC2-On-Demand:xen-tools-domU-4.12.4_34-3.88.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:xen-libs-4.12.4_34-3.88.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:xen-tools-domU-4.12.4_34-3.88.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xen-libs-4.12.4_34-3.88.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xen-tools-domU-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-doc-html-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-libs-32bit-4.12.4_34-3.88.1",
@@ -321,6 +335,8 @@
             "Image SLES12-SP5-EC2-On-Demand:xen-tools-domU-4.12.4_34-3.88.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:xen-libs-4.12.4_34-3.88.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:xen-tools-domU-4.12.4_34-3.88.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xen-libs-4.12.4_34-3.88.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xen-tools-domU-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-doc-html-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-libs-32bit-4.12.4_34-3.88.1",
@@ -370,6 +386,8 @@
             "Image SLES12-SP5-EC2-On-Demand:xen-tools-domU-4.12.4_34-3.88.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:xen-libs-4.12.4_34-3.88.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:xen-tools-domU-4.12.4_34-3.88.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xen-libs-4.12.4_34-3.88.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xen-tools-domU-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-doc-html-4.12.4_34-3.88.1",
             "SUSE Linux Enterprise Server 12 SP5:xen-libs-32bit-4.12.4_34-3.88.1",

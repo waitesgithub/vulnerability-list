@@ -31,23 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.3:latest-2022-4586,Container suse/sle-micro-rancher/5.4:latest-2022-4586,Image SLES15-SP4-SAP-Azure-LI-BYOS-2022-4586,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2022-4586,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2022-4586,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2022-4586,SUSE-2022-4586,SUSE-SLE-Module-Basesystem-15-SP4-2022-4586,openSUSE-SLE-15.4-2022-4586",
+      "Text": "Image SLES15-SP4-SAP-Azure-LI-BYOS-2022-4586,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2022-4586,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2022-4586,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2022-4586,SUSE-2022-4586,SUSE-SLE-Module-Basesystem-15-SP4-2022-4586,openSUSE-SLE-15.4-2022-4586",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.14.1",
-        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.14.1",
-        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "libopenssl3-3.0.1-150400.4.14.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
@@ -161,8 +151,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.14.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.14.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.14.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.14.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.14.1",
@@ -204,8 +192,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.14.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.14.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.14.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.14.1",
             "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.14.1",

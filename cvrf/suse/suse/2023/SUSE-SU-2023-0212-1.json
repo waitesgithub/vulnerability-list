@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/rmt-nginx:latest-2023-212,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-212,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-212,SUSE-2023-212,SUSE-SLE-Module-Server-Applications-15-SP4-2023-212,openSUSE-SLE-15.4-2023-212",
+      "Text": "Container suse/nginx:latest-2023-212,Container suse/rmt-nginx:latest-2023-212,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-212,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-212,SUSE-2023-212,SUSE-SLE-Module-Server-Applications-15-SP4-2023-212,openSUSE-SLE-15.4-2023-212",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "nginx-1.21.5-150400.3.3.1",
+        "RelatesToProductReference": "Container suse/nginx:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "nginx-1.21.5-150400.3.3.1",
         "RelatesToProductReference": "Container suse/rmt-nginx:latest",
@@ -129,6 +134,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:nginx-1.21.5-150400.3.3.1",
             "Container suse/rmt-nginx:latest:nginx-1.21.5-150400.3.3.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:nginx-1.21.5-150400.3.3.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:nginx-1.21.5-150400.3.3.1",
@@ -164,6 +170,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:nginx-1.21.5-150400.3.3.1",
             "Container suse/rmt-nginx:latest:nginx-1.21.5-150400.3.3.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:nginx-1.21.5-150400.3.3.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:nginx-1.21.5-150400.3.3.1",

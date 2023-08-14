@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/bci-init:15.3-2021-2682,Container bci/bci-init:15.4-2021-2682,Container bci/bci-init:latest-2021-2682,Container bci/bci-minimal:15.3-2021-2682,Container bci/bci-minimal:15.4-2021-2682,Container bci/bci-minimal:latest-2021-2682,Container bci/dotnet-aspnet:3.1-2021-2682,Container bci/dotnet-aspnet:5.0-2021-2682,Container bci/dotnet-aspnet:6.0-2021-2682,Container bci/dotnet-aspnet:latest-2021-2682,Container bci/dotnet-runtime:3.1-2021-2682,Container bci/dotnet-runtime:5.0-2021-2682,Container bci/dotnet-runtime:6.0-2021-2682,Container bci/dotnet-runtime:latest-2021-2682,Container bci/dotnet-sdk:3.1-2021-2682,Container bci/dotnet-sdk:5.0-2021-2682,Container bci/dotnet-sdk:6.0-2021-2682,Container bci/dotnet-sdk:latest-2021-2682,Container bci/golang:1.16-2021-2682,Container bci/golang:1.17-2021-2682,Container bci/golang:1.18-2021-2682,Container bci/golang:1.19-2021-2682,Container bci/golang:latest-2021-2682,Container bci/node:12-2021-2682,Container bci/node:14-2021-2682,Container bci/node:16-2021-2682,Container bci/node:18-2021-2682,Container bci/nodejs:latest-2021-2682,Container bci/openjdk-devel:11-2021-2682,Container bci/openjdk-devel:latest-2021-2682,Container bci/openjdk:11-2021-2682,Container bci/openjdk:latest-2021-2682,Container bci/php-apache:8-2021-2682,Container bci/php-fpm:8-2021-2682,Container bci/php:8-2021-2682,Container bci/python:3-2021-2682,Container bci/python:latest-2021-2682,Container bci/ruby:latest-2021-2682,Container bci/rust:1.59-2021-2682,Container bci/rust:1.60-2021-2682,Container bci/rust:1.61-2021-2682,Container bci/rust:1.62-2021-2682,Container bci/rust:1.63-2021-2682,Container bci/rust:1.64-2021-2682,Container bci/rust:1.65-2021-2682,Container bci/rust:1.66-2021-2682,Container bci/rust:1.67-2021-2682,Container bci/rust:1.68-2021-2682,Container bci/rust:1.69-2021-2682,Container bci/rust:latest-2021-2682,Container ses/7.1/ceph/grafana:latest-2021-2682,Container ses/7.1/ceph/haproxy:latest-2021-2682,Container ses/7.1/ceph/keepalived:latest-2021-2682,Container ses/7.1/ceph/prometheus-alertmanager:latest-2021-2682,Container ses/7.1/ceph/prometheus-node-exporter:latest-2021-2682,Container ses/7.1/ceph/prometheus-server:latest-2021-2682,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2021-2682,Container ses/7.1/cephcsi/cephcsi:latest-2021-2682,Container ses/7.1/cephcsi/csi-attacher:v3.5.0-2021-2682,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2021-2682,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2021-2682,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2021-2682,Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1-2021-2682,Container ses/7.1/rook/ceph:latest-2021-2682,Container suse/389-ds:latest-2021-2682,Container suse/manager/4.3/proxy-httpd:latest-2021-2682,Container suse/pcp:5-2021-2682,Container suse/pcp:latest-2021-2682,Container suse/postgres:12-2021-2682,Container suse/postgres:13-2021-2682,Container suse/postgres:14-2021-2682,Container suse/postgres:latest-2021-2682,Container suse/rmt-mariadb-client:latest-2021-2682,Container suse/rmt-mariadb:latest-2021-2682,Container suse/rmt-nginx:latest-2021-2682,Container suse/rmt-server:latest-2021-2682,Container suse/sle-micro-rancher/5.2:latest-2021-2682,Container suse/sle-micro-rancher/5.3:latest-2021-2682,Container suse/sle-micro-rancher/5.4:latest-2021-2682,Container suse/sle-micro/5.1/toolbox:latest-2021-2682,Container suse/sle-micro/5.2/toolbox:latest-2021-2682,Container suse/sle-micro/5.3/toolbox:latest-2021-2682,Container suse/sle-micro/5.4/toolbox:latest-2021-2682,Container suse/sle15:15.3-2021-2682,Container suse/sle15:15.4-2021-2682,Container suse/sle15:15.5-2021-2682,Container trento/trento-runner:latest-2021-2682,Image SLES15-SP3-BYOS-Azure-2021-2682,Image SLES15-SP3-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-BYOS-GCE-2021-2682,Image SLES15-SP3-CHOST-BYOS-Aliyun-2021-2682,Image SLES15-SP3-CHOST-BYOS-Azure-2021-2682,Image SLES15-SP3-CHOST-BYOS-EC2-2021-2682,Image SLES15-SP3-CHOST-BYOS-GCE-2021-2682,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2021-2682,Image SLES15-SP3-EC2-ECS-HVM-2021-2682,Image SLES15-SP3-EC2-HVM-2021-2682,Image SLES15-SP3-GCE-2021-2682,Image SLES15-SP3-HPC-Azure-2021-2682,Image SLES15-SP3-HPC-BYOS-Azure-2021-2682,Image SLES15-SP3-HPC-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-HPC-BYOS-GCE-2021-2682,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2021-2682,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2021-2682,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2021-2682,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2021-2682,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2021-2682,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2021-2682,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2021-2682,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2021-2682,Image SLES15-SP3-Micro-BYOS-GCE-2021-2682,Image SLES15-SP3-SAP-Azure-2021-2682,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2021-2682,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2021-2682,Image SLES15-SP3-SAP-BYOS-Azure-2021-2682,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-SAP-BYOS-GCE-2021-2682,Image SLES15-SP3-SAP-EC2-HVM-2021-2682,Image SLES15-SP3-SAP-GCE-2021-2682,Image SLES15-SP3-SAPCAL-Azure-2021-2682,Image SLES15-SP3-SAPCAL-EC2-HVM-2021-2682,Image SLES15-SP3-SAPCAL-GCE-2021-2682,Image SLES15-SP4-2021-2682,Image SLES15-SP4-Azure-Basic-2021-2682,Image SLES15-SP4-Azure-Standard-2021-2682,Image SLES15-SP4-BYOS-2021-2682,Image SLES15-SP4-BYOS-Azure-2021-2682,Image SLES15-SP4-BYOS-EC2-2021-2682,Image SLES15-SP4-BYOS-GCE-2021-2682,Image SLES15-SP4-CHOST-BYOS-2021-2682,Image SLES15-SP4-CHOST-BYOS-Aliyun-2021-2682,Image SLES15-SP4-CHOST-BYOS-Azure-2021-2682,Image SLES15-SP4-CHOST-BYOS-EC2-2021-2682,Image SLES15-SP4-CHOST-BYOS-GCE-2021-2682,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2021-2682,Image SLES15-SP4-EC2-2021-2682,Image SLES15-SP4-EC2-ECS-HVM-2021-2682,Image SLES15-SP4-GCE-2021-2682,Image SLES15-SP4-HPC-2021-2682,Image SLES15-SP4-HPC-Azure-2021-2682,Image SLES15-SP4-HPC-BYOS-2021-2682,Image SLES15-SP4-HPC-BYOS-Azure-2021-2682,Image SLES15-SP4-HPC-BYOS-EC2-2021-2682,Image SLES15-SP4-HPC-BYOS-GCE-2021-2682,Image SLES15-SP4-HPC-EC2-2021-2682,Image SLES15-SP4-HPC-GCE-2021-2682,Image SLES15-SP4-Hardened-BYOS-2021-2682,Image SLES15-SP4-Hardened-BYOS-Azure-2021-2682,Image SLES15-SP4-Hardened-BYOS-EC2-2021-2682,Image SLES15-SP4-Hardened-BYOS-GCE-2021-2682,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2021-2682,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2021-2682,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2021-2682,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2021-2682,Image SLES15-SP4-Manager-Server-4-3-BYOS-2021-2682,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2021-2682,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2021-2682,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2021-2682,Image SLES15-SP4-Micro-5-3-2021-2682,Image SLES15-SP4-Micro-5-3-Azure-2021-2682,Image SLES15-SP4-Micro-5-3-BYOS-2021-2682,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2021-2682,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2021-2682,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2021-2682,Image SLES15-SP4-Micro-5-3-EC2-2021-2682,Image SLES15-SP4-Micro-5-3-GCE-2021-2682,Image SLES15-SP4-Micro-5-4-2021-2682,Image SLES15-SP4-Micro-5-4-Azure-2021-2682,Image SLES15-SP4-Micro-5-4-BYOS-2021-2682,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2021-2682,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2021-2682,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2021-2682,Image SLES15-SP4-Micro-5-4-EC2-2021-2682,Image SLES15-SP4-Micro-5-4-GCE-2021-2682,Image SLES15-SP4-SAP-2021-2682,Image SLES15-SP4-SAP-Azure-2021-2682,Image SLES15-SP4-SAP-Azure-LI-BYOS-2021-2682,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2021-2682,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2021-2682,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2021-2682,Image SLES15-SP4-SAP-BYOS-2021-2682,Image SLES15-SP4-SAP-BYOS-Azure-2021-2682,Image SLES15-SP4-SAP-BYOS-EC2-2021-2682,Image SLES15-SP4-SAP-BYOS-GCE-2021-2682,Image SLES15-SP4-SAP-EC2-2021-2682,Image SLES15-SP4-SAP-GCE-2021-2682,Image SLES15-SP4-SAP-Hardened-2021-2682,Image SLES15-SP4-SAP-Hardened-Azure-2021-2682,Image SLES15-SP4-SAP-Hardened-BYOS-2021-2682,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2021-2682,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2021-2682,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2021-2682,Image SLES15-SP4-SAP-Hardened-EC2-2021-2682,Image SLES15-SP4-SAP-Hardened-GCE-2021-2682,Image SLES15-SP4-SAPCAL-2021-2682,Image SLES15-SP4-SAPCAL-Azure-2021-2682,Image SLES15-SP4-SAPCAL-EC2-2021-2682,Image SLES15-SP4-SAPCAL-GCE-2021-2682,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2021-2682,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2021-2682,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-HVM-2021-2682,Image SLES15-SP5-Azure-Basic-2021-2682,Image SLES15-SP5-Azure-Standard-2021-2682,Image SLES15-SP5-BYOS-Azure-2021-2682,Image SLES15-SP5-BYOS-EC2-2021-2682,Image SLES15-SP5-BYOS-GCE-2021-2682,Image SLES15-SP5-CHOST-BYOS-Aliyun-2021-2682,Image SLES15-SP5-CHOST-BYOS-Azure-2021-2682,Image SLES15-SP5-CHOST-BYOS-EC2-2021-2682,Image SLES15-SP5-CHOST-BYOS-GCE-2021-2682,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2021-2682,Image SLES15-SP5-EC2-2021-2682,Image SLES15-SP5-EC2-ECS-HVM-2021-2682,Image SLES15-SP5-GCE-2021-2682,Image SLES15-SP5-HPC-Azure-2021-2682,Image SLES15-SP5-HPC-BYOS-Azure-2021-2682,Image SLES15-SP5-HPC-BYOS-EC2-2021-2682,Image SLES15-SP5-HPC-BYOS-GCE-2021-2682,Image SLES15-SP5-Hardened-BYOS-Azure-2021-2682,Image SLES15-SP5-Hardened-BYOS-EC2-2021-2682,Image SLES15-SP5-Hardened-BYOS-GCE-2021-2682,Image SLES15-SP5-SAP-Azure-2021-2682,Image SLES15-SP5-SAP-Azure-LI-BYOS-2021-2682,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2021-2682,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2021-2682,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2021-2682,Image SLES15-SP5-SAP-BYOS-EC2-2021-2682,Image SLES15-SP5-SAP-EC2-2021-2682,Image SLES15-SP5-SAP-GCE-2021-2682,Image SLES15-SP5-SAP-Hardened-Azure-2021-2682,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2021-2682,Image SLES15-SP5-SAP-Hardened-GCE-2021-2682,Image SLES15-SP5-SAPCAL-Azure-2021-2682,Image SLES15-SP5-SAPCAL-EC2-2021-2682,Image SLES15-SP5-SAPCAL-GCE-2021-2682,SUSE-2021-2682,SUSE-SLE-Module-Basesystem-15-SP3-2021-2682,SUSE-SLE-Module-Development-Tools-15-SP3-2021-2682,SUSE-SLE-Module-Public-Cloud-15-SP3-2021-2682,SUSE-SLE-Module-Python2-15-SP3-2021-2682,SUSE-SLE-Module-SUSE-Manager-Proxy-4.2-2021-2682,SUSE-SLE-Module-SUSE-Manager-Server-4.2-2021-2682",
+      "Text": "Container bci/bci-init:15.3-2021-2682,Container bci/bci-init:15.4-2021-2682,Container bci/bci-init:latest-2021-2682,Container bci/bci-minimal:15.3-2021-2682,Container bci/bci-minimal:15.4-2021-2682,Container bci/bci-minimal:latest-2021-2682,Container bci/dotnet-aspnet:3.1-2021-2682,Container bci/dotnet-aspnet:5.0-2021-2682,Container bci/dotnet-aspnet:6.0-2021-2682,Container bci/dotnet-aspnet:latest-2021-2682,Container bci/dotnet-runtime:3.1-2021-2682,Container bci/dotnet-runtime:5.0-2021-2682,Container bci/dotnet-runtime:6.0-2021-2682,Container bci/dotnet-runtime:latest-2021-2682,Container bci/dotnet-sdk:3.1-2021-2682,Container bci/dotnet-sdk:5.0-2021-2682,Container bci/dotnet-sdk:6.0-2021-2682,Container bci/dotnet-sdk:latest-2021-2682,Container bci/golang:1.16-2021-2682,Container bci/golang:1.17-2021-2682,Container bci/golang:1.18-2021-2682,Container bci/golang:1.19-2021-2682,Container bci/golang:latest-2021-2682,Container bci/node:12-2021-2682,Container bci/node:14-2021-2682,Container bci/node:16-2021-2682,Container bci/nodejs:latest-2021-2682,Container bci/openjdk-devel:11-2021-2682,Container bci/openjdk-devel:latest-2021-2682,Container bci/openjdk:11-2021-2682,Container bci/openjdk:latest-2021-2682,Container bci/php-apache:8-2021-2682,Container bci/php-fpm:8-2021-2682,Container bci/php:8-2021-2682,Container bci/python:3-2021-2682,Container bci/python:latest-2021-2682,Container bci/ruby:latest-2021-2682,Container bci/rust:1.59-2021-2682,Container bci/rust:1.60-2021-2682,Container bci/rust:1.61-2021-2682,Container bci/rust:1.62-2021-2682,Container bci/rust:1.63-2021-2682,Container bci/rust:1.64-2021-2682,Container bci/rust:1.65-2021-2682,Container bci/rust:1.66-2021-2682,Container bci/rust:1.67-2021-2682,Container bci/rust:1.68-2021-2682,Container bci/rust:1.70-2021-2682,Container bci/rust:latest-2021-2682,Container ses/7.1/ceph/grafana:latest-2021-2682,Container ses/7.1/ceph/haproxy:latest-2021-2682,Container ses/7.1/ceph/keepalived:latest-2021-2682,Container ses/7.1/ceph/prometheus-alertmanager:latest-2021-2682,Container ses/7.1/ceph/prometheus-node-exporter:latest-2021-2682,Container ses/7.1/ceph/prometheus-server:latest-2021-2682,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2021-2682,Container ses/7.1/cephcsi/cephcsi:latest-2021-2682,Container ses/7.1/cephcsi/csi-attacher:v3.5.0-2021-2682,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.5.1-2021-2682,Container ses/7.1/cephcsi/csi-provisioner:v3.2.1-2021-2682,Container ses/7.1/cephcsi/csi-resizer:v1.5.0-2021-2682,Container ses/7.1/cephcsi/csi-snapshotter:v6.0.1-2021-2682,Container ses/7.1/rook/ceph:latest-2021-2682,Container suse/389-ds:latest-2021-2682,Container suse/manager/4.3/proxy-httpd:latest-2021-2682,Container suse/nginx:latest-2021-2682,Container suse/pcp:5-2021-2682,Container suse/pcp:latest-2021-2682,Container suse/postgres:12-2021-2682,Container suse/postgres:13-2021-2682,Container suse/postgres:14-2021-2682,Container suse/postgres:latest-2021-2682,Container suse/rmt-mariadb-client:latest-2021-2682,Container suse/rmt-mariadb:latest-2021-2682,Container suse/rmt-nginx:latest-2021-2682,Container suse/rmt-server:latest-2021-2682,Container suse/sle-micro-rancher/5.2:latest-2021-2682,Container suse/sle-micro-rancher/5.3:latest-2021-2682,Container suse/sle-micro-rancher/5.4:latest-2021-2682,Container suse/sle-micro/5.1/toolbox:latest-2021-2682,Container suse/sle-micro/5.2/toolbox:latest-2021-2682,Container suse/sle-micro/5.3/toolbox:latest-2021-2682,Container suse/sle-micro/5.4/toolbox:latest-2021-2682,Container suse/sle15:15.3-2021-2682,Container suse/sle15:15.4-2021-2682,Container suse/sle15:15.5-2021-2682,Container trento/trento-runner:latest-2021-2682,Image SLES15-SP3-BYOS-Azure-2021-2682,Image SLES15-SP3-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-BYOS-GCE-2021-2682,Image SLES15-SP3-CHOST-BYOS-Aliyun-2021-2682,Image SLES15-SP3-CHOST-BYOS-Azure-2021-2682,Image SLES15-SP3-CHOST-BYOS-EC2-2021-2682,Image SLES15-SP3-CHOST-BYOS-GCE-2021-2682,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2021-2682,Image SLES15-SP3-EC2-ECS-HVM-2021-2682,Image SLES15-SP3-EC2-HVM-2021-2682,Image SLES15-SP3-GCE-2021-2682,Image SLES15-SP3-HPC-Azure-2021-2682,Image SLES15-SP3-HPC-BYOS-Azure-2021-2682,Image SLES15-SP3-HPC-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-HPC-BYOS-GCE-2021-2682,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2021-2682,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2021-2682,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2021-2682,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2021-2682,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2021-2682,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2021-2682,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2021-2682,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2021-2682,Image SLES15-SP3-Micro-BYOS-GCE-2021-2682,Image SLES15-SP3-SAP-Azure-2021-2682,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2021-2682,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2021-2682,Image SLES15-SP3-SAP-BYOS-Azure-2021-2682,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2021-2682,Image SLES15-SP3-SAP-BYOS-GCE-2021-2682,Image SLES15-SP3-SAP-EC2-HVM-2021-2682,Image SLES15-SP3-SAP-GCE-2021-2682,Image SLES15-SP3-SAPCAL-Azure-2021-2682,Image SLES15-SP3-SAPCAL-EC2-HVM-2021-2682,Image SLES15-SP3-SAPCAL-GCE-2021-2682,Image SLES15-SP4-2021-2682,Image SLES15-SP4-Azure-Basic-2021-2682,Image SLES15-SP4-Azure-Standard-2021-2682,Image SLES15-SP4-BYOS-2021-2682,Image SLES15-SP4-BYOS-Azure-2021-2682,Image SLES15-SP4-BYOS-EC2-2021-2682,Image SLES15-SP4-BYOS-GCE-2021-2682,Image SLES15-SP4-CHOST-BYOS-2021-2682,Image SLES15-SP4-CHOST-BYOS-Aliyun-2021-2682,Image SLES15-SP4-CHOST-BYOS-Azure-2021-2682,Image SLES15-SP4-CHOST-BYOS-EC2-2021-2682,Image SLES15-SP4-CHOST-BYOS-GCE-2021-2682,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2021-2682,Image SLES15-SP4-EC2-2021-2682,Image SLES15-SP4-EC2-ECS-HVM-2021-2682,Image SLES15-SP4-GCE-2021-2682,Image SLES15-SP4-HPC-2021-2682,Image SLES15-SP4-HPC-Azure-2021-2682,Image SLES15-SP4-HPC-BYOS-2021-2682,Image SLES15-SP4-HPC-BYOS-Azure-2021-2682,Image SLES15-SP4-HPC-BYOS-EC2-2021-2682,Image SLES15-SP4-HPC-BYOS-GCE-2021-2682,Image SLES15-SP4-HPC-EC2-2021-2682,Image SLES15-SP4-HPC-GCE-2021-2682,Image SLES15-SP4-Hardened-BYOS-2021-2682,Image SLES15-SP4-Hardened-BYOS-Azure-2021-2682,Image SLES15-SP4-Hardened-BYOS-EC2-2021-2682,Image SLES15-SP4-Hardened-BYOS-GCE-2021-2682,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2021-2682,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2021-2682,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2021-2682,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2021-2682,Image SLES15-SP4-Manager-Server-4-3-BYOS-2021-2682,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2021-2682,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2021-2682,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2021-2682,Image SLES15-SP4-Micro-5-3-2021-2682,Image SLES15-SP4-Micro-5-3-Azure-2021-2682,Image SLES15-SP4-Micro-5-3-BYOS-2021-2682,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2021-2682,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2021-2682,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2021-2682,Image SLES15-SP4-Micro-5-3-EC2-2021-2682,Image SLES15-SP4-Micro-5-3-GCE-2021-2682,Image SLES15-SP4-Micro-5-4-2021-2682,Image SLES15-SP4-Micro-5-4-Azure-2021-2682,Image SLES15-SP4-Micro-5-4-BYOS-2021-2682,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2021-2682,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2021-2682,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2021-2682,Image SLES15-SP4-Micro-5-4-EC2-2021-2682,Image SLES15-SP4-Micro-5-4-GCE-2021-2682,Image SLES15-SP4-SAP-2021-2682,Image SLES15-SP4-SAP-Azure-2021-2682,Image SLES15-SP4-SAP-Azure-LI-BYOS-2021-2682,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2021-2682,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2021-2682,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2021-2682,Image SLES15-SP4-SAP-BYOS-2021-2682,Image SLES15-SP4-SAP-BYOS-Azure-2021-2682,Image SLES15-SP4-SAP-BYOS-EC2-2021-2682,Image SLES15-SP4-SAP-BYOS-GCE-2021-2682,Image SLES15-SP4-SAP-EC2-2021-2682,Image SLES15-SP4-SAP-GCE-2021-2682,Image SLES15-SP4-SAP-Hardened-2021-2682,Image SLES15-SP4-SAP-Hardened-Azure-2021-2682,Image SLES15-SP4-SAP-Hardened-BYOS-2021-2682,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2021-2682,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2021-2682,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2021-2682,Image SLES15-SP4-SAP-Hardened-EC2-2021-2682,Image SLES15-SP4-SAP-Hardened-GCE-2021-2682,Image SLES15-SP4-SAPCAL-2021-2682,Image SLES15-SP4-SAPCAL-Azure-2021-2682,Image SLES15-SP4-SAPCAL-EC2-2021-2682,Image SLES15-SP4-SAPCAL-GCE-2021-2682,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2021-2682,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2021-2682,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-HVM-2021-2682,Image SLES15-SP5-BYOS-EC2-2021-2682,Image SLES15-SP5-CHOST-BYOS-Aliyun-2021-2682,Image SLES15-SP5-CHOST-BYOS-Azure-2021-2682,Image SLES15-SP5-CHOST-BYOS-EC2-2021-2682,Image SLES15-SP5-CHOST-BYOS-GCE-2021-2682,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2021-2682,Image SLES15-SP5-EC2-2021-2682,Image SLES15-SP5-EC2-ECS-HVM-2021-2682,Image SLES15-SP5-GCE-2021-2682,Image SLES15-SP5-HPC-Azure-2021-2682,Image SLES15-SP5-HPC-BYOS-EC2-2021-2682,Image SLES15-SP5-Hardened-BYOS-EC2-2021-2682,Image SLES15-SP5-SAP-Azure-2021-2682,Image SLES15-SP5-SAP-Azure-LI-BYOS-2021-2682,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2021-2682,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2021-2682,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2021-2682,Image SLES15-SP5-SAP-BYOS-EC2-2021-2682,Image SLES15-SP5-SAP-EC2-2021-2682,Image SLES15-SP5-SAP-GCE-2021-2682,Image SLES15-SP5-SAP-Hardened-Azure-2021-2682,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2021-2682,Image SLES15-SP5-SAP-Hardened-GCE-2021-2682,Image SLES15-SP5-SAPCAL-EC2-2021-2682,SUSE-2021-2682,SUSE-SLE-Module-Basesystem-15-SP3-2021-2682,SUSE-SLE-Module-Development-Tools-15-SP3-2021-2682,SUSE-SLE-Module-Public-Cloud-15-SP3-2021-2682,SUSE-SLE-Module-Python2-15-SP3-2021-2682,SUSE-SLE-Module-SUSE-Manager-Proxy-4.2-2021-2682,SUSE-SLE-Module-SUSE-Manager-Server-4.2-2021-2682",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -170,11 +170,6 @@
       },
       {
         "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Container bci/node:18",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
         "RelatesToProductReference": "Container bci/nodejs:latest",
         "RelationType": "Default Component Of"
       },
@@ -280,7 +275,7 @@
       },
       {
         "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Container bci/rust:1.69",
+        "RelatesToProductReference": "Container bci/rust:1.70",
         "RelationType": "Default Component Of"
       },
       {
@@ -366,6 +361,11 @@
       {
         "ProductReference": "python3-rpm-4.14.3-37.2",
         "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "rpm-ndb-4.14.3-37.2",
+        "RelatesToProductReference": "Container suse/nginx:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -1735,52 +1735,12 @@
       },
       {
         "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "rpm-ndb-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -1829,6 +1789,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "rpm-build-4.14.3-37.2",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "rpm-ndb-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-GCE",
         "RelationType": "Default Component Of"
@@ -1845,42 +1810,12 @@
       },
       {
         "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "rpm-ndb-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
       {
@@ -1895,16 +1830,11 @@
       },
       {
         "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
+        "ProductReference": "rpm-build-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
         "RelationType": "Default Component Of"
       },
@@ -1969,6 +1899,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "rpm-build-4.14.3-37.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "rpm-ndb-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
         "RelationType": "Default Component Of"
@@ -1979,6 +1914,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "rpm-build-4.14.3-37.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "rpm-ndb-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
         "RelationType": "Default Component Of"
@@ -2015,21 +1955,6 @@
       },
       {
         "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-build-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2041,21 +1966,6 @@
       {
         "ProductReference": "rpm-ndb-4.14.3-37.2",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rpm-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-build-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "rpm-ndb-4.14.3-37.2",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -2197,7 +2107,6 @@
             "Container bci/node:12:rpm-ndb-4.14.3-37.2",
             "Container bci/node:14:rpm-ndb-4.14.3-37.2",
             "Container bci/node:16:rpm-ndb-4.14.3-37.2",
-            "Container bci/node:18:rpm-ndb-4.14.3-37.2",
             "Container bci/nodejs:latest:rpm-ndb-4.14.3-37.2",
             "Container bci/openjdk-devel:11:rpm-ndb-4.14.3-37.2",
             "Container bci/openjdk-devel:latest:rpm-ndb-4.14.3-37.2",
@@ -2219,7 +2128,7 @@
             "Container bci/rust:1.66:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:1.67:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:1.68:rpm-ndb-4.14.3-37.2",
-            "Container bci/rust:1.69:rpm-ndb-4.14.3-37.2",
+            "Container bci/rust:1.70:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:latest:rpm-ndb-4.14.3-37.2",
             "Container ses/7.1/ceph/grafana:latest:rpm-ndb-4.14.3-37.2",
             "Container ses/7.1/ceph/haproxy:latest:rpm-ndb-4.14.3-37.2",
@@ -2237,6 +2146,7 @@
             "Container ses/7.1/rook/ceph:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/389-ds:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/manager/4.3/proxy-httpd:latest:python3-rpm-4.14.3-37.2",
+            "Container suse/nginx:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/pcp:5:rpm-ndb-4.14.3-37.2",
             "Container suse/pcp:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/postgres:12:rpm-ndb-4.14.3-37.2",
@@ -2510,16 +2420,8 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP4:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP4:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Basic:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Basic:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Standard:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Standard:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-EC2:rpm-ndb-4.14.3-37.2",
@@ -2529,21 +2431,14 @@
             "Image SLES15-SP5-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-GCE:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-GCE:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-HPC-Azure:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-HPC-Azure:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-GCE:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-Hardened-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-Hardened-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:python3-rpm-4.14.3-37.2",
@@ -2553,12 +2448,15 @@
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-Azure:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-BYOS-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-EC2:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-EC2:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-GCE:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-GCE:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-Azure:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-Azure:rpm-ndb-4.14.3-37.2",
@@ -2566,15 +2464,9 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-GCE:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-GCE:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:rpm-build-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:rpm-build-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:rpm-ndb-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-rpm-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:rpm-32bit-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:rpm-4.14.3-37.2",
@@ -2638,7 +2530,6 @@
             "Container bci/node:12:rpm-ndb-4.14.3-37.2",
             "Container bci/node:14:rpm-ndb-4.14.3-37.2",
             "Container bci/node:16:rpm-ndb-4.14.3-37.2",
-            "Container bci/node:18:rpm-ndb-4.14.3-37.2",
             "Container bci/nodejs:latest:rpm-ndb-4.14.3-37.2",
             "Container bci/openjdk-devel:11:rpm-ndb-4.14.3-37.2",
             "Container bci/openjdk-devel:latest:rpm-ndb-4.14.3-37.2",
@@ -2660,7 +2551,7 @@
             "Container bci/rust:1.66:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:1.67:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:1.68:rpm-ndb-4.14.3-37.2",
-            "Container bci/rust:1.69:rpm-ndb-4.14.3-37.2",
+            "Container bci/rust:1.70:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:latest:rpm-ndb-4.14.3-37.2",
             "Container ses/7.1/ceph/grafana:latest:rpm-ndb-4.14.3-37.2",
             "Container ses/7.1/ceph/haproxy:latest:rpm-ndb-4.14.3-37.2",
@@ -2678,6 +2569,7 @@
             "Container ses/7.1/rook/ceph:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/389-ds:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/manager/4.3/proxy-httpd:latest:python3-rpm-4.14.3-37.2",
+            "Container suse/nginx:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/pcp:5:rpm-ndb-4.14.3-37.2",
             "Container suse/pcp:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/postgres:12:rpm-ndb-4.14.3-37.2",
@@ -2951,16 +2843,8 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP4:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP4:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Basic:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Basic:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Standard:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Standard:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-EC2:rpm-ndb-4.14.3-37.2",
@@ -2970,21 +2854,14 @@
             "Image SLES15-SP5-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-GCE:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-GCE:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-HPC-Azure:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-HPC-Azure:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-GCE:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-Hardened-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-Hardened-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:python3-rpm-4.14.3-37.2",
@@ -2994,12 +2871,15 @@
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-Azure:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-BYOS-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-EC2:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-EC2:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-GCE:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-GCE:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-Azure:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-Azure:rpm-ndb-4.14.3-37.2",
@@ -3007,15 +2887,9 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-GCE:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-GCE:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:rpm-build-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:rpm-build-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:rpm-ndb-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-rpm-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:rpm-32bit-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:rpm-4.14.3-37.2",
@@ -3079,7 +2953,6 @@
             "Container bci/node:12:rpm-ndb-4.14.3-37.2",
             "Container bci/node:14:rpm-ndb-4.14.3-37.2",
             "Container bci/node:16:rpm-ndb-4.14.3-37.2",
-            "Container bci/node:18:rpm-ndb-4.14.3-37.2",
             "Container bci/nodejs:latest:rpm-ndb-4.14.3-37.2",
             "Container bci/openjdk-devel:11:rpm-ndb-4.14.3-37.2",
             "Container bci/openjdk-devel:latest:rpm-ndb-4.14.3-37.2",
@@ -3101,7 +2974,7 @@
             "Container bci/rust:1.66:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:1.67:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:1.68:rpm-ndb-4.14.3-37.2",
-            "Container bci/rust:1.69:rpm-ndb-4.14.3-37.2",
+            "Container bci/rust:1.70:rpm-ndb-4.14.3-37.2",
             "Container bci/rust:latest:rpm-ndb-4.14.3-37.2",
             "Container ses/7.1/ceph/grafana:latest:rpm-ndb-4.14.3-37.2",
             "Container ses/7.1/ceph/haproxy:latest:rpm-ndb-4.14.3-37.2",
@@ -3119,6 +2992,7 @@
             "Container ses/7.1/rook/ceph:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/389-ds:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/manager/4.3/proxy-httpd:latest:python3-rpm-4.14.3-37.2",
+            "Container suse/nginx:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/pcp:5:rpm-ndb-4.14.3-37.2",
             "Container suse/pcp:latest:rpm-ndb-4.14.3-37.2",
             "Container suse/postgres:12:rpm-ndb-4.14.3-37.2",
@@ -3392,16 +3266,8 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP4:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP4:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Basic:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Basic:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Standard:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Azure-Standard:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-BYOS-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-CHOST-BYOS-EC2:rpm-ndb-4.14.3-37.2",
@@ -3411,21 +3277,14 @@
             "Image SLES15-SP5-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-GCE:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-GCE:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-HPC-Azure:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-HPC-Azure:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-HPC-BYOS-GCE:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-Hardened-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-Hardened-BYOS-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:python3-rpm-4.14.3-37.2",
@@ -3435,12 +3294,15 @@
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-Azure:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-BYOS-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-BYOS-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-EC2:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-EC2:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-GCE:python3-rpm-4.14.3-37.2",
+            "Image SLES15-SP5-SAP-GCE:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAP-GCE:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-Azure:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-Azure:rpm-ndb-4.14.3-37.2",
@@ -3448,15 +3310,9 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-GCE:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAP-Hardened-GCE:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:rpm-build-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-Azure:rpm-ndb-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:python3-rpm-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:rpm-build-4.14.3-37.2",
             "Image SLES15-SP5-SAPCAL-EC2:rpm-ndb-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:python3-rpm-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:rpm-build-4.14.3-37.2",
-            "Image SLES15-SP5-SAPCAL-GCE:rpm-ndb-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-rpm-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:rpm-32bit-4.14.3-37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:rpm-4.14.3-37.2",

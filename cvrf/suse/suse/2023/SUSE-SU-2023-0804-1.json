@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-804,Image SLES12-SP5-Azure-SAP-On-Demand-2023-804,Image SLES12-SP5-EC2-SAP-BYOS-2023-804,Image SLES12-SP5-GCE-SAP-BYOS-2023-804,Image SLES12-SP5-GCE-SAP-On-Demand-2023-804,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-804,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-804,SUSE-2023-804,SUSE-SLE-HA-12-SP5-2023-804",
+      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-804,Image SLES12-SP5-Azure-SAP-On-Demand-2023-804,Image SLES12-SP5-EC2-SAP-BYOS-2023-804,Image SLES12-SP5-EC2-SAP-On-Demand-2023-804,Image SLES12-SP5-GCE-SAP-BYOS-2023-804,Image SLES12-SP5-GCE-SAP-On-Demand-2023-804,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-804,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-804,SUSE-2023-804,SUSE-SLE-HA-12-SP5-2023-804",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -66,6 +66,16 @@
       {
         "ProductReference": "drbd-kmp-default-9.0.14+git.62f906cf_k4.12.14_122.153-11.29.2",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "drbd-9.0.14+git.62f906cf-11.29.2",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "drbd-kmp-default-9.0.14+git.62f906cf_k4.12.14_122.153-11.29.2",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/bci-init:15.4-2023-2648,Container suse/pcp:5-2023-2648,Container suse/postgres:14-2023-2648,Container suse/sle-micro-rancher/5.3:latest-2023-2648,Container suse/sle-micro-rancher/5.4:latest-2023-2648,Container suse/sle-micro/5.3/toolbox:latest-2023-2648,Container suse/sle-micro/5.4/toolbox:latest-2023-2648,Container suse/sle15:15.4-2023-2648,Image SLES15-SP4-CHOST-BYOS-2023-2648,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2648,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2648,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2648,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2648,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2648,Image SLES15-SP4-Micro-5-3-2023-2648,Image SLES15-SP4-Micro-5-3-EC2-2023-2648,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2648,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2648,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2648,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2648,SUSE-2023-2648,SUSE-SLE-Micro-5.3-2023-2648,SUSE-SLE-Micro-5.4-2023-2648,SUSE-SLE-Module-Basesystem-15-SP4-2023-2648,openSUSE-Leap-Micro-5.3-2023-2648,openSUSE-SLE-15.4-2023-2648",
+      "Text": "Container bci/bci-init:15.4-2023-2648,Container bci/python:3-2023-2648,Container rancher/elemental-builder-image/5.3:latest-2023-2648,Container rancher/elemental-operator/5.3:latest-2023-2648,Container rancher/elemental-teal-iso/5.3:latest-2023-2648,Container rancher/elemental-teal-rt/5.3:latest-2023-2648,Container rancher/elemental-teal/5.3:latest-2023-2648,Container rancher/seedimage-builder/5.3:latest-2023-2648,Container suse/manager/4.3/proxy-httpd:latest-2023-2648,Container suse/manager/4.3/proxy-salt-broker:latest-2023-2648,Container suse/manager/4.3/proxy-squid:latest-2023-2648,Container suse/manager/4.3/proxy-ssh:latest-2023-2648,Container suse/manager/4.3/proxy-tftpd:latest-2023-2648,Container suse/pcp:5-2023-2648,Container suse/postgres:14-2023-2648,Container suse/sle-micro-rancher/5.3:latest-2023-2648,Container suse/sle-micro-rancher/5.4:latest-2023-2648,Container suse/sle-micro/5.3/toolbox:latest-2023-2648,Container suse/sle-micro/5.4/toolbox:latest-2023-2648,Container suse/sle15:15.4-2023-2648,Image SLES15-SP4-CHOST-BYOS-2023-2648,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2648,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2648,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2648,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2648,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2648,Image SLES15-SP4-Micro-5-3-2023-2648,Image SLES15-SP4-Micro-5-3-BYOS-2023-2648,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2023-2648,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2023-2648,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2023-2648,Image SLES15-SP4-Micro-5-3-EC2-2023-2648,Image SLES15-SP4-Micro-5-4-2023-2648,Image SLES15-SP4-Micro-5-4-BYOS-2023-2648,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2023-2648,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2023-2648,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2023-2648,Image SLES15-SP4-Micro-5-4-EC2-2023-2648,Image SLES15-SP4-Micro-5-4-GCE-2023-2648,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2648,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2648,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2648,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2648,SUSE-2023-2648,SUSE-SLE-Micro-5.3-2023-2648,SUSE-SLE-Micro-5.4-2023-2648,SUSE-SLE-Module-Basesystem-15-SP4-2023-2648,openSUSE-Leap-Micro-5.3-2023-2648,openSUSE-SLE-15.4-2023-2648",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -50,6 +50,136 @@
       },
       {
         "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/elemental-builder-image/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/elemental-builder-image/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/elemental-operator/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/elemental-operator/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-iso/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-iso/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/seedimage-builder/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/seedimage-builder/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container rancher/seedimage-builder/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-salt-broker:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-salt-broker:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-salt-broker:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-squid:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-squid:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-ssh:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-ssh:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-tftpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-tftpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-tftpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
         "RelatesToProductReference": "Container suse/pcp:5",
         "RelationType": "Default Component Of"
       },
@@ -205,12 +335,122 @@
       },
       {
         "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
         "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-EC2",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
         "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150400.7.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -458,6 +698,14 @@
         {
           "URL": "https://bugzilla.suse.com/1210067",
           "Description": "SUSE Bug 1210067"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213146",
+          "Description": "SUSE Bug 1213146"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213289",
+          "Description": "SUSE Bug 1213289"
         }
       ],
       "ProductStatuses": [
@@ -466,6 +714,32 @@
           "ProductID": [
             "Container bci/bci-init:15.4:libopenssl1_1-1.1.1l-150400.7.42.1",
             "Container bci/bci-init:15.4:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container bci/python:3:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container bci/python:3:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container bci/python:3:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Container rancher/elemental-builder-image/5.3:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container rancher/elemental-builder-image/5.3:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container rancher/elemental-operator/5.3:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container rancher/elemental-operator/5.3:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container rancher/elemental-teal-iso/5.3:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container rancher/elemental-teal-iso/5.3:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container rancher/elemental-teal-rt/5.3:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container rancher/elemental-teal/5.3:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container rancher/seedimage-builder/5.3:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container rancher/seedimage-builder/5.3:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container rancher/seedimage-builder/5.3:latest:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-httpd:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-httpd:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-salt-broker:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-salt-broker:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-salt-broker:latest:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-squid:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-squid:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-ssh:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-ssh:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-tftpd:latest:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-tftpd:latest:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
+            "Container suse/manager/4.3/proxy-tftpd:latest:openssl-1_1-1.1.1l-150400.7.42.1",
             "Container suse/pcp:5:libopenssl1_1-1.1.1l-150400.7.42.1",
             "Container suse/pcp:5:libopenssl1_1-hmac-1.1.1l-150400.7.42.1",
             "Container suse/postgres:14:libopenssl1_1-1.1.1l-150400.7.42.1",
@@ -495,10 +769,32 @@
             "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:openssl-1_1-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-CHOST-BYOS:libopenssl1_1-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-CHOST-BYOS:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-Azure:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-Azure:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-EC2:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-EC2:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-GCE:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-GCE:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS:openssl-1_1-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-Micro-5-3-EC2:libopenssl1_1-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-Micro-5-3-EC2:openssl-1_1-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-Micro-5-3:libopenssl1_1-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-Micro-5-3:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-EC2:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-EC2:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:openssl-1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4:libopenssl1_1-1.1.1l-150400.7.42.1",
+            "Image SLES15-SP4-Micro-5-4:openssl-1_1-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1l-150400.7.42.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1l-150400.7.42.1",

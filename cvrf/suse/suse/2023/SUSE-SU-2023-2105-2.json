@@ -44,6 +44,16 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "go1.20-doc-1.20.4-150000.1.11.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.20-race-1.20.4-150000.1.11.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "go1.20-1.20.4-150000.1.11.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
         "RelationType": "Default Component Of"
@@ -167,6 +177,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-doc-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-race-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -199,6 +211,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-doc-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-race-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -231,6 +245,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-doc-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-race-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -263,6 +279,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-doc-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-race-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -295,6 +313,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-doc-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-race-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -327,6 +347,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-doc-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-race-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"
@@ -359,6 +381,8 @@
           "Type": "Fixed",
           "ProductID": [
             "Container bci/golang:latest:go1.20-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-doc-1.20.4-150000.1.11.1",
+            "Container bci/golang:latest:go1.20-race-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-doc-1.20.4-150000.1.11.1",
             "SUSE Linux Enterprise Real Time 15 SP3:go1.20-race-1.20.4-150000.1.11.1"

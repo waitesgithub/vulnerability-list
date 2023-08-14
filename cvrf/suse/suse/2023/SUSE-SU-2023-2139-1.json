@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP4-Micro-5-4-2023-2139,Image SLES15-SP4-Micro-5-4-Azure-2023-2139,SUSE-2023-2139,SUSE-SLE-Micro-5.4-2023-2139",
+      "Text": "Image SLES15-SP4-Micro-5-4-2023-2139,Image SLES15-SP4-Micro-5-4-Azure-2023-2139,Image SLES15-SP4-Micro-5-4-BYOS-2023-2139,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2023-2139,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2023-2139,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2023-2139,Image SLES15-SP4-Micro-5-4-EC2-2023-2139,Image SLES15-SP4-Micro-5-4-GCE-2023-2139,SUSE-2023-2139,SUSE-SLE-Micro-5.4-2023-2139",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -56,6 +56,66 @@
       {
         "ProductReference": "ignition-dracut-grub2-2.15.0-150400.4.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-dracut-grub2-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-dracut-grub2-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-dracut-grub2-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-dracut-grub2-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-dracut-grub2-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ignition-dracut-grub2-2.15.0-150400.4.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-GCE",
         "RelationType": "Default Component Of"
       },
       {

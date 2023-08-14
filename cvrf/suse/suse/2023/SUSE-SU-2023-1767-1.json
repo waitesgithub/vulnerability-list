@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-BYOS-2023-1767,Image SLES12-SP5-Azure-Basic-On-Demand-2023-1767,Image SLES12-SP5-Azure-HPC-BYOS-2023-1767,Image SLES12-SP5-Azure-HPC-On-Demand-2023-1767,Image SLES12-SP5-Azure-SAP-BYOS-2023-1767,Image SLES12-SP5-Azure-SAP-On-Demand-2023-1767,Image SLES12-SP5-Azure-Standard-On-Demand-2023-1767,Image SLES12-SP5-EC2-BYOS-2023-1767,Image SLES12-SP5-EC2-ECS-On-Demand-2023-1767,Image SLES12-SP5-EC2-On-Demand-2023-1767,Image SLES12-SP5-EC2-SAP-BYOS-2023-1767,Image SLES12-SP5-GCE-BYOS-2023-1767,Image SLES12-SP5-GCE-On-Demand-2023-1767,Image SLES12-SP5-GCE-SAP-BYOS-2023-1767,Image SLES12-SP5-GCE-SAP-On-Demand-2023-1767,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-1767,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-1767,SUSE-2023-1767,SUSE-SLE-SERVER-12-SP5-2023-1767",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2023-1767,Image SLES12-SP5-Azure-Basic-On-Demand-2023-1767,Image SLES12-SP5-Azure-HPC-BYOS-2023-1767,Image SLES12-SP5-Azure-HPC-On-Demand-2023-1767,Image SLES12-SP5-Azure-SAP-BYOS-2023-1767,Image SLES12-SP5-Azure-SAP-On-Demand-2023-1767,Image SLES12-SP5-Azure-Standard-On-Demand-2023-1767,Image SLES12-SP5-EC2-BYOS-2023-1767,Image SLES12-SP5-EC2-ECS-On-Demand-2023-1767,Image SLES12-SP5-EC2-On-Demand-2023-1767,Image SLES12-SP5-EC2-SAP-BYOS-2023-1767,Image SLES12-SP5-EC2-SAP-On-Demand-2023-1767,Image SLES12-SP5-GCE-BYOS-2023-1767,Image SLES12-SP5-GCE-On-Demand-2023-1767,Image SLES12-SP5-GCE-SAP-BYOS-2023-1767,Image SLES12-SP5-GCE-SAP-On-Demand-2023-1767,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-1767,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-1767,SUSE-2023-1767,SUSE-SLE-SERVER-12-SP5-2023-1767",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -131,6 +131,16 @@
       {
         "ProductReference": "python3-cryptography-2.8-7.40.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-cryptography-2.8-7.40.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-cryptography-2.8-7.40.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -265,6 +275,8 @@
             "Image SLES12-SP5-EC2-On-Demand:python3-cryptography-2.8-7.40.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:python-cryptography-2.8-7.40.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:python3-cryptography-2.8-7.40.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:python-cryptography-2.8-7.40.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:python3-cryptography-2.8-7.40.1",
             "Image SLES12-SP5-GCE-BYOS:python-cryptography-2.8-7.40.1",
             "Image SLES12-SP5-GCE-BYOS:python3-cryptography-2.8-7.40.1",
             "Image SLES12-SP5-GCE-On-Demand:python3-cryptography-2.8-7.40.1",

@@ -31,13 +31,28 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2162,SUSE-SLE-SERVER-12-SP5-2023-2162",
+      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-2162,Image SLES12-SP5-Azure-HPC-On-Demand-2023-2162,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2162,SUSE-2023-2162,SUSE-SLE-SERVER-12-SP5-2023-2162",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "kernel-azure-4.12.14-16.133.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-azure-4.12.14-16.133.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-azure-4.12.14-16.133.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "kernel-azure-4.12.14-16.133.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
@@ -306,6 +321,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -366,6 +384,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -406,6 +427,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -446,6 +470,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -486,6 +513,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -524,12 +554,23 @@
         {
           "URL": "https://bugzilla.suse.com/1210500",
           "Description": "SUSE Bug 1210500"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -574,6 +615,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -614,6 +658,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -654,6 +701,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -692,12 +742,23 @@
         {
           "URL": "https://bugzilla.suse.com/1210662",
           "Description": "SUSE Bug 1210662"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -738,6 +799,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",
@@ -778,6 +842,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:kernel-azure-4.12.14-16.133.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-base-4.12.14-16.133.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-azure-devel-4.12.14-16.133.1",

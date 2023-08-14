@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/bci-init:15.4-2023-429,Container bci/bci-init:latest-2023-429,Container bci/dotnet-aspnet:3.1-2023-429,Container bci/dotnet-aspnet:5.0-2023-429,Container bci/dotnet-aspnet:6.0-2023-429,Container bci/dotnet-aspnet:latest-2023-429,Container bci/dotnet-runtime:3.1-2023-429,Container bci/dotnet-runtime:5.0-2023-429,Container bci/dotnet-runtime:6.0-2023-429,Container bci/dotnet-runtime:latest-2023-429,Container bci/dotnet-sdk:3.1-2023-429,Container bci/dotnet-sdk:5.0-2023-429,Container bci/dotnet-sdk:6.0-2023-429,Container bci/dotnet-sdk:latest-2023-429,Container bci/golang:1.18-2023-429,Container bci/golang:1.19-2023-429,Container bci/golang:latest-2023-429,Container bci/node:14-2023-429,Container bci/node:16-2023-429,Container bci/node:18-2023-429,Container bci/nodejs:latest-2023-429,Container bci/openjdk-devel:11-2023-429,Container bci/openjdk-devel:latest-2023-429,Container bci/openjdk:11-2023-429,Container bci/openjdk:latest-2023-429,Container bci/php-apache:8-2023-429,Container bci/php-fpm:8-2023-429,Container bci/php:8-2023-429,Container bci/python:3-2023-429,Container bci/python:latest-2023-429,Container bci/ruby:latest-2023-429,Container bci/rust:1.65-2023-429,Container bci/rust:1.66-2023-429,Container bci/rust:1.67-2023-429,Container bci/rust:1.68-2023-429,Container bci/rust:1.69-2023-429,Container bci/rust:latest-2023-429,Container rancher/elemental-builder-image/5.3:latest-2023-429,Container rancher/elemental-iso/5.3:latest-2023-429,Container rancher/elemental-operator/5.3:latest-2023-429,Container rancher/elemental-teal/5.3:latest-2023-429,Container rancher/seedimage-builder/5.3:latest-2023-429,Container suse/389-ds:latest-2023-429,Container suse/manager/4.3/proxy-httpd:latest-2023-429,Container suse/manager/4.3/proxy-salt-broker:latest-2023-429,Container suse/manager/4.3/proxy-squid:latest-2023-429,Container suse/manager/4.3/proxy-ssh:latest-2023-429,Container suse/manager/4.3/proxy-tftpd:latest-2023-429,Container suse/pcp:5-2023-429,Container suse/pcp:latest-2023-429,Container suse/postgres:12-2023-429,Container suse/postgres:13-2023-429,Container suse/postgres:14-2023-429,Container suse/postgres:latest-2023-429,Container suse/sle-micro-rancher/5.3:latest-2023-429,Container suse/sle-micro-rancher/5.4:latest-2023-429,Container suse/sle-micro/5.3/toolbox:latest-2023-429,Container suse/sle-micro/5.4/toolbox:latest-2023-429,Container suse/sle15:15.4-2023-429,Container suse/sle15:15.5-2023-429,Container suse/sles/15.5/cdi-apiserver:1.55.0-2023-429,Container suse/sles/15.5/cdi-cloner:1.55.0-2023-429,Container suse/sles/15.5/cdi-controller:1.55.0-2023-429,Container suse/sles/15.5/cdi-importer:1.55.0-2023-429,Container suse/sles/15.5/cdi-operator:1.55.0-2023-429,Container suse/sles/15.5/cdi-uploadproxy:1.55.0-2023-429,Container suse/sles/15.5/cdi-uploadserver:1.55.0-2023-429,Container suse/sles/15.5/libguestfs-tools:0.58.0-2023-429,Container suse/sles/15.5/virt-api:0.58.0-2023-429,Container suse/sles/15.5/virt-controller:0.58.0-2023-429,Container suse/sles/15.5/virt-exportproxy:0.58.0-2023-429,Container suse/sles/15.5/virt-exportserver:0.58.0-2023-429,Container suse/sles/15.5/virt-handler:0.58.0-2023-429,Container suse/sles/15.5/virt-launcher:0.58.0-2023-429,Container suse/sles/15.5/virt-operator:0.58.0-2023-429,Image SLES15-SP4-2023-429,Image SLES15-SP4-Azure-Basic-2023-429,Image SLES15-SP4-Azure-Standard-2023-429,Image SLES15-SP4-BYOS-2023-429,Image SLES15-SP4-BYOS-Azure-2023-429,Image SLES15-SP4-BYOS-EC2-2023-429,Image SLES15-SP4-BYOS-GCE-2023-429,Image SLES15-SP4-CHOST-BYOS-2023-429,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-429,Image SLES15-SP4-CHOST-BYOS-Azure-2023-429,Image SLES15-SP4-CHOST-BYOS-EC2-2023-429,Image SLES15-SP4-CHOST-BYOS-GCE-2023-429,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-429,Image SLES15-SP4-EC2-2023-429,Image SLES15-SP4-EC2-ECS-HVM-2023-429,Image SLES15-SP4-GCE-2023-429,Image SLES15-SP4-HPC-2023-429,Image SLES15-SP4-HPC-Azure-2023-429,Image SLES15-SP4-HPC-BYOS-2023-429,Image SLES15-SP4-HPC-BYOS-Azure-2023-429,Image SLES15-SP4-HPC-BYOS-EC2-2023-429,Image SLES15-SP4-HPC-BYOS-GCE-2023-429,Image SLES15-SP4-HPC-EC2-2023-429,Image SLES15-SP4-HPC-GCE-2023-429,Image SLES15-SP4-Hardened-BYOS-2023-429,Image SLES15-SP4-Hardened-BYOS-Azure-2023-429,Image SLES15-SP4-Hardened-BYOS-EC2-2023-429,Image SLES15-SP4-Hardened-BYOS-GCE-2023-429,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-429,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-429,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-429,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-429,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-429,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-429,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-429,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-429,Image SLES15-SP4-Micro-5-3-2023-429,Image SLES15-SP4-Micro-5-3-Azure-2023-429,Image SLES15-SP4-Micro-5-3-BYOS-2023-429,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2023-429,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2023-429,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2023-429,Image SLES15-SP4-Micro-5-3-EC2-2023-429,Image SLES15-SP4-Micro-5-3-GCE-2023-429,Image SLES15-SP4-Micro-5-4-2023-429,Image SLES15-SP4-Micro-5-4-Azure-2023-429,Image SLES15-SP4-Micro-5-4-BYOS-2023-429,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2023-429,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2023-429,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2023-429,Image SLES15-SP4-Micro-5-4-EC2-2023-429,Image SLES15-SP4-Micro-5-4-GCE-2023-429,Image SLES15-SP4-SAP-2023-429,Image SLES15-SP4-SAP-Azure-2023-429,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-429,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-429,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-429,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-429,Image SLES15-SP4-SAP-BYOS-2023-429,Image SLES15-SP4-SAP-BYOS-Azure-2023-429,Image SLES15-SP4-SAP-BYOS-EC2-2023-429,Image SLES15-SP4-SAP-BYOS-GCE-2023-429,Image SLES15-SP4-SAP-EC2-2023-429,Image SLES15-SP4-SAP-GCE-2023-429,Image SLES15-SP4-SAP-Hardened-2023-429,Image SLES15-SP4-SAP-Hardened-Azure-2023-429,Image SLES15-SP4-SAP-Hardened-BYOS-2023-429,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-429,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-429,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-429,Image SLES15-SP4-SAP-Hardened-EC2-2023-429,Image SLES15-SP4-SAP-Hardened-GCE-2023-429,Image SLES15-SP4-SAPCAL-2023-429,Image SLES15-SP4-SAPCAL-Azure-2023-429,Image SLES15-SP4-SAPCAL-EC2-2023-429,Image SLES15-SP4-SAPCAL-GCE-2023-429,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-429,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-429,Image SLES15-SP5-Azure-Basic-2023-429,Image SLES15-SP5-Azure-Standard-2023-429,Image SLES15-SP5-BYOS-Azure-2023-429,Image SLES15-SP5-BYOS-EC2-2023-429,Image SLES15-SP5-BYOS-GCE-2023-429,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-429,Image SLES15-SP5-CHOST-BYOS-Azure-2023-429,Image SLES15-SP5-CHOST-BYOS-EC2-2023-429,Image SLES15-SP5-CHOST-BYOS-GCE-2023-429,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-429,Image SLES15-SP5-EC2-2023-429,Image SLES15-SP5-EC2-ECS-HVM-2023-429,Image SLES15-SP5-GCE-2023-429,Image SLES15-SP5-HPC-Azure-2023-429,Image SLES15-SP5-HPC-BYOS-Azure-2023-429,Image SLES15-SP5-HPC-BYOS-EC2-2023-429,Image SLES15-SP5-HPC-BYOS-GCE-2023-429,Image SLES15-SP5-Hardened-BYOS-Azure-2023-429,Image SLES15-SP5-Hardened-BYOS-EC2-2023-429,Image SLES15-SP5-Hardened-BYOS-GCE-2023-429,Image SLES15-SP5-SAP-Azure-2023-429,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-429,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-429,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-429,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-429,Image SLES15-SP5-SAP-BYOS-EC2-2023-429,Image SLES15-SP5-SAP-EC2-2023-429,Image SLES15-SP5-SAP-GCE-2023-429,Image SLES15-SP5-SAP-Hardened-Azure-2023-429,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-429,Image SLES15-SP5-SAP-Hardened-GCE-2023-429,Image SLES15-SP5-SAPCAL-Azure-2023-429,Image SLES15-SP5-SAPCAL-EC2-2023-429,Image SLES15-SP5-SAPCAL-GCE-2023-429,SUSE-2023-429,SUSE-SLE-Micro-5.3-2023-429,SUSE-SLE-Module-Basesystem-15-SP4-2023-429,openSUSE-Leap-Micro-5.3-2023-429,openSUSE-SLE-15.4-2023-429",
+      "Text": "Container bci/bci-init:15.4-2023-429,Container bci/bci-init:latest-2023-429,Container bci/dotnet-aspnet:3.1-2023-429,Container bci/dotnet-aspnet:5.0-2023-429,Container bci/dotnet-aspnet:6.0-2023-429,Container bci/dotnet-aspnet:latest-2023-429,Container bci/dotnet-runtime:3.1-2023-429,Container bci/dotnet-runtime:5.0-2023-429,Container bci/dotnet-runtime:6.0-2023-429,Container bci/dotnet-runtime:latest-2023-429,Container bci/dotnet-sdk:3.1-2023-429,Container bci/dotnet-sdk:5.0-2023-429,Container bci/dotnet-sdk:6.0-2023-429,Container bci/dotnet-sdk:latest-2023-429,Container bci/golang:1.18-2023-429,Container bci/golang:1.19-2023-429,Container bci/golang:latest-2023-429,Container bci/node:14-2023-429,Container bci/node:16-2023-429,Container bci/nodejs:latest-2023-429,Container bci/openjdk-devel:11-2023-429,Container bci/openjdk-devel:latest-2023-429,Container bci/openjdk:11-2023-429,Container bci/openjdk:latest-2023-429,Container bci/php-apache:8-2023-429,Container bci/php-fpm:8-2023-429,Container bci/php:8-2023-429,Container bci/python:3-2023-429,Container bci/python:latest-2023-429,Container bci/ruby:latest-2023-429,Container bci/rust:1.65-2023-429,Container bci/rust:1.66-2023-429,Container bci/rust:1.67-2023-429,Container bci/rust:1.68-2023-429,Container bci/rust:1.70-2023-429,Container bci/rust:latest-2023-429,Container rancher/elemental-builder-image/5.3:latest-2023-429,Container rancher/elemental-operator/5.3:latest-2023-429,Container rancher/elemental-teal-iso/5.3:latest-2023-429,Container rancher/elemental-teal-rt/5.3:latest-2023-429,Container rancher/elemental-teal/5.3:latest-2023-429,Container rancher/seedimage-builder/5.3:latest-2023-429,Container suse/389-ds:latest-2023-429,Container suse/manager/4.3/proxy-httpd:latest-2023-429,Container suse/manager/4.3/proxy-salt-broker:latest-2023-429,Container suse/manager/4.3/proxy-squid:latest-2023-429,Container suse/manager/4.3/proxy-ssh:latest-2023-429,Container suse/manager/4.3/proxy-tftpd:latest-2023-429,Container suse/nginx:latest-2023-429,Container suse/pcp:5-2023-429,Container suse/pcp:latest-2023-429,Container suse/postgres:12-2023-429,Container suse/postgres:13-2023-429,Container suse/postgres:14-2023-429,Container suse/postgres:latest-2023-429,Container suse/sle-micro-rancher/5.3:latest-2023-429,Container suse/sle-micro-rancher/5.4:latest-2023-429,Container suse/sle-micro/5.3/toolbox:latest-2023-429,Container suse/sle-micro/5.4/toolbox:latest-2023-429,Container suse/sle-micro/5.5/toolbox:latest-2023-429,Container suse/sle15:15.4-2023-429,Container suse/sle15:15.5-2023-429,Container suse/sles/15.5/cdi-apiserver:1.55.0-2023-429,Container suse/sles/15.5/cdi-cloner:1.55.0-2023-429,Container suse/sles/15.5/cdi-controller:1.55.0-2023-429,Container suse/sles/15.5/cdi-importer:1.55.0-2023-429,Container suse/sles/15.5/cdi-operator:1.55.0-2023-429,Container suse/sles/15.5/cdi-uploadproxy:1.55.0-2023-429,Container suse/sles/15.5/cdi-uploadserver:1.55.0-2023-429,Container suse/sles/15.5/libguestfs-tools:0.58.0-2023-429,Container suse/sles/15.5/virt-api:0.58.0-2023-429,Container suse/sles/15.5/virt-controller:0.58.0-2023-429,Container suse/sles/15.5/virt-exportproxy:0.58.0-2023-429,Container suse/sles/15.5/virt-exportserver:0.58.0-2023-429,Container suse/sles/15.5/virt-handler:0.58.0-2023-429,Container suse/sles/15.5/virt-launcher:0.58.0-2023-429,Container suse/sles/15.5/virt-operator:0.58.0-2023-429,Image SLES15-SP4-2023-429,Image SLES15-SP4-Azure-Basic-2023-429,Image SLES15-SP4-Azure-Standard-2023-429,Image SLES15-SP4-BYOS-2023-429,Image SLES15-SP4-BYOS-Azure-2023-429,Image SLES15-SP4-BYOS-EC2-2023-429,Image SLES15-SP4-BYOS-GCE-2023-429,Image SLES15-SP4-CHOST-BYOS-2023-429,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-429,Image SLES15-SP4-CHOST-BYOS-Azure-2023-429,Image SLES15-SP4-CHOST-BYOS-EC2-2023-429,Image SLES15-SP4-CHOST-BYOS-GCE-2023-429,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-429,Image SLES15-SP4-EC2-2023-429,Image SLES15-SP4-EC2-ECS-HVM-2023-429,Image SLES15-SP4-GCE-2023-429,Image SLES15-SP4-HPC-2023-429,Image SLES15-SP4-HPC-Azure-2023-429,Image SLES15-SP4-HPC-BYOS-2023-429,Image SLES15-SP4-HPC-BYOS-Azure-2023-429,Image SLES15-SP4-HPC-BYOS-EC2-2023-429,Image SLES15-SP4-HPC-BYOS-GCE-2023-429,Image SLES15-SP4-HPC-EC2-2023-429,Image SLES15-SP4-HPC-GCE-2023-429,Image SLES15-SP4-Hardened-BYOS-2023-429,Image SLES15-SP4-Hardened-BYOS-Azure-2023-429,Image SLES15-SP4-Hardened-BYOS-EC2-2023-429,Image SLES15-SP4-Hardened-BYOS-GCE-2023-429,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-429,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-429,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-429,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-429,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-429,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-429,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-429,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-429,Image SLES15-SP4-Micro-5-3-2023-429,Image SLES15-SP4-Micro-5-3-Azure-2023-429,Image SLES15-SP4-Micro-5-3-BYOS-2023-429,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2023-429,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2023-429,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2023-429,Image SLES15-SP4-Micro-5-3-EC2-2023-429,Image SLES15-SP4-Micro-5-3-GCE-2023-429,Image SLES15-SP4-Micro-5-4-2023-429,Image SLES15-SP4-Micro-5-4-Azure-2023-429,Image SLES15-SP4-Micro-5-4-BYOS-2023-429,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2023-429,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2023-429,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2023-429,Image SLES15-SP4-Micro-5-4-EC2-2023-429,Image SLES15-SP4-Micro-5-4-GCE-2023-429,Image SLES15-SP4-SAP-2023-429,Image SLES15-SP4-SAP-Azure-2023-429,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-429,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-429,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-429,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-429,Image SLES15-SP4-SAP-BYOS-2023-429,Image SLES15-SP4-SAP-BYOS-Azure-2023-429,Image SLES15-SP4-SAP-BYOS-EC2-2023-429,Image SLES15-SP4-SAP-BYOS-GCE-2023-429,Image SLES15-SP4-SAP-EC2-2023-429,Image SLES15-SP4-SAP-GCE-2023-429,Image SLES15-SP4-SAP-Hardened-2023-429,Image SLES15-SP4-SAP-Hardened-Azure-2023-429,Image SLES15-SP4-SAP-Hardened-BYOS-2023-429,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-429,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-429,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-429,Image SLES15-SP4-SAP-Hardened-EC2-2023-429,Image SLES15-SP4-SAP-Hardened-GCE-2023-429,Image SLES15-SP4-SAPCAL-2023-429,Image SLES15-SP4-SAPCAL-Azure-2023-429,Image SLES15-SP4-SAPCAL-EC2-2023-429,Image SLES15-SP4-SAPCAL-GCE-2023-429,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-429,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-429,Image SLES15-SP5-BYOS-EC2-2023-429,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-429,Image SLES15-SP5-CHOST-BYOS-Azure-2023-429,Image SLES15-SP5-CHOST-BYOS-EC2-2023-429,Image SLES15-SP5-CHOST-BYOS-GCE-2023-429,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-429,Image SLES15-SP5-EC2-2023-429,Image SLES15-SP5-EC2-ECS-HVM-2023-429,Image SLES15-SP5-GCE-2023-429,Image SLES15-SP5-HPC-Azure-2023-429,Image SLES15-SP5-HPC-BYOS-EC2-2023-429,Image SLES15-SP5-Hardened-BYOS-EC2-2023-429,Image SLES15-SP5-SAP-Azure-2023-429,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-429,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-429,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-429,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-429,Image SLES15-SP5-SAP-BYOS-EC2-2023-429,Image SLES15-SP5-SAP-EC2-2023-429,Image SLES15-SP5-SAP-GCE-2023-429,Image SLES15-SP5-SAP-Hardened-Azure-2023-429,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-429,Image SLES15-SP5-SAP-Hardened-GCE-2023-429,Image SLES15-SP5-SAPCAL-EC2-2023-429,SUSE-2023-429,SUSE-SLE-Micro-5.3-2023-429,SUSE-SLE-Module-Basesystem-15-SP4-2023-429,openSUSE-Leap-Micro-5.3-2023-429,openSUSE-SLE-15.4-2023-429",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -135,11 +135,6 @@
       },
       {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Container bci/node:18",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Container bci/nodejs:latest",
         "RelationType": "Default Component Of"
       },
@@ -230,7 +225,7 @@
       },
       {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Container bci/rust:1.69",
+        "RelatesToProductReference": "Container bci/rust:1.70",
         "RelationType": "Default Component Of"
       },
       {
@@ -245,12 +240,17 @@
       },
       {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Container rancher/elemental-iso/5.3:latest",
+        "RelatesToProductReference": "Container rancher/elemental-operator/5.3:latest",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Container rancher/elemental-operator/5.3:latest",
+        "RelatesToProductReference": "Container rancher/elemental-teal-iso/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.3:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -306,6 +306,11 @@
       {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Container suse/manager/4.3/proxy-tftpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Container suse/nginx:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -366,6 +371,11 @@
       {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -1355,52 +1365,12 @@
       },
       {
         "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -1479,7 +1449,17 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "libcurl-devel-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-GCE",
         "RelationType": "Default Component Of"
       },
@@ -1495,16 +1475,6 @@
       },
       {
         "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -1515,42 +1485,12 @@
       },
       {
         "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -1559,7 +1499,17 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "libcurl-devel-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
         "RelationType": "Default Component Of"
       },
@@ -1619,7 +1569,17 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "libcurl-devel-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
         "RelationType": "Default Component Of"
       },
@@ -1629,7 +1589,17 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "libcurl-devel-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
         "RelationType": "Default Component Of"
       },
@@ -1665,26 +1635,6 @@
       },
       {
         "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl-devel-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-32bit-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
         "RelationType": "Default Component Of"
       },
@@ -1701,26 +1651,6 @@
       {
         "ProductReference": "libcurl4-32bit-7.79.1-150400.5.15.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "curl-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl-devel-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcurl4-32bit-7.79.1-150400.5.15.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -1875,7 +1805,6 @@
             "Container bci/golang:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/node:14:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/node:16:libcurl4-7.79.1-150400.5.15.1",
-            "Container bci/node:18:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/nodejs:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/openjdk-devel:11:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/openjdk-devel:latest:libcurl4-7.79.1-150400.5.15.1",
@@ -1894,11 +1823,12 @@
             "Container bci/rust:1.66:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:1.67:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:1.68:libcurl4-7.79.1-150400.5.15.1",
-            "Container bci/rust:1.69:libcurl4-7.79.1-150400.5.15.1",
+            "Container bci/rust:1.70:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-builder-image/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
-            "Container rancher/elemental-iso/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-operator/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container rancher/elemental-teal-iso/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container rancher/elemental-teal-rt/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-teal/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/seedimage-builder/5.3:latest:curl-7.79.1-150400.5.15.1",
             "Container rancher/seedimage-builder/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
@@ -1910,6 +1840,7 @@
             "Container suse/manager/4.3/proxy-squid:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/manager/4.3/proxy-ssh:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/manager/4.3/proxy-tftpd:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container suse/nginx:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/pcp:5:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/pcp:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/postgres:12:libcurl4-7.79.1-150400.5.15.1",
@@ -1922,6 +1853,7 @@
             "Container suse/sle-micro-rancher/5.4:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle-micro/5.3/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle-micro/5.4/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.4:curl-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.4:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.5:curl-7.79.1-150400.5.15.1",
@@ -2119,16 +2051,8 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP4:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP4:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Basic:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Basic:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Standard:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Standard:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Azure:curl-7.79.1-150400.5.15.1",
@@ -2144,21 +2068,15 @@
             "Image SLES15-SP5-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-GCE:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-GCE:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-Azure:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-Azure:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:curl-7.79.1-150400.5.15.1",
@@ -2168,12 +2086,18 @@
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-Azure:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-Azure:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-EC2:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-EC2:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-EC2:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-GCE:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-GCE:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libcurl4-7.79.1-150400.5.15.1",
@@ -2181,18 +2105,10 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl-devel-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl4-32bit-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl-devel-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl-devel-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl4-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Micro 5.3:curl-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Micro 5.3:libcurl4-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:curl-7.79.1-150400.5.15.1",
@@ -2253,7 +2169,6 @@
             "Container bci/golang:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/node:14:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/node:16:libcurl4-7.79.1-150400.5.15.1",
-            "Container bci/node:18:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/nodejs:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/openjdk-devel:11:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/openjdk-devel:latest:libcurl4-7.79.1-150400.5.15.1",
@@ -2272,11 +2187,12 @@
             "Container bci/rust:1.66:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:1.67:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:1.68:libcurl4-7.79.1-150400.5.15.1",
-            "Container bci/rust:1.69:libcurl4-7.79.1-150400.5.15.1",
+            "Container bci/rust:1.70:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-builder-image/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
-            "Container rancher/elemental-iso/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-operator/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container rancher/elemental-teal-iso/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container rancher/elemental-teal-rt/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-teal/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/seedimage-builder/5.3:latest:curl-7.79.1-150400.5.15.1",
             "Container rancher/seedimage-builder/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
@@ -2288,6 +2204,7 @@
             "Container suse/manager/4.3/proxy-squid:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/manager/4.3/proxy-ssh:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/manager/4.3/proxy-tftpd:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container suse/nginx:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/pcp:5:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/pcp:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/postgres:12:libcurl4-7.79.1-150400.5.15.1",
@@ -2300,6 +2217,7 @@
             "Container suse/sle-micro-rancher/5.4:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle-micro/5.3/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle-micro/5.4/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.4:curl-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.4:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.5:curl-7.79.1-150400.5.15.1",
@@ -2497,16 +2415,8 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP4:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP4:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Basic:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Basic:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Standard:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Standard:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Azure:curl-7.79.1-150400.5.15.1",
@@ -2522,21 +2432,15 @@
             "Image SLES15-SP5-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-GCE:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-GCE:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-Azure:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-Azure:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:curl-7.79.1-150400.5.15.1",
@@ -2546,12 +2450,18 @@
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-Azure:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-Azure:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-EC2:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-EC2:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-EC2:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-GCE:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-GCE:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libcurl4-7.79.1-150400.5.15.1",
@@ -2559,18 +2469,10 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl-devel-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl4-32bit-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl-devel-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl-devel-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl4-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Micro 5.3:curl-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Micro 5.3:libcurl4-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:curl-7.79.1-150400.5.15.1",
@@ -2631,7 +2533,6 @@
             "Container bci/golang:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/node:14:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/node:16:libcurl4-7.79.1-150400.5.15.1",
-            "Container bci/node:18:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/nodejs:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/openjdk-devel:11:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/openjdk-devel:latest:libcurl4-7.79.1-150400.5.15.1",
@@ -2650,11 +2551,12 @@
             "Container bci/rust:1.66:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:1.67:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:1.68:libcurl4-7.79.1-150400.5.15.1",
-            "Container bci/rust:1.69:libcurl4-7.79.1-150400.5.15.1",
+            "Container bci/rust:1.70:libcurl4-7.79.1-150400.5.15.1",
             "Container bci/rust:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-builder-image/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
-            "Container rancher/elemental-iso/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-operator/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container rancher/elemental-teal-iso/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container rancher/elemental-teal-rt/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/elemental-teal/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container rancher/seedimage-builder/5.3:latest:curl-7.79.1-150400.5.15.1",
             "Container rancher/seedimage-builder/5.3:latest:libcurl4-7.79.1-150400.5.15.1",
@@ -2666,6 +2568,7 @@
             "Container suse/manager/4.3/proxy-squid:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/manager/4.3/proxy-ssh:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/manager/4.3/proxy-tftpd:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container suse/nginx:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/pcp:5:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/pcp:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/postgres:12:libcurl4-7.79.1-150400.5.15.1",
@@ -2678,6 +2581,7 @@
             "Container suse/sle-micro-rancher/5.4:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle-micro/5.3/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle-micro/5.4/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.4:curl-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.4:libcurl4-7.79.1-150400.5.15.1",
             "Container suse/sle15:15.5:curl-7.79.1-150400.5.15.1",
@@ -2875,16 +2779,8 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP4:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP4:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Basic:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Basic:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Standard:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Azure-Standard:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-CHOST-BYOS-Azure:curl-7.79.1-150400.5.15.1",
@@ -2900,21 +2796,15 @@
             "Image SLES15-SP5-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-GCE:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-GCE:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-Azure:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-Azure:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-HPC-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-Hardened-BYOS-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:curl-7.79.1-150400.5.15.1",
@@ -2924,12 +2814,18 @@
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-Azure:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-Azure:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-EC2:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-EC2:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-EC2:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-GCE:curl-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-GCE:libcurl-devel-7.79.1-150400.5.15.1",
+            "Image SLES15-SP5-SAP-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-GCE:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libcurl4-7.79.1-150400.5.15.1",
@@ -2937,18 +2833,10 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl-devel-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl4-32bit-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-Azure:libcurl4-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:curl-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl-devel-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl4-32bit-7.79.1-150400.5.15.1",
             "Image SLES15-SP5-SAPCAL-EC2:libcurl4-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:curl-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl-devel-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl4-32bit-7.79.1-150400.5.15.1",
-            "Image SLES15-SP5-SAPCAL-GCE:libcurl4-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Micro 5.3:curl-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Micro 5.3:libcurl4-7.79.1-150400.5.15.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:curl-7.79.1-150400.5.15.1",

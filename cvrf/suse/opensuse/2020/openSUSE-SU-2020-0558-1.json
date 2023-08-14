@@ -165,7 +165,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -233,7 +233,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -265,7 +265,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -297,7 +297,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -340,6 +340,10 @@
         {
           "URL": "https://bugzilla.suse.com/1151788",
           "Description": "SUSE Bug 1151788"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214170",
+          "Description": "SUSE Bug 1214170"
         }
       ],
       "ProductStatuses": [
@@ -457,7 +461,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [

@@ -2892,6 +2892,10 @@
         {
           "URL": "https://bugzilla.suse.com/1209672",
           "Description": "SUSE Bug 1209672"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
         }
       ],
       "ProductStatuses": [
@@ -3276,6 +3280,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208911",
           "Description": "SUSE Bug 1208911"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
         }
       ],
       "ProductStatuses": [
@@ -3408,6 +3416,10 @@
         {
           "URL": "https://bugzilla.suse.com/1211495",
           "Description": "SUSE Bug 1211495"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
         }
       ],
       "ProductStatuses": [
@@ -3602,6 +3614,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208599",
           "Description": "SUSE Bug 1208599"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214019",
+          "Description": "SUSE Bug 1214019"
         }
       ],
       "ProductStatuses": [
@@ -3668,6 +3684,14 @@
         {
           "URL": "https://bugzilla.suse.com/1208839",
           "Description": "SUSE Bug 1208839"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -3932,6 +3956,14 @@
         {
           "URL": "https://bugzilla.suse.com/1211495",
           "Description": "SUSE Bug 1211495"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -4684,6 +4716,14 @@
         {
           "URL": "https://bugzilla.suse.com/1210500",
           "Description": "SUSE Bug 1210500"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -5138,6 +5178,14 @@
         {
           "URL": "https://bugzilla.suse.com/1210662",
           "Description": "SUSE Bug 1210662"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -5204,6 +5252,10 @@
         {
           "URL": "https://bugzilla.suse.com/1210630",
           "Description": "SUSE Bug 1210630"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -5720,6 +5772,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208085",
           "Description": "SUSE Bug 1208085"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
         }
       ],
       "ProductStatuses": [
@@ -5786,6 +5842,10 @@
         {
           "URL": "https://bugzilla.suse.com/1207189",
           "Description": "SUSE Bug 1207189"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
         }
       ],
       "ProductStatuses": [
@@ -6306,6 +6366,14 @@
         {
           "URL": "https://bugzilla.suse.com/1210452",
           "Description": "SUSE Bug 1210452"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
         }
       ],
       "ProductStatuses": [
@@ -6744,6 +6812,14 @@
         {
           "URL": "https://bugzilla.suse.com/1211260",
           "Description": "SUSE Bug 1211260"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
         }
       ],
       "ProductStatuses": [
@@ -7167,7 +7243,7 @@
     },
     {
       "CVE": "CVE-2023-33951",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A race condition vulnerability was found in the vmwgfx driver in the Linux kernel. The flaw exists within the handling of GEM objects. The issue results from improper locking when performing operations on an object. This flaw allows a local privileged user to disclose information in the context of the kernel.",
       "Threats": [
         {
           "Type": "Impact",
@@ -7229,7 +7305,7 @@
     },
     {
       "CVE": "CVE-2023-33952",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A double-free vulnerability was found in the vmwgfx driver in the Linux kernel. The flaw exists within the handling of vmw_buffer_object objects. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. This flaw allows a local privileged user to escalate privileges and execute code in the context of the kernel.",
       "Threats": [
         {
           "Type": "Impact",

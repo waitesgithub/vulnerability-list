@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/rmt-nginx:latest-2021-3236,Image SLES15-SP2-SAP-Azure-2021-3236,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2021-3236,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2021-3236,Image SLES15-SP2-SAP-BYOS-Azure-2021-3236,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2021-3236,Image SLES15-SP2-SAP-BYOS-GCE-2021-3236,Image SLES15-SP2-SAP-EC2-HVM-2021-3236,Image SLES15-SP2-SAP-GCE-2021-3236,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2021-3236,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2021-3236,Image SLES15-SP3-SAP-BYOS-Azure-2021-3236,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2021-3236,Image SLES15-SP3-SAP-BYOS-GCE-2021-3236,Image SLES15-SP4-SAP-Azure-LI-BYOS-2021-3236,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2021-3236,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2021-3236,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2021-3236,Image SLES15-SP4-SAP-BYOS-2021-3236,Image SLES15-SP4-SAP-BYOS-Azure-2021-3236,Image SLES15-SP4-SAP-BYOS-EC2-2021-3236,Image SLES15-SP4-SAP-BYOS-GCE-2021-3236,Image SLES15-SP4-SAP-Hardened-2021-3236,Image SLES15-SP4-SAP-Hardened-Azure-2021-3236,Image SLES15-SP4-SAP-Hardened-BYOS-2021-3236,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2021-3236,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2021-3236,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2021-3236,Image SLES15-SP4-SAP-Hardened-EC2-2021-3236,Image SLES15-SP4-SAP-Hardened-GCE-2021-3236,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2021-3236,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2021-3236,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-HVM-2021-3236,Image SLES15-SP5-SAP-Azure-2021-3236,Image SLES15-SP5-SAP-Azure-LI-BYOS-2021-3236,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2021-3236,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2021-3236,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2021-3236,Image SLES15-SP5-SAP-BYOS-EC2-2021-3236,Image SLES15-SP5-SAP-EC2-2021-3236,Image SLES15-SP5-SAP-GCE-2021-3236,Image SLES15-SP5-SAP-Hardened-Azure-2021-3236,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2021-3236,Image SLES15-SP5-SAP-Hardened-GCE-2021-3236,SUSE-2021-3236,SUSE-SLE-Module-Basesystem-15-SP2-2021-3236,SUSE-SLE-Module-Basesystem-15-SP3-2021-3236,SUSE-SLE-Module-Desktop-Applications-15-SP2-2021-3236,SUSE-SLE-Module-Desktop-Applications-15-SP3-2021-3236,SUSE-SLE-Module-Packagehub-Subpackages-15-SP2-2021-3236,SUSE-SLE-Module-Packagehub-Subpackages-15-SP3-2021-3236",
+      "Text": "Container suse/nginx:latest-2021-3236,Container suse/rmt-nginx:latest-2021-3236,Image SLES15-SP2-SAP-Azure-2021-3236,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2021-3236,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2021-3236,Image SLES15-SP2-SAP-BYOS-Azure-2021-3236,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2021-3236,Image SLES15-SP2-SAP-BYOS-GCE-2021-3236,Image SLES15-SP2-SAP-EC2-HVM-2021-3236,Image SLES15-SP2-SAP-GCE-2021-3236,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2021-3236,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2021-3236,Image SLES15-SP3-SAP-BYOS-Azure-2021-3236,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2021-3236,Image SLES15-SP3-SAP-BYOS-GCE-2021-3236,Image SLES15-SP4-SAP-Azure-LI-BYOS-2021-3236,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2021-3236,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2021-3236,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2021-3236,Image SLES15-SP4-SAP-BYOS-2021-3236,Image SLES15-SP4-SAP-BYOS-Azure-2021-3236,Image SLES15-SP4-SAP-BYOS-EC2-2021-3236,Image SLES15-SP4-SAP-BYOS-GCE-2021-3236,Image SLES15-SP4-SAP-Hardened-2021-3236,Image SLES15-SP4-SAP-Hardened-Azure-2021-3236,Image SLES15-SP4-SAP-Hardened-BYOS-2021-3236,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2021-3236,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2021-3236,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2021-3236,Image SLES15-SP4-SAP-Hardened-EC2-2021-3236,Image SLES15-SP4-SAP-Hardened-GCE-2021-3236,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2021-3236,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2021-3236,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-HVM-2021-3236,Image SLES15-SP5-SAP-Azure-LI-BYOS-2021-3236,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2021-3236,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2021-3236,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2021-3236,Image SLES15-SP5-SAP-BYOS-EC2-2021-3236,Image SLES15-SP5-SAP-Hardened-Azure-2021-3236,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2021-3236,Image SLES15-SP5-SAP-Hardened-GCE-2021-3236,SUSE-2021-3236,SUSE-SLE-Module-Basesystem-15-SP2-2021-3236,SUSE-SLE-Module-Basesystem-15-SP3-2021-3236,SUSE-SLE-Module-Desktop-Applications-15-SP2-2021-3236,SUSE-SLE-Module-Desktop-Applications-15-SP3-2021-3236,SUSE-SLE-Module-Packagehub-Subpackages-15-SP2-2021-3236,SUSE-SLE-Module-Packagehub-Subpackages-15-SP3-2021-3236",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libgd3-2.2.5-11.3.1",
+        "RelatesToProductReference": "Container suse/nginx:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libgd3-2.2.5-11.3.1",
         "RelatesToProductReference": "Container suse/rmt-nginx:latest",
@@ -205,11 +210,6 @@
       },
       {
         "ProductReference": "libgd3-2.2.5-11.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libgd3-2.2.5-11.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -231,16 +231,6 @@
       {
         "ProductReference": "libgd3-2.2.5-11.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libgd3-2.2.5-11.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libgd3-2.2.5-11.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -346,6 +336,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libgd3-2.2.5-11.3.1",
             "Container suse/rmt-nginx:latest:libgd3-2.2.5-11.3.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libgd3-2.2.5-11.3.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libgd3-2.2.5-11.3.1",
@@ -383,10 +374,7 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libgd3-2.2.5-11.3.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libgd3-2.2.5-11.3.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libgd3-2.2.5-11.3.1",
-            "Image SLES15-SP5-SAP-Azure:libgd3-2.2.5-11.3.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgd3-2.2.5-11.3.1",
-            "Image SLES15-SP5-SAP-EC2:libgd3-2.2.5-11.3.1",
-            "Image SLES15-SP5-SAP-GCE:libgd3-2.2.5-11.3.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libgd3-2.2.5-11.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgd3-2.2.5-11.3.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgd3-2.2.5-11.3.1",

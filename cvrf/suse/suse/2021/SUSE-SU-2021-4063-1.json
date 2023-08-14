@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/dotnet-aspnet:3.1-2021-4063,Container bci/dotnet-aspnet:5.0-2021-4063,Container bci/dotnet-aspnet:latest-2021-4063,Container bci/dotnet-runtime:3.1-2021-4063,Container bci/dotnet-runtime:5.0-2021-4063,Container bci/dotnet-runtime:latest-2021-4063,Container bci/dotnet-sdk:3.1-2021-4063,Container bci/dotnet-sdk:5.0-2021-4063,Container bci/dotnet-sdk:latest-2021-4063,Container bci/node:16-2021-4063,Container bci/node:18-2021-4063,Container bci/nodejs:latest-2021-4063,SUSE-2021-4063,SUSE-SLE-Module-Basesystem-15-SP3-2021-4063",
+      "Text": "Container bci/dotnet-aspnet:3.1-2021-4063,Container bci/dotnet-aspnet:5.0-2021-4063,Container bci/dotnet-aspnet:latest-2021-4063,Container bci/dotnet-runtime:3.1-2021-4063,Container bci/dotnet-runtime:5.0-2021-4063,Container bci/dotnet-runtime:latest-2021-4063,Container bci/dotnet-sdk:3.1-2021-4063,Container bci/dotnet-sdk:5.0-2021-4063,Container bci/dotnet-sdk:latest-2021-4063,Container bci/node:16-2021-4063,Container bci/nodejs:latest-2021-4063,SUSE-2021-4063,SUSE-SLE-Module-Basesystem-15-SP3-2021-4063",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -136,16 +136,6 @@
       {
         "ProductReference": "libicu69-ledata-69.1-7.3.2",
         "RelatesToProductReference": "Container bci/node:16",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libicu69-69.1-7.3.2",
-        "RelatesToProductReference": "Container bci/node:18",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libicu69-ledata-69.1-7.3.2",
-        "RelatesToProductReference": "Container bci/node:18",
         "RelationType": "Default Component Of"
       },
       {

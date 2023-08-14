@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2158,SUSE-SLE-Module-Public-Cloud-12-2023-2158",
+      "Text": "Image SLES12-SP5-GCE-SAP-BYOS-2023-2158,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2158,SUSE-2023-2158,SUSE-SLE-Module-Public-Cloud-12-2023-2158",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "google-cloud-sap-agent-1.0-6.5.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "google-cloud-sap-agent-1.0-6.5.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "google-cloud-sap-agent-1.0-6.5.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Public Cloud 12",
