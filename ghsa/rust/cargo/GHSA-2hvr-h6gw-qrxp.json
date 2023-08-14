@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-09-16T17:12:05Z",
+  "UpdatedAt": "2023-08-14T16:17:47Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "cargo"
@@ -26,6 +26,9 @@
         "Url": "https://security.gentoo.org/glsa/202210-09"
       },
       {
+        "Url": "https://github.com/rust-lang/cargo/commit/2b68d3c07a4a056264dc006ecb9f1354a0679cd3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-2hvr-h6gw-qrxp"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2022-09-16T17:12:05Z",
     "Severity": "MODERATE",
     "Summary": "Cargo extracting malicious crates can fill the file system",
-    "UpdatedAt": "2023-01-30T05:07:09Z",
+    "UpdatedAt": "2023-08-14T16:17:47Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.2,
@@ -52,6 +55,12 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.67.0"
+      },
+      "VulnerableVersionRange": "= 0.66.0"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "0.65.0"
