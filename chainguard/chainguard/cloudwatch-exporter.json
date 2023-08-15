@@ -1,11 +1,8 @@
 {
-  "name": "python-3.8",
+  "name": "cloudwatch-exporter",
   "secfixes": {
-    "0": [
-      "CVE-2023-36632"
-    ],
-    "3.8.17-r0": [
-      "CVE-2023-24329"
+    "0.15.4-r2": [
+      "CVE-2023-34462"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

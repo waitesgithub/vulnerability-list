@@ -1,11 +1,8 @@
 {
-  "name": "python-3.8",
+  "name": "py3.9-pip",
   "secfixes": {
     "0": [
-      "CVE-2023-36632"
-    ],
-    "3.8.17-r0": [
-      "CVE-2023-24329"
+      "CVE-2018-20225"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
