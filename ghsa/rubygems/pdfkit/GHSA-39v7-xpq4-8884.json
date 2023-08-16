@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-01-27T00:51:39Z",
+  "UpdatedAt": "2023-08-16T09:20:14Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "pdfkit"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://web.archive.org/web/20200229104225/https://www.securityfocus.com/bid/58303/info"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/pdfkit/CVE-2013-1607.yml"
       },
       {
         "Url": "https://github.com/advisories/GHSA-39v7-xpq4-8884"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-05-05T00:29:34Z",
     "Severity": "CRITICAL",
     "Summary": "PDFKit Improper Input Validation vulnerability",
-    "UpdatedAt": "2023-01-27T00:51:39Z",
+    "UpdatedAt": "2023-08-16T09:20:14Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
