@@ -14,6 +14,9 @@
         "Url": "https://github.com/cloudflare/lol-html/security/advisories/GHSA-c3x7-354f-4p2x"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4241"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-c3x7-354f-4p2x"
       }
     ],
@@ -32,7 +35,7 @@
     "PublishedAt": "2023-08-09T13:17:53Z",
     "Severity": "HIGH",
     "Summary": "lol-html panics on certain HTML inputs",
-    "UpdatedAt": "2023-08-09T13:17:53Z",
+    "UpdatedAt": "2023-08-16T13:14:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
