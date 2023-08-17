@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-08-11T21:22:57Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -36,13 +36,13 @@
     "Description": "SQL Injection vulnerability in file `Base_module_model.php` in Daylight Studio FUEL-CMS version 1.4.9, allows remote attackers to execute arbitrary code via the `col` parameter to function `list_items`.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-08-11T15:30:46Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Daylight Studio FUEL-CMS SQLi Vulnerability",
-    "UpdatedAt": "2023-08-11T21:22:57Z",
+    "UpdatedAt": "2023-08-16T19:25:57Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 8.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [
