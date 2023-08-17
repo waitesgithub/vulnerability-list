@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2020-05-26T15:10:58Z",
+  "UpdatedAt": "2023-08-17T05:01:53Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "actionpack"
@@ -36,12 +36,12 @@
         "Value": "CVE-2020-8166"
       }
     ],
-    "Description": "It is possible to possible to, given a global CSRF token such as the one\npresent in the authenticity_token meta tag, forge a per-form CSRF token for\nany action for that session.\n\nImpact\n------\n\nGiven the ability to extract the global CSRF token, an attacker would be able to\nconstruct a per-form CSRF token for that session.\n\nWorkarounds\n-----------\n\nThis is a low-severity security issue. As such, no workaround is necessarily\nuntil such time as the application can be upgraded.",
+    "Description": "It is possible to, given a global CSRF token such as the one present in the authenticity_token meta tag, forge a per-form CSRF token for any action for that session.\n\nImpact\n------\n\nGiven the ability to extract the global CSRF token, an attacker would be able to construct a per-form CSRF token for that session.\n\nWorkarounds\n-----------\n\nThis is a low-severity security issue. As such, no workaround is necessarily until such time as the application can be upgraded.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-05-26T15:11:13Z",
     "Severity": "MODERATE",
     "Summary": "Ability to forge per-form CSRF tokens in Rails",
-    "UpdatedAt": "2023-01-09T05:02:24Z",
+    "UpdatedAt": "2023-08-17T05:01:53Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
