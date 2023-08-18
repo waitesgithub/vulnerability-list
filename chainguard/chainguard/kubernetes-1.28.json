@@ -1,8 +1,8 @@
 {
-  "name": "thanos-operator",
+  "name": "kubernetes-1.28",
   "secfixes": {
     "0": [
-      "CVE-2019-3826"
+      "CVE-2019-11255"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
