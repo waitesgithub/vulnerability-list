@@ -2,6 +2,18 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package curl is earlier than 8.2.1-1, affected by CVE-2023-32001",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27795000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27795001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27795002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package kernel is earlier than 5.15.122.1-2, affected by CVE-2023-3863",
       "ID": "oval:com.microsoft.cbl-mariner:tst:27766000",
       "Version": "1",
@@ -1126,6 +1138,42 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:26796002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package curl is earlier than 8.2.1-1, affected by CVE-2023-28319",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26795000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26795001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26795002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package curl is earlier than 8.2.1-1, affected by CVE-2023-28321",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26794000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26794001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26794002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package curl is earlier than 8.2.1-1, affected by CVE-2023-28320",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:26793000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26793001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:26793002"
       }
     },
     {
