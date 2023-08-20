@@ -31,13 +31,38 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3311,SUSE-SLE-Module-Basesystem-15-SP5-2023-3311,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3311,SUSE-SLE-Module-Legacy-15-SP5-2023-3311,SUSE-SLE-Module-Live-Patching-15-SP5-2023-3311,SUSE-SLE-Product-HA-15-SP5-2023-3311,SUSE-SLE-Product-WE-15-SP5-2023-3311,openSUSE-SLE-15.5-2023-3311",
+      "Text": "Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-3311,Image SLES15-SP5-CHOST-BYOS-Azure-2023-3311,Image SLES15-SP5-CHOST-BYOS-EC2-2023-3311,Image SLES15-SP5-CHOST-BYOS-GCE-2023-3311,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-3311,SUSE-2023-3311,SUSE-SLE-Module-Basesystem-15-SP5-2023-3311,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3311,SUSE-SLE-Module-Legacy-15-SP5-2023-3311,SUSE-SLE-Module-Live-Patching-15-SP5-2023-3311,SUSE-SLE-Product-HA-15-SP5-2023-3311,SUSE-SLE-Product-WE-15-SP5-2023-3311,openSUSE-SLE-15.5-2023-3311",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "kernel-default-5.14.21-150500.55.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.14.21-150500.55.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.14.21-150500.55.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.14.21-150500.55.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.14.21-150500.55.19.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "cluster-md-kmp-default-5.14.21-150500.55.19.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Availability Extension 15 SP5",
@@ -746,6 +771,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -862,6 +892,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -978,6 +1013,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -1094,6 +1134,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -1214,6 +1259,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -1330,6 +1380,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -1446,6 +1501,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -1562,6 +1622,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -1686,6 +1751,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -1806,6 +1876,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -1922,6 +1997,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -2038,6 +2118,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -2154,6 +2239,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -2274,6 +2364,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",
@@ -2390,6 +2485,11 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:kernel-default-5.14.21-150500.55.19.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:kernel-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:cluster-md-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:dlm-kmp-default-5.14.21-150500.55.19.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:gfs2-kmp-default-5.14.21-150500.55.19.1",

@@ -975,7 +975,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1642,6 +1642,10 @@
         {
           "URL": "https://bugzilla.suse.com/1212849",
           "Description": "SUSE Bug 1212849"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214128",
+          "Description": "SUSE Bug 1214128"
         }
       ],
       "ProductStatuses": [

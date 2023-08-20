@@ -31,28 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/golang:1.19-2023-3263,SUSE-2023-3263,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3263,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3263,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3263,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3263,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3263,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3263,SUSE-Storage-7.1-2023-3263,openSUSE-SLE-15.4-2023-3263,openSUSE-SLE-15.5-2023-3263",
+      "Text": "SUSE-2023-3263,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3263,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3263,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3263,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3263,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3263,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3263,SUSE-Storage-7.1-2023-3263,openSUSE-SLE-15.4-2023-3263,openSUSE-SLE-15.5-2023-3263",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "go1.19-1.19.12-150000.1.40.1",
-        "RelatesToProductReference": "Container bci/golang:1.19",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "go1.19-doc-1.19.12-150000.1.40.1",
-        "RelatesToProductReference": "Container bci/golang:1.19",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "go1.19-race-1.19.12-150000.1.40.1",
-        "RelatesToProductReference": "Container bci/golang:1.19",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "go1.19-1.19.12-150000.1.40.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
@@ -240,9 +225,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/golang:1.19:go1.19-1.19.12-150000.1.40.1",
-            "Container bci/golang:1.19:go1.19-doc-1.19.12-150000.1.40.1",
-            "Container bci/golang:1.19:go1.19-race-1.19.12-150000.1.40.1",
             "SUSE Enterprise Storage 7.1:go1.19-1.19.12-150000.1.40.1",
             "SUSE Enterprise Storage 7.1:go1.19-doc-1.19.12-150000.1.40.1",
             "SUSE Enterprise Storage 7.1:go1.19-race-1.19.12-150000.1.40.1",

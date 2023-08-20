@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP5-BYOS-EC2-2023-2620,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-2620,Image SLES15-SP5-CHOST-BYOS-Azure-2023-2620,Image SLES15-SP5-CHOST-BYOS-EC2-2023-2620,Image SLES15-SP5-CHOST-BYOS-GCE-2023-2620,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-2620,Image SLES15-SP5-EC2-2023-2620,Image SLES15-SP5-HPC-BYOS-EC2-2023-2620,Image SLES15-SP5-Hardened-BYOS-EC2-2023-2620,Image SLES15-SP5-SAP-BYOS-EC2-2023-2620,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2620,Image SLES15-SP5-SAPCAL-EC2-2023-2620,SUSE-2023-2620,SUSE-SLE-Module-Basesystem-15-SP5-2023-2620,openSUSE-SLE-15.5-2023-2620",
+      "Text": "Image SLES15-SP5-BYOS-EC2-2023-2620,Image SLES15-SP5-EC2-2023-2620,Image SLES15-SP5-HPC-BYOS-EC2-2023-2620,Image SLES15-SP5-Hardened-BYOS-EC2-2023-2620,Image SLES15-SP5-SAP-BYOS-EC2-2023-2620,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2620,Image SLES15-SP5-SAPCAL-EC2-2023-2620,SUSE-2023-2620,SUSE-SLE-Module-Basesystem-15-SP5-2023-2620,openSUSE-SLE-15.5-2023-2620",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,31 +41,6 @@
       {
         "ProductReference": "libopenssl3-3.0.8-150500.5.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.8-150500.5.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.8-150500.5.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.8-150500.5.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.8-150500.5.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.8-150500.5.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
         "RelationType": "Default Component Of"
       },
       {
@@ -200,11 +175,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Image SLES15-SP5-BYOS-EC2:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-Aliyun:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-Azure:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-EC2:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-GCE:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:libopenssl3-3.0.8-150500.5.3.1",
             "Image SLES15-SP5-EC2:libopenssl3-3.0.8-150500.5.3.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl3-3.0.8-150500.5.3.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl3-3.0.8-150500.5.3.1",
@@ -249,11 +219,6 @@
           "Type": "Fixed",
           "ProductID": [
             "Image SLES15-SP5-BYOS-EC2:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-Aliyun:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-Azure:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-EC2:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-GCE:libopenssl3-3.0.8-150500.5.3.1",
-            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:libopenssl3-3.0.8-150500.5.3.1",
             "Image SLES15-SP5-EC2:libopenssl3-3.0.8-150500.5.3.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl3-3.0.8-150500.5.3.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl3-3.0.8-150500.5.3.1",
