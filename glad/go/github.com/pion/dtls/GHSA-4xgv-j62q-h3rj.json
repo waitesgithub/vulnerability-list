@@ -3,7 +3,7 @@
   "PackageSlug": "go/github.com/pion/dtls",
   "Title": "Improper Check or Handling of Exceptional Conditions",
   "Description": "During the unmarshalling of a hello verify request we could try to unmarshal into too small a buffer. is could result in a panic leading the program to crash. This issue could be abused to cause a denial of service.",
-  "Date": "2023-04-04",
+  "Date": "2023-06-13",
   "Pubdate": "2023-02-07",
   "AffectedRange": "\u003cv2.2.4",
   "FixedVersions": [
