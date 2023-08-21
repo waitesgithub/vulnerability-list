@@ -2,6 +2,18 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package qt5-qtbase is earlier than 5.12.11-9, affected by CVE-2023-37369",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27920000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27920001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27920002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package curl is earlier than 8.2.1-1, affected by CVE-2023-32001",
       "ID": "oval:com.microsoft.cbl-mariner:tst:27795000",
       "Version": "1",
