@@ -1,13 +1,12 @@
 {
-  "name": "kubernetes-1.28",
+  "name": "cassandra",
   "secfixes": {
     "0": [
-      "CVE-2015-7561",
-      "CVE-2016-1905",
-      "CVE-2016-1906",
-      "CVE-2016-7075",
-      "CVE-2019-11255",
-      "CVE-2020-8554"
+      "CVE-2020-13946",
+      "CVE-2020-8908",
+      "CVE-2022-1471",
+      "CVE-2023-2976",
+      "CVE-2023-35116"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
