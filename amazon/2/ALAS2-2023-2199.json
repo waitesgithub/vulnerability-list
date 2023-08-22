@@ -5,7 +5,7 @@
     "date": "2023-08-03 18:10"
   },
   "updated": {
-    "date": "2023-08-03 18:10"
+    "date": "2023-08-08 22:02"
   },
   "severity": "medium",
   "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2019-25051:\n\tobjstack in GNU Aspell 0.60.8 has a heap-based buffer overflow in acommon::ObjStack::dup_top (called from acommon::StringMap::add and acommon::Config::lookup_list).\n",
