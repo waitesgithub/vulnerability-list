@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-01-27T00:09:32Z",
+  "UpdatedAt": "2023-08-23T16:37:48Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "spree"
@@ -23,6 +23,15 @@
         "Url": "https://web.archive.org/web/20101128024939/http://spreecommerce.com/blog/2008/08/12/security-vulernability-session-cookie-store/"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/spree/CVE-2008-7311.yml"
+      },
+      {
+        "Url": "https://spreecommerce.com/blog/security-vulernability-session-cookie-store"
+      },
+      {
+        "Url": "http://spreecommerce.com/blog/2008/08/12/security-vulernability-session-cookie-store/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-g466-57gh-cqfw"
       }
     ],
@@ -41,7 +50,7 @@
     "PublishedAt": "2022-05-17T05:30:58Z",
     "Severity": "MODERATE",
     "Summary": "Spree uses a hardcoded hash value",
-    "UpdatedAt": "2023-01-27T00:09:32Z",
+    "UpdatedAt": "2023-08-23T16:37:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
