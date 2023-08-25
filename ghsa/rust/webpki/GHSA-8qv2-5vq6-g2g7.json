@@ -1,0 +1,49 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2023-08-25T00:12:39Z",
+  "Package": {
+    "Ecosystem": "RUST",
+    "Name": "webpki"
+  },
+  "Advisory": {
+    "DatabaseId": 219103,
+    "Id": "GSA_kwCzR0hTQS04cXYyLTV2cTYtZzJnN84AA1ff",
+    "GhsaId": "GHSA-8qv2-5vq6-g2g7",
+    "References": [
+      {
+        "Url": "https://github.com/crypto-com/sgx-vendor"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2023-0052.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-8qv2-5vq6-g2g7"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-8qv2-5vq6-g2g7"
+      }
+    ],
+    "Description": "When this crate is given a pathological certificate chain to validate, it will\nspend CPU time exponential with the number of candidate certificates at each\nstep of path building.\n\nBoth TLS clients and TLS servers that accept client certificate are affected.\n\nThis was previously reported in\n\u003chttps://github.com/briansmith/webpki/issues/69\u003e and re-reported recently\nby Luke Malinowski.\n\n`rustls-webpki` is a fork of this crate which contains a fix for this issue\nand is actively maintained.\n",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2023-08-25T00:12:39Z",
+    "Severity": "HIGH",
+    "Summary": "webpki: CPU denial of service in certificate path building",
+    "UpdatedAt": "2023-08-25T00:12:39Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 0.22.0"
+    }
+  ]
+}

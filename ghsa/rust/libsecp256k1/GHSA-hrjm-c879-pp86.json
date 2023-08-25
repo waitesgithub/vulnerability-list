@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-08-19T21:19:41Z",
+  "UpdatedAt": "2023-08-25T00:12:25Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "libsecp256k1"
@@ -33,12 +33,12 @@
         "Value": "CVE-2019-25003"
       }
     ],
-    "Description": "An issue was discovered in the libsecp256k1 crate before 0.3.1 for Rust. Scalar::check_overflow allows a timing side-channel attack; consequently, attackers can obtain sensitive information.",
+    "Description": "Versions of libsecp256k1 prior to 0.3.1 did not execute `Scalar::check_overflow` in constant time. This allows an attacker to potentially leak information via a timing attack. The flaw was corrected by modifying `Scalar::check_overflow` to execute in constant time.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-08-25T20:46:46Z",
     "Severity": "HIGH",
-    "Summary": "Side-channel timing attack in libsecp256k1",
-    "UpdatedAt": "2023-01-09T05:05:14Z",
+    "Summary": "libsecp256k1 contains side-channel timing attack",
+    "UpdatedAt": "2023-08-25T00:12:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
