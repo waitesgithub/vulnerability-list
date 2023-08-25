@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2018-04-06T15:10:08Z",
+  "UpdatedAt": "2023-08-25T15:29:07Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "bson"
@@ -33,6 +33,12 @@
       },
       {
         "Url": "http://www.securityfocus.com/bid/75045"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bson/CVE-2015-4412.yml"
+      },
+      {
+        "Url": "http://sakurity.com/blog/2015/06/04/mongo_ruby_regexp.html"
       }
     ],
     "Identifiers": [
@@ -50,7 +56,7 @@
     "PublishedAt": "2018-03-05T19:43:21Z",
     "Severity": "CRITICAL",
     "Summary": "bson is vulnerable to denial of service due to incorrect regex validation",
-    "UpdatedAt": "2023-01-09T05:02:55Z",
+    "UpdatedAt": "2023-08-25T15:29:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
