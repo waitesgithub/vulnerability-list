@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2020-08-05T14:51:46Z",
+  "UpdatedAt": "2023-08-25T22:21:15Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "pghero"
@@ -23,12 +23,6 @@
         "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/pghero/CVE-2020-16253.yml"
       },
       {
-        "Url": "https://rubygems.org/gems/pghero"
-      },
-      {
-        "Url": "https://github.com/ankane/pghero/"
-      },
-      {
         "Url": "https://github.com/advisories/GHSA-v6fx-752r-ccp2"
       }
     ],
@@ -42,12 +36,12 @@
         "Value": "CVE-2020-16253"
       }
     ],
-    "Description": "The PgHero gem through 2.6.0 for Ruby allows CSRF.",
+    "Description": "The PgHero gem through 2.6.0 for Ruby allows CSRF. PgHero normally uses the `protect_from_forgery` method from Rails to prevent CSRF. However, this defaults to `:null_session`, which has no effect on non-session based authentication methods. Thus the ruby gem is vulnerable with non-session based authentication methods like basic authentication.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-08-05T14:53:43Z",
     "Severity": "HIGH",
-    "Summary": "CSRF on PgHero gem",
-    "UpdatedAt": "2023-01-09T05:03:59Z",
+    "Summary": "PgHero gem allows CSRF",
+    "UpdatedAt": "2023-08-25T22:21:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

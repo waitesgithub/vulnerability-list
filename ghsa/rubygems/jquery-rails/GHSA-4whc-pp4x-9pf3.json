@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "UpdatedAt": "2023-08-25T21:31:03Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "jquery-rails"
@@ -38,7 +38,13 @@
         "Url": "http://openwall.com/lists/oss-security/2015/06/16/15"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/75239"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/jquery-ujs/CVE-2015-1840.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/ruby-security-ann/XIZPbobuwaY"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200228084945/http://www.securityfocus.com/bid/75239"
       }
     ],
     "Identifiers": [
@@ -56,7 +62,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
     "Summary": "jquery-rails and jquery-ujs subject to Exposure of Sensitive Information",
-    "UpdatedAt": "2023-01-20T22:28:52Z",
+    "UpdatedAt": "2023-08-25T21:31:03Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

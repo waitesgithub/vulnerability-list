@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-06-01T16:59:55Z",
+  "UpdatedAt": "2023-08-25T21:02:51Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "dragonfly"
@@ -33,6 +33,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-j858-xp5v-f8xx"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/dragonfly/CVE-2021-33564.yml"
       }
     ],
     "Identifiers": [
@@ -45,12 +48,12 @@
         "Value": "CVE-2021-33564"
       }
     ],
-    "Description": "An argument injection vulnerability in the Dragonfly gem before 1.4.0 for Ruby allows remote attackers to read and write to arbitrary files via a crafted URL when the verify_url option is disabled. This may lead to code execution. The problem occurs because the generate and process features mishandle use of the ImageMagick convert utility.",
+    "Description": "An argument injection vulnerability in the Dragonfly gem before 1.4.0 for Ruby allows remote attackers to read and write to arbitrary files via a crafted URL when the `verify_url` option is disabled. This may lead to code execution. The problem occurs because the generate and process features mishandle use of the ImageMagick convert utility.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-06-02T21:42:49Z",
     "Severity": "CRITICAL",
-    "Summary": "Remote code execution in Dragonfly",
-    "UpdatedAt": "2023-02-01T05:05:57Z",
+    "Summary": "Dragonfly contains remote code execution vulnerability",
+    "UpdatedAt": "2023-08-25T21:02:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2019-04-04T16:27:46Z",
+  "UpdatedAt": "2023-08-25T23:39:11Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "bootstrap-sass"
@@ -23,6 +23,9 @@
         "Url": "https://snyk.io/vuln/SNYK-RUBY-BOOTSTRAPSASS-174093"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bootstrap-sass/CVE-2019-10842.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vqqv-v9m2-48p2"
       }
     ],
@@ -40,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-04-04T16:28:47Z",
     "Severity": "CRITICAL",
-    "Summary": "Critical severity vulnerability that affects bootstrap-sass",
-    "UpdatedAt": "2023-01-09T05:03:15Z",
+    "Summary": "Bootstrap-sass contains code execution backdoor",
+    "UpdatedAt": "2023-08-25T23:39:11Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

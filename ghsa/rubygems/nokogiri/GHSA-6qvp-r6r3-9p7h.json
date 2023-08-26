@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2019-01-17T14:04:52Z",
+  "UpdatedAt": "2023-08-26T00:01:35Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "nokogiri"
@@ -41,6 +41,12 @@
         "Url": "https://usn.ubuntu.com/3739-2/"
       },
       {
+        "Url": "https://github.com/sparklemotion/nokogiri/issues/1785"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/nokogiri/CVE-2018-14404.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-6qvp-r6r3-9p7h"
       }
     ],
@@ -54,12 +60,12 @@
         "Value": "CVE-2018-14404"
       }
     ],
-    "Description": "A NULL pointer dereference vulnerability exists in the xpath.c:xmlXPathCompOpEval() function of libxml2 through 2.9.8 when parsing an invalid XPath expression in the XPATH_OP_AND or XPATH_OP_OR case. Applications processing untrusted XSL format inputs with the use of the libxml2 library may be vulnerable to a denial of service attack due to a crash of the application.",
+    "Description": "A NULL pointer dereference vulnerability exists in the `xpath.c:xmlXPathCompOpEval()` function of libxml2 through 2.9.8 when parsing an invalid XPath expression in the `XPATH_OP_AND` or `XPATH_OP_OR` case. Applications processing untrusted XSL format inputs with the use of the libxml2 library may be vulnerable to a denial of service attack due to a crash of the application.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-01-17T14:05:03Z",
     "Severity": "HIGH",
-    "Summary": "NULL Pointer Dereference in nokogiri",
-    "UpdatedAt": "2023-01-09T05:03:45Z",
+    "Summary": "Nokogiri NULL Pointer Dereference",
+    "UpdatedAt": "2023-08-26T00:01:35Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

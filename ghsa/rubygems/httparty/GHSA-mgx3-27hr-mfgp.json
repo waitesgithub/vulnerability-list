@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2017-10-24T18:33:37Z",
+  "UpdatedAt": "2023-08-25T23:53:44Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "httparty"
@@ -18,6 +18,15 @@
       },
       {
         "Url": "https://bugzilla.redhat.com/show_bug.cgi?id=917229"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/httparty/CVE-2013-1801.yml"
+      },
+      {
+        "Url": "https://support.cloud.engineyard.com/entries/22915701-january-14-2013-security-vulnerabilities-httparty-extlib-crack-nori-update-these-gems-immediately"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200229101716/http://www.securityfocus.com/bid/58260"
       },
       {
         "Url": "https://github.com/advisories/GHSA-mgx3-27hr-mfgp"
@@ -38,7 +47,7 @@
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "HIGH",
     "Summary": "HTTParty does not restrict casts of string values",
-    "UpdatedAt": "2023-03-14T20:47:12Z",
+    "UpdatedAt": "2023-08-25T23:53:44Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
@@ -50,7 +59,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.10.0"
       },
-      "VulnerableVersionRange": "\u003c 0.10.0"
+      "VulnerableVersionRange": "\u003c= 0.9.0"
     }
   ]
 }

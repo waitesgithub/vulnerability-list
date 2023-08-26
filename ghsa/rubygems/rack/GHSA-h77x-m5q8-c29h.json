@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:37Z",
+  "UpdatedAt": "2023-08-25T23:23:24Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rack"
@@ -38,6 +38,9 @@
         "Url": "https://rhn.redhat.com/errata/RHSA-2013-0544.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2012-6109.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-h77x-m5q8-c29h"
       }
     ],
@@ -51,12 +54,12 @@
         "Value": "CVE-2012-6109"
       }
     ],
-    "Description": "lib/rack/multipart.rb in Rack before 1.1.4, 1.2.x before 1.2.6, 1.3.x before 1.3.7, and 1.4.x before 1.4.2 uses an incorrect regular expression, which allows remote attackers to cause a denial of service (infinite loop) via a crafted Content-Disposion header.",
+    "Description": "`lib/rack/multipart.rb` in Rack before 1.1.4, 1.2.x before 1.2.6, 1.3.x before 1.3.7, and 1.4.x before 1.4.2 uses an incorrect regular expression, which allows remote attackers to cause a denial of service (infinite loop) via a crafted Content-Disposion header.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
-    "Summary": "Infinite loop in rack",
-    "UpdatedAt": "2023-02-13T17:03:42Z",
+    "Summary": "Rack vulnerable to REDoS",
+    "UpdatedAt": "2023-08-25T23:23:24Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

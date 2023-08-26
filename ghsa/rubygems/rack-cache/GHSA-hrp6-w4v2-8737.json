@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-03-27T16:14:34Z",
+  "UpdatedAt": "2023-08-25T23:19:50Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rack-cache"
@@ -35,6 +35,12 @@
         "Url": "http://www.openwall.com/lists/oss-security/2012/06/06/8"
       },
       {
+        "Url": "https://bugzilla.novell.com/show_bug.cgi?id=763650"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack-cache/CVE-2012-2671.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-hrp6-w4v2-8737"
       }
     ],
@@ -53,7 +59,7 @@
     "PublishedAt": "2022-05-17T05:05:40Z",
     "Severity": "MODERATE",
     "Summary": "Rack-Cache caches sensitive headers",
-    "UpdatedAt": "2023-03-27T16:14:34Z",
+    "UpdatedAt": "2023-08-25T23:19:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

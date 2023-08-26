@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2019-10-24T20:44:30Z",
+  "UpdatedAt": "2023-08-25T21:37:29Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "loofah"
@@ -38,6 +38,9 @@
         "Url": "https://github.com/flavorjones/loofah/commit/0c6617af440879ce97440f6eb6c58636456dc8ec"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/loofah/CVE-2019-15587.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-c3gv-9cxf-6f57"
       }
     ],
@@ -51,12 +54,12 @@
         "Value": "CVE-2019-15587"
       }
     ],
-    "Description": "In the Loofah gem for Ruby through v2.3.0 unsanitized JavaScript may occur in sanitized output when a crafted SVG element is republished.",
+    "Description": "In the Loofah gem for Ruby through v2.3.0, unsanitized JavaScript may occur in sanitized output when a crafted SVG element is republished.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-11-05T23:58:25Z",
     "Severity": "MODERATE",
-    "Summary": "Cross-site Scripting in Loofah",
-    "UpdatedAt": "2023-03-31T15:59:47Z",
+    "Summary": "Loofah Allows Cross-site Scripting",
+    "UpdatedAt": "2023-08-25T21:37:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

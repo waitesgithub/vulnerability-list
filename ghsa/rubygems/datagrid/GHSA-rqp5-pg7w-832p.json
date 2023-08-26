@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2019-07-31T03:56:23Z",
+  "UpdatedAt": "2023-08-25T21:06:24Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "datagrid"
@@ -20,6 +20,9 @@
         "Url": "https://rubygems.org/gems/datagrid/versions"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/datagrid/CVE-2019-14281.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-rqp5-pg7w-832p"
       }
     ],
@@ -37,8 +40,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-07-31T04:21:27Z",
     "Severity": "CRITICAL",
-    "Summary": "Code Injection in datagrid",
-    "UpdatedAt": "2023-02-01T05:02:20Z",
+    "Summary": "datagrid contains code Injection backdoor",
+    "UpdatedAt": "2023-08-25T21:06:24Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2019-10-16T15:18:03Z",
+  "UpdatedAt": "2023-08-25T21:32:08Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "haml"
@@ -29,6 +29,9 @@
         "Url": "https://lists.debian.org/debian-lts-announce/2021/12/msg00028.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/haml/CVE-2017-1002201.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-r53w-g4xm-3gc6"
       }
     ],
@@ -42,12 +45,12 @@
         "Value": "CVE-2017-1002201"
       }
     ],
-    "Description": "In haml versions prior to version 5.0.0.beta.2, when using user input to perform tasks on the server, characters like \u003c \u003e \" ' must be escaped properly. In this case, the ' character was missed. An attacker can manipulate the input to introduce additional attributes, potentially executing code.",
+    "Description": "In haml versions prior to version 5.0.0.beta.2, when using user input to perform tasks on the server, characters like `\u003c \u003e \" '` must be escaped properly. In this case, the `'` character was missed. An attacker can manipulate the input to introduce additional attributes, potentially executing code.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-10-21T21:59:13Z",
     "Severity": "MODERATE",
-    "Summary": "Cross-site scripting in Haml",
-    "UpdatedAt": "2023-02-01T05:02:40Z",
+    "Summary": "Haml vulnerable to cross-site scripting",
+    "UpdatedAt": "2023-08-25T21:32:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

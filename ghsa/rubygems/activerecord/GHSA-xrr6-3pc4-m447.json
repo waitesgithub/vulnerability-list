@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-06-10T18:42:42Z",
+  "UpdatedAt": "2023-08-25T23:37:48Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "activerecord"
@@ -38,6 +38,12 @@
         "Url": "http://www.openwall.com/lists/oss-security/2016/01/25/10"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activerecord/CVE-2015-7577.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/cawsWcQ6c8g"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-xrr6-3pc4-m447"
       }
     ],
@@ -51,12 +57,12 @@
         "Value": "CVE-2015-7577"
       }
     ],
-    "Description": "activerecord/lib/active_record/nested_attributes.rb in Active Record in Ruby on Rails 3.1.x and 3.2.x before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 does not properly implement a certain destroy option, which allows remote attackers to bypass intended change restrictions by leveraging use of the nested attributes feature.",
+    "Description": "`activerecord/lib/active_record/nested_attributes.rb` in Active Record in Ruby on Rails 3.1.x and 3.2.x before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 does not properly implement a certain destroy option, which allows remote attackers to bypass intended change restrictions by leveraging use of the nested attributes feature.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
-    "Summary": "Active record vulnerable to Improper Access Control",
-    "UpdatedAt": "2023-03-14T21:39:11Z",
+    "Summary": "Active Record Improper Access Control",
+    "UpdatedAt": "2023-08-25T23:37:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
@@ -64,6 +70,18 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "5.0.0.beta1.1"
+      },
+      "VulnerableVersionRange": "= 5.0.0.beta1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.2.5.1"
+      },
+      "VulnerableVersionRange": "\u003e= 4.2.0, \u003c 4.2.5.1"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "4.1.14.1"

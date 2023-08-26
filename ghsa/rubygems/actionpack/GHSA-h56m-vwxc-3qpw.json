@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2020-06-17T16:17:34Z",
+  "UpdatedAt": "2023-08-25T19:56:50Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "actionpack"
@@ -26,7 +26,13 @@
         "Url": "http://lists.opensuse.org/opensuse-updates/2014-11/msg00112.html"
       },
       {
-        "Url": "http://www.securityfocus.com/bid/71183"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2014-7829.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/rubyonrails-security/rMTQy4oRCGk"
+      },
+      {
+        "Url": "https://web.archive.org/web/20160403085126/http://www.securityfocus.com/bid/71183"
       }
     ],
     "Identifiers": [
@@ -44,7 +50,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
     "Summary": "Directory traversal vulnerability in actionpack",
-    "UpdatedAt": "2023-01-18T21:57:41Z",
+    "UpdatedAt": "2023-08-25T19:56:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
@@ -52,6 +58,12 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.2.0.beta4"
+      },
+      "VulnerableVersionRange": "\u003e= 4.2.0.beta1, \u003c 4.2.0.beta4"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "4.1.8"

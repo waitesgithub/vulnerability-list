@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2017-10-24T18:33:37Z",
+  "UpdatedAt": "2023-08-25T20:10:52Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "activesupport"
@@ -66,6 +66,9 @@
       },
       {
         "Url": "https://groups.google.com/forum/?fromgroups=#!topic/rubyonrails-security/1h2DR63ViGo"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activesupport/CVE-2013-0333.yml"
       }
     ],
     "Identifiers": [
@@ -78,12 +81,12 @@
         "Value": "CVE-2013-0333"
       }
     ],
-    "Description": "lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.",
+    "Description": "`lib/active_support/json/backends/yaml.rb` in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "HIGH",
     "Summary": "activesupport in Rails vulnerable to incorrect data conversion",
-    "UpdatedAt": "2023-02-15T22:21:53Z",
+    "UpdatedAt": "2023-08-25T20:10:52Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

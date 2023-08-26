@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "UpdatedAt": "2023-08-25T19:25:02Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "actionpack"
@@ -47,6 +47,15 @@
         "Url": "https://web.archive.org/web/20160806051251/https://puppet.com/security/cve/cve-2013-6417"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2013-6417.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/ruby-security-ann/niK4drpSHT4"
+      },
+      {
+        "Url": "https://puppet.com/security/cve/cve-2013-6417"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-wpw7-wxjm-cw8r"
       }
     ],
@@ -65,7 +74,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
     "Summary": "actionpack allows bypass of database-query restrictions",
-    "UpdatedAt": "2023-01-23T18:08:21Z",
+    "UpdatedAt": "2023-08-25T19:25:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

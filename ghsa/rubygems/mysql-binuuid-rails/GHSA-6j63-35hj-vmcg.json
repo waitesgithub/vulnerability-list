@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2018-10-30T20:34:50Z",
+  "UpdatedAt": "2023-08-25T21:32:56Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "mysql-binuuid-rails"
@@ -23,6 +23,9 @@
         "Url": "https://github.com/nedap/mysql-binuuid-rails/commit/9ae920951b46ff0163b16c55d744e89acb1036d4"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/mysql-binuuid-rails/CVE-2018-18476.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-6j63-35hj-vmcg"
       }
     ],
@@ -40,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-10-30T20:34:06Z",
     "Severity": "CRITICAL",
-    "Summary": "SQL injection in mysql-bunuuid-rails",
-    "UpdatedAt": "2023-04-17T16:33:00Z",
+    "Summary": "mysql-bunuuid-rails vulnerable to SQL injection",
+    "UpdatedAt": "2023-08-25T21:32:56Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

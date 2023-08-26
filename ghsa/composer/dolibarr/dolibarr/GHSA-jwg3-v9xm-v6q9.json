@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-14T22:16:26Z",
+  "UpdatedAt": "2023-08-25T21:26:34Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "dolibarr/dolibarr"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://github.com/Dolibarr/dolibarr/issues/10984#issuecomment-485841141"
+      },
+      {
+        "Url": "https://github.com/Dolibarr/dolibarr/commit/63c0ab93fb21f86c1b736061af9fa1eee90148fd"
       },
       {
         "Url": "https://github.com/advisories/GHSA-jwg3-v9xm-v6q9"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-05-24T16:51:38Z",
     "Severity": "HIGH",
     "Summary": "Dolibarr ERP and CRM Code Injection",
-    "UpdatedAt": "2023-07-14T22:16:26Z",
+    "UpdatedAt": "2023-08-25T21:26:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8,

@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-14T22:19:54Z",
+  "UpdatedAt": "2023-08-25T21:27:05Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "dolibarr/dolibarr"
@@ -18,6 +18,12 @@
       },
       {
         "Url": "https://github.com/Dolibarr/dolibarr/issues/10984#issuecomment-488297419"
+      },
+      {
+        "Url": "https://github.com/Dolibarr/dolibarr/commit/d6ae62478c8841fdfe58971494818b599f396d4f"
+      },
+      {
+        "Url": "https://github.com/Dolibarr/dolibarr/commit/01075081cbcd9130a72115cdb50ee61fc394edc1"
       },
       {
         "Url": "https://github.com/advisories/GHSA-2rwh-262r-r85j"
@@ -38,7 +44,7 @@
     "PublishedAt": "2022-05-24T16:51:38Z",
     "Severity": "HIGH",
     "Summary": "Dolibarr ERP and CRM malicious executable loading",
-    "UpdatedAt": "2023-07-14T22:19:54Z",
+    "UpdatedAt": "2023-08-25T21:27:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -48,9 +54,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "9.0.3"
       },
-      "VulnerableVersionRange": "\u003c= 9.0.1"
+      "VulnerableVersionRange": "\u003c 9.0.3"
     }
   ]
 }

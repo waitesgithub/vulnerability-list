@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-07-07T22:27:33Z",
+  "UpdatedAt": "2023-08-25T20:47:15Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "dragonfly"
@@ -29,6 +29,9 @@
         "Url": "https://github.com/markevans/dragonfly/issues/520"
       },
       {
+        "Url": "https://github.com/github/advisory-database/pull/486"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-qrgf-jqqm-x7xv"
       }
     ],
@@ -47,7 +50,7 @@
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "HIGH",
     "Summary": "Code injection in dragonfly gem",
-    "UpdatedAt": "2023-01-24T14:54:20Z",
+    "UpdatedAt": "2023-08-25T20:47:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2017-10-24T18:33:37Z",
+  "UpdatedAt": "2023-08-25T22:24:58Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "md2pdf"
@@ -17,7 +17,13 @@
         "Url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/83416"
       },
       {
-        "Url": "https://web.archive.org/web/20200229101715/http://www.securityfocus.com/bid/59061"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/md2pdf/CVE-2013-1948.yml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20130503194109/http://www.securityfocus.com/bid/59061"
+      },
+      {
+        "Url": "http://vapid.dhs.org/advisories/md2pdf-remote-exec.html"
       },
       {
         "Url": "https://github.com/advisories/GHSA-99ch-8mvp-g7m5"
@@ -38,7 +44,7 @@
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "CRITICAL",
     "Summary": "md2pdf allows context-dependent attackers to execute arbitrary commands via shell metacharacters in a filename",
-    "UpdatedAt": "2023-01-23T16:37:20Z",
+    "UpdatedAt": "2023-08-25T22:24:58Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

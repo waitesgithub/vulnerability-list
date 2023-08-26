@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-04-27T15:54:17Z",
+  "UpdatedAt": "2023-08-25T22:09:00Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "pgsync"
@@ -23,7 +23,7 @@
         "Url": "https://github.com/ankane/pgsync/blob/master/CHANGELOG.md#067-2021-04-26"
       },
       {
-        "Url": "https://rubygems.org/gems/pgsync"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/pgsync/CVE-2021-31671.yml"
       },
       {
         "Url": "https://github.com/advisories/GHSA-72rj-36qc-47g7"
@@ -39,12 +39,12 @@
         "Value": "CVE-2021-31671"
       }
     ],
-    "Description": "pgsync before 0.6.7 is affected by Information Disclosure of sensitive information. Syncing the schema with the --schema-first and --schema-only options is mishandled. For example, the sslmode connection parameter may be lost, which means that SSL would not be used.",
+    "Description": "pgsync before 0.6.7 is affected by Information Disclosure of sensitive information. Syncing the schema with the `--schema-first` and `--schema-only` options is mishandled. For example, the sslmode connection parameter may be lost, which means that SSL would not be used.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-04-27T15:54:52Z",
     "Severity": "HIGH",
-    "Summary": "pgsync contains Cleartext Transmission of Sensitive Information",
-    "UpdatedAt": "2023-02-03T05:03:43Z",
+    "Summary": "Pgsync Contains Cleartext Transmission of Sensitive Information",
+    "UpdatedAt": "2023-08-25T22:09:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

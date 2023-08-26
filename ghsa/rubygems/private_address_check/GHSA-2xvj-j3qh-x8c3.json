@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2018-07-31T18:12:55Z",
+  "UpdatedAt": "2023-08-25T21:42:19Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "private_address_check"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-2xvj-j3qh-x8c3"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/private_address_check/CVE-2018-3759.yml"
       }
     ],
     "Identifiers": [
@@ -30,12 +33,12 @@
         "Value": "CVE-2018-3759"
       }
     ],
-    "Description": "private_address_check ruby gem before 0.5.0 is vulnerable to a time-of-check time-of-use (TOCTOU) race condition due to the address the socket uses not being checked. DNS entries with a TTL of 0 can trigger this case where the initial resolution is a public address but the subsequent resolution is a private address.",
+    "Description": "The private_address_check ruby gem before 0.5.0 is vulnerable to a time-of-check time-of-use (TOCTOU) race condition due to the address the socket uses not being checked. DNS entries with a TTL of 0 can trigger this case where the initial resolution is a public address but the subsequent resolution is a private address.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-07-31T18:13:05Z",
     "Severity": "HIGH",
-    "Summary": "Race Condition in private_address_check",
-    "UpdatedAt": "2023-01-18T21:36:42Z",
+    "Summary": "private_address_check contains race condition",
+    "UpdatedAt": "2023-08-25T21:42:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

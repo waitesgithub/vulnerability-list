@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-09-13T19:07:07Z",
+  "UpdatedAt": "2023-08-25T20:56:58Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "clearance"
@@ -21,6 +21,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-4hpq-rjcx-7vj9"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/clearance/CVE-2021-23435.yml"
       }
     ],
     "Identifiers": [
@@ -33,12 +36,12 @@
         "Value": "CVE-2021-23435"
       }
     ],
-    "Description": "This affects the package clearance before 2.5.0. The vulnerability can be possible when users are able to set the value of session[:return_to]. If the value used for return_to contains multiple leading slashes (/////example.com) the user ends up being redirected to the external domain that comes after the slashes (http://example.com).",
+    "Description": "This affects the package clearance before 2.5.0. The vulnerability can be possible when users are able to set the value of `session[:return_to]`. If the value used for return_to contains multiple leading slashes (`/////example.com`) the user ends up being redirected to the external domain that comes after the slashes (`http://example.com`).",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-09-13T20:05:09Z",
     "Severity": "HIGH",
-    "Summary": "Open Redirect in clearance",
-    "UpdatedAt": "2023-01-09T05:05:18Z",
+    "Summary": "Clearance Gem Open Redirect Vulnerability",
+    "UpdatedAt": "2023-08-25T20:56:58Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.6,

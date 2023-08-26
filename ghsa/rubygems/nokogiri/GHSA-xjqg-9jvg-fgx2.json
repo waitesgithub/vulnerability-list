@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-06-10T19:32:04Z",
+  "UpdatedAt": "2023-08-25T23:59:46Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "nokogiri"
@@ -71,6 +71,12 @@
         "Url": "http://xmlsoft.org/news.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/nokogiri/CVE-2015-5312.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/ruby-security-ann/aSbgDiwb24s"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-xjqg-9jvg-fgx2"
       }
     ],
@@ -89,7 +95,7 @@
     "PublishedAt": "2018-08-21T19:03:04Z",
     "Severity": "HIGH",
     "Summary": "Nokogiri subject to DoS via libxml2 vulnerability",
-    "UpdatedAt": "2023-03-13T23:53:37Z",
+    "UpdatedAt": "2023-08-25T23:59:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

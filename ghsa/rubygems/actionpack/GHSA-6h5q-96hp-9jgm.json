@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:37Z",
+  "UpdatedAt": "2023-08-25T18:48:40Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "actionpack"
@@ -30,6 +30,39 @@
       },
       {
         "Url": "http://www.debian.org/security/2014/dsa-2888"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2013-6415.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/ruby-security-ann/9WiRn2nhfq0"
+      },
+      {
+        "Url": "https://groups.google.com/forum/message/raw?msg=ruby-security-ann/9WiRn2nhfq0/2K2KRB4LwCMJ"
+      },
+      {
+        "Url": "https://puppet.com/security/cve/cve-2013-6415"
+      },
+      {
+        "Url": "https://web.archive.org/web/20131206180005/http://www.securityfocus.com/bid/64077"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-updates/2013-12/msg00079.html"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-updates/2013-12/msg00080.html"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-updates/2013-12/msg00081.html"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-updates/2013-12/msg00082.html"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-updates/2014-01/msg00003.html"
+      },
+      {
+        "Url": "http://lists.opensuse.org/opensuse-updates/2014-01/msg00013.html"
       }
     ],
     "Identifiers": [
@@ -42,12 +75,12 @@
         "Value": "CVE-2013-6415"
       }
     ],
-    "Description": "Cross-site scripting (XSS) vulnerability in the number_to_currency helper in actionpack/lib/action_view/helpers/number_helper.rb in Ruby on Rails before 3.2.16 and 4.x before 4.0.2 allows remote attackers to inject arbitrary web script or HTML via the unit parameter.",
+    "Description": "Cross-site scripting (XSS) vulnerability in the `number_to_currency` helper in `actionpack/lib/action_view/helpers/number_helper.rb` in Ruby on Rails before 3.2.16 and 4.x before 4.0.2 allows remote attackers to inject arbitrary web script or HTML via the unit parameter.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
     "Summary": "actionpack vulnerable to Cross-site Scripting",
-    "UpdatedAt": "2023-01-21T04:36:47Z",
+    "UpdatedAt": "2023-08-25T18:48:40Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
