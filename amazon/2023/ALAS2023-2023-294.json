@@ -5,7 +5,7 @@
     "date": "2023-08-17 11:19"
   },
   "updated": {
-    "date": "2023-08-17 11:19"
+    "date": "2023-08-23 22:29"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-39976:\n\tlog_blackbox.c in libqb before 2.0.8 allows a buffer overflow via long log messages because the header size is not considered.\n",
