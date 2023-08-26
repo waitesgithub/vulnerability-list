@@ -1,9 +1,8 @@
 {
-  "name": "prometheus-config-reloader",
+  "name": "metrics-server-0.6.3",
   "secfixes": {
     "0": [
-      "CVE-2019-3826",
-      "CVE-2023-40577"
+      "CVE-2019-3826"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

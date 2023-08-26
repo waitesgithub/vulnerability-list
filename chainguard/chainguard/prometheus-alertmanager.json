@@ -1,8 +1,7 @@
 {
-  "name": "prometheus-config-reloader",
+  "name": "prometheus-alertmanager",
   "secfixes": {
-    "0": [
-      "CVE-2019-3826",
+    "0.26.0-r0": [
       "CVE-2023-40577"
     ]
   },

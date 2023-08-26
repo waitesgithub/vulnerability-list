@@ -1,9 +1,9 @@
 {
-  "name": "prometheus-config-reloader",
+  "name": "telegraf-1.26",
   "secfixes": {
     "0": [
       "CVE-2019-3826",
-      "CVE-2023-40577"
+      "GHSA-2w8w-qhg4-f78j"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
