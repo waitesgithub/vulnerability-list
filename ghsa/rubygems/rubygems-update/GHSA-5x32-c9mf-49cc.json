@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2019-06-20T16:02:51Z",
+  "UpdatedAt": "2023-08-28T13:16:23Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rubygems-update"
@@ -29,6 +29,9 @@
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2019-07/msg00036.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rubygems-update/CVE-2019-8320.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-5x32-c9mf-49cc"
       }
     ],
@@ -46,8 +49,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-06-20T16:06:15Z",
     "Severity": "HIGH",
-    "Summary": "Directory traversal in RubyGems",
-    "UpdatedAt": "2023-03-13T22:53:34Z",
+    "Summary": "RubyGems Delete directory using symlink when decompressing tar",
+    "UpdatedAt": "2023-08-28T13:16:23Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.4,

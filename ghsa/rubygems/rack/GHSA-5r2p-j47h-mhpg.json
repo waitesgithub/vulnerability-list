@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2018-11-15T15:58:29Z",
+  "UpdatedAt": "2023-08-28T12:48:12Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rack"
@@ -29,6 +29,12 @@
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2020-02/msg00016.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2018-16471.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/ruby-security-ann/NAalCee8n6o"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-5r2p-j47h-mhpg"
       }
     ],
@@ -47,11 +53,11 @@
     "PublishedAt": "2018-11-15T15:59:08Z",
     "Severity": "MODERATE",
     "Summary": "Rack vulnerable to Cross-site Scripting",
-    "UpdatedAt": "2023-03-22T05:03:09Z",
+    "UpdatedAt": "2023-08-28T12:48:12Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 6.1,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [

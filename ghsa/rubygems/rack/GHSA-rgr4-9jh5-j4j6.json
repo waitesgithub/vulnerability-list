@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "UpdatedAt": "2023-08-28T12:22:40Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rack"
@@ -41,6 +41,12 @@
         "Url": "http://www.debian.org/security/2015/dsa-3322"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2015-3225.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/ruby-security-ann/gcUbICUmKMc"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-rgr4-9jh5-j4j6"
       }
     ],
@@ -59,7 +65,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
     "Summary": "Rack vulnerable to Denial of Service via large parameter depth request",
-    "UpdatedAt": "2023-03-14T21:47:09Z",
+    "UpdatedAt": "2023-08-28T12:22:40Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
@@ -69,15 +75,21 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.6.2"
+        "Identifier": "1.4.6"
       },
-      "VulnerableVersionRange": "\u003e= 1.6.0, \u003c 1.6.2"
+      "VulnerableVersionRange": "\u003e= 1.4.0, \u003c 1.4.6"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "1.5.4"
       },
-      "VulnerableVersionRange": "\u003c 1.5.4"
+      "VulnerableVersionRange": "\u003e= 1.5.0, \u003c 1.5.4"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.6.2"
+      },
+      "VulnerableVersionRange": "\u003e= 1.6.0, \u003c 1.6.2"
     }
   ]
 }

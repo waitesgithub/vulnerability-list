@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2019-06-20T15:59:35Z",
+  "UpdatedAt": "2023-08-28T13:23:46Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rubygems-update"
@@ -20,6 +20,15 @@
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2019-07/msg00036.html"
       },
       {
+        "Url": "https://hackerone.com/reports/315081"
+      },
+      {
+        "Url": "https://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rubygems-update/CVE-2019-8323.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-3h4r-pjv6-cph9"
       }
     ],
@@ -37,8 +46,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-06-20T16:05:57Z",
     "Severity": "HIGH",
-    "Summary": "Escape sequence injection in RubyGems",
-    "UpdatedAt": "2023-01-09T05:01:44Z",
+    "Summary": "RubyGems Escape sequence injection vulnerability in api response handling",
+    "UpdatedAt": "2023-08-28T13:23:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

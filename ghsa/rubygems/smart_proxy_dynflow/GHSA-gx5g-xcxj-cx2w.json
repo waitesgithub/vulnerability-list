@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2018-10-08T23:02:18Z",
+  "UpdatedAt": "2023-08-28T13:40:51Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "smart_proxy_dynflow"
@@ -29,6 +29,9 @@
         "Url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-14643"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/smart_proxy_dynflow/CVE-2018-14643.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-gx5g-xcxj-cx2w"
       }
     ],
@@ -46,8 +49,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-10-08T23:18:13Z",
     "Severity": "CRITICAL",
-    "Summary": "Improper Authentication in smart_proxy_dynflow",
-    "UpdatedAt": "2023-02-03T20:37:10Z",
+    "Summary": "smart_proxy_dynflow gem authentication bypass in Foreman remote execution feature",
+    "UpdatedAt": "2023-08-28T13:40:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

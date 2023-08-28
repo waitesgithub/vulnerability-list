@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2019-06-20T16:00:41Z",
+  "UpdatedAt": "2023-08-28T13:19:05Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rubygems-update"
@@ -20,6 +20,12 @@
         "Url": "http://lists.opensuse.org/opensuse-security-announce/2019-07/msg00036.html"
       },
       {
+        "Url": "https://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rubygems-update/CVE-2019-8321.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-fr32-gr5c-xq5c"
       }
     ],
@@ -37,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-06-20T16:06:04Z",
     "Severity": "HIGH",
-    "Summary": "Escape sequence injection in RubyGems",
-    "UpdatedAt": "2023-01-09T05:01:44Z",
+    "Summary": "RubyGems Escape sequence injection vulnerability in verbose",
+    "UpdatedAt": "2023-08-28T13:19:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

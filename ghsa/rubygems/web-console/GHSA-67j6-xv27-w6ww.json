@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "UpdatedAt": "2023-08-28T13:46:20Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "web-console"
@@ -23,6 +23,12 @@
         "Url": "http://openwall.com/lists/oss-security/2015/06/16/18"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/web-console/CVE-2015-3224.yml"
+      },
+      {
+        "Url": "https://groups.google.com/forum/#!topic/ruby-security-ann/lzmz9_ijUFw"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-67j6-xv27-w6ww"
       }
     ],
@@ -41,7 +47,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
     "Summary": "Web Console (Ruby gem) contains whitelisted_ips bypass",
-    "UpdatedAt": "2023-03-14T23:12:00Z",
+    "UpdatedAt": "2023-08-28T13:46:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

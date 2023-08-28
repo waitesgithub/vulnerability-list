@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "UpdatedAt": "2023-08-28T16:26:11Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "sfpagent"
@@ -26,6 +26,12 @@
         "Url": "https://web.archive.org/web/20201029141944/http://www.vapid.dhs.org/advisories/spfagent-remotecmd.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/sfpagent/CVE-2014-2888.yml"
+      },
+      {
+        "Url": "http://www.vapid.dhs.org/advisories/spfagent-remotecmd.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vm28-mrm7-fpjq"
       }
     ],
@@ -44,7 +50,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "HIGH",
     "Summary": "sfpagent Command Injection vulnerability",
-    "UpdatedAt": "2023-01-26T21:27:15Z",
+    "UpdatedAt": "2023-08-28T16:26:11Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

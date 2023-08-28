@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:38Z",
+  "UpdatedAt": "2023-08-28T17:07:00Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "mail"
@@ -26,6 +26,9 @@
         "Url": "https://web.archive.org/web/20200228225346/http://www.securityfocus.com/bid/46021"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/mail/CVE-2011-0739.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-cpjc-p7fc-j9xh"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2017-10-24T18:33:38Z",
     "Severity": "MODERATE",
     "Summary": "Mail Improper Input Validation vulnerability",
-    "UpdatedAt": "2023-01-31T05:06:54Z",
+    "UpdatedAt": "2023-08-28T17:07:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

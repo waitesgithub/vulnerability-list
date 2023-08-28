@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2017-10-24T18:33:37Z",
+  "UpdatedAt": "2023-08-28T17:09:18Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "crack"
@@ -29,6 +29,12 @@
         "Url": "https://web.archive.org/web/20130203232028/https://support.cloud.engineyard.com/entries/22915701-january-14-2013-security-vulnerabilities-httparty-extlib-crack-nori-update-these-gems-immediately"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/crack/CVE-2013-1800.yml"
+      },
+      {
+        "Url": "https://support.cloud.engineyard.com/entries/22915701-january-14-2013-security-vulnerabilities-httparty-extlib-crack-nori-update-these-gems-immediately"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-m7fq-cf8q-35q7"
       }
     ],
@@ -47,7 +53,7 @@
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "HIGH",
     "Summary": "crack does not properly restrict casts of string values",
-    "UpdatedAt": "2023-01-23T21:21:36Z",
+    "UpdatedAt": "2023-08-28T17:09:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

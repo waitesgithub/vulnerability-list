@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2020-08-07T22:27:23Z",
+  "UpdatedAt": "2023-08-28T14:01:32Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "kramdown"
@@ -51,6 +51,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-mqm2-cgpr-p4m6"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/kramdown/CVE-2020-14001.yml"
       }
     ],
     "Identifiers": [
@@ -68,7 +71,7 @@
     "PublishedAt": "2020-08-07T22:27:41Z",
     "Severity": "CRITICAL",
     "Summary": "Unintended read access in kramdown gem",
-    "UpdatedAt": "2023-02-01T05:04:31Z",
+    "UpdatedAt": "2023-08-28T14:01:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
