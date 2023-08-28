@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-08-26T00:20:04Z",
+  "UpdatedAt": "2023-08-27T22:59:38Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "nokogiri"
@@ -65,7 +65,7 @@
     "PublishedAt": "2022-05-14T02:19:17Z",
     "Severity": "HIGH",
     "Summary": "Nokogiri gem, via libxml, is affected by DoS vulnerabilities",
-    "UpdatedAt": "2023-08-26T00:20:04Z",
+    "UpdatedAt": "2023-08-27T22:59:39Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -75,9 +75,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "2.9.6"
+        "Identifier": "1.8.2"
       },
-      "VulnerableVersionRange": "\u003c 2.9.6"
+      "VulnerableVersionRange": "\u003c 1.8.2"
     }
   ]
 }
