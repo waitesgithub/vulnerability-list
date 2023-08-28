@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2018-01-29T15:45:14Z",
+  "UpdatedAt": "2023-08-28T10:20:18Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "omniauth"
@@ -26,6 +26,9 @@
         "Url": "https://www.debian.org/security/2018/dsa-4109"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/omniauth/CVE-2017-18076.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-9pr6-grf4-x2fr"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2018-01-29T15:45:28Z",
     "Severity": "HIGH",
     "Summary": "Omniauth allows POST parameters to be stored in session",
-    "UpdatedAt": "2023-01-09T05:03:14Z",
+    "UpdatedAt": "2023-08-28T10:20:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

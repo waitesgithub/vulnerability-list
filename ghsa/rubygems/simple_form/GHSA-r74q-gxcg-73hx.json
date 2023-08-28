@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2019-09-30T19:41:01Z",
+  "UpdatedAt": "2023-08-28T10:44:05Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "simple_form"
@@ -27,6 +27,9 @@
       },
       {
         "Url": "https://github.com/heartcombo/simple_form/commit/8c91bd76a5052ddf3e3ab9fd8333f9aa7b2e2dd6"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/simple_form/CVE-2019-16676.yml"
       }
     ],
     "Identifiers": [
@@ -44,7 +47,7 @@
     "PublishedAt": "2019-09-30T19:41:15Z",
     "Severity": "CRITICAL",
     "Summary": "Improper Input Validation in simple_form",
-    "UpdatedAt": "2023-01-10T05:01:02Z",
+    "UpdatedAt": "2023-08-28T10:44:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

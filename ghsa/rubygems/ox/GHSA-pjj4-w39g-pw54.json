@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2017-11-21T17:34:10Z",
+  "UpdatedAt": "2023-08-28T10:27:26Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "ox"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://rubygems.org/gems/ox/versions/2.8.0"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ox/CVE-2017-15928.yml"
       },
       {
         "Url": "https://github.com/advisories/GHSA-pjj4-w39g-pw54"
@@ -38,7 +41,7 @@
     "PublishedAt": "2017-11-21T18:26:40Z",
     "Severity": "HIGH",
     "Summary": "Ox gem crashes due to a crafted input",
-    "UpdatedAt": "2023-01-26T21:23:14Z",
+    "UpdatedAt": "2023-08-28T10:27:26Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

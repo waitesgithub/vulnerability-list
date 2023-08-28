@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2017-10-24T18:33:37Z",
+  "UpdatedAt": "2023-08-28T12:06:16Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "activerecord"
@@ -35,6 +35,15 @@
         "Url": "http://www.openwall.com/lists/oss-security/2013/02/11/6"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activerecord/CVE-2013-0277.yml"
+      },
+      {
+        "Url": "https://puppet.com/security/cve/cve-2013-0277"
+      },
+      {
+        "Url": "http://securitytracker.com/id?1028109"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-fhj9-cjjh-27vm"
       }
     ],
@@ -53,7 +62,7 @@
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "CRITICAL",
     "Summary": "Active Record contains deserialization of arbitrary YAML",
-    "UpdatedAt": "2023-03-14T22:15:53Z",
+    "UpdatedAt": "2023-08-28T12:06:16Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

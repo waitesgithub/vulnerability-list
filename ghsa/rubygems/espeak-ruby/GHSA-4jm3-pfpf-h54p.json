@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2017-10-24T18:33:35Z",
+  "UpdatedAt": "2023-08-28T10:09:56Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "espeak-ruby"
@@ -26,6 +26,9 @@
         "Url": "https://github.com/dejan/espeak-ruby/commit/5251744b13bdd9fb0c72c612226e72d330bac143"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/espeak-ruby/CVE-2016-10193.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-4jm3-pfpf-h54p"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2017-10-24T18:33:35Z",
     "Severity": "CRITICAL",
     "Summary": "espeak-ruby allows arbitrary command execution",
-    "UpdatedAt": "2023-04-14T17:29:25Z",
+    "UpdatedAt": "2023-08-28T10:09:56Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

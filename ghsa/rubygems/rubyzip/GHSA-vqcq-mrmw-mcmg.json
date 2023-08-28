@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2018-09-06T03:26:46Z",
+  "UpdatedAt": "2023-08-28T10:44:43Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rubyzip"
@@ -26,6 +26,9 @@
         "Url": "https://lists.debian.org/debian-lts-announce/2020/08/msg00002.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rubyzip/CVE-2018-1000544.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vqcq-mrmw-mcmg"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2018-09-06T03:27:18Z",
     "Severity": "CRITICAL",
     "Summary": "Rubyzip gem contains a Directory Traversal vulnerability in zip file component",
-    "UpdatedAt": "2023-01-09T05:03:26Z",
+    "UpdatedAt": "2023-08-28T10:44:43Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

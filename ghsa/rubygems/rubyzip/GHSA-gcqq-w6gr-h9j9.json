@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2017-11-14T17:29:00Z",
+  "UpdatedAt": "2023-08-28T10:41:11Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rubyzip"
@@ -29,6 +29,9 @@
         "Url": "https://github.com/rubyzip/rubyzip/commit/ce4208fdecc2ad079b05d3c49d70fe6ed1d07016"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rubyzip/CVE-2017-5946.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-gcqq-w6gr-h9j9"
       }
     ],
@@ -47,7 +50,7 @@
     "PublishedAt": "2017-10-24T18:33:35Z",
     "Severity": "CRITICAL",
     "Summary": "Directory traversal vulnerability in RubyZip",
-    "UpdatedAt": "2023-04-03T18:12:04Z",
+    "UpdatedAt": "2023-08-28T10:41:11Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

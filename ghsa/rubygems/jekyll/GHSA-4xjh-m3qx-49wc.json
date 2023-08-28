@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2018-09-28T19:28:54Z",
+  "UpdatedAt": "2023-08-28T10:17:58Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "jekyll"
@@ -23,6 +23,9 @@
         "Url": "https://lists.apache.org/thread.html/71da391f584b2fb301d2df0e491b279d87287e2fb4b11309f04ad984@%3Ccommits.accumulo.apache.org%3E"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/jekyll/CVE-2018-17567.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-4xjh-m3qx-49wc"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2018-09-28T19:29:07Z",
     "Severity": "HIGH",
     "Summary": "Jekyll allows attackers to access arbitrary files by specifying a symlink in the `include` key in the `_config.yml` file",
-    "UpdatedAt": "2023-01-23T20:36:31Z",
+    "UpdatedAt": "2023-08-28T10:17:58Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

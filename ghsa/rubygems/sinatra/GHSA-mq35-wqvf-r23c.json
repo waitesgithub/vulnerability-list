@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2018-06-05T21:48:05Z",
+  "UpdatedAt": "2023-08-28T10:42:22Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "sinatra"
@@ -26,6 +26,9 @@
         "Url": "https://access.redhat.com/errata/RHSA-2019:0315"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/sinatra/CVE-2018-11627.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-mq35-wqvf-r23c"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2018-06-05T21:32:06Z",
     "Severity": "MODERATE",
     "Summary": "Sinatra Cross-site Scripting vulnerability",
-    "UpdatedAt": "2023-01-23T21:24:57Z",
+    "UpdatedAt": "2023-08-28T10:42:22Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

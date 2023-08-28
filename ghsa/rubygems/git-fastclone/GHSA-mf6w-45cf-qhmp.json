@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2018-08-15T20:01:05Z",
+  "UpdatedAt": "2023-08-28T10:18:53Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "git-fastclone"
@@ -23,6 +23,9 @@
         "Url": "https://web.archive.org/web/20161108132238/http://www.securityfocus.com/bid/81433"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/git-fastclone/CVE-2015-8969.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-mf6w-45cf-qhmp"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2018-08-15T20:04:44Z",
     "Severity": "CRITICAL",
     "Summary": "Git-fastclone passes user modifiable strings directly to a shell command",
-    "UpdatedAt": "2023-01-26T21:13:17Z",
+    "UpdatedAt": "2023-08-28T10:18:53Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

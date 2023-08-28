@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2018-01-31T13:38:21Z",
+  "UpdatedAt": "2023-08-28T10:13:35Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "cairo"
@@ -26,6 +26,9 @@
         "Url": "http://seclists.org/oss-sec/2017/q2/151"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/cairo/CVE-2017-7475.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-5v3f-73gv-x7x5"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2017-11-15T20:41:14Z",
     "Severity": "MODERATE",
     "Summary": "cairo is vulnerable to denial of service due to a null pointer dereference",
-    "UpdatedAt": "2023-01-25T23:00:11Z",
+    "UpdatedAt": "2023-08-28T10:13:35Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,
