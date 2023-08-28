@@ -1,14 +1,14 @@
 {
-  "Title": "ELSA-2023-4634:  rust security update (IMPORTANT)",
+  "Title": "ELSA-2023-4635:  rust-toolset:ol8 security update (IMPORTANT)",
   "Description": "[1.66.1-2]\n- rust-cargo: cargo does not respect the umask when extracting dependencies (CVE-2023-38497)",
   "Platform": [
-    "Oracle Linux 9"
+    "Oracle Linux 8"
   ],
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2023-4634.html",
-      "ID": "ELSA-2023-4634"
+      "URI": "https://linux.oracle.com/errata/ELSA-2023-4635.html",
+      "ID": "ELSA-2023-4635"
     },
     {
       "Source": "CVE",
@@ -33,10 +33,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "cargo is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "cargo is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "cargo is signed with the Oracle Linux 9 key"
+                        "Comment": "cargo is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -45,10 +45,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "clippy is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "clippy is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "clippy is signed with the Oracle Linux 9 key"
+                        "Comment": "clippy is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -57,10 +57,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust is signed with the Oracle Linux 9 key"
+                        "Comment": "rust is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -69,10 +69,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-analysis is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-analysis is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-analysis is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-analysis is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -81,10 +81,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-analyzer is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-analyzer is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-analyzer is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-analyzer is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -93,10 +93,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-debugger-common is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-debugger-common is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-debugger-common is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-debugger-common is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -105,10 +105,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-doc is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-doc is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-doc is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-doc is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -117,10 +117,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-gdb is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-gdb is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-gdb is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-gdb is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -129,10 +129,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-lldb is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-lldb is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-lldb is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-lldb is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -141,10 +141,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-src is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-src is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-src is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-src is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -153,10 +153,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-std-static is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-std-static is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-std-static is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-std-static is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -165,10 +165,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-std-static-wasm32-unknown-unknown is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-std-static-wasm32-unknown-unknown is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-std-static-wasm32-unknown-unknown is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-std-static-wasm32-unknown-unknown is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -177,10 +177,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-std-static-wasm32-wasi is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-std-static-wasm32-wasi is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-std-static-wasm32-wasi is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-std-static-wasm32-wasi is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -189,10 +189,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-toolset is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-toolset is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-toolset is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-toolset is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -201,10 +201,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rustfmt is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rustfmt is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rustfmt is signed with the Oracle Linux 9 key"
+                        "Comment": "rustfmt is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -229,10 +229,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "cargo is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "cargo is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "cargo is signed with the Oracle Linux 9 key"
+                        "Comment": "cargo is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -241,10 +241,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "clippy is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "clippy is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "clippy is signed with the Oracle Linux 9 key"
+                        "Comment": "clippy is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -253,10 +253,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust is signed with the Oracle Linux 9 key"
+                        "Comment": "rust is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -265,10 +265,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-analysis is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-analysis is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-analysis is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-analysis is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -277,10 +277,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-analyzer is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-analyzer is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-analyzer is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-analyzer is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -289,10 +289,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-debugger-common is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-debugger-common is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-debugger-common is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-debugger-common is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -301,10 +301,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-doc is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-doc is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-doc is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-doc is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -313,10 +313,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-gdb is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-gdb is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-gdb is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-gdb is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -325,10 +325,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-lldb is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-lldb is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-lldb is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-lldb is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -337,10 +337,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-src is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-src is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-src is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-src is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -349,10 +349,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-std-static is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-std-static is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-std-static is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-std-static is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -361,10 +361,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-std-static-wasm32-unknown-unknown is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-std-static-wasm32-unknown-unknown is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-std-static-wasm32-unknown-unknown is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-std-static-wasm32-unknown-unknown is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -373,10 +373,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-std-static-wasm32-wasi is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-std-static-wasm32-wasi is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-std-static-wasm32-wasi is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-std-static-wasm32-wasi is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -385,10 +385,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rust-toolset is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rust-toolset is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rust-toolset is signed with the Oracle Linux 9 key"
+                        "Comment": "rust-toolset is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -397,10 +397,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "rustfmt is earlier than 0:1.66.1-2.el9_2"
+                        "Comment": "rustfmt is earlier than 0:1.66.1-2.module+el8.8.0+21152+49720d82"
                       },
                       {
-                        "Comment": "rustfmt is signed with the Oracle Linux 9 key"
+                        "Comment": "rustfmt is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -420,7 +420,7 @@
     ],
     "Criterions": [
       {
-        "Comment": "Oracle Linux 9 is installed"
+        "Comment": "Oracle Linux 8 is installed"
       }
     ]
   },
@@ -433,6 +433,6 @@
     }
   ],
   "Issued": {
-    "Date": "2023-08-25"
+    "Date": "2023-08-28"
   }
 }
