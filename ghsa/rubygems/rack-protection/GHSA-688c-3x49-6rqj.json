@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-01-25T23:02:07Z",
+  "UpdatedAt": "2023-08-29T15:23:28Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rack-protection"
@@ -26,6 +26,9 @@
         "Url": "https://www.debian.org/security/2018/dsa-4247"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack-protection/CVE-2018-1000119.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-688c-3x49-6rqj"
       }
     ],
@@ -43,8 +46,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-03-07T22:22:22Z",
     "Severity": "MODERATE",
-    "Summary": "rack-protection Observable Discrepancy vulnerability",
-    "UpdatedAt": "2023-01-25T23:02:07Z",
+    "Summary": "rack-protection gem timing attack vulnerability when validating CSRF token",
+    "UpdatedAt": "2023-08-29T15:23:28Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2018-11-30T19:54:10Z",
+  "UpdatedAt": "2023-08-29T15:38:46Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "recurly"
@@ -20,6 +20,9 @@
         "Url": "https://hackerone.com/reports/288635"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/recurly/CVE-2017-0905.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-x27v-x225-gq8g"
       }
     ],
@@ -37,8 +40,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-12-06T16:43:00Z",
     "Severity": "CRITICAL",
-    "Summary": "Server-Side Request Forgery in Recurly",
-    "UpdatedAt": "2023-01-26T22:22:20Z",
+    "Summary": "Recurly gem Server-Side Request Forgery in Resource#find method",
+    "UpdatedAt": "2023-08-29T15:38:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

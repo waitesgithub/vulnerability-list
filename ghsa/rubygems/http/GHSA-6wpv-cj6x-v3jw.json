@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2018-03-13T16:15:49Z",
+  "UpdatedAt": "2023-08-29T12:39:20Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "http"
@@ -23,6 +23,9 @@
         "Url": "https://rubysec.com/advisories/http-CVE-2015-1828"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/http/CVE-2015-1828.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-6wpv-cj6x-v3jw"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2018-03-13T16:15:57Z",
     "Severity": "MODERATE",
     "Summary": "http vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
-    "UpdatedAt": "2023-01-25T23:04:01Z",
+    "UpdatedAt": "2023-08-29T12:39:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,

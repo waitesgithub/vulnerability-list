@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-06-10T21:12:51Z",
+  "UpdatedAt": "2023-08-29T13:38:39Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "newrelic_rpm"
@@ -20,6 +20,12 @@
         "Url": "https://web.archive.org/web/20130117025417/https://newrelic.com/docs/ruby/ruby-agent-security-notification"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/newrelic_rpm/CVE-2013-0284.yml"
+      },
+      {
+        "Url": "https://newrelic.com/docs/ruby/ruby-agent-security-notification"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-q6cw-2553-7837"
       }
     ],
@@ -33,12 +39,12 @@
         "Value": "CVE-2013-0284"
       }
     ],
-    "Description": "Ruby agent 3.2.0 through 3.5.2 serializes sensitive data when communicating with servers operated by New Relic, which allows remote attackers to obtain sensitive information (database credentials and SQL statements) by sniffing the network and deserializing the data.",
+    "Description": "Ruby agent 3.2.0 through 3.5.3.23 serializes sensitive data when communicating with servers operated by New Relic, which allows remote attackers to obtain sensitive information (database credentials and SQL statements) by sniffing the network and deserializing the data.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "MODERATE",
-    "Summary": "newrelic_rpm allows remote attackers to obtain sensitive information by sniffing network, deserializing data",
-    "UpdatedAt": "2023-02-03T05:06:15Z",
+    "Summary": "newrelic_rpm Gem Discloses Sensitive Information",
+    "UpdatedAt": "2023-08-29T13:38:39Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

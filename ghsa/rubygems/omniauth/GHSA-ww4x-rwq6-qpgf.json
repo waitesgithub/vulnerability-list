@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-02-24T17:31:43Z",
+  "UpdatedAt": "2023-08-29T14:15:25Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "omniauth"
@@ -38,6 +38,9 @@
         "Url": "https://github.com/omniauth/omniauth/releases/tag/v1.9.2"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/omniauth/CVE-2015-9284.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-ww4x-rwq6-qpgf"
       }
     ],
@@ -55,8 +58,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-05-29T19:11:31Z",
     "Severity": "HIGH",
-    "Summary": "Cross-site Request Forgery in OmniAuth",
-    "UpdatedAt": "2023-02-24T17:31:43Z",
+    "Summary": "OmniAuth Ruby gem Cross-site Request Forgery in request phase",
+    "UpdatedAt": "2023-08-29T14:15:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

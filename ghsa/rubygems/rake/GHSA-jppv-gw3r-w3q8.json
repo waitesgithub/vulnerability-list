@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2020-02-25T15:50:04Z",
+  "UpdatedAt": "2023-08-29T15:03:03Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rake"
@@ -36,6 +36,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-jppv-gw3r-w3q8"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rake/CVE-2020-8130.yml"
       }
     ],
     "Identifiers": [
@@ -53,11 +56,11 @@
     "PublishedAt": "2020-02-28T16:54:36Z",
     "Severity": "MODERATE",
     "Summary": "OS Command Injection in Rake",
-    "UpdatedAt": "2023-01-25T22:48:37Z",
+    "UpdatedAt": "2023-08-29T15:03:03Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 6.4,
+      "VectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

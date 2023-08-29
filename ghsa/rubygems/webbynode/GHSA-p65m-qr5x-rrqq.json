@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "UpdatedAt": "2023-08-29T16:42:54Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "webbynode"
@@ -35,6 +35,9 @@
         "Url": "https://web.archive.org/web/20201208124343/http://www.vapid.dhs.org/advisories/webbynode-command-inj.html"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/webbynode/CVE-2013-7086.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-p65m-qr5x-rrqq"
       }
     ],
@@ -53,7 +56,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "HIGH",
     "Summary": "Webbynode Code Injection vulnerability",
-    "UpdatedAt": "2023-01-26T21:22:45Z",
+    "UpdatedAt": "2023-08-29T16:42:54Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

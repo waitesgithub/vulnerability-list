@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-11-29T23:19:29Z",
+  "UpdatedAt": "2023-08-29T12:26:54Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "gemirro"
@@ -17,6 +17,9 @@
         "Url": "https://github.com/PierreRambaud/gemirro/commit/9659f9b7ce15a723da8e361bd41b9203b19c97de"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/gemirro/CVE-2017-16833.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-x7p2-x2j6-mwhr"
       }
     ],
@@ -30,12 +33,12 @@
         "Value": "CVE-2017-16833"
       }
     ],
-    "Description": "Stored cross-site scripting (XSS) vulnerability in Gemirro before 0.16.0 allows attackers to inject arbitrary web script via a crafted javascript: URL in the \"homepage\" value of a \".gemspec\" file.",
+    "Description": "Stored cross-site scripting (XSS) vulnerability in Gemirro before 0.16.0 allows attackers to inject arbitrary web script via a crafted javascript: URL in the \"homepage\" value of a \".gemspec\" file.\nA \".gemspec\" file must be created with a JavaScript URL in the homepage  value. This can be used to build a gem for upload to the Gemirro server, in order to achieve stored XSS via the author name hyperlink.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-11-29T23:19:51Z",
     "Severity": "MODERATE",
-    "Summary": "Gemirro Stored Cross-site Scripting vulnerability",
-    "UpdatedAt": "2023-01-26T22:26:04Z",
+    "Summary": "Gemirro Stored XSS in Gemspec \"homepage\" value",
+    "UpdatedAt": "2023-08-29T12:26:54Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

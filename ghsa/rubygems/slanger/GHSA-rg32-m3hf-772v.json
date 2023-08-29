@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2019-07-15T21:51:39Z",
+  "UpdatedAt": "2023-08-29T15:29:44Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "slanger"
@@ -15,6 +15,12 @@
       },
       {
         "Url": "https://github.com/stevegraham/slanger/pull/238/commits/5267b455caeb2e055cccf0d2b6a22727c111f5c3"
+      },
+      {
+        "Url": "https://github.com/stevegraham/slanger/pull/238"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/slanger/CVE-2019-1010306.yml"
       },
       {
         "Url": "https://github.com/advisories/GHSA-rg32-m3hf-772v"
@@ -34,8 +40,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-07-16T00:41:40Z",
     "Severity": "CRITICAL",
-    "Summary": "Deserialization of Untrusted Data in Slanger",
-    "UpdatedAt": "2023-01-25T22:43:30Z",
+    "Summary": "Slanger Arbitrary command execution",
+    "UpdatedAt": "2023-08-29T15:29:44Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2019-07-05T21:09:38Z",
+  "UpdatedAt": "2023-08-29T14:57:22Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "omniauth-saml"
@@ -20,6 +20,9 @@
         "Url": "https://www.kb.cert.org/vuls/id/475445"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/omniauth-saml/CVE-2017-11430.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-94hm-8q65-rmxm"
       }
     ],
@@ -37,8 +40,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-07-05T21:11:43Z",
     "Severity": "HIGH",
-    "Summary": "OmniAuth-SAML Improper Authentication vulnerability",
-    "UpdatedAt": "2023-01-25T23:09:17Z",
+    "Summary": "OmniAuth-SAML authentication bypass via incorrect XML canonicalization and DOM traversal",
+    "UpdatedAt": "2023-08-29T14:57:22Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.7,

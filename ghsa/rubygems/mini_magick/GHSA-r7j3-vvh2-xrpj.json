@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2019-07-18T13:18:59Z",
+  "UpdatedAt": "2023-08-29T12:47:46Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "mini_magick"
@@ -35,6 +35,9 @@
         "Url": "https://www.debian.org/security/2019/dsa-4481"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/mini_magick/CVE-2019-13574.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-r7j3-vvh2-xrpj"
       }
     ],
@@ -53,7 +56,7 @@
     "PublishedAt": "2019-07-18T13:19:22Z",
     "Severity": "HIGH",
     "Summary": "OS Command Injection in MiniMagick",
-    "UpdatedAt": "2023-01-25T20:10:32Z",
+    "UpdatedAt": "2023-08-29T12:47:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.8,
