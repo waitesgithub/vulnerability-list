@@ -12,6 +12,12 @@
       "CVE-2023-2431",
       "CVE-2023-2727",
       "CVE-2023-2728"
+    ],
+    "0.8.14-r0": [
+      "CVE-2019-11250",
+      "CVE-2020-8564",
+      "CVE-2020-8565",
+      "GHSA-74fp-r6jw-h4mp"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
