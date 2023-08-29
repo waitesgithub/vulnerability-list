@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2020-02-13T20:45:36Z",
+  "UpdatedAt": "2023-08-28T19:12:02Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "bibtex-ruby"
@@ -21,6 +21,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-c5r5-7pfh-6qg6"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bibtex-ruby/CVE-2019-10780.yml"
       }
     ],
     "Identifiers": [
@@ -33,12 +36,12 @@
         "Value": "CVE-2019-10780"
       }
     ],
-    "Description": "BibTeX-ruby before 5.1.0 allows shell command injection due to unsanitized user input being passed directly to the built-in Ruby Kernel.open method through BibTeX.open.",
+    "Description": "BibTeX-ruby before 5.1.0 allows shell command injection due to unsanitized user input being passed directly to the built-in Ruby `Kernel.open` method through BibTeX.open.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2020-02-14T23:10:01Z",
     "Severity": "CRITICAL",
-    "Summary": "OS command injection in BibTeX-Ruby",
-    "UpdatedAt": "2023-01-23T20:27:49Z",
+    "Summary": "BibTeX-Ruby vulnerable to OS command injection",
+    "UpdatedAt": "2023-08-28T19:12:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

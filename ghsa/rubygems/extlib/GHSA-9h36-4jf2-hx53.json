@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2017-10-24T18:33:37Z",
+  "UpdatedAt": "2023-08-28T19:10:38Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "extlib"
@@ -26,6 +26,9 @@
         "Url": "https://web.archive.org/web/20130203232028/https://support.cloud.engineyard.com/entries/22915701-january-14-2013-security-vulnerabilities-httparty-extlib-crack-nori-update-these-gems-immediately"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/extlib/CVE-2013-1802.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-9h36-4jf2-hx53"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2017-10-24T18:33:37Z",
     "Severity": "HIGH",
     "Summary": "extlib does not properly restrict casts of string values",
-    "UpdatedAt": "2023-01-23T20:56:44Z",
+    "UpdatedAt": "2023-08-28T19:10:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
