@@ -3,6 +3,9 @@
   "secfixes": {
     "0": [
       "CVE-2008-1145"
+    ],
+    "1.17.6-r2": [
+      "CVE-2023-38037"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
