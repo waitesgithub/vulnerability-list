@@ -1,6 +1,6 @@
 {
-  "Severity": "MODERATE",
-  "UpdatedAt": "2023-01-27T00:09:11Z",
+  "Severity": "LOW",
+  "UpdatedAt": "2023-08-29T10:35:28Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "kafo"
@@ -15,6 +15,9 @@
       },
       {
         "Url": "http://theforeman.org/security.html"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/kafo/CVE-2014-0135.yml"
       },
       {
         "Url": "https://github.com/advisories/GHSA-hxvp-655x-xxqv"
@@ -33,9 +36,9 @@
     "Description": "Kafo before 0.3.17 and 0.4.x before 0.5.2, as used by Foreman, uses world-readable permissions for `default_values.yaml`, which allows local users to obtain passwords and other sensitive information by reading the file.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-17T04:44:31Z",
-    "Severity": "MODERATE",
+    "Severity": "LOW",
     "Summary": "Kafo allows local users to obtain passwords and other sensitive information by reading default_values.yaml",
-    "UpdatedAt": "2023-01-27T00:09:11Z",
+    "UpdatedAt": "2023-08-29T10:35:28Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

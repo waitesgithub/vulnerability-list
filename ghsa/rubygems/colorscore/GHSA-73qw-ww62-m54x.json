@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "UpdatedAt": "2023-08-29T11:49:05Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "colorscore"
@@ -23,6 +23,12 @@
         "Url": "http://www.openwall.com/lists/oss-security/2016/01/05/2"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/colorscore/CVE-2015-7541.yml"
+      },
+      {
+        "Url": "http://seclists.org/oss-sec/2016/q1/17"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-73qw-ww62-m54x"
       }
     ],
@@ -41,7 +47,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "CRITICAL",
     "Summary": "colorscore Command Injection vulnerability",
-    "UpdatedAt": "2023-01-25T23:05:07Z",
+    "UpdatedAt": "2023-08-29T11:49:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 10,

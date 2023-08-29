@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2017-10-24T18:33:36Z",
+  "UpdatedAt": "2023-08-29T10:43:36Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "sentry-raven"
@@ -26,6 +26,9 @@
         "Url": "http://seclists.org/oss-sec/2015/q1/26"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/sentry-raven/CVE-2014-9490.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-c9c5-9fpr-m882"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2017-10-24T18:33:36Z",
     "Severity": "MODERATE",
     "Summary": "sentry-raven allows remote attackers to cause a denial of service via a large exponent value in a scientific number",
-    "UpdatedAt": "2023-01-25T23:16:15Z",
+    "UpdatedAt": "2023-08-29T10:43:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

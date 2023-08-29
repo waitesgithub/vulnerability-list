@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-01-27T00:18:52Z",
+  "UpdatedAt": "2023-08-29T11:01:14Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "spree"
@@ -38,6 +38,12 @@
         "Url": "http://www.securityfocus.com/archive/1/514674/100/0/threaded"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/spree/CVE-2010-3978.yml"
+      },
+      {
+        "Url": "https://spreecommerce.com/blog/json-hijacking-vulnerability"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-hwrx-wc75-mgh7"
       }
     ],
@@ -56,7 +62,7 @@
     "PublishedAt": "2022-05-14T02:42:49Z",
     "Severity": "MODERATE",
     "Summary": "Spree allows remote attackers to obtain sensitive information",
-    "UpdatedAt": "2023-01-27T00:18:52Z",
+    "UpdatedAt": "2023-08-29T11:01:14Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

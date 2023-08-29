@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2018-08-15T20:03:31Z",
+  "UpdatedAt": "2023-08-29T12:09:30Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "git-fastclone"
@@ -23,6 +23,9 @@
         "Url": "https://web.archive.org/web/20200227213019/http://www.securityfocus.com/bid/81433"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/git-fastclone/CVE-2015-8968.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8gg6-3r63-25m8"
       }
     ],
@@ -40,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-08-15T20:03:37Z",
     "Severity": "HIGH",
-    "Summary": "git-fastclone Command Injection vulnerability",
-    "UpdatedAt": "2023-01-25T23:07:18Z",
+    "Summary": "git-fastclone permits arbitrary shell command execution from .gitmodules",
+    "UpdatedAt": "2023-08-29T12:09:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

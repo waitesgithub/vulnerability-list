@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-04-28T15:05:22Z",
+  "UpdatedAt": "2023-08-29T12:13:05Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "gon"
@@ -23,6 +23,9 @@
         "Url": "https://usn.ubuntu.com/4560-1/"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/gon/CVE-2020-25739.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-78vq-9j56-wrfr"
       }
     ],
@@ -40,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-04-30T17:29:15Z",
     "Severity": "MODERATE",
-    "Summary": "Cross-site Scripting in gon",
-    "UpdatedAt": "2023-01-26T22:33:52Z",
+    "Summary": "Gon gem lack of escaping certain input when outputting as JSON",
+    "UpdatedAt": "2023-08-29T12:13:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
