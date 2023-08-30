@@ -1,0 +1,275 @@
+{
+  "Title": "Security update for gawk",
+  "Tracking": {
+    "ID": "SUSE-SU-2023:3440-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2023-08-28T06:57:22Z",
+    "CurrentReleaseDate": "2023-08-28T06:57:22Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2023-08-28T06:57:22Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for gawk",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for gawk fixes the following issues:\n\n- CVE-2023-4156: Fix a heap out of bound read by validating the index into argument list. (bsc#1214025)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3440,Container suse/sle-micro-rancher/5.3:latest-2023-3440,Container suse/sle-micro-rancher/5.4:latest-2023-3440,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-3440,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-3440,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-3440,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-3440,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3440,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3440,Image SLES15-SP4-Hardened-BYOS-2023-3440,Image SLES15-SP4-Hardened-BYOS-Azure-2023-3440,Image SLES15-SP4-Hardened-BYOS-EC2-2023-3440,Image SLES15-SP4-Hardened-BYOS-GCE-2023-3440,Image SLES15-SP4-SAP-Hardened-2023-3440,Image SLES15-SP4-SAP-Hardened-Azure-2023-3440,Image SLES15-SP4-SAP-Hardened-BYOS-2023-3440,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-3440,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-3440,Image SLES15-SP4-SAP-Hardened-GCE-2023-3440,SUSE-2023-3440,SUSE-SLE-Micro-5.3-2023-3440,SUSE-SLE-Micro-5.4-2023-3440,SUSE-SLE-Module-Basesystem-15-SP4-2023-3440,SUSE-SLE-Module-Basesystem-15-SP5-2023-3440,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3440,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3440,SUSE-SUSE-MicroOS-5.1-2023-3440,SUSE-SUSE-MicroOS-5.2-2023-3440,openSUSE-Leap-Micro-5.3-2023-3440,openSUSE-Leap-Micro-5.4-2023-3440,openSUSE-SLE-15.4-2023-3440,openSUSE-SLE-15.5-2023-3440",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gawk-4.2.1-150000.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2023/suse-su-20233440-1/",
+      "Description": "Link for SUSE-SU-2023:3440-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2023-August/016026.html",
+      "Description": "E-Mail link for SUSE-SU-2023:3440-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1214025",
+      "Description": "SUSE Bug 1214025"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-4156/",
+      "Description": "SUSE CVE CVE-2023-4156 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2023-4156",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-4156.html",
+          "Description": "CVE-2023-4156"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214025",
+          "Description": "SUSE Bug 1214025"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:gawk-4.2.1-150000.3.3.1",
+            "Container suse/sle-micro-rancher/5.3:latest:gawk-4.2.1-150000.3.3.1",
+            "Container suse/sle-micro-rancher/5.4:latest:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-Hardened-BYOS:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:gawk-4.2.1-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened:gawk-4.2.1-150000.3.3.1",
+            "SUSE Linux Enterprise Micro 5.1:gawk-4.2.1-150000.3.3.1",
+            "SUSE Linux Enterprise Micro 5.2:gawk-4.2.1-150000.3.3.1",
+            "SUSE Linux Enterprise Micro 5.3:gawk-4.2.1-150000.3.3.1",
+            "SUSE Linux Enterprise Micro 5.4:gawk-4.2.1-150000.3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:gawk-4.2.1-150000.3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP5:gawk-4.2.1-150000.3.3.1",
+            "SUSE Manager Proxy 4.2:gawk-4.2.1-150000.3.3.1",
+            "SUSE Manager Server 4.2:gawk-4.2.1-150000.3.3.1",
+            "openSUSE Leap 15.4:gawk-4.2.1-150000.3.3.1",
+            "openSUSE Leap Micro 5.3:gawk-4.2.1-150000.3.3.1",
+            "openSUSE Leap Micro 5.4:gawk-4.2.1-150000.3.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
