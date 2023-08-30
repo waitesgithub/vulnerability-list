@@ -2,7 +2,8 @@
   "name": "postgresql-12",
   "secfixes": {
     "0": [
-      "CVE-2017-8806"
+      "CVE-2017-8806",
+      "CVE-2020-21469"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
