@@ -20,6 +20,9 @@
         "Url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-2095"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/openshift-origin-controller/CVE-2013-2095.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-77xq-7c6p-6xp6"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-05-05T00:29:09Z",
     "Severity": "CRITICAL",
     "Summary": "RubyGem openshift-origin-controller is vulnerable to command injection",
-    "UpdatedAt": "2023-08-28T23:21:09Z",
+    "UpdatedAt": "2023-08-29T22:53:28Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
