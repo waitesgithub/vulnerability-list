@@ -14,6 +14,162 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-4128",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27913000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27913001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27913002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package haproxy is earlier than 2.4.24-1, affected by CVE-2023-40225",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27912000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27912001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27912002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-4147",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27897000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27897001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27897002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package vim is earlier than 9.0.1562-2, affected by CVE-2023-3896",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27893000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27893001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27893002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-4194",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27890000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27890001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27890002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package msft-golang is earlier than 1.19.12-1, affected by CVE-2023-39533",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27875000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27875001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27875002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package krb5 is earlier than 1.19.4-2, affected by CVE-2023-36054",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27874000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27874001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27874002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package golang is earlier than 1.19.12-1, affected by CVE-2023-39533",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27872000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27872001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27872002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-4132",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27852000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27852001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27852002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package rubygem-protocol-http1 is earlier than 0.15.1-1, affected by CVE-2023-38697",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27830000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27830001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27830002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package openssl is earlier than 1.1.1k-26, affected by CVE-2023-3817",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27815000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27815001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27815002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-2860",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27797000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27797001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27797002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-4004",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27796000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27796001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27796002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package curl is earlier than 8.2.1-1, affected by CVE-2023-32001",
       "ID": "oval:com.microsoft.cbl-mariner:tst:27795000",
       "Version": "1",
@@ -34,6 +190,42 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:27766002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-3812",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27764000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27764001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27764002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-32248",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27760000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27760001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27760002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-3567",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27758000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27758001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27758002"
       }
     },
     {
@@ -178,6 +370,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:27649002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package javapackages-bootstrap is earlier than 1.5.0-4, affected by CVE-2023-37460",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27645000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27645001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27645002"
       }
     },
     {
@@ -362,6 +566,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-1206",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27382000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27382001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27382002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package kernel is earlier than 5.15.118.1-2, affected by CVE-2023-3355",
       "ID": "oval:com.microsoft.cbl-mariner:tst:27366000",
       "Version": "1",
@@ -478,6 +694,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:27332002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package ruby is earlier than 3.1.4-2, affected by CVE-2023-36617",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27310000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27310001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27310002"
       }
     },
     {
@@ -2290,6 +2518,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:25894002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package xorg-x11-server is earlier than 1.20.10-4, affected by CVE-2023-1393",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:25859000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:25859001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:25859002"
       }
     },
     {
