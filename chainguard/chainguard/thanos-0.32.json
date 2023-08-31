@@ -1,14 +1,9 @@
 {
-  "name": "python-3.7",
+  "name": "thanos-0.32",
   "secfixes": {
     "0": [
-      "CVE-2007-4559",
-      "CVE-2022-48560",
-      "CVE-2022-48564",
-      "CVE-2023-36632"
-    ],
-    "3.7.17-r0": [
-      "CVE-2023-24329"
+      "CVE-2019-3826",
+      "CVE-2023-40577"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
