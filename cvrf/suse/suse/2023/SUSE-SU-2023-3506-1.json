@@ -1,0 +1,155 @@
+{
+  "Title": "Security update for open-vm-tools",
+  "Tracking": {
+    "ID": "SUSE-SU-2023:3506-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2023-08-31T17:56:13Z",
+    "CurrentReleaseDate": "2023-08-31T17:56:13Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2023-08-31T17:56:13Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for open-vm-tools",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for open-vm-tools fixes the following issues:\n\n- CVE-2023-20900: Fixed SAML token signature bypass vulnerability (bsc#1214566).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2023-3506,SUSE-SLE-SERVER-12-SP5-2023-3506",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libvmtools0-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "open-vm-tools-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "open-vm-tools-desktop-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "open-vm-tools-salt-minion-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "open-vm-tools-sdmp-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvmtools0-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "open-vm-tools-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "open-vm-tools-desktop-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "open-vm-tools-salt-minion-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "open-vm-tools-sdmp-12.2.0-4.56.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2023/suse-su-20233506-1/",
+      "Description": "Link for SUSE-SU-2023:3506-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2023-August/016066.html",
+      "Description": "E-Mail link for SUSE-SU-2023:3506-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1214566",
+      "Description": "SUSE Bug 1214566"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-20900/",
+      "Description": "SUSE CVE CVE-2023-20900 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2023-20900",
+      "Description": "VMware Tools contains a SAML token signature bypass vulnerability. A malicious actor with man-in-the-middle (MITM) network positioning between vCenter server and the virtual machine may be able to bypass SAML token signature verification, to perform VMware Tools Guest Operations.\n\n\n\n\n\n\n\n\n\n\n\n",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-20900.html",
+          "Description": "CVE-2023-20900"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214566",
+          "Description": "SUSE Bug 1214566"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:libvmtools0-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server 12 SP5:open-vm-tools-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server 12 SP5:open-vm-tools-desktop-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server 12 SP5:open-vm-tools-salt-minion-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server 12 SP5:open-vm-tools-sdmp-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libvmtools0-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:open-vm-tools-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:open-vm-tools-desktop-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:open-vm-tools-salt-minion-12.2.0-4.56.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:open-vm-tools-sdmp-12.2.0-4.56.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
