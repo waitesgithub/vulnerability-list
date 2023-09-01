@@ -61,6 +61,9 @@
     "1.0.1-r0": [
       "CVE-2023-20032",
       "CVE-2023-20052"
+    ],
+    "1.1.2-r0": [
+      "CVE-2022-48579"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
