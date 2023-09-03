@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2023:3433-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-08-24T11:56:00Z",
-    "CurrentReleaseDate": "2023-08-24T11:56:00Z",
+    "InitialReleaseDate": "2023-08-24T11:56:09Z",
+    "CurrentReleaseDate": "2023-08-24T11:56:09Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-08-24T11:56:00Z",
+        "Date": "2023-08-24T11:56:09Z",
         "Description": "current"
       }
     ]
@@ -51,6 +51,11 @@
       {
         "ProductReference": "indent-2.2.11-150000.3.6.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "indent-2.2.11-150000.3.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
         "RelationType": "Default Component Of"
       }
     ]
@@ -103,7 +108,8 @@
           "ProductID": [
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:indent-2.2.11-150000.3.6.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP5:indent-2.2.11-150000.3.6.1",
-            "openSUSE Leap 15.4:indent-2.2.11-150000.3.6.1"
+            "openSUSE Leap 15.4:indent-2.2.11-150000.3.6.1",
+            "openSUSE Leap 15.5:indent-2.2.11-150000.3.6.1"
           ]
         }
       ],

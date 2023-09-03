@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle15:15.1-2023-2327,SUSE-2023-2327,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-2327,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-2327,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-2327",
+      "Text": "Container suse/sle15:15.1-2023-2327,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-2327,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-2327,SUSE-2023-2327,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-2327,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-2327,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-2327",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -46,6 +46,36 @@
       {
         "ProductReference": "openssl-1_1-1.1.0i-150100.14.51.1",
         "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.0i-150100.14.51.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.0i-150100.14.51.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.0i-150100.14.51.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.0i-150100.14.51.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.0i-150100.14.51.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.0i-150100.14.51.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -203,6 +233,12 @@
           "ProductID": [
             "Container suse/sle15:15.1:libopenssl1_1-1.1.0i-150100.14.51.1",
             "Container suse/sle15:15.1:openssl-1_1-1.1.0i-150100.14.51.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.0i-150100.14.51.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.0i-150100.14.51.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.0i-150100.14.51.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.0i-150100.14.51.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.0i-150100.14.51.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.0i-150100.14.51.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libopenssl-1_1-devel-1.1.0i-150100.14.51.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libopenssl-1_1-devel-32bit-1.1.0i-150100.14.51.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libopenssl1_1-1.1.0i-150100.14.51.1",

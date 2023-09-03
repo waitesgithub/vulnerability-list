@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp5:latest-2023-3268,SUSE-2023-3268,SUSE-SLE-SDK-12-SP5-2023-3268,SUSE-SLE-SERVER-12-SP5-2023-3268,SUSE-SLE-WE-12-SP5-2023-3268",
+      "Text": "Container suse/sles12sp5:latest-2023-3268,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-3268,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-3268,SUSE-2023-3268,SUSE-SLE-SDK-12-SP5-2023-3268,SUSE-SLE-SERVER-12-SP5-2023-3268,SUSE-SLE-WE-12-SP5-2023-3268",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -66,6 +66,86 @@
       {
         "ProductReference": "util-linux-2.33.2-4.33.1",
         "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libblkid1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfdisk1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmount1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmartcols1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libuuid1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "util-linux-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "util-linux-systemd-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "uuidd-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libblkid1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfdisk1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmount1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmartcols1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libuuid1-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "util-linux-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "util-linux-systemd-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "uuidd-2.33.2-4.33.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -293,6 +373,22 @@
             "Container suse/sles12sp5:latest:libsmartcols1-2.33.2-4.33.1",
             "Container suse/sles12sp5:latest:libuuid1-2.33.2-4.33.1",
             "Container suse/sles12sp5:latest:util-linux-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libblkid1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libfdisk1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libmount1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libsmartcols1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libuuid1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:util-linux-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:util-linux-systemd-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:uuidd-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libblkid1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libfdisk1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libmount1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libsmartcols1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libuuid1-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:util-linux-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:util-linux-systemd-2.33.2-4.33.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:uuidd-2.33.2-4.33.1",
             "SUSE Linux Enterprise Server 12 SP5:libblkid1-2.33.2-4.33.1",
             "SUSE Linux Enterprise Server 12 SP5:libblkid1-32bit-2.33.2-4.33.1",
             "SUSE Linux Enterprise Server 12 SP5:libfdisk1-2.33.2-4.33.1",

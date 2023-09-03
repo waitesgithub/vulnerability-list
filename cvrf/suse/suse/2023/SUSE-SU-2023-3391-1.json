@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3391,SUSE-2023-3391,SUSE-SLE-Module-Live-Patching-15-SP3-2023-3391,SUSE-SLE-Product-HA-15-SP3-2023-3391,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3391,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3391,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3391,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3391,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3391,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3391,SUSE-SUSE-MicroOS-5.1-2023-3391,SUSE-SUSE-MicroOS-5.2-2023-3391,SUSE-Storage-7.1-2023-3391,openSUSE-SLE-15.4-2023-3391",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3391,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3391,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3391,SUSE-2023-3391,SUSE-SLE-Module-Live-Patching-15-SP3-2023-3391,SUSE-SLE-Product-HA-15-SP3-2023-3391,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3391,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3391,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3391,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3391,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3391,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3391,SUSE-SUSE-MicroOS-5.1-2023-3391,SUSE-SUSE-MicroOS-5.2-2023-3391,SUSE-Storage-7.1-2023-3391,openSUSE-SLE-15.4-2023-3391",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,6 +41,56 @@
       {
         "ProductReference": "kernel-default-5.3.18-150300.59.130.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cluster-md-kmp-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dlm-kmp-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gfs2-kmp-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ocfs2-kmp-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cluster-md-kmp-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dlm-kmp-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gfs2-kmp-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ocfs2-kmp-default-5.3.18-150300.59.130.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -715,6 +765,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -839,6 +899,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -963,6 +1033,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -1091,6 +1171,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -1219,6 +1309,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -1343,6 +1443,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -1458,6 +1568,10 @@
           "Description": "CVE-2023-3117"
         },
         {
+          "URL": "https://bugzilla.suse.com/1212934",
+          "Description": "SUSE Bug 1212934"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1213245",
           "Description": "SUSE Bug 1213245"
         }
@@ -1467,6 +1581,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -1595,6 +1719,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -1723,6 +1857,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -1851,6 +1995,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -1983,6 +2137,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -2111,6 +2275,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -2235,6 +2409,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -2359,6 +2543,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",
@@ -2487,6 +2681,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150300.59.130.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.130.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.130.1",

@@ -31,13 +31,48 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3398,SUSE-SLE-SDK-12-SP5-2023-3398,SUSE-SLE-SERVER-12-SP2-BCL-2023-3398,SUSE-SLE-SERVER-12-SP5-2023-3398",
+      "Text": "Container suse/sles12sp5:latest-2023-3398,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-3398,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-3398,SUSE-2023-3398,SUSE-SLE-SDK-12-SP5-2023-3398,SUSE-SLE-SERVER-12-SP2-BCL-2023-3398,SUSE-SLE-SERVER-12-SP5-2023-3398",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "krb5-1.12.5-40.52.1",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "krb5-1.12.5-40.52.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "krb5-32bit-1.12.5-40.52.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "krb5-client-1.12.5-40.52.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "krb5-1.12.5-40.52.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "krb5-32bit-1.12.5-40.52.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "krb5-client-1.12.5-40.52.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "krb5-1.12.5-40.52.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
@@ -211,6 +246,13 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sles12sp5:latest:krb5-1.12.5-40.52.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:krb5-1.12.5-40.52.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:krb5-32bit-1.12.5-40.52.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:krb5-client-1.12.5-40.52.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:krb5-1.12.5-40.52.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:krb5-32bit-1.12.5-40.52.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:krb5-client-1.12.5-40.52.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:krb5-1.12.5-40.52.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:krb5-32bit-1.12.5-40.52.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:krb5-client-1.12.5-40.52.1",

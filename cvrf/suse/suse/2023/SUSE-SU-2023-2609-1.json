@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-2609,Image SLES12-SP5-Azure-HPC-BYOS-2023-2609,Image SLES12-SP5-Azure-HPC-On-Demand-2023-2609,Image SLES12-SP5-Azure-SAP-On-Demand-2023-2609,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2609,Image SLES12-SP5-EC2-BYOS-2023-2609,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2609,Image SLES12-SP5-EC2-On-Demand-2023-2609,Image SLES12-SP5-EC2-SAP-BYOS-2023-2609,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2609,Image SLES12-SP5-GCE-BYOS-2023-2609,Image SLES12-SP5-GCE-On-Demand-2023-2609,Image SLES12-SP5-GCE-SAP-BYOS-2023-2609,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2609,SUSE-2023-2609,SUSE-SLE-SERVER-12-SP5-2023-2609",
+      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-2609,Image SLES12-SP5-Azure-HPC-BYOS-2023-2609,Image SLES12-SP5-Azure-HPC-On-Demand-2023-2609,Image SLES12-SP5-Azure-SAP-On-Demand-2023-2609,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2609,Image SLES12-SP5-EC2-BYOS-2023-2609,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2609,Image SLES12-SP5-EC2-On-Demand-2023-2609,Image SLES12-SP5-EC2-SAP-BYOS-2023-2609,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2609,Image SLES12-SP5-GCE-BYOS-2023-2609,Image SLES12-SP5-GCE-On-Demand-2023-2609,Image SLES12-SP5-GCE-SAP-BYOS-2023-2609,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2609,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2609,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2609,SUSE-2023-2609,SUSE-SLE-SERVER-12-SP5-2023-2609",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -106,6 +106,16 @@
       {
         "ProductReference": "ntp-4.2.8p17-103.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-4.2.8p17-103.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-4.2.8p17-103.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -190,6 +200,8 @@
             "Image SLES12-SP5-GCE-On-Demand:ntp-4.2.8p17-103.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:ntp-4.2.8p17-103.1",
             "Image SLES12-SP5-GCE-SAP-On-Demand:ntp-4.2.8p17-103.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:ntp-4.2.8p17-103.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:ntp-4.2.8p17-103.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-4.2.8p17-103.1",
             "SUSE Linux Enterprise Server 12 SP5:ntp-doc-4.2.8p17-103.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:ntp-4.2.8p17-103.1",

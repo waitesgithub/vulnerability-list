@@ -2939,6 +2939,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
@@ -2970,6 +2975,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
@@ -3904,22 +3914,7 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "aws-cli-1.19.9-26.1",
-        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
-        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-boto3-1.17.9-19.1",
-        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-botocore-1.20.9-33.1",
         "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -3935,6 +3930,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -3955,6 +3955,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -3994,6 +3999,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
         "RelationType": "Default Component Of"
@@ -4010,6 +4020,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
@@ -4924,6 +4939,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
         "RelationType": "Default Component Of"
@@ -4944,7 +4964,27 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "aws-cli-1.19.9-26.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-boto3-1.17.9-19.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-botocore-1.20.9-33.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -4964,6 +5004,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
         "RelationType": "Default Component Of"
@@ -4980,6 +5025,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -5015,6 +5065,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -5035,6 +5090,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
@@ -5090,6 +5150,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
         "RelationType": "Default Component Of"
       },
@@ -7284,6 +7349,7 @@
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-boto3-1.17.9-19.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-botocore-1.20.9-33.1",
@@ -7291,6 +7357,7 @@
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP3-SAP-Azure:python2-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP3-SAP-Azure:python2-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-SAP-Azure:python2-cryptography-2.8-10.1",
@@ -7487,6 +7554,7 @@
             "Image SLES15-SP4-Hardened-BYOS-Azure:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-Hardened-BYOS-Azure:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS-Azure:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS-EC2:aws-cli-1.19.9-26.1",
             "Image SLES15-SP4-Hardened-BYOS-EC2:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS-EC2:python3-boto3-1.17.9-19.1",
@@ -7494,17 +7562,17 @@
             "Image SLES15-SP4-Hardened-BYOS-EC2:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-Hardened-BYOS-EC2:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS-EC2:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS-GCE:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS-GCE:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-Hardened-BYOS-GCE:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS-GCE:python3-pycparser-2.17-3.2.1",
-            "Image SLES15-SP4-Hardened-BYOS:aws-cli-1.19.9-26.1",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS:python3-asn1crypto-0.24.0-3.2.1",
-            "Image SLES15-SP4-Hardened-BYOS:python3-boto3-1.17.9-19.1",
-            "Image SLES15-SP4-Hardened-BYOS:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP4-Hardened-BYOS:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-Hardened-BYOS:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-Hardened-BYOS:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-Hardened-BYOS:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:python3-pyasn1-0.4.2-3.2.1",
@@ -7683,10 +7751,12 @@
             "Image SLES15-SP4-SAP-Hardened-Azure:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Hardened-Azure:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-Azure:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:aws-cli-1.19.9-26.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:python3-boto3-1.17.9-19.1",
@@ -7694,14 +7764,20 @@
             "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:python3-requests-2.24.0-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:aws-cli-1.19.9-26.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS:python3-asn1crypto-0.24.0-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:python3-boto3-1.17.9-19.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:python3-botocore-1.20.9-33.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Hardened-BYOS:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-EC2:aws-cli-1.19.9-26.1",
             "Image SLES15-SP4-SAP-Hardened-EC2:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-EC2:python3-boto3-1.17.9-19.1",
@@ -7713,10 +7789,12 @@
             "Image SLES15-SP4-SAP-Hardened-GCE:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Hardened-GCE:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Hardened-GCE:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Hardened:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP-Hardened:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-SAP-Hardened:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-SAP-Hardened:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-SAP:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-SAP:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-SAP:python3-pyasn1-0.4.2-3.2.1",

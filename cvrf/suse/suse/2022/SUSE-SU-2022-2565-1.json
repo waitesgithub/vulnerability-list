@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2022-2565,SUSE-OpenStack-Cloud-9-2022-2565,SUSE-OpenStack-Cloud-Crowbar-9-2022-2565,SUSE-SLE-SAP-12-SP4-2022-2565,SUSE-SLE-SDK-12-SP5-2022-2565,SUSE-SLE-SERVER-12-SP2-BCL-2022-2565,SUSE-SLE-SERVER-12-SP3-BCL-2022-2565,SUSE-SLE-SERVER-12-SP4-LTSS-2022-2565,SUSE-SLE-SERVER-12-SP5-2022-2565",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2022-2565,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2022-2565,SUSE-2022-2565,SUSE-OpenStack-Cloud-9-2022-2565,SUSE-OpenStack-Cloud-Crowbar-9-2022-2565,SUSE-SLE-SAP-12-SP4-2022-2565,SUSE-SLE-SDK-12-SP5-2022-2565,SUSE-SLE-SERVER-12-SP2-BCL-2022-2565,SUSE-SLE-SERVER-12-SP3-BCL-2022-2565,SUSE-SLE-SERVER-12-SP4-LTSS-2022-2565,SUSE-SLE-SERVER-12-SP5-2022-2565",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libpcre2-8-0-10.34-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.34-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libpcre2-16-0-10.34-1.10.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
@@ -269,6 +279,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libpcre2-8-0-10.34-1.10.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libpcre2-8-0-10.34-1.10.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libpcre2-16-0-10.34-1.10.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libpcre2-32-0-10.34-1.10.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libpcre2-8-0-10.34-1.10.1",

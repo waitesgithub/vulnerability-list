@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2023:3469-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-08-29T07:31:03Z",
-    "CurrentReleaseDate": "2023-08-29T07:31:03Z",
+    "InitialReleaseDate": "2023-08-29T07:31:05Z",
+    "CurrentReleaseDate": "2023-08-29T07:31:05Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-08-29T07:31:03Z",
+        "Date": "2023-08-29T07:31:05Z",
         "Description": "current"
       }
     ]
@@ -61,6 +61,11 @@
       {
         "ProductReference": "haproxy-2.4.22+git0.f8e3218e2-150400.3.16.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "haproxy-2.4.22+git0.f8e3218e2-150400.3.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
         "RelationType": "Default Component Of"
       },
       {
@@ -126,6 +131,7 @@
             "SUSE Linux Enterprise Micro 5.3:haproxy-2.4.22+git0.f8e3218e2-150400.3.16.1",
             "SUSE Linux Enterprise Micro 5.4:haproxy-2.4.22+git0.f8e3218e2-150400.3.16.1",
             "openSUSE Leap 15.4:haproxy-2.4.22+git0.f8e3218e2-150400.3.16.1",
+            "openSUSE Leap 15.5:haproxy-2.4.22+git0.f8e3218e2-150400.3.16.1",
             "openSUSE Leap Micro 5.3:haproxy-2.4.22+git0.f8e3218e2-150400.3.16.1",
             "openSUSE Leap Micro 5.4:haproxy-2.4.22+git0.f8e3218e2-150400.3.16.1"
           ]

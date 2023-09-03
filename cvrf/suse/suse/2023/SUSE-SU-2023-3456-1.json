@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2023:3456-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-08-28T12:16:17Z",
-    "CurrentReleaseDate": "2023-08-28T12:16:17Z",
+    "InitialReleaseDate": "2023-08-28T12:16:30Z",
+    "CurrentReleaseDate": "2023-08-28T12:16:30Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-08-28T12:16:17Z",
+        "Date": "2023-08-28T12:16:30Z",
         "Description": "current"
       }
     ]
@@ -377,6 +377,26 @@
         "ProductReference": "libfreshclam2-0.103.9-150000.3.47.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
         "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "clamav-0.103.9-150000.3.47.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "clamav-devel-0.103.9-150000.3.47.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libclamav9-0.103.9-150000.3.47.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreshclam2-0.103.9-150000.3.47.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
       }
     ]
   },
@@ -493,7 +513,11 @@
             "openSUSE Leap 15.4:clamav-0.103.9-150000.3.47.1",
             "openSUSE Leap 15.4:clamav-devel-0.103.9-150000.3.47.1",
             "openSUSE Leap 15.4:libclamav9-0.103.9-150000.3.47.1",
-            "openSUSE Leap 15.4:libfreshclam2-0.103.9-150000.3.47.1"
+            "openSUSE Leap 15.4:libfreshclam2-0.103.9-150000.3.47.1",
+            "openSUSE Leap 15.5:clamav-0.103.9-150000.3.47.1",
+            "openSUSE Leap 15.5:clamav-devel-0.103.9-150000.3.47.1",
+            "openSUSE Leap 15.5:libclamav9-0.103.9-150000.3.47.1",
+            "openSUSE Leap 15.5:libfreshclam2-0.103.9-150000.3.47.1"
           ]
         }
       ],

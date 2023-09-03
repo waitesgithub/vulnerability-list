@@ -31,13 +31,193 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2794,SUSE-SLE-Manager-Tools-For-Micro-5-2023-2794,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-2794,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-2794,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-2794,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-2794,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-2794,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-2794,SUSE-Storage-7-2023-2794,openSUSE-SLE-15.4-2023-2794",
+      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-2794,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-2794,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-2794,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-2794,SUSE-2023-2794,SUSE-SLE-Manager-Tools-For-Micro-5-2023-2794,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-2794,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-2794,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-2794,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-2794,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-2794,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-2794,SUSE-Storage-7-2023-2794,openSUSE-SLE-15.4-2023-2794",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "bind-utils-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-150000.12.68.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "bind-9.16.6-150000.12.68.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7",
@@ -691,6 +871,42 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:bind-utils-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libbind9-1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libdns1605-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libirs1601-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libisc1606-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libisccc1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libisccfg1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libns1604-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:python3-bind-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:bind-utils-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libbind9-1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libdns1605-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libirs1601-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libisc1606-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libisccc1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libisccfg1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libns1604-9.16.6-150000.12.68.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:python3-bind-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:bind-utils-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libbind9-1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libdns1605-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libirs1601-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libisc1606-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libisccc1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libisccfg1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libns1604-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-bind-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:bind-utils-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libbind9-1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libdns1605-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libirs1601-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libisc1606-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libisccc1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libisccfg1600-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libns1604-9.16.6-150000.12.68.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python3-bind-9.16.6-150000.12.68.1",
             "SUSE Enterprise Storage 7:bind-9.16.6-150000.12.68.1",
             "SUSE Enterprise Storage 7:bind-chrootenv-9.16.6-150000.12.68.1",
             "SUSE Enterprise Storage 7:bind-devel-9.16.6-150000.12.68.1",

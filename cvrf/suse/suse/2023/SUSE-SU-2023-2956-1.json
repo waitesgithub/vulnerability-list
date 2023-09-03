@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-2956,Container suse/sle-micro/5.1/toolbox:latest-2023-2956,Container suse/sle-micro/5.2/toolbox:latest-2023-2956,Container suse/sle15:15.1-2023-2956,Container suse/sle15:15.2-2023-2956,Container suse/sle15:15.3-2023-2956,Container trento/trento-wanda:latest-2023-2956,Container trento/trento-web:latest-2023-2956,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2956,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-2956,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2956,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2956,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-2956,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2956,SUSE-2023-2956,SUSE-SLE-Product-RT-15-SP3-2023-2956,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2956,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2956,SUSE-SUSE-MicroOS-5.1-2023-2956,SUSE-SUSE-MicroOS-5.2-2023-2956,openSUSE-SLE-15.4-2023-2956",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-2956,Container suse/sle-micro/5.1/toolbox:latest-2023-2956,Container suse/sle-micro/5.2/toolbox:latest-2023-2956,Container suse/sle15:15.1-2023-2956,Container suse/sle15:15.2-2023-2956,Container suse/sle15:15.3-2023-2956,Container trento/trento-wanda:latest-2023-2956,Container trento/trento-web:latest-2023-2956,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-2956,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-2956,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-2956,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-2956,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2956,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-2956,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2956,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2956,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-2956,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2956,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-2956,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-2956,SUSE-2023-2956,SUSE-SLE-Product-RT-15-SP3-2023-2956,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2956,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2956,SUSE-SUSE-MicroOS-5.1-2023-2956,SUSE-SUSE-MicroOS-5.2-2023-2956,openSUSE-SLE-15.4-2023-2956",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -90,6 +90,26 @@
       },
       {
         "ProductReference": "libcap2-2.26-150000.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-150000.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-150000.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-150000.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-150000.4.9.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -116,6 +136,16 @@
       {
         "ProductReference": "libcap2-2.26-150000.4.9.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-150000.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-150000.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -256,12 +286,18 @@
             "Container suse/sle15:15.3:libcap2-2.26-150000.4.9.1",
             "Container trento/trento-wanda:latest:libcap2-2.26-150000.4.9.1",
             "Container trento/trento-web:latest:libcap2-2.26-150000.4.9.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libcap2-2.26-150000.4.9.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libcap2-2.26-150000.4.9.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libcap2-2.26-150000.4.9.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libcap2-2.26-150000.4.9.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libcap2-2.26-150000.4.9.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libcap2-2.26-150000.4.9.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libcap2-2.26-150000.4.9.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libcap2-2.26-150000.4.9.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libcap2-2.26-150000.4.9.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libcap2-2.26-150000.4.9.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libcap2-2.26-150000.4.9.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libcap2-2.26-150000.4.9.1",
             "SUSE Linux Enterprise Micro 5.1:libcap2-2.26-150000.4.9.1",
             "SUSE Linux Enterprise Micro 5.2:libcap2-2.26-150000.4.9.1",
             "SUSE Linux Enterprise Real Time 15 SP3:libcap-devel-2.26-150000.4.9.1",

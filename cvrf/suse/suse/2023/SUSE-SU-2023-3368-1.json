@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3368,SUSE-SLE-Module-Public-Cloud-12-2023-3368,SUSE-SLE-SERVER-12-SP5-2023-3368",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-3368,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-3368,SUSE-2023-3368,SUSE-SLE-Module-Public-Cloud-12-2023-3368,SUSE-SLE-SERVER-12-SP5-2023-3368",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "python-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "python3-configobj-5.0.6-20.8.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Public Cloud 12",
@@ -101,6 +111,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:python-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:python-configobj-5.0.6-20.8.1",
             "SUSE Linux Enterprise Module for Public Cloud 12:python3-configobj-5.0.6-20.8.1",
             "SUSE Linux Enterprise Server 12 SP5:python-configobj-5.0.6-20.8.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-configobj-5.0.6-20.8.1"

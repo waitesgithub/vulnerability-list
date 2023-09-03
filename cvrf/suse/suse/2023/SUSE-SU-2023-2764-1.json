@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp5:latest-2023-2764,Image SLES12-SP5-Azure-Basic-On-Demand-2023-2764,Image SLES12-SP5-Azure-HPC-BYOS-2023-2764,Image SLES12-SP5-Azure-HPC-On-Demand-2023-2764,Image SLES12-SP5-Azure-SAP-On-Demand-2023-2764,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2764,Image SLES12-SP5-EC2-BYOS-2023-2764,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2764,Image SLES12-SP5-EC2-On-Demand-2023-2764,Image SLES12-SP5-EC2-SAP-BYOS-2023-2764,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2764,Image SLES12-SP5-GCE-BYOS-2023-2764,Image SLES12-SP5-GCE-On-Demand-2023-2764,Image SLES12-SP5-GCE-SAP-BYOS-2023-2764,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2764,SUSE-2023-2764,SUSE-SLE-SDK-12-SP5-2023-2764,SUSE-SLE-SERVER-12-SP5-2023-2764",
+      "Text": "Container suse/sles12sp5:latest-2023-2764,Image SLES12-SP5-Azure-Basic-On-Demand-2023-2764,Image SLES12-SP5-Azure-HPC-BYOS-2023-2764,Image SLES12-SP5-Azure-HPC-On-Demand-2023-2764,Image SLES12-SP5-Azure-SAP-On-Demand-2023-2764,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2764,Image SLES12-SP5-EC2-BYOS-2023-2764,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2764,Image SLES12-SP5-EC2-On-Demand-2023-2764,Image SLES12-SP5-EC2-SAP-BYOS-2023-2764,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2764,Image SLES12-SP5-GCE-BYOS-2023-2764,Image SLES12-SP5-GCE-On-Demand-2023-2764,Image SLES12-SP5-GCE-SAP-BYOS-2023-2764,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2764,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2764,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2764,SUSE-2023-2764,SUSE-SLE-SDK-12-SP5-2023-2764,SUSE-SLE-SERVER-12-SP5-2023-2764",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -111,6 +111,16 @@
       {
         "ProductReference": "libcap2-2.26-14.9.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-14.9.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-14.9.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -221,6 +231,8 @@
             "Image SLES12-SP5-GCE-On-Demand:libcap2-2.26-14.9.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:libcap2-2.26-14.9.1",
             "Image SLES12-SP5-GCE-SAP-On-Demand:libcap2-2.26-14.9.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libcap2-2.26-14.9.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libcap2-2.26-14.9.1",
             "SUSE Linux Enterprise Server 12 SP5:libcap-devel-2.26-14.9.1",
             "SUSE Linux Enterprise Server 12 SP5:libcap-progs-2.26-14.9.1",
             "SUSE Linux Enterprise Server 12 SP5:libcap2-2.26-14.9.1",

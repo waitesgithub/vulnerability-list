@@ -31,13 +31,43 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3060,SUSE-SLE-Product-HA-15-SP3-2023-3060,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3060,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3060,SUSE-SLE-Product-RT-15-SP3-2023-3060,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3060,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3060,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3060,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3060,SUSE-SUSE-MicroOS-5.2-2023-3060,SUSE-Storage-7.1-2023-3060",
+      "Text": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3060,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3060,SUSE-2023-3060,SUSE-SLE-Product-HA-15-SP3-2023-3060,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3060,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3060,SUSE-SLE-Product-RT-15-SP3-2023-3060,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3060,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3060,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3060,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3060,SUSE-SUSE-MicroOS-5.2-2023-3060,SUSE-Storage-7.1-2023-3060",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
         "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
@@ -1094,6 +1124,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:libsamba-policy-devel-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:libsamba-policy-python3-devel-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
@@ -1318,6 +1354,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:libsamba-policy-devel-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:libsamba-policy-python3-devel-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
@@ -1542,6 +1584,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:libsamba-policy-devel-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:libsamba-policy-python3-devel-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
@@ -1766,6 +1814,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:samba-client-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:samba-libs-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:ctdb-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:libsamba-policy-devel-4.15.13+git.663.9c654e06cdb-150300.3.57.5",
             "SUSE Enterprise Storage 7.1:libsamba-policy-python3-devel-4.15.13+git.663.9c654e06cdb-150300.3.57.5",

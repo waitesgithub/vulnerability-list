@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3471,SUSE-SLE-SDK-12-SP5-2023-3471,SUSE-SLE-SERVER-12-SP5-2023-3471",
+      "Text": "Container suse/sles12sp5:latest-2023-3471,SUSE-2023-3471,SUSE-SLE-SDK-12-SP5-2023-3471,SUSE-SLE-SERVER-12-SP5-2023-3471",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libprocps3-3.3.9-11.27.1",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.9-11.27.1",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libprocps3-3.3.9-11.27.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
@@ -111,6 +121,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sles12sp5:latest:libprocps3-3.3.9-11.27.1",
+            "Container suse/sles12sp5:latest:procps-3.3.9-11.27.1",
             "SUSE Linux Enterprise Server 12 SP5:libprocps3-3.3.9-11.27.1",
             "SUSE Linux Enterprise Server 12 SP5:procps-3.3.9-11.27.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libprocps3-3.3.9-11.27.1",

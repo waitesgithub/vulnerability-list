@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2023:3472-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-08-29T08:55:59Z",
-    "CurrentReleaseDate": "2023-08-29T08:55:59Z",
+    "InitialReleaseDate": "2023-08-29T08:56:07Z",
+    "CurrentReleaseDate": "2023-08-29T08:56:07Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-08-29T08:55:59Z",
+        "Date": "2023-08-29T08:56:07Z",
         "Description": "current"
       }
     ]
@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3472,Container suse/sle-micro-rancher/5.3:latest-2023-3472,Container suse/sle-micro-rancher/5.4:latest-2023-3472,SUSE-2023-3472,SUSE-SLE-Micro-5.3-2023-3472,SUSE-SLE-Micro-5.4-2023-3472,SUSE-SLE-Module-Basesystem-15-SP4-2023-3472,SUSE-SLE-Module-Basesystem-15-SP5-2023-3472,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3472,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3472,SUSE-SUSE-MicroOS-5.1-2023-3472,SUSE-SUSE-MicroOS-5.2-2023-3472,openSUSE-Leap-Micro-5.3-2023-3472,openSUSE-Leap-Micro-5.4-2023-3472,openSUSE-SLE-15.4-2023-3472,openSUSE-SLE-15.5-2023-3472",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3472,Container suse/sle-micro-rancher/5.3:latest-2023-3472,Container suse/sle-micro-rancher/5.4:latest-2023-3472,Container suse/sle15:15.1-2023-3472,Container suse/sle15:15.2-2023-3472,Container suse/sle15:15.3-2023-3472,Container suse/sle15:15.4-2023-3472,Container suse/sle15:15.5-2023-3472,SUSE-2023-3472,SUSE-SLE-Micro-5.3-2023-3472,SUSE-SLE-Micro-5.4-2023-3472,SUSE-SLE-Module-Basesystem-15-SP4-2023-3472,SUSE-SLE-Module-Basesystem-15-SP5-2023-3472,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3472,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3472,SUSE-SUSE-MicroOS-5.1-2023-3472,SUSE-SUSE-MicroOS-5.2-2023-3472,openSUSE-Leap-Micro-5.3-2023-3472,openSUSE-Leap-Micro-5.4-2023-3472,openSUSE-SLE-15.4-2023-3472,openSUSE-SLE-15.5-2023-3472",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -70,6 +70,56 @@
       },
       {
         "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/sle15:15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
         "RelationType": "Default Component Of"
       },
@@ -181,6 +231,21 @@
       {
         "ProductReference": "procps-devel-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-devel-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
         "RelationType": "Default Component Of"
       },
       {
@@ -257,6 +322,16 @@
             "Container suse/sle-micro-rancher/5.3:latest:procps-3.3.15-150000.7.34.1",
             "Container suse/sle-micro-rancher/5.4:latest:libprocps7-3.3.15-150000.7.34.1",
             "Container suse/sle-micro-rancher/5.4:latest:procps-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.1:libprocps7-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.1:procps-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.2:libprocps7-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.2:procps-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.3:libprocps7-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.3:procps-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.4:libprocps7-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.4:procps-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.5:libprocps7-3.3.15-150000.7.34.1",
+            "Container suse/sle15:15.5:procps-3.3.15-150000.7.34.1",
             "SUSE Linux Enterprise Micro 5.1:libprocps7-3.3.15-150000.7.34.1",
             "SUSE Linux Enterprise Micro 5.1:procps-3.3.15-150000.7.34.1",
             "SUSE Linux Enterprise Micro 5.2:libprocps7-3.3.15-150000.7.34.1",
@@ -280,6 +355,9 @@
             "openSUSE Leap 15.4:libprocps7-3.3.15-150000.7.34.1",
             "openSUSE Leap 15.4:procps-3.3.15-150000.7.34.1",
             "openSUSE Leap 15.4:procps-devel-3.3.15-150000.7.34.1",
+            "openSUSE Leap 15.5:libprocps7-3.3.15-150000.7.34.1",
+            "openSUSE Leap 15.5:procps-3.3.15-150000.7.34.1",
+            "openSUSE Leap 15.5:procps-devel-3.3.15-150000.7.34.1",
             "openSUSE Leap Micro 5.3:libprocps7-3.3.15-150000.7.34.1",
             "openSUSE Leap Micro 5.3:procps-3.3.15-150000.7.34.1",
             "openSUSE Leap Micro 5.4:libprocps7-3.3.15-150000.7.34.1",

@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2023:3454-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-08-28T11:43:42Z",
-    "CurrentReleaseDate": "2023-08-28T11:43:42Z",
+    "InitialReleaseDate": "2023-08-28T11:43:51Z",
+    "CurrentReleaseDate": "2023-08-28T11:43:51Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-08-28T11:43:42Z",
+        "Date": "2023-08-28T11:43:51Z",
         "Description": "current"
       }
     ]
@@ -31,13 +31,38 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3454,Container suse/sle-micro-rancher/5.3:latest-2023-3454,Container suse/sle-micro-rancher/5.4:latest-2023-3454,Image SLES15-SP4-Hardened-BYOS-2023-3454,Image SLES15-SP4-Hardened-BYOS-Azure-2023-3454,Image SLES15-SP4-Hardened-BYOS-EC2-2023-3454,Image SLES15-SP4-Hardened-BYOS-GCE-2023-3454,Image SLES15-SP4-SAP-Hardened-2023-3454,Image SLES15-SP4-SAP-Hardened-Azure-2023-3454,Image SLES15-SP4-SAP-Hardened-BYOS-2023-3454,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-3454,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-3454,Image SLES15-SP4-SAP-Hardened-GCE-2023-3454,SUSE-2023-3454,SUSE-SLE-Micro-5.3-2023-3454,SUSE-SLE-Micro-5.4-2023-3454,SUSE-SLE-Module-Basesystem-15-SP4-2023-3454,SUSE-SLE-Module-Basesystem-15-SP5-2023-3454,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3454,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3454,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3454,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3454,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3454,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3454,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3454,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3454,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3454,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3454,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3454,SUSE-SUSE-MicroOS-5.1-2023-3454,SUSE-SUSE-MicroOS-5.2-2023-3454,SUSE-Storage-7.1-2023-3454,openSUSE-Leap-Micro-5.3-2023-3454,openSUSE-Leap-Micro-5.4-2023-3454,openSUSE-SLE-15.4-2023-3454,openSUSE-SLE-15.5-2023-3454",
+      "Text": "Container bci/bci-busybox:15.4-2023-3454,Container bci/bci-busybox:latest-2023-3454,Container bci/bci-micro:15.4-2023-3454,Container bci/bci-micro:latest-2023-3454,Container suse/registry:latest-2023-3454,Container suse/sle-micro-rancher/5.2:latest-2023-3454,Container suse/sle-micro-rancher/5.3:latest-2023-3454,Container suse/sle-micro-rancher/5.4:latest-2023-3454,Container suse/sle15:15.2-2023-3454,Container suse/sle15:15.3-2023-3454,Container suse/sle15:15.4-2023-3454,Container suse/sle15:15.5-2023-3454,Image SLES15-SP4-Hardened-BYOS-2023-3454,Image SLES15-SP4-Hardened-BYOS-Azure-2023-3454,Image SLES15-SP4-Hardened-BYOS-EC2-2023-3454,Image SLES15-SP4-Hardened-BYOS-GCE-2023-3454,Image SLES15-SP4-SAP-Hardened-2023-3454,Image SLES15-SP4-SAP-Hardened-Azure-2023-3454,Image SLES15-SP4-SAP-Hardened-BYOS-2023-3454,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-3454,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-3454,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-3454,Image SLES15-SP4-SAP-Hardened-GCE-2023-3454,SUSE-2023-3454,SUSE-SLE-Micro-5.3-2023-3454,SUSE-SLE-Micro-5.4-2023-3454,SUSE-SLE-Module-Basesystem-15-SP4-2023-3454,SUSE-SLE-Module-Basesystem-15-SP5-2023-3454,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3454,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3454,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3454,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3454,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3454,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3454,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3454,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3454,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3454,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3454,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3454,SUSE-SUSE-MicroOS-5.1-2023-3454,SUSE-SUSE-MicroOS-5.2-2023-3454,SUSE-Storage-7.1-2023-3454,openSUSE-Leap-Micro-5.3-2023-3454,openSUSE-Leap-Micro-5.4-2023-3454,openSUSE-SLE-15.4-2023-3454,openSUSE-SLE-15.5-2023-3454",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.62-150200.30.1",
+        "RelatesToProductReference": "Container bci/bci-busybox:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.62-150200.30.1",
+        "RelatesToProductReference": "Container bci/bci-busybox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.62-150200.30.1",
+        "RelatesToProductReference": "Container bci/bci-micro:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.62-150200.30.1",
+        "RelatesToProductReference": "Container bci/bci-micro:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
+        "RelatesToProductReference": "Container suse/registry:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "ca-certificates-mozilla-prebuilt-2.62-150200.30.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
@@ -51,6 +76,26 @@
       {
         "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
+        "RelatesToProductReference": "Container suse/sle15:15.5",
         "RelationType": "Default Component Of"
       },
       {
@@ -91,6 +136,11 @@
       {
         "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
@@ -246,6 +296,16 @@
       {
         "ProductReference": "ca-certificates-mozilla-prebuilt-2.62-150200.30.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.62-150200.30.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.62-150200.30.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
         "RelationType": "Default Component Of"
       },
       {

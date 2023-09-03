@@ -31,13 +31,93 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3369,SUSE-SLE-Micro-5.4-2023-3369,SUSE-SLE-Module-Basesystem-15-SP4-2023-3369,SUSE-SLE-Module-Basesystem-15-SP5-2023-3369,SUSE-SLE-Product-RT-15-SP3-2023-3369,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3369,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3369,openSUSE-Leap-Micro-5.4-2023-3369,openSUSE-SLE-15.4-2023-3369,openSUSE-SLE-15.5-2023-3369",
+      "Text": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-3369,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-3369,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-3369,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-3369,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3369,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3369,Image SLES15-SP4-Hardened-BYOS-2023-3369,Image SLES15-SP4-Hardened-BYOS-Azure-2023-3369,Image SLES15-SP4-Hardened-BYOS-EC2-2023-3369,Image SLES15-SP4-SAP-Hardened-2023-3369,Image SLES15-SP4-SAP-Hardened-Azure-2023-3369,Image SLES15-SP4-SAP-Hardened-BYOS-2023-3369,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-3369,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-3369,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-3369,Image SLES15-SP4-SAP-Hardened-GCE-2023-3369,SUSE-2023-3369,SUSE-SLE-Micro-5.4-2023-3369,SUSE-SLE-Module-Basesystem-15-SP4-2023-3369,SUSE-SLE-Module-Basesystem-15-SP5-2023-3369,SUSE-SLE-Product-RT-15-SP3-2023-3369,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3369,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3369,openSUSE-Leap-Micro-5.4-2023-3369,openSUSE-SLE-15.4-2023-3369,openSUSE-SLE-15.5-2023-3369",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "python3-configobj-5.0.6-150000.3.3.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.4",
@@ -136,6 +216,22 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-Hardened-BYOS:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:python3-configobj-5.0.6-150000.3.3.1",
+            "Image SLES15-SP4-SAP-Hardened:python3-configobj-5.0.6-150000.3.3.1",
             "SUSE Linux Enterprise Micro 5.4:python3-configobj-5.0.6-150000.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-configobj-5.0.6-150000.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:python3-configobj-5.0.6-150000.3.3.1",

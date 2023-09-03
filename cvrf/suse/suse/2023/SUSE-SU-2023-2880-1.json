@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp5:latest-2023-2880,Image SLES12-SP5-EC2-BYOS-2023-2880,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2880,Image SLES12-SP5-EC2-On-Demand-2023-2880,Image SLES12-SP5-EC2-SAP-BYOS-2023-2880,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2880,Image SLES12-SP5-GCE-On-Demand-2023-2880,SUSE-2023-2880,SUSE-SLE-SDK-12-SP5-2023-2880,SUSE-SLE-SERVER-12-SP5-2023-2880",
+      "Text": "Container suse/sles12sp5:latest-2023-2880,Image SLES12-SP5-EC2-BYOS-2023-2880,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2880,Image SLES12-SP5-EC2-On-Demand-2023-2880,Image SLES12-SP5-EC2-SAP-BYOS-2023-2880,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2880,Image SLES12-SP5-GCE-On-Demand-2023-2880,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2880,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2880,SUSE-2023-2880,SUSE-SLE-SDK-12-SP5-2023-2880,SUSE-SLE-SERVER-12-SP5-2023-2880",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -100,6 +100,26 @@
       },
       {
         "ProductReference": "curl-8.0.1-11.68.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.0.1-11.68.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.0.1-11.68.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.0.1-11.68.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.0.1-11.68.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
         "RelationType": "Default Component Of"
       },
@@ -160,7 +180,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-32001",
-      "Description": "libcurl can be told to save cookie, HSTS and/or alt-svc data to files. When\ndoing this, it called `stat()` followed by `fopen()` in a way that made it\nvulnerable to a TOCTOU race condition problem.\n\nBy exploiting this flaw, an attacker could trick the victim to create or\noverwrite protected files holding this data in ways it was not intended to.\n",
+      "Description": "** REJECT ** We issued this CVE pre-maturely, as we have subsequently realized that this issue points out a problem that there really is no safe measures around or protections for.",
       "Threats": [
         {
           "Type": "Impact",
@@ -193,6 +213,10 @@
             "Image SLES12-SP5-EC2-SAP-On-Demand:libcurl4-8.0.1-11.68.1",
             "Image SLES12-SP5-GCE-On-Demand:curl-8.0.1-11.68.1",
             "Image SLES12-SP5-GCE-On-Demand:libcurl4-8.0.1-11.68.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:curl-8.0.1-11.68.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libcurl4-8.0.1-11.68.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:curl-8.0.1-11.68.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libcurl4-8.0.1-11.68.1",
             "SUSE Linux Enterprise Server 12 SP5:curl-8.0.1-11.68.1",
             "SUSE Linux Enterprise Server 12 SP5:libcurl4-32bit-8.0.1-11.68.1",
             "SUSE Linux Enterprise Server 12 SP5:libcurl4-8.0.1-11.68.1",

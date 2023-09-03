@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2757,SUSE-SLE-SAP-12-SP4-2023-2757,SUSE-SLE-SAP-12-SP5-2023-2757",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2757,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2757,SUSE-2023-2757,SUSE-SLE-SAP-12-SP4-2023-2757,SUSE-SLE-SAP-12-SP5-2023-2757",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "prometheus-sap_host_exporter-0.6.0+git.1685628435.48c4099-4.9.2",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "prometheus-sap_host_exporter-0.6.0+git.1685628435.48c4099-4.9.2",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "prometheus-sap_host_exporter-0.6.0+git.1685628435.48c4099-4.9.2",
         "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",

@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2477,SUSE-OpenStack-Cloud-9-2023-2477,SUSE-OpenStack-Cloud-Crowbar-9-2023-2477,SUSE-SLE-SAP-12-SP4-2023-2477,SUSE-SLE-SDK-12-SP5-2023-2477,SUSE-SLE-SERVER-12-SP2-BCL-2023-2477,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-2477,SUSE-SLE-SERVER-12-SP4-LTSS-2023-2477,SUSE-SLE-SERVER-12-SP5-2023-2477,SUSE-SLE-WE-12-SP5-2023-2477",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2477,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2477,SUSE-2023-2477,SUSE-OpenStack-Cloud-9-2023-2477,SUSE-OpenStack-Cloud-Crowbar-9-2023-2477,SUSE-SLE-SAP-12-SP4-2023-2477,SUSE-SLE-SDK-12-SP5-2023-2477,SUSE-SLE-SERVER-12-SP2-BCL-2023-2477,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-2477,SUSE-SLE-SERVER-12-SP4-LTSS-2023-2477,SUSE-SLE-SERVER-12-SP5-2023-2477,SUSE-SLE-WE-12-SP5-2023-2477",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libcares2-1.9.1-9.12.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.9.1-9.12.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libcares2-1.9.1-9.12.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
@@ -160,6 +170,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libcares2-1.9.1-9.12.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:libcares2-1.9.1-9.12.1",
@@ -198,6 +210,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libcares2-1.9.1-9.12.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:libcares2-1.9.1-9.12.1",
@@ -236,6 +250,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libcares2-1.9.1-9.12.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:libcares2-1.9.1-9.12.1",
@@ -274,6 +290,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libcares2-1.9.1-9.12.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP4-ESPOS:libcares2-1.9.1-9.12.1",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:libcares2-1.9.1-9.12.1",

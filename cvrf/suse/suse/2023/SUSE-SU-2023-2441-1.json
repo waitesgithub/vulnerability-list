@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2441,SUSE-OpenStack-Cloud-9-2023-2441,SUSE-OpenStack-Cloud-Crowbar-9-2023-2441,SUSE-SLE-SAP-12-SP4-2023-2441,SUSE-SLE-SDK-12-SP5-2023-2441,SUSE-SLE-SERVER-12-SP2-BCL-2023-2441,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-2441,SUSE-SLE-SERVER-12-SP4-LTSS-2023-2441,SUSE-SLE-SERVER-12-SP5-2023-2441",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2441,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2441,SUSE-2023-2441,SUSE-OpenStack-Cloud-9-2023-2441,SUSE-OpenStack-Cloud-Crowbar-9-2023-2441,SUSE-SLE-SAP-12-SP4-2023-2441,SUSE-SLE-SDK-12-SP5-2023-2441,SUSE-SLE-SERVER-12-SP2-BCL-2023-2441,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-2441,SUSE-SLE-SERVER-12-SP4-LTSS-2023-2441,SUSE-SLE-SERVER-12-SP5-2023-2441",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "MozillaFirefox-102.12.0-112.162.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.12.0-112.162.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "MozillaFirefox-102.12.0-112.162.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
@@ -211,6 +221,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.12.0-112.162.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.12.0-112.162.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-102.12.0-112.162.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-devel-102.12.0-112.162.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-translations-common-102.12.0-112.162.1",
@@ -260,6 +272,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-102.12.0-112.162.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-102.12.0-112.162.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-102.12.0-112.162.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-devel-102.12.0-112.162.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-translations-common-102.12.0-112.162.1",

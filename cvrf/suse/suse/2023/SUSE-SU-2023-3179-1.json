@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3179,Container suse/sle-micro/5.1/toolbox:latest-2023-3179,Container suse/sle-micro/5.2/toolbox:latest-2023-3179,Container suse/sle15:15.2-2023-3179,Container suse/sle15:15.3-2023-3179,Container trento/trento-wanda:latest-2023-3179,Container trento/trento-web:latest-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-3179,SUSE-2023-3179,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3179,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3179,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3179,SUSE-SLE-Product-RT-15-SP3-2023-3179,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3179,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3179,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3179,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3179,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3179,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3179,SUSE-SUSE-MicroOS-5.1-2023-3179,SUSE-SUSE-MicroOS-5.2-2023-3179,SUSE-Storage-7-2023-3179,SUSE-Storage-7.1-2023-3179",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3179,Container suse/sle-micro/5.1/toolbox:latest-2023-3179,Container suse/sle-micro/5.2/toolbox:latest-2023-3179,Container suse/sle15:15.2-2023-3179,Container suse/sle15:15.3-2023-3179,Container trento/trento-wanda:latest-2023-3179,Container trento/trento-web:latest-2023-3179,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-3179,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-3179,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3179,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3179,SUSE-2023-3179,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3179,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3179,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3179,SUSE-SLE-Product-RT-15-SP3-2023-3179,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3179,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3179,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3179,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3179,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3179,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3179,SUSE-SUSE-MicroOS-5.1-2023-3179,SUSE-SUSE-MicroOS-5.2-2023-3179,SUSE-Storage-7-2023-3179,SUSE-Storage-7.1-2023-3179",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -130,6 +130,36 @@
       },
       {
         "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -186,6 +216,36 @@
       {
         "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -743,6 +803,12 @@
             "Container trento/trento-wanda:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
             "Container trento/trento-web:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Container trento/trento-web:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.72.1",
@@ -755,6 +821,12 @@
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-1.1.1d-150200.11.72.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-32bit-1.1.1d-150200.11.72.1",
             "SUSE Enterprise Storage 7.1:libopenssl1_1-1.1.1d-150200.11.72.1",
@@ -898,6 +970,12 @@
             "Container trento/trento-wanda:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
             "Container trento/trento-web:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Container trento/trento-web:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.72.1",
@@ -910,6 +988,12 @@
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-1.1.1d-150200.11.72.1",
             "SUSE Enterprise Storage 7.1:libopenssl-1_1-devel-32bit-1.1.1d-150200.11.72.1",
             "SUSE Enterprise Storage 7.1:libopenssl1_1-1.1.1d-150200.11.72.1",

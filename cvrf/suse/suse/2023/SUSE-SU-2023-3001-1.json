@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3001,SUSE-SLE-SERVER-12-SP5-2023-3001",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-3001,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-3001,SUSE-2023-3001,SUSE-SLE-SERVER-12-SP5-2023-3001",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "kernel-firmware-20190618-5.28.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-firmware-20190618-5.28.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "kernel-firmware-20190618-5.28.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
@@ -110,6 +120,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:kernel-firmware-20190618-5.28.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:kernel-firmware-20190618-5.28.1",
             "SUSE Linux Enterprise Server 12 SP5:kernel-firmware-20190618-5.28.1",
             "SUSE Linux Enterprise Server 12 SP5:ucode-amd-20190618-5.28.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP5:kernel-firmware-20190618-5.28.1",

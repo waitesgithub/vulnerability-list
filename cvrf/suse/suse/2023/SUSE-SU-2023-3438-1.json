@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2023:3438-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-08-28T05:27:09Z",
-    "CurrentReleaseDate": "2023-08-28T05:27:09Z",
+    "InitialReleaseDate": "2023-08-28T05:27:10Z",
+    "CurrentReleaseDate": "2023-08-28T05:27:10Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-08-28T05:27:09Z",
+        "Date": "2023-08-28T05:27:10Z",
         "Description": "current"
       }
     ]
@@ -112,6 +112,21 @@
         "ProductReference": "ghostscript-x11-9.52-150000.170.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
         "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ghostscript-9.52-150000.170.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ghostscript-devel-9.52-150000.170.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ghostscript-x11-9.52-150000.170.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
       }
     ]
   },
@@ -175,7 +190,10 @@
             "SUSE Manager Server 4.2:ghostscript-x11-9.52-150000.170.1",
             "openSUSE Leap 15.4:ghostscript-9.52-150000.170.1",
             "openSUSE Leap 15.4:ghostscript-devel-9.52-150000.170.1",
-            "openSUSE Leap 15.4:ghostscript-x11-9.52-150000.170.1"
+            "openSUSE Leap 15.4:ghostscript-x11-9.52-150000.170.1",
+            "openSUSE Leap 15.5:ghostscript-9.52-150000.170.1",
+            "openSUSE Leap 15.5:ghostscript-devel-9.52-150000.170.1",
+            "openSUSE Leap 15.5:ghostscript-x11-9.52-150000.170.1"
           ]
         }
       ],

@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2023:3401-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-08-23T17:06:21Z",
-    "CurrentReleaseDate": "2023-08-23T17:06:21Z",
+    "InitialReleaseDate": "2023-08-23T17:06:37Z",
+    "CurrentReleaseDate": "2023-08-23T17:06:37Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-08-23T17:06:21Z",
+        "Date": "2023-08-23T17:06:37Z",
         "Description": "current"
       }
     ]
@@ -227,6 +227,106 @@
         "ProductReference": "erlang-wx-src-22.3-150300.3.8.1",
         "RelatesToProductReference": "openSUSE Leap 15.4",
         "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-debugger-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-debugger-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-dialyzer-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-dialyzer-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-diameter-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-diameter-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-doc-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-epmd-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-et-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-et-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-jinterface-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-jinterface-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-observer-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-observer-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-reltool-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-reltool-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-wx-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "erlang-wx-src-22.3-150300.3.8.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
       }
     ]
   },
@@ -263,7 +363,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -317,7 +417,27 @@
             "openSUSE Leap 15.4:erlang-reltool-src-22.3-150300.3.8.1",
             "openSUSE Leap 15.4:erlang-src-22.3-150300.3.8.1",
             "openSUSE Leap 15.4:erlang-wx-22.3-150300.3.8.1",
-            "openSUSE Leap 15.4:erlang-wx-src-22.3-150300.3.8.1"
+            "openSUSE Leap 15.4:erlang-wx-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-debugger-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-debugger-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-dialyzer-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-dialyzer-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-diameter-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-diameter-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-doc-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-epmd-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-et-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-et-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-jinterface-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-jinterface-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-observer-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-observer-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-reltool-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-reltool-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-src-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-wx-22.3-150300.3.8.1",
+            "openSUSE Leap 15.5:erlang-wx-src-22.3-150300.3.8.1"
           ]
         }
       ],

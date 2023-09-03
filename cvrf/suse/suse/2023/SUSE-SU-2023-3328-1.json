@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3328,SUSE-SLE-SDK-12-SP5-2023-3328,SUSE-SLE-SERVER-12-SP5-2023-3328",
+      "Text": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-3328,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-3328,SUSE-2023-3328,SUSE-SLE-SDK-12-SP5-2023-3328,SUSE-SLE-SERVER-12-SP5-2023-3328",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libpcre2-8-0-10.34-1.13.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.34-1.13.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libpcre2-16-0-10.34-1.13.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
@@ -141,6 +151,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libpcre2-8-0-10.34-1.13.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libpcre2-8-0-10.34-1.13.1",
             "SUSE Linux Enterprise Server 12 SP5:libpcre2-16-0-10.34-1.13.1",
             "SUSE Linux Enterprise Server 12 SP5:libpcre2-32-0-10.34-1.13.1",
             "SUSE Linux Enterprise Server 12 SP5:libpcre2-8-0-10.34-1.13.1",

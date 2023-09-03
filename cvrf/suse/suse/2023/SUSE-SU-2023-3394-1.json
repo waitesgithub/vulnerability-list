@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2023:3394-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2023-08-23T16:07:38Z",
-    "CurrentReleaseDate": "2023-08-23T16:07:38Z",
+    "InitialReleaseDate": "2023-08-23T16:06:06Z",
+    "CurrentReleaseDate": "2023-08-23T16:06:06Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-08-23T16:07:38Z",
+        "Date": "2023-08-23T16:06:06Z",
         "Description": "current"
       }
     ]
@@ -72,6 +72,46 @@
         "ProductReference": "postfix-mysql-3.7.3-150500.3.5.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP5",
         "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-3.7.3-150500.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-bdb-3.7.3-150500.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-bdb-lmdb-3.7.3-150500.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-devel-3.7.3-150500.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-doc-3.7.3-150500.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-ldap-3.7.3-150500.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-mysql-3.7.3-150500.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-postgresql-3.7.3-150500.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.5",
+        "RelationType": "Default Component Of"
       }
     ]
   },
@@ -131,7 +171,15 @@
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:postfix-ldap-3.7.3-150500.3.5.1",
             "SUSE Linux Enterprise Module for Legacy 15 SP5:postfix-bdb-3.7.3-150500.3.5.1",
             "SUSE Linux Enterprise Module for Legacy 15 SP5:postfix-bdb-lmdb-3.7.3-150500.3.5.1",
-            "SUSE Linux Enterprise Module for Server Applications 15 SP5:postfix-mysql-3.7.3-150500.3.5.1"
+            "SUSE Linux Enterprise Module for Server Applications 15 SP5:postfix-mysql-3.7.3-150500.3.5.1",
+            "openSUSE Leap 15.5:postfix-3.7.3-150500.3.5.1",
+            "openSUSE Leap 15.5:postfix-bdb-3.7.3-150500.3.5.1",
+            "openSUSE Leap 15.5:postfix-bdb-lmdb-3.7.3-150500.3.5.1",
+            "openSUSE Leap 15.5:postfix-devel-3.7.3-150500.3.5.1",
+            "openSUSE Leap 15.5:postfix-doc-3.7.3-150500.3.5.1",
+            "openSUSE Leap 15.5:postfix-ldap-3.7.3-150500.3.5.1",
+            "openSUSE Leap 15.5:postfix-mysql-3.7.3-150500.3.5.1",
+            "openSUSE Leap 15.5:postfix-postgresql-3.7.3-150500.3.5.1"
           ]
         }
       ],
