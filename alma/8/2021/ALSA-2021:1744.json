@@ -8,8 +8,8 @@
     "$date": 1621317526000
   },
   "pkglist": {
-    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
         "name": "sane-backends-libs",
@@ -180,30 +180,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "sane-backends-drivers-cameras",
-        "version": "1.0.27",
-        "release": "22.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "sane-backends-1.0.27-22.el8.src.rpm",
-        "filename": "sane-backends-drivers-cameras-1.0.27-22.el8.ppc64le.rpm",
-        "sum": "97f1ffdf69e7ab411dd72d7749960e1662eba1176a9b498f113a7e618406696e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "sane-backends-devel",
-        "version": "1.0.27",
-        "release": "22.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "sane-backends-1.0.27-22.el8.src.rpm",
-        "filename": "sane-backends-devel-1.0.27-22.el8.ppc64le.rpm",
-        "sum": "99d6ddc9f7b1eaeb9c2d8c44201176ee44ea66825ac4fb0d1cfbaf4b00c5ee9f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "sane-backends-devel",
         "version": "1.0.27",
         "release": "22.el8",
@@ -252,18 +228,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "sane-backends-drivers-scanners",
-        "version": "1.0.27",
-        "release": "22.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "sane-backends-1.0.27-22.el8.src.rpm",
-        "filename": "sane-backends-drivers-scanners-1.0.27-22.el8.ppc64le.rpm",
-        "sum": "b1a21dbd9c0037d18169697142d41e7739bce1454bb04437db3c6e728e5fcf21",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "sane-backends-drivers-cameras",
         "version": "1.0.27",
         "release": "22.el8",
@@ -296,18 +260,6 @@
         "src": "sane-backends-1.0.27-22.el8.src.rpm",
         "filename": "sane-backends-1.0.27-22.el8.aarch64.rpm",
         "sum": "f25b4438711bd9c353c6e8987722928f599f81213085ee1f41c0c1dc987acca5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "sane-backends-libs",
-        "version": "1.0.27",
-        "release": "22.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "sane-backends-1.0.27-22.el8.src.rpm",
-        "filename": "sane-backends-libs-1.0.27-22.el8.ppc64le.rpm",
-        "sum": "f269100adccb33efce24c7b41a095678f08b52816eb5abbe5d716d0733556723",
         "sum_type": 5,
         "reboot_suggested": 0
       },
