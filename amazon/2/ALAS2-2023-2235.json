@@ -1,0 +1,72 @@
+{
+  "id": "ALAS2-2023-2235",
+  "title": "Amazon Linux 2 2017.12 - ALAS2-2023-2235: medium priority package update for compat-libtiff3",
+  "issued": {
+    "date": "2023-08-31 22:29"
+  },
+  "updated": {
+    "date": "2023-08-31 22:29"
+  },
+  "severity": "medium",
+  "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2023-0802:\n\tLibTIFF 4.4.0 has an out-of-bounds write in tiffcrop in tools/tiffcrop.c:3724, allowing attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit 33aee127.\n",
+  "packages": [
+    {
+      "name": "compat-libtiff3",
+      "epoch": "0",
+      "version": "3.9.4",
+      "release": "12.amzn2.0.3",
+      "arch": "x86_64",
+      "filename": "Packages/compat-libtiff3-3.9.4-12.amzn2.0.3.x86_64.rpm"
+    },
+    {
+      "name": "compat-libtiff3-debuginfo",
+      "epoch": "0",
+      "version": "3.9.4",
+      "release": "12.amzn2.0.3",
+      "arch": "x86_64",
+      "filename": "Packages/compat-libtiff3-debuginfo-3.9.4-12.amzn2.0.3.x86_64.rpm"
+    },
+    {
+      "name": "compat-libtiff3",
+      "epoch": "0",
+      "version": "3.9.4",
+      "release": "12.amzn2.0.3",
+      "arch": "i686",
+      "filename": "Packages/compat-libtiff3-3.9.4-12.amzn2.0.3.i686.rpm"
+    },
+    {
+      "name": "compat-libtiff3-debuginfo",
+      "epoch": "0",
+      "version": "3.9.4",
+      "release": "12.amzn2.0.3",
+      "arch": "i686",
+      "filename": "Packages/compat-libtiff3-debuginfo-3.9.4-12.amzn2.0.3.i686.rpm"
+    },
+    {
+      "name": "compat-libtiff3",
+      "epoch": "0",
+      "version": "3.9.4",
+      "release": "12.amzn2.0.3",
+      "arch": "aarch64",
+      "filename": "Packages/compat-libtiff3-3.9.4-12.amzn2.0.3.aarch64.rpm"
+    },
+    {
+      "name": "compat-libtiff3-debuginfo",
+      "epoch": "0",
+      "version": "3.9.4",
+      "release": "12.amzn2.0.3",
+      "arch": "aarch64",
+      "filename": "Packages/compat-libtiff3-debuginfo-3.9.4-12.amzn2.0.3.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0802",
+      "id": "CVE-2023-0802",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2023-0802"
+  ]
+}

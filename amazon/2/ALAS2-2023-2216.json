@@ -5,7 +5,7 @@
     "date": "2023-08-17 11:58"
   },
   "updated": {
-    "date": "2023-08-17 11:58"
+    "date": "2023-08-23 00:18"
   },
   "severity": "medium",
   "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2020-1935:\n\tA flaw was found in Apache Tomcat. The HTTP header parsing code used an approach to end-of-line (EOL) parsing that allowed some invalid HTTP headers to be parsed as valid. This led to the possibility of HTTP Request Smuggling if Tomcat was located behind a reverse proxy that incorrectly handled the invalid Transfer-Encoding header in a particular manner. The highest threat with this vulnerability is system availability.\n",
