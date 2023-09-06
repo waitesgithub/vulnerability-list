@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2018-07-31T18:12:47Z",
+  "UpdatedAt": "2023-09-05T21:45:13Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rack-cors"
@@ -39,12 +39,12 @@
         "Value": "CVE-2017-11173"
       }
     ],
-    "Description": "Missing anchor in generated regex for rack-cors before 0.4.1 allows a malicious third-party site to perform CORS requests. If the configuration were intended to allow only the trusted example.com domain name and not the malicious example.net domain name, then example.com.example.net (as well as example.com-example.net) would be inadvertently allowed.",
+    "Description": "Missing anchor in generated regex for rack-cors before 0.4.1 allows a malicious third-party site to perform CORS requests. If the configuration were intended to allow only the trusted `example.com` domain name and not the malicious `example.net` domain name, then `example.com.example.net` (as well as `example.com-example.net`) would be inadvertently allowed.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-07-31T18:18:39Z",
     "Severity": "HIGH",
-    "Summary": "Missing anchor in Rack-Cors allows malicious third party site to perform CORS request",
-    "UpdatedAt": "2023-01-09T05:02:37Z",
+    "Summary": "Missing Regex anchor in Rack-Cors allows malicious third party site to perform CORS request",
+    "UpdatedAt": "2023-09-05T21:45:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

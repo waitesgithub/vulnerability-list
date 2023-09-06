@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2018-11-30T19:54:11Z",
+  "UpdatedAt": "2023-09-05T21:32:13Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "gyazo"
@@ -20,10 +20,10 @@
         "Url": "http://www.openwall.com/lists/oss-security/2014/07/17/5"
       },
       {
-        "Url": "http://www.vapid.dhs.org/advisories/gyazo-1.0.0.html"
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/gyazo/CVE-2014-4994.yml"
       },
       {
-        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/gyazo/CVE-2014-4994.yml"
+        "Url": "https://web.archive.org/web/20200229061943/http://www.vapid.dhs.org/advisories/gyazo-1.0.0.html"
       },
       {
         "Url": "https://github.com/advisories/GHSA-6x45-86q6-rcmr"
@@ -44,7 +44,7 @@
     "PublishedAt": "2018-01-22T23:17:39Z",
     "Severity": "MODERATE",
     "Summary": "Gyazo allows local users to write arbitrary files",
-    "UpdatedAt": "2023-07-31T20:50:47Z",
+    "UpdatedAt": "2023-09-05T21:32:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,

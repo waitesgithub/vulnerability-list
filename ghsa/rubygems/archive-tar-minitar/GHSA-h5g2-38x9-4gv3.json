@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2017-10-24T18:33:35Z",
+  "UpdatedAt": "2023-09-05T21:02:42Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "archive-tar-minitar"
@@ -51,12 +51,12 @@
         "Value": "CVE-2016-10173"
       }
     ],
-    "Description": "Directory traversal vulnerability in the minitar before 0.6 and archive-tar-minitar 0.5.2 gems for Ruby allows remote attackers to write to arbitrary files via a .. (dot dot) in a TAR archive entry.",
+    "Description": "Directory traversal vulnerability in the minitar before 0.6 and archive-tar-minitar 0.5.2 gems for Ruby allows remote attackers to write to arbitrary files via a `..` (dot dot) in a TAR archive entry.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2017-10-24T18:33:35Z",
     "Severity": "HIGH",
     "Summary": "archive-tar-minitar and minitar vulnerable to Path Traversal",
-    "UpdatedAt": "2023-01-23T17:33:10Z",
+    "UpdatedAt": "2023-09-05T21:02:42Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
