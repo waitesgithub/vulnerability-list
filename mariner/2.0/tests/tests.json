@@ -1310,9 +1310,9 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package openssl is earlier than 1.1.1k-24, affected by CVE-2023-2650",
+      "Comment": "Package openssl is earlier than 1.1.1k-25, affected by CVE-2023-2650",
       "ID": "oval:com.microsoft.cbl-mariner:tst:26984000",
-      "Version": "1",
+      "Version": "2",
       "Object": {
         "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:26984001"
       },
