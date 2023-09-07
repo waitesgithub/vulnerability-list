@@ -51,6 +51,9 @@
     "7.0.8-r0": [
       "CVE-2022-35977",
       "CVE-2023-22458"
+    ],
+    "7.2.1-r0": [
+      "CVE-2023-41053"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
