@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2019-11-12T16:48:35Z",
+  "UpdatedAt": "2023-09-08T14:11:05Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "symfony/symfony"
@@ -52,8 +52,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-11-12T23:00:53Z",
     "Severity": "MODERATE",
-    "Summary": "Escape validation messages in the PHP templating engine",
-    "UpdatedAt": "2023-02-01T05:02:42Z",
+    "Summary": "Escape Cross-site Scripting (XSS) vulnerability",
+    "UpdatedAt": "2023-09-08T14:11:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

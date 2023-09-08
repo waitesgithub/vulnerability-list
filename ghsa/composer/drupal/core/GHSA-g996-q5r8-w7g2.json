@@ -3,7 +3,7 @@
   "UpdatedAt": "2023-09-08T14:11:05Z",
   "Package": {
     "Ecosystem": "COMPOSER",
-    "Name": "symfony/framework-bundle"
+    "Name": "drupal/core"
   },
   "Advisory": {
     "DatabaseId": 1769,
@@ -63,33 +63,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "4.2.7"
+        "Identifier": "8.6.15"
       },
-      "VulnerableVersionRange": "\u003e= 4.2.0, \u003c 4.2.7"
+      "VulnerableVersionRange": "\u003e= 8.6.0, \u003c 8.6.15"
     },
     {
       "FirstPatchedVersion": {
-        "Identifier": "4.1.12"
+        "Identifier": "8.5.15"
       },
-      "VulnerableVersionRange": "\u003e= 4.0.0, \u003c 4.1.12"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "3.4.26"
-      },
-      "VulnerableVersionRange": "\u003e= 3.0.0, \u003c 3.4.26"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.8.50"
-      },
-      "VulnerableVersionRange": "\u003e= 2.8.0, \u003c 2.8.50"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.7.51"
-      },
-      "VulnerableVersionRange": "\u003e= 2.7.0, \u003c 2.7.51"
+      "VulnerableVersionRange": "\u003c 8.5.15"
     }
   ]
 }
