@@ -1,14 +1,14 @@
 {
   "id": "ALAS2023-2023-285",
-  "title": "Amazon Linux 2023 - ALAS2023-2023-285: Important priority package update for kernel",
+  "title": "Amazon Linux 2023 - ALAS2023-2023-285: Medium priority package update for kernel",
   "issued": {
     "date": "2023-08-03 20:26"
   },
   "updated": {
-    "date": "2023-08-09 23:15"
+    "date": "2023-08-31 21:41"
   },
-  "severity": "Important",
-  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-3776:\n\tA use-after-free vulnerability in the Linux kernel's net/sched: cls_fw component can be exploited to achieve local privilege escalation.\n\nIf tcf_change_indev() fails, fw_set_parms() will immediately return an error after incrementing or decrementing the reference counter in tcf_bind_filter(). If an attacker can control the reference counter and set it to zero, they can cause the reference to be freed, leading to a use-after-free vulnerability.\n\nWe recommend upgrading past commit 0323bce598eea038714f941ce2b22541c46d488f.\n\nCVE-2023-3611:\n\tAn out-of-bounds write vulnerability in the Linux kernel's net/sched: sch_qfq component can be exploited to achieve local privilege escalation.\n\nThe qfq_change_agg() function in net/sched/sch_qfq.c allows an out-of-bounds write because lmax is updated according to packet sizes without bounds checks.\n\nWe recommend upgrading past commit 3e337087c3b5805fe0b8a46ba622a962880b5d64.\n\nCVE-2023-20593:\n\tAn issue in \"Zen 2\" CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.\n\nCVE-2022-48502:\n\tAn issue was discovered in the Linux kernel before 6.2. The ntfs3 subsystem does not properly check for correctness during disk reads, leading to an out-of-bounds read in ntfs_set_ea in fs/ntfs3/xattr.c.\n",
+  "severity": "Medium",
+  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-20593:\n\tAn issue in \"Zen 2\" CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.\n\nCVE-2023-20569:\n\tA side channel vulnerability on some of the AMD CPUs may allow an attacker to influence the return address prediction. This may result in speculative execution at an attacker-controlled?address, potentially leading to information disclosure.\n\nCVE-2022-48502:\n\tAn issue was discovered in the Linux kernel before 6.2. The ntfs3 subsystem does not properly check for correctness during disk reads, leading to an out-of-bounds read in ntfs_set_ea in fs/ntfs3/xattr.c.\n",
   "packages": [
     {
       "name": "kernel-libbpf",
@@ -314,25 +314,19 @@
       "type": "cve"
     },
     {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20569",
+      "id": "CVE-2023-20569",
+      "type": "cve"
+    },
+    {
       "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20593",
       "id": "CVE-2023-20593",
-      "type": "cve"
-    },
-    {
-      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3611",
-      "id": "CVE-2023-3611",
-      "type": "cve"
-    },
-    {
-      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3776",
-      "id": "CVE-2023-3776",
       "type": "cve"
     }
   ],
   "cveids": [
     "CVE-2022-48502",
-    "CVE-2023-20593",
-    "CVE-2023-3611",
-    "CVE-2023-3776"
+    "CVE-2023-20569",
+    "CVE-2023-20593"
   ]
 }
