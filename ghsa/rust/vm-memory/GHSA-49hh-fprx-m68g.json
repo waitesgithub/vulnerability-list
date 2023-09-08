@@ -23,6 +23,12 @@
         "Url": "https://crates.io/crates/vm-memory/0.12.2"
       },
       {
+        "Url": "https://github.com/rust-vmm/vm-memory/issues/250"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2023-0056.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-49hh-fprx-m68g"
       }
     ],
@@ -41,7 +47,7 @@
     "PublishedAt": "2023-09-04T16:35:37Z",
     "Severity": "LOW",
     "Summary": "Default functions in VolatileMemory trait lack bounds checks, potentially leading to out-of-bounds memory accesses",
-    "UpdatedAt": "2023-09-04T16:35:38Z",
+    "UpdatedAt": "2023-09-07T21:19:06Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 2.5,

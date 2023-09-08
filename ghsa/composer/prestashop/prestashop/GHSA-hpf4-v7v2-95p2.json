@@ -33,12 +33,12 @@
         "Value": "CVE-2023-39528"
       }
     ],
-    "Description": "### Impact\n`displayAjaxEmailHTML` method can be used to read any file on the server, potentially even outside of the project if the server is not correctly configured\n\n### Patches\n8.1.1\n\n### Found by\nAleksey Solovev (Positive Technologies)\n\n### Workarounds\n\n### References\n",
+    "Description": "### Impact\n`displayAjaxEmailHTML` method can be used to read any file on the server, potentially even outside of the project if the server is not correctly configured.\n\nThis vulnerability can be exacerbated when coupled with [CWE-502](https://cwe.mitre.org/data/definitions/502.html), which pertains to the Deserialization of Untrusted Data. Such a combination could potentially lead to a Remote Code Execution (RCE) vulnerability\n\n### Patches\n8.1.1\n\n### Found by\nAleksey Solovev (Positive Technologies)\n\n### Workarounds\n\n### References\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-08-09T14:38:18Z",
     "Severity": "MODERATE",
     "Summary": "PrestaShop file access through path traversal",
-    "UpdatedAt": "2023-08-10T21:45:11Z",
+    "UpdatedAt": "2023-09-07T21:28:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.8,
