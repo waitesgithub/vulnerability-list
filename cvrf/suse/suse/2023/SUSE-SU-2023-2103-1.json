@@ -1189,22 +1189,12 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "xxd-9.0.1443-150000.5.40.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "vim-9.0.1443-150000.5.40.1",
         "RelatesToProductReference": "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "vim-data-common-9.0.1443-150000.5.40.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "xxd-9.0.1443-150000.5.40.1",
         "RelatesToProductReference": "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -1664,10 +1654,8 @@
             "Image SLES15-SP4-SAPCAL:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:vim-data-common-9.0.1443-150000.5.40.1",
-            "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:vim-data-common-9.0.1443-150000.5.40.1",
-            "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:vim-data-common-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:xxd-9.0.1443-150000.5.40.1",
@@ -1959,10 +1947,8 @@
             "Image SLES15-SP4-SAPCAL:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:vim-data-common-9.0.1443-150000.5.40.1",
-            "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:vim-data-common-9.0.1443-150000.5.40.1",
-            "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:vim-data-common-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:xxd-9.0.1443-150000.5.40.1",
@@ -2254,10 +2240,8 @@
             "Image SLES15-SP4-SAPCAL:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:vim-data-common-9.0.1443-150000.5.40.1",
-            "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:vim-data-common-9.0.1443-150000.5.40.1",
-            "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:xxd-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:vim-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:vim-data-common-9.0.1443-150000.5.40.1",
             "Image SLES15-SP4:xxd-9.0.1443-150000.5.40.1",

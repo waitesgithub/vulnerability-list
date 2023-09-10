@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2022:0311-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2022-02-02T11:09:29Z",
-    "CurrentReleaseDate": "2022-02-02T11:09:29Z",
+    "InitialReleaseDate": "2022-02-02T11:09:25Z",
+    "CurrentReleaseDate": "2022-02-02T11:09:25Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2022-02-02T11:09:29Z",
+        "Date": "2022-02-02T11:09:25Z",
         "Description": "current"
       }
     ]
@@ -29,276 +29,15 @@
       "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
       "Title": "Terms of Use",
       "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2022-311,SUSE-SLE-Manager-Tools-15-BETA-2022-311",
+      "Title": "Patchnames",
+      "Type": "Details"
     }
   ],
   "ProductTree": {
-    "Relationships": [
-      {
-        "ProductReference": "ansible-2.9.21-159000.3.6.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "ansible-doc-2.9.21-159000.3.6.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "grafana-7.5.12-159000.4.18.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-4.3.4-159000.4.20.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-actions-4.3.4-159000.4.20.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-client-4.3.4-159000.4.20.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-management-4.3.4-159000.4.20.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-custom-info-4.3.3-159000.4.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-osad-4.3.3-159000.4.21.4",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-push-4.3.2-159000.4.12.4",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-virtualization-host-4.3.2-159000.4.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-hwdata-2.3.5-159000.5.10.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-cfg-4.3.4-159000.4.20.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-cfg-actions-4.3.4-159000.4.20.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-cfg-client-4.3.4-159000.4.20.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-cfg-management-4.3.4-159000.4.20.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-osa-common-4.3.3-159000.4.21.4",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-osad-4.3.3-159000.4.21.4",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-push-4.3.2-159000.4.12.4",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-virtualization-common-4.3.2-159000.4.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-virtualization-host-4.3.2-159000.4.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rhnlib-4.3.2-159000.6.21.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-salt-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-check-4.3.5-159000.6.36.5",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-client-setup-4.3.5-159000.6.36.5",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-client-tools-4.3.5-159000.6.36.5",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-koan-4.3.2-159000.6.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-oscap-4.3.2-159000.6.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-suseRegisterInfo-4.3.2-159000.6.18.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-uyuni-common-libs-4.3.2-159000.3.24.4",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-zypp-plugin-spacewalk-1.0.11-159000.6.18.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-api-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-bash-completion-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-cloud-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-doc-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-fish-completion-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-master-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-proxy-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-ssh-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-standalone-formulas-configuration-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-syndic-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-zsh-completion-3003.3-159000.8.47.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacecmd-4.3.5-159000.6.30.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-check-4.3.5-159000.6.36.5",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-client-setup-4.3.5-159000.6.36.5",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-client-tools-4.3.5-159000.6.36.5",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-koan-4.3.2-159000.6.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-oscap-4.3.2-159000.6.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-remote-utils-4.3.2-159000.6.12.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "suseRegisterInfo-4.3.2-159000.6.18.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "zypp-plugin-spacewalk-1.0.11-159000.6.18.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      }
-    ]
+    "Relationships": null
   },
   "References": [
     {
@@ -365,61 +104,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:ansible-2.9.21-159000.3.6.2",
-            "SUSE Manager Tools 15-BETA:ansible-doc-2.9.21-159000.3.6.2",
-            "SUSE Manager Tools 15-BETA:grafana-7.5.12-159000.4.18.3",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-actions-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-client-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-management-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:mgr-custom-info-4.3.3-159000.4.12.3",
-            "SUSE Manager Tools 15-BETA:mgr-osad-4.3.3-159000.4.21.4",
-            "SUSE Manager Tools 15-BETA:mgr-push-4.3.2-159000.4.12.4",
-            "SUSE Manager Tools 15-BETA:mgr-virtualization-host-4.3.2-159000.4.12.3",
-            "SUSE Manager Tools 15-BETA:python3-hwdata-2.3.5-159000.5.10.3",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-actions-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-client-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-management-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osa-common-4.3.3-159000.4.21.4",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osad-4.3.3-159000.4.21.4",
-            "SUSE Manager Tools 15-BETA:python3-mgr-push-4.3.2-159000.4.12.4",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-common-4.3.2-159000.4.12.3",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-host-4.3.2-159000.4.12.3",
-            "SUSE Manager Tools 15-BETA:python3-rhnlib-4.3.2-159000.6.21.3",
-            "SUSE Manager Tools 15-BETA:python3-salt-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-koan-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-oscap-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:python3-suseRegisterInfo-4.3.2-159000.6.18.3",
-            "SUSE Manager Tools 15-BETA:python3-uyuni-common-libs-4.3.2-159000.3.24.4",
-            "SUSE Manager Tools 15-BETA:python3-zypp-plugin-spacewalk-1.0.11-159000.6.18.3",
-            "SUSE Manager Tools 15-BETA:salt-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-api-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-doc-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-master-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-minion-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.5-159000.6.30.3",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:spacewalk-koan-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:spacewalk-oscap-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:spacewalk-remote-utils-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:suseRegisterInfo-4.3.2-159000.6.18.3",
-            "SUSE Manager Tools 15-BETA:zypp-plugin-spacewalk-1.0.11-159000.6.18.3"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -450,61 +135,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:ansible-2.9.21-159000.3.6.2",
-            "SUSE Manager Tools 15-BETA:ansible-doc-2.9.21-159000.3.6.2",
-            "SUSE Manager Tools 15-BETA:grafana-7.5.12-159000.4.18.3",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-actions-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-client-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-management-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:mgr-custom-info-4.3.3-159000.4.12.3",
-            "SUSE Manager Tools 15-BETA:mgr-osad-4.3.3-159000.4.21.4",
-            "SUSE Manager Tools 15-BETA:mgr-push-4.3.2-159000.4.12.4",
-            "SUSE Manager Tools 15-BETA:mgr-virtualization-host-4.3.2-159000.4.12.3",
-            "SUSE Manager Tools 15-BETA:python3-hwdata-2.3.5-159000.5.10.3",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-actions-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-client-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-management-4.3.4-159000.4.20.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osa-common-4.3.3-159000.4.21.4",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osad-4.3.3-159000.4.21.4",
-            "SUSE Manager Tools 15-BETA:python3-mgr-push-4.3.2-159000.4.12.4",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-common-4.3.2-159000.4.12.3",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-host-4.3.2-159000.4.12.3",
-            "SUSE Manager Tools 15-BETA:python3-rhnlib-4.3.2-159000.6.21.3",
-            "SUSE Manager Tools 15-BETA:python3-salt-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-koan-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-oscap-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:python3-suseRegisterInfo-4.3.2-159000.6.18.3",
-            "SUSE Manager Tools 15-BETA:python3-uyuni-common-libs-4.3.2-159000.3.24.4",
-            "SUSE Manager Tools 15-BETA:python3-zypp-plugin-spacewalk-1.0.11-159000.6.18.3",
-            "SUSE Manager Tools 15-BETA:salt-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-api-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-doc-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-master-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-minion-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3003.3-159000.8.47.2",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.5-159000.6.30.3",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.5-159000.6.36.5",
-            "SUSE Manager Tools 15-BETA:spacewalk-koan-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:spacewalk-oscap-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:spacewalk-remote-utils-4.3.2-159000.6.12.3",
-            "SUSE Manager Tools 15-BETA:suseRegisterInfo-4.3.2-159000.6.18.3",
-            "SUSE Manager Tools 15-BETA:zypp-plugin-spacewalk-1.0.11-159000.6.18.3"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}

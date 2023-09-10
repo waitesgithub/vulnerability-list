@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2021:3906-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2021-12-03T11:04:28Z",
-    "CurrentReleaseDate": "2021-12-03T11:04:28Z",
+    "InitialReleaseDate": "2021-12-03T11:04:20Z",
+    "CurrentReleaseDate": "2021-12-03T11:04:20Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2021-12-03T11:04:28Z",
+        "Date": "2021-12-03T11:04:20Z",
         "Description": "current"
       }
     ]
@@ -29,111 +29,15 @@
       "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
       "Title": "Terms of Use",
       "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2021-3906,SUSE-SLE-Manager-Tools-12-BETA-2021-3906",
+      "Title": "Patchnames",
+      "Type": "Details"
     }
   ],
   "ProductTree": {
-    "Relationships": [
-      {
-        "ProductReference": "python-Jinja2-2.8-22.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-MarkupSafe-0.23-6.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-29.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-msgpack-python-0.4.6-11.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-psutil-5.2.2-18.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-pycrypto-2.6.1-13.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-pyzmq-14.0.0-12.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-singledispatch-3.4.0.3-4.8.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-salt-3000-49.38.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-Jinja2-2.8-22.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-MarkupSafe-0.23-6.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-PyYAML-5.1.2-29.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-msgpack-python-0.4.6-11.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-psutil-5.2.2-18.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-pycrypto-2.6.1-13.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-pyzmq-14.0.0-12.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-salt-3000-49.38.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3000-49.38.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-doc-3000-49.38.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3000-49.38.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      }
-    ]
+    "Relationships": null
   },
   "References": [
     {
@@ -251,33 +155,16 @@
         {
           "URL": "https://bugzilla.suse.com/1190265",
           "Description": "SUSE Bug 1190265"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1210934",
+          "Description": "SUSE Bug 1210934"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 12-BETA:python-Jinja2-2.8-22.5.1",
-            "SUSE Manager Tools 12-BETA:python-MarkupSafe-0.23-6.5.1",
-            "SUSE Manager Tools 12-BETA:python-PyYAML-5.1.2-29.5.1",
-            "SUSE Manager Tools 12-BETA:python-msgpack-python-0.4.6-11.5.1",
-            "SUSE Manager Tools 12-BETA:python-psutil-5.2.2-18.5.1",
-            "SUSE Manager Tools 12-BETA:python-pycrypto-2.6.1-13.5.1",
-            "SUSE Manager Tools 12-BETA:python-pyzmq-14.0.0-12.5.1",
-            "SUSE Manager Tools 12-BETA:python-singledispatch-3.4.0.3-4.8.1",
-            "SUSE Manager Tools 12-BETA:python2-salt-3000-49.38.2",
-            "SUSE Manager Tools 12-BETA:python3-Jinja2-2.8-22.5.1",
-            "SUSE Manager Tools 12-BETA:python3-MarkupSafe-0.23-6.5.1",
-            "SUSE Manager Tools 12-BETA:python3-PyYAML-5.1.2-29.5.1",
-            "SUSE Manager Tools 12-BETA:python3-msgpack-python-0.4.6-11.5.1",
-            "SUSE Manager Tools 12-BETA:python3-psutil-5.2.2-18.5.1",
-            "SUSE Manager Tools 12-BETA:python3-pycrypto-2.6.1-13.5.1",
-            "SUSE Manager Tools 12-BETA:python3-pyzmq-14.0.0-12.5.1",
-            "SUSE Manager Tools 12-BETA:python3-salt-3000-49.38.2",
-            "SUSE Manager Tools 12-BETA:salt-3000-49.38.2",
-            "SUSE Manager Tools 12-BETA:salt-doc-3000-49.38.2",
-            "SUSE Manager Tools 12-BETA:salt-minion-3000-49.38.2"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}

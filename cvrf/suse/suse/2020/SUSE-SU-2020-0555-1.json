@@ -89,11 +89,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
         "RelationType": "Default Component Of"
@@ -131,11 +126,6 @@
       {
         "ProductReference": "python3-packaging-17.1-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -199,11 +189,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP4-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP4-GCE-BYOS",
         "RelationType": "Default Component Of"
@@ -291,11 +276,6 @@
       {
         "ProductReference": "python3-packaging-17.1-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -379,11 +359,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
         "RelationType": "Default Component Of"
@@ -441,11 +416,6 @@
       {
         "ProductReference": "python3-packaging-17.1-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-EC2-HVM-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -534,11 +504,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP4-SAP-GCE-BYOS",
         "RelationType": "Default Component Of"
@@ -596,11 +561,6 @@
       {
         "ProductReference": "python3-packaging-17.1-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -669,11 +629,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
         "RelationType": "Default Component Of"
@@ -736,11 +691,6 @@
       {
         "ProductReference": "python3-packaging-17.1-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -849,11 +799,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
         "RelationType": "Default Component Of"
@@ -914,11 +859,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
         "RelationType": "Default Component Of"
@@ -971,11 +911,6 @@
       {
         "ProductReference": "python3-packaging-17.1-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -1039,11 +974,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
         "RelationType": "Default Component Of"
@@ -1104,11 +1034,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "python-asn1crypto-0.24.0-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
         "RelationType": "Default Component Of"
@@ -1166,11 +1091,6 @@
       {
         "ProductReference": "python3-packaging-17.1-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -1206,11 +1126,6 @@
       {
         "ProductReference": "python3-packaging-17.1-2.5.1",
         "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python-PyYAML-5.1.2-26.9.4",
-        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
         "RelationType": "Default Component Of"
       },
       {
@@ -2155,7 +2070,6 @@
             "HPE Helion OpenStack 8:python3-asn1crypto-0.24.0-2.5.1",
             "HPE Helion OpenStack 8:python3-jsonpointer-1.0-10.3.1",
             "HPE Helion OpenStack 8:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP4-Azure-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP4-Azure-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP4-Azure-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP4-Azure-BYOS:python-requests-2.20.1-8.7.7",
@@ -2164,7 +2078,6 @@
             "Image SLES12-SP4-Azure-BYOS:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP4-Azure-BYOS:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP4-Azure-BYOS:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP4-EC2-HVM-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP4-EC2-HVM-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP4-EC2-HVM-BYOS:python-boto3-1.9.213-14.9.1",
             "Image SLES12-SP4-EC2-HVM-BYOS:python-botocore-1.12.213-28.12.1",
@@ -2177,7 +2090,6 @@
             "Image SLES12-SP4-EC2-HVM-BYOS:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP4-EC2-HVM-BYOS:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP4-EC2-HVM-BYOS:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP4-GCE-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP4-GCE-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP4-GCE-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP4-GCE-BYOS:python-requests-2.20.1-8.7.7",
@@ -2188,7 +2100,6 @@
             "Image SLES12-SP4-OCI-BYOS:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP4-OCI-BYOS:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP4-OCI-BYOS:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP4-SAP-Azure-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP4-SAP-Azure-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP4-SAP-Azure-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP4-SAP-Azure-BYOS:python-requests-2.20.1-8.7.7",
@@ -2213,7 +2124,6 @@
             "Image SLES12-SP4-SAP-Azure:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP4-SAP-Azure:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP4-SAP-Azure:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python-boto3-1.9.213-14.9.1",
             "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python-botocore-1.12.213-28.12.1",
@@ -2226,7 +2136,6 @@
             "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP4-SAP-EC2-HVM-BYOS:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP4-SAP-EC2-HVM:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP4-SAP-EC2-HVM:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP4-SAP-EC2-HVM:python-boto3-1.9.213-14.9.1",
             "Image SLES12-SP4-SAP-EC2-HVM:python-botocore-1.12.213-28.12.1",
@@ -2239,7 +2148,6 @@
             "Image SLES12-SP4-SAP-EC2-HVM:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP4-SAP-EC2-HVM:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP4-SAP-EC2-HVM:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP4-SAP-GCE-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP4-SAP-GCE-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP4-SAP-GCE-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP4-SAP-GCE-BYOS:python-requests-2.20.1-8.7.7",
@@ -2257,7 +2165,6 @@
             "Image SLES12-SP4-SAP-OCI-BYOS:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP4-SAP-OCI-BYOS:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP4-SAP-OCI-BYOS:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-Azure-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-Azure-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-Azure-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP5-Azure-BYOS:python-requests-2.20.1-8.7.7",
@@ -2271,7 +2178,6 @@
             "Image SLES12-SP5-Azure-Basic-On-Demand:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP5-Azure-Basic-On-Demand:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-Azure-HPC-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-Azure-HPC-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP5-Azure-HPC-BYOS:python-requests-2.20.1-8.7.7",
@@ -2285,7 +2191,6 @@
             "Image SLES12-SP5-Azure-HPC-On-Demand:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP5-Azure-HPC-On-Demand:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP5-Azure-HPC-On-Demand:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-Azure-SAP-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-Azure-SAP-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:python-requests-2.20.1-8.7.7",
@@ -2307,7 +2212,6 @@
             "Image SLES12-SP5-Azure-Standard-On-Demand:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP5-Azure-Standard-On-Demand:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP5-Azure-Standard-On-Demand:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-EC2-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-EC2-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-EC2-BYOS:python-boto3-1.9.213-14.9.1",
             "Image SLES12-SP5-EC2-BYOS:python-botocore-1.12.213-28.12.1",
@@ -2320,7 +2224,6 @@
             "Image SLES12-SP5-EC2-BYOS:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP5-EC2-BYOS:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP5-EC2-BYOS:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-EC2-ECS-On-Demand:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-EC2-ECS-On-Demand:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-EC2-ECS-On-Demand:python-botocore-1.12.213-28.12.1",
             "Image SLES12-SP5-EC2-ECS-On-Demand:python-docutils-0.15.2-3.4.2",
@@ -2332,7 +2235,6 @@
             "Image SLES12-SP5-EC2-ECS-On-Demand:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP5-EC2-ECS-On-Demand:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP5-EC2-ECS-On-Demand:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-EC2-On-Demand:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-EC2-On-Demand:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-EC2-On-Demand:python-boto3-1.9.213-14.9.1",
             "Image SLES12-SP5-EC2-On-Demand:python-botocore-1.12.213-28.12.1",
@@ -2345,7 +2247,6 @@
             "Image SLES12-SP5-EC2-On-Demand:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP5-EC2-On-Demand:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP5-EC2-On-Demand:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-EC2-SAP-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-EC2-SAP-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:python-boto3-1.9.213-14.9.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:python-botocore-1.12.213-28.12.1",
@@ -2358,7 +2259,6 @@
             "Image SLES12-SP5-EC2-SAP-BYOS:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-EC2-SAP-On-Demand:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-EC2-SAP-On-Demand:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-EC2-SAP-On-Demand:python-boto3-1.9.213-14.9.1",
             "Image SLES12-SP5-EC2-SAP-On-Demand:python-botocore-1.12.213-28.12.1",
@@ -2371,7 +2271,6 @@
             "Image SLES12-SP5-EC2-SAP-On-Demand:python3-jsonpointer-1.0-10.3.1",
             "Image SLES12-SP5-EC2-SAP-On-Demand:python3-jsonschema-2.6.0-5.3.1",
             "Image SLES12-SP5-EC2-SAP-On-Demand:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-GCE-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-GCE-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-GCE-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP5-GCE-BYOS:python-requests-2.20.1-8.7.7",
@@ -2379,7 +2278,6 @@
             "Image SLES12-SP5-GCE-BYOS:python3-packaging-17.1-2.5.1",
             "Image SLES12-SP5-GCE-On-Demand:python3-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-GCE-On-Demand:python3-packaging-17.1-2.5.1",
-            "Image SLES12-SP5-GCE-SAP-BYOS:python-PyYAML-5.1.2-26.9.4",
             "Image SLES12-SP5-GCE-SAP-BYOS:python-asn1crypto-0.24.0-2.5.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:python-packaging-17.1-2.5.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:python-requests-2.20.1-8.7.7",

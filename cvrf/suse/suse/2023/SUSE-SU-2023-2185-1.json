@@ -47,6 +47,21 @@
         "ProductReference": "prometheus-postgres_exporter-0.10.1-1.6.2",
         "RelatesToProductReference": "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS",
         "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "golang-github-prometheus-node_exporter-1.5.0-1.6.1",
+        "RelatesToProductReference": "SUSE:EL-9:Update:Products:ManagerTools:Update",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "golang-packaging-15.0.16-1.3.2",
+        "RelatesToProductReference": "SUSE:EL-9:Update:Products:ManagerTools:Update",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "prometheus-postgres_exporter-0.10.1-1.6.2",
+        "RelatesToProductReference": "SUSE:EL-9:Update:Products:ManagerTools:Update",
+        "RelationType": "Default Component Of"
       }
     ]
   },
@@ -125,7 +140,10 @@
           "Type": "Fixed",
           "ProductID": [
             "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:golang-github-prometheus-node_exporter-1.5.0-1.6.1",
-            "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:prometheus-postgres_exporter-0.10.1-1.6.2"
+            "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:prometheus-postgres_exporter-0.10.1-1.6.2",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:golang-github-prometheus-node_exporter-1.5.0-1.6.1",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:golang-packaging-15.0.16-1.3.2",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:prometheus-postgres_exporter-0.10.1-1.6.2"
           ]
         }
       ],
@@ -159,7 +177,10 @@
           "Type": "Fixed",
           "ProductID": [
             "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:golang-github-prometheus-node_exporter-1.5.0-1.6.1",
-            "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:prometheus-postgres_exporter-0.10.1-1.6.2"
+            "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:prometheus-postgres_exporter-0.10.1-1.6.2",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:golang-github-prometheus-node_exporter-1.5.0-1.6.1",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:golang-packaging-15.0.16-1.3.2",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:prometheus-postgres_exporter-0.10.1-1.6.2"
           ]
         }
       ],
@@ -189,7 +210,10 @@
           "Type": "Fixed",
           "ProductID": [
             "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:golang-github-prometheus-node_exporter-1.5.0-1.6.1",
-            "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:prometheus-postgres_exporter-0.10.1-1.6.2"
+            "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:prometheus-postgres_exporter-0.10.1-1.6.2",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:golang-github-prometheus-node_exporter-1.5.0-1.6.1",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:golang-packaging-15.0.16-1.3.2",
+            "SUSE:EL-9:Update:Products:ManagerTools:Update:prometheus-postgres_exporter-0.10.1-1.6.2"
           ]
         }
       ],

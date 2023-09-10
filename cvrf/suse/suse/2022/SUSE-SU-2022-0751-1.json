@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2022:0751-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2022-03-08T11:26:18Z",
-    "CurrentReleaseDate": "2022-03-08T11:26:18Z",
+    "InitialReleaseDate": "2022-03-08T11:26:12Z",
+    "CurrentReleaseDate": "2022-03-08T11:26:12Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2022-03-08T11:26:18Z",
+        "Date": "2022-03-08T11:26:12Z",
         "Description": "current"
       }
     ]
@@ -29,131 +29,15 @@
       "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
       "Title": "Terms of Use",
       "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2022-751,SUSE-SLE-Manager-Tools-15-BETA-2022-751",
+      "Title": "Patchnames",
+      "Type": "Details"
     }
   ],
   "ProductTree": {
-    "Relationships": [
-      {
-        "ProductReference": "golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "grafana-8.3.5-159000.4.21.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-salt-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-check-4.3.6-159000.6.39.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-api-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-bash-completion-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-cloud-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-doc-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-fish-completion-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-master-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-proxy-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-ssh-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-standalone-formulas-configuration-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-syndic-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-transactional-update-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-zsh-completion-3004-159000.8.50.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacecmd-4.3.7-159000.6.33.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-check-4.3.6-159000.6.39.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-client-setup-4.3.6-159000.6.39.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-client-tools-4.3.6-159000.6.39.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      }
-    ]
+    "Relationships": null
   },
   "References": [
     {
@@ -280,32 +164,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -316,7 +175,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -335,37 +194,16 @@
         {
           "URL": "https://bugzilla.suse.com/1192100",
           "Description": "SUSE Bug 1192100"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205663",
+          "Description": "SUSE Bug 1205663"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -392,32 +230,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -444,32 +257,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -496,32 +284,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -548,32 +311,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -604,32 +342,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -656,32 +369,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -708,32 +396,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -760,32 +423,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -812,32 +450,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -864,32 +477,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.24.1",
-            "SUSE Manager Tools 15-BETA:grafana-8.3.5-159000.4.21.1",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.50.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.7-159000.6.33.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.6-159000.6.39.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.6-159000.6.39.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/golang:1.20-2023-3327,Container bci/golang:latest-2023-3327,Container bci/node:16-2023-3327,Container bci/nodejs:latest-2023-3327,Container bci/openjdk-devel:11-2023-3327,Container bci/openjdk-devel:latest-2023-3327,Container bci/php-apache:8-2023-3327,Container bci/php-fpm:8-2023-3327,Container bci/php:8-2023-3327,Container bci/python:3-2023-3327,Container bci/python:latest-2023-3327,Container bci/ruby:latest-2023-3327,Container suse/389-ds:latest-2023-3327,Container suse/nginx:latest-2023-3327,Container suse/sle-micro-rancher/5.4:latest-2023-3327,Image SLES15-SP4-Hardened-BYOS-2023-3327,Image SLES15-SP4-Hardened-BYOS-Azure-2023-3327,Image SLES15-SP4-Hardened-BYOS-EC2-2023-3327,Image SLES15-SP4-Hardened-BYOS-GCE-2023-3327,Image SLES15-SP4-SAP-Hardened-2023-3327,Image SLES15-SP4-SAP-Hardened-Azure-2023-3327,Image SLES15-SP4-SAP-Hardened-BYOS-2023-3327,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-3327,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-3327,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-3327,Image SLES15-SP4-SAP-Hardened-GCE-2023-3327,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-3327,Image SLES15-SP5-CHOST-BYOS-Azure-2023-3327,Image SLES15-SP5-CHOST-BYOS-EC2-2023-3327,Image SLES15-SP5-CHOST-BYOS-GCE-2023-3327,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-3327,SUSE-2023-3327,SUSE-SLE-Micro-5.3-2023-3327,SUSE-SLE-Micro-5.4-2023-3327,SUSE-SLE-Module-Basesystem-15-SP4-2023-3327,SUSE-SLE-Module-Basesystem-15-SP5-2023-3327,openSUSE-Leap-Micro-5.3-2023-3327,openSUSE-Leap-Micro-5.4-2023-3327,openSUSE-SLE-15.4-2023-3327,openSUSE-SLE-15.5-2023-3327",
+      "Text": "Container bci/golang:1.20-2023-3327,Container bci/golang:latest-2023-3327,Container bci/node:16-2023-3327,Container bci/nodejs:latest-2023-3327,Container bci/openjdk-devel:11-2023-3327,Container bci/openjdk-devel:latest-2023-3327,Container bci/php-apache:8-2023-3327,Container bci/php-fpm:8-2023-3327,Container bci/php:8-2023-3327,Container bci/python:3-2023-3327,Container bci/python:latest-2023-3327,Container bci/ruby:latest-2023-3327,Container suse/389-ds:latest-2023-3327,Container suse/nginx:latest-2023-3327,Container suse/sle-micro-rancher/5.4:latest-2023-3327,Image SLES15-SP4-CHOST-BYOS-2023-3327,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-3327,Image SLES15-SP4-CHOST-BYOS-Azure-2023-3327,Image SLES15-SP4-CHOST-BYOS-EC2-2023-3327,Image SLES15-SP4-CHOST-BYOS-GCE-2023-3327,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-3327,Image SLES15-SP4-Hardened-BYOS-2023-3327,Image SLES15-SP4-Hardened-BYOS-Azure-2023-3327,Image SLES15-SP4-Hardened-BYOS-EC2-2023-3327,Image SLES15-SP4-Hardened-BYOS-GCE-2023-3327,Image SLES15-SP4-SAP-Hardened-2023-3327,Image SLES15-SP4-SAP-Hardened-Azure-2023-3327,Image SLES15-SP4-SAP-Hardened-BYOS-2023-3327,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-3327,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-3327,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-3327,Image SLES15-SP4-SAP-Hardened-GCE-2023-3327,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-3327,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-3327,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-3327,Image SLES15-SP5-CHOST-BYOS-Azure-2023-3327,Image SLES15-SP5-CHOST-BYOS-EC2-2023-3327,Image SLES15-SP5-CHOST-BYOS-GCE-2023-3327,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-3327,SUSE-2023-3327,SUSE-SLE-Micro-5.3-2023-3327,SUSE-SLE-Micro-5.4-2023-3327,SUSE-SLE-Module-Basesystem-15-SP4-2023-3327,SUSE-SLE-Module-Basesystem-15-SP5-2023-3327,openSUSE-Leap-Micro-5.3-2023-3327,openSUSE-Leap-Micro-5.4-2023-3327,openSUSE-SLE-15.4-2023-3327,openSUSE-SLE-15.5-2023-3327",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -111,6 +111,36 @@
       {
         "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
         "RelationType": "Default Component Of"
       },
       {
@@ -201,6 +231,16 @@
       {
         "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
@@ -481,6 +521,12 @@
             "Container suse/389-ds:latest:libpcre2-8-0-10.39-150400.4.9.1",
             "Container suse/nginx:latest:libpcre2-8-0-10.39-150400.4.9.1",
             "Container suse/sle-micro-rancher/5.4:latest:libpcre2-8-0-10.39-150400.4.9.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:libpcre2-8-0-10.39-150400.4.9.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:libpcre2-8-0-10.39-150400.4.9.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:libpcre2-8-0-10.39-150400.4.9.1",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:libpcre2-8-0-10.39-150400.4.9.1",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:libpcre2-8-0-10.39-150400.4.9.1",
+            "Image SLES15-SP4-CHOST-BYOS:libpcre2-8-0-10.39-150400.4.9.1",
             "Image SLES15-SP4-Hardened-BYOS-Azure:libpcre2-8-0-10.39-150400.4.9.1",
             "Image SLES15-SP4-Hardened-BYOS-EC2:libpcre2-8-0-10.39-150400.4.9.1",
             "Image SLES15-SP4-Hardened-BYOS-GCE:libpcre2-8-0-10.39-150400.4.9.1",
@@ -499,6 +545,8 @@
             "Image SLES15-SP4-SAP-Hardened-GCE:libpcre2-8-0-10.39-150400.4.9.1",
             "Image SLES15-SP4-SAP-Hardened:libpcre2-16-0-10.39-150400.4.9.1",
             "Image SLES15-SP4-SAP-Hardened:libpcre2-8-0-10.39-150400.4.9.1",
+            "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libpcre2-8-0-10.39-150400.4.9.1",
+            "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libpcre2-8-0-10.39-150400.4.9.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libpcre2-8-0-10.39-150400.4.9.1",
             "Image SLES15-SP5-CHOST-BYOS-Azure:libpcre2-8-0-10.39-150400.4.9.1",
             "Image SLES15-SP5-CHOST-BYOS-EC2:libpcre2-8-0-10.39-150400.4.9.1",

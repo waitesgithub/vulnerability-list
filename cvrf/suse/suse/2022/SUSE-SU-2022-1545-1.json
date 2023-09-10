@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2022:1545-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2022-05-05T10:11:14Z",
-    "CurrentReleaseDate": "2022-05-05T10:11:14Z",
+    "InitialReleaseDate": "2022-05-05T10:11:10Z",
+    "CurrentReleaseDate": "2022-05-05T10:11:10Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2022-05-05T10:11:14Z",
+        "Date": "2022-05-05T10:11:10Z",
         "Description": "current"
       }
     ]
@@ -29,261 +29,15 @@
       "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
       "Title": "Terms of Use",
       "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2022-1545,SUSE-SLE-Manager-Tools-15-BETA-2022-1545",
+      "Title": "Patchnames",
+      "Type": "Details"
     }
   ],
   "ProductTree": {
-    "Relationships": [
-      {
-        "ProductReference": "firewalld-prometheus-config-0.1-159000.6.30.4",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "golang-github-prometheus-alertmanager-0.23.0-159000.6.9.3",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "golang-github-prometheus-prometheus-2.32.1-159000.6.30.4",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-4.3.6-159000.4.26.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-actions-4.3.6-159000.4.26.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-client-4.3.6-159000.4.26.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-management-4.3.6-159000.4.26.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-osad-4.3.6-159000.4.27.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-push-4.3.4-159000.4.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-virtualization-host-4.3.5-159000.4.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-cfg-4.3.6-159000.4.26.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-cfg-actions-4.3.6-159000.4.26.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-cfg-client-4.3.6-159000.4.26.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-cfg-management-4.3.6-159000.4.26.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-osa-common-4.3.6-159000.4.27.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-osad-4.3.6-159000.4.27.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-push-4.3.4-159000.4.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-virtualization-common-4.3.5-159000.4.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-mgr-virtualization-host-4.3.5-159000.4.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-rhnlib-4.3.4-159000.6.27.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-salt-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-check-4.3.9-159000.6.45.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-client-setup-4.3.9-159000.6.45.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-client-tools-4.3.9-159000.6.45.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-koan-4.3.5-159000.6.18.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-spacewalk-oscap-4.3.5-159000.6.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-suseRegisterInfo-4.3.3-159000.6.21.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-uyuni-common-libs-4.3.4-159000.3.30.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-api-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-bash-completion-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-cloud-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-doc-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-fish-completion-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-master-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-minion-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-proxy-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-ssh-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-standalone-formulas-configuration-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-syndic-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-transactional-update-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "salt-zsh-completion-3004-159000.8.56.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacecmd-4.3.10-159000.6.39.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-check-4.3.9-159000.6.45.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-client-setup-4.3.9-159000.6.45.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-client-tools-4.3.9-159000.6.45.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-koan-4.3.5-159000.6.18.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-oscap-4.3.5-159000.6.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "suseRegisterInfo-4.3.3-159000.6.21.2",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "uyuni-proxy-systemd-services-4.3.2-159000.3.6.1",
-        "RelatesToProductReference": "SUSE Manager Tools 15-BETA",
-        "RelationType": "Default Component Of"
-      }
-    ]
+    "Relationships": null
   },
   "References": [
     {
@@ -378,58 +132,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:firewalld-prometheus-config-0.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-alertmanager-0.23.0-159000.6.9.3",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osa-common-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-common-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-rhnlib-4.3.4-159000.6.27.2",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:python3-suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:python3-uyuni-common-libs-4.3.4-159000.3.30.2",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.10-159000.6.39.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:uyuni-proxy-systemd-services-4.3.2-159000.3.6.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -460,58 +163,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:firewalld-prometheus-config-0.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-alertmanager-0.23.0-159000.6.9.3",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osa-common-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-common-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-rhnlib-4.3.4-159000.6.27.2",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:python3-suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:python3-uyuni-common-libs-4.3.4-159000.3.30.2",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.10-159000.6.39.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:uyuni-proxy-systemd-services-4.3.2-159000.3.6.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -542,58 +194,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:firewalld-prometheus-config-0.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-alertmanager-0.23.0-159000.6.9.3",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osa-common-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-common-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-rhnlib-4.3.4-159000.6.27.2",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:python3-suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:python3-uyuni-common-libs-4.3.4-159000.3.30.2",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.10-159000.6.39.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:uyuni-proxy-systemd-services-4.3.2-159000.3.6.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -624,58 +225,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:firewalld-prometheus-config-0.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-alertmanager-0.23.0-159000.6.9.3",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osa-common-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-common-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-rhnlib-4.3.4-159000.6.27.2",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:python3-suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:python3-uyuni-common-libs-4.3.4-159000.3.30.2",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.10-159000.6.39.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:uyuni-proxy-systemd-services-4.3.2-159000.3.6.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -706,58 +256,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 15-BETA:firewalld-prometheus-config-0.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-alertmanager-0.23.0-159000.6.9.3",
-            "SUSE Manager Tools 15-BETA:golang-github-prometheus-prometheus-2.32.1-159000.6.30.4",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-actions-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-client-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-cfg-management-4.3.6-159000.4.26.1",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osa-common-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-osad-4.3.6-159000.4.27.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-push-4.3.4-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-common-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-mgr-virtualization-host-4.3.5-159000.4.18.2",
-            "SUSE Manager Tools 15-BETA:python3-rhnlib-4.3.4-159000.6.27.2",
-            "SUSE Manager Tools 15-BETA:python3-salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:python3-spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:python3-suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:python3-uyuni-common-libs-4.3.4-159000.3.30.2",
-            "SUSE Manager Tools 15-BETA:salt-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-api-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-bash-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-cloud-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-doc-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-fish-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-master-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-minion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-proxy-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-ssh-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-standalone-formulas-configuration-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-syndic-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-transactional-update-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:salt-zsh-completion-3004-159000.8.56.1",
-            "SUSE Manager Tools 15-BETA:spacecmd-4.3.10-159000.6.39.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-check-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-setup-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-client-tools-4.3.9-159000.6.45.2",
-            "SUSE Manager Tools 15-BETA:spacewalk-koan-4.3.5-159000.6.18.1",
-            "SUSE Manager Tools 15-BETA:spacewalk-oscap-4.3.5-159000.6.18.2",
-            "SUSE Manager Tools 15-BETA:suseRegisterInfo-4.3.3-159000.6.21.2",
-            "SUSE Manager Tools 15-BETA:uyuni-proxy-systemd-services-4.3.2-159000.3.6.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}

@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2021:3907-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2021-12-03T11:05:05Z",
-    "CurrentReleaseDate": "2021-12-03T11:05:05Z",
+    "InitialReleaseDate": "2021-12-03T11:04:59Z",
+    "CurrentReleaseDate": "2021-12-03T11:04:59Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2021-12-03T11:05:05Z",
+        "Date": "2021-12-03T11:04:59Z",
         "Description": "current"
       }
     ]
@@ -29,231 +29,15 @@
       "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
       "Title": "Terms of Use",
       "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2021-3907,SUSE-SLE-Manager-Tools-12-BETA-2021-3907",
+      "Title": "Patchnames",
+      "Type": "Details"
     }
   ],
   "ProductTree": {
-    "Relationships": [
-      {
-        "ProductReference": "golang-github-prometheus-prometheus-2.27.1-4.21.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "grafana-7.5.7-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "koan-2.6.6-52.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-actions-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-client-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-cfg-management-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-custom-info-4.3.2-4.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-daemon-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-osad-4.3.2-4.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-push-4.3.1-4.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "mgr-virtualization-host-4.3.1-4.9.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "prometheus-blackbox_exporter-0.19.0-3.3.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-cfg-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-cfg-actions-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-cfg-client-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-cfg-management-4.3.2-4.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-osa-common-4.3.2-4.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-osad-4.3.2-4.18.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-push-4.3.1-4.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-virtualization-common-4.3.1-4.9.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-mgr-virtualization-host-4.3.1-4.9.2",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-rhnlib-4.3.1-24.18.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-spacewalk-check-4.3.4-55.33.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-spacewalk-client-setup-4.3.4-55.33.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-spacewalk-client-tools-4.3.4-55.33.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-spacewalk-koan-4.3.1-27.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-spacewalk-oscap-4.3.1-22.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-suseRegisterInfo-4.3.1-28.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-uyuni-common-libs-4.3.1-3.21.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python2-zypp-plugin-spacewalk-1.0.10-33.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacecmd-4.3.4-41.27.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-check-4.3.4-55.33.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-client-setup-4.3.4-55.33.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-client-tools-4.3.4-55.33.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-koan-4.3.1-27.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-oscap-4.3.1-22.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "spacewalk-remote-utils-4.3.1-27.9.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "supportutils-plugin-susemanager-client-4.3.1-9.12.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "suseRegisterInfo-4.3.1-28.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "system-user-grafana-1.0.0-3.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "system-user-prometheus-1.0.0-3.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "sysuser-shadow-2.0-4.5.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "zypp-plugin-spacewalk-1.0.10-33.15.1",
-        "RelatesToProductReference": "SUSE Manager Tools 12-BETA",
-        "RelationType": "Default Component Of"
-      }
-    ]
+    "Relationships": null
   },
   "References": [
     {
@@ -352,52 +136,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 12-BETA:golang-github-prometheus-prometheus-2.27.1-4.21.1",
-            "SUSE Manager Tools 12-BETA:grafana-7.5.7-4.15.1",
-            "SUSE Manager Tools 12-BETA:koan-2.6.6-52.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-custom-info-4.3.2-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-daemon-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:prometheus-blackbox_exporter-0.19.0-3.3.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osa-common-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-common-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-rhnlib-4.3.1-24.18.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:python2-suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:python2-uyuni-common-libs-4.3.1-3.21.1",
-            "SUSE Manager Tools 12-BETA:python2-zypp-plugin-spacewalk-1.0.10-33.15.1",
-            "SUSE Manager Tools 12-BETA:spacecmd-4.3.4-41.27.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-remote-utils-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:supportutils-plugin-susemanager-client-4.3.1-9.12.1",
-            "SUSE Manager Tools 12-BETA:suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:system-user-grafana-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:system-user-prometheus-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:sysuser-shadow-2.0-4.5.1",
-            "SUSE Manager Tools 12-BETA:zypp-plugin-spacewalk-1.0.10-33.15.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -424,52 +163,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 12-BETA:golang-github-prometheus-prometheus-2.27.1-4.21.1",
-            "SUSE Manager Tools 12-BETA:grafana-7.5.7-4.15.1",
-            "SUSE Manager Tools 12-BETA:koan-2.6.6-52.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-custom-info-4.3.2-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-daemon-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:prometheus-blackbox_exporter-0.19.0-3.3.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osa-common-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-common-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-rhnlib-4.3.1-24.18.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:python2-suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:python2-uyuni-common-libs-4.3.1-3.21.1",
-            "SUSE Manager Tools 12-BETA:python2-zypp-plugin-spacewalk-1.0.10-33.15.1",
-            "SUSE Manager Tools 12-BETA:spacecmd-4.3.4-41.27.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-remote-utils-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:supportutils-plugin-susemanager-client-4.3.1-9.12.1",
-            "SUSE Manager Tools 12-BETA:suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:system-user-grafana-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:system-user-prometheus-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:sysuser-shadow-2.0-4.5.1",
-            "SUSE Manager Tools 12-BETA:zypp-plugin-spacewalk-1.0.10-33.15.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -496,52 +190,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 12-BETA:golang-github-prometheus-prometheus-2.27.1-4.21.1",
-            "SUSE Manager Tools 12-BETA:grafana-7.5.7-4.15.1",
-            "SUSE Manager Tools 12-BETA:koan-2.6.6-52.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-custom-info-4.3.2-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-daemon-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:prometheus-blackbox_exporter-0.19.0-3.3.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osa-common-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-common-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-rhnlib-4.3.1-24.18.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:python2-suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:python2-uyuni-common-libs-4.3.1-3.21.1",
-            "SUSE Manager Tools 12-BETA:python2-zypp-plugin-spacewalk-1.0.10-33.15.1",
-            "SUSE Manager Tools 12-BETA:spacecmd-4.3.4-41.27.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-remote-utils-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:supportutils-plugin-susemanager-client-4.3.1-9.12.1",
-            "SUSE Manager Tools 12-BETA:suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:system-user-grafana-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:system-user-prometheus-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:sysuser-shadow-2.0-4.5.1",
-            "SUSE Manager Tools 12-BETA:zypp-plugin-spacewalk-1.0.10-33.15.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -568,52 +217,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 12-BETA:golang-github-prometheus-prometheus-2.27.1-4.21.1",
-            "SUSE Manager Tools 12-BETA:grafana-7.5.7-4.15.1",
-            "SUSE Manager Tools 12-BETA:koan-2.6.6-52.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-custom-info-4.3.2-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-daemon-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:prometheus-blackbox_exporter-0.19.0-3.3.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osa-common-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-common-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-rhnlib-4.3.1-24.18.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:python2-suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:python2-uyuni-common-libs-4.3.1-3.21.1",
-            "SUSE Manager Tools 12-BETA:python2-zypp-plugin-spacewalk-1.0.10-33.15.1",
-            "SUSE Manager Tools 12-BETA:spacecmd-4.3.4-41.27.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-remote-utils-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:supportutils-plugin-susemanager-client-4.3.1-9.12.1",
-            "SUSE Manager Tools 12-BETA:suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:system-user-grafana-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:system-user-prometheus-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:sysuser-shadow-2.0-4.5.1",
-            "SUSE Manager Tools 12-BETA:zypp-plugin-spacewalk-1.0.10-33.15.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
@@ -640,52 +244,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "SUSE Manager Tools 12-BETA:golang-github-prometheus-prometheus-2.27.1-4.21.1",
-            "SUSE Manager Tools 12-BETA:grafana-7.5.7-4.15.1",
-            "SUSE Manager Tools 12-BETA:koan-2.6.6-52.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-custom-info-4.3.2-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-daemon-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:prometheus-blackbox_exporter-0.19.0-3.3.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-actions-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-client-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-cfg-management-4.3.2-4.15.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osa-common-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-osad-4.3.2-4.18.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-push-4.3.1-4.9.1",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-common-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-mgr-virtualization-host-4.3.1-4.9.2",
-            "SUSE Manager Tools 12-BETA:python2-rhnlib-4.3.1-24.18.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:python2-spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:python2-suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:python2-uyuni-common-libs-4.3.1-3.21.1",
-            "SUSE Manager Tools 12-BETA:python2-zypp-plugin-spacewalk-1.0.10-33.15.1",
-            "SUSE Manager Tools 12-BETA:spacecmd-4.3.4-41.27.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-check-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-setup-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-client-tools-4.3.4-55.33.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-koan-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-oscap-4.3.1-22.9.1",
-            "SUSE Manager Tools 12-BETA:spacewalk-remote-utils-4.3.1-27.9.1",
-            "SUSE Manager Tools 12-BETA:supportutils-plugin-susemanager-client-4.3.1-9.12.1",
-            "SUSE Manager Tools 12-BETA:suseRegisterInfo-4.3.1-28.15.1",
-            "SUSE Manager Tools 12-BETA:system-user-grafana-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:system-user-prometheus-1.0.0-3.5.1",
-            "SUSE Manager Tools 12-BETA:sysuser-shadow-2.0-4.5.1",
-            "SUSE Manager Tools 12-BETA:zypp-plugin-spacewalk-1.0.10-33.15.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}

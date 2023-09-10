@@ -42,6 +42,16 @@
         "ProductReference": "venv-salt-minion-3006.0-1.19.2",
         "RelatesToProductReference": "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS",
         "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "saltbundlepy-psutil-5.8.0-1.9.1",
+        "RelatesToProductReference": "SUSE:EL-9:Update:Products:SaltBundle:Update",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "venv-salt-minion-3006.0-1.19.2",
+        "RelatesToProductReference": "SUSE:EL-9:Update:Products:SaltBundle:Update",
+        "RelationType": "Default Component Of"
       }
     ]
   },
@@ -111,7 +121,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:venv-salt-minion-3006.0-1.19.2"
+            "SUSE Manager Client Tools for RHEL, Liberty and Clones 9-CLIENT-TOOLS:venv-salt-minion-3006.0-1.19.2",
+            "SUSE:EL-9:Update:Products:SaltBundle:Update:saltbundlepy-psutil-5.8.0-1.9.1",
+            "SUSE:EL-9:Update:Products:SaltBundle:Update:venv-salt-minion-3006.0-1.19.2"
           ]
         }
       ],

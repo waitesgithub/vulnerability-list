@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3497,SUSE-SLE-Module-Basesystem-15-SP5-2023-3497,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3497,openSUSE-SLE-15.5-2023-3497",
+      "Text": "Container suse/sle-micro/5.5/toolbox:latest-2023-3497,SUSE-2023-3497,SUSE-SLE-Module-Basesystem-15-SP5-2023-3497,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3497,openSUSE-SLE-15.5-2023-3497",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "vim-9.0.1632-150500.20.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1632-150500.20.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "vim-9.0.1632-150500.20.3.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP5",
@@ -156,6 +166,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-9.0.1632-150500.20.3.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-common-9.0.1632-150500.20.3.1",
@@ -194,6 +206,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-9.0.1632-150500.20.3.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-common-9.0.1632-150500.20.3.1",
@@ -232,6 +246,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-9.0.1632-150500.20.3.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-common-9.0.1632-150500.20.3.1",
