@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-04-09T21:12:55Z",
+  "UpdatedAt": "2023-09-11T15:01:32Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "phpoffice/phpspreadsheet"
@@ -36,12 +36,12 @@
         "Value": "CVE-2020-7776"
       }
     ],
-    "Description": "\"This affects the package phpoffice/phpspreadsheet. The library is vulnerable to XSS when creating an html output from an excel file by adding a comment on any cell. The root cause of this issue is within the HTML writer where user comments are concatenated as part of link and this is returned as HTML.\"",
+    "Description": "This affects the package phpoffice/phpspreadsheet. The library is vulnerable to XSS when creating an html output from an excel file by adding a comment on any cell. The root cause of this issue is within the HTML writer where user comments are concatenated as part of link and this is returned as HTML.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-05-06T18:53:37Z",
     "Severity": "MODERATE",
-    "Summary": "\"Cross-site scripting in phpoffice/phpspreadsheet\"",
-    "UpdatedAt": "2023-02-01T05:05:29Z",
+    "Summary": "Cross-site scripting in phpoffice/phpspreadsheet",
+    "UpdatedAt": "2023-09-11T15:01:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.4,

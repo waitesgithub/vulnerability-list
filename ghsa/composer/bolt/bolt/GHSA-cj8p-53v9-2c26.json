@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2019-10-01T18:00:49Z",
+  "UpdatedAt": "2023-09-11T14:59:53Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "bolt/bolt"
@@ -33,12 +33,12 @@
         "Value": "CVE-2019-15485"
       }
     ],
-    "Description": "Bolt before 3.6.10 has XSS via createFolder or createFile in Controller/Async/FilesystemManager.php.",
+    "Description": "Bolt before 3.6.10 has XSS via createFolder or createFile in `Controller/Async/FilesystemManager.php`.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-11-08T15:28:11Z",
     "Severity": "MODERATE",
     "Summary": "Cross-site Scripting in Bolt",
-    "UpdatedAt": "2023-02-01T05:02:36Z",
+    "UpdatedAt": "2023-09-11T14:59:53Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

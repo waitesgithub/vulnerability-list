@@ -1,6 +1,6 @@
 {
-  "Severity": "MODERATE",
-  "UpdatedAt": "2021-01-19T21:14:25Z",
+  "Severity": "HIGH",
+  "UpdatedAt": "2023-09-11T15:06:08Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "mautic/core"
@@ -36,9 +36,9 @@
     "Description": "### Impact\nAn issue was discovered in Mautic 1.x and 2.x before 2.13.0. It is possible to systematically emulate tracking cookies per contact due to tracking the contact by their auto-incremented ID. Thus, a third party can manipulate the cookie value with +1 to systematically assume being tracked as each contact in Mautic. It is then possible to retrieve information about the contact through forms that have progressive profiling enabled.\n\n### Patches\nUpdate to 2.13.0 or later\n\n### Workarounds\nNone\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Email us at [security@mautic.org](mailto:security@mautic.org)",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-01-19T21:16:21Z",
-    "Severity": "MODERATE",
-    "Summary": "Sessions could be hijacked due to tracking contacts by an auto-incremented ID in Mautic",
-    "UpdatedAt": "2023-01-09T05:04:40Z",
+    "Severity": "HIGH",
+    "Summary": "Mautic Sessions could be hijacked due to tracking contacts by an auto-incremented ID",
+    "UpdatedAt": "2023-09-11T15:06:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

@@ -1,6 +1,6 @@
 {
-  "Severity": "LOW",
-  "UpdatedAt": "2021-01-19T21:15:03Z",
+  "Severity": "MODERATE",
+  "UpdatedAt": "2023-09-11T13:42:01Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "mautic/core"
@@ -39,9 +39,9 @@
     "Description": "### Impact\nMautic before v2.13.0 has stored XSS via a theme config file.\n\n### Patches\nUpdate to 2.13.0 or later.\n\n### Workarounds\nNone.\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Email us at [security@mautic.org](mailto:security@mautic.org)",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-01-19T21:16:17Z",
-    "Severity": "LOW",
+    "Severity": "MODERATE",
     "Summary": "XSS vulnerability in theme config file in Mautic",
-    "UpdatedAt": "2023-01-09T05:04:39Z",
+    "UpdatedAt": "2023-09-11T13:42:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
