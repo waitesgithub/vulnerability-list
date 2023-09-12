@@ -23,6 +23,9 @@
         "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/ux-autocomplete/CVE-2023-41336.yaml"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41336"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-4cpv-669c-r79x"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2023-09-11T14:43:05Z",
     "Severity": "MODERATE",
     "Summary": "Prevent injection of invalid entity ids for \"autocomplete\" fields",
-    "UpdatedAt": "2023-09-11T18:10:36Z",
+    "UpdatedAt": "2023-09-11T21:41:45Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
