@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-02T20:12:33Z",
+  "UpdatedAt": "2023-09-12T14:19:28Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -53,7 +53,7 @@
     "PublishedAt": "2022-05-19T00:00:16Z",
     "Severity": "MODERATE",
     "Summary": "Exposure of Sensitive Information in moodle",
-    "UpdatedAt": "2023-01-28T05:00:58Z",
+    "UpdatedAt": "2023-09-12T14:19:28Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
@@ -65,7 +65,7 @@
       "FirstPatchedVersion": {
         "Identifier": "3.9.14"
       },
-      "VulnerableVersionRange": "\u003c 3.9.14"
+      "VulnerableVersionRange": "\u003e= 3.9, \u003c 3.9.14"
     },
     {
       "FirstPatchedVersion": {

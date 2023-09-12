@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-30T05:02:41Z",
+  "UpdatedAt": "2023-09-12T14:17:23Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -44,7 +44,7 @@
     "PublishedAt": "2022-05-14T00:55:53Z",
     "Severity": "MODERATE",
     "Summary": "Moodle SSRF Vulnerability",
-    "UpdatedAt": "2023-07-30T05:02:41Z",
+    "UpdatedAt": "2023-09-12T14:17:23Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
@@ -52,6 +52,12 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.4.1"
+      },
+      "VulnerableVersionRange": "\u003e= 3.4, \u003c 3.4.1"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.1.10"
@@ -69,12 +75,6 @@
         "Identifier": "3.3.4"
       },
       "VulnerableVersionRange": "\u003e= 3.3, \u003c= 3.3.3"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "3.4.1"
-      },
-      "VulnerableVersionRange": "= 3.4"
     }
   ]
 }

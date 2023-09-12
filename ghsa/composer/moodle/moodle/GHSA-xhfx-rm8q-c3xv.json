@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-10T22:24:00Z",
+  "UpdatedAt": "2023-09-12T13:17:22Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -38,11 +38,11 @@
     "PublishedAt": "2022-05-24T17:40:31Z",
     "Severity": "MODERATE",
     "Summary": "Moodle Vulnerable to Reflected Cross-site Scripting",
-    "UpdatedAt": "2023-08-03T18:33:51Z",
+    "UpdatedAt": "2023-09-12T13:17:22Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
     }
   },
   "Versions": [
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "4.0.0-beta"
       },
-      "VulnerableVersionRange": "\u003c 4.0.0-beta"
+      "VulnerableVersionRange": "\u003e= 3.10, \u003c 4.0.0-beta"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-03-24T23:17:36Z",
+  "UpdatedAt": "2023-09-12T13:19:18Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -47,7 +47,7 @@
     "PublishedAt": "2021-03-29T20:42:46Z",
     "Severity": "HIGH",
     "Summary": "Improper Access Control in moodle",
-    "UpdatedAt": "2023-02-01T05:05:15Z",
+    "UpdatedAt": "2023-09-12T13:19:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -59,7 +59,7 @@
       "FirstPatchedVersion": {
         "Identifier": "3.5.15"
       },
-      "VulnerableVersionRange": "\u003c 3.5.15"
+      "VulnerableVersionRange": "\u003e= 3.5, \u003c 3.5.15"
     },
     {
       "FirstPatchedVersion": {

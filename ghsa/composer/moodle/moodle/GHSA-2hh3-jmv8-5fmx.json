@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-28T22:10:16Z",
+  "UpdatedAt": "2023-09-12T14:23:32Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -41,7 +41,7 @@
     "PublishedAt": "2022-05-13T01:12:40Z",
     "Severity": "MODERATE",
     "Summary": "Moodle Does Not Escape Characters In Email Headers",
-    "UpdatedAt": "2023-07-28T22:10:16Z",
+    "UpdatedAt": "2023-09-12T14:23:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,
@@ -49,6 +49,12 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.1.1"
+      },
+      "VulnerableVersionRange": "\u003e= 3.1, \u003c 3.1.1"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.7.15"
@@ -72,12 +78,6 @@
         "Identifier": "3.0.5"
       },
       "VulnerableVersionRange": "\u003e= 3.0, \u003c= 3.0.4"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "3.1.1"
-      },
-      "VulnerableVersionRange": "= 3.1"
     }
   ]
 }

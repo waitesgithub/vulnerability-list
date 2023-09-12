@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-02T20:14:21Z",
+  "UpdatedAt": "2023-09-12T14:20:32Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -53,7 +53,7 @@
     "PublishedAt": "2022-05-19T00:00:15Z",
     "Severity": "MODERATE",
     "Summary": "External Control of Assumed-Immutable Web Parameter in moodle",
-    "UpdatedAt": "2023-01-27T05:08:12Z",
+    "UpdatedAt": "2023-09-12T14:20:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
@@ -65,7 +65,7 @@
       "FirstPatchedVersion": {
         "Identifier": "3.9.14"
       },
-      "VulnerableVersionRange": "\u003c 3.9.14"
+      "VulnerableVersionRange": "\u003e= 3.9, \u003c 3.9.14"
     },
     {
       "FirstPatchedVersion": {

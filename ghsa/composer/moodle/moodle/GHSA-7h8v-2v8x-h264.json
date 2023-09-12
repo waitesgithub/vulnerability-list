@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-03-24T23:17:53Z",
+  "UpdatedAt": "2023-09-12T13:13:58Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -47,7 +47,7 @@
     "PublishedAt": "2021-03-29T20:42:19Z",
     "Severity": "MODERATE",
     "Summary": "SQL Injection in moodle",
-    "UpdatedAt": "2023-02-01T05:05:20Z",
+    "UpdatedAt": "2023-09-12T13:13:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
@@ -59,7 +59,7 @@
       "FirstPatchedVersion": {
         "Identifier": "3.5.15"
       },
-      "VulnerableVersionRange": "\u003c 3.5.15"
+      "VulnerableVersionRange": "\u003e= 3.5.0, \u003c 3.5.15"
     },
     {
       "FirstPatchedVersion": {

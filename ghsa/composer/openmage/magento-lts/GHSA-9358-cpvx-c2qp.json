@@ -26,6 +26,9 @@
         "Url": "https://github.com/OpenMage/magento-lts/releases/tag/v20.1.1"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41879"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-9358-cpvx-c2qp"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2023-09-11T20:45:02Z",
     "Severity": "HIGH",
     "Summary": "Magento LTS's guest order \"protect code\" can be brute-forced too easily",
-    "UpdatedAt": "2023-09-11T20:45:03Z",
+    "UpdatedAt": "2023-09-12T13:34:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
