@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-26T20:04:07Z",
+  "UpdatedAt": "2023-09-13T11:56:16Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "phpmyadmin/phpmyadmin"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-05-14T01:19:05Z",
     "Severity": "HIGH",
     "Summary": "phpMyAdmin DoS Vulnerability",
-    "UpdatedAt": "2023-07-26T20:04:07Z",
+    "UpdatedAt": "2023-09-13T11:56:16Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -48,9 +48,21 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "4.0.10.19"
       },
-      "VulnerableVersionRange": "\u003e= 4.0, \u003c= 4.6"
+      "VulnerableVersionRange": "\u003e= 4.0, \u003c 4.0.10.19"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.4.15.10"
+      },
+      "VulnerableVersionRange": "\u003e= 4.4, \u003c 4.4.15.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.6.6"
+      },
+      "VulnerableVersionRange": "\u003e= 4.6, \u003c 4.6.6"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-02-09T20:38:21Z",
+  "UpdatedAt": "2023-09-13T11:39:53Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "pimcore/pimcore"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-02-09T00:00:28Z",
     "Severity": "MODERATE",
     "Summary": "Cross-site Scripting pimcore",
-    "UpdatedAt": "2023-02-03T05:05:45Z",
+    "UpdatedAt": "2023-09-13T11:39:53Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,
@@ -48,7 +48,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "10.3.1"
       },
       "VulnerableVersionRange": "\u003c= 10.3.0"
     }

@@ -1,6 +1,6 @@
 {
   "Severity": "LOW",
-  "UpdatedAt": "2022-01-27T18:56:50Z",
+  "UpdatedAt": "2023-09-13T11:58:31Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -41,7 +41,7 @@
     "PublishedAt": "2022-01-28T22:08:02Z",
     "Severity": "LOW",
     "Summary": "Insufficient user authorization in Moodle",
-    "UpdatedAt": "2023-02-03T05:05:20Z",
+    "UpdatedAt": "2023-09-13T11:58:31Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 3.8,
@@ -53,7 +53,7 @@
       "FirstPatchedVersion": {
         "Identifier": "3.9.11"
       },
-      "VulnerableVersionRange": "\u003c 3.9.11"
+      "VulnerableVersionRange": "\u003e= 3.9, \u003c 3.9.11"
     },
     {
       "FirstPatchedVersion": {

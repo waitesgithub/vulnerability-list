@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-26T21:53:04Z",
+  "UpdatedAt": "2023-09-13T11:41:55Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "phpmyadmin/phpmyadmin"
@@ -44,7 +44,7 @@
     "PublishedAt": "2022-05-14T01:05:59Z",
     "Severity": "HIGH",
     "Summary": "phpMyAdmin CSRF Vulnerability",
-    "UpdatedAt": "2023-07-26T21:53:04Z",
+    "UpdatedAt": "2023-09-13T11:41:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -54,9 +54,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "4.7.7"
       },
-      "VulnerableVersionRange": "\u003e= 4.7, \u003c= 4.7.7"
+      "VulnerableVersionRange": "\u003e= 4.7, \u003c 4.7.7"
     }
   ]
 }
