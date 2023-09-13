@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-03-24T23:14:28Z",
+  "UpdatedAt": "2023-09-13T12:57:12Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -47,7 +47,7 @@
     "PublishedAt": "2021-03-29T20:43:23Z",
     "Severity": "MODERATE",
     "Summary": "Moodle allowed some users without permission to view other users' full names",
-    "UpdatedAt": "2023-01-30T05:02:57Z",
+    "UpdatedAt": "2023-09-13T12:57:12Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
@@ -59,7 +59,7 @@
       "FirstPatchedVersion": {
         "Identifier": "3.5.17"
       },
-      "VulnerableVersionRange": "\u003c 3.5.17"
+      "VulnerableVersionRange": "\u003e= 3.5, \u003c 3.5.17"
     },
     {
       "FirstPatchedVersion": {

@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-01-05T21:32:11Z",
+  "UpdatedAt": "2023-09-13T12:58:17Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "netgen/tagsbundle"
@@ -38,11 +38,11 @@
     "PublishedAt": "2022-01-06T22:04:19Z",
     "Severity": "MODERATE",
     "Summary": "Cross-site Scripting in Netgen Tags Bundle",
-    "UpdatedAt": "2023-02-03T05:03:36Z",
+    "UpdatedAt": "2023-09-13T12:58:17Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 6.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [
