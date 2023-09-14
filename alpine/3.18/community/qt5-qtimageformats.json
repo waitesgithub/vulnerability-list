@@ -1,10 +1,7 @@
 {
-  "name": "libwebp",
+  "name": "qt5-qtimageformats",
   "secfixes": {
-    "1.2.2-r1": [
-      "CVE-2023-1999"
-    ],
-    "1.2.2-r2": [
+    "5.15.9_git20230407-r2": [
       "CVE-2023-4863"
     ]
   },
@@ -19,6 +16,6 @@
     "x86_64"
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
-  "reponame": "main",
-  "distroversion": "v3.15"
+  "reponame": "community",
+  "distroversion": "v3.18"
 }
