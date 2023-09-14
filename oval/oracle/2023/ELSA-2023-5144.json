@@ -1,19 +1,19 @@
 {
-  "Title": "ELSA-2023-12792: Unbreakable Enterprise kernel security update (IMPORTANT)",
-  "Description": "",
+  "Title": "ELSA-2023-5144:  .NET 6.0 security update (MODERATE)",
+  "Description": "[6.0.122-1.0.1]\n- Update to .NET SDK 6.0.122 and Runtime 6.0.22\n- Resolves: RHEL-1996",
   "Platform": [
-    "Oracle Linux 7"
+    "Oracle Linux 8"
   ],
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2023-12792.html",
-      "ID": "ELSA-2023-12792"
+      "URI": "https://linux.oracle.com/errata/ELSA-2023-5144.html",
+      "ID": "ELSA-2023-5144"
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2023-3567.html",
-      "ID": "CVE-2023-3567"
+      "URI": "https://linux.oracle.com/cve/CVE-2023-36799.html",
+      "ID": "CVE-2023-36799"
     }
   ],
   "Criteria": {
@@ -33,10 +33,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-sdk-6.0-source-built-artifacts is earlier than 0:6.0.122-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-sdk-6.0-source-built-artifacts is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -45,10 +45,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-debug is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "aspnetcore-runtime-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-debug is signed with the Oracle Linux 7 key"
+                        "Comment": "aspnetcore-runtime-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -57,10 +57,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-debug-devel is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "aspnetcore-targeting-pack-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-debug-devel is signed with the Oracle Linux 7 key"
+                        "Comment": "aspnetcore-targeting-pack-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -69,10 +69,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-devel is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-apphost-pack-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-devel is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-apphost-pack-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -81,10 +81,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-headers is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-hostfxr-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-headers is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-hostfxr-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -93,10 +93,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-tools is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-runtime-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-tools is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-runtime-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -105,10 +105,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-tools-libs is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-sdk-6.0 is earlier than 0:6.0.122-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-tools-libs is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-sdk-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -117,10 +117,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-tools-libs-devel is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-targeting-pack-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-tools-libs-devel is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-targeting-pack-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -129,22 +129,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "perf is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-templates-6.0 is earlier than 0:6.0.122-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "perf is signed with the Oracle Linux 7 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "python-perf is earlier than 0:4.14.35-2047.529.3.el7uek"
-                      },
-                      {
-                        "Comment": "python-perf is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-templates-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -169,10 +157,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-sdk-6.0-source-built-artifacts is earlier than 0:6.0.122-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-sdk-6.0-source-built-artifacts is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -181,10 +169,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-debug is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "aspnetcore-runtime-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-debug is signed with the Oracle Linux 7 key"
+                        "Comment": "aspnetcore-runtime-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -193,10 +181,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-debug-devel is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "aspnetcore-targeting-pack-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-debug-devel is signed with the Oracle Linux 7 key"
+                        "Comment": "aspnetcore-targeting-pack-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -205,10 +193,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-devel is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-apphost-pack-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-devel is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-apphost-pack-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -217,10 +205,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-doc is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-hostfxr-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-doc is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-hostfxr-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -229,10 +217,46 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "kernel-uek-tools is earlier than 0:4.14.35-2047.529.3.el7uek"
+                        "Comment": "dotnet-runtime-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
                       },
                       {
-                        "Comment": "kernel-uek-tools is signed with the Oracle Linux 7 key"
+                        "Comment": "dotnet-runtime-6.0 is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "dotnet-sdk-6.0 is earlier than 0:6.0.122-1.0.1.el8_8"
+                      },
+                      {
+                        "Comment": "dotnet-sdk-6.0 is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "dotnet-targeting-pack-6.0 is earlier than 0:6.0.22-1.0.1.el8_8"
+                      },
+                      {
+                        "Comment": "dotnet-targeting-pack-6.0 is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "dotnet-templates-6.0 is earlier than 0:6.0.122-1.0.1.el8_8"
+                      },
+                      {
+                        "Comment": "dotnet-templates-6.0 is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -252,16 +276,16 @@
     ],
     "Criterions": [
       {
-        "Comment": "Oracle Linux 7 is installed"
+        "Comment": "Oracle Linux 8 is installed"
       }
     ]
   },
-  "Severity": "IMPORTANT",
+  "Severity": "MODERATE",
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2023-3567.html",
-      "ID": "CVE-2023-3567"
+      "Href": "https://linux.oracle.com/cve/CVE-2023-36799.html",
+      "ID": "CVE-2023-36799"
     }
   ],
   "Issued": {
