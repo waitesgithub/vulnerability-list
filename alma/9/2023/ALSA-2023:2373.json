@@ -12,6 +12,66 @@
     "shortname": "almalinux-9-for-i686-appstream-rpms__9_2_default",
     "packages": [
       {
+        "name": "wireshark",
+        "version": "3.4.10",
+        "release": "4.el9",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "wireshark-3.4.10-4.el9.src.rpm",
+        "filename": "wireshark-3.4.10-4.el9.aarch64.rpm",
+        "sum": "95b43131939da62abd2206d2b1062824943d951eb72898859ec046dc83eeaf17",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "wireshark-cli",
+        "version": "3.4.10",
+        "release": "4.el9",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "wireshark-3.4.10-4.el9.src.rpm",
+        "filename": "wireshark-cli-3.4.10-4.el9.aarch64.rpm",
+        "sum": "b58272c12dd54cd85a25b1c1d083967d87200be791ce93ca9434923834812489",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "wireshark-devel",
+        "version": "3.4.10",
+        "release": "4.el9",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "wireshark-3.4.10-4.el9.src.rpm",
+        "filename": "wireshark-devel-3.4.10-4.el9.aarch64.rpm",
+        "sum": "ecc03cb75a5e4b7de753b0183d471bee3e19bd04e59f8ed62b63ae7048e25348",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "wireshark-devel",
+        "version": "3.4.10",
+        "release": "4.el9",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "wireshark-3.4.10-4.el9.src.rpm",
+        "filename": "wireshark-devel-3.4.10-4.el9.i686.rpm",
+        "sum": "24fe51c718a14b22807a84270f373f18288d3fff5009b754c06d89e08a7eec6e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "wireshark-cli",
+        "version": "3.4.10",
+        "release": "4.el9",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "wireshark-3.4.10-4.el9.src.rpm",
+        "filename": "wireshark-cli-3.4.10-4.el9.i686.rpm",
+        "sum": "95097b03c142f8878f94d623b58e77e493b2260f37e935612137675bc9d8b8ea",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "wireshark-cli",
         "version": "3.4.10",
         "release": "4.el9",
@@ -52,34 +112,10 @@
         "version": "3.4.10",
         "release": "4.el9",
         "epoch": "1",
-        "arch": "i686",
-        "src": "wireshark-3.4.10-4.el9.src.rpm",
-        "filename": "wireshark-devel-3.4.10-4.el9.i686.rpm",
-        "sum": "24fe51c718a14b22807a84270f373f18288d3fff5009b754c06d89e08a7eec6e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "wireshark-devel",
-        "version": "3.4.10",
-        "release": "4.el9",
-        "epoch": "1",
         "arch": "s390x",
         "src": "wireshark-3.4.10-4.el9.src.rpm",
         "filename": "wireshark-devel-3.4.10-4.el9.s390x.rpm",
         "sum": "34f1fd77915ca733a8124c6993b8f0e541e5ab29720bb7bcb9ce09ae32cc4877",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "wireshark",
-        "version": "3.4.10",
-        "release": "4.el9",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "wireshark-3.4.10-4.el9.src.rpm",
-        "filename": "wireshark-3.4.10-4.el9.x86_64.rpm",
-        "sum": "604c91a7be5ec4796295334c8aa62b9210a634353a7e184d631c20cd213c2d9e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,30 +132,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "wireshark-cli",
-        "version": "3.4.10",
-        "release": "4.el9",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "wireshark-3.4.10-4.el9.src.rpm",
-        "filename": "wireshark-cli-3.4.10-4.el9.i686.rpm",
-        "sum": "95097b03c142f8878f94d623b58e77e493b2260f37e935612137675bc9d8b8ea",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "wireshark",
-        "version": "3.4.10",
-        "release": "4.el9",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "wireshark-3.4.10-4.el9.src.rpm",
-        "filename": "wireshark-3.4.10-4.el9.aarch64.rpm",
-        "sum": "95b43131939da62abd2206d2b1062824943d951eb72898859ec046dc83eeaf17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "wireshark",
         "version": "3.4.10",
         "release": "4.el9",
@@ -132,6 +144,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "wireshark",
+        "version": "3.4.10",
+        "release": "4.el9",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "wireshark-3.4.10-4.el9.src.rpm",
+        "filename": "wireshark-3.4.10-4.el9.x86_64.rpm",
+        "sum": "604c91a7be5ec4796295334c8aa62b9210a634353a7e184d631c20cd213c2d9e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "wireshark-devel",
         "version": "3.4.10",
         "release": "4.el9",
@@ -140,30 +164,6 @@
         "src": "wireshark-3.4.10-4.el9.src.rpm",
         "filename": "wireshark-devel-3.4.10-4.el9.x86_64.rpm",
         "sum": "a4be5a19db50915eb8ad6b703811b0f9a6c5b18e2f17ee5fcf23492f2fee2d8c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "wireshark-cli",
-        "version": "3.4.10",
-        "release": "4.el9",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "wireshark-3.4.10-4.el9.src.rpm",
-        "filename": "wireshark-cli-3.4.10-4.el9.aarch64.rpm",
-        "sum": "b58272c12dd54cd85a25b1c1d083967d87200be791ce93ca9434923834812489",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "wireshark-devel",
-        "version": "3.4.10",
-        "release": "4.el9",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "wireshark-3.4.10-4.el9.src.rpm",
-        "filename": "wireshark-devel-3.4.10-4.el9.aarch64.rpm",
-        "sum": "ecc03cb75a5e4b7de753b0183d471bee3e19bd04e59f8ed62b63ae7048e25348",
         "sum_type": 5,
         "reboot_suggested": 0
       },

@@ -8,21 +8,9 @@
     "$date": 1652832000000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-highavailability-rpms__9_default",
-    "shortname": "almalinux-9-for-ppc64le-highavailability-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-highavailability-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-highavailability-rpms__9_default",
     "packages": [
-      {
-        "name": "pcs-snmp",
-        "version": "0.11.1",
-        "release": "10.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.11.1-10.el9.src.rpm",
-        "filename": "pcs-snmp-0.11.1-10.el9.x86_64.rpm",
-        "sum": "02cb8c114267ccbbbd8f33e4dd66dd6b2949dcf0bcdf68e5272e52047c9bb82a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "pcs",
         "version": "0.11.1",
@@ -32,18 +20,6 @@
         "src": "pcs-0.11.1-10.el9.src.rpm",
         "filename": "pcs-0.11.1-10.el9.aarch64.rpm",
         "sum": "57b60d8498d496cbaf8a91d91f457025dc69ea781beb75b2934967f817f2f8b1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.11.1",
-        "release": "10.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "pcs-0.11.1-10.el9.src.rpm",
-        "filename": "pcs-0.11.1-10.el9.s390x.rpm",
-        "sum": "64c92b686e8706571a7d022594aa1e28018aac36ebdd2c627d266d886c613d80",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,6 +60,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "pcs",
+        "version": "0.11.1",
+        "release": "10.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "pcs-0.11.1-10.el9.src.rpm",
+        "filename": "pcs-0.11.1-10.el9.s390x.rpm",
+        "sum": "64c92b686e8706571a7d022594aa1e28018aac36ebdd2c627d266d886c613d80",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "pcs-snmp",
         "version": "0.11.1",
         "release": "10.el9",
@@ -92,6 +80,18 @@
         "src": "pcs-0.11.1-10.el9.src.rpm",
         "filename": "pcs-snmp-0.11.1-10.el9.s390x.rpm",
         "sum": "dd8d9f7d15a6e692d9527db57e188bb603dc28284ed91be7810a4d93b6a282cb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs-snmp",
+        "version": "0.11.1",
+        "release": "10.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.11.1-10.el9.src.rpm",
+        "filename": "pcs-snmp-0.11.1-10.el9.x86_64.rpm",
+        "sum": "02cb8c114267ccbbbd8f33e4dd66dd6b2949dcf0bcdf68e5272e52047c9bb82a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -142,7 +142,7 @@
   "severity": "Important",
   "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
   "status": "final",
-  "summary": "An update for pcs-snmp is now available for AlmaLinux 9.",
+  "summary": "An update for pcs is now available for AlmaLinux 9.",
   "title": "Important: pcs security update",
   "type": "security",
   "updated_date": {

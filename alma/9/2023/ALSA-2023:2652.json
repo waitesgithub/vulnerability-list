@@ -8,45 +8,9 @@
     "$date": 1683590400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-highavailability-rpms__9_2_default",
-    "shortname": "almalinux-9-for-ppc64le-highavailability-rpms__9_2_default",
+    "name": "almalinux-9-for-aarch64-highavailability-rpms__9_2_default",
+    "shortname": "almalinux-9-for-aarch64-highavailability-rpms__9_2_default",
     "packages": [
-      {
-        "name": "pcs",
-        "version": "0.11.4",
-        "release": "7.el9_2",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "pcs-0.11.4-7.el9_2.src.rpm",
-        "filename": "pcs-0.11.4-7.el9_2.s390x.rpm",
-        "sum": "3f23ad2d53078bf0db324df4c142a8cf0e61e975ea344898431e455ad219f963",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.11.4",
-        "release": "7.el9_2",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pcs-0.11.4-7.el9_2.src.rpm",
-        "filename": "pcs-snmp-0.11.4-7.el9_2.ppc64le.rpm",
-        "sum": "4a34a5c7362a0cf6312570c2ce689a8c53d1da659af7cb044684d24007919428",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.11.4",
-        "release": "7.el9_2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.11.4-7.el9_2.src.rpm",
-        "filename": "pcs-snmp-0.11.4-7.el9_2.x86_64.rpm",
-        "sum": "6ef9a5fa4ea1d4a5846854257e32b049e58c2c09fa59fae66acda3b73b2e9fbf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "pcs-snmp",
         "version": "0.11.4",
@@ -72,6 +36,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "pcs-snmp",
+        "version": "0.11.4",
+        "release": "7.el9_2",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pcs-0.11.4-7.el9_2.src.rpm",
+        "filename": "pcs-snmp-0.11.4-7.el9_2.ppc64le.rpm",
+        "sum": "4a34a5c7362a0cf6312570c2ce689a8c53d1da659af7cb044684d24007919428",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "pcs",
         "version": "0.11.4",
         "release": "7.el9_2",
@@ -88,10 +64,10 @@
         "version": "0.11.4",
         "release": "7.el9_2",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "s390x",
         "src": "pcs-0.11.4-7.el9_2.src.rpm",
-        "filename": "pcs-0.11.4-7.el9_2.x86_64.rpm",
-        "sum": "e5721798376dead763c4c633dcf5973b86ff4a0d45b1ee6fa525d8456467dc71",
+        "filename": "pcs-0.11.4-7.el9_2.s390x.rpm",
+        "sum": "3f23ad2d53078bf0db324df4c142a8cf0e61e975ea344898431e455ad219f963",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -104,6 +80,30 @@
         "src": "pcs-0.11.4-7.el9_2.src.rpm",
         "filename": "pcs-snmp-0.11.4-7.el9_2.s390x.rpm",
         "sum": "e909b66e2717478ee6249830cac935a27be7a68ab6c88e4a2db1d441c1e9eabb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs-snmp",
+        "version": "0.11.4",
+        "release": "7.el9_2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.11.4-7.el9_2.src.rpm",
+        "filename": "pcs-snmp-0.11.4-7.el9_2.x86_64.rpm",
+        "sum": "6ef9a5fa4ea1d4a5846854257e32b049e58c2c09fa59fae66acda3b73b2e9fbf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.11.4",
+        "release": "7.el9_2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.11.4-7.el9_2.src.rpm",
+        "filename": "pcs-0.11.4-7.el9_2.x86_64.rpm",
+        "sum": "e5721798376dead763c4c633dcf5973b86ff4a0d45b1ee6fa525d8456467dc71",
         "sum_type": 5,
         "reboot_suggested": 0
       }

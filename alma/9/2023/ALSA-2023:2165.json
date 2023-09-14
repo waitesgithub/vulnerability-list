@@ -12,6 +12,18 @@
     "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_2_default",
     "packages": [
       {
+        "name": "edk2-tools",
+        "version": "20221207gitfff6d81270b5",
+        "release": "9.el9_2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "edk2-20221207gitfff6d81270b5-9.el9_2.src.rpm",
+        "filename": "edk2-tools-20221207gitfff6d81270b5-9.el9_2.aarch64.rpm",
+        "sum": "ce69facb48ba1ba68470471c4067d52286e52d3983abf6ac57f7e83b75260f77",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "edk2-aarch64",
         "version": "20221207gitfff6d81270b5",
         "release": "9.el9_2",
@@ -20,18 +32,6 @@
         "src": "edk2-20221207gitfff6d81270b5-9.el9_2.src.rpm",
         "filename": "edk2-aarch64-20221207gitfff6d81270b5-9.el9_2.noarch.rpm",
         "sum": "0b2d96153f15aff5bc6a6e70c2e538b306294b495568c511f44b5a312c3d86a2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "edk2-tools",
-        "version": "20221207gitfff6d81270b5",
-        "release": "9.el9_2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "edk2-20221207gitfff6d81270b5-9.el9_2.src.rpm",
-        "filename": "edk2-tools-20221207gitfff6d81270b5-9.el9_2.x86_64.rpm",
-        "sum": "37644e8ed6ae4de2928a660bcc79f3f27ed90a1f090d14b834da655e3c867d68",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,10 +64,10 @@
         "version": "20221207gitfff6d81270b5",
         "release": "9.el9_2",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "edk2-20221207gitfff6d81270b5-9.el9_2.src.rpm",
-        "filename": "edk2-tools-20221207gitfff6d81270b5-9.el9_2.aarch64.rpm",
-        "sum": "ce69facb48ba1ba68470471c4067d52286e52d3983abf6ac57f7e83b75260f77",
+        "filename": "edk2-tools-20221207gitfff6d81270b5-9.el9_2.x86_64.rpm",
+        "sum": "37644e8ed6ae4de2928a660bcc79f3f27ed90a1f090d14b834da655e3c867d68",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -12,6 +12,66 @@
     "shortname": "almalinux-9-for-i686-appstream-rpms__9_2_default",
     "packages": [
       {
+        "name": "cups-filters-devel",
+        "version": "1.28.7",
+        "release": "11.el9_2.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+        "filename": "cups-filters-devel-1.28.7-11.el9_2.1.aarch64.rpm",
+        "sum": "5c3b5df66ebe548568be972c712e9d5b01b5d62ec57bc7df3f39f78c247e2bf4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cups-filters",
+        "version": "1.28.7",
+        "release": "11.el9_2.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+        "filename": "cups-filters-1.28.7-11.el9_2.1.aarch64.rpm",
+        "sum": "c9e97c5778a26b555baf3b0b62160578c682ba3c403dc0e33ea6496afdc67360",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cups-filters-libs",
+        "version": "1.28.7",
+        "release": "11.el9_2.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+        "filename": "cups-filters-libs-1.28.7-11.el9_2.1.aarch64.rpm",
+        "sum": "e66bf9684d65564e10958e0692aacfbfd14cc9fa2b1438bb0a852bac1d2506a8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cups-filters-devel",
+        "version": "1.28.7",
+        "release": "11.el9_2.1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+        "filename": "cups-filters-devel-1.28.7-11.el9_2.1.i686.rpm",
+        "sum": "4be1669ce9df9b878caa5f58ec501f7d9c4730d8fdab7ab5796d72072462f921",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cups-filters-libs",
+        "version": "1.28.7",
+        "release": "11.el9_2.1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+        "filename": "cups-filters-libs-1.28.7-11.el9_2.1.i686.rpm",
+        "sum": "91aabba866078d81ea9e7fcb2429d20142f39b2ffde9b21f5f9a2c07d14d377a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "cups-filters",
         "version": "1.28.7",
         "release": "11.el9_2.1",
@@ -40,22 +100,10 @@
         "version": "1.28.7",
         "release": "11.el9_2.1",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "ppc64le",
         "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-        "filename": "cups-filters-devel-1.28.7-11.el9_2.1.i686.rpm",
-        "sum": "4be1669ce9df9b878caa5f58ec501f7d9c4730d8fdab7ab5796d72072462f921",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cups-filters-devel",
-        "version": "1.28.7",
-        "release": "11.el9_2.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-        "filename": "cups-filters-devel-1.28.7-11.el9_2.1.aarch64.rpm",
-        "sum": "5c3b5df66ebe548568be972c712e9d5b01b5d62ec57bc7df3f39f78c247e2bf4",
+        "filename": "cups-filters-devel-1.28.7-11.el9_2.1.ppc64le.rpm",
+        "sum": "c6c347d131893c07060374aad60ca76b89090b918e7e0c253aa1d9b350863ee7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,30 +132,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "cups-filters-devel",
-        "version": "1.28.7",
-        "release": "11.el9_2.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-        "filename": "cups-filters-devel-1.28.7-11.el9_2.1.x86_64.rpm",
-        "sum": "8a8e2472845a9ef7cbcdde4f19d6e60592e5effb97d7e6ce72f5773676635811",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cups-filters-libs",
-        "version": "1.28.7",
-        "release": "11.el9_2.1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-        "filename": "cups-filters-libs-1.28.7-11.el9_2.1.i686.rpm",
-        "sum": "91aabba866078d81ea9e7fcb2429d20142f39b2ffde9b21f5f9a2c07d14d377a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "cups-filters-libs",
         "version": "1.28.7",
         "release": "11.el9_2.1",
@@ -116,6 +140,18 @@
         "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
         "filename": "cups-filters-libs-1.28.7-11.el9_2.1.s390x.rpm",
         "sum": "976406c6a918a25b89f5040b368d2f68b03e7f05df39b6e675bd69afea7f12ba",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cups-filters-devel",
+        "version": "1.28.7",
+        "release": "11.el9_2.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+        "filename": "cups-filters-devel-1.28.7-11.el9_2.1.x86_64.rpm",
+        "sum": "8a8e2472845a9ef7cbcdde4f19d6e60592e5effb97d7e6ce72f5773676635811",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -140,42 +176,6 @@
         "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
         "filename": "cups-filters-1.28.7-11.el9_2.1.x86_64.rpm",
         "sum": "abd1c7eed57dc831c50fea26aac1034039a8d1f1dfa3bfe2523aa81e1835d235",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cups-filters-devel",
-        "version": "1.28.7",
-        "release": "11.el9_2.1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-        "filename": "cups-filters-devel-1.28.7-11.el9_2.1.ppc64le.rpm",
-        "sum": "c6c347d131893c07060374aad60ca76b89090b918e7e0c253aa1d9b350863ee7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cups-filters",
-        "version": "1.28.7",
-        "release": "11.el9_2.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-        "filename": "cups-filters-1.28.7-11.el9_2.1.aarch64.rpm",
-        "sum": "c9e97c5778a26b555baf3b0b62160578c682ba3c403dc0e33ea6496afdc67360",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cups-filters-libs",
-        "version": "1.28.7",
-        "release": "11.el9_2.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-        "filename": "cups-filters-libs-1.28.7-11.el9_2.1.aarch64.rpm",
-        "sum": "e66bf9684d65564e10958e0692aacfbfd14cc9fa2b1438bb0a852bac1d2506a8",
         "sum_type": 5,
         "reboot_suggested": 0
       }

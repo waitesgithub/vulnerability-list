@@ -8,21 +8,9 @@
     "$date": 1683590400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-crb-rpms__9_2_default",
-    "shortname": "almalinux-9-for-x86_64-crb-rpms__9_2_default",
+    "name": "almalinux-9-for-ppc64le-crb-rpms__9_2_default",
+    "shortname": "almalinux-9-for-ppc64le-crb-rpms__9_2_default",
     "packages": [
-      {
-        "name": "golang-github-cpuguy83-md2man",
-        "version": "2.0.2",
-        "release": "4.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "golang-github-cpuguy83-md2man-2.0.2-4.el9.src.rpm",
-        "filename": "golang-github-cpuguy83-md2man-2.0.2-4.el9.x86_64.rpm",
-        "sum": "14f43471dc1c7ba8786e6ee18647e55f4e3f373ac2309299892d6d3092b4ddb4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "golang-github-cpuguy83-md2man",
         "version": "2.0.2",
@@ -56,6 +44,18 @@
         "src": "golang-github-cpuguy83-md2man-2.0.2-4.el9.src.rpm",
         "filename": "golang-github-cpuguy83-md2man-2.0.2-4.el9.s390x.rpm",
         "sum": "e3f8dd33b933a9c8c0d459cdeac265ddb0ccf275e95cf32feb64596d27b171af",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-github-cpuguy83-md2man",
+        "version": "2.0.2",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "golang-github-cpuguy83-md2man-2.0.2-4.el9.src.rpm",
+        "filename": "golang-github-cpuguy83-md2man-2.0.2-4.el9.x86_64.rpm",
+        "sum": "14f43471dc1c7ba8786e6ee18647e55f4e3f373ac2309299892d6d3092b4ddb4",
         "sum_type": 5,
         "reboot_suggested": 0
       }

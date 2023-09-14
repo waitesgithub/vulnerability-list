@@ -16,18 +16,6 @@
         "version": "5.1.1",
         "release": "1.el9",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "grafana-pcp-5.1.1-1.el9.src.rpm",
-        "filename": "grafana-pcp-5.1.1-1.el9.x86_64.rpm",
-        "sum": "7ac85943c70d1c19b9eb24e532c9762a86aa5308da2c7f9d90d05424ca58b24e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grafana-pcp",
-        "version": "5.1.1",
-        "release": "1.el9",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "grafana-pcp-5.1.1-1.el9.src.rpm",
         "filename": "grafana-pcp-5.1.1-1.el9.aarch64.rpm",
@@ -56,6 +44,18 @@
         "src": "grafana-pcp-5.1.1-1.el9.src.rpm",
         "filename": "grafana-pcp-5.1.1-1.el9.s390x.rpm",
         "sum": "ff79cd2582d6f79be1916532fb57ef4b1a18f3f555cae0b692bd16cc7234d92a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grafana-pcp",
+        "version": "5.1.1",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "grafana-pcp-5.1.1-1.el9.src.rpm",
+        "filename": "grafana-pcp-5.1.1-1.el9.x86_64.rpm",
+        "sum": "7ac85943c70d1c19b9eb24e532c9762a86aa5308da2c7f9d90d05424ca58b24e",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -16,6 +16,18 @@
         "version": "9.2",
         "release": "1.el9",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "libguestfs-winsupport-9.2-1.el9.src.rpm",
+        "filename": "libguestfs-winsupport-9.2-1.el9.aarch64.rpm",
+        "sum": "cbdad0105d99296745c14e4b3cff7d3464b874147c4d63a862491b446a11c2d2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-winsupport",
+        "version": "9.2",
+        "release": "1.el9",
+        "epoch": "0",
         "arch": "s390x",
         "src": "libguestfs-winsupport-9.2-1.el9.src.rpm",
         "filename": "libguestfs-winsupport-9.2-1.el9.s390x.rpm",
@@ -32,18 +44,6 @@
         "src": "libguestfs-winsupport-9.2-1.el9.src.rpm",
         "filename": "libguestfs-winsupport-9.2-1.el9.x86_64.rpm",
         "sum": "c33fca0b84951882c4cb6df4ad952fb8e9c59e55f3e54de0e2848410b34e713f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libguestfs-winsupport",
-        "version": "9.2",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libguestfs-winsupport-9.2-1.el9.src.rpm",
-        "filename": "libguestfs-winsupport-9.2-1.el9.aarch64.rpm",
-        "sum": "cbdad0105d99296745c14e4b3cff7d3464b874147c4d63a862491b446a11c2d2",
         "sum_type": 5,
         "reboot_suggested": 0
       }

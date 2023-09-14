@@ -36,18 +36,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "open-vm-tools-desktop",
-        "version": "11.3.5",
-        "release": "1.el9_0.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
-        "filename": "open-vm-tools-desktop-11.3.5-1.el9_0.1.x86_64.rpm",
-        "sum": "42a17fe0cfb7a607b8db576c0c4cb2f504f64838b6722461e4f1a82d4665e0f0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "open-vm-tools-test",
         "version": "11.3.5",
         "release": "1.el9_0.1",
@@ -56,6 +44,18 @@
         "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
         "filename": "open-vm-tools-test-11.3.5-1.el9_0.1.aarch64.rpm",
         "sum": "6902baab93fd4535b23c201b9fd95ce04a707c3422e1b7d36c3b5f294e710d6f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "open-vm-tools-desktop",
+        "version": "11.3.5",
+        "release": "1.el9_0.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+        "filename": "open-vm-tools-desktop-11.3.5-1.el9_0.1.x86_64.rpm",
+        "sum": "42a17fe0cfb7a607b8db576c0c4cb2f504f64838b6722461e4f1a82d4665e0f0",
         "sum_type": 5,
         "reboot_suggested": 0
       },

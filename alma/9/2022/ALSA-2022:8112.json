@@ -16,18 +16,6 @@
         "version": "8.2.2",
         "release": "4.el9",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "frr-8.2.2-4.el9.src.rpm",
-        "filename": "frr-8.2.2-4.el9.ppc64le.rpm",
-        "sum": "72aac6e4cdfce3191ef3e8721f62f3457e59dbb1552e815c4b8be19d43d9d57d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "frr",
-        "version": "8.2.2",
-        "release": "4.el9",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "frr-8.2.2-4.el9.src.rpm",
         "filename": "frr-8.2.2-4.el9.aarch64.rpm",
@@ -40,10 +28,10 @@
         "version": "8.2.2",
         "release": "4.el9",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "frr-8.2.2-4.el9.src.rpm",
-        "filename": "frr-8.2.2-4.el9.x86_64.rpm",
-        "sum": "c65c32eade3383a20ab10e29ebb9da0e29f550cd7d42068776f817a43a0c2576",
+        "filename": "frr-8.2.2-4.el9.ppc64le.rpm",
+        "sum": "72aac6e4cdfce3191ef3e8721f62f3457e59dbb1552e815c4b8be19d43d9d57d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,6 +44,18 @@
         "src": "frr-8.2.2-4.el9.src.rpm",
         "filename": "frr-8.2.2-4.el9.s390x.rpm",
         "sum": "cf77f6b767fba00c7ae7b2b7611ca302ab908497f2320d823966e7cc4e3a5904",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "frr",
+        "version": "8.2.2",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "frr-8.2.2-4.el9.src.rpm",
+        "filename": "frr-8.2.2-4.el9.x86_64.rpm",
+        "sum": "c65c32eade3383a20ab10e29ebb9da0e29f550cd7d42068776f817a43a0c2576",
         "sum_type": 5,
         "reboot_suggested": 0
       }

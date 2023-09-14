@@ -40,10 +40,10 @@
         "version": "1.1.4",
         "release": "1.el9",
         "epoch": "4",
-        "arch": "x86_64",
+        "arch": "s390x",
         "src": "runc-1.1.4-1.el9.src.rpm",
-        "filename": "runc-1.1.4-1.el9.x86_64.rpm",
-        "sum": "b1376c394dcbd1a723c34056801914324fcd4f49bdebff2bf9d71e72e0bac6f2",
+        "filename": "runc-1.1.4-1.el9.s390x.rpm",
+        "sum": "d23711365b1809a99ffac3601c903d0b9dbc56b3a0d3d0c8c6ce69cf2b2cce3f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "1.1.4",
         "release": "1.el9",
         "epoch": "4",
-        "arch": "s390x",
+        "arch": "x86_64",
         "src": "runc-1.1.4-1.el9.src.rpm",
-        "filename": "runc-1.1.4-1.el9.s390x.rpm",
-        "sum": "d23711365b1809a99ffac3601c903d0b9dbc56b3a0d3d0c8c6ce69cf2b2cce3f",
+        "filename": "runc-1.1.4-1.el9.x86_64.rpm",
+        "sum": "b1376c394dcbd1a723c34056801914324fcd4f49bdebff2bf9d71e72e0bac6f2",
         "sum_type": 5,
         "reboot_suggested": 0
       }

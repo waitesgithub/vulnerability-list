@@ -16,18 +16,6 @@
         "version": "9.0.9",
         "release": "3.el9_2.alma",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "grafana-9.0.9-3.el9_2.alma.src.rpm",
-        "filename": "grafana-9.0.9-3.el9_2.alma.x86_64.rpm",
-        "sum": "0e0bcbe51ac6acd258958f873b4ae8c01dc1458495f79f0d305ed8b719635742",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grafana",
-        "version": "9.0.9",
-        "release": "3.el9_2.alma",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "grafana-9.0.9-3.el9_2.alma.src.rpm",
         "filename": "grafana-9.0.9-3.el9_2.alma.aarch64.rpm",
@@ -56,6 +44,18 @@
         "src": "grafana-9.0.9-3.el9_2.alma.src.rpm",
         "filename": "grafana-9.0.9-3.el9_2.alma.s390x.rpm",
         "sum": "bbd21492756d9835df22af3f096f8e62032c399573b109291e0e7373da2fe9ed",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grafana",
+        "version": "9.0.9",
+        "release": "3.el9_2.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "grafana-9.0.9-3.el9_2.alma.src.rpm",
+        "filename": "grafana-9.0.9-3.el9_2.alma.x86_64.rpm",
+        "sum": "0e0bcbe51ac6acd258958f873b4ae8c01dc1458495f79f0d305ed8b719635742",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -12,18 +12,6 @@
     "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
     "packages": [
       {
-        "name": "firefox-x11",
-        "version": "102.12.0",
-        "release": "1.el9_2.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
-        "filename": "firefox-x11-102.12.0-1.el9_2.alma.s390x.rpm",
-        "sum": "0cc2eac161da7a83d5f2cb57874d5937a8bb009f13235323471d604a3079172a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "firefox",
         "version": "102.12.0",
         "release": "1.el9_2.alma",
@@ -32,6 +20,18 @@
         "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
         "filename": "firefox-102.12.0-1.el9_2.alma.aarch64.rpm",
         "sum": "2100f4e6cf9b96546282736cf383fc831ef07e1ccd344dd0660dcb16a8a408be",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox-x11",
+        "version": "102.12.0",
+        "release": "1.el9_2.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
+        "filename": "firefox-x11-102.12.0-1.el9_2.alma.aarch64.rpm",
+        "sum": "c0d7652c5edc83f7423434ae7b752754de093c5203ba81927e6c3a2893393c49",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,6 +52,30 @@
         "version": "102.12.0",
         "release": "1.el9_2.alma",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
+        "filename": "firefox-102.12.0-1.el9_2.alma.ppc64le.rpm",
+        "sum": "6780b4672e3aa60e487683caad64a50cefafb03553365ff0933a601d96757ef6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox-x11",
+        "version": "102.12.0",
+        "release": "1.el9_2.alma",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
+        "filename": "firefox-x11-102.12.0-1.el9_2.alma.s390x.rpm",
+        "sum": "0cc2eac161da7a83d5f2cb57874d5937a8bb009f13235323471d604a3079172a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox",
+        "version": "102.12.0",
+        "release": "1.el9_2.alma",
+        "epoch": "0",
         "arch": "s390x",
         "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
         "filename": "firefox-102.12.0-1.el9_2.alma.s390x.rpm",
@@ -64,34 +88,10 @@
         "version": "102.12.0",
         "release": "1.el9_2.alma",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
-        "filename": "firefox-102.12.0-1.el9_2.alma.ppc64le.rpm",
-        "sum": "6780b4672e3aa60e487683caad64a50cefafb03553365ff0933a601d96757ef6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "firefox",
-        "version": "102.12.0",
-        "release": "1.el9_2.alma",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
         "filename": "firefox-102.12.0-1.el9_2.alma.x86_64.rpm",
         "sum": "7edb477236062d718065459dc3854884a96b3372066b38e64ecbacf18aaee0c5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "firefox-x11",
-        "version": "102.12.0",
-        "release": "1.el9_2.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "firefox-102.12.0-1.el9_2.alma.src.rpm",
-        "filename": "firefox-x11-102.12.0-1.el9_2.alma.aarch64.rpm",
-        "sum": "c0d7652c5edc83f7423434ae7b752754de093c5203ba81927e6c3a2893393c49",
         "sum_type": 5,
         "reboot_suggested": 0
       },

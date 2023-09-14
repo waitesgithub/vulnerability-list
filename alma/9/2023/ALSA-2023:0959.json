@@ -8,8 +8,8 @@
     "$date": 1677542400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-baseos-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-baseos-rpms__9_1_default",
+    "name": "almalinux-9-for-ppc64le-baseos-rpms__9_1_default",
+    "shortname": "almalinux-9-for-ppc64le-baseos-rpms__9_1_default",
     "packages": [
       {
         "name": "tar",
@@ -20,6 +20,18 @@
         "src": "tar-1.34-6.el9_1.src.rpm",
         "filename": "tar-1.34-6.el9_1.aarch64.rpm",
         "sum": "7f4904626815ef53aeade1ee78e6c33ee4305d91f35fe0948dd56c621608dd55",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "tar",
+        "version": "1.34",
+        "release": "6.el9_1",
+        "epoch": "2",
+        "arch": "ppc64le",
+        "src": "tar-1.34-6.el9_1.src.rpm",
+        "filename": "tar-1.34-6.el9_1.ppc64le.rpm",
+        "sum": "e759afe8845683473e19174d61ea0ef0f5891c289be2c1f0020a8277184abb9a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,18 +56,6 @@
         "src": "tar-1.34-6.el9_1.src.rpm",
         "filename": "tar-1.34-6.el9_1.x86_64.rpm",
         "sum": "c3da94e4ff327e244f225a30653e6a9988d470e161cb114e0d58ac7b0fc14d04",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "tar",
-        "version": "1.34",
-        "release": "6.el9_1",
-        "epoch": "2",
-        "arch": "ppc64le",
-        "src": "tar-1.34-6.el9_1.src.rpm",
-        "filename": "tar-1.34-6.el9_1.ppc64le.rpm",
-        "sum": "e759afe8845683473e19174d61ea0ef0f5891c289be2c1f0020a8277184abb9a",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -24,6 +24,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "buildah-tests",
+        "version": "1.29.1",
+        "release": "1.el9",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "buildah-1.29.1-1.el9.src.rpm",
+        "filename": "buildah-tests-1.29.1-1.el9.aarch64.rpm",
+        "sum": "954dd6a1645923efbce9e241841da2c92ae05f3c270bf0e57ca095c3c2b10bbc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "buildah",
+        "version": "1.29.1",
+        "release": "1.el9",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "buildah-1.29.1-1.el9.src.rpm",
+        "filename": "buildah-1.29.1-1.el9.ppc64le.rpm",
+        "sum": "d464c3f9e218652ef2ffe72cb073dcc6c0aa3b01f57488252189b6e38ee3b1a5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "buildah-tests",
+        "version": "1.29.1",
+        "release": "1.el9",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "buildah-1.29.1-1.el9.src.rpm",
+        "filename": "buildah-tests-1.29.1-1.el9.ppc64le.rpm",
+        "sum": "f4407ec2f8c4eb829a655656ecf25787494e9d6824f68f24fdb93a123f2368ed",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "buildah",
         "version": "1.29.1",
         "release": "1.el9",
@@ -48,18 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "buildah-tests",
-        "version": "1.29.1",
-        "release": "1.el9",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "buildah-1.29.1-1.el9.src.rpm",
-        "filename": "buildah-tests-1.29.1-1.el9.aarch64.rpm",
-        "sum": "954dd6a1645923efbce9e241841da2c92ae05f3c270bf0e57ca095c3c2b10bbc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "buildah",
         "version": "1.29.1",
         "release": "1.el9",
@@ -72,18 +96,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "buildah",
-        "version": "1.29.1",
-        "release": "1.el9",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "buildah-1.29.1-1.el9.src.rpm",
-        "filename": "buildah-1.29.1-1.el9.ppc64le.rpm",
-        "sum": "d464c3f9e218652ef2ffe72cb073dcc6c0aa3b01f57488252189b6e38ee3b1a5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "buildah-tests",
         "version": "1.29.1",
         "release": "1.el9",
@@ -92,18 +104,6 @@
         "src": "buildah-1.29.1-1.el9.src.rpm",
         "filename": "buildah-tests-1.29.1-1.el9.x86_64.rpm",
         "sum": "ef0c18bf71f6ffa80ebdc069c85d5fc694e28a749215cdbb7e8b15c6c3301f10",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "buildah-tests",
-        "version": "1.29.1",
-        "release": "1.el9",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "buildah-1.29.1-1.el9.src.rpm",
-        "filename": "buildah-tests-1.29.1-1.el9.ppc64le.rpm",
-        "sum": "f4407ec2f8c4eb829a655656ecf25787494e9d6824f68f24fdb93a123f2368ed",
         "sum_type": 5,
         "reboot_suggested": 0
       }

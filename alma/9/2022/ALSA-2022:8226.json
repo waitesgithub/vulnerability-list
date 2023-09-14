@@ -16,18 +16,6 @@
         "version": "4.6.5",
         "release": "3.el9",
         "epoch": "0",
-        "arch": "s390x",
-        "src": "python-lxml-4.6.5-3.el9.src.rpm",
-        "filename": "python3-lxml-4.6.5-3.el9.s390x.rpm",
-        "sum": "4be38e54a35ae769b182e7280d56329ccf3e493aeed55c871e6edb511646d089",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-lxml",
-        "version": "4.6.5",
-        "release": "3.el9",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "python-lxml-4.6.5-3.el9.src.rpm",
         "filename": "python3-lxml-4.6.5-3.el9.aarch64.rpm",
@@ -44,6 +32,18 @@
         "src": "python-lxml-4.6.5-3.el9.src.rpm",
         "filename": "python3-lxml-4.6.5-3.el9.ppc64le.rpm",
         "sum": "78b53f81af6d7a244eadcfdaaee0d3cc2922f7b1f8931c7513a0739d7f28d2f3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-lxml",
+        "version": "4.6.5",
+        "release": "3.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "python-lxml-4.6.5-3.el9.src.rpm",
+        "filename": "python3-lxml-4.6.5-3.el9.s390x.rpm",
+        "sum": "4be38e54a35ae769b182e7280d56329ccf3e493aeed55c871e6edb511646d089",
         "sum_type": 5,
         "reboot_suggested": 0
       },

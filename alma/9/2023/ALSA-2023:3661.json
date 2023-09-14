@@ -12,6 +12,294 @@
     "shortname": "almalinux-9-for-i686-appstream-rpms__9_2_default",
     "packages": [
       {
+        "name": "texlive-kpathsea",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-kpathsea-20200406-26.el9_2.aarch64.rpm",
+        "sum": "10d3f2a9756bd84ffec828fe68528f93451a7b42f630a6ade390211788b78638",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-luatex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-luatex-20200406-26.el9_2.aarch64.rpm",
+        "sum": "1f86310fac43f140c41c3d5d24b422692576c52a9aafc5f5036df024fe125029",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvisvgm",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvisvgm-20200406-26.el9_2.aarch64.rpm",
+        "sum": "2f4e2010ebeeb9be93eb091d880122b4c17e87a27cbbaa272f8b928eb4e482ca",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-xdvi",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-xdvi-20200406-26.el9_2.aarch64.rpm",
+        "sum": "386a7c9e7fd727280f2113156ddae165685ad13b7b73c2677e8dd175a86db4b6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvipdfmx",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvipdfmx-20200406-26.el9_2.aarch64.rpm",
+        "sum": "4b8a8bc95b98b7696c47395f14dfa776bb5a599ce3cca102560ec6748aefd995",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvips",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvips-20200406-26.el9_2.aarch64.rpm",
+        "sum": "5457f961c5c32f094125d884123d6293b68dfd651ee0441be7354f9570398190",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-metapost",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-metapost-20200406-26.el9_2.aarch64.rpm",
+        "sum": "551cfb955e5c3cb822e1786dcb5c0d1898fa953880db65626df21e8f8971abff",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-makeindex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-makeindex-20200406-26.el9_2.aarch64.rpm",
+        "sum": "55be818c20f212fcdda759bac3e4c3fad2cedea4e4c2aeb54ddede781cc67e82",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-luahbtex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-luahbtex-20200406-26.el9_2.aarch64.rpm",
+        "sum": "5d8dc9bbecab84842d7124c1765c439a4fe4b3fe6063bd8a59f24d6c85e7b018",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-xetex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-xetex-20200406-26.el9_2.aarch64.rpm",
+        "sum": "600fc4e03405e5f75528c076d53105c9ba72e923ea9c5e8545f334c3d384cbad",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-20200406-26.el9_2.aarch64.rpm",
+        "sum": "6c26a37a3b95c2a127528e08aa7be0a71aee40de78ae882d819a25a56567e739",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-bibtex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-bibtex-20200406-26.el9_2.aarch64.rpm",
+        "sum": "9151882f3278c7ef2fe2d08d412b7cac9fc151871e86f0e9793a190c29e0ea5d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-20200406-26.el9_2.aarch64.rpm",
+        "sum": "9a4e17c8cba6c2d8d324c53963abbd13410e2f090dc9994bc459df849311f4c7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-tex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-tex-20200406-26.el9_2.aarch64.rpm",
+        "sum": "a181114a9c73e5633151f304722015d8e285c3bba767c895c1fb03ed127cfb8e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-pdftex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-pdftex-20200406-26.el9_2.aarch64.rpm",
+        "sum": "a1b0a78944bdc32e6b71109c1fb7da16ab1de01c5f51dbeba96c5591f83e6293",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-tex4ht",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-tex4ht-20200406-26.el9_2.aarch64.rpm",
+        "sum": "bc36af2f7f92111da01025cf8073a32e46794a8fcc4476d3cf41d11bc2a64036",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-fontware",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-fontware-20200406-26.el9_2.aarch64.rpm",
+        "sum": "c14d63fe1befd0968eae2d44a429868d525826077565360c83e72ef13538295a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib-devel",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-devel-20200406-26.el9_2.aarch64.rpm",
+        "sum": "d0406709e277b997ba49a8ff94b6117355894eb6d4dffe3a9bc8ce2689a0c1d1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvipng",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvipng-20200406-26.el9_2.aarch64.rpm",
+        "sum": "deba10a9d0342b9c4cbec40fe3f9ae8c06f67fc04601d7f4001f07663abd2bcc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-mfware",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-mfware-20200406-26.el9_2.aarch64.rpm",
+        "sum": "e5a40060d7c5d97547dcb4b9a0115a5674cfc3b39b03df7fd8d6deec26246a90",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-metafont",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-metafont-20200406-26.el9_2.aarch64.rpm",
+        "sum": "e680bf6f887f1fe41e11d4c8859f27357780b74661515574fc52ffc9bb9f15b1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-gsftopk",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "aarch64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-gsftopk-20200406-26.el9_2.aarch64.rpm",
+        "sum": "fec4719938bf50176389f8c63be342ea78fd9bf0e200a1e59291ca9c604d6c29",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "i686",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-20200406-26.el9_2.i686.rpm",
+        "sum": "be3843e725260ae7d48501bfbc2e36b23d19f8dc91103c15177d2098bc53758e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib-devel",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "i686",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-devel-20200406-26.el9_2.i686.rpm",
+        "sum": "e36d6facadb5e6725880811987804781b8a601e9c8375e1ccadb6d7223e2ab94",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "texlive-cm-lgc",
         "version": "20200406",
         "release": "26.el9_2",
@@ -168,18 +456,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-makeindex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-makeindex-20200406-26.el9_2.x86_64.rpm",
-        "sum": "06fe0a8213f0a75a8df911bdafbdd1c5c97b47a969a422b3d92916c4df27389e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-sectsty",
         "version": "20200406",
         "release": "26.el9_2",
@@ -200,18 +476,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-mptopdf-20200406-26.el9_2.noarch.rpm",
         "sum": "0a1c738bea991a6de4cf7dfa08fe8ff5f19c057c0fcd0f73ce9419d8d1747ce5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvisvgm",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvisvgm-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "0a97c700bdbd257d64114fc1b5d411bc801c5587fb321b5011d811488c37c394",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -264,18 +528,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-dvipng",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvipng-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "0ce3460a25e7ccb809113bbc38e7c41197d8d211d5cfdf5a2e204f3acc7870ce",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-threeparttable",
         "version": "20200406",
         "release": "26.el9_2",
@@ -300,18 +552,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-lib-devel",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-devel-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "0fc243bce12d15f1f85786d5c671e742b2c7a1d53fc65a9b65366d7bda18faea",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-fixlatvian",
         "version": "20200406",
         "release": "26.el9_2",
@@ -332,18 +572,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-footmisc-20200406-26.el9_2.noarch.rpm",
         "sum": "109db5afd8e3f00cc4ecbb916a24c94793775aba9a9733af381c372c2f37d778",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-kpathsea",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-kpathsea-20200406-26.el9_2.aarch64.rpm",
-        "sum": "10d3f2a9756bd84ffec828fe68528f93451a7b42f630a6ade390211788b78638",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -420,18 +648,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-dvips",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvips-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "1568de82353038f8413fb3b0bf19360ea31f6f1e994e9b0e1afb85899ccffdfe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-knuth-local",
         "version": "20200406",
         "release": "26.el9_2",
@@ -452,18 +668,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-gnu-freefont-20200406-26.el9_2.noarch.rpm",
         "sum": "16c75f425a783945efc0d78b91bf1ea50b85ae1c0a2699dfa7710075d8c68c96",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-bibtex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-bibtex-20200406-26.el9_2.s390x.rpm",
-        "sum": "17215093321851ae1635578a6faaa26b00364172f4a5d2939c735e7832686219",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -564,18 +768,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-luatex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-luatex-20200406-26.el9_2.x86_64.rpm",
-        "sum": "1b8abfd1ad301bbf8908c0484b9794f6212073b0d268aba3de91cd2a4c15fd7b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-appendix",
         "version": "20200406",
         "release": "26.el9_2",
@@ -660,18 +852,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-luatex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-luatex-20200406-26.el9_2.aarch64.rpm",
-        "sum": "1f86310fac43f140c41c3d5d24b422692576c52a9aafc5f5036df024fe125029",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-pst-slpe",
         "version": "20200406",
         "release": "26.el9_2",
@@ -720,18 +900,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-xdvi",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-xdvi-20200406-26.el9_2.x86_64.rpm",
-        "sum": "2097f85db4413d2606688f4166c6fe7eb271ba3a653625ca034b91688af011bc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-notoccite",
         "version": "20200406",
         "release": "26.el9_2",
@@ -752,30 +920,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-texlive-docindex-20200406-26.el9_2.noarch.rpm",
         "sum": "223c3e99fc171bd681cb4898347aee3f66d6cb19000fa3c7293017ed49a6b967",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvipdfmx",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvipdfmx-20200406-26.el9_2.s390x.rpm",
-        "sum": "25e9b81a73c759dce19728f33ddfd5a0d4987350dada6e4369a807dfd934a2a4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-lib",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-20200406-26.el9_2.x86_64.rpm",
-        "sum": "26b7d5e245342b94f8301c418e74c8c3db3d66aeccdae18028ca159b4aee3796",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -816,18 +960,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-makeindex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-makeindex-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "2b25e8b14a8a2d08865b560990efc187545daf00c30dac42675d5175fddffb3a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-hanging",
         "version": "20200406",
         "release": "26.el9_2",
@@ -848,18 +980,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-xmltexconfig-20200406-26.el9_2.noarch.rpm",
         "sum": "2beba6a7d20f6e9eb2927f241f57e254c9ffc4c9c58f286bf294fdb70b7da2de",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvisvgm",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvisvgm-20200406-26.el9_2.aarch64.rpm",
-        "sum": "2f4e2010ebeeb9be93eb091d880122b4c17e87a27cbbaa272f8b928eb4e482ca",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -960,18 +1080,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-fontware",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-fontware-20200406-26.el9_2.s390x.rpm",
-        "sum": "33ead4efc32689359186a7012a174f2e37cc459223f065eaaa04ec20553cb05a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-xetexfontinfo",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1040,18 +1148,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-bigfoot-20200406-26.el9_2.noarch.rpm",
         "sum": "38343aef3e24d8ca3c914a32387b99f50d322bc682ac64b86d69336e9ebbb9b3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-xdvi",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-xdvi-20200406-26.el9_2.aarch64.rpm",
-        "sum": "386a7c9e7fd727280f2113156ddae165685ad13b7b73c2677e8dd175a86db4b6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1176,18 +1272,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "3cfb30f209d720824e702b6bdacbaa3372f324dd402dd6a66aaf3ba8ece9a409",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-passivetex",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1268,18 +1352,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-multirow-20200406-26.el9_2.noarch.rpm",
         "sum": "426ea9ab52b220f8b862bdb8ffeb2cd116bea0ee226714869cbb07e2cb6742e9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-luatex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-luatex-20200406-26.el9_2.s390x.rpm",
-        "sum": "4288f948517ac0df3fc539dc5ad23a38d6295bfc4375c9004c65fe1b15f12f4a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1380,18 +1452,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-tex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-tex-20200406-26.el9_2.s390x.rpm",
-        "sum": "47e4d84090a3992e67e5a6a2b69267e9505f5954db4832bdeeae735ea193aa8e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-sansmathaccent",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1404,18 +1464,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-dvips",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvips-20200406-26.el9_2.s390x.rpm",
-        "sum": "49772dc9b24ab569d372a101cd69bc2568193abf823725feb57436f88ef65250",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-pdfescape",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1424,30 +1472,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-pdfescape-20200406-26.el9_2.noarch.rpm",
         "sum": "49fdf71de0a25c06e2b2083d7d4dc9ea621a1afd908da548bd109c855400eb91",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-gsftopk",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-gsftopk-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "4a138b92594ae1f712d15cf71ff7065fba89c12901cd0174f9674211620e3af7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-metapost",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-metapost-20200406-26.el9_2.x86_64.rpm",
-        "sum": "4af1e208b2fedaee9ba2cc762ac136b6ba446cac229b35eb2f7414882d3174e6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1476,18 +1500,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-dvipdfmx",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvipdfmx-20200406-26.el9_2.aarch64.rpm",
-        "sum": "4b8a8bc95b98b7696c47395f14dfa776bb5a599ce3cca102560ec6748aefd995",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-alphalph",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1496,18 +1508,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-alphalph-20200406-26.el9_2.noarch.rpm",
         "sum": "4d2980a193d6303a58c37925f0f985f4e5f9f3cae2efb4dd45d5444e46dfdd32",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-metapost",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-metapost-20200406-26.el9_2.s390x.rpm",
-        "sum": "4d29efaf88c5b672993181fd6b2f3336378c4738b3fe56b4a216cc8b1b1e4387",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1620,30 +1620,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-dvips",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvips-20200406-26.el9_2.aarch64.rpm",
-        "sum": "5457f961c5c32f094125d884123d6293b68dfd651ee0441be7354f9570398190",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-mfware",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-mfware-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "5475fa552ef05ad91196afe40dc0251228ebf65dc2599a746967304ae3207693",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-graphics",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1664,42 +1640,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-epstopdf-20200406-26.el9_2.noarch.rpm",
         "sum": "5501f17087bd7ba8ee0941d02832b0d286613c4ae7fd103a973d1c1fbbfb62f5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-metapost",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-metapost-20200406-26.el9_2.aarch64.rpm",
-        "sum": "551cfb955e5c3cb822e1786dcb5c0d1898fa953880db65626df21e8f8971abff",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvips",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvips-20200406-26.el9_2.x86_64.rpm",
-        "sum": "55656a780484db3ab77349b67eee6095ab14a1e49bd4da0bb2db86424ba87308",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-makeindex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-makeindex-20200406-26.el9_2.aarch64.rpm",
-        "sum": "55be818c20f212fcdda759bac3e4c3fad2cedea4e4c2aeb54ddede781cc67e82",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1848,18 +1788,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-luahbtex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-luahbtex-20200406-26.el9_2.aarch64.rpm",
-        "sum": "5d8dc9bbecab84842d7124c1765c439a4fe4b3fe6063bd8a59f24d6c85e7b018",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-atbegshi",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1920,18 +1848,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-xetex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-xetex-20200406-26.el9_2.aarch64.rpm",
-        "sum": "600fc4e03405e5f75528c076d53105c9ba72e923ea9c5e8545f334c3d384cbad",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-epsf",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1968,18 +1884,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-mfware",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-mfware-20200406-26.el9_2.x86_64.rpm",
-        "sum": "62b21a28f8c3ca0d7b31a2f850d6ce67da7546bfcdb984bc41194c5ff42cfc9b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-xetexconfig",
         "version": "20200406",
         "release": "26.el9_2",
@@ -1988,18 +1892,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-xetexconfig-20200406-26.el9_2.noarch.rpm",
         "sum": "6325bab9112091a826e469fd3133a153891666bb96b6d37140acedd08575d754",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvipng",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvipng-20200406-26.el9_2.s390x.rpm",
-        "sum": "63663498cf9e2b78f9ed29be37d1594e2ee7c0a78c464666c36b7c163a80ecb6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2064,30 +1956,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-luahbtex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-luahbtex-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "669f673e021f60ae4ce6b5e2540190abc6ea262080a17e3020d6eb68b3f3d457",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-20200406-26.el9_2.s390x.rpm",
-        "sum": "68a0091a872ecaa0f6c2ee0b9f7e0a18fba3eb17d4e0540c3358336731567cff",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-pdfpages",
         "version": "20200406",
         "release": "26.el9_2",
@@ -2112,18 +1980,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-tex4ht",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-tex4ht-20200406-26.el9_2.s390x.rpm",
-        "sum": "6a04302cb689d0f62729b1623274ed4c64794ad9dca1c4fba6a5482ec2fb2ccd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-texlive-common-doc",
         "version": "20200406",
         "release": "26.el9_2",
@@ -2132,42 +1988,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-texlive-common-doc-20200406-26.el9_2.noarch.rpm",
         "sum": "6adde86808163cdaf50b62344a9a559e80dd5743dea15e824aed367a552fa5fe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-lib",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-20200406-26.el9_2.aarch64.rpm",
-        "sum": "6c26a37a3b95c2a127528e08aa7be0a71aee40de78ae882d819a25a56567e739",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-mfware",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-mfware-20200406-26.el9_2.s390x.rpm",
-        "sum": "6cac616ef5ccd64e811000cb87f9ae05303387d5a66264da002a7da97fd6be7a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-pdftex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-pdftex-20200406-26.el9_2.x86_64.rpm",
-        "sum": "6d253fe0e190bf66b7f101854ad9dd558d70e0b05d6637f056e18398fafdd37f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2216,18 +2036,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-pst-blur-20200406-26.el9_2.noarch.rpm",
         "sum": "6ee5eb1cedcddc5f86b916a6994015018459f86d19c5cd23070c8fedef527098",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-lib-devel",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-devel-20200406-26.el9_2.x86_64.rpm",
-        "sum": "6f142ee564ecac7eda8fe75874d5ccd9a44c9540ff5250e4e767a1ef5ac36669",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2376,18 +2184,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-kpathsea",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-kpathsea-20200406-26.el9_2.x86_64.rpm",
-        "sum": "789711210b07214f1b5ced624105103db54bc1d8d562d66fee40d0f6ddabda5f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-collection-basic",
         "version": "20200406",
         "release": "26.el9_2",
@@ -2496,18 +2292,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-dvisvgm",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvisvgm-20200406-26.el9_2.s390x.rpm",
-        "sum": "7efeb66e6111f5be7d0dd7879b879d90e134b07d92136eef7b74975be9d22bfd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-pst-grad",
         "version": "20200406",
         "release": "26.el9_2",
@@ -2532,18 +2316,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-metapost",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-metapost-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "7f134d157c91925f880bd0203c849fcc8bef372e029323fe398eccbfd314c287",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-adjustbox",
         "version": "20200406",
         "release": "26.el9_2",
@@ -2564,18 +2336,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-unicode-data-20200406-26.el9_2.noarch.rpm",
         "sum": "7f534de52dd37f424545c340184ec70fe7ebc0ecdaa7587712af4f1fd2bb5769",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-luahbtex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-luahbtex-20200406-26.el9_2.s390x.rpm",
-        "sum": "80538a06ebe09b88ccbaa2e850d0822869b05efd6d472e91aa9d6a93e423120b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2652,18 +2412,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-gsftopk",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-gsftopk-20200406-26.el9_2.s390x.rpm",
-        "sum": "844601b0f34734be04c90ff2b52c9dd09698dd26cab893160084a25455da6eef",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-pst-tools",
         "version": "20200406",
         "release": "26.el9_2",
@@ -2712,42 +2460,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-fontware",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-fontware-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "859269eef95b10f3265ad5f82e1038a92e23bbdf309071f0c4ab224836db96e8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvipng",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvipng-20200406-26.el9_2.x86_64.rpm",
-        "sum": "85a76033c7a129732bdc290ee7af81beee671177076856a44ee9ca2f38217427",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-lib",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-20200406-26.el9_2.s390x.rpm",
-        "sum": "86910d4b341f891551760feb196f17a3acace18675f8b94a18ddc8fdd0063ab6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-pst-text",
         "version": "20200406",
         "release": "26.el9_2",
@@ -2792,18 +2504,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-euro-20200406-26.el9_2.noarch.rpm",
         "sum": "88bfb2ca880acc4110900162756c2c2a3437bb1c0ec98d8c427c4a370a95fd14",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-tex4ht",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-tex4ht-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "88c6e3adc66bc3fb9781d250f9b352a98604009d5ecfb1bc6e3c2576b92dd07b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2928,18 +2628,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-bibtex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-bibtex-20200406-26.el9_2.aarch64.rpm",
-        "sum": "9151882f3278c7ef2fe2d08d412b7cac9fc151871e86f0e9793a190c29e0ea5d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-underscore",
         "version": "20200406",
         "release": "26.el9_2",
@@ -2948,30 +2636,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-underscore-20200406-26.el9_2.noarch.rpm",
         "sum": "92577886accd0bf0cab6ee14668b073e310ddd374f6e47fed7e38733f555fc8c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-luahbtex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-luahbtex-20200406-26.el9_2.x86_64.rpm",
-        "sum": "928d2eb8b8458c565c68ec3584604f2fdc8989ba5a234e1d1e40d3167e0772d9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-luatex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-luatex-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "938ad04a3e8def0f88a582209794207f240254ccea2a89d45d3533edd11362a1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3000,18 +2664,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-xdvi",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-xdvi-20200406-26.el9_2.s390x.rpm",
-        "sum": "9686d46797d0bfe07b5990e394ab2ded9296bf5e06c71634449957fd2450f154",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-filecontents",
         "version": "20200406",
         "release": "26.el9_2",
@@ -3032,18 +2684,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-ctable-20200406-26.el9_2.noarch.rpm",
         "sum": "983fb96ce687ed29586cbf3c1e62785a738eba8f5f1333bcba7609dfe73ae3e4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-xdvi",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-xdvi-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "987a876179f102e8498c7edc0285bfafd3888121177586135b5d0815b6e5a8c6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3080,30 +2720,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-ucharclasses-20200406-26.el9_2.noarch.rpm",
         "sum": "992da7d1a90d7e82f983d8d103454574949c392975a5028283153be2d7ec527d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-tex4ht",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-tex4ht-20200406-26.el9_2.x86_64.rpm",
-        "sum": "99721f60ee8819115b33f24af41bdc42e314dc00de870e425bb7c7869ecb3f5f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-20200406-26.el9_2.aarch64.rpm",
-        "sum": "9a4e17c8cba6c2d8d324c53963abbd13410e2f090dc9994bc459df849311f4c7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3252,30 +2868,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-tex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-tex-20200406-26.el9_2.aarch64.rpm",
-        "sum": "a181114a9c73e5633151f304722015d8e285c3bba767c895c1fb03ed127cfb8e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-pdftex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-pdftex-20200406-26.el9_2.aarch64.rpm",
-        "sum": "a1b0a78944bdc32e6b71109c1fb7da16ab1de01c5f51dbeba96c5591f83e6293",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-arabxetex",
         "version": "20200406",
         "release": "26.el9_2",
@@ -3308,18 +2900,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-epstopdf-pkg-20200406-26.el9_2.noarch.rpm",
         "sum": "a24e57fae731378f93d64753b3c36866aa372476d87e779bb8652abc92ac8b78",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-tex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-tex-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "a281e830a2d200ceecb9f73829a9026062103fdea29ec47347efb867578c8235",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3380,18 +2960,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-pst-fill-20200406-26.el9_2.noarch.rpm",
         "sum": "a6cf9bed29efd30d5d34d24958192ed816f50d0a14cea00ba3de1c4349c1ca98",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-lib",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "a6f31d2c68feef38a65ce5bffefbb13190f01460fc17c4e253137aaaee70926c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3468,18 +3036,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-metafont",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-metafont-20200406-26.el9_2.s390x.rpm",
-        "sum": "a95ccbc95d9063206380cbd03205a2796c1cbbba41395d0074b4ac53530a45b3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-jknapltx",
         "version": "20200406",
         "release": "26.el9_2",
@@ -3488,18 +3044,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-jknapltx-20200406-26.el9_2.noarch.rpm",
         "sum": "a994628d620c87da2b8bbee98906f899a7ce2c58cb1ec6032317f23d64eafd69",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-xetex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-xetex-20200406-26.el9_2.x86_64.rpm",
-        "sum": "aa07bdb5a0e094062192208be44eaaa49bb0532a55a87a431c291483b54bcece",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3524,18 +3068,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-beton-20200406-26.el9_2.noarch.rpm",
         "sum": "ab7096cc1bc378dd0537da1e8362647ffc555c368766bdcd7ea54fc6fe4c217f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-lib-devel",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-devel-20200406-26.el9_2.s390x.rpm",
-        "sum": "ac3a586070671e6fdf3676a37becd0cd5e99391abfb6a29f0882ec29a43c1972",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3600,18 +3132,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-xetex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-xetex-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "aefd3bc358ce820dd72d11abd3934b92c7c4dc7bbe54bbe1f5023badbe5ae5be",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-xecjk",
         "version": "20200406",
         "release": "26.el9_2",
@@ -3668,18 +3188,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-symbol-20200406-26.el9_2.noarch.rpm",
         "sum": "b0e271c87a04d086336ea0a7e5cca2c8037368005b009b2fdf61a073f2f88335",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvisvgm",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvisvgm-20200406-26.el9_2.x86_64.rpm",
-        "sum": "b1822ec963385efa5a81bb2dca86749003e5b0f2bd4e184525d2fbc43985c714",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3876,18 +3384,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-tex4ht",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-tex4ht-20200406-26.el9_2.aarch64.rpm",
-        "sum": "bc36af2f7f92111da01025cf8073a32e46794a8fcc4476d3cf41d11bc2a64036",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-url",
         "version": "20200406",
         "release": "26.el9_2",
@@ -3896,18 +3392,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-url-20200406-26.el9_2.noarch.rpm",
         "sum": "bcc54c72132bb389bd4f135e4b0b23abfda2e8b149f8a820b8538bec930b6473",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-fontware",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-fontware-20200406-26.el9_2.x86_64.rpm",
-        "sum": "bccba212cb4758aa41bb7ba95d9105be449e6ed019939f7f136d16bb90124216",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3944,30 +3428,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-multido-20200406-26.el9_2.noarch.rpm",
         "sum": "bdf61fbc63647dcf6e6737d9adbc265d56548bbedd6204778428eb24a249e40c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-lib",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "i686",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-20200406-26.el9_2.i686.rpm",
-        "sum": "be3843e725260ae7d48501bfbc2e36b23d19f8dc91103c15177d2098bc53758e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-kpathsea",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-kpathsea-20200406-26.el9_2.s390x.rpm",
-        "sum": "bef0a3622ea5c7190a6f6920b129004b9402f3b5546a7fe89fea2bcc50bbe375",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4044,18 +3504,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-dvipdfmx",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvipdfmx-20200406-26.el9_2.x86_64.rpm",
-        "sum": "c08371387eb0852d4dd850580482227477c9e707e75addf7971f05f22e1fe01f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-grfext",
         "version": "20200406",
         "release": "26.el9_2",
@@ -4068,18 +3516,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-metafont",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-metafont-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "c0ed35100c4403bfc40d94fd8a20a773c645397704a6a552b30a4593f9e67b2f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-titlesec",
         "version": "20200406",
         "release": "26.el9_2",
@@ -4088,18 +3524,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-titlesec-20200406-26.el9_2.noarch.rpm",
         "sum": "c12aede70e68b6257c1b5cfab0081468b11dbcdef01e96d9f90ca19b16828827",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-fontware",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-fontware-20200406-26.el9_2.aarch64.rpm",
-        "sum": "c14d63fe1befd0968eae2d44a429868d525826077565360c83e72ef13538295a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4220,18 +3644,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-base-20200406-26.el9_2.noarch.rpm",
         "sum": "c542b40eb9a535d24c08fa882bbaf3ae8725d32e30d041de0db1f214e0bcd472",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-pdftex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-pdftex-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "c5ab8791fde50738702683b1a70ce630c894c1a2c9c78a03282f1895631267cc",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4404,18 +3816,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-lib-devel",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-devel-20200406-26.el9_2.aarch64.rpm",
-        "sum": "d0406709e277b997ba49a8ff94b6117355894eb6d4dffe3a9bc8ce2689a0c1d1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-pstricks-add",
         "version": "20200406",
         "release": "26.el9_2",
@@ -4448,18 +3848,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-carlisle-20200406-26.el9_2.noarch.rpm",
         "sum": "d11a49e6879d84f0f57e4226a19a9ab7d47288cef4d26f7677f4e24789cd3ed7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-tex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-tex-20200406-26.el9_2.x86_64.rpm",
-        "sum": "d1dcec0bec0372f49ee11d1fec07744a877989ee7d979ca857e2ab5d32ca105c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4632,42 +4020,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-gsftopk",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-gsftopk-20200406-26.el9_2.x86_64.rpm",
-        "sum": "deac44fb984a9b6c05d2a68fb05c8637201961c9a48a445c0d285b98f0908915",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvipng",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvipng-20200406-26.el9_2.aarch64.rpm",
-        "sum": "deba10a9d0342b9c4cbec40fe3f9ae8c06f67fc04601d7f4001f07663abd2bcc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-dvipdfmx",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-dvipdfmx-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "df3090f41f15d2faa7898801ce60a8879c9361396de924f6062702a96c09e895",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-kerkis",
         "version": "20200406",
         "release": "26.el9_2",
@@ -4688,30 +4040,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-pst-plot-20200406-26.el9_2.noarch.rpm",
         "sum": "e0c764a4cec89b35e2530b79c27a6d109ee7fae022a9731f86f19c650c653a8a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-20200406-26.el9_2.x86_64.rpm",
-        "sum": "e19a5c4fad0ef21494fe31c1e5abfe5a3d83850137174da11d20bbcb111c53fe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-bibtex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-bibtex-20200406-26.el9_2.x86_64.rpm",
-        "sum": "e3307539e3e4ee631133f29e26e7a680d7316cec634041876f74e41197b055e7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4740,18 +4068,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-lib-devel",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "i686",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-lib-devel-20200406-26.el9_2.i686.rpm",
-        "sum": "e36d6facadb5e6725880811987804781b8a601e9c8375e1ccadb6d7223e2ab94",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-ltxcmds",
         "version": "20200406",
         "release": "26.el9_2",
@@ -4776,18 +4092,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-mfware",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-mfware-20200406-26.el9_2.aarch64.rpm",
-        "sum": "e5a40060d7c5d97547dcb4b9a0115a5674cfc3b39b03df7fd8d6deec26246a90",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-index",
         "version": "20200406",
         "release": "26.el9_2",
@@ -4796,30 +4100,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-index-20200406-26.el9_2.noarch.rpm",
         "sum": "e5da1ebcb84ab8534dbe685584a475ad92fe5f2f86aa865655341ce5ab1a5a4d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-metafont",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-metafont-20200406-26.el9_2.aarch64.rpm",
-        "sum": "e680bf6f887f1fe41e11d4c8859f27357780b74661515574fc52ffc9bb9f15b1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-pdftex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-pdftex-20200406-26.el9_2.s390x.rpm",
-        "sum": "e6a1418aeead1b2f89d5ed08566a1ce37fb871b3acf6a73576d3d9849e38c4a7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4848,18 +4128,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-xetex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-xetex-20200406-26.el9_2.s390x.rpm",
-        "sum": "e9336e0f0e644647a8b182aefc924ce25821b50d526515f20a8db5b3bc0e00cd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-stackengine",
         "version": "20200406",
         "release": "26.el9_2",
@@ -4868,18 +4136,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-stackengine-20200406-26.el9_2.noarch.rpm",
         "sum": "e949aed20e5d9c05d81fa47dbbc1eda8df3bc271d63bd80d846e3905d7a2ce36",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-bibtex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-bibtex-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "ea07079dfd7baa360d6b8d0321e35ceae3806ebb0d6768c2a711464d16ac1719",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4952,18 +4208,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-natbib-20200406-26.el9_2.noarch.rpm",
         "sum": "ef9c0285c469a57abf4548a0a2017a0096a5e32031849a3e1cae96759600cc59",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-metafont",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "x86_64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-metafont-20200406-26.el9_2.x86_64.rpm",
-        "sum": "efabf714e97a02e290118a3ff063a4c53e24c5cfe541fb7288c4eb343726a99a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5060,18 +4304,6 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-xkeyval-20200406-26.el9_2.noarch.rpm",
         "sum": "f4acf2e8100cac4a0a492bece6ad5bc32236945778dbaa6a97668eba8fe2d9d9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "texlive-makeindex",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "s390x",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-makeindex-20200406-26.el9_2.s390x.rpm",
-        "sum": "f56f7d858bd36b30663f8220105d6c0ea8669e2d81ffe10d410b7cdc8850f632",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5220,18 +4452,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-kpathsea",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "ppc64le",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-kpathsea-20200406-26.el9_2.ppc64le.rpm",
-        "sum": "fcbd5818744c5e94711df535aa26bdf7cfb1c634ea2bcb0e4cd8cd9ce37204bf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-capt-of",
         "version": "20200406",
         "release": "26.el9_2",
@@ -5256,18 +4476,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "texlive-gsftopk",
-        "version": "20200406",
-        "release": "26.el9_2",
-        "epoch": "9",
-        "arch": "aarch64",
-        "src": "texlive-20200406-26.el9_2.src.rpm",
-        "filename": "texlive-gsftopk-20200406-26.el9_2.aarch64.rpm",
-        "sum": "fec4719938bf50176389f8c63be342ea78fd9bf0e200a1e59291ca9c604d6c29",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "texlive-parskip",
         "version": "20200406",
         "release": "26.el9_2",
@@ -5276,6 +4484,798 @@
         "src": "texlive-20200406-26.el9_2.src.rpm",
         "filename": "texlive-parskip-20200406-26.el9_2.noarch.rpm",
         "sum": "ff9649c004481c386f9d73f2a44d2176100414159752a25a0f92335b0622c38b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvisvgm",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvisvgm-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "0a97c700bdbd257d64114fc1b5d411bc801c5587fb321b5011d811488c37c394",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvipng",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvipng-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "0ce3460a25e7ccb809113bbc38e7c41197d8d211d5cfdf5a2e204f3acc7870ce",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib-devel",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-devel-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "0fc243bce12d15f1f85786d5c671e742b2c7a1d53fc65a9b65366d7bda18faea",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvips",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvips-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "1568de82353038f8413fb3b0bf19360ea31f6f1e994e9b0e1afb85899ccffdfe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-makeindex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-makeindex-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "2b25e8b14a8a2d08865b560990efc187545daf00c30dac42675d5175fddffb3a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "3cfb30f209d720824e702b6bdacbaa3372f324dd402dd6a66aaf3ba8ece9a409",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-gsftopk",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-gsftopk-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "4a138b92594ae1f712d15cf71ff7065fba89c12901cd0174f9674211620e3af7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-mfware",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-mfware-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "5475fa552ef05ad91196afe40dc0251228ebf65dc2599a746967304ae3207693",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-luahbtex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-luahbtex-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "669f673e021f60ae4ce6b5e2540190abc6ea262080a17e3020d6eb68b3f3d457",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-metapost",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-metapost-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "7f134d157c91925f880bd0203c849fcc8bef372e029323fe398eccbfd314c287",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-fontware",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-fontware-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "859269eef95b10f3265ad5f82e1038a92e23bbdf309071f0c4ab224836db96e8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-tex4ht",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-tex4ht-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "88c6e3adc66bc3fb9781d250f9b352a98604009d5ecfb1bc6e3c2576b92dd07b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-luatex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-luatex-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "938ad04a3e8def0f88a582209794207f240254ccea2a89d45d3533edd11362a1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-xdvi",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-xdvi-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "987a876179f102e8498c7edc0285bfafd3888121177586135b5d0815b6e5a8c6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-tex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-tex-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "a281e830a2d200ceecb9f73829a9026062103fdea29ec47347efb867578c8235",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "a6f31d2c68feef38a65ce5bffefbb13190f01460fc17c4e253137aaaee70926c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-xetex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-xetex-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "aefd3bc358ce820dd72d11abd3934b92c7c4dc7bbe54bbe1f5023badbe5ae5be",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-metafont",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-metafont-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "c0ed35100c4403bfc40d94fd8a20a773c645397704a6a552b30a4593f9e67b2f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-pdftex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-pdftex-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "c5ab8791fde50738702683b1a70ce630c894c1a2c9c78a03282f1895631267cc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvipdfmx",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvipdfmx-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "df3090f41f15d2faa7898801ce60a8879c9361396de924f6062702a96c09e895",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-bibtex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-bibtex-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "ea07079dfd7baa360d6b8d0321e35ceae3806ebb0d6768c2a711464d16ac1719",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-kpathsea",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "ppc64le",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-kpathsea-20200406-26.el9_2.ppc64le.rpm",
+        "sum": "fcbd5818744c5e94711df535aa26bdf7cfb1c634ea2bcb0e4cd8cd9ce37204bf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-bibtex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-bibtex-20200406-26.el9_2.s390x.rpm",
+        "sum": "17215093321851ae1635578a6faaa26b00364172f4a5d2939c735e7832686219",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvipdfmx",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvipdfmx-20200406-26.el9_2.s390x.rpm",
+        "sum": "25e9b81a73c759dce19728f33ddfd5a0d4987350dada6e4369a807dfd934a2a4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-fontware",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-fontware-20200406-26.el9_2.s390x.rpm",
+        "sum": "33ead4efc32689359186a7012a174f2e37cc459223f065eaaa04ec20553cb05a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-luatex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-luatex-20200406-26.el9_2.s390x.rpm",
+        "sum": "4288f948517ac0df3fc539dc5ad23a38d6295bfc4375c9004c65fe1b15f12f4a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-tex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-tex-20200406-26.el9_2.s390x.rpm",
+        "sum": "47e4d84090a3992e67e5a6a2b69267e9505f5954db4832bdeeae735ea193aa8e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvips",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvips-20200406-26.el9_2.s390x.rpm",
+        "sum": "49772dc9b24ab569d372a101cd69bc2568193abf823725feb57436f88ef65250",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-metapost",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-metapost-20200406-26.el9_2.s390x.rpm",
+        "sum": "4d29efaf88c5b672993181fd6b2f3336378c4738b3fe56b4a216cc8b1b1e4387",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvipng",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvipng-20200406-26.el9_2.s390x.rpm",
+        "sum": "63663498cf9e2b78f9ed29be37d1594e2ee7c0a78c464666c36b7c163a80ecb6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-20200406-26.el9_2.s390x.rpm",
+        "sum": "68a0091a872ecaa0f6c2ee0b9f7e0a18fba3eb17d4e0540c3358336731567cff",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-tex4ht",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-tex4ht-20200406-26.el9_2.s390x.rpm",
+        "sum": "6a04302cb689d0f62729b1623274ed4c64794ad9dca1c4fba6a5482ec2fb2ccd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-mfware",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-mfware-20200406-26.el9_2.s390x.rpm",
+        "sum": "6cac616ef5ccd64e811000cb87f9ae05303387d5a66264da002a7da97fd6be7a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvisvgm",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvisvgm-20200406-26.el9_2.s390x.rpm",
+        "sum": "7efeb66e6111f5be7d0dd7879b879d90e134b07d92136eef7b74975be9d22bfd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-luahbtex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-luahbtex-20200406-26.el9_2.s390x.rpm",
+        "sum": "80538a06ebe09b88ccbaa2e850d0822869b05efd6d472e91aa9d6a93e423120b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-gsftopk",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-gsftopk-20200406-26.el9_2.s390x.rpm",
+        "sum": "844601b0f34734be04c90ff2b52c9dd09698dd26cab893160084a25455da6eef",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-20200406-26.el9_2.s390x.rpm",
+        "sum": "86910d4b341f891551760feb196f17a3acace18675f8b94a18ddc8fdd0063ab6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-xdvi",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-xdvi-20200406-26.el9_2.s390x.rpm",
+        "sum": "9686d46797d0bfe07b5990e394ab2ded9296bf5e06c71634449957fd2450f154",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-metafont",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-metafont-20200406-26.el9_2.s390x.rpm",
+        "sum": "a95ccbc95d9063206380cbd03205a2796c1cbbba41395d0074b4ac53530a45b3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib-devel",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-devel-20200406-26.el9_2.s390x.rpm",
+        "sum": "ac3a586070671e6fdf3676a37becd0cd5e99391abfb6a29f0882ec29a43c1972",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-kpathsea",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-kpathsea-20200406-26.el9_2.s390x.rpm",
+        "sum": "bef0a3622ea5c7190a6f6920b129004b9402f3b5546a7fe89fea2bcc50bbe375",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-pdftex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-pdftex-20200406-26.el9_2.s390x.rpm",
+        "sum": "e6a1418aeead1b2f89d5ed08566a1ce37fb871b3acf6a73576d3d9849e38c4a7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-xetex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-xetex-20200406-26.el9_2.s390x.rpm",
+        "sum": "e9336e0f0e644647a8b182aefc924ce25821b50d526515f20a8db5b3bc0e00cd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-makeindex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "s390x",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-makeindex-20200406-26.el9_2.s390x.rpm",
+        "sum": "f56f7d858bd36b30663f8220105d6c0ea8669e2d81ffe10d410b7cdc8850f632",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-makeindex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-makeindex-20200406-26.el9_2.x86_64.rpm",
+        "sum": "06fe0a8213f0a75a8df911bdafbdd1c5c97b47a969a422b3d92916c4df27389e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-luatex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-luatex-20200406-26.el9_2.x86_64.rpm",
+        "sum": "1b8abfd1ad301bbf8908c0484b9794f6212073b0d268aba3de91cd2a4c15fd7b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-xdvi",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-xdvi-20200406-26.el9_2.x86_64.rpm",
+        "sum": "2097f85db4413d2606688f4166c6fe7eb271ba3a653625ca034b91688af011bc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-20200406-26.el9_2.x86_64.rpm",
+        "sum": "26b7d5e245342b94f8301c418e74c8c3db3d66aeccdae18028ca159b4aee3796",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-metapost",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-metapost-20200406-26.el9_2.x86_64.rpm",
+        "sum": "4af1e208b2fedaee9ba2cc762ac136b6ba446cac229b35eb2f7414882d3174e6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvips",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvips-20200406-26.el9_2.x86_64.rpm",
+        "sum": "55656a780484db3ab77349b67eee6095ab14a1e49bd4da0bb2db86424ba87308",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-mfware",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-mfware-20200406-26.el9_2.x86_64.rpm",
+        "sum": "62b21a28f8c3ca0d7b31a2f850d6ce67da7546bfcdb984bc41194c5ff42cfc9b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-pdftex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-pdftex-20200406-26.el9_2.x86_64.rpm",
+        "sum": "6d253fe0e190bf66b7f101854ad9dd558d70e0b05d6637f056e18398fafdd37f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-lib-devel",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-lib-devel-20200406-26.el9_2.x86_64.rpm",
+        "sum": "6f142ee564ecac7eda8fe75874d5ccd9a44c9540ff5250e4e767a1ef5ac36669",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-kpathsea",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-kpathsea-20200406-26.el9_2.x86_64.rpm",
+        "sum": "789711210b07214f1b5ced624105103db54bc1d8d562d66fee40d0f6ddabda5f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvipng",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvipng-20200406-26.el9_2.x86_64.rpm",
+        "sum": "85a76033c7a129732bdc290ee7af81beee671177076856a44ee9ca2f38217427",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-luahbtex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-luahbtex-20200406-26.el9_2.x86_64.rpm",
+        "sum": "928d2eb8b8458c565c68ec3584604f2fdc8989ba5a234e1d1e40d3167e0772d9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-tex4ht",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-tex4ht-20200406-26.el9_2.x86_64.rpm",
+        "sum": "99721f60ee8819115b33f24af41bdc42e314dc00de870e425bb7c7869ecb3f5f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-xetex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-xetex-20200406-26.el9_2.x86_64.rpm",
+        "sum": "aa07bdb5a0e094062192208be44eaaa49bb0532a55a87a431c291483b54bcece",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvisvgm",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvisvgm-20200406-26.el9_2.x86_64.rpm",
+        "sum": "b1822ec963385efa5a81bb2dca86749003e5b0f2bd4e184525d2fbc43985c714",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-fontware",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-fontware-20200406-26.el9_2.x86_64.rpm",
+        "sum": "bccba212cb4758aa41bb7ba95d9105be449e6ed019939f7f136d16bb90124216",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-dvipdfmx",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-dvipdfmx-20200406-26.el9_2.x86_64.rpm",
+        "sum": "c08371387eb0852d4dd850580482227477c9e707e75addf7971f05f22e1fe01f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-tex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-tex-20200406-26.el9_2.x86_64.rpm",
+        "sum": "d1dcec0bec0372f49ee11d1fec07744a877989ee7d979ca857e2ab5d32ca105c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-gsftopk",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-gsftopk-20200406-26.el9_2.x86_64.rpm",
+        "sum": "deac44fb984a9b6c05d2a68fb05c8637201961c9a48a445c0d285b98f0908915",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-20200406-26.el9_2.x86_64.rpm",
+        "sum": "e19a5c4fad0ef21494fe31c1e5abfe5a3d83850137174da11d20bbcb111c53fe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-bibtex",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-bibtex-20200406-26.el9_2.x86_64.rpm",
+        "sum": "e3307539e3e4ee631133f29e26e7a680d7316cec634041876f74e41197b055e7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "texlive-metafont",
+        "version": "20200406",
+        "release": "26.el9_2",
+        "epoch": "9",
+        "arch": "x86_64",
+        "src": "texlive-20200406-26.el9_2.src.rpm",
+        "filename": "texlive-metafont-20200406-26.el9_2.x86_64.rpm",
+        "sum": "efabf714e97a02e290118a3ff063a4c53e24c5cfe541fb7288c4eb343726a99a",
         "sum_type": 5,
         "reboot_suggested": 0
       }

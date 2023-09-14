@@ -8,18 +8,18 @@
     "$date": 1674432000000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-baseos-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-baseos-rpms__9_1_default",
+    "name": "almalinux-9-for-ppc64le-baseos-rpms__9_1_default",
+    "shortname": "almalinux-9-for-ppc64le-baseos-rpms__9_1_default",
     "packages": [
       {
         "name": "bash-devel",
         "version": "5.1.8",
         "release": "6.el9_1",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "bash-5.1.8-6.el9_1.src.rpm",
-        "filename": "bash-devel-5.1.8-6.el9_1.x86_64.rpm",
-        "sum": "0ed71e9c9890c62a2bcc6d52ca15530f252b4bbcbc8167248327fd34f3a567eb",
+        "filename": "bash-devel-5.1.8-6.el9_1.aarch64.rpm",
+        "sum": "509098e78501114b84c181e16e303b01b90fb3f421848f3583d4d7250e0ee95e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -28,10 +28,10 @@
         "version": "5.1.8",
         "release": "6.el9_1",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "bash-5.1.8-6.el9_1.src.rpm",
-        "filename": "bash-5.1.8-6.el9_1.x86_64.rpm",
-        "sum": "1bfcf5bf3187ff21db8109d48a0198b92341a9124f63db82cf501d1968ba1374",
+        "filename": "bash-5.1.8-6.el9_1.aarch64.rpm",
+        "sum": "fbbea30dfc87e26a022a59576f6daa8f0ddfefe2998e58883d05f58103f8e075",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -48,14 +48,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "bash-devel",
+        "name": "bash",
         "version": "5.1.8",
         "release": "6.el9_1",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "bash-5.1.8-6.el9_1.src.rpm",
-        "filename": "bash-devel-5.1.8-6.el9_1.aarch64.rpm",
-        "sum": "509098e78501114b84c181e16e303b01b90fb3f421848f3583d4d7250e0ee95e",
+        "filename": "bash-5.1.8-6.el9_1.ppc64le.rpm",
+        "sum": "9cfbc1a3ab139d5495fce97e56e6d761fdca2633a4de83dfcc36bb6d721d0e20",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,14 +84,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "bash",
+        "name": "bash-devel",
         "version": "5.1.8",
         "release": "6.el9_1",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "bash-5.1.8-6.el9_1.src.rpm",
-        "filename": "bash-5.1.8-6.el9_1.ppc64le.rpm",
-        "sum": "9cfbc1a3ab139d5495fce97e56e6d761fdca2633a4de83dfcc36bb6d721d0e20",
+        "filename": "bash-devel-5.1.8-6.el9_1.x86_64.rpm",
+        "sum": "0ed71e9c9890c62a2bcc6d52ca15530f252b4bbcbc8167248327fd34f3a567eb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -100,10 +100,10 @@
         "version": "5.1.8",
         "release": "6.el9_1",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "bash-5.1.8-6.el9_1.src.rpm",
-        "filename": "bash-5.1.8-6.el9_1.aarch64.rpm",
-        "sum": "fbbea30dfc87e26a022a59576f6daa8f0ddfefe2998e58883d05f58103f8e075",
+        "filename": "bash-5.1.8-6.el9_1.x86_64.rpm",
+        "sum": "1bfcf5bf3187ff21db8109d48a0198b92341a9124f63db82cf501d1968ba1374",
         "sum_type": 5,
         "reboot_suggested": 0
       }

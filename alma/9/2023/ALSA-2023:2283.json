@@ -24,6 +24,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "skopeo-tests",
+        "version": "1.11.2",
+        "release": "0.1.el9",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "skopeo-1.11.2-0.1.el9.src.rpm",
+        "filename": "skopeo-tests-1.11.2-0.1.el9.aarch64.rpm",
+        "sum": "7c8dce7aa6578256c90f5f45f808d63b4ecdf511d2ab84f215dfa704962e96f5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "skopeo",
         "version": "1.11.2",
         "release": "0.1.el9",
@@ -40,46 +52,10 @@
         "version": "1.11.2",
         "release": "0.1.el9",
         "epoch": "2",
-        "arch": "aarch64",
-        "src": "skopeo-1.11.2-0.1.el9.src.rpm",
-        "filename": "skopeo-tests-1.11.2-0.1.el9.aarch64.rpm",
-        "sum": "7c8dce7aa6578256c90f5f45f808d63b4ecdf511d2ab84f215dfa704962e96f5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "skopeo-tests",
-        "version": "1.11.2",
-        "release": "0.1.el9",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "skopeo-1.11.2-0.1.el9.src.rpm",
-        "filename": "skopeo-tests-1.11.2-0.1.el9.x86_64.rpm",
-        "sum": "836ae8578d5a93c18f7aa2bae383270264912ca9deb9178bcccd6894a9398c47",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "skopeo-tests",
-        "version": "1.11.2",
-        "release": "0.1.el9",
-        "epoch": "2",
         "arch": "ppc64le",
         "src": "skopeo-1.11.2-0.1.el9.src.rpm",
         "filename": "skopeo-tests-1.11.2-0.1.el9.ppc64le.rpm",
         "sum": "851a21bf2fbd0d1fa47908ac482eaa3f03aaf71f8bccbcffc60f2e21cfae2abd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "skopeo",
-        "version": "1.11.2",
-        "release": "0.1.el9",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "skopeo-1.11.2-0.1.el9.src.rpm",
-        "filename": "skopeo-1.11.2-0.1.el9.x86_64.rpm",
-        "sum": "903687d6856e66f4c6783db831bef213171f6af945f7f0e06450f954eba652ff",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -104,6 +80,30 @@
         "src": "skopeo-1.11.2-0.1.el9.src.rpm",
         "filename": "skopeo-tests-1.11.2-0.1.el9.s390x.rpm",
         "sum": "e38efdc7abc3a47e40102d42c0fb7cac86008fcf7b7eae215f68664d68b8ba22",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "skopeo-tests",
+        "version": "1.11.2",
+        "release": "0.1.el9",
+        "epoch": "2",
+        "arch": "x86_64",
+        "src": "skopeo-1.11.2-0.1.el9.src.rpm",
+        "filename": "skopeo-tests-1.11.2-0.1.el9.x86_64.rpm",
+        "sum": "836ae8578d5a93c18f7aa2bae383270264912ca9deb9178bcccd6894a9398c47",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "skopeo",
+        "version": "1.11.2",
+        "release": "0.1.el9",
+        "epoch": "2",
+        "arch": "x86_64",
+        "src": "skopeo-1.11.2-0.1.el9.src.rpm",
+        "filename": "skopeo-1.11.2-0.1.el9.x86_64.rpm",
+        "sum": "903687d6856e66f4c6783db831bef213171f6af945f7f0e06450f954eba652ff",
         "sum_type": 5,
         "reboot_suggested": 0
       }

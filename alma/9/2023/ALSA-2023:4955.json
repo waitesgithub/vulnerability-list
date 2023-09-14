@@ -16,18 +16,6 @@
         "version": "102.15.0",
         "release": "1.el9_2.alma.plus",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "thunderbird-102.15.0-1.el9_2.alma.plus.src.rpm",
-        "filename": "thunderbird-102.15.0-1.el9_2.alma.plus.x86_64.rpm",
-        "sum": "019d8016ac7628efbd8ab780cc2e319cddd40b329554fd78e28b0715e9233574",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "thunderbird",
-        "version": "102.15.0",
-        "release": "1.el9_2.alma.plus",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "thunderbird-102.15.0-1.el9_2.alma.plus.src.rpm",
         "filename": "thunderbird-102.15.0-1.el9_2.alma.plus.aarch64.rpm",
@@ -44,6 +32,30 @@
         "src": "thunderbird-102.15.0-1.el9_2.alma.src.rpm",
         "filename": "thunderbird-102.15.0-1.el9_2.alma.aarch64.rpm",
         "sum": "1f628aa6f44ce717df479b907518465e5f38e54f4a1d88b721debd0dede2789e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "102.15.0",
+        "release": "1.el9_2.alma.plus",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "thunderbird-102.15.0-1.el9_2.alma.plus.src.rpm",
+        "filename": "thunderbird-102.15.0-1.el9_2.alma.plus.ppc64le.rpm",
+        "sum": "905f50aa2c2f6cf1d391b5fe0736ccc75513d2c25196ef3895e1fc30778180d2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "102.15.0",
+        "release": "1.el9_2.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "thunderbird-102.15.0-1.el9_2.alma.src.rpm",
+        "filename": "thunderbird-102.15.0-1.el9_2.alma.ppc64le.rpm",
+        "sum": "ed7d7450474839b7675197935f15448dd56e1f73b30a73131884e6d59554062e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,10 +88,10 @@
         "version": "102.15.0",
         "release": "1.el9_2.alma.plus",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "thunderbird-102.15.0-1.el9_2.alma.plus.src.rpm",
-        "filename": "thunderbird-102.15.0-1.el9_2.alma.plus.ppc64le.rpm",
-        "sum": "905f50aa2c2f6cf1d391b5fe0736ccc75513d2c25196ef3895e1fc30778180d2",
+        "filename": "thunderbird-102.15.0-1.el9_2.alma.plus.x86_64.rpm",
+        "sum": "019d8016ac7628efbd8ab780cc2e319cddd40b329554fd78e28b0715e9233574",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -92,18 +104,6 @@
         "src": "thunderbird-102.15.0-1.el9_2.alma.src.rpm",
         "filename": "thunderbird-102.15.0-1.el9_2.alma.x86_64.rpm",
         "sum": "d8d55f54cbab289d4e0374d8be4798a6aeb4d1dfba58887efcb62d437e31cdfb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "thunderbird",
-        "version": "102.15.0",
-        "release": "1.el9_2.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "thunderbird-102.15.0-1.el9_2.alma.src.rpm",
-        "filename": "thunderbird-102.15.0-1.el9_2.alma.ppc64le.rpm",
-        "sum": "ed7d7450474839b7675197935f15448dd56e1f73b30a73131884e6d59554062e",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -8,30 +8,18 @@
     "$date": 1687305600000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-baseos-rpms__9_2_default",
-    "shortname": "almalinux-9-for-x86_64-baseos-rpms__9_2_default",
+    "name": "almalinux-9-for-ppc64le-baseos-rpms__9_2_default",
+    "shortname": "almalinux-9-for-ppc64le-baseos-rpms__9_2_default",
     "packages": [
       {
         "name": "less",
         "version": "590",
         "release": "2.el9_2",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "less-590-2.el9_2.src.rpm",
-        "filename": "less-590-2.el9_2.x86_64.rpm",
-        "sum": "3b697b320f448cde42bf384762e2045266c0375057b1a5a9506974064ddc1b44",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "less",
-        "version": "590",
-        "release": "2.el9_2",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "less-590-2.el9_2.src.rpm",
-        "filename": "less-590-2.el9_2.s390x.rpm",
-        "sum": "74cac34d0fb130a0ea70afed0e5e4d269fd7cd5949bb1464de9e0c9a5d95e007",
+        "filename": "less-590-2.el9_2.aarch64.rpm",
+        "sum": "c55f2780a9414a52d68b09cc79a6cd45d603ec736dc68587df70329a7b72dec8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,22 @@
         "version": "590",
         "release": "2.el9_2",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "s390x",
         "src": "less-590-2.el9_2.src.rpm",
-        "filename": "less-590-2.el9_2.aarch64.rpm",
-        "sum": "c55f2780a9414a52d68b09cc79a6cd45d603ec736dc68587df70329a7b72dec8",
+        "filename": "less-590-2.el9_2.s390x.rpm",
+        "sum": "74cac34d0fb130a0ea70afed0e5e4d269fd7cd5949bb1464de9e0c9a5d95e007",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "less",
+        "version": "590",
+        "release": "2.el9_2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "less-590-2.el9_2.src.rpm",
+        "filename": "less-590-2.el9_2.x86_64.rpm",
+        "sum": "3b697b320f448cde42bf384762e2045266c0375057b1a5a9506974064ddc1b44",
         "sum_type": 5,
         "reboot_suggested": 0
       }

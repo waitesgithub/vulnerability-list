@@ -12,54 +12,6 @@
     "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
     "packages": [
       {
-        "name": "libarchive-devel",
-        "version": "3.5.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "libarchive-devel-3.5.3-2.el9_0.ppc64le.rpm",
-        "sum": "014a2db1037b53c695e7c91b05e3f652a834d9ea545c1ca46bc7e676a67da327",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libarchive",
-        "version": "3.5.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "libarchive-3.5.3-2.el9_0.x86_64.rpm",
-        "sum": "035f3b90a81b61d846914a6953804d32e09f0c6c3b2978f783c964c0cfe2c164",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bsdtar",
-        "version": "3.5.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "bsdtar-3.5.3-2.el9_0.x86_64.rpm",
-        "sum": "042bd93df93412ecaf7c6b59137e7ab45db3f03987046b74f8da2b5375015a9b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libarchive",
-        "version": "3.5.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "libarchive-3.5.3-2.el9_0.i686.rpm",
-        "sum": "0e092bde47271bc548721c5f6ee2ac7626ba4c29c460d7281b29b32e4c8b4797",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libarchive",
         "version": "3.5.3",
         "release": "2.el9_0",
@@ -88,6 +40,30 @@
         "version": "3.5.3",
         "release": "2.el9_0",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
+        "filename": "libarchive-devel-3.5.3-2.el9_0.aarch64.rpm",
+        "sum": "f1df8b4c8417ba417697bb6b9c4f8a33753d157a95ab2dd613d568bf8c689bb0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libarchive",
+        "version": "3.5.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
+        "filename": "libarchive-3.5.3-2.el9_0.i686.rpm",
+        "sum": "0e092bde47271bc548721c5f6ee2ac7626ba4c29c460d7281b29b32e4c8b4797",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libarchive-devel",
+        "version": "3.5.3",
+        "release": "2.el9_0",
+        "epoch": "0",
         "arch": "i686",
         "src": "libarchive-3.5.3-2.el9_0.src.rpm",
         "filename": "libarchive-devel-3.5.3-2.el9_0.i686.rpm",
@@ -100,10 +76,10 @@
         "version": "3.5.3",
         "release": "2.el9_0",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "libarchive-devel-3.5.3-2.el9_0.x86_64.rpm",
-        "sum": "62d30b0fc078e27e530e051a08cf75a297905e7c495d733de96192fd15dbfb63",
+        "filename": "libarchive-devel-3.5.3-2.el9_0.ppc64le.rpm",
+        "sum": "014a2db1037b53c695e7c91b05e3f652a834d9ea545c1ca46bc7e676a67da327",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,6 +92,18 @@
         "src": "libarchive-3.5.3-2.el9_0.src.rpm",
         "filename": "libarchive-3.5.3-2.el9_0.ppc64le.rpm",
         "sum": "763959ef8d263ab5857c84e5255efdb0f343378f7a39310cf46606963e674184",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bsdtar",
+        "version": "3.5.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
+        "filename": "bsdtar-3.5.3-2.el9_0.ppc64le.rpm",
+        "sum": "b36034c64c30f92db3e52e0e38f7171ed6ac0090a0d2e03322c6fd702729dc42",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -144,18 +132,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "bsdtar",
-        "version": "3.5.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "bsdtar-3.5.3-2.el9_0.ppc64le.rpm",
-        "sum": "b36034c64c30f92db3e52e0e38f7171ed6ac0090a0d2e03322c6fd702729dc42",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libarchive-devel",
         "version": "3.5.3",
         "release": "2.el9_0",
@@ -168,14 +144,38 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libarchive",
+        "version": "3.5.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
+        "filename": "libarchive-3.5.3-2.el9_0.x86_64.rpm",
+        "sum": "035f3b90a81b61d846914a6953804d32e09f0c6c3b2978f783c964c0cfe2c164",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bsdtar",
+        "version": "3.5.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
+        "filename": "bsdtar-3.5.3-2.el9_0.x86_64.rpm",
+        "sum": "042bd93df93412ecaf7c6b59137e7ab45db3f03987046b74f8da2b5375015a9b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libarchive-devel",
         "version": "3.5.3",
         "release": "2.el9_0",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "libarchive-devel-3.5.3-2.el9_0.aarch64.rpm",
-        "sum": "f1df8b4c8417ba417697bb6b9c4f8a33753d157a95ab2dd613d568bf8c689bb0",
+        "filename": "libarchive-devel-3.5.3-2.el9_0.x86_64.rpm",
+        "sum": "62d30b0fc078e27e530e051a08cf75a297905e7c495d733de96192fd15dbfb63",
         "sum_type": 5,
         "reboot_suggested": 0
       }

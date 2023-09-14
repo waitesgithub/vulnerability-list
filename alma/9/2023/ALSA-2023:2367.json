@@ -16,18 +16,6 @@
         "version": "1.2.0",
         "release": "1.el9",
         "epoch": "1",
-        "arch": "s390x",
-        "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
-        "filename": "containernetworking-plugins-1.2.0-1.el9.s390x.rpm",
-        "sum": "371920f2903d6d063d5a338ae7432138d375febf19e658210707d257225f4ea6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "containernetworking-plugins",
-        "version": "1.2.0",
-        "release": "1.el9",
-        "epoch": "1",
         "arch": "aarch64",
         "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
         "filename": "containernetworking-plugins-1.2.0-1.el9.aarch64.rpm",
@@ -44,6 +32,18 @@
         "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
         "filename": "containernetworking-plugins-1.2.0-1.el9.ppc64le.rpm",
         "sum": "abfd41c3f9ab3be2d1e53521bb8f633eb2030f4def54fe105e185d958af9e381",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "containernetworking-plugins",
+        "version": "1.2.0",
+        "release": "1.el9",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "containernetworking-plugins-1.2.0-1.el9.src.rpm",
+        "filename": "containernetworking-plugins-1.2.0-1.el9.s390x.rpm",
+        "sum": "371920f2903d6d063d5a338ae7432138d375febf19e658210707d257225f4ea6",
         "sum_type": 5,
         "reboot_suggested": 0
       },

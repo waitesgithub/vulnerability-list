@@ -12,18 +12,6 @@
     "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
       {
-        "name": "rsync-daemon",
-        "version": "3.2.3",
-        "release": "18.el9",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "rsync-3.2.3-18.el9.src.rpm",
-        "filename": "rsync-daemon-3.2.3-18.el9.noarch.rpm",
-        "sum": "1b7b8d0f1db62a381e9185eebd1de7e50598cff114744e8b9f5608fc7689b231",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "rsync",
         "version": "3.2.3",
         "release": "18.el9",
@@ -32,6 +20,18 @@
         "src": "rsync-3.2.3-18.el9.src.rpm",
         "filename": "rsync-3.2.3-18.el9.aarch64.rpm",
         "sum": "1d47dcb05b345e40ca12ae885dfbdcfda7d3d401e47890a6cca994ac3c1815e7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rsync-daemon",
+        "version": "3.2.3",
+        "release": "18.el9",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "rsync-3.2.3-18.el9.src.rpm",
+        "filename": "rsync-daemon-3.2.3-18.el9.noarch.rpm",
+        "sum": "1b7b8d0f1db62a381e9185eebd1de7e50598cff114744e8b9f5608fc7689b231",
         "sum_type": 5,
         "reboot_suggested": 0
       },
