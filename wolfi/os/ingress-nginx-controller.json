@@ -1,11 +1,9 @@
 {
-  "name": "k3s",
+  "name": "ingress-nginx-controller",
   "secfixes": {
     "0": [
-      "GHSA-6xv5-86q9-7xr8"
-    ],
-    "1.27.5-r0": [
-      "CVE-2023-32187"
+      "CVE-2022-41741",
+      "CVE-2022-41742"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
