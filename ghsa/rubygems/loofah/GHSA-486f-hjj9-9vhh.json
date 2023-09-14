@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-12-13T17:36:29Z",
+  "UpdatedAt": "2023-09-14T16:19:48Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "loofah"
@@ -26,6 +26,9 @@
         "Url": "https://hackerone.com/reports/1684163"
       },
       {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00011.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-486f-hjj9-9vhh"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2022-12-13T17:36:28Z",
     "Severity": "HIGH",
     "Summary": "Inefficient Regular Expression Complexity in Loofah",
-    "UpdatedAt": "2023-01-30T05:05:48Z",
+    "UpdatedAt": "2023-09-14T16:19:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-09-12T19:31:18Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -36,13 +36,13 @@
     "Description": "Relative Path Traversal in GitHub repository cecilapp/cecil prior to 7.47.1.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-09-12T15:30:20Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Cecil Path Traversal vulnerability",
-    "UpdatedAt": "2023-09-12T19:31:18Z",
+    "UpdatedAt": "2023-09-14T16:30:20Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 5.8,
-      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N"
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

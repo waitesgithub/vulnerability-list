@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-27T22:32:20Z",
+  "UpdatedAt": "2023-09-14T14:29:28Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "dweeves/magmi"
@@ -23,6 +23,9 @@
         "Url": "https://web.archive.org/web/20210125191718/http://www.securityfocus.com/bid/97311"
       },
       {
+        "Url": "https://github.com/dweeves/magmi-git/commit/a9566b141b58bf40a9dd904a74e6efcc225a28a3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-r8vh-cm9f-rc29"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2022-05-17T02:51:51Z",
     "Severity": "MODERATE",
     "Summary": "Magmi XSS Vulnerability",
-    "UpdatedAt": "2023-07-27T22:32:20Z",
+    "UpdatedAt": "2023-09-14T14:29:28Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -51,7 +54,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "0.7.24"
       },
       "VulnerableVersionRange": "\u003c= 0.7.22"
     }
