@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-05-11T11:04:41Z",
+  "UpdatedAt": "2023-09-14T12:06:07Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "cakephp/cakephp"
@@ -33,12 +33,12 @@
         "Value": "CVE-2020-15400"
       }
     ],
-    "Description": "CakePHP before 4.0.6 mishandles CSRF token generation. This might be remotely exploitable in conjunction with XSS.",
+    "Description": "CakePHP before 4.0.6 and 3.10.3 mishandles CSRF token generation. This might be remotely exploitable in conjunction with XSS.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-02-10T22:27:58Z",
     "Severity": "MODERATE",
     "Summary": "Cross-Site Request Forgery in CakePHP",
-    "UpdatedAt": "2023-02-01T05:05:43Z",
+    "UpdatedAt": "2023-09-14T12:06:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
