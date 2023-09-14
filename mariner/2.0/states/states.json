@@ -1,10 +1,73 @@
 {
   "RpminfoState": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:28599002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:1.5.0-3.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:28092002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:2.5.0-2.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:28069002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:6.2.0-17.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:28066002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:4.7-5.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:28065002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:4.7-5.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:28064002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:4.7-5.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:ste:28062002",
       "Version": "1",
       "Evr": {
         "Text": "0:5.15.126.1-1.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:28060002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:0.15-2.cm2",
         "Datatype": "evr_string",
         "Operation": "less than"
       }
@@ -41,6 +104,15 @@
       "Version": "1",
       "Evr": {
         "Text": "0:5.15.126.1-1.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:27943002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:8.1.22-1.cm2",
         "Datatype": "evr_string",
         "Operation": "less than"
       }
@@ -136,6 +208,15 @@
       }
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:27870002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:0.105.2-2.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:ste:27852002",
       "Version": "1",
       "Evr": {
@@ -149,6 +230,15 @@
       "Version": "1",
       "Evr": {
         "Text": "0:0.15.1-1.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:27817002",
+      "Version": "0",
+      "Evr": {
+        "Text": "0:1.68.2-5.cm2",
         "Datatype": "evr_string",
         "Operation": "less than"
       }
@@ -437,6 +527,15 @@
       "Version": "1",
       "Evr": {
         "Text": "0:5.15.122.1-2.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:27435002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:8.1.22-1.cm2",
         "Datatype": "evr_string",
         "Operation": "less than"
       }
@@ -1895,6 +1994,15 @@
       "Version": "1",
       "Evr": {
         "Text": "0:5.15.122.1-2.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:25952002",
+      "Version": "1",
+      "Evr": {
+        "Text": "0:25.0-7.cm2",
         "Datatype": "evr_string",
         "Operation": "less than"
       }
@@ -7229,11 +7337,11 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:ste:10651002",
-      "Version": "0",
+      "Version": "1",
       "Evr": {
-        "Text": "0:0.16.0-3.cm2",
+        "Text": "0:0.16.0-4.cm2",
         "Datatype": "evr_string",
-        "Operation": "less than or equal"
+        "Operation": "less than"
       }
     },
     {

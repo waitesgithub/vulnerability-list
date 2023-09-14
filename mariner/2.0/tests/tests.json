@@ -2,6 +2,78 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package shapelib is earlier than 1.5.0-3, affected by CVE-2022-0699",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:28599000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:28599001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:28599002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package hwloc is earlier than 2.5.0-2, affected by CVE-2022-47022",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:28092000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:28092001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:28092002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package qemu is earlier than 6.2.0-17, affected by CVE-2022-36648",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:28069000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:28069001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:28069002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package libreswan is earlier than 4.7-5, affected by CVE-2023-38712",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:28066000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:28066001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:28066002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package libreswan is earlier than 4.7-5, affected by CVE-2023-38711",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:28065000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:28065001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:28065002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package libreswan is earlier than 4.7-5, affected by CVE-2023-38710",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:28064000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:28064001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:28064002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2022-0850",
       "ID": "oval:com.microsoft.cbl-mariner:tst:28062000",
       "Version": "1",
@@ -10,6 +82,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:28062002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package json-c is earlier than 0.15-2, affected by CVE-2021-32292",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:28060000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:28060001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:28060002"
       }
     },
     {
@@ -58,6 +142,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:27958002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package php is earlier than 8.1.22-1, affected by CVE-2023-3824",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27943000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27943001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27943002"
       }
     },
     {
@@ -182,6 +278,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package clamav is earlier than 0.105.2-2, affected by CVE-2022-48579",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27870000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27870001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27870002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-4132",
       "ID": "oval:com.microsoft.cbl-mariner:tst:27852000",
       "Version": "1",
@@ -202,6 +310,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:27830002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package rust is earlier than 1.68.2-5, affected by CVE-2023-3817",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27817000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27817001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27817002"
       }
     },
     {
@@ -586,6 +706,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:27499002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package php is earlier than 8.1.22-1, affected by CVE-2023-3247",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27435000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27435001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27435002"
       }
     },
     {
@@ -2530,6 +2662,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:25956002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package guava is earlier than 25.0-7, affected by CVE-2020-8908",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:25952000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:25952001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:25952002"
       }
     },
     {
@@ -9638,9 +9782,9 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package mod_auth_mellon is installed with version 0.16.0-3 or earlier",
+      "Comment": "Package mod_auth_mellon is earlier than 0.16.0-4, affected by CVE-2021-3639",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10651000",
-      "Version": "0",
+      "Version": "1",
       "Object": {
         "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:10651001"
       },

@@ -1,9 +1,44 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28599001",
+      "Version": "1",
+      "Name": "shapelib"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28092001",
+      "Version": "1",
+      "Name": "hwloc"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28069001",
+      "Version": "1",
+      "Name": "qemu"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28066001",
+      "Version": "1",
+      "Name": "libreswan"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28065001",
+      "Version": "1",
+      "Name": "libreswan"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28064001",
+      "Version": "1",
+      "Name": "libreswan"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28062001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28060001",
+      "Version": "1",
+      "Name": "json-c"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27982001",
@@ -24,6 +59,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27958001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27943001",
+      "Version": "1",
+      "Name": "php"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27936001",
@@ -76,6 +116,11 @@
       "Name": "golang"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27870001",
+      "Version": "1",
+      "Name": "clamav"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27852001",
       "Version": "1",
       "Name": "kernel"
@@ -84,6 +129,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27830001",
       "Version": "1",
       "Name": "rubygem-protocol-http1"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27817001",
+      "Version": "0",
+      "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27815001",
@@ -244,6 +294,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27499001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27435001",
+      "Version": "1",
+      "Name": "php"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27430001",
@@ -1054,6 +1109,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:25956001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25952001",
+      "Version": "1",
+      "Name": "guava"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25940001",
@@ -4017,7 +4077,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10651001",
-      "Version": "0",
+      "Version": "1",
       "Name": "mod_auth_mellon"
     },
     {
