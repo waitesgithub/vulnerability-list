@@ -12,6 +12,30 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
+        "name": "cups-devel",
+        "version": "2.2.6",
+        "release": "40.el8",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "cups-2.2.6-40.el8.src.rpm",
+        "filename": "cups-devel-2.2.6-40.el8.i686.rpm",
+        "sum": "d2b8bcaca352800124982520aa541039b3111e45e02751e3ce559bfd738eef9b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cups-filesystem",
+        "version": "2.2.6",
+        "release": "40.el8",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "cups-2.2.6-40.el8.src.rpm",
+        "filename": "cups-filesystem-2.2.6-40.el8.noarch.rpm",
+        "sum": "930100728e9a1d6aaf58de039608ff494a1c507708958102aedc75c923e7ea32",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "cups-lpd",
         "version": "2.2.6",
         "release": "40.el8",
@@ -68,30 +92,6 @@
         "src": "cups-2.2.6-40.el8.src.rpm",
         "filename": "cups-2.2.6-40.el8.x86_64.rpm",
         "sum": "2be8af4bf17aaa985312bd97d802528a77e47bc9c8f66d8f4a64cdf9b62dc9c8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cups-filesystem",
-        "version": "2.2.6",
-        "release": "40.el8",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "cups-2.2.6-40.el8.src.rpm",
-        "filename": "cups-filesystem-2.2.6-40.el8.noarch.rpm",
-        "sum": "930100728e9a1d6aaf58de039608ff494a1c507708958102aedc75c923e7ea32",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cups-devel",
-        "version": "2.2.6",
-        "release": "40.el8",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "cups-2.2.6-40.el8.src.rpm",
-        "filename": "cups-devel-2.2.6-40.el8.i686.rpm",
-        "sum": "d2b8bcaca352800124982520aa541039b3111e45e02751e3ce559bfd738eef9b",
         "sum_type": 5,
         "reboot_suggested": 0
       }

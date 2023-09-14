@@ -8,9 +8,33 @@
     "$date": 1684195200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-powertools-rpms__8_8_default",
-    "shortname": "almalinux-8-for-aarch64-powertools-rpms__8_8_default",
+    "name": "almalinux-8-for-x86_64-powertools-rpms__8_8_default",
+    "shortname": "almalinux-8-for-x86_64-powertools-rpms__8_8_default",
     "packages": [
+      {
+        "name": "ctags",
+        "version": "5.8",
+        "release": "23.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ctags-5.8-23.el8.src.rpm",
+        "filename": "ctags-5.8-23.el8.aarch64.rpm",
+        "sum": "512fa36aa59b350cd5a43c67de2595086f3730bacf988335aaca9891460ed551",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ctags-etags",
+        "version": "5.8",
+        "release": "23.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ctags-5.8-23.el8.src.rpm",
+        "filename": "ctags-etags-5.8-23.el8.aarch64.rpm",
+        "sum": "71033add3b91be3398ae7afe3154a95b2692529a4de5299aac4d1766823b44b0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "ctags-etags",
         "version": "5.8",
@@ -28,34 +52,10 @@
         "version": "5.8",
         "release": "23.el8",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "ctags-5.8-23.el8.src.rpm",
-        "filename": "ctags-5.8-23.el8.x86_64.rpm",
-        "sum": "4867499ecc7cdf0656dd6b2abaf8e615a0bd233b419311a86a4fe1781b2e738a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ctags",
-        "version": "5.8",
-        "release": "23.el8",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "ctags-5.8-23.el8.src.rpm",
         "filename": "ctags-5.8-23.el8.ppc64le.rpm",
         "sum": "494080883ab98ad93a67d2bec0c5847e5add8490b2122889e795bac5b1c23c54",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ctags",
-        "version": "5.8",
-        "release": "23.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ctags-5.8-23.el8.src.rpm",
-        "filename": "ctags-5.8-23.el8.aarch64.rpm",
-        "sum": "512fa36aa59b350cd5a43c67de2595086f3730bacf988335aaca9891460ed551",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,14 +84,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "ctags-etags",
+        "name": "ctags",
         "version": "5.8",
         "release": "23.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "ctags-5.8-23.el8.src.rpm",
-        "filename": "ctags-etags-5.8-23.el8.aarch64.rpm",
-        "sum": "71033add3b91be3398ae7afe3154a95b2692529a4de5299aac4d1766823b44b0",
+        "filename": "ctags-5.8-23.el8.x86_64.rpm",
+        "sum": "4867499ecc7cdf0656dd6b2abaf8e615a0bd233b419311a86a4fe1781b2e738a",
         "sum_type": 5,
         "reboot_suggested": 0
       },

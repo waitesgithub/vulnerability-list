@@ -12,18 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
-        "name": "NetworkManager-cloud-setup",
-        "version": "1.32.10",
-        "release": "4.el8",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "NetworkManager-1.32.10-4.el8.src.rpm",
-        "filename": "NetworkManager-cloud-setup-1.32.10-4.el8.x86_64.rpm",
-        "sum": "2ef5b808519c0b67b19b09e3f00fc0f280626481b1ee9dc6f1531c9079abcdff",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "NetworkManager-libnm-devel",
         "version": "1.32.10",
         "release": "4.el8",
@@ -32,6 +20,18 @@
         "src": "NetworkManager-1.32.10-4.el8.src.rpm",
         "filename": "NetworkManager-libnm-devel-1.32.10-4.el8.i686.rpm",
         "sum": "3e561c7e966e521871ed3ce4c10b0eedde8a7c6f03da4ec6d53336fa7afff5f9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "NetworkManager-cloud-setup",
+        "version": "1.32.10",
+        "release": "4.el8",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "NetworkManager-1.32.10-4.el8.src.rpm",
+        "filename": "NetworkManager-cloud-setup-1.32.10-4.el8.x86_64.rpm",
+        "sum": "2ef5b808519c0b67b19b09e3f00fc0f280626481b1ee9dc6f1531c9079abcdff",
         "sum_type": 5,
         "reboot_suggested": 0
       },

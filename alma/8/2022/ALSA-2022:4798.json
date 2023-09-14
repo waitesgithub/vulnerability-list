@@ -8,8 +8,8 @@
     "$date": 1653910755000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_maven",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_maven",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_maven",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_maven",
     "packages": [
       {
         "name": "google-guice",
@@ -504,18 +504,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "jansi-native",
-        "version": "1.7",
-        "release": "7.module_el8.6.0+2752+f1f3449e",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.src.rpm",
-        "filename": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.x86_64.rpm",
-        "sum": "e3ca966451b6ee4b1b7abe4ed2aa54fbcb94267d5680952b35a6ba20dd69bf76",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "maven-wagon-http-shared",
         "version": "3.1.0",
         "release": "1.module_el8.6.0+2752+f1f3449e",
@@ -524,6 +512,18 @@
         "src": "maven-wagon-3.1.0-1.module_el8.6.0+2752+f1f3449e.src.rpm",
         "filename": "maven-wagon-http-shared-3.1.0-1.module_el8.6.0+2752+f1f3449e.noarch.rpm",
         "sum": "eadb4a9c395f8cec2914dccac90cdd620121a762eb8177647909146a723173bb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "hawtjni-runtime",
+        "version": "1.16",
+        "release": "2.module_el8.6.0+2752+f1f3449e",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "hawtjni-1.16-2.module_el8.6.0+2752+f1f3449e.src.rpm",
+        "filename": "hawtjni-runtime-1.16-2.module_el8.6.0+2752+f1f3449e.noarch.rpm",
+        "sum": "f0ff23714d7896c1400d162a43b08073630b86bd787f25a60ee735b7b0de3549",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -540,14 +540,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "hawtjni-runtime",
-        "version": "1.16",
-        "release": "2.module_el8.6.0+2752+f1f3449e",
+        "name": "jansi-native",
+        "version": "1.7",
+        "release": "7.module_el8.6.0+2752+f1f3449e",
         "epoch": "0",
-        "arch": "noarch",
-        "src": "hawtjni-1.16-2.module_el8.6.0+2752+f1f3449e.src.rpm",
-        "filename": "hawtjni-runtime-1.16-2.module_el8.6.0+2752+f1f3449e.noarch.rpm",
-        "sum": "f0ff23714d7896c1400d162a43b08073630b86bd787f25a60ee735b7b0de3549",
+        "arch": "x86_64",
+        "src": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.src.rpm",
+        "filename": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.x86_64.rpm",
+        "sum": "e3ca966451b6ee4b1b7abe4ed2aa54fbcb94267d5680952b35a6ba20dd69bf76",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -556,7 +556,7 @@
       "stream": "3.5",
       "name": "maven",
       "version": 8060020220530101136,
-      "arch": "x86_64",
+      "arch": "ppc64le",
       "context": "dca7b4a4"
     }
   },

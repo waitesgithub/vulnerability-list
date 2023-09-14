@@ -12,6 +12,186 @@
     "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_1_virt-devel",
     "packages": [
       {
+        "name": "netcf-libs",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+        "sum": "0bcaf5d8e5f17815e1295651458c4f429ff9fccadbfe7b2f3c23b784efee47c1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi-utils",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+        "sum": "475718b68490ef173aef57f3aa680f5862a6799ade88eacbaf51738aed5af001",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "netcf",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+        "sum": "622166df6272f067ff22fb348eae9e5c6b899d029f6fb40d2b259456d70110d8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libvirt-dbus",
+        "version": "1.3.0",
+        "release": "2.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+        "sum": "7bd28a649f56f3823e2cf3f6ac920ba389e4eaba1adad666059332b3564421ef",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "netcf-devel",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+        "sum": "b94dbcf9abf28d020816edcf78b874b8a4fb7cce37a822457f4d9fe4efdc33bf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+        "sum": "e6aabc36bca82477806e4d9cca5d92d6951021e58146a289170083bd53156e4b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi-devel",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+        "sum": "f7772d478351f5bfc0421cc6fa02eb1d4f552a9723fad5327390b33a6d511477",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi-devel",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.i686.rpm",
+        "sum": "0aa4691d4256b08daf7fb2258f1848433c64114bb83b9f80908e2fd45ed7ff70",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "netcf-devel",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.i686.rpm",
+        "sum": "34c3111e0fa2e3d70700321b90d173c5033354e9fed5cd73ddcd5bf2948775f0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "netcf-libs",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.i686.rpm",
+        "sum": "515335211f94f6f8d1ac5097aec883faa35971da7b1afed9090bd31f1ba3a7e4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "sgabios",
+        "version": "0.20170427git",
+        "release": "3.module_el8.6.0+2880+7d9e3703",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.i686.rpm",
+        "sum": "5f3440f857223e31ea35d78dbc09bb65ce50e2b7ecb92773fc6ac9a7c4842dab",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "netcf",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.i686.rpm",
+        "sum": "9a285a1c1d4aad3865c28e686b7209a9c171f8237b543a7f2365cc0b1c23858c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.i686.rpm",
+        "sum": "b6b9da6163b58e3d02634e394be15baf25e8e661732a014bce8a523e1d652928",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libvirt-dbus",
+        "version": "1.3.0",
+        "release": "2.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.i686.rpm",
+        "sum": "dcbbb97041eb5ca213f2b36660ff673bcb0527997471f2d9f0cac5859b9ca106",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi-utils",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.i686.rpm",
+        "sum": "f6e71cb4a36ae547b6332673da7babff8a08bdc8c5c2119e2bbdbcc776e68654",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "sgabios-bin",
         "version": "0.20170427git",
         "release": "3.module_el8.5.0+2608+72063365",
@@ -20,6 +200,210 @@
         "src": "sgabios-0.20170427git-3.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "sgabios-bin-0.20170427git-3.module_el8.5.0+2608+72063365.noarch.rpm",
         "sum": "0576d108953f671585dbd9cd70599016930b33d00b11837c62c0d0f3562585da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-bash-completion",
+        "version": "1.40.2",
+        "release": "28.module_el8.5.0+2608+72063365.alma",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
+        "filename": "libguestfs-bash-completion-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
+        "sum": "0e29dce09fbbe856da27e1dbfdca6148429800b4ece7fb2cb4b83ad667ee1908",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-tools",
+        "version": "1.40.2",
+        "release": "28.module_el8.5.0+2608+72063365.alma",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
+        "filename": "libguestfs-tools-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
+        "sum": "1ca9e63ea5cecf2592061c132498dd36da44174c5fc6f54abfe3532f0c0c3c1d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "seavgabios-bin",
+        "version": "1.13.0",
+        "release": "2.module_el8.5.0+2608+72063365",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "seabios-1.13.0-2.module_el8.5.0+2608+72063365.src.rpm",
+        "filename": "seavgabios-bin-1.13.0-2.module_el8.5.0+2608+72063365.noarch.rpm",
+        "sum": "269c45680656a7ae9256ddcf0822a906f5c2364e3f8e95e75d32f07deb922e33",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-man-pages-ja",
+        "version": "1.40.2",
+        "release": "28.module_el8.5.0+2608+72063365.alma",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
+        "filename": "libguestfs-man-pages-ja-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
+        "sum": "30c9377f8992aa9ca2da6058efa4608a641c1e7b5888220f53188d5bd17df752",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-javadoc",
+        "version": "1.40.2",
+        "release": "28.module_el8.5.0+2608+72063365.alma",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
+        "filename": "libguestfs-javadoc-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
+        "sum": "528041b8e02d592a4a9abad7e366514e45f820b2babce27b2ea17587ffac483d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "sgabios-bin",
+        "version": "0.20170427git",
+        "release": "3.module_el8.6.0+2880+7d9e3703",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "sgabios-bin-0.20170427git-3.module_el8.6.0+2880+7d9e3703.noarch.rpm",
+        "sum": "62a8a51a41f340146cc418ee91d9f48909327024150c0976e94a9cd537b2227f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "seabios-bin",
+        "version": "1.13.0",
+        "release": "2.module_el8.5.0+2608+72063365",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "seabios-1.13.0-2.module_el8.5.0+2608+72063365.src.rpm",
+        "filename": "seabios-bin-1.13.0-2.module_el8.5.0+2608+72063365.noarch.rpm",
+        "sum": "71d3169dea0a4a3ebfe67863e09e5c0fb35e0218b1936921c39c7b2c3ed67ff0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-man-pages-uk",
+        "version": "1.40.2",
+        "release": "28.module_el8.5.0+2608+72063365.alma",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
+        "filename": "libguestfs-man-pages-uk-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
+        "sum": "8b9d26a44ffeacaa41aaceb40121e2064d442f5bb47a9acbb6dc3109d8bba224",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nbdkit-bash-completion",
+        "version": "1.16.2",
+        "release": "4.module_el8.5.0+2608+72063365",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "nbdkit-1.16.2-4.module_el8.5.0+2608+72063365.src.rpm",
+        "filename": "nbdkit-bash-completion-1.16.2-4.module_el8.5.0+2608+72063365.noarch.rpm",
+        "sum": "9da0c6109af169fa47847ce7c02952d3cd3698b00f0a84c180424f422a2aadc5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-inspect-icons",
+        "version": "1.40.2",
+        "release": "28.module_el8.5.0+2608+72063365.alma",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
+        "filename": "libguestfs-inspect-icons-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
+        "sum": "db94f3f844957db6552b44ed0152ba3575e1147165a0ce4192b97098f787871c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "netcf-libs",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
+        "sum": "0e59bef3c22a3ac78aade7aca024d450b5a9844bb2efa77ec9472a6eb04546d3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi-devel",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
+        "sum": "5369f193a1eef427fb67ba7b52715b200bbb2f09efb5007ccfd5946b617125f9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi-utils",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
+        "sum": "6583726885a273936db76042ee6d2e2b73a171fe8a38eb27f957542d8563e3bb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "netcf",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
+        "sum": "6f298e15ea7002756a7546fe825816eb33c89558b6a49d69c53f15dcb15309ee",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libiscsi",
+        "version": "1.18.0",
+        "release": "8.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
+        "sum": "7b869cadb1a04aebedb1931f3c7e40177caf8c4c7b86bc29083fb073301644a8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "netcf-devel",
+        "version": "0.2.8",
+        "release": "12.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
+        "sum": "a296718939722fbb0905e35282bf8f34e176e586c7bd384700975d96682702f9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libvirt-dbus",
+        "version": "1.3.0",
+        "release": "2.module_el8.6.0+2880+7d9e3703",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.src.rpm",
+        "filename": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
+        "sum": "c2da1445e108e5e07ce53fb8a01159ff78d76c53523cfded3e39f79d1a0cf751",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -60,30 +444,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libiscsi-devel",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.i686.rpm",
-        "sum": "0aa4691d4256b08daf7fb2258f1848433c64114bb83b9f80908e2fd45ed7ff70",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "netcf-libs",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-        "sum": "0bcaf5d8e5f17815e1295651458c4f429ff9fccadbfe7b2f3c23b784efee47c1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-daemon-driver-qemu",
         "version": "6.0.0",
         "release": "37.module_el8.5.0+2608+72063365",
@@ -92,30 +452,6 @@
         "src": "libvirt-6.0.0-37.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "libvirt-daemon-driver-qemu-6.0.0-37.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "0d8c5af6ed10686018a8686e19a3603a56de6ba72acf24d66a10bbb95fdb3901",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libguestfs-bash-completion",
-        "version": "1.40.2",
-        "release": "28.module_el8.5.0+2608+72063365.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
-        "filename": "libguestfs-bash-completion-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
-        "sum": "0e29dce09fbbe856da27e1dbfdca6148429800b4ece7fb2cb4b83ad667ee1908",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "netcf-libs",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
-        "sum": "0e59bef3c22a3ac78aade7aca024d450b5a9844bb2efa77ec9472a6eb04546d3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -192,18 +528,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libguestfs-tools",
-        "version": "1.40.2",
-        "release": "28.module_el8.5.0+2608+72063365.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
-        "filename": "libguestfs-tools-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
-        "sum": "1ca9e63ea5cecf2592061c132498dd36da44174c5fc6f54abfe3532f0c0c3c1d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-daemon-driver-nwfilter",
         "version": "6.0.0",
         "release": "37.module_el8.5.0+2608+72063365",
@@ -224,18 +548,6 @@
         "src": "nbdkit-1.16.2-4.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "nbdkit-basic-filters-1.16.2-4.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "22ca57b786dd1ab3ff446da38f9e547cae648c911b3389ad435e92ffa59b517e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "seavgabios-bin",
-        "version": "1.13.0",
-        "release": "2.module_el8.5.0+2608+72063365",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "seabios-1.13.0-2.module_el8.5.0+2608+72063365.src.rpm",
-        "filename": "seavgabios-bin-1.13.0-2.module_el8.5.0+2608+72063365.noarch.rpm",
-        "sum": "269c45680656a7ae9256ddcf0822a906f5c2364e3f8e95e75d32f07deb922e33",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -276,18 +588,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libguestfs-man-pages-ja",
-        "version": "1.40.2",
-        "release": "28.module_el8.5.0+2608+72063365.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
-        "filename": "libguestfs-man-pages-ja-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
-        "sum": "30c9377f8992aa9ca2da6058efa4608a641c1e7b5888220f53188d5bd17df752",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-libnbd",
         "version": "1.2.2",
         "release": "1.module_el8.5.0+2608+72063365",
@@ -308,18 +608,6 @@
         "src": "netcf-0.2.8-12.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "netcf-0.2.8-12.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "33f2590aec68b170f54844eab4c2a54928de91ae28ed866658efed3c2c78573f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "netcf-devel",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.i686.rpm",
-        "sum": "34c3111e0fa2e3d70700321b90d173c5033354e9fed5cd73ddcd5bf2948775f0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -420,18 +708,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libiscsi-utils",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-        "sum": "475718b68490ef173aef57f3aa680f5862a6799ade88eacbaf51738aed5af001",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-daemon-driver-interface",
         "version": "6.0.0",
         "release": "37.module_el8.5.0+2608+72063365",
@@ -480,78 +756,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "netcf-libs",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.i686.rpm",
-        "sum": "515335211f94f6f8d1ac5097aec883faa35971da7b1afed9090bd31f1ba3a7e4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libguestfs-javadoc",
-        "version": "1.40.2",
-        "release": "28.module_el8.5.0+2608+72063365.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
-        "filename": "libguestfs-javadoc-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
-        "sum": "528041b8e02d592a4a9abad7e366514e45f820b2babce27b2ea17587ffac483d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libiscsi-devel",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
-        "sum": "5369f193a1eef427fb67ba7b52715b200bbb2f09efb5007ccfd5946b617125f9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "sgabios",
-        "version": "0.20170427git",
-        "release": "3.module_el8.6.0+2880+7d9e3703",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.i686.rpm",
-        "sum": "5f3440f857223e31ea35d78dbc09bb65ce50e2b7ecb92773fc6ac9a7c4842dab",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "netcf",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-        "sum": "622166df6272f067ff22fb348eae9e5c6b899d029f6fb40d2b259456d70110d8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "sgabios-bin",
-        "version": "0.20170427git",
-        "release": "3.module_el8.6.0+2880+7d9e3703",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "sgabios-bin-0.20170427git-3.module_el8.6.0+2880+7d9e3703.noarch.rpm",
-        "sum": "62a8a51a41f340146cc418ee91d9f48909327024150c0976e94a9cd537b2227f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "supermin",
         "version": "5.1.19",
         "release": "10.module_el8.5.0+2608+72063365",
@@ -560,18 +764,6 @@
         "src": "supermin-5.1.19-10.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "supermin-5.1.19-10.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "635045de6d59b38d6129928f6380200e4792dbc9db34136065a7777b75480cda",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libiscsi-utils",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
-        "sum": "6583726885a273936db76042ee6d2e2b73a171fe8a38eb27f957542d8563e3bb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -600,18 +792,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "netcf",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
-        "sum": "6f298e15ea7002756a7546fe825816eb33c89558b6a49d69c53f15dcb15309ee",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "lua-guestfs",
         "version": "1.40.2",
         "release": "28.module_el8.5.0+2608+72063365.alma",
@@ -632,42 +812,6 @@
         "src": "libvirt-6.0.0-37.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "libvirt-daemon-driver-storage-disk-6.0.0-37.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "7120585b69843f51709d31c06d0008b46d0e1487945a4c33415a3c656a6b4408",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "seabios-bin",
-        "version": "1.13.0",
-        "release": "2.module_el8.5.0+2608+72063365",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "seabios-1.13.0-2.module_el8.5.0+2608+72063365.src.rpm",
-        "filename": "seabios-bin-1.13.0-2.module_el8.5.0+2608+72063365.noarch.rpm",
-        "sum": "71d3169dea0a4a3ebfe67863e09e5c0fb35e0218b1936921c39c7b2c3ed67ff0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libiscsi",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
-        "sum": "7b869cadb1a04aebedb1931f3c7e40177caf8c4c7b86bc29083fb073301644a8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libvirt-dbus",
-        "version": "1.3.0",
-        "release": "2.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-        "sum": "7bd28a649f56f3823e2cf3f6ac920ba389e4eaba1adad666059332b3564421ef",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -780,18 +924,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libguestfs-man-pages-uk",
-        "version": "1.40.2",
-        "release": "28.module_el8.5.0+2608+72063365.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
-        "filename": "libguestfs-man-pages-uk-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
-        "sum": "8b9d26a44ffeacaa41aaceb40121e2064d442f5bb47a9acbb6dc3109d8bba224",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-admin",
         "version": "6.0.0",
         "release": "37.module_el8.5.0+2608+72063365",
@@ -864,18 +996,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "netcf",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.i686.rpm",
-        "sum": "9a285a1c1d4aad3865c28e686b7209a9c171f8237b543a7f2365cc0b1c23858c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-daemon-driver-storage-rbd",
         "version": "6.0.0",
         "release": "37.module_el8.5.0+2608+72063365",
@@ -896,18 +1016,6 @@
         "src": "hivex-1.3.18-21.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "perl-hivex-1.3.18-21.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "9ce9751c9ead0078dbbfe8b736b3478891e289fa75ad1e0a306564d59701ae58",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nbdkit-bash-completion",
-        "version": "1.16.2",
-        "release": "4.module_el8.5.0+2608+72063365",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "nbdkit-1.16.2-4.module_el8.5.0+2608+72063365.src.rpm",
-        "filename": "nbdkit-bash-completion-1.16.2-4.module_el8.5.0+2608+72063365.noarch.rpm",
-        "sum": "9da0c6109af169fa47847ce7c02952d3cd3698b00f0a84c180424f422a2aadc5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -956,18 +1064,6 @@
         "src": "netcf-0.2.8-12.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "netcf-devel-0.2.8-12.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "a1e44dded4e6efb88bdb091442b7fcc17a6c061549cb85b5b0cb2a338cb7ed3f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "netcf-devel",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
-        "sum": "a296718939722fbb0905e35282bf8f34e176e586c7bd384700975d96682702f9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1104,18 +1200,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libiscsi",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.i686.rpm",
-        "sum": "b6b9da6163b58e3d02634e394be15baf25e8e661732a014bce8a523e1d652928",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-daemon-driver-secret",
         "version": "6.0.0",
         "release": "37.module_el8.5.0+2608+72063365",
@@ -1124,18 +1208,6 @@
         "src": "libvirt-6.0.0-37.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "libvirt-daemon-driver-secret-6.0.0-37.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "b7f2401a4e566ca4df19940c259041766a198139b1036279aea7bc410cf309e7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "netcf-devel",
-        "version": "0.2.8",
-        "release": "12.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-        "sum": "b94dbcf9abf28d020816edcf78b874b8a4fb7cce37a822457f4d9fe4efdc33bf",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1172,18 +1244,6 @@
         "src": "libvirt-6.0.0-37.module_el8.5.0+2608+72063365.src.rpm",
         "filename": "libvirt-libs-6.0.0-37.module_el8.5.0+2608+72063365.x86_64.rpm",
         "sum": "bdd758b5b4e7fbf76700f024d63b44832f16a79cd5db9f6a2edf193a78f8c845",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libvirt-dbus",
-        "version": "1.3.0",
-        "release": "2.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
-        "sum": "c2da1445e108e5e07ce53fb8a01159ff78d76c53523cfded3e39f79d1a0cf751",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1248,30 +1308,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libguestfs-inspect-icons",
-        "version": "1.40.2",
-        "release": "28.module_el8.5.0+2608+72063365.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
-        "filename": "libguestfs-inspect-icons-1.40.2-28.module_el8.5.0+2608+72063365.alma.noarch.rpm",
-        "sum": "db94f3f844957db6552b44ed0152ba3575e1147165a0ce4192b97098f787871c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libvirt-dbus",
-        "version": "1.3.0",
-        "release": "2.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.i686.rpm",
-        "sum": "dcbbb97041eb5ca213f2b36660ff673bcb0527997471f2d9f0cac5859b9ca106",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt",
         "version": "6.0.0",
         "release": "37.module_el8.5.0+2608+72063365",
@@ -1292,18 +1328,6 @@
         "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
         "filename": "libguestfs-rescue-1.40.2-28.module_el8.5.0+2608+72063365.alma.x86_64.rpm",
         "sum": "e5fd4d03b5a75c37115d069d01421682334cb8f0a7b2ec14d1066831687d5d63",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libiscsi",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-        "sum": "e6aabc36bca82477806e4d9cca5d92d6951021e58146a289170083bd53156e4b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1352,30 +1376,6 @@
         "src": "libguestfs-1.40.2-28.module_el8.5.0+2608+72063365.alma.src.rpm",
         "filename": "libguestfs-java-devel-1.40.2-28.module_el8.5.0+2608+72063365.alma.x86_64.rpm",
         "sum": "f54de048020d9d6ed13296393bd1e9b3f77d1d5a9c8d11caa38ea5c166f0dda8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libiscsi-utils",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.i686.rpm",
-        "sum": "f6e71cb4a36ae547b6332673da7babff8a08bdc8c5c2119e2bbdbcc776e68654",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libiscsi-devel",
-        "version": "1.18.0",
-        "release": "8.module_el8.6.0+2880+7d9e3703",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-        "filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-        "sum": "f7772d478351f5bfc0421cc6fa02eb1d4f552a9723fad5327390b33a6d511477",
         "sum_type": 5,
         "reboot_suggested": 0
       },

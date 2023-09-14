@@ -12,30 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_go-toolset",
     "packages": [
       {
-        "name": "go-toolset",
-        "version": "1.16.12",
-        "release": "1.module_el8.5.0+2604+960c7771",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "go-toolset-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
-        "filename": "go-toolset-1.16.12-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
-        "sum": "103d92e2a087676a5f4d522cd95dcb5fd0b660b7409bacc726916d98a293ab54",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "delve",
-        "version": "1.6.0",
-        "release": "1.module_el8.5.0+2604+960c7771",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "delve-1.6.0-1.module_el8.5.0+2604+960c7771.src.rpm",
-        "filename": "delve-1.6.0-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
-        "sum": "34c5be2e272ff6d304538f3b442519c0cbd98cff14c5f0e9ce1e2bcda5de8258",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "golang-tests",
         "version": "1.16.12",
         "release": "1.module_el8.5.0+2604+960c7771",
@@ -48,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "golang",
-        "version": "1.16.12",
-        "release": "1.module_el8.5.0+2604+960c7771",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
-        "filename": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
-        "sum": "4f53f6ee70dde2caf30801a7d452093f7c93df04600f847e1092526470b5462c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "golang-src",
         "version": "1.16.12",
         "release": "1.module_el8.5.0+2604+960c7771",
@@ -68,30 +32,6 @@
         "src": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
         "filename": "golang-src-1.16.12-1.module_el8.5.0+2604+960c7771.noarch.rpm",
         "sum": "a5cc0a3a5a82a387e97223e6357c9f1aa785cf3ca0e7edb7d08180c4320d8681",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "golang-bin",
-        "version": "1.16.12",
-        "release": "1.module_el8.5.0+2604+960c7771",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
-        "filename": "golang-bin-1.16.12-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
-        "sum": "b650b772496214b120cbf374584e1536cd949c19a62131b38326a4599f34d947",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "golang-race",
-        "version": "1.16.12",
-        "release": "1.module_el8.5.0+2604+960c7771",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
-        "filename": "golang-race-1.16.12-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
-        "sum": "c1292c7150fef3afb0d45befe6e0c9ae82e5f1240988f18f4cce01aff916063f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,6 +56,66 @@
         "src": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
         "filename": "golang-misc-1.16.12-1.module_el8.5.0+2604+960c7771.noarch.rpm",
         "sum": "ec4c09c3fed74f8edd31f2b978a8bf82b77552c808e3f860f5fd31e2847563a8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "go-toolset",
+        "version": "1.16.12",
+        "release": "1.module_el8.5.0+2604+960c7771",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "go-toolset-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
+        "filename": "go-toolset-1.16.12-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
+        "sum": "103d92e2a087676a5f4d522cd95dcb5fd0b660b7409bacc726916d98a293ab54",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "delve",
+        "version": "1.6.0",
+        "release": "1.module_el8.5.0+2604+960c7771",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "delve-1.6.0-1.module_el8.5.0+2604+960c7771.src.rpm",
+        "filename": "delve-1.6.0-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
+        "sum": "34c5be2e272ff6d304538f3b442519c0cbd98cff14c5f0e9ce1e2bcda5de8258",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang",
+        "version": "1.16.12",
+        "release": "1.module_el8.5.0+2604+960c7771",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
+        "filename": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
+        "sum": "4f53f6ee70dde2caf30801a7d452093f7c93df04600f847e1092526470b5462c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-bin",
+        "version": "1.16.12",
+        "release": "1.module_el8.5.0+2604+960c7771",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
+        "filename": "golang-bin-1.16.12-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
+        "sum": "b650b772496214b120cbf374584e1536cd949c19a62131b38326a4599f34d947",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-race",
+        "version": "1.16.12",
+        "release": "1.module_el8.5.0+2604+960c7771",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "golang-1.16.12-1.module_el8.5.0+2604+960c7771.src.rpm",
+        "filename": "golang-race-1.16.12-1.module_el8.5.0+2604+960c7771.x86_64.rpm",
+        "sum": "c1292c7150fef3afb0d45befe6e0c9ae82e5f1240988f18f4cce01aff916063f",
         "sum_type": 5,
         "reboot_suggested": 0
       }

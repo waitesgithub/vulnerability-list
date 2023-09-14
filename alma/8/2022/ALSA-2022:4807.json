@@ -8,18 +8,18 @@
     "$date": 1653983816000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_postgresql",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_postgresql",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_postgresql",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_postgresql",
     "packages": [
       {
-        "name": "postgresql-docs",
+        "name": "postgresql-test-rpm-macros",
         "version": "12.11",
         "release": "2.module_el8.6.0+2905+eb237fb8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "noarch",
         "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
-        "filename": "postgresql-docs-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
-        "sum": "0a23e6fe48bf80cc8e09f8e9ff80ca98cdf09e84b40c00c56528140fdf4ec0d0",
+        "filename": "postgresql-test-rpm-macros-12.11-2.module_el8.6.0+2905+eb237fb8.noarch.rpm",
+        "sum": "c8cb2a7460aa833bc30a2020eaac326e4b1cf9c600c15c100f90fc60a9646b9a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -48,18 +48,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql-static",
-        "version": "12.11",
-        "release": "2.module_el8.6.0+2905+eb237fb8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
-        "filename": "postgresql-static-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
-        "sum": "17b9cfef423f77ffc7810f41eb8804afc5ecbfe4d51c376306c3d9a4a7da527b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-plperl",
         "version": "12.11",
         "release": "2.module_el8.6.0+2905+eb237fb8",
@@ -80,18 +68,6 @@
         "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
         "filename": "postgresql-server-12.11-2.module_el8.6.0+2905+eb237fb8.ppc64le.rpm",
         "sum": "2d63137b0808a2ccf112779e8429552d926bf829514095a41a5ba29b856e538a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgresql-test",
-        "version": "12.11",
-        "release": "2.module_el8.6.0+2905+eb237fb8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
-        "filename": "postgresql-test-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
-        "sum": "2f4891673f6ac34c89e9ab2ed5cbeb0f69470c5ecb1adf428c6e404127488ea2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -136,18 +112,6 @@
         "version": "12.11",
         "release": "2.module_el8.6.0+2905+eb237fb8",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
-        "filename": "postgresql-server-devel-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
-        "sum": "438fffa1bae67782652122110766dcc0f84e1bf1601b6f398265fd35dc595b87",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgresql-server-devel",
-        "version": "12.11",
-        "release": "2.module_el8.6.0+2905+eb237fb8",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
         "filename": "postgresql-server-devel-12.11-2.module_el8.6.0+2905+eb237fb8.ppc64le.rpm",
@@ -168,18 +132,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql-server",
-        "version": "12.11",
-        "release": "2.module_el8.6.0+2905+eb237fb8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
-        "filename": "postgresql-server-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
-        "sum": "6b53b79faca5dfbec80c6faede9d3c7c6f4b71f68d7775f2d8c0baecab814ffb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-contrib",
         "version": "12.11",
         "release": "2.module_el8.6.0+2905+eb237fb8",
@@ -192,18 +144,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql-upgrade",
-        "version": "12.11",
-        "release": "2.module_el8.6.0+2905+eb237fb8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
-        "filename": "postgresql-upgrade-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
-        "sum": "71ef7c93a90f35309b06bd958bd44fee4d1197c291baca7b462335f241791c96",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-test",
         "version": "12.11",
         "release": "2.module_el8.6.0+2905+eb237fb8",
@@ -212,18 +152,6 @@
         "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
         "filename": "postgresql-test-12.11-2.module_el8.6.0+2905+eb237fb8.ppc64le.rpm",
         "sum": "7b77a5b434f7d53bb92066988d8d61faf9a2d0224e62779323465ff3b5ee4dce",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pg_repack",
-        "version": "1.4.6",
-        "release": "3.module_el8.6.0+2758+4f4474df",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pg_repack-1.4.6-3.module_el8.6.0+2758+4f4474df.src.rpm",
-        "filename": "pg_repack-1.4.6-3.module_el8.6.0+2758+4f4474df.x86_64.rpm",
-        "sum": "859b37024db75a431fdf4394371e887cf80f8cd03f44bf968f76e75f66b78821",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -260,6 +188,102 @@
         "src": "pg_repack-1.4.6-3.module_el8.6.0+2760+1746ec94.src.rpm",
         "filename": "pg_repack-1.4.6-3.module_el8.6.0+2760+1746ec94.ppc64le.rpm",
         "sum": "9a907ca1b9082a2da428045283c26d15f54bd5ed2179c1de36a53ae6b52c08bb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql",
+        "version": "12.11",
+        "release": "2.module_el8.6.0+2905+eb237fb8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
+        "filename": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.ppc64le.rpm",
+        "sum": "d34d8d71fa7f82b50c1f51c55d4bfb3a9be0659121a2d2548e11b0aafb5054d7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-docs",
+        "version": "12.11",
+        "release": "2.module_el8.6.0+2905+eb237fb8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
+        "filename": "postgresql-docs-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
+        "sum": "0a23e6fe48bf80cc8e09f8e9ff80ca98cdf09e84b40c00c56528140fdf4ec0d0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-static",
+        "version": "12.11",
+        "release": "2.module_el8.6.0+2905+eb237fb8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
+        "filename": "postgresql-static-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
+        "sum": "17b9cfef423f77ffc7810f41eb8804afc5ecbfe4d51c376306c3d9a4a7da527b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-test",
+        "version": "12.11",
+        "release": "2.module_el8.6.0+2905+eb237fb8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
+        "filename": "postgresql-test-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
+        "sum": "2f4891673f6ac34c89e9ab2ed5cbeb0f69470c5ecb1adf428c6e404127488ea2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-server-devel",
+        "version": "12.11",
+        "release": "2.module_el8.6.0+2905+eb237fb8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
+        "filename": "postgresql-server-devel-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
+        "sum": "438fffa1bae67782652122110766dcc0f84e1bf1601b6f398265fd35dc595b87",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-server",
+        "version": "12.11",
+        "release": "2.module_el8.6.0+2905+eb237fb8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
+        "filename": "postgresql-server-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
+        "sum": "6b53b79faca5dfbec80c6faede9d3c7c6f4b71f68d7775f2d8c0baecab814ffb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-upgrade",
+        "version": "12.11",
+        "release": "2.module_el8.6.0+2905+eb237fb8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
+        "filename": "postgresql-upgrade-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
+        "sum": "71ef7c93a90f35309b06bd958bd44fee4d1197c291baca7b462335f241791c96",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pg_repack",
+        "version": "1.4.6",
+        "release": "3.module_el8.6.0+2758+4f4474df",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pg_repack-1.4.6-3.module_el8.6.0+2758+4f4474df.src.rpm",
+        "filename": "pg_repack-1.4.6-3.module_el8.6.0+2758+4f4474df.x86_64.rpm",
+        "sum": "859b37024db75a431fdf4394371e887cf80f8cd03f44bf968f76e75f66b78821",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -312,18 +336,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql-test-rpm-macros",
-        "version": "12.11",
-        "release": "2.module_el8.6.0+2905+eb237fb8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
-        "filename": "postgresql-test-rpm-macros-12.11-2.module_el8.6.0+2905+eb237fb8.noarch.rpm",
-        "sum": "c8cb2a7460aa833bc30a2020eaac326e4b1cf9c600c15c100f90fc60a9646b9a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql",
         "version": "12.11",
         "release": "2.module_el8.6.0+2905+eb237fb8",
@@ -332,18 +344,6 @@
         "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
         "filename": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.x86_64.rpm",
         "sum": "cce77e4a0043dce4d29b0521f197a84d931399b640e2e7868b02dbe2c4291ee9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgresql",
-        "version": "12.11",
-        "release": "2.module_el8.6.0+2905+eb237fb8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.src.rpm",
-        "filename": "postgresql-12.11-2.module_el8.6.0+2905+eb237fb8.ppc64le.rpm",
-        "sum": "d34d8d71fa7f82b50c1f51c55d4bfb3a9be0659121a2d2548e11b0aafb5054d7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -388,7 +388,7 @@
       "stream": "12",
       "name": "postgresql",
       "version": 8060020220531080156,
-      "arch": "x86_64",
+      "arch": "ppc64le",
       "context": "9edba152"
     }
   },

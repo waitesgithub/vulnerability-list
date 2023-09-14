@@ -8,18 +8,30 @@
     "$date": 1568129569000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-deps",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-deps",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_pki-deps",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_pki-deps",
     "packages": [
       {
         "name": "python-nss-doc",
         "version": "1.0.1",
-        "release": "10.module_el8.5.0+150+5f0dbea0.alma",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.src.rpm",
-        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.ppc64le.rpm",
-        "sum": "03edf785b6a7fde48ad82738b7b919a2682d2ab600a3cf32da8c2d32ee514d88",
+        "arch": "aarch64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
+        "sum": "61a26ea1c27f1ca3c6032b2f56d4060152e3e73a6ccb07181913a7ad380bad27",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
+        "sum": "ae60fc0416f6002b600d429d0ec5f54876e7a259bd5ba480de5886d03b28e23d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -104,18 +116,6 @@
         "src": "slf4j-1.7.25-4.module_el8.6.0+2752+f1f3449e.src.rpm",
         "filename": "slf4j-1.7.25-4.module_el8.6.0+2752+f1f3449e.noarch.rpm",
         "sum": "292e8ea233b72dd09de80498503fb693f33e3c296ba8a00d7b43a587e6561dbd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+150+5f0dbea0.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.ppc64le.rpm",
-        "sum": "2d52840b92786dc299c9aab9593858a469f292ddce0f558c0b1f752cf1f1bf3f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -260,18 +260,6 @@
         "src": "slf4j-1.7.25-4.module_el8.5.0+2577+9e95fe00.src.rpm",
         "filename": "slf4j-jdk14-1.7.25-4.module_el8.5.0+2577+9e95fe00.noarch.rpm",
         "sum": "5f436c322a1b3aad14621f8b6e6bec715184284b492c3ff60591f0d8bec3ffde",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python-nss-doc",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
-        "sum": "61a26ea1c27f1ca3c6032b2f56d4060152e3e73a6ccb07181913a7ad380bad27",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -456,18 +444,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
-        "sum": "ae60fc0416f6002b600d429d0ec5f54876e7a259bd5ba480de5886d03b28e23d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "glassfish-fastinfoset",
         "version": "1.2.13",
         "release": "9.module_el8.5.0+2577+9e95fe00",
@@ -524,18 +500,6 @@
         "src": "apache-commons-lang-2.6-21.module_el8.5.0+2577+9e95fe00.src.rpm",
         "filename": "apache-commons-lang-2.6-21.module_el8.5.0+2577+9e95fe00.noarch.rpm",
         "sum": "c1cbb22cc5abd53350cd3fd27187e0c988d3872f91ec160039b3ad02565d2b50",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
-        "sum": "c715d300c489d952c2abd192c47eb696c0ed6b286bb55883fecbf1d07f96a412",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -660,18 +624,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python-nss-doc",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
-        "sum": "f77a753add8d4d4cc9e8393982a0c220fd0ea5b7b2247e5f2c1399f723202eb0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "jackson-module-jaxb-annotations",
         "version": "2.7.6",
         "release": "4.module_el8.5.0+2577+9e95fe00",
@@ -682,14 +634,62 @@
         "sum": "fb515d40cac152aad1609b30a1c9d0055f7c1bb842273f558573965a13fed76d",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "python-nss-doc",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+150+5f0dbea0.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.src.rpm",
+        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.ppc64le.rpm",
+        "sum": "03edf785b6a7fde48ad82738b7b919a2682d2ab600a3cf32da8c2d32ee514d88",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+150+5f0dbea0.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+150+5f0dbea0.alma.ppc64le.rpm",
+        "sum": "2d52840b92786dc299c9aab9593858a469f292ddce0f558c0b1f752cf1f1bf3f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
+        "sum": "c715d300c489d952c2abd192c47eb696c0ed6b286bb55883fecbf1d07f96a412",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python-nss-doc",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
+        "sum": "f77a753add8d4d4cc9e8393982a0c220fd0ea5b7b2247e5f2c1399f723202eb0",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "10.6",
       "name": "pki-deps",
-      "version": 8050020211010083254,
-      "arch": "aarch64",
-      "context": "b4937e53"
+      "version": 8050020211220072621,
+      "arch": "ppc64le",
+      "context": "dca7b4a4"
     }
   },
   "pushcount": "3",

@@ -8,8 +8,8 @@
     "$date": 1653910772000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_postgresql",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_postgresql",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_postgresql",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_postgresql",
     "packages": [
       {
         "name": "postgresql-static",
@@ -48,18 +48,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql-docs",
-        "version": "10.21",
-        "release": "2.module_el8.6.0+2901+a6abf8d9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
-        "filename": "postgresql-docs-10.21-2.module_el8.6.0+2901+a6abf8d9.x86_64.rpm",
-        "sum": "1d71af44d558267c64a369805555ad981a826cf2cb9de00075e8f2a103c56467",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-upgrade",
         "version": "10.21",
         "release": "2.module_el8.6.0+2901+a6abf8d9",
@@ -92,6 +80,102 @@
         "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
         "filename": "postgresql-test-rpm-macros-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
         "sum": "33289c4c1fec9a297e53b54cefc3f84964279686d68da11cd5341e366bd389f0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-contrib",
+        "version": "10.21",
+        "release": "2.module_el8.6.0+2901+a6abf8d9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
+        "filename": "postgresql-contrib-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
+        "sum": "7de7235e4801addab0ea5af1ccc0af1c9bd13ef084133f10ec508b5fb98c3eef",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-server",
+        "version": "10.21",
+        "release": "2.module_el8.6.0+2901+a6abf8d9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
+        "filename": "postgresql-server-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
+        "sum": "9797df16ba43fbc46aca67e494ef1037452b1eb0c444698694fce8ae91915b03",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-pltcl",
+        "version": "10.21",
+        "release": "2.module_el8.6.0+2901+a6abf8d9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
+        "filename": "postgresql-pltcl-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
+        "sum": "a063e75f44597504a80513ffe8228099eb681a07592c57e841e2ba54d02b3ae8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-plperl",
+        "version": "10.21",
+        "release": "2.module_el8.6.0+2901+a6abf8d9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
+        "filename": "postgresql-plperl-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
+        "sum": "a1f2674b796fc403491ca837e5fcc041152e1199b1973ffcb95be0005ad87422",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-test",
+        "version": "10.21",
+        "release": "2.module_el8.6.0+2901+a6abf8d9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
+        "filename": "postgresql-test-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
+        "sum": "ae98041c5ecc654b76c0b2c39ee58b25d3a59efd55be9f66737d820ace17be6b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql",
+        "version": "10.21",
+        "release": "2.module_el8.6.0+2901+a6abf8d9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
+        "filename": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
+        "sum": "c22d530ed57c3829df79b6b21f36f26530d49d6d208fb547382a7128b4529ea2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-upgrade-devel",
+        "version": "10.21",
+        "release": "2.module_el8.6.0+2901+a6abf8d9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
+        "filename": "postgresql-upgrade-devel-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
+        "sum": "ef1d96b91291b687297162475538bf4eb759ccf40fbca91f79ea7dda74e5b1a2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgresql-docs",
+        "version": "10.21",
+        "release": "2.module_el8.6.0+2901+a6abf8d9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
+        "filename": "postgresql-docs-10.21-2.module_el8.6.0+2901+a6abf8d9.x86_64.rpm",
+        "sum": "1d71af44d558267c64a369805555ad981a826cf2cb9de00075e8f2a103c56467",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -144,18 +228,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql-contrib",
-        "version": "10.21",
-        "release": "2.module_el8.6.0+2901+a6abf8d9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
-        "filename": "postgresql-contrib-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
-        "sum": "7de7235e4801addab0ea5af1ccc0af1c9bd13ef084133f10ec508b5fb98c3eef",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-server",
         "version": "10.21",
         "release": "2.module_el8.6.0+2901+a6abf8d9",
@@ -180,30 +252,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql-server",
-        "version": "10.21",
-        "release": "2.module_el8.6.0+2901+a6abf8d9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
-        "filename": "postgresql-server-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
-        "sum": "9797df16ba43fbc46aca67e494ef1037452b1eb0c444698694fce8ae91915b03",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgresql-pltcl",
-        "version": "10.21",
-        "release": "2.module_el8.6.0+2901+a6abf8d9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
-        "filename": "postgresql-pltcl-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
-        "sum": "a063e75f44597504a80513ffe8228099eb681a07592c57e841e2ba54d02b3ae8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-server-devel",
         "version": "10.21",
         "release": "2.module_el8.6.0+2901+a6abf8d9",
@@ -216,18 +264,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql-plperl",
-        "version": "10.21",
-        "release": "2.module_el8.6.0+2901+a6abf8d9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
-        "filename": "postgresql-plperl-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
-        "sum": "a1f2674b796fc403491ca837e5fcc041152e1199b1973ffcb95be0005ad87422",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-test-rpm-macros",
         "version": "10.21",
         "release": "2.module_el8.6.0+2901+a6abf8d9",
@@ -236,18 +272,6 @@
         "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
         "filename": "postgresql-test-rpm-macros-10.21-2.module_el8.6.0+2901+a6abf8d9.x86_64.rpm",
         "sum": "ae45423537220004275ecbfdb8560dfc55854fc9081d859c6f2aa82f347597e4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgresql-test",
-        "version": "10.21",
-        "release": "2.module_el8.6.0+2901+a6abf8d9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
-        "filename": "postgresql-test-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
-        "sum": "ae98041c5ecc654b76c0b2c39ee58b25d3a59efd55be9f66737d820ace17be6b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -276,18 +300,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "postgresql",
-        "version": "10.21",
-        "release": "2.module_el8.6.0+2901+a6abf8d9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
-        "filename": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
-        "sum": "c22d530ed57c3829df79b6b21f36f26530d49d6d208fb547382a7128b4529ea2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql-test",
         "version": "10.21",
         "release": "2.module_el8.6.0+2901+a6abf8d9",
@@ -296,18 +308,6 @@
         "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
         "filename": "postgresql-test-10.21-2.module_el8.6.0+2901+a6abf8d9.x86_64.rpm",
         "sum": "dcd7dec4fa279004e24455ecc2312af23918f17b5b3ffe312fe9c0fb69c3f387",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgresql-upgrade-devel",
-        "version": "10.21",
-        "release": "2.module_el8.6.0+2901+a6abf8d9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgresql-10.21-2.module_el8.6.0+2901+a6abf8d9.src.rpm",
-        "filename": "postgresql-upgrade-devel-10.21-2.module_el8.6.0+2901+a6abf8d9.ppc64le.rpm",
-        "sum": "ef1d96b91291b687297162475538bf4eb759ccf40fbca91f79ea7dda74e5b1a2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -328,7 +328,7 @@
       "stream": "10",
       "name": "postgresql",
       "version": 8060020220530094827,
-      "arch": "x86_64",
+      "arch": "ppc64le",
       "context": "9edba152"
     }
   },

@@ -8,9 +8,21 @@
     "$date": 1637698655000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_mailman",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_mailman",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_mailman",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_mailman",
     "packages": [
+      {
+        "name": "mailman",
+        "version": "2.1.29",
+        "release": "12.module_el8.5.0+2602+327eb9f3.2",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.src.rpm",
+        "filename": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.aarch64.rpm",
+        "sum": "efe69d400b2d20c0d8051d2e3e87f550b6deb07fbae9d6e0fabb5350b8283a7a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "mailman",
         "version": "2.1.29",
@@ -34,26 +46,14 @@
         "sum": "365b7f111fcd8680044caadf67c14f988d4719e48e9a61245b6d433e43edf955",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "mailman",
-        "version": "2.1.29",
-        "release": "12.module_el8.5.0+2602+327eb9f3.2",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.src.rpm",
-        "filename": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.aarch64.rpm",
-        "sum": "efe69d400b2d20c0d8051d2e3e87f550b6deb07fbae9d6e0fabb5350b8283a7a",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "2.1",
       "name": "mailman",
-      "version": 8050020211203030332,
-      "arch": "aarch64",
-      "context": "aa3ced04"
+      "version": 8050020211210103436,
+      "arch": "ppc64le",
+      "context": "77fc8825"
     }
   },
   "pushcount": "2",
@@ -78,7 +78,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Important",
   "solution": "",
   "status": "final",

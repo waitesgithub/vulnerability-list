@@ -28,6 +28,18 @@
         "version": "1.30.0",
         "release": "7.el8",
         "epoch": "1",
+        "arch": "i686",
+        "src": "NetworkManager-1.30.0-7.el8.src.rpm",
+        "filename": "NetworkManager-libnm-devel-1.30.0-7.el8.i686.rpm",
+        "sum": "ca27422c571cb1a95887b1ced8805f42418414bcd4fcf2894e8b5ebcfbfc468e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "NetworkManager-libnm-devel",
+        "version": "1.30.0",
+        "release": "7.el8",
+        "epoch": "1",
         "arch": "x86_64",
         "src": "NetworkManager-1.30.0-7.el8.src.rpm",
         "filename": "NetworkManager-libnm-devel-1.30.0-7.el8.x86_64.rpm",
@@ -44,18 +56,6 @@
         "src": "libnma-1.8.30-2.el8.src.rpm",
         "filename": "libnma-devel-1.8.30-2.el8.x86_64.rpm",
         "sum": "65c415c46198a79aae4427211a152c5c99e041597553fe18755450b83cd51450",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "NetworkManager-libnm-devel",
-        "version": "1.30.0",
-        "release": "7.el8",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "NetworkManager-1.30.0-7.el8.src.rpm",
-        "filename": "NetworkManager-libnm-devel-1.30.0-7.el8.i686.rpm",
-        "sum": "ca27422c571cb1a95887b1ced8805f42418414bcd4fcf2894e8b5ebcfbfc468e",
         "sum_type": 5,
         "reboot_suggested": 0
       }

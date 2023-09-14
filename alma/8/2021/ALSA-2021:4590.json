@@ -24,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "rust-std-static",
-        "version": "1.54.0",
-        "release": "3.module_el8.5.0+2599+d655d86c",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.src.rpm",
-        "filename": "rust-std-static-1.54.0-3.module_el8.5.0+2599+d655d86c.x86_64.rpm",
-        "sum": "28d05d0690f53a8b67a5f4dc1f60614419bc2a02e819b8edd4a4d8ea31d7f8ac",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "cargo-doc",
         "version": "1.54.0",
         "release": "3.module_el8.5.0+2599+d655d86c",
@@ -60,30 +48,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "rust-std-static-wasm32-unknown-unknown",
-        "version": "1.54.0",
-        "release": "3.module_el8.5.0+2599+d655d86c",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.src.rpm",
-        "filename": "rust-std-static-wasm32-unknown-unknown-1.54.0-3.module_el8.5.0+2599+d655d86c.x86_64.rpm",
-        "sum": "56b7e48fa5dd5925464dec986adfdb2cf73f89ec5c0e59321ba4a49130ea4184",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rust",
-        "version": "1.54.0",
-        "release": "3.module_el8.5.0+2599+d655d86c",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.src.rpm",
-        "filename": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.x86_64.rpm",
-        "sum": "5ca81b55aaa01c8cb4eb72c1c81db8cfc3898bd107f94c40e2f92a833e027e3c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "rust-lldb",
         "version": "1.54.0",
         "release": "3.module_el8.5.0+2599+d655d86c",
@@ -104,6 +68,42 @@
         "src": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.src.rpm",
         "filename": "rust-gdb-1.54.0-3.module_el8.5.0+2599+d655d86c.noarch.rpm",
         "sum": "5f92c0457086c25988349416f943c085f0f4d9ff4041f9cd151839d9fe0f95f6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rust-std-static",
+        "version": "1.54.0",
+        "release": "3.module_el8.5.0+2599+d655d86c",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.src.rpm",
+        "filename": "rust-std-static-1.54.0-3.module_el8.5.0+2599+d655d86c.x86_64.rpm",
+        "sum": "28d05d0690f53a8b67a5f4dc1f60614419bc2a02e819b8edd4a4d8ea31d7f8ac",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rust-std-static-wasm32-unknown-unknown",
+        "version": "1.54.0",
+        "release": "3.module_el8.5.0+2599+d655d86c",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.src.rpm",
+        "filename": "rust-std-static-wasm32-unknown-unknown-1.54.0-3.module_el8.5.0+2599+d655d86c.x86_64.rpm",
+        "sum": "56b7e48fa5dd5925464dec986adfdb2cf73f89ec5c0e59321ba4a49130ea4184",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rust",
+        "version": "1.54.0",
+        "release": "3.module_el8.5.0+2599+d655d86c",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.src.rpm",
+        "filename": "rust-1.54.0-3.module_el8.5.0+2599+d655d86c.x86_64.rpm",
+        "sum": "5ca81b55aaa01c8cb4eb72c1c81db8cfc3898bd107f94c40e2f92a833e027e3c",
         "sum_type": 5,
         "reboot_suggested": 0
       },

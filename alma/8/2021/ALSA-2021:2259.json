@@ -8,69 +8,9 @@
     "$date": 1623060173000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_nginx",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_nginx",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_nginx",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_nginx",
     "packages": [
-      {
-        "name": "nginx",
-        "version": "1.18.0",
-        "release": "3.module_el8.5.0+36+48437aab.1.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.src.rpm",
-        "filename": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.ppc64le.rpm",
-        "sum": "016bcd914d32fa73af47db135e665e4737d07146fb0d03723b384fb9a88ba003",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-mod-stream",
-        "version": "1.18.0",
-        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
-        "filename": "nginx-mod-stream-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.x86_64.rpm",
-        "sum": "276509a840d04e22ff7874b0fdea6838dbbf2f56911e007507b0a58609aae710",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-mod-http-perl",
-        "version": "1.18.0",
-        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
-        "filename": "nginx-mod-http-perl-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.x86_64.rpm",
-        "sum": "28de080598e0e9a90cedb56a1eefa430b8295db19733a375abdc2d0cb6450aff",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-mod-stream",
-        "version": "1.18.0",
-        "release": "3.module_el8.5.0+36+48437aab.1.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.src.rpm",
-        "filename": "nginx-mod-stream-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.ppc64le.rpm",
-        "sum": "318b1de21d8474f299220a49ee3be72345df8c7759f9ea668da20b3f5cec6725",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-filesystem",
-        "version": "1.18.0",
-        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
-        "filename": "nginx-filesystem-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.noarch.rpm",
-        "sum": "3b3a12dbacf3dba4cd3f8f5087476831af24532e734c27dce1c16ba3e6ae5f31",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "nginx-mod-http-perl",
         "version": "1.18.0",
@@ -80,54 +20,6 @@
         "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
         "filename": "nginx-mod-http-perl-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.aarch64.rpm",
         "sum": "45ad9c7189ecbace7a0df0f28ae6399b9250181d8aaeee3d154aa00160f20932",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx",
-        "version": "1.18.0",
-        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
-        "filename": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.x86_64.rpm",
-        "sum": "53e1c1d546596e2b8b4a34cfbbaaa39498a5ecbc66336600e08a45fc4f4d1543",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-mod-http-xslt-filter",
-        "version": "1.18.0",
-        "release": "3.module_el8.5.0+36+48437aab.1.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.src.rpm",
-        "filename": "nginx-mod-http-xslt-filter-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.ppc64le.rpm",
-        "sum": "67b76474f2a21a132292703fa17f6631df80896f965e23d2ec07fcf285d6d77d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-mod-mail",
-        "version": "1.18.0",
-        "release": "3.module_el8.5.0+36+48437aab.1.alma",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.src.rpm",
-        "filename": "nginx-mod-mail-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.ppc64le.rpm",
-        "sum": "767abcc937688b5cb4d0b547c98a45d906f85e21fac8b46ea047b0acfb77a71a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-all-modules",
-        "version": "1.18.0",
-        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
-        "filename": "nginx-all-modules-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.noarch.rpm",
-        "sum": "86b8abcb6364198c147acf1d05d8daad5fd47cd07d0660bb84f1b406b240438d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -180,6 +72,90 @@
         "reboot_suggested": 0
       },
       {
+        "name": "nginx-mod-stream",
+        "version": "1.18.0",
+        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
+        "filename": "nginx-mod-stream-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.aarch64.rpm",
+        "sum": "dbe5e967c3cb7cac5e82ef069d08a87129fa6922f2d256cb0947ff10f949ef0a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx-filesystem",
+        "version": "1.18.0",
+        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
+        "filename": "nginx-filesystem-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.noarch.rpm",
+        "sum": "3b3a12dbacf3dba4cd3f8f5087476831af24532e734c27dce1c16ba3e6ae5f31",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx-all-modules",
+        "version": "1.18.0",
+        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
+        "filename": "nginx-all-modules-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.noarch.rpm",
+        "sum": "86b8abcb6364198c147acf1d05d8daad5fd47cd07d0660bb84f1b406b240438d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx",
+        "version": "1.18.0",
+        "release": "3.module_el8.5.0+36+48437aab.1.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.src.rpm",
+        "filename": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.ppc64le.rpm",
+        "sum": "016bcd914d32fa73af47db135e665e4737d07146fb0d03723b384fb9a88ba003",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx-mod-stream",
+        "version": "1.18.0",
+        "release": "3.module_el8.5.0+36+48437aab.1.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.src.rpm",
+        "filename": "nginx-mod-stream-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.ppc64le.rpm",
+        "sum": "318b1de21d8474f299220a49ee3be72345df8c7759f9ea668da20b3f5cec6725",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx-mod-http-xslt-filter",
+        "version": "1.18.0",
+        "release": "3.module_el8.5.0+36+48437aab.1.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.src.rpm",
+        "filename": "nginx-mod-http-xslt-filter-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.ppc64le.rpm",
+        "sum": "67b76474f2a21a132292703fa17f6631df80896f965e23d2ec07fcf285d6d77d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx-mod-mail",
+        "version": "1.18.0",
+        "release": "3.module_el8.5.0+36+48437aab.1.alma",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "nginx-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.src.rpm",
+        "filename": "nginx-mod-mail-1.18.0-3.module_el8.5.0+36+48437aab.1.alma.ppc64le.rpm",
+        "sum": "767abcc937688b5cb4d0b547c98a45d906f85e21fac8b46ea047b0acfb77a71a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "nginx-mod-http-perl",
         "version": "1.18.0",
         "release": "3.module_el8.5.0+36+48437aab.1.alma",
@@ -204,6 +180,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "nginx-mod-stream",
+        "version": "1.18.0",
+        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
+        "filename": "nginx-mod-stream-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.x86_64.rpm",
+        "sum": "276509a840d04e22ff7874b0fdea6838dbbf2f56911e007507b0a58609aae710",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx-mod-http-perl",
+        "version": "1.18.0",
+        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
+        "filename": "nginx-mod-http-perl-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.x86_64.rpm",
+        "sum": "28de080598e0e9a90cedb56a1eefa430b8295db19733a375abdc2d0cb6450aff",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx",
+        "version": "1.18.0",
+        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
+        "filename": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.x86_64.rpm",
+        "sum": "53e1c1d546596e2b8b4a34cfbbaaa39498a5ecbc66336600e08a45fc4f4d1543",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "nginx-mod-mail",
         "version": "1.18.0",
         "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
@@ -212,18 +224,6 @@
         "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
         "filename": "nginx-mod-mail-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.x86_64.rpm",
         "sum": "db9603d72d59e9be55a1859f649b3c464350bdb4d52f0a097af6a2ae62fc54be",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nginx-mod-stream",
-        "version": "1.18.0",
-        "release": "3.module_el8.4.0+2472+f736ed63.1.alma",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "nginx-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.src.rpm",
-        "filename": "nginx-mod-stream-1.18.0-3.module_el8.4.0+2472+f736ed63.1.alma.aarch64.rpm",
-        "sum": "dbe5e967c3cb7cac5e82ef069d08a87129fa6922f2d256cb0947ff10f949ef0a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -255,9 +255,9 @@
     "module": {
       "stream": "1.18",
       "name": "nginx",
-      "version": 8040020210608132736,
-      "arch": "aarch64",
-      "context": "522a0ee4"
+      "version": 8050020211210104556,
+      "arch": "ppc64le",
+      "context": "9edba152"
     }
   },
   "pushcount": "2",

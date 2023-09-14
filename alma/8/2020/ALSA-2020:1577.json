@@ -8,18 +8,42 @@
     "$date": 1588063951000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
-        "name": "gnome-color-manager",
-        "version": "3.28.0",
-        "release": "3.el8",
+        "name": "libgexiv2-devel",
+        "version": "0.10.8",
+        "release": "4.el8",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "gnome-color-manager-3.28.0-3.el8.src.rpm",
-        "filename": "gnome-color-manager-3.28.0-3.el8.ppc64le.rpm",
-        "sum": "364b870115cdc9847576944b14a3684318d97eab39aaeb31ae8936fc95c61c27",
+        "arch": "aarch64",
+        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
+        "filename": "libgexiv2-devel-0.10.8-4.el8.aarch64.rpm",
+        "sum": "5b60730ac8deb94adf9e436aa944dd2ba00b33574219c3561c841ad264d1b40f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gegl",
+        "version": "0.2.0",
+        "release": "39.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gegl-0.2.0-39.el8.src.rpm",
+        "filename": "gegl-0.2.0-39.el8.aarch64.rpm",
+        "sum": "d2eb5d08b4730614b2ad166d73961fcb7b6ae79e17f3a36afff9d970df60abdc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgexiv2",
+        "version": "0.10.8",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
+        "filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm",
+        "sum": "eb752b2592e16880567f238b26a05daf8cbae702c2db0b3eecdd9a955ce18ebd",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -36,30 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "gnome-color-manager",
-        "version": "3.28.0",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gnome-color-manager-3.28.0-3.el8.src.rpm",
-        "filename": "gnome-color-manager-3.28.0-3.el8.x86_64.rpm",
-        "sum": "5562b6fd85deb21cc2e1743be4262f77f657aff45005ec6402fa0f9bc7ae887f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgexiv2-devel",
-        "version": "0.10.8",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-        "filename": "libgexiv2-devel-0.10.8-4.el8.aarch64.rpm",
-        "sum": "5b60730ac8deb94adf9e436aa944dd2ba00b33574219c3561c841ad264d1b40f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libgexiv2",
         "version": "0.10.8",
         "release": "4.el8",
@@ -68,6 +68,30 @@
         "src": "libgexiv2-0.10.8-4.el8.src.rpm",
         "filename": "libgexiv2-0.10.8-4.el8.i686.rpm",
         "sum": "992c667dc85d603d3fd2bbc5ee6925c6b49ac6ce469a016885dd513185166ce9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gegl",
+        "version": "0.2.0",
+        "release": "39.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gegl-0.2.0-39.el8.src.rpm",
+        "filename": "gegl-0.2.0-39.el8.i686.rpm",
+        "sum": "c665f490cfd8f8fde7b5dc3091ba7c792191e5bc45b579f6f449203184847e28",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "exiv2-devel",
+        "version": "0.27.2",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "exiv2-0.27.2-5.el8.src.rpm",
+        "filename": "exiv2-devel-0.27.2-5.el8.i686.rpm",
+        "sum": "f2d30f33f961e786ab12348414dcfb0044ca8c7f20f87af1482e6842177dfa14",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,6 +108,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "gnome-color-manager",
+        "version": "3.28.0",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "gnome-color-manager-3.28.0-3.el8.src.rpm",
+        "filename": "gnome-color-manager-3.28.0-3.el8.ppc64le.rpm",
+        "sum": "364b870115cdc9847576944b14a3684318d97eab39aaeb31ae8936fc95c61c27",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "gegl",
         "version": "0.2.0",
         "release": "39.el8",
@@ -92,6 +128,42 @@
         "src": "gegl-0.2.0-39.el8.src.rpm",
         "filename": "gegl-0.2.0-39.el8.ppc64le.rpm",
         "sum": "ae7f65070c625498a437de642ba203db6f73629f2be3c19b96c6b9210df11c47",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgexiv2-devel",
+        "version": "0.10.8",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
+        "filename": "libgexiv2-devel-0.10.8-4.el8.ppc64le.rpm",
+        "sum": "da9a13b2f1f5d90c516ff3d5738ea3d5ba1cc86a2ae52d49c94fbdb83912c703",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgexiv2",
+        "version": "0.10.8",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
+        "filename": "libgexiv2-0.10.8-4.el8.ppc64le.rpm",
+        "sum": "fa135453f382fbec701fbe52ce6a0ef93cdf2d6804b476d42072c54e9eda0eca",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnome-color-manager",
+        "version": "3.28.0",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gnome-color-manager-3.28.0-3.el8.src.rpm",
+        "filename": "gnome-color-manager-3.28.0-3.el8.x86_64.rpm",
+        "sum": "5562b6fd85deb21cc2e1743be4262f77f657aff45005ec6402fa0f9bc7ae887f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -136,82 +208,10 @@
         "version": "0.2.0",
         "release": "39.el8",
         "epoch": "0",
-        "arch": "i686",
-        "src": "gegl-0.2.0-39.el8.src.rpm",
-        "filename": "gegl-0.2.0-39.el8.i686.rpm",
-        "sum": "c665f490cfd8f8fde7b5dc3091ba7c792191e5bc45b579f6f449203184847e28",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gegl",
-        "version": "0.2.0",
-        "release": "39.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gegl-0.2.0-39.el8.src.rpm",
-        "filename": "gegl-0.2.0-39.el8.aarch64.rpm",
-        "sum": "d2eb5d08b4730614b2ad166d73961fcb7b6ae79e17f3a36afff9d970df60abdc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgexiv2-devel",
-        "version": "0.10.8",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-        "filename": "libgexiv2-devel-0.10.8-4.el8.ppc64le.rpm",
-        "sum": "da9a13b2f1f5d90c516ff3d5738ea3d5ba1cc86a2ae52d49c94fbdb83912c703",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgexiv2",
-        "version": "0.10.8",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-        "filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm",
-        "sum": "eb752b2592e16880567f238b26a05daf8cbae702c2db0b3eecdd9a955ce18ebd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "exiv2-devel",
-        "version": "0.27.2",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "exiv2-0.27.2-5.el8.src.rpm",
-        "filename": "exiv2-devel-0.27.2-5.el8.i686.rpm",
-        "sum": "f2d30f33f961e786ab12348414dcfb0044ca8c7f20f87af1482e6842177dfa14",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gegl",
-        "version": "0.2.0",
-        "release": "39.el8",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "gegl-0.2.0-39.el8.src.rpm",
         "filename": "gegl-0.2.0-39.el8.x86_64.rpm",
         "sum": "f3ae9cfb955cea91000d09b8335d905b3865e539cbbb97953117615f565d1fa2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgexiv2",
-        "version": "0.10.8",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-        "filename": "libgexiv2-0.10.8-4.el8.ppc64le.rpm",
-        "sum": "fa135453f382fbec701fbe52ce6a0ef93cdf2d6804b476d42072c54e9eda0eca",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -402,7 +402,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",

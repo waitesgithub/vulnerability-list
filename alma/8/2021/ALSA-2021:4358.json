@@ -12,18 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
-        "name": "glibc-utils",
-        "version": "2.28",
-        "release": "164.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "glibc-2.28-164.el8.src.rpm",
-        "filename": "glibc-utils-2.28-164.el8.x86_64.rpm",
-        "sum": "0e8cf8f276fdde22fb2a868d4ca151e35ad965a56168fa7e1c5e45236bf2a95f",
-        "sum_type": 5,
-        "reboot_suggested": 1
-      },
-      {
         "name": "nss_hesiod",
         "version": "2.28",
         "release": "164.el8",
@@ -52,6 +40,30 @@
         "version": "2.28",
         "release": "164.el8",
         "epoch": "0",
+        "arch": "i686",
+        "src": "glibc-2.28-164.el8.src.rpm",
+        "filename": "glibc-nss-devel-2.28-164.el8.i686.rpm",
+        "sum": "a33e59791dcaa9bbdfa9a7dd9fd4891ca69964a749fc67ec3482244a5d44c342",
+        "sum_type": 5,
+        "reboot_suggested": 1
+      },
+      {
+        "name": "glibc-utils",
+        "version": "2.28",
+        "release": "164.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "glibc-2.28-164.el8.src.rpm",
+        "filename": "glibc-utils-2.28-164.el8.x86_64.rpm",
+        "sum": "0e8cf8f276fdde22fb2a868d4ca151e35ad965a56168fa7e1c5e45236bf2a95f",
+        "sum_type": 5,
+        "reboot_suggested": 1
+      },
+      {
+        "name": "glibc-nss-devel",
+        "version": "2.28",
+        "release": "164.el8",
+        "epoch": "0",
         "arch": "x86_64",
         "src": "glibc-2.28-164.el8.src.rpm",
         "filename": "glibc-nss-devel-2.28-164.el8.x86_64.rpm",
@@ -68,18 +80,6 @@
         "src": "glibc-2.28-164.el8.src.rpm",
         "filename": "glibc-benchtests-2.28-164.el8.x86_64.rpm",
         "sum": "93bbbad41159ef88fa3a030ecea48652905210400e6e49e53750d001938a22df",
-        "sum_type": 5,
-        "reboot_suggested": 1
-      },
-      {
-        "name": "glibc-nss-devel",
-        "version": "2.28",
-        "release": "164.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "glibc-2.28-164.el8.src.rpm",
-        "filename": "glibc-nss-devel-2.28-164.el8.i686.rpm",
-        "sum": "a33e59791dcaa9bbdfa9a7dd9fd4891ca69964a749fc67ec3482244a5d44c342",
         "sum_type": 5,
         "reboot_suggested": 1
       },

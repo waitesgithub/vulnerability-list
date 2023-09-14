@@ -8,18 +8,18 @@
     "$date": 1636448464000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
     "packages": [
       {
         "name": "python3-psutil",
         "version": "5.4.3",
         "release": "11.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "python-psutil-5.4.3-11.el8.src.rpm",
-        "filename": "python3-psutil-5.4.3-11.el8.x86_64.rpm",
-        "sum": "4e993304e6ce8fed5aebedb5ae4c0227601bf2069d9c5f5f14321630876ab848",
+        "filename": "python3-psutil-5.4.3-11.el8.aarch64.rpm",
+        "sum": "eb1b1ee8db4253133d88262471786684d3a9dcab34321851f92f21e04aba4506",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +40,10 @@
         "version": "5.4.3",
         "release": "11.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "python-psutil-5.4.3-11.el8.src.rpm",
-        "filename": "python3-psutil-5.4.3-11.el8.aarch64.rpm",
-        "sum": "eb1b1ee8db4253133d88262471786684d3a9dcab34321851f92f21e04aba4506",
+        "filename": "python3-psutil-5.4.3-11.el8.x86_64.rpm",
+        "sum": "4e993304e6ce8fed5aebedb5ae4c0227601bf2069d9c5f5f14321630876ab848",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -66,7 +66,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",

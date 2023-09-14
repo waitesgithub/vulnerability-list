@@ -16,10 +16,22 @@
         "version": "1.8.5",
         "release": "7.el8_6",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
-        "filename": "libgcrypt-devel-1.8.5-7.el8_6.x86_64.rpm",
-        "sum": "0c97528fd9c9085861b7b6d9d76bbfc223d6d6aad8fcaeaf2b3dd53964635173",
+        "filename": "libgcrypt-devel-1.8.5-7.el8_6.aarch64.rpm",
+        "sum": "21b82730c587a9db222063de38f44c5e2bebdcd8ecb81f53878343bf1bf17ead",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgcrypt",
+        "version": "1.8.5",
+        "release": "7.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
+        "filename": "libgcrypt-1.8.5-7.el8_6.aarch64.rpm",
+        "sum": "dd7baa83a1a02ac7f5e56592c57b8f7e516543c9db0c40c1500945adc4da3eb0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -36,14 +48,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libgcrypt-devel",
+        "name": "libgcrypt",
         "version": "1.8.5",
         "release": "7.el8_6",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "i686",
         "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
-        "filename": "libgcrypt-devel-1.8.5-7.el8_6.aarch64.rpm",
-        "sum": "21b82730c587a9db222063de38f44c5e2bebdcd8ecb81f53878343bf1bf17ead",
+        "filename": "libgcrypt-1.8.5-7.el8_6.i686.rpm",
+        "sum": "fa9e03e98c9d396cfa45403de68436a080cfdbec9c8e00ec4fe5c11922c0833f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -72,6 +84,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libgcrypt-devel",
+        "version": "1.8.5",
+        "release": "7.el8_6",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
+        "filename": "libgcrypt-devel-1.8.5-7.el8_6.x86_64.rpm",
+        "sum": "0c97528fd9c9085861b7b6d9d76bbfc223d6d6aad8fcaeaf2b3dd53964635173",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libgcrypt",
         "version": "1.8.5",
         "release": "7.el8_6",
@@ -80,30 +104,6 @@
         "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
         "filename": "libgcrypt-1.8.5-7.el8_6.x86_64.rpm",
         "sum": "dcfe1f4d19c8ade6902d188949e902971a5b0807643e1c37f0419340ac890a64",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgcrypt",
-        "version": "1.8.5",
-        "release": "7.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
-        "filename": "libgcrypt-1.8.5-7.el8_6.aarch64.rpm",
-        "sum": "dd7baa83a1a02ac7f5e56592c57b8f7e516543c9db0c40c1500945adc4da3eb0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgcrypt",
-        "version": "1.8.5",
-        "release": "7.el8_6",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
-        "filename": "libgcrypt-1.8.5-7.el8_6.i686.rpm",
-        "sum": "fa9e03e98c9d396cfa45403de68436a080cfdbec9c8e00ec4fe5c11922c0833f",
         "sum_type": 5,
         "reboot_suggested": 0
       }

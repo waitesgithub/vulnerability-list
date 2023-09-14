@@ -8,33 +8,9 @@
     "$date": 1640077831000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_postgresql",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_postgresql",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_postgresql",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_postgresql",
     "packages": [
-      {
-        "name": "pg_repack",
-        "version": "1.4.6",
-        "release": "3.module_el8.5.0+2606+4554acc4",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pg_repack-1.4.6-3.module_el8.5.0+2606+4554acc4.src.rpm",
-        "filename": "pg_repack-1.4.6-3.module_el8.5.0+2606+4554acc4.x86_64.rpm",
-        "sum": "05d2cb631302f94105b39afe0f1fa456f0d6820d588b6966721368f68dcac6b1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgres-decoderbufs",
-        "version": "0.10.0",
-        "release": "2.module_el8.6.0+2760+1746ec94",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
-        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.ppc64le.rpm",
-        "sum": "13cd44b926f28289bb0a5b01f74460112ef2a7b442da8131cb2586d4227ef755",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "pg_repack",
         "version": "1.4.6",
@@ -52,10 +28,22 @@
         "version": "1.4.0",
         "release": "5.module_el8.6.0+2758+4f4474df",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "pgaudit-1.4.0-5.module_el8.6.0+2758+4f4474df.src.rpm",
-        "filename": "pgaudit-1.4.0-5.module_el8.6.0+2758+4f4474df.ppc64le.rpm",
-        "sum": "3237e7a54b6740b8751b1a8300d65aa3108e7cbc5503224d334ca3cd5a427892",
+        "filename": "pgaudit-1.4.0-5.module_el8.6.0+2758+4f4474df.aarch64.rpm",
+        "sum": "b8a2214eccceea67d1a042934be5d2b1aee6e74e576e1122d9aa50475bfb9f7e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgres-decoderbufs",
+        "version": "0.10.0",
+        "release": "2.module_el8.6.0+2758+4f4474df",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
+        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.aarch64.rpm",
+        "sum": "bf811155cf3657988a3d16afe45a7c73de068ad1a9b8a34d8f78d145ee445bee",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,6 +56,54 @@
         "src": "postgresql-12.9-1.module_el8.5.0+2606+4554acc4.src.rpm",
         "filename": "postgresql-test-rpm-macros-12.9-1.module_el8.5.0+2606+4554acc4.noarch.rpm",
         "sum": "371111f8048442e6429f83af33685d6bc352ba5be548aca63ce726c1b79509a4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgres-decoderbufs",
+        "version": "0.10.0",
+        "release": "2.module_el8.6.0+2760+1746ec94",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
+        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.ppc64le.rpm",
+        "sum": "13cd44b926f28289bb0a5b01f74460112ef2a7b442da8131cb2586d4227ef755",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pgaudit",
+        "version": "1.4.0",
+        "release": "5.module_el8.6.0+2758+4f4474df",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pgaudit-1.4.0-5.module_el8.6.0+2758+4f4474df.src.rpm",
+        "filename": "pgaudit-1.4.0-5.module_el8.6.0+2758+4f4474df.ppc64le.rpm",
+        "sum": "3237e7a54b6740b8751b1a8300d65aa3108e7cbc5503224d334ca3cd5a427892",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pg_repack",
+        "version": "1.4.6",
+        "release": "3.module_el8.6.0+2760+1746ec94",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pg_repack-1.4.6-3.module_el8.6.0+2760+1746ec94.src.rpm",
+        "filename": "pg_repack-1.4.6-3.module_el8.6.0+2760+1746ec94.ppc64le.rpm",
+        "sum": "9a907ca1b9082a2da428045283c26d15f54bd5ed2179c1de36a53ae6b52c08bb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pg_repack",
+        "version": "1.4.6",
+        "release": "3.module_el8.5.0+2606+4554acc4",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pg_repack-1.4.6-3.module_el8.5.0+2606+4554acc4.src.rpm",
+        "filename": "pg_repack-1.4.6-3.module_el8.5.0+2606+4554acc4.x86_64.rpm",
+        "sum": "05d2cb631302f94105b39afe0f1fa456f0d6820d588b6966721368f68dcac6b1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -144,18 +180,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pg_repack",
-        "version": "1.4.6",
-        "release": "3.module_el8.6.0+2760+1746ec94",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pg_repack-1.4.6-3.module_el8.6.0+2760+1746ec94.src.rpm",
-        "filename": "pg_repack-1.4.6-3.module_el8.6.0+2760+1746ec94.ppc64le.rpm",
-        "sum": "9a907ca1b9082a2da428045283c26d15f54bd5ed2179c1de36a53ae6b52c08bb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "postgresql",
         "version": "12.9",
         "release": "1.module_el8.5.0+2606+4554acc4",
@@ -188,30 +212,6 @@
         "src": "postgresql-12.9-1.module_el8.5.0+2606+4554acc4.src.rpm",
         "filename": "postgresql-plperl-12.9-1.module_el8.5.0+2606+4554acc4.x86_64.rpm",
         "sum": "ac1de771e43a25f60a3e293a0f078c440c3359a4bde7f937e4313a9f4fdd8ada",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pgaudit",
-        "version": "1.4.0",
-        "release": "5.module_el8.6.0+2758+4f4474df",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pgaudit-1.4.0-5.module_el8.6.0+2758+4f4474df.src.rpm",
-        "filename": "pgaudit-1.4.0-5.module_el8.6.0+2758+4f4474df.aarch64.rpm",
-        "sum": "b8a2214eccceea67d1a042934be5d2b1aee6e74e576e1122d9aa50475bfb9f7e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgres-decoderbufs",
-        "version": "0.10.0",
-        "release": "2.module_el8.6.0+2758+4f4474df",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
-        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.aarch64.rpm",
-        "sum": "bf811155cf3657988a3d16afe45a7c73de068ad1a9b8a34d8f78d145ee445bee",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -280,7 +280,7 @@
       "stream": "12",
       "name": "postgresql",
       "version": 8060020220531080156,
-      "arch": "aarch64",
+      "arch": "ppc64le",
       "context": "9edba152"
     }
   },
@@ -306,7 +306,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",

@@ -24,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "expat",
-        "version": "2.2.5",
-        "release": "8.el8_6.2",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-2.2.5-8.el8_6.2.ppc64le.rpm",
-        "sum": "39b1a1acf98c1276500355fb7cbc6e305cdbd29434bb88f1ce0d7c9c94c13cfa",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "expat-devel",
         "version": "2.2.5",
         "release": "8.el8_6.2",
@@ -44,42 +32,6 @@
         "src": "expat-2.2.5-8.el8_6.2.src.rpm",
         "filename": "expat-devel-2.2.5-8.el8_6.2.aarch64.rpm",
         "sum": "48721b6f0033081972e5794a3548a241cd208a04276e483b67bcf3da912b8d14",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat-devel",
-        "version": "2.2.5",
-        "release": "8.el8_6.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-devel-2.2.5-8.el8_6.2.x86_64.rpm",
-        "sum": "7a38bf8b7cd5956d0a37c8c55b5075cdd550784a48db42636dae7a09568a184e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat",
-        "version": "2.2.5",
-        "release": "8.el8_6.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-2.2.5-8.el8_6.2.x86_64.rpm",
-        "sum": "944c92c0ae5531850217195be28813c1afee1be5abd6f087789b20cac2fe8363",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat-devel",
-        "version": "2.2.5",
-        "release": "8.el8_6.2",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-devel-2.2.5-8.el8_6.2.ppc64le.rpm",
-        "sum": "9b1f222be379119232998c2c29da58e49ac7fd4562942edc64e04d0897982dcf",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -104,6 +56,54 @@
         "src": "expat-2.2.5-8.el8_6.2.src.rpm",
         "filename": "expat-devel-2.2.5-8.el8_6.2.i686.rpm",
         "sum": "e05399535ae6498c2ea68ca54af74c74f4782c704e303e0c773098d8abdf93e4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat",
+        "version": "2.2.5",
+        "release": "8.el8_6.2",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
+        "filename": "expat-2.2.5-8.el8_6.2.ppc64le.rpm",
+        "sum": "39b1a1acf98c1276500355fb7cbc6e305cdbd29434bb88f1ce0d7c9c94c13cfa",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat-devel",
+        "version": "2.2.5",
+        "release": "8.el8_6.2",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
+        "filename": "expat-devel-2.2.5-8.el8_6.2.ppc64le.rpm",
+        "sum": "9b1f222be379119232998c2c29da58e49ac7fd4562942edc64e04d0897982dcf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat-devel",
+        "version": "2.2.5",
+        "release": "8.el8_6.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
+        "filename": "expat-devel-2.2.5-8.el8_6.2.x86_64.rpm",
+        "sum": "7a38bf8b7cd5956d0a37c8c55b5075cdd550784a48db42636dae7a09568a184e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat",
+        "version": "2.2.5",
+        "release": "8.el8_6.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
+        "filename": "expat-2.2.5-8.el8_6.2.x86_64.rpm",
+        "sum": "944c92c0ae5531850217195be28813c1afee1be5abd6f087789b20cac2fe8363",
         "sum_type": 5,
         "reboot_suggested": 0
       }

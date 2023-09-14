@@ -24,6 +24,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "expat-devel",
+        "version": "2.2.5",
+        "release": "8.el8_6.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
+        "filename": "expat-devel-2.2.5-8.el8_6.2.aarch64.rpm",
+        "sum": "48721b6f0033081972e5794a3548a241cd208a04276e483b67bcf3da912b8d14",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat",
+        "version": "2.2.5",
+        "release": "8.el8_6.2",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
+        "filename": "expat-2.2.5-8.el8_6.2.i686.rpm",
+        "sum": "b9910697fdb4d4541f5b1c176bcece3cb9f9cef0f58cdbe52062aed215c3b619",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "expat",
         "version": "2.2.5",
         "release": "8.el8_6.2",
@@ -40,10 +64,10 @@
         "version": "2.2.5",
         "release": "8.el8_6.2",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-devel-2.2.5-8.el8_6.2.aarch64.rpm",
-        "sum": "48721b6f0033081972e5794a3548a241cd208a04276e483b67bcf3da912b8d14",
+        "filename": "expat-devel-2.2.5-8.el8_6.2.ppc64le.rpm",
+        "sum": "9b1f222be379119232998c2c29da58e49ac7fd4562942edc64e04d0897982dcf",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,30 +92,6 @@
         "src": "expat-2.2.5-8.el8_6.2.src.rpm",
         "filename": "expat-2.2.5-8.el8_6.2.x86_64.rpm",
         "sum": "944c92c0ae5531850217195be28813c1afee1be5abd6f087789b20cac2fe8363",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat-devel",
-        "version": "2.2.5",
-        "release": "8.el8_6.2",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-devel-2.2.5-8.el8_6.2.ppc64le.rpm",
-        "sum": "9b1f222be379119232998c2c29da58e49ac7fd4562942edc64e04d0897982dcf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat",
-        "version": "2.2.5",
-        "release": "8.el8_6.2",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-2.2.5-8.el8_6.2.i686.rpm",
-        "sum": "b9910697fdb4d4541f5b1c176bcece3cb9f9cef0f58cdbe52062aed215c3b619",
         "sum_type": 5,
         "reboot_suggested": 0
       }

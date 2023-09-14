@@ -16,10 +16,22 @@
         "version": "4.0.9",
         "release": "20.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "i686",
         "src": "libtiff-4.0.9-20.el8.src.rpm",
-        "filename": "libtiff-4.0.9-20.el8.x86_64.rpm",
-        "sum": "17bf3889b4a7c5fa1ae2f9a345409eda16867e6bc1b22439af868fe79e828100",
+        "filename": "libtiff-4.0.9-20.el8.i686.rpm",
+        "sum": "298d1b4a74d1744a4a104477f6fac06bf438de76d85e04903ae07c1b38b7d985",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libtiff-devel",
+        "version": "4.0.9",
+        "release": "20.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libtiff-4.0.9-20.el8.src.rpm",
+        "filename": "libtiff-devel-4.0.9-20.el8.i686.rpm",
+        "sum": "f0cd04ab5293b5095a61d8c35dceffa47fda71f20b1c0dc54a6c66500e43b492",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -28,10 +40,10 @@
         "version": "4.0.9",
         "release": "20.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "libtiff-4.0.9-20.el8.src.rpm",
-        "filename": "libtiff-4.0.9-20.el8.i686.rpm",
-        "sum": "298d1b4a74d1744a4a104477f6fac06bf438de76d85e04903ae07c1b38b7d985",
+        "filename": "libtiff-4.0.9-20.el8.x86_64.rpm",
+        "sum": "17bf3889b4a7c5fa1ae2f9a345409eda16867e6bc1b22439af868fe79e828100",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,18 +68,6 @@
         "src": "libtiff-4.0.9-20.el8.src.rpm",
         "filename": "libtiff-tools-4.0.9-20.el8.x86_64.rpm",
         "sum": "546d65f029d64f24038d0c0d2d816199f32fdf3ab98804941d47dc51d1c2f0b0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libtiff-devel",
-        "version": "4.0.9",
-        "release": "20.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libtiff-4.0.9-20.el8.src.rpm",
-        "filename": "libtiff-devel-4.0.9-20.el8.i686.rpm",
-        "sum": "f0cd04ab5293b5095a61d8c35dceffa47fda71f20b1c0dc54a6c66500e43b492",
         "sum_type": 5,
         "reboot_suggested": 0
       }

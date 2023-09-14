@@ -12,18 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_389-ds",
     "packages": [
       {
-        "name": "389-ds-base-devel",
-        "version": "1.4.3.23",
-        "release": "14.module_el8.5.0+2628+c731dc97",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "389-ds-base-1.4.3.23-14.module_el8.5.0+2628+c731dc97.src.rpm",
-        "filename": "389-ds-base-devel-1.4.3.23-14.module_el8.5.0+2628+c731dc97.x86_64.rpm",
-        "sum": "0fac378232c4603a1d0e1a67fdd435693cca473885b40463fa2f76d279d44d2c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-lib389",
         "version": "1.4.3.23",
         "release": "14.module_el8.5.0+2628+c731dc97",
@@ -32,6 +20,18 @@
         "src": "389-ds-base-1.4.3.23-14.module_el8.5.0+2628+c731dc97.src.rpm",
         "filename": "python3-lib389-1.4.3.23-14.module_el8.5.0+2628+c731dc97.noarch.rpm",
         "sum": "5221ec0ebac4115f1c3ee862f8c0e245bcd557e3bad9f98caf6571273a66bec1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base-devel",
+        "version": "1.4.3.23",
+        "release": "14.module_el8.5.0+2628+c731dc97",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "389-ds-base-1.4.3.23-14.module_el8.5.0+2628+c731dc97.src.rpm",
+        "filename": "389-ds-base-devel-1.4.3.23-14.module_el8.5.0+2628+c731dc97.x86_64.rpm",
+        "sum": "0fac378232c4603a1d0e1a67fdd435693cca473885b40463fa2f76d279d44d2c",
         "sum_type": 5,
         "reboot_suggested": 0
       },

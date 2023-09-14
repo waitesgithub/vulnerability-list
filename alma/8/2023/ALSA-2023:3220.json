@@ -8,18 +8,18 @@
     "$date": 1684368000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_8_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_8_default",
     "packages": [
       {
         "name": "firefox",
         "version": "102.11.0",
         "release": "2.el8_7.alma",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "firefox-102.11.0-2.el8_7.alma.src.rpm",
-        "filename": "firefox-102.11.0-2.el8_7.alma.x86_64.rpm",
-        "sum": "53b77072c407c7aad7ca1478714e19e9b6289d39c011334cfea79e1764081b6c",
+        "filename": "firefox-102.11.0-2.el8_7.alma.aarch64.rpm",
+        "sum": "dd205e9a6202992bf2fb9a25aaf751083022d11a0a038682a804282ea61f1cee",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +40,10 @@
         "version": "102.11.0",
         "release": "2.el8_7.alma",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "s390x",
         "src": "firefox-102.11.0-2.el8_7.alma.src.rpm",
-        "filename": "firefox-102.11.0-2.el8_7.alma.aarch64.rpm",
-        "sum": "dd205e9a6202992bf2fb9a25aaf751083022d11a0a038682a804282ea61f1cee",
+        "filename": "firefox-102.11.0-2.el8_7.alma.s390x.rpm",
+        "sum": "f012a54d43464e6ba2d1cb9cbd572acc210fb773c307283cfdb7f808cb04cf49",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "102.11.0",
         "release": "2.el8_7.alma",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "x86_64",
         "src": "firefox-102.11.0-2.el8_7.alma.src.rpm",
-        "filename": "firefox-102.11.0-2.el8_7.alma.s390x.rpm",
-        "sum": "f012a54d43464e6ba2d1cb9cbd572acc210fb773c307283cfdb7f808cb04cf49",
+        "filename": "firefox-102.11.0-2.el8_7.alma.x86_64.rpm",
+        "sum": "53b77072c407c7aad7ca1478714e19e9b6289d39c011334cfea79e1764081b6c",
         "sum_type": 5,
         "reboot_suggested": 0
       }

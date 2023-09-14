@@ -24,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "samba-devel",
-        "version": "4.13.3",
-        "release": "5.el8_4",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "samba-4.13.3-5.el8_4.src.rpm",
-        "filename": "samba-devel-4.13.3-5.el8_4.x86_64.rpm",
-        "sum": "a69e6f14ef0762d8162816949ae6e425f03aec84cb9340ea3e4a2cb076d63242",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libwbclient-devel",
         "version": "4.13.3",
         "release": "5.el8_4",
@@ -56,6 +44,18 @@
         "src": "samba-4.13.3-5.el8_4.src.rpm",
         "filename": "libsmbclient-devel-4.13.3-5.el8_4.i686.rpm",
         "sum": "eedbafa2b2ca075402656437dfe02aaf83c131032db16c358950f91701923e9b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "samba-devel",
+        "version": "4.13.3",
+        "release": "5.el8_4",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "samba-4.13.3-5.el8_4.src.rpm",
+        "filename": "samba-devel-4.13.3-5.el8_4.x86_64.rpm",
+        "sum": "a69e6f14ef0762d8162816949ae6e425f03aec84cb9340ea3e4a2cb076d63242",
         "sum_type": 5,
         "reboot_suggested": 0
       },

@@ -36,6 +36,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "exiv2-doc",
+        "version": "0.27.4",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "exiv2-0.27.4-5.el8.src.rpm",
+        "filename": "exiv2-doc-0.27.4-5.el8.noarch.rpm",
+        "sum": "816b9050cd4ec0cb523eb89966d3b59d692db2ce6baf9f9b0d2db72cb17238d0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "exiv2-libs",
         "version": "0.27.4",
         "release": "5.el8",
@@ -56,18 +68,6 @@
         "src": "exiv2-0.27.4-5.el8.src.rpm",
         "filename": "exiv2-0.27.4-5.el8.x86_64.rpm",
         "sum": "49156ad31ddb533767e6a6f4204414e5d1f43120ac5c362dd7047d34957a5c11",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "exiv2-doc",
-        "version": "0.27.4",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "exiv2-0.27.4-5.el8.src.rpm",
-        "filename": "exiv2-doc-0.27.4-5.el8.noarch.rpm",
-        "sum": "816b9050cd4ec0cb523eb89966d3b59d692db2ce6baf9f9b0d2db72cb17238d0",
         "sum_type": 5,
         "reboot_suggested": 0
       },

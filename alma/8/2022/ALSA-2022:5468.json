@@ -24,6 +24,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "apcu-panel",
+        "version": "5.1.20",
+        "release": "1.module_el8.6.0+2739+efabdb8f",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+        "filename": "apcu-panel-5.1.20-1.module_el8.6.0+2739+efabdb8f.noarch.rpm",
+        "sum": "9d62eacacacb9526989ff157092bfe3f43de1faab5ec35b299d8c04eb847a216",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "php-pecl-rrd",
         "version": "2.0.3",
         "release": "1.module_el8.6.0+2739+efabdb8f",
@@ -68,18 +80,6 @@
         "src": "php-pecl-xdebug3-3.1.2-1.module_el8.6.0+2739+efabdb8f.src.rpm",
         "filename": "php-pecl-xdebug3-3.1.2-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
         "sum": "686c10d578ee64745364e6d127c86034519c9492ef08d946be8dd089d7fde8ae",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "apcu-panel",
-        "version": "5.1.20",
-        "release": "1.module_el8.6.0+2739+efabdb8f",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-        "filename": "apcu-panel-5.1.20-1.module_el8.6.0+2739+efabdb8f.noarch.rpm",
-        "sum": "9d62eacacacb9526989ff157092bfe3f43de1faab5ec35b299d8c04eb847a216",
         "sum_type": 5,
         "reboot_suggested": 0
       },

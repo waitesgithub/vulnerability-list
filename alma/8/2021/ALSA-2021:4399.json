@@ -12,30 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
-        "name": "platform-python-devel",
-        "version": "3.6.8",
-        "release": "41.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-41.el8.src.rpm",
-        "filename": "platform-python-devel-3.6.8-41.el8.x86_64.rpm",
-        "sum": "0eb96062779ccba8d80483d9394a4adeac0c9c5e0f965d09a34f1f16d0a87107",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "platform-python-debug",
-        "version": "3.6.8",
-        "release": "41.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-41.el8.src.rpm",
-        "filename": "platform-python-debug-3.6.8-41.el8.x86_64.rpm",
-        "sum": "12709254fd67c587c4dadb48dbca1e82b14cd61092de7771045a48e3abbae9cc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "platform-python",
         "version": "3.6.8",
         "release": "41.el8.alma",
@@ -172,6 +148,42 @@
         "version": "3.6.8",
         "release": "41.el8",
         "epoch": "0",
+        "arch": "i686",
+        "src": "python3-3.6.8-41.el8.src.rpm",
+        "filename": "python3-tkinter-3.6.8-41.el8.i686.rpm",
+        "sum": "eca3be99584ebff72280a6581640960062a9a827fda560a7d5d1867285ac75de",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "platform-python-devel",
+        "version": "3.6.8",
+        "release": "41.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python3-3.6.8-41.el8.src.rpm",
+        "filename": "platform-python-devel-3.6.8-41.el8.x86_64.rpm",
+        "sum": "0eb96062779ccba8d80483d9394a4adeac0c9c5e0f965d09a34f1f16d0a87107",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "platform-python-debug",
+        "version": "3.6.8",
+        "release": "41.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python3-3.6.8-41.el8.src.rpm",
+        "filename": "platform-python-debug-3.6.8-41.el8.x86_64.rpm",
+        "sum": "12709254fd67c587c4dadb48dbca1e82b14cd61092de7771045a48e3abbae9cc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-tkinter",
+        "version": "3.6.8",
+        "release": "41.el8",
+        "epoch": "0",
         "arch": "x86_64",
         "src": "python3-3.6.8-41.el8.src.rpm",
         "filename": "python3-tkinter-3.6.8-41.el8.x86_64.rpm",
@@ -188,18 +200,6 @@
         "src": "python3-3.6.8-41.el8.src.rpm",
         "filename": "python3-idle-3.6.8-41.el8.x86_64.rpm",
         "sum": "e366903d578e81a8f5ab369e778c21376b6e93960da73a058aa586339319385a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-tkinter",
-        "version": "3.6.8",
-        "release": "41.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "python3-3.6.8-41.el8.src.rpm",
-        "filename": "python3-tkinter-3.6.8-41.el8.i686.rpm",
-        "sum": "eca3be99584ebff72280a6581640960062a9a827fda560a7d5d1867285ac75de",
         "sum_type": 5,
         "reboot_suggested": 0
       }

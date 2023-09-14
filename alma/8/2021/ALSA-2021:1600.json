@@ -16,18 +16,6 @@
         "version": "0.20.0",
         "release": "4.el8",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "opensc-0.20.0-4.el8.src.rpm",
-        "filename": "opensc-0.20.0-4.el8.ppc64le.rpm",
-        "sum": "137a64756abbd93d8ce08a2213734d3d7b24f1eb264b450e44b30cc50a50f87e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "opensc",
-        "version": "0.20.0",
-        "release": "4.el8",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "opensc-0.20.0-4.el8.src.rpm",
         "filename": "opensc-0.20.0-4.el8.aarch64.rpm",
@@ -44,6 +32,18 @@
         "src": "opensc-0.20.0-4.el8.src.rpm",
         "filename": "Packages/opensc-0.20.0-4.el8.i686.rpm",
         "sum": "78eae7d668e4b42c5ee8c424971d0fc7f6e9950788dcc0411cf0224f56552c2d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "opensc",
+        "version": "0.20.0",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "opensc-0.20.0-4.el8.src.rpm",
+        "filename": "opensc-0.20.0-4.el8.ppc64le.rpm",
+        "sum": "137a64756abbd93d8ce08a2213734d3d7b24f1eb264b450e44b30cc50a50f87e",
         "sum_type": 5,
         "reboot_suggested": 0
       },

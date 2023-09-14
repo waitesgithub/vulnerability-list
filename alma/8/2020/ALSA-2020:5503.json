@@ -8,21 +8,9 @@
     "$date": 1608048252000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
     "packages": [
-      {
-        "name": "mariadb-connector-c-devel",
-        "version": "3.1.11",
-        "release": "2.el8_3",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-        "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.ppc64le.rpm",
-        "sum": "0292e313814382487db24ab1ef88bfdb22619aed0746d36f813bb4694fc74bc0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "mariadb-connector-c",
         "version": "3.1.11",
@@ -36,14 +24,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb-connector-c",
+        "name": "mariadb-connector-c-devel",
         "version": "3.1.11",
         "release": "2.el8_3",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-        "filename": "mariadb-connector-c-3.1.11-2.el8_3.x86_64.rpm",
-        "sum": "85c37e356ca0e8114acfbe5fd5043ce1a95c35354851cc91b4066104e11dd658",
+        "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.aarch64.rpm",
+        "sum": "ee38d736af8f77eca1d323cc3fd165050d43089451c87b5501bec19ee60ddd00",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -72,18 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb-connector-c-devel",
-        "version": "3.1.11",
-        "release": "2.el8_3",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-        "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.x86_64.rpm",
-        "sum": "e7f9b90bb970c95179842fce9edf84ec943bc19b4bdd7029645e05d1e6a2e295",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mariadb-connector-c-config",
         "version": "3.1.11",
         "release": "2.el8_3",
@@ -100,10 +76,22 @@
         "version": "3.1.11",
         "release": "2.el8_3",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-        "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.aarch64.rpm",
-        "sum": "ee38d736af8f77eca1d323cc3fd165050d43089451c87b5501bec19ee60ddd00",
+        "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.ppc64le.rpm",
+        "sum": "0292e313814382487db24ab1ef88bfdb22619aed0746d36f813bb4694fc74bc0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-connector-c-devel",
+        "version": "3.1.11",
+        "release": "2.el8_3",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+        "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.ppc64le.rpm",
+        "sum": "0292e313814382487db24ab1ef88bfdb22619aed0746d36f813bb4694fc74bc0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,6 +104,42 @@
         "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
         "filename": "mariadb-connector-c-3.1.11-2.el8_3.ppc64le.rpm",
         "sum": "f90545c9c3957632edf6dba9674a0aeed4c3b9edfd2256532193533d0421db39",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-connector-c",
+        "version": "3.1.11",
+        "release": "2.el8_3",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+        "filename": "mariadb-connector-c-3.1.11-2.el8_3.ppc64le.rpm",
+        "sum": "f90545c9c3957632edf6dba9674a0aeed4c3b9edfd2256532193533d0421db39",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-connector-c",
+        "version": "3.1.11",
+        "release": "2.el8_3",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+        "filename": "mariadb-connector-c-3.1.11-2.el8_3.x86_64.rpm",
+        "sum": "85c37e356ca0e8114acfbe5fd5043ce1a95c35354851cc91b4066104e11dd658",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-connector-c-devel",
+        "version": "3.1.11",
+        "release": "2.el8_3",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+        "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.x86_64.rpm",
+        "sum": "e7f9b90bb970c95179842fce9edf84ec943bc19b4bdd7029645e05d1e6a2e295",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -162,7 +186,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",

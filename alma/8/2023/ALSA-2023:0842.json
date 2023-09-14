@@ -16,30 +16,6 @@
         "version": "1.30",
         "release": "6.el8_7.1",
         "epoch": "2",
-        "arch": "s390x",
-        "src": "tar-1.30-6.el8_7.1.src.rpm",
-        "filename": "tar-1.30-6.el8_7.1.s390x.rpm",
-        "sum": "1b671b5f7960a5a4fcf0443a8c36ac0d7ed750761f96d9b8ac1dc57658a56860",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "tar",
-        "version": "1.30",
-        "release": "6.el8_7.1",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "tar-1.30-6.el8_7.1.src.rpm",
-        "filename": "tar-1.30-6.el8_7.1.x86_64.rpm",
-        "sum": "266a2b8d4f894af7691a0465564e0b2541cc43ea106385fb227b00ccc3721841",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "tar",
-        "version": "1.30",
-        "release": "6.el8_7.1",
-        "epoch": "2",
         "arch": "aarch64",
         "src": "tar-1.30-6.el8_7.1.src.rpm",
         "filename": "tar-1.30-6.el8_7.1.aarch64.rpm",
@@ -56,6 +32,30 @@
         "src": "tar-1.30-6.el8_7.1.src.rpm",
         "filename": "tar-1.30-6.el8_7.1.ppc64le.rpm",
         "sum": "9c5c66c7e92afa4b7d0493d0ff9269b09b77235a8417acae27127f8ccacd8c8c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "tar",
+        "version": "1.30",
+        "release": "6.el8_7.1",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "tar-1.30-6.el8_7.1.src.rpm",
+        "filename": "tar-1.30-6.el8_7.1.s390x.rpm",
+        "sum": "1b671b5f7960a5a4fcf0443a8c36ac0d7ed750761f96d9b8ac1dc57658a56860",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "tar",
+        "version": "1.30",
+        "release": "6.el8_7.1",
+        "epoch": "2",
+        "arch": "x86_64",
+        "src": "tar-1.30-6.el8_7.1.src.rpm",
+        "filename": "tar-1.30-6.el8_7.1.x86_64.rpm",
+        "sum": "266a2b8d4f894af7691a0465564e0b2541cc43ea106385fb227b00ccc3721841",
         "sum_type": 5,
         "reboot_suggested": 0
       }

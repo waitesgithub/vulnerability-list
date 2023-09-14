@@ -12,6 +12,30 @@
     "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-deps",
     "packages": [
       {
+        "name": "python-nss-doc",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
+        "sum": "61a26ea1c27f1ca3c6032b2f56d4060152e3e73a6ccb07181913a7ad380bad27",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
+        "sum": "ae60fc0416f6002b600d429d0ec5f54876e7a259bd5ba480de5886d03b28e23d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "xmlstreambuffer",
         "version": "1.5.4",
         "release": "8.module_el8.5.0+2577+9e95fe00",
@@ -180,18 +204,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python-nss-doc",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
-        "sum": "61a26ea1c27f1ca3c6032b2f56d4060152e3e73a6ccb07181913a7ad380bad27",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "jackson-jaxrs-providers",
         "version": "2.9.9",
         "release": "1.module_el8.5.0+2577+9e95fe00",
@@ -248,18 +260,6 @@
         "src": "jackson-core-2.10.0-1.module_el8.5.0+2577+9e95fe00.src.rpm",
         "filename": "jackson-core-2.10.0-1.module_el8.5.0+2577+9e95fe00.noarch.rpm",
         "sum": "992a75a39a7ff26ad9ce05dec3c7c44e92368f1a33eda419de48fd6f969f4629",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
-        "sum": "ae60fc0416f6002b600d429d0ec5f54876e7a259bd5ba480de5886d03b28e23d",
         "sum_type": 5,
         "reboot_suggested": 0
       },

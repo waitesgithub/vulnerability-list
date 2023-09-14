@@ -8,18 +8,18 @@
     "$date": 1644221530000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
     "packages": [
       {
         "name": "aide",
         "version": "0.16",
         "release": "14.el8_5.1",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "aide-0.16-14.el8_5.1.src.rpm",
-        "filename": "aide-0.16-14.el8_5.1.x86_64.rpm",
-        "sum": "1d1f44317b15ba707feb8d4d360966ef13f0e09be4f03899d5479e6a75376480",
+        "filename": "aide-0.16-14.el8_5.1.aarch64.rpm",
+        "sum": "bdfc75a7f4ce989f0a43b6ca15de59ef6963eff353de9f5f24561a18d8ee7ca4",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +40,10 @@
         "version": "0.16",
         "release": "14.el8_5.1",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "aide-0.16-14.el8_5.1.src.rpm",
-        "filename": "aide-0.16-14.el8_5.1.aarch64.rpm",
-        "sum": "bdfc75a7f4ce989f0a43b6ca15de59ef6963eff353de9f5f24561a18d8ee7ca4",
+        "filename": "aide-0.16-14.el8_5.1.x86_64.rpm",
+        "sum": "1d1f44317b15ba707feb8d4d360966ef13f0e09be4f03899d5479e6a75376480",
         "sum_type": 5,
         "reboot_suggested": 0
       }

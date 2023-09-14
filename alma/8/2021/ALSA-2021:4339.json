@@ -8,21 +8,9 @@
     "$date": 1636448577000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "grilo",
-        "version": "0.3.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "grilo-0.3.6-3.el8.src.rpm",
-        "filename": "grilo-0.3.6-3.el8.x86_64.rpm",
-        "sum": "08e82c1011d6de74f66dac9585dd62524775778d97832459ff6123474594bea5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "grilo",
         "version": "0.3.6",
@@ -40,10 +28,10 @@
         "version": "0.3.6",
         "release": "3.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "grilo-0.3.6-3.el8.src.rpm",
-        "filename": "grilo-devel-0.3.6-3.el8.x86_64.rpm",
-        "sum": "3a0a338976b3960f9b34d6324e87c07987a55de0e92e897ee7dc4659dcfc4cf1",
+        "filename": "grilo-devel-0.3.6-3.el8.aarch64.rpm",
+        "sum": "e024589abe9d3a08ae3f3a8a69d97cd4c725cc719cf87baeee03007c400fab3b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,6 +44,18 @@
         "src": "grilo-0.3.6-3.el8.src.rpm",
         "filename": "grilo-devel-0.3.6-3.el8.i686.rpm",
         "sum": "496e9f72e619a17e2f690bc196f53bee5f458cdaa61ddc91293bbcc3f1964cb9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grilo",
+        "version": "0.3.6",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "grilo-0.3.6-3.el8.src.rpm",
+        "filename": "grilo-0.3.6-3.el8.i686.rpm",
+        "sum": "d00e94e5c7dd958e31dd06f2bc7a5d1a3ea6a3a83755b8c80c1da6644165c8f1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,10 +88,10 @@
         "version": "0.3.6",
         "release": "3.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "grilo-0.3.6-3.el8.src.rpm",
-        "filename": "grilo-0.3.6-3.el8.i686.rpm",
-        "sum": "d00e94e5c7dd958e31dd06f2bc7a5d1a3ea6a3a83755b8c80c1da6644165c8f1",
+        "filename": "grilo-0.3.6-3.el8.x86_64.rpm",
+        "sum": "08e82c1011d6de74f66dac9585dd62524775778d97832459ff6123474594bea5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -100,10 +100,10 @@
         "version": "0.3.6",
         "release": "3.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "grilo-0.3.6-3.el8.src.rpm",
-        "filename": "grilo-devel-0.3.6-3.el8.aarch64.rpm",
-        "sum": "e024589abe9d3a08ae3f3a8a69d97cd4c725cc719cf87baeee03007c400fab3b",
+        "filename": "grilo-devel-0.3.6-3.el8.x86_64.rpm",
+        "sum": "3a0a338976b3960f9b34d6324e87c07987a55de0e92e897ee7dc4659dcfc4cf1",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -126,7 +126,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",

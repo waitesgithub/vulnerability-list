@@ -76,6 +76,18 @@
         "version": "2.4.7",
         "release": "26.el8_1",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "ppp-2.4.7-26.el8_1.src.rpm",
+        "filename": "ppp-2.4.7-26.el8_1.ppc64le.rpm",
+        "sum": "d2a2cc33d44e43a2a5f67cf4c5bee1ba338c744da35f268363eb1d7694556835",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ppp",
+        "version": "2.4.7",
+        "release": "26.el8_1",
+        "epoch": "0",
         "arch": "x86_64",
         "src": "ppp-2.4.7-26.el8_1.src.rpm",
         "filename": "ppp-2.4.7-26.el8_1.x86_64.rpm",
@@ -92,18 +104,6 @@
         "src": "ppp-2.4.7-26.el8_1.src.rpm",
         "filename": "ppp-devel-2.4.7-26.el8_1.x86_64.rpm",
         "sum": "9c99fff4af9c8b639762a573a85b20ef2b7b276d2297b75625cad0dc7f0cb8be",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ppp",
-        "version": "2.4.7",
-        "release": "26.el8_1",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "ppp-2.4.7-26.el8_1.src.rpm",
-        "filename": "ppp-2.4.7-26.el8_1.ppc64le.rpm",
-        "sum": "d2a2cc33d44e43a2a5f67cf4c5bee1ba338c744da35f268363eb1d7694556835",
         "sum_type": 5,
         "reboot_suggested": 0
       }

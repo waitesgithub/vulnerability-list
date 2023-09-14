@@ -12,18 +12,6 @@
     "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
-        "name": "glib2-doc",
-        "version": "2.56.4",
-        "release": "10.el8_4",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "glib2-2.56.4-10.el8_4.src.rpm",
-        "filename": "glib2-doc-2.56.4-10.el8_4.noarch.rpm",
-        "sum": "1364c2eabcab5549e2846782671952d99dedc906f58668bcf1c2105a6f5ce8e1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "glib2-static",
         "version": "2.56.4",
         "release": "10.el8_4",
@@ -32,6 +20,18 @@
         "src": "glib2-2.56.4-10.el8_4.src.rpm",
         "filename": "glib2-static-2.56.4-10.el8_4.i686.rpm",
         "sum": "3b5c8aa8c65c522a6bbb375dc55aabfb0e41b69a0e8f2614f310acecdeee685a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "glib2-doc",
+        "version": "2.56.4",
+        "release": "10.el8_4",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "glib2-2.56.4-10.el8_4.src.rpm",
+        "filename": "glib2-doc-2.56.4-10.el8_4.noarch.rpm",
+        "sum": "1364c2eabcab5549e2846782671952d99dedc906f58668bcf1c2105a6f5ce8e1",
         "sum_type": 5,
         "reboot_suggested": 0
       },

@@ -28,10 +28,34 @@
         "version": "5.12.5",
         "release": "1.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "i686",
         "src": "qt5-qtwayland-5.12.5-1.el8.src.rpm",
-        "filename": "qt5-qtwayland-devel-5.12.5-1.el8.x86_64.rpm",
-        "sum": "087d0bfd1de3124140ecb95cd6b8774b88139322d799a7f0936f2d7a89e732ca",
+        "filename": "qt5-qtwayland-devel-5.12.5-1.el8.i686.rpm",
+        "sum": "3ee3fb99d2ad06e1d0d31ea7bf2d442252957822641873efc7a3cee834d9f865",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-qt5-devel",
+        "version": "5.13.1",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "python-qt5-5.13.1-1.el8.src.rpm",
+        "filename": "python3-qt5-devel-5.13.1-1.el8.i686.rpm",
+        "sum": "da4c02199f30a3274d82c3eb23e5bd7d1f6bab3ea2e4f635e3f9bd2ae8e835d8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qt5-qtdeclarative-static",
+        "version": "5.12.5",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "qt5-qtdeclarative-5.12.5-1.el8.src.rpm",
+        "filename": "qt5-qtdeclarative-static-5.12.5-1.el8.i686.rpm",
+        "sum": "e1c03102339165df9eb0ccc9a16290eb57f42d1277d64855561352d1f1962588",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -60,30 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qt5-qtquickcontrols2-devel",
-        "version": "5.12.5",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "qt5-qtquickcontrols2-5.12.5-1.el8.src.rpm",
-        "filename": "qt5-qtquickcontrols2-devel-5.12.5-1.el8.x86_64.rpm",
-        "sum": "381a23fe812e759a1993eb84b8c3f52831e25525500531943e1c44258715fe76",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qt5-qtwayland-devel",
-        "version": "5.12.5",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "qt5-qtwayland-5.12.5-1.el8.src.rpm",
-        "filename": "qt5-qtwayland-devel-5.12.5-1.el8.i686.rpm",
-        "sum": "3ee3fb99d2ad06e1d0d31ea7bf2d442252957822641873efc7a3cee834d9f865",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "qt5-devel",
         "version": "5.12.5",
         "release": "3.el8",
@@ -92,18 +92,6 @@
         "src": "qt5-5.12.5-3.el8.src.rpm",
         "filename": "qt5-devel-5.12.5-3.el8.noarch.rpm",
         "sum": "45d7c4a4042d9effa1f08252e5a9247037b39d8cd0be3c0b758248496a0c2376",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-qt5-devel",
-        "version": "5.13.1",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-qt5-5.13.1-1.el8.src.rpm",
-        "filename": "python3-qt5-devel-5.13.1-1.el8.x86_64.rpm",
-        "sum": "7dcaa5bddac6b299a85941affe84ef4663ac676827e15184fede5ee73bd30a6a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -120,18 +108,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qt5-qtdeclarative-static",
-        "version": "5.12.5",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "qt5-qtdeclarative-5.12.5-1.el8.src.rpm",
-        "filename": "qt5-qtdeclarative-static-5.12.5-1.el8.x86_64.rpm",
-        "sum": "b3eb4a0cf97bd6befb774bd4fe7d5f71afa420c548b015f54aad24fd757adb9d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "qt5-qtdoc",
         "version": "5.12.5",
         "release": "1.el8",
@@ -144,14 +120,38 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qt5-qtwayland-devel",
+        "version": "5.12.5",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "qt5-qtwayland-5.12.5-1.el8.src.rpm",
+        "filename": "qt5-qtwayland-devel-5.12.5-1.el8.x86_64.rpm",
+        "sum": "087d0bfd1de3124140ecb95cd6b8774b88139322d799a7f0936f2d7a89e732ca",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qt5-qtquickcontrols2-devel",
+        "version": "5.12.5",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "qt5-qtquickcontrols2-5.12.5-1.el8.src.rpm",
+        "filename": "qt5-qtquickcontrols2-devel-5.12.5-1.el8.x86_64.rpm",
+        "sum": "381a23fe812e759a1993eb84b8c3f52831e25525500531943e1c44258715fe76",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "python3-qt5-devel",
         "version": "5.13.1",
         "release": "1.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "python-qt5-5.13.1-1.el8.src.rpm",
-        "filename": "python3-qt5-devel-5.13.1-1.el8.i686.rpm",
-        "sum": "da4c02199f30a3274d82c3eb23e5bd7d1f6bab3ea2e4f635e3f9bd2ae8e835d8",
+        "filename": "python3-qt5-devel-5.13.1-1.el8.x86_64.rpm",
+        "sum": "7dcaa5bddac6b299a85941affe84ef4663ac676827e15184fede5ee73bd30a6a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -160,10 +160,10 @@
         "version": "5.12.5",
         "release": "1.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "qt5-qtdeclarative-5.12.5-1.el8.src.rpm",
-        "filename": "qt5-qtdeclarative-static-5.12.5-1.el8.i686.rpm",
-        "sum": "e1c03102339165df9eb0ccc9a16290eb57f42d1277d64855561352d1f1962588",
+        "filename": "qt5-qtdeclarative-static-5.12.5-1.el8.x86_64.rpm",
+        "sum": "b3eb4a0cf97bd6befb774bd4fe7d5f71afa420c548b015f54aad24fd757adb9d",
         "sum_type": 5,
         "reboot_suggested": 0
       }

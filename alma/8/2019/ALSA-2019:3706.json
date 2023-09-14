@@ -24,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "lua-devel",
-        "version": "5.3.4",
-        "release": "11.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "lua-5.3.4-11.el8.src.rpm",
-        "filename": "lua-devel-5.3.4-11.el8.x86_64.rpm",
-        "sum": "9a9118c50f62c3137c573ef7dd6e3203b38b1039c902430a6f1042e0a1c113e5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "lua",
         "version": "5.3.4",
         "release": "11.el8",
@@ -44,6 +32,18 @@
         "src": "lua-5.3.4-11.el8.src.rpm",
         "filename": "lua-5.3.4-11.el8.i686.rpm",
         "sum": "ef36703181d1888648c0caa2f0d85ebdd5ee46846abb60278e09363f0db11f45",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lua-devel",
+        "version": "5.3.4",
+        "release": "11.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "lua-5.3.4-11.el8.src.rpm",
+        "filename": "lua-devel-5.3.4-11.el8.x86_64.rpm",
+        "sum": "9a9118c50f62c3137c573ef7dd6e3203b38b1039c902430a6f1042e0a1c113e5",
         "sum_type": 5,
         "reboot_suggested": 0
       }

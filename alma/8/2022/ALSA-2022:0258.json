@@ -8,9 +8,57 @@
     "$date": 1643114982000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_httpd",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_httpd",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_httpd",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_httpd",
     "packages": [
+      {
+        "name": "mod_md",
+        "version": "2.0.8",
+        "release": "8.module_el8.6.0+2872+fe0ff7aa",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
+        "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
+        "sum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "httpd-manual",
+        "version": "2.4.37",
+        "release": "43.module_el8.5.0+2609+b30d9eec.1.alma",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "httpd-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.src.rpm",
+        "filename": "httpd-manual-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.noarch.rpm",
+        "sum": "1722580175e42b636ccc8fa1bdc33ac2f0d42dd2e48b03749491e91f3a0a50fe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "httpd-filesystem",
+        "version": "2.4.37",
+        "release": "43.module_el8.5.0+2609+b30d9eec.1.alma",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "httpd-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.src.rpm",
+        "filename": "httpd-filesystem-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.noarch.rpm",
+        "sum": "98735c27f918af75c69d7246254b25f2b5d5b72b1e47c10c3c24e14a6e9e6631",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mod_md",
+        "version": "2.0.8",
+        "release": "8.module_el8.6.0+2872+fe0ff7aa",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
+        "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.ppc64le.rpm",
+        "sum": "1a26f7d2af339e6769c26359dbdc9aa33083ab2b7d43c69c006dfafb57b05ac6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "mod_md",
         "version": "2.0.8",
@@ -36,42 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "httpd-manual",
-        "version": "2.4.37",
-        "release": "43.module_el8.5.0+2609+b30d9eec.1.alma",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "httpd-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.src.rpm",
-        "filename": "httpd-manual-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.noarch.rpm",
-        "sum": "1722580175e42b636ccc8fa1bdc33ac2f0d42dd2e48b03749491e91f3a0a50fe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_md",
-        "version": "2.0.8",
-        "release": "8.module_el8.6.0+2872+fe0ff7aa",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
-        "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.ppc64le.rpm",
-        "sum": "1a26f7d2af339e6769c26359dbdc9aa33083ab2b7d43c69c006dfafb57b05ac6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_md",
-        "version": "2.0.8",
-        "release": "8.module_el8.6.0+2872+fe0ff7aa",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
-        "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
-        "sum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "httpd-tools",
         "version": "2.4.37",
         "release": "43.module_el8.5.0+2609+b30d9eec.1.alma",
@@ -80,18 +92,6 @@
         "src": "httpd-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.src.rpm",
         "filename": "httpd-tools-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.x86_64.rpm",
         "sum": "370473333f2970130db943d83d7388711ecafc598f6453b6e73929ddcf16b53e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd-filesystem",
-        "version": "2.4.37",
-        "release": "43.module_el8.5.0+2609+b30d9eec.1.alma",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "httpd-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.src.rpm",
-        "filename": "httpd-filesystem-2.4.37-43.module_el8.5.0+2609+b30d9eec.1.alma.noarch.rpm",
-        "sum": "98735c27f918af75c69d7246254b25f2b5d5b72b1e47c10c3c24e14a6e9e6631",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -172,7 +172,7 @@
       "stream": "2.4",
       "name": "httpd",
       "version": 8060020220622110449,
-      "arch": "aarch64",
+      "arch": "ppc64le",
       "context": "9edba152"
     }
   },

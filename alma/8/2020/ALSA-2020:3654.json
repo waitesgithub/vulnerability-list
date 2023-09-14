@@ -12,38 +12,26 @@
     "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
-        "name": "libcroco",
-        "version": "0.6.12",
-        "release": "4.el8_2.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
-        "filename": "libcroco-0.6.12-4.el8_2.1.x86_64.rpm",
-        "sum": "001cfab74ef07ad7944258d39716828ca1dd0ed9f0bff30bbb34e05b6100fd2e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcroco",
-        "version": "0.6.12",
-        "release": "4.el8_2.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
-        "filename": "libcroco-0.6.12-4.el8_2.1.x86_64.rpm",
-        "sum": "001cfab74ef07ad7944258d39716828ca1dd0ed9f0bff30bbb34e05b6100fd2e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libcroco-devel",
         "version": "0.6.12",
         "release": "4.el8_2.1",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
-        "filename": "libcroco-devel-0.6.12-4.el8_2.1.ppc64le.rpm",
-        "sum": "2a8f943358cadebb591486b6f0edf3422fc7b575528f52416b1e1f045205f5ad",
+        "filename": "libcroco-devel-0.6.12-4.el8_2.1.aarch64.rpm",
+        "sum": "a0b040bb48976fde2843c923a31eca04318ec9cefb3e7d8de256b423e3ad01b1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libcroco",
+        "version": "0.6.12",
+        "release": "4.el8_2.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+        "filename": "libcroco-0.6.12-4.el8_2.1.aarch64.rpm",
+        "sum": "f3bdd1daecafd47b451e84e862aa53a6f30b49058a78c7daf7c672df57e513e7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,6 +72,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libcroco-devel",
+        "version": "0.6.12",
+        "release": "4.el8_2.1",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+        "filename": "libcroco-devel-0.6.12-4.el8_2.1.ppc64le.rpm",
+        "sum": "2a8f943358cadebb591486b6f0edf3422fc7b575528f52416b1e1f045205f5ad",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libcroco",
         "version": "0.6.12",
         "release": "4.el8_2.1",
@@ -96,14 +96,26 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libcroco-devel",
+        "name": "libcroco",
         "version": "0.6.12",
         "release": "4.el8_2.1",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
-        "filename": "libcroco-devel-0.6.12-4.el8_2.1.aarch64.rpm",
-        "sum": "a0b040bb48976fde2843c923a31eca04318ec9cefb3e7d8de256b423e3ad01b1",
+        "filename": "libcroco-0.6.12-4.el8_2.1.x86_64.rpm",
+        "sum": "001cfab74ef07ad7944258d39716828ca1dd0ed9f0bff30bbb34e05b6100fd2e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libcroco",
+        "version": "0.6.12",
+        "release": "4.el8_2.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+        "filename": "libcroco-0.6.12-4.el8_2.1.x86_64.rpm",
+        "sum": "001cfab74ef07ad7944258d39716828ca1dd0ed9f0bff30bbb34e05b6100fd2e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,18 +128,6 @@
         "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
         "filename": "libcroco-devel-0.6.12-4.el8_2.1.x86_64.rpm",
         "sum": "b805d882904907b1091da34a222acca1963c068ab85c187aad010fa85cb5fe2b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcroco",
-        "version": "0.6.12",
-        "release": "4.el8_2.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
-        "filename": "libcroco-0.6.12-4.el8_2.1.aarch64.rpm",
-        "sum": "f3bdd1daecafd47b451e84e862aa53a6f30b49058a78c7daf7c672df57e513e7",
         "sum_type": 5,
         "reboot_suggested": 0
       }

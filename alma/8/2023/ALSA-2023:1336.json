@@ -8,21 +8,9 @@
     "$date": 1679270400000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_7_default",
     "packages": [
-      {
-        "name": "firefox",
-        "version": "102.9.0",
-        "release": "3.el8_7.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "firefox-102.9.0-3.el8_7.alma.src.rpm",
-        "filename": "firefox-102.9.0-3.el8_7.alma.s390x.rpm",
-        "sum": "52bafe41b5efff7763f186452c607745a413d5b7bb5b6ad02e0ba2e6cac8825d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "firefox",
         "version": "102.9.0",
@@ -40,10 +28,10 @@
         "version": "102.9.0",
         "release": "3.el8_7.alma",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "firefox-102.9.0-3.el8_7.alma.src.rpm",
-        "filename": "firefox-102.9.0-3.el8_7.alma.x86_64.rpm",
-        "sum": "c268e8451f1ddc602eb72cb031dc7101f107c436ea40f8ca731cee42722bc20d",
+        "filename": "firefox-102.9.0-3.el8_7.alma.ppc64le.rpm",
+        "sum": "d7234ad1d4dfbe251866935a06ce0f1c9269c8e0642dea0bc3ad2229551d28c9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,22 @@
         "version": "102.9.0",
         "release": "3.el8_7.alma",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "firefox-102.9.0-3.el8_7.alma.src.rpm",
-        "filename": "firefox-102.9.0-3.el8_7.alma.ppc64le.rpm",
-        "sum": "d7234ad1d4dfbe251866935a06ce0f1c9269c8e0642dea0bc3ad2229551d28c9",
+        "filename": "firefox-102.9.0-3.el8_7.alma.s390x.rpm",
+        "sum": "52bafe41b5efff7763f186452c607745a413d5b7bb5b6ad02e0ba2e6cac8825d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox",
+        "version": "102.9.0",
+        "release": "3.el8_7.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "firefox-102.9.0-3.el8_7.alma.src.rpm",
+        "filename": "firefox-102.9.0-3.el8_7.alma.x86_64.rpm",
+        "sum": "c268e8451f1ddc602eb72cb031dc7101f107c436ea40f8ca731cee42722bc20d",
         "sum_type": 5,
         "reboot_suggested": 0
       }

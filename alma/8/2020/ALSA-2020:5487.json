@@ -16,10 +16,10 @@
         "version": "2.0.4",
         "release": "6.el8_3.1",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "i686",
         "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-        "filename": "pacemaker-libs-devel-2.0.4-6.el8_3.1.x86_64.rpm",
-        "sum": "0a0f10fbdbee806a506def82a0b928fccb1e574e6bf5d5bfcfeb2bee6bba9311",
+        "filename": "pacemaker-libs-devel-2.0.4-6.el8_3.1.i686.rpm",
+        "sum": "6b642aa7845fb8abe9c3705104c824e35ebdc072cb2775c208df8fc39953e3fe",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -32,6 +32,42 @@
         "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
         "filename": "pacemaker-nagios-plugins-metadata-2.0.4-6.el8_3.1.noarch.rpm",
         "sum": "2669037f04f076e3d088293f3420d107e0c608ec8bf28bcd3954cce546c9a4f0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pacemaker-cts",
+        "version": "2.0.4",
+        "release": "6.el8_3.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+        "filename": "pacemaker-cts-2.0.4-6.el8_3.1.noarch.rpm",
+        "sum": "69c97ac385ff86cf18c1d5a38bbd7bef8dc3fb5b93b35500e82c8e48c05ae62e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pacemaker-doc",
+        "version": "2.0.4",
+        "release": "6.el8_3.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+        "filename": "pacemaker-doc-2.0.4-6.el8_3.1.noarch.rpm",
+        "sum": "b208aa7e25804decfb2d9ed1e2867ce14bea2020e8200ee287fc964ec58ebaa6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pacemaker-libs-devel",
+        "version": "2.0.4",
+        "release": "6.el8_3.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+        "filename": "pacemaker-libs-devel-2.0.4-6.el8_3.1.x86_64.rpm",
+        "sum": "0a0f10fbdbee806a506def82a0b928fccb1e574e6bf5d5bfcfeb2bee6bba9311",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -60,30 +96,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pacemaker-cts",
-        "version": "2.0.4",
-        "release": "6.el8_3.1",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-        "filename": "pacemaker-cts-2.0.4-6.el8_3.1.noarch.rpm",
-        "sum": "69c97ac385ff86cf18c1d5a38bbd7bef8dc3fb5b93b35500e82c8e48c05ae62e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pacemaker-libs-devel",
-        "version": "2.0.4",
-        "release": "6.el8_3.1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-        "filename": "pacemaker-libs-devel-2.0.4-6.el8_3.1.i686.rpm",
-        "sum": "6b642aa7845fb8abe9c3705104c824e35ebdc072cb2775c208df8fc39953e3fe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pacemaker-cli",
         "version": "2.0.4",
         "release": "6.el8_3.1",
@@ -92,18 +104,6 @@
         "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
         "filename": "pacemaker-cli-2.0.4-6.el8_3.1.x86_64.rpm",
         "sum": "703474fb81d4397c55bb9b88f83faad6aa56afc0a2ffbe09cad2f06c67266b47",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pacemaker-doc",
-        "version": "2.0.4",
-        "release": "6.el8_3.1",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-        "filename": "pacemaker-doc-2.0.4-6.el8_3.1.noarch.rpm",
-        "sum": "b208aa7e25804decfb2d9ed1e2867ce14bea2020e8200ee287fc964ec58ebaa6",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -24,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "brotli-devel",
-        "version": "1.0.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "brotli-1.0.6-3.el8.src.rpm",
-        "filename": "brotli-devel-1.0.6-3.el8.x86_64.rpm",
-        "sum": "4f9047fc196889006f38e5dccdf91b1dcf7bad8ba7089729ef4bb7d9e68eec4a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-brotli",
         "version": "1.0.6",
         "release": "3.el8",
@@ -44,6 +32,30 @@
         "src": "brotli-1.0.6-3.el8.src.rpm",
         "filename": "python3-brotli-1.0.6-3.el8.aarch64.rpm",
         "sum": "612a49ef38c968589b593304d1d1ae282b68ede40ec6be9204a242db9b1dffb2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "brotli-devel",
+        "version": "1.0.6",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "brotli-1.0.6-3.el8.src.rpm",
+        "filename": "brotli-devel-1.0.6-3.el8.aarch64.rpm",
+        "sum": "91f015d4debec8b39d7b3da09412274dd6ddb226518590d7947d63b21ed935d8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "brotli-devel",
+        "version": "1.0.6",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "brotli-1.0.6-3.el8.src.rpm",
+        "filename": "brotli-devel-1.0.6-3.el8.i686.rpm",
+        "sum": "c4b74a9a3945a7fa89815f13021dceb7a7bc5426a09e113655ebc1a24e6b9222",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -72,18 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "brotli-devel",
-        "version": "1.0.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "brotli-1.0.6-3.el8.src.rpm",
-        "filename": "brotli-devel-1.0.6-3.el8.aarch64.rpm",
-        "sum": "91f015d4debec8b39d7b3da09412274dd6ddb226518590d7947d63b21ed935d8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-brotli",
         "version": "1.0.6",
         "release": "3.el8",
@@ -100,10 +100,10 @@
         "version": "1.0.6",
         "release": "3.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "brotli-1.0.6-3.el8.src.rpm",
-        "filename": "brotli-devel-1.0.6-3.el8.i686.rpm",
-        "sum": "c4b74a9a3945a7fa89815f13021dceb7a7bc5426a09e113655ebc1a24e6b9222",
+        "filename": "brotli-devel-1.0.6-3.el8.x86_64.rpm",
+        "sum": "4f9047fc196889006f38e5dccdf91b1dcf7bad8ba7089729ef4bb7d9e68eec4a",
         "sum_type": 5,
         "reboot_suggested": 0
       },

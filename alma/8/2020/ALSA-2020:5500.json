@@ -8,9 +8,21 @@
     "$date": 1608048223000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_mariadb",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_mariadb",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_mariadb",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_mariadb",
     "packages": [
+      {
+        "name": "Judy",
+        "version": "1.0.5",
+        "release": "18.module_el8.6.0+2761+593e5e59",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "d6a69d3a722b634e22140ac45951705586f6eacae111d6eddf8f0783a90dff0e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "Judy",
         "version": "1.0.5",
@@ -34,25 +46,13 @@
         "sum": "d02fc1640496c6b160680668c7082350371dc946b267813ab6d5de6615c738f1",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "Judy",
-        "version": "1.0.5",
-        "release": "18.module_el8.6.0+2761+593e5e59",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "d6a69d3a722b634e22140ac45951705586f6eacae111d6eddf8f0783a90dff0e",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {
-      "stream": "10.5",
+      "stream": "10.3",
       "name": "mariadb",
-      "version": 8060020220420124706,
-      "arch": "aarch64",
+      "version": 8060020220503130727,
+      "arch": "ppc64le",
       "context": "9edba152"
     }
   },

@@ -12,6 +12,30 @@
     "shortname": "almalinux-8-for-x86_64-highavailability-rpms__8_8_default",
     "packages": [
       {
+        "name": "pcs-snmp",
+        "version": "0.10.15",
+        "release": "4.el8_8.1.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.10.15-4.el8_8.1.alma.src.rpm",
+        "filename": "pcs-snmp-0.10.15-4.el8_8.1.alma.aarch64.rpm",
+        "sum": "66ef34d8a5590d5be4bdf1f9b65aedf5292b947279c2938db3ba1f9daa7f8ce0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.10.15",
+        "release": "4.el8_8.1.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcs-0.10.15-4.el8_8.1.alma.src.rpm",
+        "filename": "pcs-0.10.15-4.el8_8.1.alma.aarch64.rpm",
+        "sum": "b815d36aec29271f1586cd832d65300c9b585c77d4d99aca3f969596bacfa841",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "pcs",
         "version": "0.10.15",
         "release": "4.el8_8.1.alma",
@@ -28,10 +52,10 @@
         "version": "0.10.15",
         "release": "4.el8_8.1.alma",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "pcs-0.10.15-4.el8_8.1.alma.src.rpm",
-        "filename": "pcs-snmp-0.10.15-4.el8_8.1.alma.aarch64.rpm",
-        "sum": "66ef34d8a5590d5be4bdf1f9b65aedf5292b947279c2938db3ba1f9daa7f8ce0",
+        "filename": "pcs-snmp-0.10.15-4.el8_8.1.alma.ppc64le.rpm",
+        "sum": "ab329415c6518432e363cadb0d8492e6cc5dac7a1e809aa30585427fe175c79f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,30 +92,6 @@
         "src": "pcs-0.10.15-4.el8_8.1.alma.src.rpm",
         "filename": "pcs-snmp-0.10.15-4.el8_8.1.alma.x86_64.rpm",
         "sum": "70335604fb56095d52f6f636b706dce9662302550ecf7a21eccee26858129325",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.10.15",
-        "release": "4.el8_8.1.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pcs-0.10.15-4.el8_8.1.alma.src.rpm",
-        "filename": "pcs-snmp-0.10.15-4.el8_8.1.alma.ppc64le.rpm",
-        "sum": "ab329415c6518432e363cadb0d8492e6cc5dac7a1e809aa30585427fe175c79f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.10.15",
-        "release": "4.el8_8.1.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcs-0.10.15-4.el8_8.1.alma.src.rpm",
-        "filename": "pcs-0.10.15-4.el8_8.1.alma.aarch64.rpm",
-        "sum": "b815d36aec29271f1586cd832d65300c9b585c77d4d99aca3f969596bacfa841",
         "sum_type": 5,
         "reboot_suggested": 0
       },

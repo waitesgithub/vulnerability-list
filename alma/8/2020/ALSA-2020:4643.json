@@ -12,30 +12,6 @@
     "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
-        "name": "poppler-qt5-devel",
-        "version": "0.66.0",
-        "release": "27.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "poppler-0.66.0-27.el8.src.rpm",
-        "filename": "poppler-qt5-devel-0.66.0-27.el8.x86_64.rpm",
-        "sum": "0a54aaebcb16c3726517fcc21d5140a6a25d40faa4463ea9279239d64f4bdc8f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-cpp-devel",
-        "version": "0.66.0",
-        "release": "27.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "poppler-0.66.0-27.el8.src.rpm",
-        "filename": "poppler-cpp-devel-0.66.0-27.el8.x86_64.rpm",
-        "sum": "138252dc01eac0a7ddac61f47d7cefdab6013f24dce1c2badd190db55b294a74",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "poppler-cpp",
         "version": "0.66.0",
         "release": "27.el8",
@@ -84,18 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "poppler-qt5",
-        "version": "0.66.0",
-        "release": "27.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "poppler-0.66.0-27.el8.src.rpm",
-        "filename": "poppler-qt5-0.66.0-27.el8.x86_64.rpm",
-        "sum": "909f7db56d8dafdc8bf306b507b1cf48a8cda4a288ece7ded3ef311588e44e3e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "poppler-qt5-devel",
         "version": "0.66.0",
         "release": "27.el8",
@@ -104,6 +68,54 @@
         "src": "poppler-0.66.0-27.el8.src.rpm",
         "filename": "poppler-qt5-devel-0.66.0-27.el8.i686.rpm",
         "sum": "9f97a36291102b2450cf51c4238a08a205feac098428c234533818c3f788d082",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-cpp-devel",
+        "version": "0.66.0",
+        "release": "27.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "poppler-0.66.0-27.el8.src.rpm",
+        "filename": "poppler-cpp-devel-0.66.0-27.el8.i686.rpm",
+        "sum": "fda0eec2b1b946486170a0e991136b0e9607aaf0a83ea0ed9b7bc2895f5bb61a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-qt5-devel",
+        "version": "0.66.0",
+        "release": "27.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "poppler-0.66.0-27.el8.src.rpm",
+        "filename": "poppler-qt5-devel-0.66.0-27.el8.x86_64.rpm",
+        "sum": "0a54aaebcb16c3726517fcc21d5140a6a25d40faa4463ea9279239d64f4bdc8f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-cpp-devel",
+        "version": "0.66.0",
+        "release": "27.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "poppler-0.66.0-27.el8.src.rpm",
+        "filename": "poppler-cpp-devel-0.66.0-27.el8.x86_64.rpm",
+        "sum": "138252dc01eac0a7ddac61f47d7cefdab6013f24dce1c2badd190db55b294a74",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-qt5",
+        "version": "0.66.0",
+        "release": "27.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "poppler-0.66.0-27.el8.src.rpm",
+        "filename": "poppler-qt5-0.66.0-27.el8.x86_64.rpm",
+        "sum": "909f7db56d8dafdc8bf306b507b1cf48a8cda4a288ece7ded3ef311588e44e3e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -140,18 +152,6 @@
         "src": "poppler-0.66.0-27.el8.src.rpm",
         "filename": "poppler-cpp-0.66.0-27.el8.x86_64.rpm",
         "sum": "d4212873588c2032ed25a7fbb12a25d4c79467dd2076f32127e8207225122d9d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-cpp-devel",
-        "version": "0.66.0",
-        "release": "27.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "poppler-0.66.0-27.el8.src.rpm",
-        "filename": "poppler-cpp-devel-0.66.0-27.el8.i686.rpm",
-        "sum": "fda0eec2b1b946486170a0e991136b0e9607aaf0a83ea0ed9b7bc2895f5bb61a",
         "sum_type": 5,
         "reboot_suggested": 0
       }

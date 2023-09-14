@@ -8,33 +8,9 @@
     "$date": 1691366400000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
+    "name": "almalinux-8-for-aarch64-plus-rpms__8_8_default",
+    "shortname": "almalinux-8-for-aarch64-plus-rpms__8_8_default",
     "packages": [
-      {
-        "name": "thunderbird",
-        "version": "102.14.0",
-        "release": "1.el8_8.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "thunderbird-102.14.0-1.el8_8.alma.src.rpm",
-        "filename": "thunderbird-102.14.0-1.el8_8.alma.s390x.rpm",
-        "sum": "14a8f1f6601b614cc6919ede5a5d46a87a42728c5bc914a3c513c3f62ad63672",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "thunderbird",
-        "version": "102.14.0",
-        "release": "1.el8_8.alma.plus",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "thunderbird-102.14.0-1.el8_8.alma.plus.src.rpm",
-        "filename": "thunderbird-102.14.0-1.el8_8.alma.plus.x86_64.rpm",
-        "sum": "35334d7a251f8f1d3a372d18554ef3890dd348af3a1ec55fbbdba5378ea909bb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "thunderbird",
         "version": "102.14.0",
@@ -44,18 +20,6 @@
         "src": "thunderbird-102.14.0-1.el8_8.alma.src.rpm",
         "filename": "thunderbird-102.14.0-1.el8_8.alma.aarch64.rpm",
         "sum": "5f41c1d867aafaa69328381ba74a91c29e44a5d9281f38d9a66a6f1b923e77c0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "thunderbird",
-        "version": "102.14.0",
-        "release": "1.el8_8.alma.plus",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "thunderbird-102.14.0-1.el8_8.alma.plus.src.rpm",
-        "filename": "thunderbird-102.14.0-1.el8_8.alma.plus.s390x.rpm",
-        "sum": "65365a9169de4e8a1f0e7510655f1a7e73d77dbe1a4e740523cb1a10225c45f2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -92,6 +56,42 @@
         "src": "thunderbird-102.14.0-1.el8_8.alma.plus.src.rpm",
         "filename": "thunderbird-102.14.0-1.el8_8.alma.plus.ppc64le.rpm",
         "sum": "abbaabfa7fcb929ff70791d2367021babcde988b67fe11ddfe6b63f790666388",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "102.14.0",
+        "release": "1.el8_8.alma",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "thunderbird-102.14.0-1.el8_8.alma.src.rpm",
+        "filename": "thunderbird-102.14.0-1.el8_8.alma.s390x.rpm",
+        "sum": "14a8f1f6601b614cc6919ede5a5d46a87a42728c5bc914a3c513c3f62ad63672",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "102.14.0",
+        "release": "1.el8_8.alma.plus",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "thunderbird-102.14.0-1.el8_8.alma.plus.src.rpm",
+        "filename": "thunderbird-102.14.0-1.el8_8.alma.plus.s390x.rpm",
+        "sum": "65365a9169de4e8a1f0e7510655f1a7e73d77dbe1a4e740523cb1a10225c45f2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "102.14.0",
+        "release": "1.el8_8.alma.plus",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "thunderbird-102.14.0-1.el8_8.alma.plus.src.rpm",
+        "filename": "thunderbird-102.14.0-1.el8_8.alma.plus.x86_64.rpm",
+        "sum": "35334d7a251f8f1d3a372d18554ef3890dd348af3a1ec55fbbdba5378ea909bb",
         "sum_type": 5,
         "reboot_suggested": 0
       },

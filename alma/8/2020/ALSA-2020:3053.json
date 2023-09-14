@@ -8,9 +8,21 @@
     "$date": 1595343700000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_container-tools",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_container-tools",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_container-tools",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_container-tools",
     "packages": [
+      {
+        "name": "runc",
+        "version": "1.0.0",
+        "release": "66.rc10.module_el8.5.0+2635+e4386a39",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
+        "filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.aarch64.rpm",
+        "sum": "e360394cbb03aa96f1902d2c82f59a96a5cba68925db515b171f31ccac6c34f6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "toolbox",
         "version": "0.0.7",
@@ -36,18 +48,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "runc",
-        "version": "1.0.0",
-        "release": "66.rc10.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-        "sum": "3429bb0130a28570aab16478439ad0151b9c42a3d2978f21808d4ef46f315967",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "udica",
         "version": "0.2.1",
         "release": "2.module_el8.5.0+108+00865455",
@@ -68,18 +68,6 @@
         "src": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.src.rpm",
         "filename": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.noarch.rpm",
         "sum": "6014c5c3fb0e8b251cf8fe13d9dc538fe94d16ae2bfbf82206773d07378a433e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "runc",
-        "version": "1.0.0",
-        "release": "66.rc10.module_el8.5.0+108+00865455",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "runc-1.0.0-66.rc10.module_el8.5.0+108+00865455.src.rpm",
-        "filename": "runc-1.0.0-66.rc10.module_el8.5.0+108+00865455.ppc64le.rpm",
-        "sum": "912db521a2c1c17e74446b19e67b13a6f21ffda772801a6dbf0a2141cf78b758",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -110,12 +98,24 @@
       {
         "name": "runc",
         "version": "1.0.0",
+        "release": "66.rc10.module_el8.5.0+108+00865455",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "runc-1.0.0-66.rc10.module_el8.5.0+108+00865455.src.rpm",
+        "filename": "runc-1.0.0-66.rc10.module_el8.5.0+108+00865455.ppc64le.rpm",
+        "sum": "912db521a2c1c17e74446b19e67b13a6f21ffda772801a6dbf0a2141cf78b758",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "runc",
+        "version": "1.0.0",
         "release": "66.rc10.module_el8.5.0+2635+e4386a39",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.aarch64.rpm",
-        "sum": "e360394cbb03aa96f1902d2c82f59a96a5cba68925db515b171f31ccac6c34f6",
+        "filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.x86_64.rpm",
+        "sum": "3429bb0130a28570aab16478439ad0151b9c42a3d2978f21808d4ef46f315967",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -123,9 +123,9 @@
     "module": {
       "stream": "2.0",
       "name": "container-tools",
-      "version": 8050020220427075245,
-      "arch": "aarch64",
-      "context": "e34216c9"
+      "version": 8050020220427075907,
+      "arch": "ppc64le",
+      "context": "20125149"
     }
   },
   "pushcount": "4",

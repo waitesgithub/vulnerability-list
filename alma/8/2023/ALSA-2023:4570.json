@@ -16,18 +16,6 @@
         "version": "3.5",
         "release": "7.el8_8.alma",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "iperf3-3.5-7.el8_8.alma.src.rpm",
-        "filename": "iperf3-3.5-7.el8_8.alma.ppc64le.rpm",
-        "sum": "13226837aeeff27819a6e6aa510326f33928d1b2a6cc732c864188072a633306",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "iperf3",
-        "version": "3.5",
-        "release": "7.el8_8.alma",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "iperf3-3.5-7.el8_8.alma.src.rpm",
         "filename": "iperf3-3.5-7.el8_8.alma.aarch64.rpm",
@@ -44,6 +32,18 @@
         "src": "iperf3-3.5-7.el8_8.alma.src.rpm",
         "filename": "iperf3-3.5-7.el8_8.alma.i686.rpm",
         "sum": "57571a8e10fadfdcb2227e4f23f2b9569e27e51d87286f18717d14b0faab9b7d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "iperf3",
+        "version": "3.5",
+        "release": "7.el8_8.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "iperf3-3.5-7.el8_8.alma.src.rpm",
+        "filename": "iperf3-3.5-7.el8_8.alma.ppc64le.rpm",
+        "sum": "13226837aeeff27819a6e6aa510326f33928d1b2a6cc732c864188072a633306",
         "sum_type": 5,
         "reboot_suggested": 0
       },

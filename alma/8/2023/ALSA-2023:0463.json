@@ -8,8 +8,8 @@
     "$date": 1674604800000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_7_default",
     "packages": [
       {
         "name": "thunderbird",
@@ -20,6 +20,18 @@
         "src": "thunderbird-102.7.1-1.el8_7.alma.src.rpm",
         "filename": "thunderbird-102.7.1-1.el8_7.alma.aarch64.rpm",
         "sum": "00dc6932db42a7ae8180a16ab07a468fa11073b8cb3db1f46815c0496f4ea2e3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "102.7.1",
+        "release": "1.el8_7.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "thunderbird-102.7.1-1.el8_7.alma.src.rpm",
+        "filename": "thunderbird-102.7.1-1.el8_7.alma.ppc64le.rpm",
+        "sum": "cf5b38e6d13fa8b9db23e998479a6799cf4bdefd8258c29ea85c4a64a2088fde",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,18 +56,6 @@
         "src": "thunderbird-102.7.1-1.el8_7.alma.src.rpm",
         "filename": "thunderbird-102.7.1-1.el8_7.alma.x86_64.rpm",
         "sum": "1974718db0ea0aec71902aeb7be2aab28705a3651e30ed27e75217ac021172c9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "thunderbird",
-        "version": "102.7.1",
-        "release": "1.el8_7.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "thunderbird-102.7.1-1.el8_7.alma.src.rpm",
-        "filename": "thunderbird-102.7.1-1.el8_7.alma.ppc64le.rpm",
-        "sum": "cf5b38e6d13fa8b9db23e998479a6799cf4bdefd8258c29ea85c4a64a2088fde",
         "sum_type": 5,
         "reboot_suggested": 0
       }

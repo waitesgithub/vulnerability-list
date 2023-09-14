@@ -8,21 +8,9 @@
     "$date": 1684195200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_8_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_8_default",
     "packages": [
-      {
-        "name": "libreswan",
-        "version": "4.9",
-        "release": "3.el8_8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libreswan-4.9-3.el8_8.src.rpm",
-        "filename": "libreswan-4.9-3.el8_8.x86_64.rpm",
-        "sum": "36aae7fc5f984c844d01a641ed7dde1524480cf317c8ced7504ad5fde1e5010a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libreswan",
         "version": "4.9",
@@ -56,6 +44,18 @@
         "src": "libreswan-4.9-3.el8_8.src.rpm",
         "filename": "libreswan-4.9-3.el8_8.s390x.rpm",
         "sum": "f52dd92560cb99c0412870a0a34b908b3daa3987b3088adaf2344871f2147cbb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libreswan",
+        "version": "4.9",
+        "release": "3.el8_8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libreswan-4.9-3.el8_8.src.rpm",
+        "filename": "libreswan-4.9-3.el8_8.x86_64.rpm",
+        "sum": "36aae7fc5f984c844d01a641ed7dde1524480cf317c8ced7504ad5fde1e5010a",
         "sum_type": 5,
         "reboot_suggested": 0
       }

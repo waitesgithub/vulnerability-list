@@ -8,8 +8,8 @@
     "$date": 1628596855000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "libuv",
@@ -24,6 +24,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libuv-devel",
+        "version": "1.41.1",
+        "release": "1.el8_4",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "libuv-1.41.1-1.el8_4.src.rpm",
+        "filename": "libuv-devel-1.41.1-1.el8_4.aarch64.rpm",
+        "sum": "e2d11e21fede27ebfa1ba3b2b4fbc6fb9f7b0d293b0388e5777eca33a57f0ca4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libuv",
+        "version": "1.41.1",
+        "release": "1.el8_4",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "libuv-1.41.1-1.el8_4.src.rpm",
+        "filename": "libuv-1.41.1-1.el8_4.i686.rpm",
+        "sum": "acab918c48f83f0f0553d2ed72b16816b03c44d5740a35a3d792274c555623e7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libuv-devel",
+        "version": "1.41.1",
+        "release": "1.el8_4",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "libuv-1.41.1-1.el8_4.src.rpm",
+        "filename": "libuv-devel-1.41.1-1.el8_4.i686.rpm",
+        "sum": "ecb67a158cdcabae2242eef6d2d94099e52e53d98d4701f5598240d48221b5ce",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libuv",
         "version": "1.41.1",
         "release": "1.el8_4",
@@ -32,6 +68,18 @@
         "src": "libuv-1.41.1-1.el8_4.src.rpm",
         "filename": "libuv-1.41.1-1.el8_4.ppc64le.rpm",
         "sum": "6fe54fafe84cb40cb62b0f19ad146119c5bdece6495eabe08678caf90108930e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libuv-devel",
+        "version": "1.41.1",
+        "release": "1.el8_4",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "libuv-1.41.1-1.el8_4.src.rpm",
+        "filename": "libuv-devel-1.41.1-1.el8_4.ppc64le.rpm",
+        "sum": "fd96f1ee2306b598b196da13cb356c648c26ccd6afdf6c172ce3dacafb8812e2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -58,54 +106,6 @@
         "sum": "9ab7a1a5e16b9bd569d638156f03c8983d47535cffb27534b8c2b7aadc770284",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libuv",
-        "version": "1.41.1",
-        "release": "1.el8_4",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "libuv-1.41.1-1.el8_4.src.rpm",
-        "filename": "libuv-1.41.1-1.el8_4.i686.rpm",
-        "sum": "acab918c48f83f0f0553d2ed72b16816b03c44d5740a35a3d792274c555623e7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libuv-devel",
-        "version": "1.41.1",
-        "release": "1.el8_4",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "libuv-1.41.1-1.el8_4.src.rpm",
-        "filename": "libuv-devel-1.41.1-1.el8_4.aarch64.rpm",
-        "sum": "e2d11e21fede27ebfa1ba3b2b4fbc6fb9f7b0d293b0388e5777eca33a57f0ca4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libuv-devel",
-        "version": "1.41.1",
-        "release": "1.el8_4",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "libuv-1.41.1-1.el8_4.src.rpm",
-        "filename": "libuv-devel-1.41.1-1.el8_4.i686.rpm",
-        "sum": "ecb67a158cdcabae2242eef6d2d94099e52e53d98d4701f5598240d48221b5ce",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libuv-devel",
-        "version": "1.41.1",
-        "release": "1.el8_4",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "libuv-1.41.1-1.el8_4.src.rpm",
-        "filename": "libuv-devel-1.41.1-1.el8_4.ppc64le.rpm",
-        "sum": "fd96f1ee2306b598b196da13cb356c648c26ccd6afdf6c172ce3dacafb8812e2",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -126,7 +126,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",

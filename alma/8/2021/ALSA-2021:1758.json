@@ -16,18 +16,6 @@
         "version": "0.27.3",
         "release": "2.el8",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "exiv2-0.27.3-2.el8.src.rpm",
-        "filename": "exiv2-devel-0.27.3-2.el8.x86_64.rpm",
-        "sum": "2fcb62622ab94828cb7fa8f55feeea093006e965f73c6563f671d7b197718b07",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "exiv2-devel",
-        "version": "0.27.3",
-        "release": "2.el8",
-        "epoch": "0",
         "arch": "i686",
         "src": "exiv2-0.27.3-2.el8.src.rpm",
         "filename": "exiv2-devel-0.27.3-2.el8.i686.rpm",
@@ -44,6 +32,18 @@
         "src": "exiv2-0.27.3-2.el8.src.rpm",
         "filename": "exiv2-doc-0.27.3-2.el8.noarch.rpm",
         "sum": "e16cc0ae939168e40f19bd7a96479634fd0ad40b7d04c72fbf81dc9d19989b8c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "exiv2-devel",
+        "version": "0.27.3",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "exiv2-0.27.3-2.el8.src.rpm",
+        "filename": "exiv2-devel-0.27.3-2.el8.x86_64.rpm",
+        "sum": "2fcb62622ab94828cb7fa8f55feeea093006e965f73c6563f671d7b197718b07",
         "sum_type": 5,
         "reboot_suggested": 0
       }

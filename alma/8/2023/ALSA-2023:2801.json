@@ -16,10 +16,10 @@
         "version": "7.5.1",
         "release": "7.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "frr-7.5.1-7.el8.src.rpm",
-        "filename": "frr-7.5.1-7.el8.x86_64.rpm",
-        "sum": "8f1b3395d7b69fa7e217b3514771f95b5e45a3f53beb56197b9b3cb525e0e086",
+        "filename": "frr-7.5.1-7.el8.aarch64.rpm",
+        "sum": "c949764c4c8d93ea907aa82d091737f67a25df4b04e277e28d99afb0f586b304",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -32,18 +32,6 @@
         "src": "frr-7.5.1-7.el8.src.rpm",
         "filename": "frr-selinux-7.5.1-7.el8.noarch.rpm",
         "sum": "a77da8799c5fa9246cf57e3b26a8451251d710f6384459c376fad863846c5709",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "frr",
-        "version": "7.5.1",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "frr-7.5.1-7.el8.src.rpm",
-        "filename": "frr-7.5.1-7.el8.aarch64.rpm",
-        "sum": "c949764c4c8d93ea907aa82d091737f67a25df4b04e277e28d99afb0f586b304",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,6 +56,18 @@
         "src": "frr-7.5.1-7.el8.src.rpm",
         "filename": "frr-7.5.1-7.el8.s390x.rpm",
         "sum": "e0a72fad220d9b563396256e3f1479969eb648a7dedb291b57698668c1bae113",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "frr",
+        "version": "7.5.1",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "frr-7.5.1-7.el8.src.rpm",
+        "filename": "frr-7.5.1-7.el8.x86_64.rpm",
+        "sum": "8f1b3395d7b69fa7e217b3514771f95b5e45a3f53beb56197b9b3cb525e0e086",
         "sum_type": 5,
         "reboot_suggested": 0
       }

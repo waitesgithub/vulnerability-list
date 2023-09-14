@@ -12,18 +12,6 @@
     "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
-        "name": "libdb-sql",
-        "version": "5.3.28",
-        "release": "40.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libdb-5.3.28-40.el8.src.rpm",
-        "filename": "libdb-sql-5.3.28-40.el8.x86_64.rpm",
-        "sum": "003dc47e0d61e1e59cef2bcd7d8989f6631eb79ed96a4a28c4c5f75a87050ef4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libdb-sql-devel",
         "version": "5.3.28",
         "release": "40.el8",
@@ -32,30 +20,6 @@
         "src": "libdb-5.3.28-40.el8.src.rpm",
         "filename": "libdb-sql-devel-5.3.28-40.el8.i686.rpm",
         "sum": "1de0d13608ff855d5afc48fdddc62a11c29b843ffc7665e3314d0d6ecd637103",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libdb-cxx",
-        "version": "5.3.28",
-        "release": "40.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libdb-5.3.28-40.el8.src.rpm",
-        "filename": "libdb-cxx-5.3.28-40.el8.x86_64.rpm",
-        "sum": "1f3b8cb79e7669003aad8d5de6e86c0818d9f2045f746bbf3e75214231b91e95",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libdb-cxx-devel",
-        "version": "5.3.28",
-        "release": "40.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libdb-5.3.28-40.el8.src.rpm",
-        "filename": "libdb-cxx-devel-5.3.28-40.el8.x86_64.rpm",
-        "sum": "5b5e6cdf0ee36643caa869d7b722e63ca60f0b644b4d73a0c83e2e8cd1746444",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,18 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libdb-sql-devel",
-        "version": "5.3.28",
-        "release": "40.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libdb-5.3.28-40.el8.src.rpm",
-        "filename": "libdb-sql-devel-5.3.28-40.el8.x86_64.rpm",
-        "sum": "cb00202ae1dd0bec9821e7cd64992427ceaa4bc45e57805ee3047542c8545b07",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libdb-devel-doc",
         "version": "5.3.28",
         "release": "40.el8",
@@ -116,6 +68,54 @@
         "src": "libdb-5.3.28-40.el8.src.rpm",
         "filename": "libdb-devel-doc-5.3.28-40.el8.noarch.rpm",
         "sum": "eec677456b3d11b619514509a07be226d92e1fa538f4323a54d831f92403e713",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libdb-sql",
+        "version": "5.3.28",
+        "release": "40.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libdb-5.3.28-40.el8.src.rpm",
+        "filename": "libdb-sql-5.3.28-40.el8.x86_64.rpm",
+        "sum": "003dc47e0d61e1e59cef2bcd7d8989f6631eb79ed96a4a28c4c5f75a87050ef4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libdb-cxx",
+        "version": "5.3.28",
+        "release": "40.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libdb-5.3.28-40.el8.src.rpm",
+        "filename": "libdb-cxx-5.3.28-40.el8.x86_64.rpm",
+        "sum": "1f3b8cb79e7669003aad8d5de6e86c0818d9f2045f746bbf3e75214231b91e95",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libdb-cxx-devel",
+        "version": "5.3.28",
+        "release": "40.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libdb-5.3.28-40.el8.src.rpm",
+        "filename": "libdb-cxx-devel-5.3.28-40.el8.x86_64.rpm",
+        "sum": "5b5e6cdf0ee36643caa869d7b722e63ca60f0b644b4d73a0c83e2e8cd1746444",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libdb-sql-devel",
+        "version": "5.3.28",
+        "release": "40.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libdb-5.3.28-40.el8.src.rpm",
+        "filename": "libdb-sql-devel-5.3.28-40.el8.x86_64.rpm",
+        "sum": "cb00202ae1dd0bec9821e7cd64992427ceaa4bc45e57805ee3047542c8545b07",
         "sum_type": 5,
         "reboot_suggested": 0
       }

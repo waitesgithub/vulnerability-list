@@ -12,30 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
-        "name": "gcc-toolset-11-libtsan-devel",
-        "version": "11.2.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-11-libtsan-devel-11.2.1-1.2.el8_5.x86_64.rpm",
-        "sum": "03c09af9626131d83859752c718645ac3e3a5e9b91a2c84063c35b8b6282e840",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-11-libgccjit",
-        "version": "11.2.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-11-libgccjit-11.2.1-1.2.el8_5.x86_64.rpm",
-        "sum": "04b219ebb3400fa59e7cbea068d45aa2df8a1226a5fe8f0fb6545d4b80f949e0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "gcc-toolset-11-libitm-devel",
         "version": "11.2.1",
         "release": "1.2.el8_5",
@@ -48,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "gcc-toolset-11-gcc-plugin-devel",
-        "version": "11.2.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-11-gcc-plugin-devel-11.2.1-1.2.el8_5.x86_64.rpm",
-        "sum": "23b0a74f0054cb2396c8ecbd61d28edde108570f200c33bf51c7e4ac0cff789d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "gcc-toolset-11-libstdc++-devel",
         "version": "11.2.1",
         "release": "1.2.el8_5",
@@ -68,30 +32,6 @@
         "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
         "filename": "gcc-toolset-11-libstdc++-devel-11.2.1-1.2.el8_5.i686.rpm",
         "sum": "345a03800a07393a4f5e652db1a10f6b1c8f120a4e125980d2311272f29c8fc9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libasan6",
-        "version": "11.2.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
-        "filename": "libasan6-11.2.1-1.2.el8_5.x86_64.rpm",
-        "sum": "493c9eb57806b31e31d976c117e5b77c5363baf6c1d07e8a2732c48b1a3b6dd4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-11-libgccjit-devel",
-        "version": "11.2.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-11-libgccjit-devel-11.2.1-1.2.el8_5.x86_64.rpm",
-        "sum": "500d358ac7e9d6adbd408d4df9dd738187215e0792714db5f82f4a1edb1eaeb1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,18 +56,6 @@
         "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
         "filename": "gcc-toolset-11-gcc-plugin-devel-11.2.1-1.2.el8_5.i686.rpm",
         "sum": "53445b64d13496fa81ba1830fae25cd79457db164317f741616ff789e117ff57",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-11-libstdc++-docs",
-        "version": "11.2.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-11-libstdc++-docs-11.2.1-1.2.el8_5.x86_64.rpm",
-        "sum": "5400d3784028cc9e4aa8db1fa7c7e748e95d8a934c4f6322462b1818f04a1efd",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -164,6 +92,102 @@
         "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
         "filename": "libasan6-11.2.1-1.2.el8_5.i686.rpm",
         "sum": "6d4bacee9941f788d0b057c050209fe30c24cbffdb1e212d339b7e94f63f9e26",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-11-libgccjit-devel",
+        "version": "11.2.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-11-libgccjit-devel-11.2.1-1.2.el8_5.i686.rpm",
+        "sum": "c534dc0fa4152af83b9f7c7bc3d33f4d61965daa73bc1685c7f64b7143062f5d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-11-libquadmath-devel",
+        "version": "11.2.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-11-libquadmath-devel-11.2.1-1.2.el8_5.i686.rpm",
+        "sum": "e350ed3680ddc9de0d75e6ae9a38a26abd1f20fff4bff8faace7ac93b5284797",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-11-libtsan-devel",
+        "version": "11.2.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-11-libtsan-devel-11.2.1-1.2.el8_5.x86_64.rpm",
+        "sum": "03c09af9626131d83859752c718645ac3e3a5e9b91a2c84063c35b8b6282e840",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-11-libgccjit",
+        "version": "11.2.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-11-libgccjit-11.2.1-1.2.el8_5.x86_64.rpm",
+        "sum": "04b219ebb3400fa59e7cbea068d45aa2df8a1226a5fe8f0fb6545d4b80f949e0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-11-gcc-plugin-devel",
+        "version": "11.2.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-11-gcc-plugin-devel-11.2.1-1.2.el8_5.x86_64.rpm",
+        "sum": "23b0a74f0054cb2396c8ecbd61d28edde108570f200c33bf51c7e4ac0cff789d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libasan6",
+        "version": "11.2.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
+        "filename": "libasan6-11.2.1-1.2.el8_5.x86_64.rpm",
+        "sum": "493c9eb57806b31e31d976c117e5b77c5363baf6c1d07e8a2732c48b1a3b6dd4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-11-libgccjit-devel",
+        "version": "11.2.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-11-libgccjit-devel-11.2.1-1.2.el8_5.x86_64.rpm",
+        "sum": "500d358ac7e9d6adbd408d4df9dd738187215e0792714db5f82f4a1edb1eaeb1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-11-libstdc++-docs",
+        "version": "11.2.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-11-libstdc++-docs-11.2.1-1.2.el8_5.x86_64.rpm",
+        "sum": "5400d3784028cc9e4aa8db1fa7c7e748e95d8a934c4f6322462b1818f04a1efd",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -272,30 +296,6 @@
         "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
         "filename": "gcc-toolset-11-libstdc++-devel-11.2.1-1.2.el8_5.x86_64.rpm",
         "sum": "a6da1c39b3a72246e7180146057503cfcd7b0d3b89d72aa0de19ccf21e9530b3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-11-libgccjit-devel",
-        "version": "11.2.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-11-libgccjit-devel-11.2.1-1.2.el8_5.i686.rpm",
-        "sum": "c534dc0fa4152af83b9f7c7bc3d33f4d61965daa73bc1685c7f64b7143062f5d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-11-libquadmath-devel",
-        "version": "11.2.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-11-gcc-11.2.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-11-libquadmath-devel-11.2.1-1.2.el8_5.i686.rpm",
-        "sum": "e350ed3680ddc9de0d75e6ae9a38a26abd1f20fff4bff8faace7ac93b5284797",
         "sum_type": 5,
         "reboot_suggested": 0
       },

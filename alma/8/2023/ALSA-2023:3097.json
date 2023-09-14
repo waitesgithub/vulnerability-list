@@ -8,33 +8,9 @@
     "$date": 1684195200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_8_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_8_default",
     "packages": [
-      {
-        "name": "gssntlmssp",
-        "version": "1.2.0",
-        "release": "1.el8_8",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
-        "filename": "gssntlmssp-1.2.0-1.el8_8.s390x.rpm",
-        "sum": "0ca5301d372ec234886f955dea22eeda07f34be9ede4e3cf9f5a48449b682025",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gssntlmssp",
-        "version": "1.2.0",
-        "release": "1.el8_8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
-        "filename": "gssntlmssp-1.2.0-1.el8_8.x86_64.rpm",
-        "sum": "7123785ba560c693bb9bb73e2d458cc030e076d6c9bf442836782175386865fe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "gssntlmssp",
         "version": "1.2.0",
@@ -56,6 +32,30 @@
         "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
         "filename": "gssntlmssp-1.2.0-1.el8_8.ppc64le.rpm",
         "sum": "b7f25c19ad978506b842396d55ddf2cfb56e259d3266cdf08c7912d2ec6f3aef",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gssntlmssp",
+        "version": "1.2.0",
+        "release": "1.el8_8",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
+        "filename": "gssntlmssp-1.2.0-1.el8_8.s390x.rpm",
+        "sum": "0ca5301d372ec234886f955dea22eeda07f34be9ede4e3cf9f5a48449b682025",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gssntlmssp",
+        "version": "1.2.0",
+        "release": "1.el8_8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
+        "filename": "gssntlmssp-1.2.0-1.el8_8.x86_64.rpm",
+        "sum": "7123785ba560c693bb9bb73e2d458cc030e076d6c9bf442836782175386865fe",
         "sum_type": 5,
         "reboot_suggested": 0
       }

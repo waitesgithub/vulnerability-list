@@ -16,18 +16,6 @@
         "version": "5.56",
         "release": "5.el8_3",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "stunnel-5.56-5.el8_3.src.rpm",
-        "filename": "stunnel-5.56-5.el8_3.x86_64.rpm",
-        "sum": "295addea8fd6fe24287019dc5df1c8f7447bb1ea70ece97d3d90593a60d729b1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "stunnel",
-        "version": "5.56",
-        "release": "5.el8_3",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "stunnel-5.56-5.el8_3.src.rpm",
         "filename": "stunnel-5.56-5.el8_3.aarch64.rpm",
@@ -44,6 +32,18 @@
         "src": "stunnel-5.56-5.el8_3.src.rpm",
         "filename": "stunnel-5.56-5.el8_3.ppc64le.rpm",
         "sum": "73fe4042513e319e51050c417a1ca9f18e975eff8b399785d8677d44f1107d55",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "stunnel",
+        "version": "5.56",
+        "release": "5.el8_3",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "stunnel-5.56-5.el8_3.src.rpm",
+        "filename": "stunnel-5.56-5.el8_3.x86_64.rpm",
+        "sum": "295addea8fd6fe24287019dc5df1c8f7447bb1ea70ece97d3d90593a60d729b1",
         "sum_type": 5,
         "reboot_suggested": 0
       }

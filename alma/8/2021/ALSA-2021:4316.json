@@ -8,21 +8,9 @@
     "$date": 1636448351000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "zziplib",
-        "version": "0.13.68",
-        "release": "9.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "zziplib-0.13.68-9.el8.src.rpm",
-        "filename": "zziplib-0.13.68-9.el8.ppc64le.rpm",
-        "sum": "0adff6408684dbdb9f4efe9d5abfc079e4fe6fa93de02e764a28dfcde0eb18d1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "zziplib",
         "version": "0.13.68",
@@ -32,6 +20,30 @@
         "src": "zziplib-0.13.68-9.el8.src.rpm",
         "filename": "zziplib-0.13.68-9.el8.aarch64.rpm",
         "sum": "2764da3923d477c4a857eb3aea37de969f1af911dbf8ee9585fc4b982fd8d6bd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zziplib-utils",
+        "version": "0.13.68",
+        "release": "9.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "zziplib-0.13.68-9.el8.src.rpm",
+        "filename": "zziplib-utils-0.13.68-9.el8.aarch64.rpm",
+        "sum": "541edbccbb8fd3f457589cd00e423baa66d4141e0c30b8d0967be8b059d7efd7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zziplib-devel",
+        "version": "0.13.68",
+        "release": "9.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "zziplib-0.13.68-9.el8.src.rpm",
+        "filename": "zziplib-devel-0.13.68-9.el8.aarch64.rpm",
+        "sum": "f3aa81afa8078bcdb597f138a03e32bcb0c5e066faddb586f1248a6740bb4ba8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -60,14 +72,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "zziplib-utils",
+        "name": "zziplib",
         "version": "0.13.68",
         "release": "9.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "zziplib-0.13.68-9.el8.src.rpm",
-        "filename": "zziplib-utils-0.13.68-9.el8.aarch64.rpm",
-        "sum": "541edbccbb8fd3f457589cd00e423baa66d4141e0c30b8d0967be8b059d7efd7",
+        "filename": "zziplib-0.13.68-9.el8.ppc64le.rpm",
+        "sum": "0adff6408684dbdb9f4efe9d5abfc079e4fe6fa93de02e764a28dfcde0eb18d1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -80,6 +92,18 @@
         "src": "zziplib-0.13.68-9.el8.src.rpm",
         "filename": "zziplib-utils-0.13.68-9.el8.ppc64le.rpm",
         "sum": "8bd2c718545868a2046c4e34053d6238acf105683d0ba9c9de280e4c1e6f5426",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zziplib-devel",
+        "version": "0.13.68",
+        "release": "9.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "zziplib-0.13.68-9.el8.src.rpm",
+        "filename": "zziplib-devel-0.13.68-9.el8.ppc64le.rpm",
+        "sum": "df8215705485856233cb2109446c9a874d0795933ab7d12e61b12153cc9aebb3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -118,30 +142,6 @@
         "sum": "dba0c54c6531ad37545a8d1d4d6506d3ee9cc4426b97b7c6ab3298cbfe95deae",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "zziplib-devel",
-        "version": "0.13.68",
-        "release": "9.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "zziplib-0.13.68-9.el8.src.rpm",
-        "filename": "zziplib-devel-0.13.68-9.el8.ppc64le.rpm",
-        "sum": "df8215705485856233cb2109446c9a874d0795933ab7d12e61b12153cc9aebb3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zziplib-devel",
-        "version": "0.13.68",
-        "release": "9.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "zziplib-0.13.68-9.el8.src.rpm",
-        "filename": "zziplib-devel-0.13.68-9.el8.aarch64.rpm",
-        "sum": "f3aa81afa8078bcdb597f138a03e32bcb0c5e066faddb586f1248a6740bb4ba8",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -162,7 +162,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",

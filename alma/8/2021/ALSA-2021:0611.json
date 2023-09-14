@@ -8,33 +8,9 @@
     "$date": 1613658735000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
     "packages": [
-      {
-        "name": "xterm-resize",
-        "version": "331",
-        "release": "1.el8_3.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "xterm-331-1.el8_3.2.src.rpm",
-        "filename": "xterm-resize-331-1.el8_3.2.x86_64.rpm",
-        "sum": "6bee4654246250faec39eb3df9b9ed097aa2bfc4d73aab31f013b600c0897bb3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xterm",
-        "version": "331",
-        "release": "1.el8_3.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "xterm-331-1.el8_3.2.src.rpm",
-        "filename": "xterm-331-1.el8_3.2.x86_64.rpm",
-        "sum": "857d6a2f974f68f3e3e30dca64d9a342b6013ee0571417c15656f64c10a4bee9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "xterm",
         "version": "331",
@@ -44,6 +20,18 @@
         "src": "xterm-331-1.el8_3.2.src.rpm",
         "filename": "xterm-331-1.el8_3.2.aarch64.rpm",
         "sum": "a2632d901587c941fd260be4f181b407b66b9ccda26469d61e6189791a78065f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "xterm-resize",
+        "version": "331",
+        "release": "1.el8_3.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "xterm-331-1.el8_3.2.src.rpm",
+        "filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm",
+        "sum": "cd8384946acd91f6eceaeffdcc5aa808f74a6fae6837ec78589559708ec3109e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,10 +64,22 @@
         "version": "331",
         "release": "1.el8_3.2",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "xterm-331-1.el8_3.2.src.rpm",
-        "filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm",
-        "sum": "cd8384946acd91f6eceaeffdcc5aa808f74a6fae6837ec78589559708ec3109e",
+        "filename": "xterm-resize-331-1.el8_3.2.x86_64.rpm",
+        "sum": "6bee4654246250faec39eb3df9b9ed097aa2bfc4d73aab31f013b600c0897bb3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "xterm",
+        "version": "331",
+        "release": "1.el8_3.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "xterm-331-1.el8_3.2.src.rpm",
+        "filename": "xterm-331-1.el8_3.2.x86_64.rpm",
+        "sum": "857d6a2f974f68f3e3e30dca64d9a342b6013ee0571417c15656f64c10a4bee9",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -102,7 +102,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Important",
   "solution": "",
   "status": "final",

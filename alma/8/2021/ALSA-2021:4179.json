@@ -8,18 +8,18 @@
     "$date": 1636446770000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_0_default",
     "packages": [
       {
         "name": "file-roller",
         "version": "3.28.1",
         "release": "4.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "file-roller-3.28.1-4.el8.src.rpm",
-        "filename": "file-roller-3.28.1-4.el8.x86_64.rpm",
-        "sum": "0fe5ddebcb6dc571a91448460f4317ad2d69b51f3ce04e810b2f54edf43f61f9",
+        "filename": "file-roller-3.28.1-4.el8.aarch64.rpm",
+        "sum": "e30ff57a4994baa6bfc34120c37cc8d20c41f0bb6472df825b26336c286de65d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +40,10 @@
         "version": "3.28.1",
         "release": "4.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "file-roller-3.28.1-4.el8.src.rpm",
-        "filename": "file-roller-3.28.1-4.el8.aarch64.rpm",
-        "sum": "e30ff57a4994baa6bfc34120c37cc8d20c41f0bb6472df825b26336c286de65d",
+        "filename": "file-roller-3.28.1-4.el8.x86_64.rpm",
+        "sum": "0fe5ddebcb6dc571a91448460f4317ad2d69b51f3ce04e810b2f54edf43f61f9",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -66,7 +66,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",

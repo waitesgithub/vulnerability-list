@@ -8,8 +8,8 @@
     "$date": 1568129579000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "libwmf-devel",
@@ -20,18 +20,6 @@
         "src": "libwmf-0.2.9-8.el8_0.src.rpm",
         "filename": "libwmf-devel-0.2.9-8.el8_0.aarch64.rpm",
         "sum": "0b3bb7bc2e117303c1b72678a0f65bad4be955cd997427492ebe7f121fd2aa68",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwmf",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-0.2.9-8.el8_0.x86_64.rpm",
-        "sum": "54ee690db484f4f509332e3ad4b69bc30c6e7f93c69eec3f7f1636d29033b5f0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -48,26 +36,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libwmf-lite",
+        "name": "libwmf",
         "version": "0.2.9",
         "release": "8.el8_0",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-lite-0.2.9-8.el8_0.x86_64.rpm",
-        "sum": "74ff82a1c952fd904fae12a3b7437776aa42aa920f5e35ca8b87ffe879ed60d9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwmf-lite",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-lite-0.2.9-8.el8_0.ppc64le.rpm",
-        "sum": "7b85b0ccf122dcf3a329cba22ddc949aa9b1cc705211e7e894d7bfa2f36985b3",
+        "filename": "libwmf-0.2.9-8.el8_0.aarch64.rpm",
+        "sum": "84923c479012c05bb07de347ca009360fbf0c1dab273f8db6651c577f9eaffa1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,30 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libwmf",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-0.2.9-8.el8_0.aarch64.rpm",
-        "sum": "84923c479012c05bb07de347ca009360fbf0c1dab273f8db6651c577f9eaffa1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwmf-devel",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-devel-0.2.9-8.el8_0.ppc64le.rpm",
-        "sum": "9b780dbbde15e35dec5293265e8bc550139fdaf4f67ae1cfc49e4aa14e30196c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libwmf-devel",
         "version": "0.2.9",
         "release": "8.el8_0",
@@ -120,14 +72,38 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libwmf",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-0.2.9-8.el8_0.i686.rpm",
+        "sum": "fb73daf306bd2fa2fee6c14da4718f4f56ed6d5e0ebcfce558b962f724c1280b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwmf-lite",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-lite-0.2.9-8.el8_0.ppc64le.rpm",
+        "sum": "7b85b0ccf122dcf3a329cba22ddc949aa9b1cc705211e7e894d7bfa2f36985b3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libwmf-devel",
         "version": "0.2.9",
         "release": "8.el8_0",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-devel-0.2.9-8.el8_0.x86_64.rpm",
-        "sum": "c4213f6736e692bab45dc9a989df50de6d46d6bfdc67750bf2acdaafc1f4e5ce",
+        "filename": "libwmf-devel-0.2.9-8.el8_0.ppc64le.rpm",
+        "sum": "9b780dbbde15e35dec5293265e8bc550139fdaf4f67ae1cfc49e4aa14e30196c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -148,10 +124,34 @@
         "version": "0.2.9",
         "release": "8.el8_0",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-0.2.9-8.el8_0.i686.rpm",
-        "sum": "fb73daf306bd2fa2fee6c14da4718f4f56ed6d5e0ebcfce558b962f724c1280b",
+        "filename": "libwmf-0.2.9-8.el8_0.x86_64.rpm",
+        "sum": "54ee690db484f4f509332e3ad4b69bc30c6e7f93c69eec3f7f1636d29033b5f0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwmf-lite",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-lite-0.2.9-8.el8_0.x86_64.rpm",
+        "sum": "74ff82a1c952fd904fae12a3b7437776aa42aa920f5e35ca8b87ffe879ed60d9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwmf-devel",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-devel-0.2.9-8.el8_0.x86_64.rpm",
+        "sum": "c4213f6736e692bab45dc9a989df50de6d46d6bfdc67750bf2acdaafc1f4e5ce",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -174,7 +174,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",

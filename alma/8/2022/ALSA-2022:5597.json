@@ -16,18 +16,6 @@
         "version": "2.0.6",
         "release": "6.el8_6",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "pandoc-2.0.6-6.el8_6.src.rpm",
-        "filename": "pandoc-2.0.6-6.el8_6.x86_64.rpm",
-        "sum": "6287e245278932cfa8cddc5f5fdb0b842ed66c771ae438fab9267eccf78e9808",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pandoc",
-        "version": "2.0.6",
-        "release": "6.el8_6",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "pandoc-2.0.6-6.el8_6.src.rpm",
         "filename": "pandoc-2.0.6-6.el8_6.aarch64.rpm",
@@ -56,6 +44,18 @@
         "src": "pandoc-2.0.6-6.el8_6.src.rpm",
         "filename": "pandoc-2.0.6-6.el8_6.ppc64le.rpm",
         "sum": "edd955de3c33648b0f46ae9ae476080a25497dfd7131fa819c31040c840c8d93",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pandoc",
+        "version": "2.0.6",
+        "release": "6.el8_6",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pandoc-2.0.6-6.el8_6.src.rpm",
+        "filename": "pandoc-2.0.6-6.el8_6.x86_64.rpm",
+        "sum": "6287e245278932cfa8cddc5f5fdb0b842ed66c771ae438fab9267eccf78e9808",
         "sum_type": 5,
         "reboot_suggested": 0
       }

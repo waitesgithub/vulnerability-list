@@ -8,9 +8,33 @@
     "$date": 1621318397000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "raptor2-devel",
+        "version": "2.0.15",
+        "release": "16.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "raptor2-2.0.15-16.el8.src.rpm",
+        "filename": "raptor2-devel-2.0.15-16.el8.aarch64.rpm",
+        "sum": "501f5f0bde369eb0282a27eb4e764e1ddda42142e72ea0a759e751bb98317627",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "raptor2",
+        "version": "2.0.15",
+        "release": "16.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "raptor2-2.0.15-16.el8.src.rpm",
+        "filename": "raptor2-2.0.15-16.el8.aarch64.rpm",
+        "sum": "ff9e5266d9616de0bd67d38919e3e373bef00396ed493acb7d003e899d870740",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "raptor2",
         "version": "2.0.15",
@@ -28,6 +52,18 @@
         "version": "2.0.15",
         "release": "16.el8",
         "epoch": "0",
+        "arch": "i686",
+        "src": "raptor2-2.0.15-16.el8.src.rpm",
+        "filename": "raptor2-devel-2.0.15-16.el8.i686.rpm",
+        "sum": "78c256072a68a6f65d4da07e5947f5cd8b3093c0f2f17cc0fb02640709726f83",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "raptor2-devel",
+        "version": "2.0.15",
+        "release": "16.el8",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "raptor2-2.0.15-16.el8.src.rpm",
         "filename": "raptor2-devel-2.0.15-16.el8.ppc64le.rpm",
@@ -36,26 +72,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "raptor2-devel",
+        "name": "raptor2",
         "version": "2.0.15",
         "release": "16.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "raptor2-2.0.15-16.el8.src.rpm",
-        "filename": "raptor2-devel-2.0.15-16.el8.aarch64.rpm",
-        "sum": "501f5f0bde369eb0282a27eb4e764e1ddda42142e72ea0a759e751bb98317627",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "raptor2-devel",
-        "version": "2.0.15",
-        "release": "16.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "raptor2-2.0.15-16.el8.src.rpm",
-        "filename": "raptor2-devel-2.0.15-16.el8.i686.rpm",
-        "sum": "78c256072a68a6f65d4da07e5947f5cd8b3093c0f2f17cc0fb02640709726f83",
+        "filename": "raptor2-2.0.15-16.el8.ppc64le.rpm",
+        "sum": "e056b43ef0df750b1f34544c58dce8b42af85bce4f92bcdbadc2d3be94cf49e3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -80,30 +104,6 @@
         "src": "raptor2-2.0.15-16.el8.src.rpm",
         "filename": "raptor2-devel-2.0.15-16.el8.x86_64.rpm",
         "sum": "bfdc1188ac4e0c8f3af9478adeb8f2fbf41990bab52ebba7e0ad898c01c5c489",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "raptor2",
-        "version": "2.0.15",
-        "release": "16.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "raptor2-2.0.15-16.el8.src.rpm",
-        "filename": "raptor2-2.0.15-16.el8.ppc64le.rpm",
-        "sum": "e056b43ef0df750b1f34544c58dce8b42af85bce4f92bcdbadc2d3be94cf49e3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "raptor2",
-        "version": "2.0.15",
-        "release": "16.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "raptor2-2.0.15-16.el8.src.rpm",
-        "filename": "raptor2-2.0.15-16.el8.aarch64.rpm",
-        "sum": "ff9e5266d9616de0bd67d38919e3e373bef00396ed493acb7d003e899d870740",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -132,7 +132,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",

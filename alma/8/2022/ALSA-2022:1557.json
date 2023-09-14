@@ -8,21 +8,9 @@
     "$date": 1650981046000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_mariadb",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_mariadb",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_mariadb",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_mariadb",
     "packages": [
-      {
-        "name": "mariadb-backup",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "ppc64le",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-backup-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
-        "sum": "0514f5722e1774a2f0876ab2c3bcd7246b64170924a0b755f2cb47cac89f8808",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "mariadb-pam",
         "version": "10.5.13",
@@ -48,14 +36,182 @@
         "reboot_suggested": 0
       },
       {
+        "name": "mariadb-gssapi-server",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-gssapi-server-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "2de0f8fe0ba0d5763aad23dc6f26cf140af5ae7274d71aa02ea964f517bd041d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-server-galera",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-server-galera-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "33dffb6fe2a9672e1f6468e261714556dd62d6e4d648c290795bae629343c5df",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-embedded",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-embedded-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "58011aa5705f4f0c781e0be995a7450c167b48a118d77976d9077d138608c4f5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-test",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-test-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "6bd21be5c25d9b18ba0a2285cfb5eb467779c7b63dc5f8fd46f67509694a728b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-errmsg",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-errmsg-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "6f94989471a84c980bef3678c38b2f8d7c837e35d2483a81d5fcb6c811038bab",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-embedded-devel",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-embedded-devel-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "8e9c32bbeec9d5957e5a44bba495f340f42561c9767d4de068098a5ccdf42feb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "galera",
+        "version": "26.4.9",
+        "release": "4.module_el8.6.0+2761+593e5e59",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "galera-26.4.9-4.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "galera-26.4.9-4.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "a571c19528e559a15c4bd8a8a221900accc71cf4fc0041cd5f882ca7e48546b0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-common",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-common-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "a59f8475218a0d005189045a1db5299ef681ef37b7dca043a44e113d8f8eb9f5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-server-utils",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-server-utils-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "ad58ec0293e38a8e25fe93946366e7d7ac23d53e18d50db700a1dfa1a17f1d88",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-backup",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-backup-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "af3ee8ac15fe4f94275860a9fb0e7702a4349d71aad75a8b8e85b9c6a3a86a89",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "c8f91f10ade1d009535252142f7f6d0f9a79538be8a2e02d1608a52b5bae713f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "Judy",
+        "version": "1.0.5",
+        "release": "18.module_el8.6.0+2761+593e5e59",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "d6a69d3a722b634e22140ac45951705586f6eacae111d6eddf8f0783a90dff0e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-server",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-server-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "e409ddb4741872931dfc949e516fa47a66c534ac8c4256b4e2374bcd1388cfd2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mariadb-devel",
         "version": "10.5.13",
-        "release": "1.module_el8.5.0+2637+d11efe18",
+        "release": "1.module_el8.6.0+2761+593e5e59",
         "epoch": "3",
-        "arch": "x86_64",
-        "src": "mariadb-10.5.13-1.module_el8.5.0+2637+d11efe18.src.rpm",
-        "filename": "mariadb-devel-10.5.13-1.module_el8.5.0+2637+d11efe18.x86_64.rpm",
-        "sum": "166dd5d9746ff2f6117b8fa3d86cfc850c5ec8e67d4abc6875f5434140690197",
+        "arch": "aarch64",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-devel-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+        "sum": "f0040357305dfc85ff06f24caaba3f48f2a1a285d84167bb8325cd918f9ce7e0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-backup",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "ppc64le",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-backup-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
+        "sum": "0514f5722e1774a2f0876ab2c3bcd7246b64170924a0b755f2cb47cac89f8808",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,18 +252,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb-gssapi-server",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-gssapi-server-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "2de0f8fe0ba0d5763aad23dc6f26cf140af5ae7274d71aa02ea964f517bd041d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mariadb-errmsg",
         "version": "10.5.13",
         "release": "1.module_el8.6.0+2761+593e5e59",
@@ -120,18 +264,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb-server-galera",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-server-galera-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "33dffb6fe2a9672e1f6468e261714556dd62d6e4d648c290795bae629343c5df",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "Judy",
         "version": "1.0.5",
         "release": "18.module_el8.6.0+2867+72759d2f",
@@ -140,30 +272,6 @@
         "src": "Judy-1.0.5-18.module_el8.6.0+2867+72759d2f.src.rpm",
         "filename": "Judy-1.0.5-18.module_el8.6.0+2867+72759d2f.ppc64le.rpm",
         "sum": "42f8c8f57ae6c40142f826e44310a4fe8b0a5e996c2251190b01c9ea7112babe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-server-galera",
-        "version": "10.5.13",
-        "release": "1.module_el8.5.0+2637+d11efe18",
-        "epoch": "3",
-        "arch": "x86_64",
-        "src": "mariadb-10.5.13-1.module_el8.5.0+2637+d11efe18.src.rpm",
-        "filename": "mariadb-server-galera-10.5.13-1.module_el8.5.0+2637+d11efe18.x86_64.rpm",
-        "sum": "44c93bd2e0e682903cc142ed601c1bfb9f2c2f58dcca14cf60a7a07a74a7c532",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-embedded",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-embedded-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "58011aa5705f4f0c781e0be995a7450c167b48a118d77976d9077d138608c4f5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -216,26 +324,98 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb-test",
+        "name": "mariadb-oqgraph-engine",
         "version": "10.5.13",
         "release": "1.module_el8.6.0+2761+593e5e59",
         "epoch": "3",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-test-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "6bd21be5c25d9b18ba0a2285cfb5eb467779c7b63dc5f8fd46f67509694a728b",
+        "filename": "mariadb-oqgraph-engine-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
+        "sum": "902c1fb54e30b4910d53fa05fb47d9907f989f8522a791993ff08662d11c2e07",
         "sum_type": 5,
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb-errmsg",
+        "name": "mariadb-test",
         "version": "10.5.13",
         "release": "1.module_el8.6.0+2761+593e5e59",
         "epoch": "3",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-errmsg-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "6f94989471a84c980bef3678c38b2f8d7c837e35d2483a81d5fcb6c811038bab",
+        "filename": "mariadb-test-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
+        "sum": "9988e9d471968097b5aac1707341c233bf5dd283273943ba274a74e909394bd7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-server-utils",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "ppc64le",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-server-utils-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
+        "sum": "a96db11b6727b038c9bb71717128731ecfb198b5bb195b9bfbbcacd0bc9f62fe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-server",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "ppc64le",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-server-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
+        "sum": "b2e195b9be8413c935a78815890e7f2c52828eaab4942cbe3821a88c0f3683fb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "ppc64le",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
+        "sum": "d4d6fd659206ccae5612919dec6dd76a9bacc532d0ebfb66f8de33e39ccc31eb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-embedded-devel",
+        "version": "10.5.13",
+        "release": "1.module_el8.6.0+2761+593e5e59",
+        "epoch": "3",
+        "arch": "ppc64le",
+        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
+        "filename": "mariadb-embedded-devel-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
+        "sum": "f42075c02e19324e1f781b63c39dfa89eb1b97e5b30c3b8a03202038042748e3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-devel",
+        "version": "10.5.13",
+        "release": "1.module_el8.5.0+2637+d11efe18",
+        "epoch": "3",
+        "arch": "x86_64",
+        "src": "mariadb-10.5.13-1.module_el8.5.0+2637+d11efe18.src.rpm",
+        "filename": "mariadb-devel-10.5.13-1.module_el8.5.0+2637+d11efe18.x86_64.rpm",
+        "sum": "166dd5d9746ff2f6117b8fa3d86cfc850c5ec8e67d4abc6875f5434140690197",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-server-galera",
+        "version": "10.5.13",
+        "release": "1.module_el8.5.0+2637+d11efe18",
+        "epoch": "3",
+        "arch": "x86_64",
+        "src": "mariadb-10.5.13-1.module_el8.5.0+2637+d11efe18.src.rpm",
+        "filename": "mariadb-server-galera-10.5.13-1.module_el8.5.0+2637+d11efe18.x86_64.rpm",
+        "sum": "44c93bd2e0e682903cc142ed601c1bfb9f2c2f58dcca14cf60a7a07a74a7c532",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -300,30 +480,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb-embedded-devel",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-embedded-devel-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "8e9c32bbeec9d5957e5a44bba495f340f42561c9767d4de068098a5ccdf42feb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-oqgraph-engine",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "ppc64le",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-oqgraph-engine-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
-        "sum": "902c1fb54e30b4910d53fa05fb47d9907f989f8522a791993ff08662d11c2e07",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mariadb-test",
         "version": "10.5.13",
         "release": "1.module_el8.5.0+2637+d11efe18",
@@ -332,18 +488,6 @@
         "src": "mariadb-10.5.13-1.module_el8.5.0+2637+d11efe18.src.rpm",
         "filename": "mariadb-test-10.5.13-1.module_el8.5.0+2637+d11efe18.x86_64.rpm",
         "sum": "977690225d6d3d2e0392e9e02c247374fc4a99afa54f94d53fc0bac3096915ac",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-test",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "ppc64le",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-test-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
-        "sum": "9988e9d471968097b5aac1707341c233bf5dd283273943ba274a74e909394bd7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -360,30 +504,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "galera",
-        "version": "26.4.9",
-        "release": "4.module_el8.6.0+2761+593e5e59",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "galera-26.4.9-4.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "galera-26.4.9-4.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "a571c19528e559a15c4bd8a8a221900accc71cf4fc0041cd5f882ca7e48546b0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-common",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-common-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "a59f8475218a0d005189045a1db5299ef681ef37b7dca043a44e113d8f8eb9f5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mariadb-errmsg",
         "version": "10.5.13",
         "release": "1.module_el8.5.0+2637+d11efe18",
@@ -392,54 +512,6 @@
         "src": "mariadb-10.5.13-1.module_el8.5.0+2637+d11efe18.src.rpm",
         "filename": "mariadb-errmsg-10.5.13-1.module_el8.5.0+2637+d11efe18.x86_64.rpm",
         "sum": "a725b109a0a031e42dd30f1cd0460d1089dbbd93bd0562e0a4db4b0893647452",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-server-utils",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "ppc64le",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-server-utils-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
-        "sum": "a96db11b6727b038c9bb71717128731ecfb198b5bb195b9bfbbcacd0bc9f62fe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-server-utils",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-server-utils-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "ad58ec0293e38a8e25fe93946366e7d7ac23d53e18d50db700a1dfa1a17f1d88",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-backup",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-backup-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "af3ee8ac15fe4f94275860a9fb0e7702a4349d71aad75a8b8e85b9c6a3a86a89",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-server",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "ppc64le",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-server-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
-        "sum": "b2e195b9be8413c935a78815890e7f2c52828eaab4942cbe3821a88c0f3683fb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -468,18 +540,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "c8f91f10ade1d009535252142f7f6d0f9a79538be8a2e02d1608a52b5bae713f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mariadb-oqgraph-engine",
         "version": "10.5.13",
         "release": "1.module_el8.5.0+2637+d11efe18",
@@ -492,30 +552,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mariadb",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "ppc64le",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
-        "sum": "d4d6fd659206ccae5612919dec6dd76a9bacc532d0ebfb66f8de33e39ccc31eb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "Judy",
-        "version": "1.0.5",
-        "release": "18.module_el8.6.0+2761+593e5e59",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "d6a69d3a722b634e22140ac45951705586f6eacae111d6eddf8f0783a90dff0e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "galera",
         "version": "26.4.9",
         "release": "4.module_el8.5.0+2637+d11efe18",
@@ -524,18 +560,6 @@
         "src": "galera-26.4.9-4.module_el8.5.0+2637+d11efe18.src.rpm",
         "filename": "galera-26.4.9-4.module_el8.5.0+2637+d11efe18.x86_64.rpm",
         "sum": "dbb4a45758883fff4788e7f842e0db6a56d6f7612b87dac26235726d3e49d799",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-server",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-server-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "e409ddb4741872931dfc949e516fa47a66c534ac8c4256b4e2374bcd1388cfd2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -562,37 +586,13 @@
         "sum": "ea5f063a5da11f5b5ed5bd4205a5f0c009b96db27dd18b6ecb570d7902b49815",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-devel",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "aarch64",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-devel-10.5.13-1.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-        "sum": "f0040357305dfc85ff06f24caaba3f48f2a1a285d84167bb8325cd918f9ce7e0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mariadb-embedded-devel",
-        "version": "10.5.13",
-        "release": "1.module_el8.6.0+2761+593e5e59",
-        "epoch": "3",
-        "arch": "ppc64le",
-        "src": "mariadb-10.5.13-1.module_el8.6.0+2761+593e5e59.src.rpm",
-        "filename": "mariadb-embedded-devel-10.5.13-1.module_el8.6.0+2761+593e5e59.ppc64le.rpm",
-        "sum": "f42075c02e19324e1f781b63c39dfa89eb1b97e5b30c3b8a03202038042748e3",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "10.5",
       "name": "mariadb",
-      "version": 8060020220420124706,
-      "arch": "aarch64",
+      "version": 8060020220420124713,
+      "arch": "ppc64le",
       "context": "9edba152"
     }
   },
@@ -688,5 +688,5 @@
   "updated_date": {
     "$date": 1651150563000
   },
-  "version": "11"
+  "version": "9"
 }

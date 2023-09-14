@@ -12,18 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
-        "name": "zsh-html",
-        "version": "5.5.1",
-        "release": "9.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "zsh-5.5.1-9.el8.src.rpm",
-        "filename": "zsh-html-5.5.1-9.el8.noarch.rpm",
-        "sum": "8ac540f0a4cb554d864bfc85545e308a83f2bfe74e9661ef4fa038edef67b792",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "zsh",
         "version": "5.5.1",
         "release": "9.el8",
@@ -32,6 +20,18 @@
         "src": "zsh-5.5.1-9.el8.src.rpm",
         "filename": "zsh-5.5.1-9.el8.aarch64.rpm",
         "sum": "b3d1fd710ef405b6f1fed4141383c603151ba0b386e840889550e1c19f394991",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zsh-html",
+        "version": "5.5.1",
+        "release": "9.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "zsh-5.5.1-9.el8.src.rpm",
+        "filename": "zsh-html-5.5.1-9.el8.noarch.rpm",
+        "sum": "8ac540f0a4cb554d864bfc85545e308a83f2bfe74e9661ef4fa038edef67b792",
         "sum_type": 5,
         "reboot_suggested": 0
       },

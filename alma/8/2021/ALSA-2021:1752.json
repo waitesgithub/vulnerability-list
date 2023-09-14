@@ -12,42 +12,6 @@
     "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
-        "name": "evolution-data-server-perl",
-        "version": "3.28.5",
-        "release": "15.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "evolution-data-server-3.28.5-15.el8.src.rpm",
-        "filename": "evolution-data-server-perl-3.28.5-15.el8.x86_64.rpm",
-        "sum": "0e663e8525018cade797ee7995619f2e121644a713d5036d1d279ffde1c50ed5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "evolution-data-server-doc",
-        "version": "3.28.5",
-        "release": "15.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "evolution-data-server-3.28.5-15.el8.src.rpm",
-        "filename": "evolution-data-server-doc-3.28.5-15.el8.noarch.rpm",
-        "sum": "4fca4ac0b1d0b6809a9880a80d115b299941a9735324ca45743d918ff54d4a64",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "evolution-devel",
-        "version": "3.28.5",
-        "release": "16.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "evolution-3.28.5-16.el8.src.rpm",
-        "filename": "evolution-devel-3.28.5-16.el8.x86_64.rpm",
-        "sum": "6446d7494260dae7be0623571c05ef9147e7bba37b0be6d1bcf0a9cc262c9243",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "evolution-data-server-tests",
         "version": "3.28.5",
         "release": "15.el8",
@@ -68,6 +32,42 @@
         "src": "evolution-3.28.5-16.el8.src.rpm",
         "filename": "evolution-devel-3.28.5-16.el8.i686.rpm",
         "sum": "ae80270f0ea5ddcc6097c2874ce69082668f45a38f9852cf9285e48610f0777b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "evolution-data-server-doc",
+        "version": "3.28.5",
+        "release": "15.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "evolution-data-server-3.28.5-15.el8.src.rpm",
+        "filename": "evolution-data-server-doc-3.28.5-15.el8.noarch.rpm",
+        "sum": "4fca4ac0b1d0b6809a9880a80d115b299941a9735324ca45743d918ff54d4a64",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "evolution-data-server-perl",
+        "version": "3.28.5",
+        "release": "15.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "evolution-data-server-3.28.5-15.el8.src.rpm",
+        "filename": "evolution-data-server-perl-3.28.5-15.el8.x86_64.rpm",
+        "sum": "0e663e8525018cade797ee7995619f2e121644a713d5036d1d279ffde1c50ed5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "evolution-devel",
+        "version": "3.28.5",
+        "release": "16.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "evolution-3.28.5-16.el8.src.rpm",
+        "filename": "evolution-devel-3.28.5-16.el8.x86_64.rpm",
+        "sum": "6446d7494260dae7be0623571c05ef9147e7bba37b0be6d1bcf0a9cc262c9243",
         "sum_type": 5,
         "reboot_suggested": 0
       },

@@ -12,30 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
       {
-        "name": "openssh-askpass",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-askpass-8.0p1-13.el8.ppc64le.rpm",
-        "sum": "010cd2503d0d30c1e3dcfe43c6f898a872899c529b9e3ef3a5ca56f5ce0787d6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pam_ssh_agent_auth",
-        "version": "0.10.3",
-        "release": "7.13.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "pam_ssh_agent_auth-0.10.3-7.13.el8.ppc64le.rpm",
-        "sum": "025e5a2baa51c6cd727c7729bd4c07ccd86f3a765e03bf06f103cd896db190b3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pam_ssh_agent_auth",
         "version": "0.10.3",
         "release": "7.13.el8",
@@ -48,42 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "openssh-keycat",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-keycat-8.0p1-13.el8.ppc64le.rpm",
-        "sum": "07d283ddf6b0b9c236ba476346e0b09872fd4a77bfe56eaec602412d9e6e6224",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssh-ldap",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-ldap-8.0p1-13.el8.x86_64.rpm",
-        "sum": "16ae3abfd7f6c11a6a73792125af861361c2e335e6a4f578335055787c6666b5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssh-keycat",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-keycat-8.0p1-13.el8.x86_64.rpm",
-        "sum": "1f60e7d69b5c15b53d23155a3aac90ec685968c873eae3036782fb806fc252e0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "openssh-ldap",
         "version": "8.0p1",
         "release": "13.el8",
@@ -92,18 +32,6 @@
         "src": "openssh-8.0p1-13.el8.src.rpm",
         "filename": "openssh-ldap-8.0p1-13.el8.aarch64.rpm",
         "sum": "308fb832eeaa6b2d3c3263ae4772fc241ba54ce1bc5d3d446f4505ace28a2d2a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssh-ldap",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-ldap-8.0p1-13.el8.ppc64le.rpm",
-        "sum": "43b9a02ab11c99affb196f98b25b9889f228e923c0ce172251b3ab764646998a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -156,6 +84,78 @@
         "reboot_suggested": 0
       },
       {
+        "name": "openssh-clients",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-clients-8.0p1-13.el8.aarch64.rpm",
+        "sum": "8426d51f35c496f04f724b1b1ef9a88cf6235a760b7951f9d3b80a03152b9f31",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssh",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-8.0p1-13.el8.aarch64.rpm",
+        "sum": "a2e4a60dfa5985b89efe5f2efd582daad5506dbe8f5f9062519bf886ce239b17",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssh-askpass",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-askpass-8.0p1-13.el8.ppc64le.rpm",
+        "sum": "010cd2503d0d30c1e3dcfe43c6f898a872899c529b9e3ef3a5ca56f5ce0787d6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pam_ssh_agent_auth",
+        "version": "0.10.3",
+        "release": "7.13.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "pam_ssh_agent_auth-0.10.3-7.13.el8.ppc64le.rpm",
+        "sum": "025e5a2baa51c6cd727c7729bd4c07ccd86f3a765e03bf06f103cd896db190b3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssh-keycat",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-keycat-8.0p1-13.el8.ppc64le.rpm",
+        "sum": "07d283ddf6b0b9c236ba476346e0b09872fd4a77bfe56eaec602412d9e6e6224",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssh-ldap",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-ldap-8.0p1-13.el8.ppc64le.rpm",
+        "sum": "43b9a02ab11c99affb196f98b25b9889f228e923c0ce172251b3ab764646998a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "openssh",
         "version": "8.0p1",
         "release": "13.el8",
@@ -184,6 +184,54 @@
         "version": "8.0p1",
         "release": "13.el8",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-cavs-8.0p1-13.el8.ppc64le.rpm",
+        "sum": "9265562c3ceac50993533bf293b8b764715165002cfaaec8df3227689bb9db6e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssh-server",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-server-8.0p1-13.el8.ppc64le.rpm",
+        "sum": "9d64b0e8a32308106d313253c496b0576ae53a1194478a00037fb167c25f89a5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssh-ldap",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-ldap-8.0p1-13.el8.x86_64.rpm",
+        "sum": "16ae3abfd7f6c11a6a73792125af861361c2e335e6a4f578335055787c6666b5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssh-keycat",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "openssh-8.0p1-13.el8.src.rpm",
+        "filename": "openssh-keycat-8.0p1-13.el8.x86_64.rpm",
+        "sum": "1f60e7d69b5c15b53d23155a3aac90ec685968c873eae3036782fb806fc252e0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssh-cavs",
+        "version": "8.0p1",
+        "release": "13.el8",
+        "epoch": "0",
         "arch": "x86_64",
         "src": "openssh-8.0p1-13.el8.src.rpm",
         "filename": "openssh-cavs-8.0p1-13.el8.x86_64.rpm",
@@ -204,30 +252,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "openssh-clients",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-clients-8.0p1-13.el8.aarch64.rpm",
-        "sum": "8426d51f35c496f04f724b1b1ef9a88cf6235a760b7951f9d3b80a03152b9f31",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssh-cavs",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-cavs-8.0p1-13.el8.ppc64le.rpm",
-        "sum": "9265562c3ceac50993533bf293b8b764715165002cfaaec8df3227689bb9db6e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "openssh-askpass",
         "version": "8.0p1",
         "release": "13.el8",
@@ -236,30 +260,6 @@
         "src": "openssh-8.0p1-13.el8.src.rpm",
         "filename": "openssh-askpass-8.0p1-13.el8.x86_64.rpm",
         "sum": "9c3becada19d1783c7a5a30b1a2b03ee64889e0873583a018c496f9f5c2b1fd8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssh-server",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-server-8.0p1-13.el8.ppc64le.rpm",
-        "sum": "9d64b0e8a32308106d313253c496b0576ae53a1194478a00037fb167c25f89a5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssh",
-        "version": "8.0p1",
-        "release": "13.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openssh-8.0p1-13.el8.src.rpm",
-        "filename": "openssh-8.0p1-13.el8.aarch64.rpm",
-        "sum": "a2e4a60dfa5985b89efe5f2efd582daad5506dbe8f5f9062519bf886ce239b17",
         "sum_type": 5,
         "reboot_suggested": 0
       },

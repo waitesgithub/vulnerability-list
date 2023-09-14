@@ -8,21 +8,9 @@
     "$date": 1636450834000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "autotrace",
-        "version": "0.31.1",
-        "release": "53.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "autotrace-0.31.1-53.el8.src.rpm",
-        "filename": "autotrace-0.31.1-53.el8.x86_64.rpm",
-        "sum": "894be813c851c1f1344ac2d11f5b54b5e5267bb77737e9458ecf66fbb2570afc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "autotrace",
         "version": "0.31.1",
@@ -32,6 +20,18 @@
         "src": "autotrace-0.31.1-53.el8.src.rpm",
         "filename": "autotrace-0.31.1-53.el8.aarch64.rpm",
         "sum": "b3f8240f16f33419863e6333b47b1ddba7b86e0e26f11a68fd473edcc17003f6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "autotrace",
+        "version": "0.31.1",
+        "release": "53.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "autotrace-0.31.1-53.el8.src.rpm",
+        "filename": "autotrace-0.31.1-53.el8.i686.rpm",
+        "sum": "fc2f1f4c55a9aaac4dcd1b2dec8e28d36965a04d00a592a92477747d0ec2bcfe",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "0.31.1",
         "release": "53.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "autotrace-0.31.1-53.el8.src.rpm",
-        "filename": "autotrace-0.31.1-53.el8.i686.rpm",
-        "sum": "fc2f1f4c55a9aaac4dcd1b2dec8e28d36965a04d00a592a92477747d0ec2bcfe",
+        "filename": "autotrace-0.31.1-53.el8.x86_64.rpm",
+        "sum": "894be813c851c1f1344ac2d11f5b54b5e5267bb77737e9458ecf66fbb2570afc",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -84,7 +84,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",

@@ -8,18 +8,18 @@
     "$date": 1684195200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_8_default",
+    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_8_default",
+    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_8_default",
     "packages": [
       {
         "name": "grafana",
         "version": "7.5.15",
         "release": "4.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "grafana-7.5.15-4.el8.src.rpm",
-        "filename": "grafana-7.5.15-4.el8.x86_64.rpm",
-        "sum": "1a3651fd3a7bdb252af218a34bd7906e3aa1c886c692433071b585131a89e8cf",
+        "filename": "grafana-7.5.15-4.el8.aarch64.rpm",
+        "sum": "a8081caaeeeee25ec2a06e6117dd57f803b1592c0086ffc9658a2b57959e5fa7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +40,10 @@
         "version": "7.5.15",
         "release": "4.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "s390x",
         "src": "grafana-7.5.15-4.el8.src.rpm",
-        "filename": "grafana-7.5.15-4.el8.aarch64.rpm",
-        "sum": "a8081caaeeeee25ec2a06e6117dd57f803b1592c0086ffc9658a2b57959e5fa7",
+        "filename": "grafana-7.5.15-4.el8.s390x.rpm",
+        "sum": "e8151cd3199d241ef2f1d4be520baa86cbc6edd9d778f6ec810ccbf3277c19ed",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "7.5.15",
         "release": "4.el8",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "x86_64",
         "src": "grafana-7.5.15-4.el8.src.rpm",
-        "filename": "grafana-7.5.15-4.el8.s390x.rpm",
-        "sum": "e8151cd3199d241ef2f1d4be520baa86cbc6edd9d778f6ec810ccbf3277c19ed",
+        "filename": "grafana-7.5.15-4.el8.x86_64.rpm",
+        "sum": "1a3651fd3a7bdb252af218a34bd7906e3aa1c886c692433071b585131a89e8cf",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -12,6 +12,78 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
       {
+        "name": "libquadmath-devel",
+        "version": "8.5.0",
+        "release": "4.el8_5.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
+        "filename": "libquadmath-devel-8.5.0-4.el8_5.alma.i686.rpm",
+        "sum": "3e6b8fb19a035e74f47d3c08c8eba120a669de2d22b1e4f48ecf2b03008b6391",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libstdc++-devel",
+        "version": "8.5.0",
+        "release": "4.el8_5.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
+        "filename": "libstdc++-devel-8.5.0-4.el8_5.alma.i686.rpm",
+        "sum": "662e66985087e13a5765368f95e359d3d7d9339c5c96840d5d7f3365a247a4c8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-gdb-plugin",
+        "version": "8.5.0",
+        "release": "4.el8_5.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
+        "filename": "gcc-gdb-plugin-8.5.0-4.el8_5.alma.i686.rpm",
+        "sum": "c0202ac8d00e914142e61d9da334c3d0961612b2d13e950051b63a4db6ef7f80",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libstdc++-static",
+        "version": "8.5.0",
+        "release": "4.el8_5.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
+        "filename": "libstdc++-static-8.5.0-4.el8_5.alma.i686.rpm",
+        "sum": "c7ae32f7cb8e3f7f9512d491697178a28c3357c0a751115f79aa0942532d0fe0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libitm-devel",
+        "version": "8.5.0",
+        "release": "4.el8_5.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
+        "filename": "libitm-devel-8.5.0-4.el8_5.alma.i686.rpm",
+        "sum": "ce4e862c70268cd805721f3c368c5c3941d0406483f1fa4322c584dc28d5b9f1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-plugin-devel",
+        "version": "8.5.0",
+        "release": "4.el8_5.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
+        "filename": "gcc-plugin-devel-8.5.0-4.el8_5.alma.i686.rpm",
+        "sum": "e9ee830f90aa962e0812ec8d5496b01f698238d6358928c0532938413208f0ee",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libstdc++-docs",
         "version": "8.5.0",
         "release": "4.el8_5.alma",
@@ -36,18 +108,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libquadmath-devel",
-        "version": "8.5.0",
-        "release": "4.el8_5.alma",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
-        "filename": "libquadmath-devel-8.5.0-4.el8_5.alma.i686.rpm",
-        "sum": "3e6b8fb19a035e74f47d3c08c8eba120a669de2d22b1e4f48ecf2b03008b6391",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "gcc-c++",
         "version": "8.5.0",
         "release": "4.el8_5.alma",
@@ -56,18 +116,6 @@
         "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
         "filename": "gcc-c++-8.5.0-4.el8_5.alma.x86_64.rpm",
         "sum": "508186792deac768f926d5610e6bcfc063f1ade476533aa88a226c3adbb2af87",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libstdc++-devel",
-        "version": "8.5.0",
-        "release": "4.el8_5.alma",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
-        "filename": "libstdc++-devel-8.5.0-4.el8_5.alma.i686.rpm",
-        "sum": "662e66985087e13a5765368f95e359d3d7d9339c5c96840d5d7f3365a247a4c8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,18 +180,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "gcc-gdb-plugin",
-        "version": "8.5.0",
-        "release": "4.el8_5.alma",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
-        "filename": "gcc-gdb-plugin-8.5.0-4.el8_5.alma.i686.rpm",
-        "sum": "c0202ac8d00e914142e61d9da334c3d0961612b2d13e950051b63a4db6ef7f80",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libitm-devel",
         "version": "8.5.0",
         "release": "4.el8_5.alma",
@@ -152,30 +188,6 @@
         "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
         "filename": "libitm-devel-8.5.0-4.el8_5.alma.x86_64.rpm",
         "sum": "c579e87ad3c4d2a6d12cdc273b43255fe763aa551410d1df3f6c36752be74e43",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libstdc++-static",
-        "version": "8.5.0",
-        "release": "4.el8_5.alma",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
-        "filename": "libstdc++-static-8.5.0-4.el8_5.alma.i686.rpm",
-        "sum": "c7ae32f7cb8e3f7f9512d491697178a28c3357c0a751115f79aa0942532d0fe0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libitm-devel",
-        "version": "8.5.0",
-        "release": "4.el8_5.alma",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
-        "filename": "libitm-devel-8.5.0-4.el8_5.alma.i686.rpm",
-        "sum": "ce4e862c70268cd805721f3c368c5c3941d0406483f1fa4322c584dc28d5b9f1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -200,18 +212,6 @@
         "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
         "filename": "libstdc++-static-8.5.0-4.el8_5.alma.x86_64.rpm",
         "sum": "e0b692d3c926461752da3a42e1ccab9b487007598c3c7ec2aeac1b7c40bd8fae",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-plugin-devel",
-        "version": "8.5.0",
-        "release": "4.el8_5.alma",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-8.5.0-4.el8_5.alma.src.rpm",
-        "filename": "gcc-plugin-devel-8.5.0-4.el8_5.alma.i686.rpm",
-        "sum": "e9ee830f90aa962e0812ec8d5496b01f698238d6358928c0532938413208f0ee",
         "sum_type": 5,
         "reboot_suggested": 0
       },
