@@ -1,11 +1,8 @@
 {
-  "name": "k3s",
+  "name": "istio-pilot-agent-1.18",
   "secfixes": {
     "0": [
       "GHSA-6xv5-86q9-7xr8"
-    ],
-    "1.27.5-r0": [
-      "CVE-2023-32187"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
