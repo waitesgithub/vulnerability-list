@@ -1,6 +1,6 @@
 {
   "Severity": "LOW",
-  "UpdatedAt": "2021-11-15T22:10:47Z",
+  "UpdatedAt": "2023-09-15T10:43:45Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "snipe/snipe-it"
@@ -38,7 +38,7 @@
     "PublishedAt": "2021-11-15T23:19:42Z",
     "Severity": "LOW",
     "Summary": "snipe-it is vulnerable to Cross-site Scripting",
-    "UpdatedAt": "2023-02-01T05:06:12Z",
+    "UpdatedAt": "2023-09-15T10:43:45Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 3.9,
@@ -48,7 +48,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "5.4.0"
       },
       "VulnerableVersionRange": "\u003c= 5.3.1"
     }

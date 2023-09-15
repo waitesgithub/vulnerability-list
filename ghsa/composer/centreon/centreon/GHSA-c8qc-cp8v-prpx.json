@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-07-25T00:06:20Z",
+  "UpdatedAt": "2023-09-15T10:11:59Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "centreon/centreon"
@@ -41,7 +41,7 @@
     "PublishedAt": "2022-05-14T03:02:59Z",
     "Severity": "CRITICAL",
     "Summary": "Centreon RCE Vulnerability",
-    "UpdatedAt": "2023-07-25T00:06:20Z",
+    "UpdatedAt": "2023-09-15T10:11:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -51,9 +51,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "2.8.24"
+      },
+      "VulnerableVersionRange": "= 2.8.23"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": ""
       },
-      "VulnerableVersionRange": "\u003c= 3.4.6"
+      "VulnerableVersionRange": "= 3.4.6"
     }
   ]
 }

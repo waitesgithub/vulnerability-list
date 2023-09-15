@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-12-07T21:24:54Z",
+  "UpdatedAt": "2023-09-15T10:44:49Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "snipe/snipe-it"
@@ -38,7 +38,7 @@
     "PublishedAt": "2021-12-10T20:22:15Z",
     "Severity": "HIGH",
     "Summary": "Server-Side Request Forgery in snipe/snipe-it",
-    "UpdatedAt": "2023-02-01T05:06:47Z",
+    "UpdatedAt": "2023-09-15T10:44:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.2,
@@ -48,7 +48,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "6.0.0-GM"
       },
       "VulnerableVersionRange": "\u003c= 5.3.3"
     }

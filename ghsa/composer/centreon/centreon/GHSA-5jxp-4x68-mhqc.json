@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-21T22:59:00Z",
+  "UpdatedAt": "2023-09-15T10:42:34Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "centreon/centreon"
@@ -47,7 +47,7 @@
     "PublishedAt": "2022-05-14T00:55:28Z",
     "Severity": "HIGH",
     "Summary": "Centreon SQL Injection",
-    "UpdatedAt": "2023-07-21T22:59:00Z",
+    "UpdatedAt": "2023-09-15T10:42:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -57,9 +57,15 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
+        "Identifier": "2.8.24"
+      },
+      "VulnerableVersionRange": "\u003e= 2.8.0, \u003c 2.8.24"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "18.10.0"
       },
-      "VulnerableVersionRange": "\u003e= 3.4, \u003c 18.10.0"
+      "VulnerableVersionRange": "\u003e= 18.0.0, \u003c 18.10.0"
     }
   ]
 }
