@@ -287,7 +287,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2022-42927",
-      "Description": "A same-origin policy violation could have allowed the theft of cross-origin URL entries, leaking the result of a redirect, via \u003ccode\u003eperformance.getEntries()\u003c/code\u003e. This vulnerability affects Thunderbird \u003c 102.4, Firefox ESR \u003c 102.4, and Firefox \u003c 106.",
+      "Description": "A same-origin policy violation could have allowed the theft of cross-origin URL entries, leaking the result of a redirect, via `performance.getEntries()`. This vulnerability affects Firefox \u003c 106, Firefox ESR \u003c 102.4, and Thunderbird \u003c 102.4.",
       "Threats": [
         {
           "Type": "Impact",
@@ -353,7 +353,7 @@
     },
     {
       "CVE": "CVE-2022-42928",
-      "Description": "Certain types of allocations were missing annotations that, if the Garbage Collector was in a specific state, could have lead to memory corruption and a potentially exploitable crash. This vulnerability affects Thunderbird \u003c 102.4, Firefox ESR \u003c 102.4, and Firefox \u003c 106.",
+      "Description": "Certain types of allocations were missing annotations that, if the Garbage Collector was in a specific state, could have lead to memory corruption and a potentially exploitable crash. This vulnerability affects Firefox \u003c 106, Firefox ESR \u003c 102.4, and Thunderbird \u003c 102.4.",
       "Threats": [
         {
           "Type": "Impact",
@@ -419,7 +419,7 @@
     },
     {
       "CVE": "CVE-2022-42929",
-      "Description": "If a website called \u003ccode\u003ewindow.print()\u003c/code\u003e in a particular way, it could cause a denial of service of the browser, which may persist beyond browser restart depending on the user's session restore settings. This vulnerability affects Thunderbird \u003c 102.4, Firefox ESR \u003c 102.4, and Firefox \u003c 106.",
+      "Description": "If a website called `window.print()` in a particular way, it could cause a denial of service of the browser, which may persist beyond browser restart depending on the user's session restore settings. This vulnerability affects Firefox \u003c 106, Firefox ESR \u003c 102.4, and Thunderbird \u003c 102.4.",
       "Threats": [
         {
           "Type": "Impact",
@@ -485,7 +485,7 @@
     },
     {
       "CVE": "CVE-2022-42932",
-      "Description": "Mozilla developers Ashley Hale and the Mozilla Fuzzing Team reported memory safety bugs present in Thunderbird 102.3. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Thunderbird \u003c 102.4, Firefox ESR \u003c 102.4, and Firefox \u003c 106.",
+      "Description": "Mozilla developers Ashley Hale and the Mozilla Fuzzing Team reported memory safety bugs present in Firefox 105 and Firefox ESR 102.3. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 106, Firefox ESR \u003c 102.4, and Thunderbird \u003c 102.4.",
       "Threats": [
         {
           "Type": "Impact",

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container rancher/elemental-teal-rt/5.3:latest-2023-1609,SUSE-2023-1609,SUSE-SLE-Micro-5.3-2023-1609,SUSE-SLE-Micro-5.4-2023-1609,SUSE-SLE-Module-Live-Patching-15-SP4-2023-1609,SUSE-SLE-Module-RT-15-SP4-2023-1609,openSUSE-Leap-Micro-5.3-2023-1609,openSUSE-SLE-15.4-2023-1609",
+      "Text": "Container rancher/elemental-teal-rt/5.3:latest-2023-1609,Container rancher/elemental-teal-rt/5.4:latest-2023-1609,SUSE-2023-1609,SUSE-SLE-Micro-5.3-2023-1609,SUSE-SLE-Micro-5.4-2023-1609,SUSE-SLE-Module-Live-Patching-15-SP4-2023-1609,SUSE-SLE-Module-RT-15-SP4-2023-1609,openSUSE-Leap-Micro-5.3-2023-1609,openSUSE-SLE-15.4-2023-1609",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,6 +41,11 @@
       {
         "ProductReference": "kernel-rt-5.14.21-150400.15.18.1",
         "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-rt-5.14.21-150400.15.18.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.4:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -526,6 +531,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -581,6 +587,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -644,6 +651,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -707,6 +715,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -762,6 +771,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -821,6 +831,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -880,6 +891,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -935,6 +947,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1010,6 +1023,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1065,6 +1079,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1120,6 +1135,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1175,6 +1191,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1230,6 +1247,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1285,6 +1303,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1344,6 +1363,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1407,6 +1427,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",
@@ -1462,6 +1483,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.18.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_18-rt-1-150400.1.3.1",
             "SUSE Linux Enterprise Micro 5.3:kernel-rt-5.14.21-150400.15.18.1",
             "SUSE Linux Enterprise Micro 5.4:kernel-rt-5.14.21-150400.15.18.1",

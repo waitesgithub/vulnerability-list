@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro/5.5/toolbox:latest-2023-3497,SUSE-2023-3497,SUSE-SLE-Module-Basesystem-15-SP5-2023-3497,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3497,openSUSE-SLE-15.5-2023-3497",
+      "Text": "Container suse/sle-micro/5.5/toolbox:latest-2023-3497,Image SLES15-SP5-CHOST-BYOS-Azure-2023-3497,Image SLES15-SP5-CHOST-BYOS-GCE-2023-3497,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-3497,SUSE-2023-3497,SUSE-SLE-Module-Basesystem-15-SP5-2023-3497,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3497,openSUSE-SLE-15.5-2023-3497",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -46,6 +46,36 @@
       {
         "ProductReference": "vim-data-common-9.0.1632-150500.20.3.1",
         "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.0.1632-150500.20.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1632-150500.20.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.0.1632-150500.20.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1632-150500.20.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.0.1632-150500.20.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1632-150500.20.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
         "RelationType": "Default Component Of"
       },
       {
@@ -168,6 +198,12 @@
           "ProductID": [
             "Container suse/sle-micro/5.5/toolbox:latest:vim-9.0.1632-150500.20.3.1",
             "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-data-common-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-common-9.0.1632-150500.20.3.1",
@@ -208,6 +244,12 @@
           "ProductID": [
             "Container suse/sle-micro/5.5/toolbox:latest:vim-9.0.1632-150500.20.3.1",
             "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-data-common-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-common-9.0.1632-150500.20.3.1",
@@ -248,6 +290,12 @@
           "ProductID": [
             "Container suse/sle-micro/5.5/toolbox:latest:vim-9.0.1632-150500.20.3.1",
             "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-data-common-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-9.0.1632-150500.20.3.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-data-common-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-9.0.1632-150500.20.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:vim-data-common-9.0.1632-150500.20.3.1",

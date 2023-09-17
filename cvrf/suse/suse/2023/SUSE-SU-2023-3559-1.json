@@ -148,7 +148,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-4051",
-      "Description": "A website could have obscured the full screen notification by using the file open dialog. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox \u003c 116.",
+      "Description": "A website could have obscured the full screen notification by using the file open dialog. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox \u003c 116, Firefox ESR \u003c 115.2, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -179,7 +179,7 @@
     },
     {
       "CVE": "CVE-2023-4053",
-      "Description": "A website could have obscured the full screen notification by using a URL with a scheme handled by an external program, such as a mailto URL. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox \u003c 116.",
+      "Description": "A website could have obscured the full screen notification by using a URL with a scheme handled by an external program, such as a mailto URL. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox \u003c 116, Firefox ESR \u003c 115.2, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -210,7 +210,7 @@
     },
     {
       "CVE": "CVE-2023-4574",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When creating a callback over IPC for showing the Color Picker window, multiple of the same callbacks could have been created at a time and eventually all simultaneously destroyed as soon as one of the callbacks finished. This could have led to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 102.15, Firefox ESR \u003c 115.2, Thunderbird \u003c 102.15, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -241,7 +241,7 @@
     },
     {
       "CVE": "CVE-2023-4575",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When creating a callback over IPC for showing the File Picker window, multiple of the same callbacks could have been created at a time and eventually all simultaneously destroyed as soon as one of the callbacks finished. This could have led to a use-after-free causing a potentially exploitable crash. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 102.15, Firefox ESR \u003c 115.2, Thunderbird \u003c 102.15, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -272,7 +272,7 @@
     },
     {
       "CVE": "CVE-2023-4576",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "On Windows, an integer overflow could occur in `RecordedSourceSurfaceCreation` which resulted in a heap buffer overflow potentially leaking sensitive data that could have led to a sandbox escape.\n*This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 102.15, Firefox ESR \u003c 115.2, Thunderbird \u003c 102.15, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -303,7 +303,7 @@
     },
     {
       "CVE": "CVE-2023-4577",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When `UpdateRegExpStatics` attempted to access `initialStringHeap` it could already have been garbage collected prior to entering the function, which could potentially have led to an exploitable crash. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 115.2, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -334,7 +334,7 @@
     },
     {
       "CVE": "CVE-2023-4578",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When calling `JS::CheckRegExpSyntax` a Syntax Error could have been set which would end in calling `convertToRuntimeErrorAndClear`. A path in the function could attempt to allocate memory when none is available which would have caused a newly created Out of Memory exception to be mishandled as a Syntax Error. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 115.2, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -365,7 +365,7 @@
     },
     {
       "CVE": "CVE-2023-4580",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Push notifications stored on disk in private browsing mode were not being encrypted potentially allowing the leak of sensitive information. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 115.2, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -396,7 +396,7 @@
     },
     {
       "CVE": "CVE-2023-4581",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Excel `.xll` add-in files did not have a blocklist entry in Firefox's executable blocklist which allowed them to be downloaded without any warning of their potential harm. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 102.15, Firefox ESR \u003c 115.2, Thunderbird \u003c 102.15, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -427,7 +427,7 @@
     },
     {
       "CVE": "CVE-2023-4582",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Due to large allocation checks in Angle for glsl shaders being too lenient a buffer overflow could have occured when allocating too much private shader memory on mac OS. \n*This bug only affects Firefox on macOS. Other operating systems are unaffected.* This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 115.2, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -458,7 +458,7 @@
     },
     {
       "CVE": "CVE-2023-4583",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "When checking if the Browsing Context had been discarded in `HttpBaseChannel`, if the load group was not available then it was assumed to have already been discarded which was not always the case for private channels after the private session had ended. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 115.2, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -489,7 +489,7 @@
     },
     {
       "CVE": "CVE-2023-4584",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Memory safety bugs present in Firefox 116, Firefox ESR 102.14, Firefox ESR 115.1, Thunderbird 102.14, and Thunderbird 115.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 102.15, Firefox ESR \u003c 115.2, Thunderbird \u003c 102.15, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -520,7 +520,7 @@
     },
     {
       "CVE": "CVE-2023-4585",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Memory safety bugs present in Firefox 116, Firefox ESR 115.1, and Thunderbird 115.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 117, Firefox ESR \u003c 115.2, and Thunderbird \u003c 115.2.",
       "Threats": [
         {
           "Type": "Impact",

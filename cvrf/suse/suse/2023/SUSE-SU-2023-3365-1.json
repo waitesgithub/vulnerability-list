@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3365,Container suse/sle-micro/5.1/toolbox:latest-2023-3365,Container suse/sle-micro/5.2/toolbox:latest-2023-3365,Container suse/sle15:15.3-2023-3365,Container trento/trento-wanda:latest-2023-3365,Container trento/trento-web:latest-2023-3365,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3365,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3365,SUSE-2023-3365,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3365,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3365,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3365,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3365,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3365,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3365,SUSE-SUSE-MicroOS-5.1-2023-3365,SUSE-SUSE-MicroOS-5.2-2023-3365,SUSE-Storage-7.1-2023-3365",
+      "Text": "Container ses/7.1/ceph/prometheus-server:latest-2023-3365,Container suse/sle-micro-rancher/5.2:latest-2023-3365,Container suse/sle-micro/5.1/toolbox:latest-2023-3365,Container suse/sle-micro/5.2/toolbox:latest-2023-3365,Container suse/sle15:15.3-2023-3365,Container trento/trento-wanda:latest-2023-3365,Container trento/trento-web:latest-2023-3365,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3365,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3365,SUSE-2023-3365,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3365,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3365,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3365,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3365,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3365,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3365,SUSE-SUSE-MicroOS-5.1-2023-3365,SUSE-SUSE-MicroOS-5.2-2023-3365,SUSE-Storage-7.1-2023-3365",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "krb5-1.19.2-150300.13.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "krb5-1.19.2-150300.13.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
@@ -471,6 +476,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/prometheus-server:latest:krb5-1.19.2-150300.13.1",
             "Container suse/sle-micro-rancher/5.2:latest:krb5-1.19.2-150300.13.1",
             "Container suse/sle-micro/5.1/toolbox:latest:krb5-1.19.2-150300.13.1",
             "Container suse/sle-micro/5.2/toolbox:latest:krb5-1.19.2-150300.13.1",

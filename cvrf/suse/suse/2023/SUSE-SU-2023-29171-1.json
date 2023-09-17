@@ -425,6 +425,61 @@
       },
       {
         "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Container bci/golang:1.20",
         "RelationType": "Default Component Of"
       },
@@ -1356,6 +1411,116 @@
       {
         "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -2846,6 +3011,17 @@
             "Container bci/dotnet-sdk:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container bci/dotnet-sdk:latest:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container bci/dotnet-sdk:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Container bci/golang:1.20:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Container bci/golang:1.20:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Container bci/golang:1.20:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3033,6 +3209,28 @@
             "Container suse/389-ds:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container suse/389-ds:latest:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container suse/389-ds:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Container suse/nginx:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Container suse/nginx:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Container suse/nginx:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3405,6 +3603,17 @@
             "Container bci/dotnet-sdk:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container bci/dotnet-sdk:latest:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container bci/dotnet-sdk:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container bci/golang:1.19-openssl:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Container bci/golang:1.20:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Container bci/golang:1.20:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Container bci/golang:1.20:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3592,6 +3801,28 @@
             "Container suse/389-ds:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container suse/389-ds:latest:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container suse/389-ds:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container suse/git:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container suse/helm:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Container suse/nginx:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Container suse/nginx:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Container suse/nginx:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",

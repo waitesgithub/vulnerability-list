@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/bci-init:latest-2023-2965,Container bci/dotnet-aspnet:6.0-2023-2965,Container bci/dotnet-aspnet:latest-2023-2965,Container bci/dotnet-runtime:6.0-2023-2965,Container bci/dotnet-runtime:latest-2023-2965,Container bci/dotnet-sdk:6.0-2023-2965,Container bci/dotnet-sdk:latest-2023-2965,Container bci/golang:1.20-2023-2965,Container bci/golang:latest-2023-2965,Container bci/node:16-2023-2965,Container bci/nodejs:latest-2023-2965,Container bci/openjdk-devel:11-2023-2965,Container bci/openjdk-devel:latest-2023-2965,Container bci/openjdk:11-2023-2965,Container bci/openjdk:latest-2023-2965,Container bci/php-apache:8-2023-2965,Container bci/php-fpm:8-2023-2965,Container bci/php:8-2023-2965,Container bci/python:3-2023-2965,Container bci/python:latest-2023-2965,Container bci/ruby:latest-2023-2965,Container bci/rust:1.70-2023-2965,Container bci/rust:latest-2023-2965,Container suse/389-ds:latest-2023-2965,Container suse/nginx:latest-2023-2965,Container suse/pcp:latest-2023-2965,Container suse/postgres:14-2023-2965,Container suse/postgres:latest-2023-2965,Container suse/registry:latest-2023-2965,Container suse/sle-micro/5.5/toolbox:latest-2023-2965,Container suse/sle15:15.5-2023-2965,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-2965,Image SLES15-SP5-CHOST-BYOS-Azure-2023-2965,Image SLES15-SP5-CHOST-BYOS-EC2-2023-2965,Image SLES15-SP5-CHOST-BYOS-GCE-2023-2965,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-2965,SUSE-2023-2965,SUSE-SLE-Module-Basesystem-15-SP5-2023-2965,openSUSE-SLE-15.5-2023-2965",
+      "Text": "Container bci/bci-init:latest-2023-2965,Container bci/dotnet-aspnet:6.0-2023-2965,Container bci/dotnet-aspnet:latest-2023-2965,Container bci/dotnet-runtime:6.0-2023-2965,Container bci/dotnet-runtime:latest-2023-2965,Container bci/dotnet-sdk:6.0-2023-2965,Container bci/dotnet-sdk:latest-2023-2965,Container bci/golang:1.19-openssl-2023-2965,Container bci/golang:1.20-2023-2965,Container bci/golang:latest-2023-2965,Container bci/node:16-2023-2965,Container bci/nodejs:latest-2023-2965,Container bci/openjdk-devel:11-2023-2965,Container bci/openjdk-devel:latest-2023-2965,Container bci/openjdk:11-2023-2965,Container bci/openjdk:latest-2023-2965,Container bci/php-apache:8-2023-2965,Container bci/php-fpm:8-2023-2965,Container bci/php:8-2023-2965,Container bci/python:3-2023-2965,Container bci/python:latest-2023-2965,Container bci/ruby:latest-2023-2965,Container bci/rust:1.70-2023-2965,Container bci/rust:latest-2023-2965,Container suse/389-ds:latest-2023-2965,Container suse/git:latest-2023-2965,Container suse/helm:latest-2023-2965,Container suse/nginx:latest-2023-2965,Container suse/pcp:latest-2023-2965,Container suse/postgres:14-2023-2965,Container suse/postgres:latest-2023-2965,Container suse/registry:latest-2023-2965,Container suse/sle-micro/5.5/toolbox:latest-2023-2965,Container suse/sle15:15.5-2023-2965,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-2965,Image SLES15-SP5-CHOST-BYOS-Azure-2023-2965,Image SLES15-SP5-CHOST-BYOS-EC2-2023-2965,Image SLES15-SP5-CHOST-BYOS-GCE-2023-2965,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-2965,SUSE-2023-2965,SUSE-SLE-Module-Basesystem-15-SP5-2023-2965,openSUSE-SLE-15.5-2023-2965",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -109,6 +109,26 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "libopenssl1_1-1.1.1l-150500.17.9.1",
         "RelatesToProductReference": "Container bci/golang:1.20",
         "RelationType": "Default Component Of"
@@ -311,6 +331,21 @@
       {
         "ProductReference": "openssl-1_1-1.1.1l-150500.17.9.1",
         "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.9.1",
+        "RelatesToProductReference": "Container suse/git:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.9.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.9.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -579,6 +614,10 @@
             "Container bci/dotnet-sdk:6.0:libopenssl1_1-hmac-1.1.1l-150500.17.9.1",
             "Container bci/dotnet-sdk:latest:libopenssl1_1-1.1.1l-150500.17.9.1",
             "Container bci/dotnet-sdk:latest:libopenssl1_1-hmac-1.1.1l-150500.17.9.1",
+            "Container bci/golang:1.19-openssl:libopenssl-1_1-devel-1.1.1l-150500.17.9.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-1.1.1l-150500.17.9.1",
+            "Container bci/golang:1.19-openssl:libopenssl1_1-hmac-1.1.1l-150500.17.9.1",
+            "Container bci/golang:1.19-openssl:openssl-1_1-1.1.1l-150500.17.9.1",
             "Container bci/golang:1.20:libopenssl1_1-1.1.1l-150500.17.9.1",
             "Container bci/golang:1.20:libopenssl1_1-hmac-1.1.1l-150500.17.9.1",
             "Container bci/golang:latest:libopenssl1_1-1.1.1l-150500.17.9.1",
@@ -620,6 +659,9 @@
             "Container suse/389-ds:latest:libopenssl1_1-1.1.1l-150500.17.9.1",
             "Container suse/389-ds:latest:libopenssl1_1-hmac-1.1.1l-150500.17.9.1",
             "Container suse/389-ds:latest:openssl-1_1-1.1.1l-150500.17.9.1",
+            "Container suse/git:latest:libopenssl1_1-1.1.1l-150500.17.9.1",
+            "Container suse/helm:latest:libopenssl1_1-1.1.1l-150500.17.9.1",
+            "Container suse/helm:latest:openssl-1_1-1.1.1l-150500.17.9.1",
             "Container suse/nginx:latest:libopenssl1_1-1.1.1l-150500.17.9.1",
             "Container suse/nginx:latest:libopenssl1_1-hmac-1.1.1l-150500.17.9.1",
             "Container suse/pcp:latest:libopenssl1_1-1.1.1l-150500.17.9.1",

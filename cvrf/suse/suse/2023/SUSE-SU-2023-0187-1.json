@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-187,SUSE-SLE-Micro-5.3-2023-187,SUSE-SLE-Module-Containers-15-SP4-2023-187,openSUSE-Leap-Micro-5.3-2023-187,openSUSE-SLE-15.4-2023-187",
+      "Text": "Container rancher/elemental-teal-rt/5.4:latest-2023-187,Container rancher/elemental-teal/5.4:latest-2023-187,SUSE-2023-187,SUSE-SLE-Micro-5.3-2023-187,SUSE-SLE-Module-Containers-15-SP4-2023-187,openSUSE-Leap-Micro-5.3-2023-187,openSUSE-SLE-15.4-2023-187",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "podman-4.3.1-150400.4.11.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "podman-4.3.1-150400.4.11.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "podman-4.3.1-150400.4.11.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
@@ -190,6 +200,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:podman-4.3.1-150400.4.11.1",
+            "Container rancher/elemental-teal/5.4:latest:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-cni-config-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Module for Containers 15 SP4:podman-4.3.1-150400.4.11.1",
@@ -230,6 +242,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:podman-4.3.1-150400.4.11.1",
+            "Container rancher/elemental-teal/5.4:latest:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-cni-config-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Module for Containers 15 SP4:podman-4.3.1-150400.4.11.1",
@@ -270,6 +284,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:podman-4.3.1-150400.4.11.1",
+            "Container rancher/elemental-teal/5.4:latest:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-cni-config-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Module for Containers 15 SP4:podman-4.3.1-150400.4.11.1",
@@ -310,6 +326,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:podman-4.3.1-150400.4.11.1",
+            "Container rancher/elemental-teal/5.4:latest:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-cni-config-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Module for Containers 15 SP4:podman-4.3.1-150400.4.11.1",
@@ -350,6 +368,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:podman-4.3.1-150400.4.11.1",
+            "Container rancher/elemental-teal/5.4:latest:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-cni-config-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Module for Containers 15 SP4:podman-4.3.1-150400.4.11.1",
@@ -390,6 +410,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:podman-4.3.1-150400.4.11.1",
+            "Container rancher/elemental-teal/5.4:latest:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Micro 5.3:podman-cni-config-4.3.1-150400.4.11.1",
             "SUSE Linux Enterprise Module for Containers 15 SP4:podman-4.3.1-150400.4.11.1",
