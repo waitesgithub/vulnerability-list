@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles/15.3/cdi-importer:1.37.1-2019-2223,SUSE-2019-2223,SUSE-SLE-Module-Basesystem-15-SP1-2019-2223,SUSE-SLE-Module-Containers-15-SP1-2019-2223",
+      "Text": "Container rancher/elemental-teal-rt/5.4:latest-2019-2223,Container rancher/elemental-teal/5.4:latest-2019-2223,Container suse/sles/15.3/cdi-importer:1.37.1-2019-2223,SUSE-2019-2223,SUSE-SLE-Module-Basesystem-15-SP1-2019-2223,SUSE-SLE-Module-Containers-15-SP1-2019-2223",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "fuse-overlayfs-0.4.1-3.3.8",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "fuse-overlayfs-0.4.1-3.3.8",
+        "RelatesToProductReference": "Container rancher/elemental-teal/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libcontainers-common-20190401-3.3.5",
         "RelatesToProductReference": "Container suse/sles/15.3/cdi-importer:1.37.1",
@@ -162,6 +172,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:fuse-overlayfs-0.4.1-3.3.8",
+            "Container rancher/elemental-teal/5.4:latest:fuse-overlayfs-0.4.1-3.3.8",
             "Container suse/sles/15.3/cdi-importer:1.37.1:libcontainers-common-20190401-3.3.5",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcontainers-common-20190401-3.3.5",
             "SUSE Linux Enterprise Module for Containers 15 SP1:fuse-overlayfs-0.4.1-3.3.8",
@@ -198,6 +210,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:fuse-overlayfs-0.4.1-3.3.8",
+            "Container rancher/elemental-teal/5.4:latest:fuse-overlayfs-0.4.1-3.3.8",
             "Container suse/sles/15.3/cdi-importer:1.37.1:libcontainers-common-20190401-3.3.5",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcontainers-common-20190401-3.3.5",
             "SUSE Linux Enterprise Module for Containers 15 SP1:fuse-overlayfs-0.4.1-3.3.8",
@@ -242,6 +256,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:fuse-overlayfs-0.4.1-3.3.8",
+            "Container rancher/elemental-teal/5.4:latest:fuse-overlayfs-0.4.1-3.3.8",
             "Container suse/sles/15.3/cdi-importer:1.37.1:libcontainers-common-20190401-3.3.5",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcontainers-common-20190401-3.3.5",
             "SUSE Linux Enterprise Module for Containers 15 SP1:fuse-overlayfs-0.4.1-3.3.8",
