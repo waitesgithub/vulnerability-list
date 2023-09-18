@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-27T00:23:19Z",
+  "UpdatedAt": "2023-09-18T12:29:30Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "dolibarr/dolibarr"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-05-17T01:05:37Z",
     "Severity": "HIGH",
     "Summary": "Dolibarr ERP and CRM Sensitive Data Disclosure",
-    "UpdatedAt": "2023-07-27T00:23:19Z",
+    "UpdatedAt": "2023-09-18T12:29:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -45,7 +45,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "6.0.1"
       },
       "VulnerableVersionRange": "\u003c= 6.0.0"
     }
