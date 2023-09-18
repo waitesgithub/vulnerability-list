@@ -2,7 +2,7 @@
   "_id": {},
   "bs_repo_id": {},
   "updateinfo_id": "ALSA-2023:0202",
-  "description": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: handshake DoS attack against DTLS connections (JSSE, 8287411) (CVE-2023-21835)\n* OpenJDK: soundbank URL remote loading (Sound, 8293742) (CVE-2023-21843)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Prepare for the next quarterly OpenJDK upstream release (2023-01, 11.0.18) [rhel-9] (BZ#2157798)",
+  "description": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: handshake DoS attack against DTLS connections (JSSE, 8287411) (CVE-2023-21835)\n* OpenJDK: soundbank URL remote loading (Sound, 8293742) (CVE-2023-21843)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Prepare for the next quarterly OpenJDK upstream release (2023-01, 11.0.18) [almalinux-9] (BZ#2157798)",
   "fromstr": "packager@almalinux.org",
   "issued_date": {
     "$date": 1674000000000
@@ -1082,7 +1082,7 @@
   "title": "Moderate: java-11-openjdk security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1674072148000
+    "$date": 1694785308000
   },
   "version": "1"
 }

@@ -2,7 +2,7 @@
   "_id": {},
   "bs_repo_id": {},
   "updateinfo_id": "ALSA-2023:0208",
-  "description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper restrictions in CORBA deserialization (Serialization, 8285021) (CVE-2023-21830)\n* OpenJDK: soundbank URL remote loading (Sound, 8293742) (CVE-2023-21843)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Leak File Descriptors Because of ResolverLocalFilesystem#engineResolveURI() (BZ#2139705)\n* Prepare for the next quarterly OpenJDK upstream release (2023-01, 8u362) [rhel-8] (BZ#2159910)\n* solr broken due to access denied (\"java.io.FilePermission\" \"/etc/pki/java/cacerts\" \"read\") [rhel-8, openjdk-8] (BZ#2163595)",
+  "description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper restrictions in CORBA deserialization (Serialization, 8285021) (CVE-2023-21830)\n* OpenJDK: soundbank URL remote loading (Sound, 8293742) (CVE-2023-21843)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Leak File Descriptors Because of ResolverLocalFilesystem#engineResolveURI() (BZ#2139705)\n* Prepare for the next quarterly OpenJDK upstream release (2023-01, 8u362) [almalinux-8] (BZ#2159910)\n* solr broken due to access denied (\"java.io.FilePermission\" \"/etc/pki/java/cacerts\" \"read\") [almalinux-8, openjdk-8] (BZ#2163595)",
   "fromstr": "packager@almalinux.org",
   "issued_date": {
     "$date": 1674691200000
@@ -806,7 +806,7 @@
   "title": "Moderate: java-1.8.0-openjdk security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1676020015000
+    "$date": 1694785308000
   },
   "version": "1"
 }

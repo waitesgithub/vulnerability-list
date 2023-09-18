@@ -2,7 +2,7 @@
   "_id": {},
   "bs_repo_id": {},
   "updateinfo_id": "ALSA-2022:1550",
-  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: use-after-free in RDMA listen() (CVE-2021-4028)\n\n* kernel: heap out of bounds write in nf_dup_netdev.c (CVE-2022-25636)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Backport DFS fixes from upstream (BZ#2056329)\n\n* [RHEL8.5] lpfc driver often fails to detect storage directly connected to Broadcom FC HBA (BZ#2058193)\n\n* nf_reinject calls nf_queue_entry_free on an already freed entry-\u003estate (BZ#2061446)\n\n* gfs2 blocking in gdlm_lock (BZ#2069750)",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: use-after-free in RDMA listen() (CVE-2021-4028)\n\n* kernel: heap out of bounds write in nf_dup_netdev.c (CVE-2022-25636)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Backport DFS fixes from upstream (BZ#2056329)\n\n* [AlmaLinux8.5] lpfc driver often fails to detect storage directly connected to Broadcom FC HBA (BZ#2058193)\n\n* nf_reinject calls nf_queue_entry_free on an already freed entry-\u003estate (BZ#2061446)\n\n* gfs2 blocking in gdlm_lock (BZ#2069750)",
   "fromstr": "packager@almalinux.org",
   "issued_date": {
     "$date": 1650980976000
@@ -50,7 +50,7 @@
   "title": "Important: kernel security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1651073000000
+    "$date": 1694785308000
   },
   "version": "8"
 }

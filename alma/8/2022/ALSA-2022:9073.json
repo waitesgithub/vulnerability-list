@@ -2,7 +2,7 @@
   "_id": {},
   "bs_repo_id": {},
   "updateinfo_id": "ALSA-2022:9073",
-  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages were updated to later upstream versions: nodejs (16.18.1), nodejs-nodemon (2.0.20).\n\nSecurity Fix(es):\n\n* nodejs: Improper handling of URI Subject Alternative Names (CVE-2021-44531)\n* nodejs: Certificate Verification Bypass via String Injection (CVE-2021-44532)\n* nodejs: Incorrect handling of certificate subject and issuer fields (CVE-2021-44533)\n* minimist: prototype pollution (CVE-2021-44906)\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n* nodejs: DNS rebinding in inspect via invalid octal IP address (CVE-2022-43548)\n* nodejs: Prototype pollution via console.table properties (CVE-2022-21824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:16/nodejs: Packaged version of undici does not fit with declared version. [rhel-8] (BZ#2151625)",
+  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages were updated to later upstream versions: nodejs (16.18.1), nodejs-nodemon (2.0.20).\n\nSecurity Fix(es):\n\n* nodejs: Improper handling of URI Subject Alternative Names (CVE-2021-44531)\n* nodejs: Certificate Verification Bypass via String Injection (CVE-2021-44532)\n* nodejs: Incorrect handling of certificate subject and issuer fields (CVE-2021-44533)\n* minimist: prototype pollution (CVE-2021-44906)\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n* nodejs: DNS rebinding in inspect via invalid octal IP address (CVE-2022-43548)\n* nodejs: Prototype pollution via console.table properties (CVE-2022-21824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:16/nodejs: Packaged version of undici does not fit with declared version. [almalinux-8] (BZ#2151625)",
   "fromstr": "packager@almalinux.org",
   "issued_date": {
     "$date": 1671062400000
@@ -356,7 +356,7 @@
   "title": "Moderate: nodejs:16 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1671186336000
+    "$date": 1694785308000
   },
   "version": "1"
 }

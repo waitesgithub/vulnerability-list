@@ -2,14 +2,14 @@
   "_id": {},
   "bs_repo_id": {},
   "updateinfo_id": "ALSA-2021:2588",
-  "description": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.\n\nThe following packages have been upgraded to a later upstream version: ruby (2.6.7). (BZ#1952627)\n\nSecurity Fix(es):\n\n* rubygem-bundler: Insecure permissions on directory in /tmp/ allows for execution of malicious code (CVE-2019-3881)\n\n* ruby: NUL injection vulnerability of File.fnmatch and File.fnmatch? (CVE-2019-15845)\n\n* ruby: Regular expression denial of service vulnerability of WEBrick's Digest authentication (CVE-2019-16201)\n\n* ruby: Code injection via command argument of Shell#test / Shell#[] (CVE-2019-16255)\n\n* rubygem-json: Unsafe object creation vulnerability in JSON (CVE-2020-10663)\n\n* ruby: BasicSocket#read_nonblock method leads to information disclosure (CVE-2020-10933)\n\n* ruby: Potential HTTP request smuggling in WEBrick (CVE-2020-25613)\n\n* ruby: XML round-trip vulnerability in REXML (CVE-2021-28965)\n\n* ruby: HTTP response splitting in WEBrick (CVE-2019-16254)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Resolv::DNS: ruby:2.6/ruby: timeouts if multiple IPv6 name servers are given and address contains leading zero [rhel-8] (BZ#1954968)",
+  "description": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.\n\nThe following packages have been upgraded to a later upstream version: ruby (2.6.7). (BZ#1952627)\n\nSecurity Fix(es):\n\n* rubygem-bundler: Insecure permissions on directory in /tmp/ allows for execution of malicious code (CVE-2019-3881)\n\n* ruby: NUL injection vulnerability of File.fnmatch and File.fnmatch? (CVE-2019-15845)\n\n* ruby: Regular expression denial of service vulnerability of WEBrick's Digest authentication (CVE-2019-16201)\n\n* ruby: Code injection via command argument of Shell#test / Shell#[] (CVE-2019-16255)\n\n* rubygem-json: Unsafe object creation vulnerability in JSON (CVE-2020-10663)\n\n* ruby: BasicSocket#read_nonblock method leads to information disclosure (CVE-2020-10933)\n\n* ruby: Potential HTTP request smuggling in WEBrick (CVE-2020-25613)\n\n* ruby: XML round-trip vulnerability in REXML (CVE-2021-28965)\n\n* ruby: HTTP response splitting in WEBrick (CVE-2019-16254)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Resolv::DNS: ruby:2.6/ruby: timeouts if multiple IPv6 name servers are given and address contains leading zero [almalinux-8] (BZ#1954968)",
   "fromstr": "packager@almalinux.org",
   "issued_date": {
     "$date": 1624975120000
   },
   "pkglist": {
-    "name": "almalinux-8-for-ppc64le-appstream-rpms__8_1_ruby",
-    "shortname": "almalinux-8-for-ppc64le-appstream-rpms__8_1_ruby",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_ruby",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_ruby",
     "packages": [
       {
         "name": "rubygem-bson",
@@ -291,9 +291,9 @@
     "module": {
       "stream": "2.6",
       "name": "ruby",
-      "version": 8060020220629053007,
-      "arch": "ppc64le",
-      "context": "9edba152"
+      "version": 8050020220216210810,
+      "arch": "x86_64",
+      "context": "c5368500"
     }
   },
   "pushcount": "4",
@@ -368,7 +368,7 @@
   "title": "Moderate: ruby:2.6 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1645096241000
+    "$date": 1694785308000
   },
   "version": "1"
 }

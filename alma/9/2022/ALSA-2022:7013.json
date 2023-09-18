@@ -2,7 +2,7 @@
   "_id": {},
   "bs_repo_id": {},
   "updateinfo_id": "ALSA-2022:7013",
-  "description": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper MultiByte conversion can lead to buffer overflow (JGSS, 8286077) (CVE-2022-21618)\n* OpenJDK: excessive memory allocation in X.509 certificate parsing (Security, 8286533) (CVE-2022-21626)\n* OpenJDK: HttpServer no connection count limit (Lightweight HTTP Server, 8286918) (CVE-2022-21628)\n* OpenJDK: improper handling of long NTLM client hostnames (Security, 8286526) (CVE-2022-21619)\n* OpenJDK: insufficient randomization of JNDI DNS port numbers (JNDI, 8286910) (CVE-2022-21624)\n* OpenJDK: missing SNI caching in HTTP/2 (Networking, 8289366) (CVE-2022-39399)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Prepare for the next quarterly OpenJDK upstream release (2022-10, 11.0.17) [rhel-9] (BZ#2131865)",
+  "description": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper MultiByte conversion can lead to buffer overflow (JGSS, 8286077) (CVE-2022-21618)\n* OpenJDK: excessive memory allocation in X.509 certificate parsing (Security, 8286533) (CVE-2022-21626)\n* OpenJDK: HttpServer no connection count limit (Lightweight HTTP Server, 8286918) (CVE-2022-21628)\n* OpenJDK: improper handling of long NTLM client hostnames (Security, 8286526) (CVE-2022-21619)\n* OpenJDK: insufficient randomization of JNDI DNS port numbers (JNDI, 8286910) (CVE-2022-21624)\n* OpenJDK: missing SNI caching in HTTP/2 (Networking, 8289366) (CVE-2022-39399)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Prepare for the next quarterly OpenJDK upstream release (2022-10, 11.0.17) [almalinux-9] (BZ#2131865)",
   "fromstr": "packager@almalinux.org",
   "issued_date": {
     "$date": 1666224000000
@@ -1130,7 +1130,7 @@
   "title": "Moderate: java-11-openjdk security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1666304793000
+    "$date": 1694785308000
   },
   "version": "1"
 }
