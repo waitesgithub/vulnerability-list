@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-08-19T20:50:20Z",
+  "UpdatedAt": "2023-09-18T20:33:15Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "pyo3"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0074.html"
+      },
+      {
+        "Url": "https://github.com/PyO3/pyo3/commit/8f81f595dd770b586c7ca7195b42004a6c976eb9"
       },
       {
         "Url": "https://github.com/advisories/GHSA-2vx6-fcw6-hpr6"
@@ -38,7 +41,7 @@
     "PublishedAt": "2021-08-25T20:49:52Z",
     "Severity": "MODERATE",
     "Summary": "Reference counting error in pyo3",
-    "UpdatedAt": "2023-01-11T05:05:39Z",
+    "UpdatedAt": "2023-09-18T20:33:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.5,

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-08-19T20:53:42Z",
+  "UpdatedAt": "2023-09-18T21:09:42Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "stack"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0042.html"
+      },
+      {
+        "Url": "https://github.com/arcnmx/stack-rs/commit/369e55736f9bd29c37b1712afc2923f4028148c6"
       },
       {
         "Url": "https://github.com/advisories/GHSA-h45v-vgvp-3h5v"
@@ -38,7 +41,7 @@
     "PublishedAt": "2021-08-25T20:49:13Z",
     "Severity": "CRITICAL",
     "Summary": "Out-of-bounds write in stack",
-    "UpdatedAt": "2023-06-13T20:54:36Z",
+    "UpdatedAt": "2023-09-18T21:09:42Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

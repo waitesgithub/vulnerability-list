@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-09-14T16:20:51Z",
   "Package": {
     "Ecosystem": "RUST",
@@ -56,6 +56,66 @@
         "Url": "https://www.mozilla.org/en-US/security/advisories/mfsa2023-40/"
       },
       {
+        "Url": "https://github.com/electron/electron/pull/39823"
+      },
+      {
+        "Url": "https://github.com/electron/electron/pull/39825"
+      },
+      {
+        "Url": "https://github.com/electron/electron/pull/39826"
+      },
+      {
+        "Url": "https://github.com/electron/electron/pull/39827"
+      },
+      {
+        "Url": "https://github.com/electron/electron/pull/39828"
+      },
+      {
+        "Url": "https://adamcaudill.com/2023/09/14/whose-cve-is-it-anyway/"
+      },
+      {
+        "Url": "https://github.com/webmproject/libwebp/releases/tag/v1.3.2"
+      },
+      {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00015.html"
+      },
+      {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00016.html"
+      },
+      {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00017.html"
+      },
+      {
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6T655QF7CQ3DYAMPFV7IECQYGDEUIVVT/"
+      },
+      {
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FYYKLG6CRGEDTNRBSU26EEWAO6D6U645/"
+      },
+      {
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OZDGWWMJREPAGKWCJKSCM4WYLANSKIFX/"
+      },
+      {
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PYZV7TMKF4QHZ54SFJX54BDN52VHGGCX/"
+      },
+      {
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WHOLML7N2G5KCAZXFWC5IDFFHSQS5SDB/"
+      },
+      {
+        "Url": "https://rustsec.org/advisories/RUSTSEC-2023-0061.html"
+      },
+      {
+        "Url": "https://security.gentoo.org/glsa/202309-05"
+      },
+      {
+        "Url": "https://www.debian.org/security/2023/dsa-5496"
+      },
+      {
+        "Url": "https://www.debian.org/security/2023/dsa-5497"
+      },
+      {
+        "Url": "https://www.debian.org/security/2023/dsa-5498"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-j7hp-h8jx-5ppr"
       }
     ],
@@ -69,16 +129,16 @@
         "Value": "CVE-2023-4863"
       }
     ],
-    "Description": "Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)",
+    "Description": "Heap buffer overflow in WebP allow a remote attacker to perform an out of bounds memory write via a crafted HTML page. ",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-09-12T15:30:20Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "libwebp: OOB write in BuildHuffmanTable",
-    "UpdatedAt": "2023-09-14T16:20:51Z",
+    "UpdatedAt": "2023-09-18T18:40:11Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 8.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [
