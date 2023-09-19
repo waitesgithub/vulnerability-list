@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-09-09T13:32:49Z",
+  "UpdatedAt": "2023-09-19T10:09:45Z",
   "Package": {
     "Ecosystem": "COMPOSER",
-    "Name": "librenms/librenms/"
+    "Name": "librenms/librenms"
   },
   "Advisory": {
     "DatabaseId": 5547,
@@ -41,11 +41,11 @@
     "PublishedAt": "2021-09-09T17:08:55Z",
     "Severity": "MODERATE",
     "Summary": "Cross-site Scripting in LibreNMS",
-    "UpdatedAt": "2023-02-01T05:06:18Z",
+    "UpdatedAt": "2023-09-19T10:09:45Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [

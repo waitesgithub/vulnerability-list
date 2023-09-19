@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-11-21T23:57:14Z",
+  "UpdatedAt": "2023-09-19T10:00:10Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "librenms/librenms"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-11-20T06:30:16Z",
     "Severity": "HIGH",
     "Summary": "Deserialization of Untrusted Data in librenms/librenms",
-    "UpdatedAt": "2023-02-01T05:04:05Z",
+    "UpdatedAt": "2023-09-19T10:00:10Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -48,7 +48,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "22.10.0"
       },
       "VulnerableVersionRange": "\u003c 22.10.0"
     }
