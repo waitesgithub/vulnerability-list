@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-07-19T21:38:48Z",
+  "UpdatedAt": "2023-09-20T10:07:39Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "silverstripe/framework"
@@ -41,7 +41,7 @@
     "PublishedAt": "2022-05-14T01:10:43Z",
     "Severity": "CRITICAL",
     "Summary": "Silverstripe Framework SQLi Vulnerability",
-    "UpdatedAt": "2023-07-19T21:38:48Z",
+    "UpdatedAt": "2023-09-20T10:07:39Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -53,13 +53,37 @@
       "FirstPatchedVersion": {
         "Identifier": "4.3.1"
       },
-      "VulnerableVersionRange": "\u003e= 4.0, \u003c 4.3.1"
+      "VulnerableVersionRange": "\u003e= 4.3.0, \u003c 4.3.1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.2.4"
+      },
+      "VulnerableVersionRange": "\u003e= 4.2.0, \u003c 4.2.4"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.1.5"
+      },
+      "VulnerableVersionRange": "\u003e= 4.1.0, \u003c 4.1.5"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.7.3"
       },
-      "VulnerableVersionRange": "\u003e= 3.0, \u003c 3.7.3"
+      "VulnerableVersionRange": "\u003e= 3.7.0, \u003c 3.7.3"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.0.7"
+      },
+      "VulnerableVersionRange": "\u003e= 4.0.0, \u003c 4.0.7"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.6.7"
+      },
+      "VulnerableVersionRange": "\u003e= 3.0, \u003c 3.6.7"
     }
   ]
 }

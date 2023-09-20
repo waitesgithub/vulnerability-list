@@ -1,6 +1,6 @@
 {
-  "Severity": "MODERATE",
-  "UpdatedAt": "2019-11-12T22:50:56Z",
+  "Severity": "LOW",
+  "UpdatedAt": "2023-09-20T09:57:18Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "silverstripe/framework"
@@ -42,13 +42,13 @@
     "Description": "In SilverStripe through 4.3.3, there is access escalation for CMS users with limited access through permission cache pollution.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-11-12T23:01:59Z",
-    "Severity": "MODERATE",
-    "Summary": "Priviledge escalation through cache pollution",
-    "UpdatedAt": "2023-01-09T05:01:57Z",
+    "Severity": "LOW",
+    "Summary": "SilverStripe Priviledge escalation through cache pollution",
+    "UpdatedAt": "2023-09-20T09:57:18Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 2.7,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N"
     }
   },
   "Versions": [
