@@ -1,0 +1,315 @@
+{
+  "Title": "Security update for gcc7",
+  "Tracking": {
+    "ID": "SUSE-SU-2023:3686-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2023-09-19T15:24:52Z",
+    "CurrentReleaseDate": "2023-09-19T15:24:52Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2023-09-19T15:24:52Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for gcc7",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for gcc7 fixes the following issues:\n\nSecurity issue fixed:\n\n- CVE-2023-4039: Fixed incorrect stack protector for C99 VLAs on Aarch64 (bsc#1214052).\n\nOther fixes:\n\n- Fixed KASAN kernel compile.  [bsc#1205145]\n- Fixed ICE with C++17 code as reported in [bsc#1204505]\n- Fixed altivec.h redefining bool in C++ which makes bool unusable (bsc#1195517):\n- Adjust gnats idea of the target, fixing the build of gprbuild.  [bsc#1196861]\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "SUSE-2023-3686,SUSE-SLE-Module-Basesystem-15-SP4-2023-3686,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-3686",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "cpp7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cross-nvptx-gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cross-nvptx-newlib7-devel-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-ada-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-info-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-locale-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-objc-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libada7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-32bit-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2023/suse-su-20233686-1/",
+      "Description": "Link for SUSE-SU-2023:3686-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2023-September/016210.html",
+      "Description": "E-Mail link for SUSE-SU-2023:3686-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1195517",
+      "Description": "SUSE Bug 1195517"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196861",
+      "Description": "SUSE Bug 1196861"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204505",
+      "Description": "SUSE Bug 1204505"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1205145",
+      "Description": "SUSE Bug 1205145"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1214052",
+      "Description": "SUSE Bug 1214052"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2023-4039/",
+      "Description": "SUSE CVE CVE-2023-4039 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2023-4039",
+      "Description": "\n\nA failure in the -fstack-protector feature in GCC-based toolchains \nthat target AArch64 allows an attacker to exploit an existing buffer \noverflow in dynamically-sized local variables in your application \nwithout this being detected. This stack-protector failure only applies \nto C99-style dynamically-sized local variables or those created using \nalloca(). The stack-protector operates as intended for statically-sized \nlocal variables.\n\nThe default behavior when the stack-protector \ndetects an overflow is to terminate your application, resulting in \ncontrolled loss of availability. An attacker who can exploit a buffer \noverflow without triggering the stack-protector might be able to change \nprogram flow control to cause an uncontrolled loss of availability or to\n go further and affect confidentiality or integrity.\n\n\n\n\n\n",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2023-4039.html",
+          "Description": "CVE-2023-4039"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214052",
+          "Description": "SUSE Bug 1214052"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:cpp7-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:gcc7-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:gcc7-c++-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:gcc7-fortran-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libasan4-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libcilkrts5-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libgfortran4-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libgfortran4-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libstdc++6-devel-gcc7-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libubsan0-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:cpp7-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:cross-nvptx-gcc7-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:cross-nvptx-newlib7-devel-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-ada-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-c++-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-c++-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-fortran-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-fortran-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-info-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-locale-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gcc7-objc-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libada7-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libasan4-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libasan4-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libcilkrts5-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libcilkrts5-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libgfortran4-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libgfortran4-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libstdc++6-devel-gcc7-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libstdc++6-devel-gcc7-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libubsan0-32bit-7.5.0+r278197-150000.4.35.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libubsan0-7.5.0+r278197-150000.4.35.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
