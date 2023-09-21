@@ -1,9 +1,9 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-09-18T18:40:11Z",
+  "UpdatedAt": "2023-09-21T17:24:03Z",
   "Package": {
-    "Ecosystem": "RUST",
-    "Name": "libwebp-sys"
+    "Ecosystem": "GO",
+    "Name": "github.com/chai2010/webp"
   },
   "Advisory": {
     "DatabaseId": 220451,
@@ -147,9 +147,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.9.3"
+        "Identifier": ""
       },
-      "VulnerableVersionRange": "\u003c 0.9.3"
+      "VulnerableVersionRange": "\u003e= 1.0.0"
     }
   ]
 }
