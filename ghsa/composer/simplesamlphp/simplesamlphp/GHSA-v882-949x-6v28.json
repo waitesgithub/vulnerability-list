@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-26T21:48:05Z",
+  "UpdatedAt": "2023-09-21T10:01:29Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "simplesamlphp/simplesamlphp"
@@ -23,6 +23,9 @@
         "Url": "https://simplesamlphp.org/security/201703-01"
       },
       {
+        "Url": "https://github.com/simplesamlphp/simplesamlphp/commit/b72c79e3070f930d758f5c269333d63ed7509e2e"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-v882-949x-6v28"
       }
     ],
@@ -41,7 +44,7 @@
     "PublishedAt": "2022-05-14T01:04:04Z",
     "Severity": "MODERATE",
     "Summary": "SimpleSAMLphp allows timing side-channel attacks",
-    "UpdatedAt": "2023-07-26T21:48:05Z",
+    "UpdatedAt": "2023-09-21T10:01:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,
@@ -51,9 +54,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.15.0-rc1"
       },
-      "VulnerableVersionRange": "\u003c= 1.14.11"
+      "VulnerableVersionRange": "\u003c 1.15.0-rc1"
     }
   ]
 }

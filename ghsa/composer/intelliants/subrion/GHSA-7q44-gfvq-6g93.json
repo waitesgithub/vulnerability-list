@@ -1,9 +1,9 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2021-07-16T17:37:01Z",
+  "UpdatedAt": "2023-09-21T10:05:50Z",
   "Package": {
     "Ecosystem": "COMPOSER",
-    "Name": "subrion/cms"
+    "Name": "intelliants/subrion"
   },
   "Advisory": {
     "DatabaseId": 4909,
@@ -15,6 +15,9 @@
       },
       {
         "Url": "https://github.com/intelliants/subrion/issues/817"
+      },
+      {
+        "Url": "https://github.com/intelliants/subrion/commit/c29cd72d07ca8cf6eba6f6d4496ad97d0c4d2be9"
       },
       {
         "Url": "https://github.com/advisories/GHSA-7q44-gfvq-6g93"
@@ -35,7 +38,7 @@
     "PublishedAt": "2021-09-08T17:27:45Z",
     "Severity": "CRITICAL",
     "Summary": "SQL Injection in Subrion CMS ",
-    "UpdatedAt": "2023-02-01T05:06:00Z",
+    "UpdatedAt": "2023-09-21T10:05:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
