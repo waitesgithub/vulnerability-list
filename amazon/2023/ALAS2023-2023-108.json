@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-108",
   "title": "Amazon Linux 2023 - ALAS2023-2023-108: Important priority package update for emacs",
   "issued": {
-    "date": "2023-02-17 20:48"
+    "date": "2023-02-17 20:48:00"
   },
   "updated": {
-    "date": "2023-02-22 23:25"
+    "date": "2023-02-22 23:25:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-45939:\n\tGNU Emacs through 28.2 allows attackers to execute commands via shell metacharacters in the name of a source-code file, because lib-src/etags.c uses the system C library function in its implementation of the ctags program. For example, a victim may use the \"ctags *\" command (suggested in the ctags documentation) in a situation where the current working directory has contents that depend on untrusted input.\n",

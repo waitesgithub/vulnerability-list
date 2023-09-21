@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-088",
   "title": "Amazon Linux 2023 - ALAS2023-2023-088: Important priority package update for libksba",
   "issued": {
-    "date": "2023-02-17 20:47"
+    "date": "2023-02-17 20:47:00"
   },
   "updated": {
-    "date": "2023-02-22 23:28"
+    "date": "2023-02-22 23:28:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-3515:\n\tA vulnerability was found in the Libksba library due to an integer overflow within the CRL parser. The vulnerability can be exploited remotely for code execution on the target system by passing specially crafted data to the application, for example, a malicious S/MIME attachment.\n",

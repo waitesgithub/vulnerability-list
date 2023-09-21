@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-296",
   "title": "Amazon Linux 2023 - ALAS2023-2023-296: Medium priority package update for ghostscript",
   "issued": {
-    "date": "2023-08-17 11:20"
+    "date": "2023-08-17 11:20:00"
   },
   "updated": {
-    "date": "2023-08-23 22:29"
+    "date": "2023-08-23 22:29:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-38559:\n\tA buffer overflow flaw was found in base/gdevdevn.c:1973 in devn_pcx_write_rle() in ghostscript. This issue may allow a local attacker to cause a denial of service via outputting a crafted PDF file for a DEVN device with gs.\n",

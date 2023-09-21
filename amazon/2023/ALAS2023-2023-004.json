@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-004",
   "title": "Amazon Linux 2023 - ALAS2023-2023-004: Medium priority package update for autotrace",
   "issued": {
-    "date": "2023-02-17 20:42"
+    "date": "2023-02-17 20:42:00"
   },
   "updated": {
-    "date": "2023-02-23 00:01"
+    "date": "2023-02-23 00:01:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2019-19005:\n\tA bitmap double free in main.c in autotrace 0.31.1 allows attackers to cause an unspecified impact via a malformed bitmap image. This may occur after the use-after-free in CVE-2017-9182.\n\nCVE-2019-19004:\n\tA biWidth*biBitCnt integer overflow in input-bmp.c in autotrace 0.31.1 allows attackers to provide an unexpected input value to malloc via a malformed bitmap image.\n",

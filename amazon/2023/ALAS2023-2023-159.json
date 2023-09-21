@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-159",
   "title": "Amazon Linux 2023 - ALAS2023-2023-159: Medium priority package update for pkgconf",
   "issued": {
-    "date": "2023-04-13 17:56"
+    "date": "2023-04-13 17:56:00"
   },
   "updated": {
-    "date": "2023-04-19 21:51"
+    "date": "2023-04-19 21:51:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-24056:\n\tIn pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.\n",

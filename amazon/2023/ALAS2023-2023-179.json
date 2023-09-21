@@ -2,13 +2,13 @@
   "id": "ALAS2023-2023-179",
   "title": "Amazon Linux 2023 - ALAS2023-2023-179: Medium priority package update for kernel",
   "issued": {
-    "date": "2023-05-11 17:49"
+    "date": "2023-05-11 17:49:00"
   },
   "updated": {
-    "date": "2023-05-24 18:56"
+    "date": "2023-09-14 00:54:00"
   },
   "severity": "Medium",
-  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-31436:\n\tqfq_change_class in net/sched/sch_qfq.c in the Linux kernel before 6.2.13 allows an out-of-bounds write because lmax can exceed QFQ_MIN_LMAX.\n",
+  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-31436:\n\tqfq_change_class in net/sched/sch_qfq.c in the Linux kernel before 6.2.13 allows an out-of-bounds write because lmax can exceed QFQ_MIN_LMAX.\n\nCVE-2023-2163:\n\tbpf: incorrect verifier pruning due to missing register precision taints, which may lead to out-of-band read/write access due to an incorrect verifier conclusion.\n",
   "packages": [
     {
       "name": "perf-debuginfo",
@@ -309,12 +309,18 @@
   ],
   "references": [
     {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2163",
+      "id": "CVE-2023-2163",
+      "type": "cve"
+    },
+    {
       "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31436",
       "id": "CVE-2023-31436",
       "type": "cve"
     }
   ],
   "cveids": [
+    "CVE-2023-2163",
     "CVE-2023-31436"
   ]
 }

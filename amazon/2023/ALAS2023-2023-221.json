@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-221",
   "title": "Amazon Linux 2023 - ALAS2023-2023-221: Medium priority package update for opensmtpd",
   "issued": {
-    "date": "2023-06-21 19:10"
+    "date": "2023-06-21 19:10:00"
   },
   "updated": {
-    "date": "2023-06-27 20:58"
+    "date": "2023-06-27 20:58:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-29323:\n\tascii_load_sockaddr in smtpd in OpenBSD before 7.1 errata 024 and 7.2 before errata 020, and OpenSMTPD Portable through 7.0.0-portable, can abort upon a connection from a local, scoped IPv6 address.\n",

@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-303",
   "title": "Amazon Linux 2023 - ALAS2023-2023-303: Medium priority package update for php8.1",
   "issued": {
-    "date": "2023-08-17 11:20"
+    "date": "2023-08-17 11:20:00"
   },
   "updated": {
-    "date": "2023-08-23 22:30"
+    "date": "2023-08-23 22:30:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-3247:\n\tGHSA-76gg-c692-v2mw: Missing error check and insufficient random bytes in HTTP Digest authentication for SOAP\n\nNOTE: Fixed in 8.2.7, 8.1.20, 8.0.29\nNOTE: https://github.com/php/php-src/security/advisories/GHSA-76gg-c692-v2mw\nNOTE: https://github.com/php/php-src/commit/ac4254ad764c70cb1f05c9270d8d12689fc3aeb6 (php-8.0.29)\nNOTE: https://github.com/php/php-src/commit/32c7c433ac1983c4497349051681a4f361d3d33e (php-8.0.29)\nADVISORIES: ['DSA-5425-1', 'DSA-5424-1']\n",

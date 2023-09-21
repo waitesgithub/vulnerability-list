@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-095",
   "title": "Amazon Linux 2023 - ALAS2023-2023-095: Low priority package update for openssl",
   "issued": {
-    "date": "2023-02-17 20:47"
+    "date": "2023-02-17 20:47:00"
   },
   "updated": {
-    "date": "2023-02-22 23:27"
+    "date": "2023-02-22 23:27:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-3996:\n\tIf an X.509 certificate contains a malformed policy constraint and policy processing is enabled, then a write lock will be taken twice recursively. On some operating systems (most widely: Windows) this results in a denial of service when the affected process hangs. Policy processing being enabled on a publicly facing server is not considered to be a common setup. Policy processing is enabled by passing the `-policy' argument to the command line utilities or by calling either `X509_VERIFY_PARAM_add0_policy()' or `X509_VERIFY_PARAM_set1_policies()' functions.\n",

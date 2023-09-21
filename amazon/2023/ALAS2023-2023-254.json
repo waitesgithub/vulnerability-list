@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-254",
   "title": "Amazon Linux 2023 - ALAS2023-2023-254: Low priority package update for python-configobj",
   "issued": {
-    "date": "2023-07-17 20:45"
+    "date": "2023-07-17 20:45:00"
   },
   "updated": {
-    "date": "2023-07-20 00:55"
+    "date": "2023-07-20 00:55:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-26112:\n\tAll versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\). **Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file.\n",

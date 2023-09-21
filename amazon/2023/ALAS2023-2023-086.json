@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-086",
   "title": "Amazon Linux 2023 - ALAS2023-2023-086: Low priority package update for protobuf-c",
   "issued": {
-    "date": "2023-02-17 20:47"
+    "date": "2023-02-17 20:47:00"
   },
   "updated": {
-    "date": "2023-02-22 23:28"
+    "date": "2023-02-22 23:28:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-33070:\n\tA flaw was found in protobuf-c. The issue occurs due to an invalid arithmetic shift via the parse_tag_and_wiretype in the protobuf-c/protobuf-c.c function. This flaw allows attackers to cause a denial of service (DoS) via unspecified vectors.\n",

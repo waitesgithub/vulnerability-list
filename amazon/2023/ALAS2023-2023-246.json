@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-246",
   "title": "Amazon Linux 2023 - ALAS2023-2023-246: Low priority package update for libarchive",
   "issued": {
-    "date": "2023-07-05 20:13"
+    "date": "2023-07-05 20:13:00"
   },
   "updated": {
-    "date": "2023-07-20 00:56"
+    "date": "2023-07-20 00:56:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-36227:\n\tIn libarchive 3.6.1, the software does not check for an error after calling calloc function that can return with a NULL pointer if the function fails, which leads to a resultant NULL pointer dereference or, in some cases, even arbitrary code execution.\n",

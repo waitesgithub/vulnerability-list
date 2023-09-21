@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-234",
   "title": "Amazon Linux 2023 - ALAS2023-2023-234: Medium priority package update for kernel",
   "issued": {
-    "date": "2023-06-30 01:01"
+    "date": "2023-06-30 01:01:00"
   },
   "updated": {
-    "date": "2023-07-05 23:15"
+    "date": "2023-07-05 23:15:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-3269:\n\tA flaw was found in the handling of stack expansion in the Linux kernel 6.1 through 6.4, aka \"Stack Rot\". The maple tree, responsible for managing virtual memory areas, can undergo node replacement without properly acquiring the MM write lock, leading to use-after-free issues. An unprivileged local user could use this flaw to compromise the kernel and escalate their privileges.\n",

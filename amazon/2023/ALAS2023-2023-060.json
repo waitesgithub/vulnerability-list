@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-060",
   "title": "Amazon Linux 2023 - ALAS2023-2023-060: Medium priority package update for glibc",
   "issued": {
-    "date": "2023-02-17 20:45"
+    "date": "2023-02-17 20:45:00"
   },
   "updated": {
-    "date": "2023-02-22 23:34"
+    "date": "2023-02-22 23:34:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-23219:\n\tA stack based buffer-overflow vulnerability was found in the deprecated compatibility function clnt_create() in the sunrpc's clnt_gen.c module of the GNU C Library (aka glibc) through 2.34. This vulnerability copies its hostname argument onto the stack without validating its length, which may result in a buffer overflow, potentially resulting in a denial of service or (if an application is not built with a stack protector enabled) lead to arbitrary code execution.\n",

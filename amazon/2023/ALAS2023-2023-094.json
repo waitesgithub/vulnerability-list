@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-094",
   "title": "Amazon Linux 2023 - ALAS2023-2023-094: Medium priority package update for sysstat",
   "issued": {
-    "date": "2023-02-17 20:47"
+    "date": "2023-02-17 20:47:00"
   },
   "updated": {
-    "date": "2023-02-22 23:27"
+    "date": "2023-02-22 23:27:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-39377:\n\tsysstat is a set of system performance tools for the Linux operating system. On 32 bit systems, in versions 9.1.16 and newer but prior to 12.7.1, allocate_structures contains a size_t overflow in sa_common.c. The allocate_structures function insufficiently checks bounds before arithmetic multiplication, allowing for an overflow in the size allocated for the buffer representing system activities. This issue may lead to Remote Code Execution (RCE). This issue has been patched in version 12.7.1.\n",

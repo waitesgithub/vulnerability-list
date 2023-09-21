@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-073",
   "title": "Amazon Linux 2023 - ALAS2023-2023-073: Important priority package update for cups",
   "issued": {
-    "date": "2023-02-17 20:46"
+    "date": "2023-02-17 20:46:00"
   },
   "updated": {
-    "date": "2023-02-22 23:31"
+    "date": "2023-02-22 23:31:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-26691:\n\tAn authorization vulnerability was found in the CUPS printing system. This security vulnerability occurs when local authorization happens. This flaw allows an attacker to authenticate to CUPS as root/admin without the 32-byte secret key and perform arbitrary code execution.\n",

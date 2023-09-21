@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-249",
   "title": "Amazon Linux 2023 - ALAS2023-2023-249: Medium priority package update for ImageMagick",
   "issued": {
-    "date": "2023-07-17 20:45"
+    "date": "2023-07-17 20:45:00"
   },
   "updated": {
-    "date": "2023-07-20 00:55"
+    "date": "2023-07-20 00:55:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-3428:\n\tThe upstream bug report describes this issue as follows:\n\"A vulnerability was found in ImageMagick \u003c=7.1.1, where heap-based buffer overflow was found in coders/tiff.c.\"\n",

@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-226",
   "title": "Amazon Linux 2023 - ALAS2023-2023-226: Medium priority package update for nodejs",
   "issued": {
-    "date": "2023-06-21 19:10"
+    "date": "2023-06-21 19:10:00"
   },
   "updated": {
-    "date": "2023-06-27 20:58"
+    "date": "2023-06-27 20:58:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-23919:\n\tIn some cases Node.js did does not clear the OpenSSL error stack after operations that may set it. This may lead to false positive errors during subsequent cryptographic operations that happen to be on the same thread. This in turn could be used to cause a denial of service.\n",

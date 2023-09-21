@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-245",
   "title": "Amazon Linux 2023 - ALAS2023-2023-245: Medium priority package update for python-setuptools",
   "issued": {
-    "date": "2023-07-05 20:13"
+    "date": "2023-07-05 20:13:00"
   },
   "updated": {
-    "date": "2023-07-20 00:56"
+    "date": "2023-07-20 00:56:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-40897:\n\tPython Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.\n",

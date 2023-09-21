@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-224",
   "title": "Amazon Linux 2023 - ALAS2023-2023-224: Low priority package update for screen",
   "issued": {
-    "date": "2023-06-21 19:10"
+    "date": "2023-06-21 19:10:00"
   },
   "updated": {
-    "date": "2023-06-27 20:58"
+    "date": "2023-06-27 20:58:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-24626:\n\tsocket.c in GNU Screen through 4.9.0, when installed setuid or setgid (the default on platforms such as Arch Linux and FreeBSD), allows local users to send a privileged SIGHUP signal to any PID, causing a denial of service or disruption of the target process.\n",

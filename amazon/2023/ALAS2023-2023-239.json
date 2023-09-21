@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-239",
   "title": "Amazon Linux 2023 - ALAS2023-2023-239: Medium priority package update for python-tornado",
   "issued": {
-    "date": "2023-07-05 20:13"
+    "date": "2023-07-05 20:13:00"
   },
   "updated": {
-    "date": "2023-07-20 00:56"
+    "date": "2023-07-20 00:56:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-28370:\n\tOpen redirect vulnerability in Tornado versions 6.3.1 and earlier allows a remote unauthenticated attacker to redirect a user to an arbitrary web site and conduct a phishing attack by having user access a specially crafted URL.\n",

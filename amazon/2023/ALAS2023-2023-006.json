@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-006",
   "title": "Amazon Linux 2023 - ALAS2023-2023-006: Low priority package update for zziplib",
   "issued": {
-    "date": "2023-02-17 20:42"
+    "date": "2023-02-17 20:42:00"
   },
   "updated": {
-    "date": "2023-02-23 00:00"
+    "date": "2023-02-23 00:00:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2020-18442:\n\tInfinite Loop in zziplib v0.13.69 allows remote attackers to cause a denial of service via the return value \"zzip_file_read\" in the function \"unzzip_cat_file\".\n",

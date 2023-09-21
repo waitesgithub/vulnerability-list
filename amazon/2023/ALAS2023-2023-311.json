@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-311",
   "title": "Amazon Linux 2023 - ALAS2023-2023-311: Important priority package update for runc",
   "issued": {
-    "date": "2023-08-17 11:20"
+    "date": "2023-08-17 11:20:00"
   },
   "updated": {
-    "date": "2023-08-23 22:30"
+    "date": "2023-08-23 22:30:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-29406:\n\tThe HTTP/1 client does not fully validate the contents of the Host header. A maliciously crafted Host header can inject additional headers or entire requests. With fix, the HTTP/1 client now refuses to send requests containing an invalid Request.Host or Request.URL.Host value.\n",

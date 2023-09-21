@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-028",
   "title": "Amazon Linux 2023 - ALAS2023-2023-028: Medium priority package update for libsndfile",
   "issued": {
-    "date": "2023-02-17 20:43"
+    "date": "2023-02-17 20:43:00"
   },
   "updated": {
-    "date": "2023-02-22 23:56"
+    "date": "2023-02-22 23:56:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2021-4156:\n\tAn out-of-bounds read flaw was found in libsndfile's FLAC codec functionality. An attacker who is able to submit a specially crafted file (via tricking a user to open or otherwise) to an application linked with libsndfile and using the FLAC codec, could trigger an out-of-bounds read that would most likely cause a crash but could potentially leak memory information that could be used in further exploitation of other flaws.\n",

@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-144",
   "title": "Amazon Linux 2023 - ALAS2023-2023-144: Low priority package update for autotrace",
   "issued": {
-    "date": "2023-03-20 18:27"
+    "date": "2023-03-20 18:27:00"
   },
   "updated": {
-    "date": "2023-03-22 23:18"
+    "date": "2023-03-22 23:18:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-32323:\n\tAutoTrace v0.40.0 was discovered to contain a heap overflow via the ReadImage function at input-bmp.c:660.\n",

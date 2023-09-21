@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-091",
   "title": "Amazon Linux 2023 - ALAS2023-2023-091: Medium priority package update for bash",
   "issued": {
-    "date": "2023-02-17 20:47"
+    "date": "2023-02-17 20:47:00"
   },
   "updated": {
-    "date": "2023-02-22 23:27"
+    "date": "2023-02-22 23:27:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-3715:\n\tA flaw was found in the bash package, where a heap-buffer overflow can occur in valid parameter_transform. This issue may lead to memory problems.\n",

@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-111",
   "title": "Amazon Linux 2023 - ALAS2023-2023-111: Medium priority package update for harfbuzz",
   "issued": {
-    "date": "2023-02-21 16:43"
+    "date": "2023-02-21 16:43:00"
   },
   "updated": {
-    "date": "2023-02-22 23:24"
+    "date": "2023-02-22 23:24:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-25193:\n\thb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks.\n\nCVE-2022-33068:\n\tAn integer overflow in the component hb-ot-shape-fallback.cc of Harfbuzz v4.3.0 allows attackers to cause a Denial of Service (DoS) via unspecified vectors.\n",

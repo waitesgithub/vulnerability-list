@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-119",
   "title": "Amazon Linux 2023 - ALAS2023-2023-119: Low priority package update for binutils",
   "issued": {
-    "date": "2023-03-06 17:50"
+    "date": "2023-03-06 17:50:00"
   },
   "updated": {
-    "date": "2023-03-08 00:51"
+    "date": "2023-03-08 00:51:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-38533:\n\tIn GNU Binutils before 2.40, there is a heap-buffer-overflow in the error function bfd_getl32 when called from the strip_main function in strip-new via a crafted file.\n",

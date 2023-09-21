@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-266",
   "title": "Amazon Linux 2023 - ALAS2023-2023-266: Medium priority package update for janino",
   "issued": {
-    "date": "2023-07-19 21:24"
+    "date": "2023-07-19 21:24:00"
   },
   "updated": {
-    "date": "2023-07-26 23:51"
+    "date": "2023-07-26 23:51:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-33546:\n\tjanino 3.1.9 and earlier are subject to denial of service (DOS) attacks when using the expression evaluator.guess parameter name method. If the parser runs on user-supplied input, an attacker could supply content that causes the parser to crash due to a stack overflow.\n",

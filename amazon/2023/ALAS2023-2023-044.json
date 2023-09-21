@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-044",
   "title": "Amazon Linux 2023 - ALAS2023-2023-044: Medium priority package update for e2fsprogs",
   "issued": {
-    "date": "2023-02-17 20:44"
+    "date": "2023-02-17 20:44:00"
   },
   "updated": {
-    "date": "2023-02-22 23:41"
+    "date": "2023-02-22 23:41:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-1304:\n\tAn out-of-bounds read/write vulnerability was found in e2fsprogs. This issue leads to a segmentation fault and possibly arbitrary code execution via a specially crafted filesystem.\n",

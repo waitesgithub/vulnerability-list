@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-036",
   "title": "Amazon Linux 2023 - ALAS2023-2023-036: Medium priority package update for harfbuzz",
   "issued": {
-    "date": "2023-02-17 20:44"
+    "date": "2023-02-17 20:44:00"
   },
   "updated": {
-    "date": "2023-02-22 23:52"
+    "date": "2023-02-22 23:52:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2021-45931:\n\tHarfBuzz 2.9.0 has an out-of-bounds write in hb_bit_set_invertible_t::set (called from hb_sparseset_t\u003chb_bit_set_invertible_t\u003e::set and hb_set_copy).\n",

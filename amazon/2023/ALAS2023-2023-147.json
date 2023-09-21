@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-147",
   "title": "Amazon Linux 2023 - ALAS2023-2023-147: Important priority package update for emacs",
   "issued": {
-    "date": "2023-03-30 21:11"
+    "date": "2023-03-30 21:11:00"
   },
   "updated": {
-    "date": "2023-04-04 21:33"
+    "date": "2023-04-04 21:33:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-28617:\n\torg-babel-execute:latex in ob-latex.el in Org Mode through 9.6.1 for GNU Emacs allows attackers to execute arbitrary commands via a file name or directory name that contains shell metacharacters.\n",

@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-252",
   "title": "Amazon Linux 2023 - ALAS2023-2023-252: Medium priority package update for python3.11",
   "issued": {
-    "date": "2023-07-17 20:45"
+    "date": "2023-07-17 20:45:00"
   },
   "updated": {
-    "date": "2023-07-20 00:55"
+    "date": "2023-07-20 00:55:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-27043:\n\tThe e-mail module of Python 0 - 2.7.18, 3.x - 3.11 incorrectly parses e-mail addresses which contain a special character. This vulnerability allows attackers to send messages from e-ail addresses that would otherwise be rejected.\n",

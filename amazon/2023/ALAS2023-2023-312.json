@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-312",
   "title": "Amazon Linux 2023 - ALAS2023-2023-312: Important priority package update for containerd",
   "issued": {
-    "date": "2023-08-17 11:20"
+    "date": "2023-08-17 11:20:00"
   },
   "updated": {
-    "date": "2023-08-23 22:30"
+    "date": "2023-08-23 22:30:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-29406:\n\tThe HTTP/1 client does not fully validate the contents of the Host header. A maliciously crafted Host header can inject additional headers or entire requests. With fix, the HTTP/1 client now refuses to send requests containing an invalid Request.Host or Request.URL.Host value.\n\nCVE-2023-29403:\n\tOn Unix platforms, the Go runtime does not behave differently when a binary is run with the setuid/setgid bits. This can be dangerous in certain cases, such as when dumping memory state, or assuming the status of standard i/o file descriptors. If a setuid/setgid binary is executed with standard I/O file descriptors closed, opening any files can result in unexpected content being read or written with elevated privileges. Similarly, if a setuid/setgid program is terminated, either via panic or signal, it may leak the contents of its registers.\n",

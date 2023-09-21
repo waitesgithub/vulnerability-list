@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-233",
   "title": "Amazon Linux 2023 - ALAS2023-2023-233: Important priority package update for kernel",
   "issued": {
-    "date": "2023-06-28 00:28"
+    "date": "2023-06-28 00:28:00"
   },
   "updated": {
-    "date": "2023-06-29 00:52"
+    "date": "2023-06-29 00:52:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-1206:\n\tAn issue was found in the Linux kernel's IPv6 TCP connection tracking code, which could lead to high CPU usage with certain traffic patterns.\n",

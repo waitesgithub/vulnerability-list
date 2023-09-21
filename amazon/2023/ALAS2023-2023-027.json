@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-027",
   "title": "Amazon Linux 2023 - ALAS2023-2023-027: Medium priority package update for cryptsetup",
   "issued": {
-    "date": "2023-02-17 20:43"
+    "date": "2023-02-17 20:43:00"
   },
   "updated": {
-    "date": "2023-02-22 23:56"
+    "date": "2023-02-22 23:56:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2021-4122:\n\tIt was found that a specially crafted LUKS header could trick cryptsetup into disabling encryption during the recovery of the device. An attacker with physical access to the medium, such as a flash disk, could use this flaw to force a user into permanently disabling the encryption layer of that medium.\n",

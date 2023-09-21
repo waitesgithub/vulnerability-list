@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-163",
   "title": "Amazon Linux 2023 - ALAS2023-2023-163: Medium priority package update for libxml2",
   "issued": {
-    "date": "2023-04-27 20:00"
+    "date": "2023-04-27 20:00:00"
   },
   "updated": {
-    "date": "2023-05-03 13:25"
+    "date": "2023-05-03 13:25:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-29469:\n\tlibxml2 Hashing of empty dict strings isn't deterministic. When hashing empty strings which aren't null-terminated, xmlDictComputeFastKey could produce inconsistent results. This could lead to various logic or memory errors, including double frees.\n\nCVE-2023-28484:\n\tA NULL pointer dereference exists when parsing (invalid) XML schemas in libxml2 xmlSchemaCheckCOSSTDerivedOK\n",

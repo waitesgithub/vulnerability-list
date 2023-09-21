@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-211",
   "title": "Amazon Linux 2023 - ALAS2023-2023-211: Important priority package update for kernel",
   "issued": {
-    "date": "2023-06-07 23:52"
+    "date": "2023-06-07 23:52:00"
   },
   "updated": {
-    "date": "2023-06-12 23:40"
+    "date": "2023-06-12 23:40:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-48425:\n\tIn the Linux kernel through 6.2.7, fs/ntfs3/inode.c has an invalid kfree because it does not validate MFT flags before replaying logs.\n",

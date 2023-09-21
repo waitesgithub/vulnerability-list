@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-066",
   "title": "Amazon Linux 2023 - ALAS2023-2023-066: Medium priority package update for apr-util",
   "issued": {
-    "date": "2023-02-17 20:46"
+    "date": "2023-02-17 20:46:00"
   },
   "updated": {
-    "date": "2023-05-23 19:25"
+    "date": "2023-05-23 19:25:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-25147:\n\tInteger Overflow or Wraparound vulnerability in apr_base64 functions of Apache Portable Runtime Utility (APR-util) allows an attacker to write beyond bounds of a buffer. This issue affects Apache Portable Runtime Utility (APR-util) 1.6.1 and prior versions.\n",

@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-329",
   "title": "Amazon Linux 2023 - ALAS2023-2023-329: Medium priority package update for libtiff",
   "issued": {
-    "date": "2023-08-31 21:45"
+    "date": "2023-08-31 21:45:00"
   },
   "updated": {
-    "date": "2023-09-07 21:18"
+    "date": "2023-09-07 21:18:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-2731:\n\tA NULL pointer dereference flaw was found in Libtiff's LZWDecode() function in the libtiff/tif_lzw.c file. This flaw allows a local attacker to craft specific input data that can cause the program to dereference a NULL pointer when decompressing a TIFF format file, resulting in a program crash or denial of service.\n",

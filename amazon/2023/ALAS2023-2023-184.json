@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-184",
   "title": "Amazon Linux 2023 - ALAS2023-2023-184: Important priority package update for kernel",
   "issued": {
-    "date": "2023-05-25 17:41"
+    "date": "2023-05-25 17:41:00"
   },
   "updated": {
-    "date": "2023-08-17 11:19"
+    "date": "2023-08-17 11:19:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-34256:\n\tAn issue was discovered in the Linux kernel before 6.3.3. There is an out-of-bounds read in crc16 in lib/crc16.c when called from fs/ext4/super.c because ext4_group_desc_csum does not properly check an offset.\n\nCVE-2023-32233:\n\tIn the Linux kernel through 6.3.1, a use-after-free in Netfilter nf_tables when processing batch requests can be abused to perform arbitrary read and write operations on kernel memory. Unprivileged local users can obtain root privileges. This occurs because anonymous sets are mishandled.\n\nCVE-2023-2269:\n\tA denial of service problem was found, due to a possible recursive locking scenario, resulting in a deadlock in table_clear in drivers/md/dm-ioctl.c in the Linux Kernel Device Mapper-Multipathing sub-component.\n",

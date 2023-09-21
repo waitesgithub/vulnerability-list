@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-063",
   "title": "Amazon Linux 2023 - ALAS2023-2023-063: Important priority package update for cyrus-sasl",
   "issued": {
-    "date": "2023-02-17 20:45"
+    "date": "2023-02-17 20:45:00"
   },
   "updated": {
-    "date": "2023-02-22 23:33"
+    "date": "2023-02-22 23:33:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-24407:\n\tA flaw was found in the SQL plugin shipped with Cyrus SASL. Failure to properly escape the SQL input allows a remote attacker to execute arbitrary SQL commands. This issue can lead to the escalation of privileges.\n",

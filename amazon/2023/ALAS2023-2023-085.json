@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-085",
   "title": "Amazon Linux 2023 - ALAS2023-2023-085: Medium priority package update for libldb",
   "issued": {
-    "date": "2023-02-17 20:47"
+    "date": "2023-02-17 20:47:00"
   },
   "updated": {
-    "date": "2023-02-22 23:28"
+    "date": "2023-02-22 23:28:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-32746:\n\tA flaw was found in the Samba AD LDAP server. The AD DC database audit logging module can access LDAP message values freed by a preceding database module, resulting in a use-after-free issue. This issue is only possible when modifying certain privileged attributes, such as userAccountControl.\n",

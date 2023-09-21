@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-316",
   "title": "Amazon Linux 2023 - ALAS2023-2023-316: Important priority package update for samba",
   "issued": {
-    "date": "2023-08-17 11:20"
+    "date": "2023-08-17 11:20:00"
   },
   "updated": {
-    "date": "2023-08-23 22:30"
+    "date": "2023-08-23 22:30:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-34968:\n\tSpotlight server-side Share Path Disclosure\n\nNOTE: https://www.samba.org/samba/security/CVE-2023-34968.html\n\nCVE-2023-34967:\n\tSamba Spotlight mdssvc RPC Request Type Confusion Denial-of-Service Vulnerability\n\nNOTE: https://www.samba.org/samba/security/CVE-2023-34967.html\n\nCVE-2023-34966:\n\tSamba Spotlight mdssvc RPC Request Infinite Loop Denial-of-Service Vulnerability\n\nNOTE: https://www.samba.org/samba/security/CVE-2023-34966.html\n\nCVE-2023-3347:\n\tSMB2 packet signing not enforced\n\nNOTE: https://www.samba.org/samba/security/CVE-2023-3347.html\n\nCVE-2022-2127:\n\tWhen doing NTLM authentication, the client sends replies to\ncryptographic challenges back to the server. These replies\nhave variable length. Winbind did not properly bounds-check\nthe lan manager response length, which despite the lan\nmanager version no longer being used is still part of the\nprotocol.\n\nIf the system is running Samba's ntlm_auth as authentication backend\nfor services like Squid (or a very unusual configuration with\nFreeRADIUS), the vulnarebility is remotely exploitable\n\nIf not so configured, or to exploit this vulnerability locally, the\nuser must have access to the privileged winbindd UNIX domain\nsocket (a subdirectory with name 'winbindd_privileged' under \"state\ndirectory\", as set in the smb.conf).\n\nThis access is normally only given so special system services like\nSquid or FreeRADIUS, that use this feature.\n",

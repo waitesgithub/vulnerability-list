@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-025",
   "title": "Amazon Linux 2023 - ALAS2023-2023-025: Medium priority package update for systemd",
   "issued": {
-    "date": "2023-02-17 20:43"
+    "date": "2023-02-17 20:43:00"
   },
   "updated": {
-    "date": "2023-02-22 23:55"
+    "date": "2023-02-22 23:55:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-45873:\n\tsystemd 250 and 251 allows local users to achieve a systemd-coredump deadlock by triggering a crash that has a long backtrace. This occurs in parse_elf_object in shared/elf-util.c. The exploitation methodology is to crash a binary calling the same function recursively, and put it in a deeply nested directory to make its backtrace large enough to cause the deadlock. This must be done 16 times when MaxConnections=16 is set for the systemd/units/systemd-coredump.socket file.\n\nCVE-2022-4415:\n\tA vulnerability was found in systemd. This security flaw can cause a local information leak due to systemd-coredump not respecting the fs.suid_dumpable kernel setting.\n\nCVE-2021-3997:\n\tA flaw was found in systemd. An uncontrolled recursion in systemd-tmpfiles may lead to a denial of service at boot time when too many nested directories are created in /tmp.\n",

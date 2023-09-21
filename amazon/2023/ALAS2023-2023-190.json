@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-190",
   "title": "Amazon Linux 2023 - ALAS2023-2023-190: Important priority package update for samba",
   "issued": {
-    "date": "2023-05-25 17:41"
+    "date": "2023-05-25 17:41:00"
   },
   "updated": {
-    "date": "2023-06-07 20:08"
+    "date": "2023-06-07 20:08:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-0922:\n\tSamba AD DC admin tool samba-tool sends passwords in cleartext\n\nCVE-2023-0614:\n\tAccess controlled AD LDAP attributes can be discovered\n\nCVE-2023-0225:\n\tSamba AD DC \"dnsHostname\" attribute can be deleted by unprivileged authenticated users.\n\nCVE-2020-25720:\n\tA user with sufficient privileges to create a computer account, such as a user granted CreateChild permissions for computer objects, may potentially set arbitrary values on security-sensitive attributes of specific objects stored in Active Directory (AD).\n\nCVE-2018-14628:\n\tAn information leak vulnerability was discovered in Samba's LDAP server. Due to missing access control checks, an authenticated but unprivileged attacker could discover the names and preserved attributes of deleted objects in the LDAP store.\n",

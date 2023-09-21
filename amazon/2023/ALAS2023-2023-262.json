@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-262",
   "title": "Amazon Linux 2023 - ALAS2023-2023-262: Low priority package update for bluez",
   "issued": {
-    "date": "2023-07-17 20:46"
+    "date": "2023-07-17 20:46:00"
   },
   "updated": {
-    "date": "2023-07-20 00:55"
+    "date": "2023-07-20 00:55:00"
   },
   "severity": "Low",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-3563:\n\tA vulnerability classified as problematic has been found in Linux Kernel. Affected is the function read_50_controller_cap_complete of the file tools/mgmt-tester.c of the component BlueZ. The manipulation of the argument cap_len leads to null pointer dereference. It is recommended to apply a patch to fix this issue. VDB-211086 is the identifier assigned to this vulnerability.\n",

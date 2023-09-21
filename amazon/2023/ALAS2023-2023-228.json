@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-228",
   "title": "Amazon Linux 2023 - ALAS2023-2023-228: Important priority package update for kernel",
   "issued": {
-    "date": "2023-06-21 19:11"
+    "date": "2023-06-21 19:11:00"
   },
   "updated": {
-    "date": "2023-07-17 20:45"
+    "date": "2023-07-17 20:45:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-35788:\n\tAn issue was discovered in fl_set_geneve_opt in net/sched/cls_flower.c in the Linux kernel before 6.3.7. It allows an out-of-bounds write in the flower classifier code via TCA_FLOWER_KEY_ENC_OPTS_GENEVE packets. This may result in denial of service or privilege escalation.\n\nCVE-2023-3090:\n\tA heap out-of-bounds write vulnerability in the Linux Kernel ipvlan network driver can be exploited to achieve local privilege escalation.\n\nThe out-of-bounds write is caused by missing skb-\u003ecb  initialization in the ipvlan network driver. The vulnerability is reachable if CONFIG_IPVLAN is enabled.\n\n\nWe recommend upgrading past commit 90cbed5247439a966b645b34eb0a2e037836ea8e.\n\nCVE-2023-2156:\n\tA flaw was found in the Linux kernel's networking subsystem within the RPL protocol's handling. This issue results from the improper handling of user-supplied data, which can lead to an assertion failure. This flaw allows an unauthenticated, remote attacker to create a denial of service condition on the system.\n",

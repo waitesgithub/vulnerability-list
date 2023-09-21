@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-241",
   "title": "Amazon Linux 2023 - ALAS2023-2023-241: Important priority package update for postgresql15",
   "issued": {
-    "date": "2023-07-05 20:13"
+    "date": "2023-07-05 20:13:00"
   },
   "updated": {
-    "date": "2023-07-20 00:56"
+    "date": "2023-07-20 00:56:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-2454:\n\tThis enabled an attacker having database-level CREATE privilege to execute arbitrary code as the bootstrap superuser. Database owners have that right by default, and explicit grants may extend it to other users.\n",

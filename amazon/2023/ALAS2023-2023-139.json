@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-139",
   "title": "Amazon Linux 2023 - ALAS2023-2023-139: Important priority package update for php8.1",
   "issued": {
-    "date": "2023-03-20 18:27"
+    "date": "2023-03-20 18:27:00"
   },
   "updated": {
-    "date": "2023-03-23 01:26"
+    "date": "2023-03-23 01:26:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-0662:\n\tIn PHP 8.0.X before 8.0.28, 8.1.X before 8.1.16 and 8.2.X before 8.2.3, excessive number of parts in HTTP form upload can cause high resource consumption and excessive number of log entries. This can cause denial of service on the affected server by exhausting CPU resources or disk space.\n\nCVE-2023-0568:\n\tIn PHP 8.0.X before 8.0.28, 8.1.X before 8.1.16 and 8.2.X before 8.2.3, core path resolution function allocate buffer one byte too small. When resolving paths with lengths close to system MAXPATHLEN setting, this may lead to the byte after the allocated buffer being overwritten with NUL value, which might lead to unauthorized data access or modification.\n\nCVE-2023-0567:\n\tIn PHP 8.0.X before 8.0.28, 8.1.X before 8.1.16 and 8.2.X before 8.2.3, password_verify() function may accept some invalid Blowfish hashes as valid. If such invalid hash ever ends up in the password database, it may lead to an application allowing any password for this entry as valid.\n",

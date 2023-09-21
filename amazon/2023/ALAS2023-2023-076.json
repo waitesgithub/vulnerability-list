@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-076",
   "title": "Amazon Linux 2023 - ALAS2023-2023-076: Medium priority package update for python-jwt",
   "issued": {
-    "date": "2023-02-17 20:46"
+    "date": "2023-02-17 20:46:00"
   },
   "updated": {
-    "date": "2023-02-22 23:31"
+    "date": "2023-02-22 23:31:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-29217:\n\tA vulnerability was found in python-jwt. This issue happens when PyJWT supports multiple different JWT signing algorithms. This flaw allows an attacker submitting the JWT token to choose the used signing algorithm, leading to key confusion through non-blocklisted public key formats.\n",

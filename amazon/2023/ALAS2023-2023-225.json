@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-225",
   "title": "Amazon Linux 2023 - ALAS2023-2023-225: Medium priority package update for glib2",
   "issued": {
-    "date": "2023-06-21 19:10"
+    "date": "2023-06-21 19:10:00"
   },
   "updated": {
-    "date": "2023-06-27 20:58"
+    "date": "2023-06-27 20:58:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-32665:\n\tGLib's GVariant deserialization prior to GLib 2.74.4 is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.\n\nCVE-2023-32611:\n\tGLib's GVariant deserialization prior to GLib 2.74.4 is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.\n\nCVE-2023-29499:\n\tGLib's GVariant deserialization prior to GLib 2.74.4 failed to validate the input conforms to the expected format, leading to denial of service.\n\nCVE-2023-25180:\n\tThe upstream bug report describes this issue as follows:\n\nA vulnerability was found in GLib2.0, where DoS caused by handling a malicious text-form variant which is structured to cause looping superlinear to its text size. Applications are at risk if they parse untrusted text-form variants.\n\nCVE-2023-24593:\n\tThe upstream bug report describes this issue as follows:\n\nA vulnerability was found in GLib2.0, where DoS caused by handling a malicious text-form variant which is structured to cause looping superlinear to its text size. Applications are at risk if they parse untrusted text-form variants.\n",

@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-294",
   "title": "Amazon Linux 2023 - ALAS2023-2023-294: Important priority package update for libqb",
   "issued": {
-    "date": "2023-08-17 11:19"
+    "date": "2023-08-17 11:19:00"
   },
   "updated": {
-    "date": "2023-08-23 22:29"
+    "date": "2023-08-23 22:29:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-39976:\n\tlog_blackbox.c in libqb before 2.0.8 allows a buffer overflow via long log messages because the header size is not considered.\n",

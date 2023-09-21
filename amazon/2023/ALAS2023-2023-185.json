@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-185",
   "title": "Amazon Linux 2023 - ALAS2023-2023-185: Important priority package update for libwebp",
   "issued": {
-    "date": "2023-05-25 17:41"
+    "date": "2023-05-25 17:41:00"
   },
   "updated": {
-    "date": "2023-06-07 20:08"
+    "date": "2023-06-07 20:08:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-1999:\n\tA double-free in libwebp could have led to memory corruption and a potentially exploitable crash.\n",

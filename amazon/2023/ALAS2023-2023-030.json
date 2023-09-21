@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-030",
   "title": "Amazon Linux 2023 - ALAS2023-2023-030: Medium priority package update for gcc",
   "issued": {
-    "date": "2023-02-17 20:44"
+    "date": "2023-02-17 20:44:00"
   },
   "updated": {
-    "date": "2023-02-22 23:55"
+    "date": "2023-02-22 23:55:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2021-42574:\n\tA flaw was found in the way Unicode standards are implemented in the context of development environments, which have specialized requirements for rendering text. An attacker could exploit this to deceive a human reviewer by creating a malicious patch containing well placed BiDi characters. The special handling and rendering of those characters can be then used in an attempt to hide unexpected and potentially dangerous behaviour from the reviewer.\n",

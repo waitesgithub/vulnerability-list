@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-134",
   "title": "Amazon Linux 2023 - ALAS2023-2023-134: Important priority package update for emacs",
   "issued": {
-    "date": "2023-03-20 18:27"
+    "date": "2023-03-20 18:27:00"
   },
   "updated": {
-    "date": "2023-03-22 23:26"
+    "date": "2023-03-22 23:26:00"
   },
   "severity": "Important",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-27986:\n\temacsclient-mail.desktop in Emacs 28.1 through 28.2 is vulnerable to Emacs Lisp code injections through a crafted mailto: URI with unescaped double-quote characters.\n\nCVE-2023-27985:\n\temacsclient-mail.desktop in Emacs 28.1 through 28.2 is vulnerable to shell command injections through a crafted mailto: URI. This is related to lack of compliance with the Desktop Entry Specification.\n",

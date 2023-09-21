@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-210",
   "title": "Amazon Linux 2023 - ALAS2023-2023-210: Medium priority package update for nodejs",
   "issued": {
-    "date": "2023-06-07 23:52"
+    "date": "2023-06-07 23:52:00"
   },
   "updated": {
-    "date": "2023-06-12 23:40"
+    "date": "2023-06-12 23:40:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-23920:\n\tAn untrusted search path vulnerability exists in Node.js. \u003c19.6.1, \u003c18.14.1, \u003c16.19.1, and \u003c14.21.3 that could allow an attacker to search and potentially load ICU data when running with elevated privileges.\n",

@@ -2,10 +2,10 @@
   "id": "ALAS2023-2023-261",
   "title": "Amazon Linux 2023 - ALAS2023-2023-261: Medium priority package update for python-wheel",
   "issued": {
-    "date": "2023-07-17 20:46"
+    "date": "2023-07-17 20:46:00"
   },
   "updated": {
-    "date": "2023-07-20 00:55"
+    "date": "2023-07-20 00:55:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2022-40898:\n\tAn issue discovered in Python Packaging Authority (PyPA) Wheel 0.37.1 and earlier allows remote attackers to cause a denial of service via attacker controlled input to wheel cli.\n",
