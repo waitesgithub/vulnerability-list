@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-25T20:02:24Z",
+  "UpdatedAt": "2023-09-20T19:52:21Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "gleez/cms"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://github.com/gleez/cms/commit/d4ad1844e9fe6e2b9b92dfb351fb7e01047f9565"
+      },
+      {
+        "Url": "https://github.com/gleez/cms/issues/796"
       },
       {
         "Url": "https://github.com/advisories/GHSA-m2r2-qc49-gqw4"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-05-14T03:25:24Z",
     "Severity": "MODERATE",
     "Summary": "Gleez CMS Stored XSS",
-    "UpdatedAt": "2023-07-25T20:02:24Z",
+    "UpdatedAt": "2023-09-20T19:52:21Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,
@@ -46,6 +49,12 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "= 2.0.0"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": ""

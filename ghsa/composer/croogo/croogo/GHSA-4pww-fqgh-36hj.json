@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-03-28T15:00:56Z",
+  "UpdatedAt": "2023-09-20T20:15:01Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "croogo/croogo"
@@ -14,7 +14,7 @@
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44673"
       },
       {
-        "Url": "https://github.com/3erk1n/Vulnerabilities"
+        "Url": "https://github.com/3erk1n/Vulnerabilities/blob/main/Croogo%203.0.2%20-%20Arbitrary%20File%20Upload-Remote%20Code%20Execution%20(Authenticated).txt"
       },
       {
         "Url": "https://github.com/advisories/GHSA-4pww-fqgh-36hj"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-03-11T00:02:02Z",
     "Severity": "HIGH",
     "Summary": "Unrestricted Upload of File with Dangerous Type in Croogo",
-    "UpdatedAt": "2023-02-03T05:06:34Z",
+    "UpdatedAt": "2023-09-20T20:15:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
