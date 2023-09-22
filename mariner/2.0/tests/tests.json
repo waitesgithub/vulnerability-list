@@ -1406,18 +1406,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package opensc is earlier than 0.22.0-3, affected by CVE-2023-2977",
-      "ID": "oval:com.microsoft.cbl-mariner:tst:27012000",
-      "Version": "1",
-      "Object": {
-        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27012001"
-      },
-      "State": {
-        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27012002"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "Package kata-containers-cc is earlier than 0.4.1-2, affected by CVE-2023-2650",
       "ID": "oval:com.microsoft.cbl-mariner:tst:27009000",
       "Version": "0",
@@ -3566,7 +3554,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13820000",
       "Version": "0",
       "Object": {
@@ -3854,7 +3842,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13743000",
       "Version": "0",
       "Object": {
@@ -3914,7 +3902,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13732000",
       "Version": "0",
       "Object": {
@@ -3926,7 +3914,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13731000",
       "Version": "0",
       "Object": {
@@ -3938,7 +3926,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13730000",
       "Version": "0",
       "Object": {
@@ -3950,7 +3938,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package gcc is installed with version 11.2.0-4 or earlier",
+      "Comment": "Package gcc is installed with version 11.2.0-6 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13729000",
       "Version": "0",
       "Object": {
@@ -3962,7 +3950,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package gcc is installed with version 11.2.0-4 or earlier",
+      "Comment": "Package gcc is installed with version 11.2.0-6 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13728000",
       "Version": "0",
       "Object": {
@@ -4274,7 +4262,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package cmake is installed with version 3.21.4-7 or earlier",
+      "Comment": "Package cmake is installed with version 3.21.4-8 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13651000",
       "Version": "0",
       "Object": {
@@ -4298,7 +4286,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package cmake is installed with version 3.21.4-7 or earlier",
+      "Comment": "Package cmake is installed with version 3.21.4-8 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13649000",
       "Version": "0",
       "Object": {
@@ -4718,7 +4706,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package hdf5 is installed with version 1.12.1-11 or earlier",
+      "Comment": "Package hdf5 is installed with version 1.12.1-12 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13349000",
       "Version": "0",
       "Object": {
@@ -4934,7 +4922,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package cmake is installed with version 3.21.4-7 or earlier",
+      "Comment": "Package cmake is installed with version 3.21.4-8 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13280000",
       "Version": "0",
       "Object": {
@@ -4946,7 +4934,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-5 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-7 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13275000",
       "Version": "0",
       "Object": {
@@ -4958,7 +4946,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-5 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-7 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13274000",
       "Version": "0",
       "Object": {
@@ -4970,7 +4958,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-5 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-7 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13273000",
       "Version": "0",
       "Object": {
@@ -4982,7 +4970,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-5 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-7 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13272000",
       "Version": "0",
       "Object": {
@@ -4994,7 +4982,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-5 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-7 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13271000",
       "Version": "0",
       "Object": {
@@ -5006,7 +4994,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-5 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-7 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13270000",
       "Version": "0",
       "Object": {
@@ -5150,7 +5138,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package openssh is installed with version 8.9p1-1 or earlier",
+      "Comment": "Package openssh is installed with version 8.9p1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13213000",
       "Version": "0",
       "Object": {
@@ -5174,7 +5162,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package syslog-ng is installed with version 3.33.2-3 or earlier",
+      "Comment": "Package syslog-ng is installed with version 3.33.2-4 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13205000",
       "Version": "0",
       "Object": {
@@ -5594,7 +5582,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13064000",
       "Version": "0",
       "Object": {
@@ -5846,7 +5834,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12995000",
       "Version": "0",
       "Object": {
@@ -5882,7 +5870,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12989000",
       "Version": "0",
       "Object": {
@@ -6182,7 +6170,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12123000",
       "Version": "0",
       "Object": {
@@ -6470,7 +6458,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11614000",
       "Version": "0",
       "Object": {
@@ -7118,7 +7106,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11484000",
       "Version": "0",
       "Object": {
@@ -7526,7 +7514,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package php is installed with version 8.1.22-1 or earlier",
+      "Comment": "Package php is installed with version 8.1.22-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11364000",
       "Version": "0",
       "Object": {
@@ -8222,7 +8210,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11130000",
       "Version": "0",
       "Object": {
@@ -8234,7 +8222,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11129000",
       "Version": "0",
       "Object": {
@@ -8246,7 +8234,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11128000",
       "Version": "0",
       "Object": {
@@ -8306,7 +8294,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package dhcp is installed with version 4.4.2-5 or earlier",
+      "Comment": "Package dhcp is installed with version 4.4.2-6 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11109000",
       "Version": "0",
       "Object": {
@@ -8318,7 +8306,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package dhcp is installed with version 4.4.2-5 or earlier",
+      "Comment": "Package dhcp is installed with version 4.4.2-6 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11108000",
       "Version": "0",
       "Object": {
@@ -8930,7 +8918,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10903000",
       "Version": "0",
       "Object": {
@@ -8942,7 +8930,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10902000",
       "Version": "0",
       "Object": {
@@ -8954,7 +8942,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10901000",
       "Version": "0",
       "Object": {
@@ -9050,7 +9038,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10865000",
       "Version": "0",
       "Object": {
@@ -9062,7 +9050,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10864000",
       "Version": "0",
       "Object": {
@@ -9170,7 +9158,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10855000",
       "Version": "0",
       "Object": {
@@ -9434,7 +9422,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10761000",
       "Version": "0",
       "Object": {
@@ -9494,7 +9482,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10741000",
       "Version": "0",
       "Object": {
@@ -9518,7 +9506,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10736000",
       "Version": "0",
       "Object": {
@@ -9530,7 +9518,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10735000",
       "Version": "0",
       "Object": {
@@ -9614,7 +9602,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10707000",
       "Version": "0",
       "Object": {
@@ -9710,7 +9698,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10663000",
       "Version": "0",
       "Object": {
@@ -9722,7 +9710,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10662000",
       "Version": "0",
       "Object": {
@@ -9734,7 +9722,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10661000",
       "Version": "0",
       "Object": {
@@ -9770,7 +9758,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10652000",
       "Version": "0",
       "Object": {
@@ -11318,7 +11306,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package fish is installed with version 3.5.0-1 or earlier",
+      "Comment": "Package fish is installed with version 3.5.0-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10002000",
       "Version": "0",
       "Object": {
@@ -12170,7 +12158,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package qemu is installed with version 6.2.0-17 or earlier",
+      "Comment": "Package qemu is installed with version 6.2.0-18 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:9744000",
       "Version": "0",
       "Object": {
@@ -13382,7 +13370,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package buildah is installed with version 1.18.0-16 or earlier",
+      "Comment": "Package buildah is installed with version 1.18.0-17 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:9318000",
       "Version": "0",
       "Object": {
@@ -13430,7 +13418,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.126.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.131.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:9301000",
       "Version": "0",
       "Object": {
@@ -14318,7 +14306,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8905000",
       "Version": "0",
       "Object": {
@@ -14330,7 +14318,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8903000",
       "Version": "0",
       "Object": {
@@ -14558,7 +14546,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8766000",
       "Version": "0",
       "Object": {
@@ -14606,7 +14594,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8704000",
       "Version": "0",
       "Object": {
@@ -14738,7 +14726,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8651000",
       "Version": "0",
       "Object": {
@@ -14750,7 +14738,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8650000",
       "Version": "0",
       "Object": {
@@ -14762,7 +14750,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8649000",
       "Version": "0",
       "Object": {
@@ -14882,7 +14870,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8611000",
       "Version": "0",
       "Object": {
@@ -14894,7 +14882,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:8610000",
       "Version": "0",
       "Object": {
@@ -16550,7 +16538,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7489000",
       "Version": "0",
       "Object": {
@@ -16670,7 +16658,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package xterm is installed with version 372-1 or earlier",
+      "Comment": "Package xterm is installed with version 380-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7453000",
       "Version": "0",
       "Object": {
@@ -17270,7 +17258,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7354000",
       "Version": "0",
       "Object": {
@@ -17282,7 +17270,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7353000",
       "Version": "0",
       "Object": {
@@ -17294,7 +17282,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7352000",
       "Version": "0",
       "Object": {
@@ -17306,7 +17294,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7351000",
       "Version": "0",
       "Object": {
@@ -17330,7 +17318,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7349000",
       "Version": "0",
       "Object": {
@@ -17342,7 +17330,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7348000",
       "Version": "0",
       "Object": {
@@ -17354,7 +17342,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package samba is installed with version 4.12.5-4 or earlier",
+      "Comment": "Package samba is installed with version 4.12.5-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7347000",
       "Version": "0",
       "Object": {
@@ -17630,7 +17618,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package mutt is installed with version 2.0.5-4 or earlier",
+      "Comment": "Package mutt is installed with version 2.2.12-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7291000",
       "Version": "0",
       "Object": {
@@ -18338,7 +18326,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package exiv2 is installed with version 0.27.5-1 or earlier",
+      "Comment": "Package exiv2 is installed with version 0.28.0-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7202000",
       "Version": "0",
       "Object": {
@@ -19598,7 +19586,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package strace is installed with version 5.16-3 or earlier",
+      "Comment": "Package strace is installed with version 5.16-4 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6895000",
       "Version": "0",
       "Object": {
@@ -20186,7 +20174,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package patch is installed with version 2.7.6-7 or earlier",
+      "Comment": "Package patch is installed with version 2.7.6-8 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6791000",
       "Version": "0",
       "Object": {
@@ -21410,7 +21398,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package lynx is installed with version 2.9.0~dev.9-4 or earlier",
+      "Comment": "Package lynx is installed with version 2.9.0~dev.9-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6674000",
       "Version": "0",
       "Object": {
@@ -21422,7 +21410,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package lynx is installed with version 2.9.0~dev.9-4 or earlier",
+      "Comment": "Package lynx is installed with version 2.9.0~dev.9-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6673000",
       "Version": "0",
       "Object": {
@@ -23618,7 +23606,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6449000",
       "Version": "0",
       "Object": {
@@ -23630,7 +23618,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6448000",
       "Version": "0",
       "Object": {
@@ -24182,7 +24170,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package cpio is installed with version 2.13-4 or earlier",
+      "Comment": "Package cpio is installed with version 2.13-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6356000",
       "Version": "0",
       "Object": {
