@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-03-18T17:53:37Z",
+  "UpdatedAt": "2023-09-21T19:54:29Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "craftcms/cms"
@@ -17,7 +17,7 @@
         "Url": "https://github.com/craftcms/cms/commit/f9378aa154b5f9b64bed3d59cce0c4a8184bf5e6"
       },
       {
-        "Url": "https://github.com/craftcms/cms/blob/develop/CHANGELOG.md#3613---2021-05-04"
+        "Url": "https://github.com/craftcms/cms/blob/3.6.13/CHANGELOG.md#security"
       },
       {
         "Url": "https://github.com/advisories/GHSA-h2rj-8wgg-mm43"
@@ -37,8 +37,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-03-18T17:53:37Z",
     "Severity": "MODERATE",
-    "Summary": "Cross-site Scripting in craftcms",
-    "UpdatedAt": "2023-02-01T05:06:01Z",
+    "Summary": "Craft CMS Cross-site Scripting Vulnerability",
+    "UpdatedAt": "2023-09-21T19:54:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

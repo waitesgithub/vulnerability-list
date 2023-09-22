@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-11-15T20:25:34Z",
+  "UpdatedAt": "2023-09-21T22:53:29Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "showdoc/showdoc"
@@ -38,7 +38,7 @@
     "PublishedAt": "2021-11-15T23:13:34Z",
     "Severity": "MODERATE",
     "Summary": "showdoc is vulnerable to Cross-Site Request Forgery (CSRF)",
-    "UpdatedAt": "2023-02-01T05:06:16Z",
+    "UpdatedAt": "2023-09-21T22:53:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
@@ -48,7 +48,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "2.9.13"
       },
       "VulnerableVersionRange": "\u003c= 2.9.12"
     }

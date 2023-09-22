@@ -1,6 +1,6 @@
 {
   "Severity": "LOW",
-  "UpdatedAt": "2022-03-26T00:25:26Z",
+  "UpdatedAt": "2023-09-21T19:49:04Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "twig/twig"
@@ -42,12 +42,12 @@
         "Value": "CVE-2019-9942"
       }
     ],
-    "Description": "A sandbox information disclosure exists in Twig before 1.38.0 and 2.x before 2.7.0 because, under some circumstances, it is possible to call the __toString() method on an object even if not allowed by the security policy in place.",
+    "Description": "A sandbox information disclosure exists in Twig before 1.38.0 and 2.x before 2.7.0 because, under some circumstances, it is possible to call the `__toString()` method on an object even if not allowed by the security policy in place.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-03-26T00:25:25Z",
     "Severity": "LOW",
-    "Summary": "Sandbox Information Disclosure",
-    "UpdatedAt": "2023-01-27T05:01:03Z",
+    "Summary": "Twig Sandbox Information Disclosure",
+    "UpdatedAt": "2023-09-21T19:49:04Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 3.7,

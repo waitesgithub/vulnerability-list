@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-02-11T20:46:20Z",
+  "UpdatedAt": "2023-09-21T19:59:46Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "vrana/adminer"
@@ -20,19 +20,10 @@
         "Url": "https://github.com/vrana/adminer/commit/5c395afc098e501be3417017c6421968aac477bd"
       },
       {
-        "Url": "https://github.com/vrana/adminer"
-      },
-      {
         "Url": "https://sourceforge.net/p/adminer/bugs-and-features/775/"
       },
       {
-        "Url": "https://sourceforge.net/p/adminer/news/"
-      },
-      {
         "Url": "https://sourceforge.net/p/adminer/news/2021/02/adminer-479-released/"
-      },
-      {
-        "Url": "https://packagist.org/packages/vrana/adminer"
       },
       {
         "Url": "https://github.com/advisories/GHSA-9pgx-gcph-mpqr"
@@ -52,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-02-11T20:42:28Z",
     "Severity": "MODERATE",
-    "Summary": "XSS via the history parameter in SQL command",
-    "UpdatedAt": "2023-02-01T05:05:08Z",
+    "Summary": "vrana/adminer via XSS in the history parameter in SQL command",
+    "UpdatedAt": "2023-09-21T19:59:46Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

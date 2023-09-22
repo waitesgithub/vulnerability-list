@@ -1,6 +1,6 @@
 {
-  "Severity": "HIGH",
-  "UpdatedAt": "2021-10-25T18:46:11Z",
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2023-09-21T22:49:29Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "showdoc/showdoc"
@@ -36,16 +36,16 @@
         "Value": "CVE-2021-41745"
       }
     ],
-    "Description": "ShowDoc 2.8.3 ihas a file upload vulnerability, where attackers can use the vulnerability to obtain server permissions.",
+    "Description": "A file upload vulnerability exists in Showdoc 2.8.3, which can be exploited by an attacker to gain server privileges.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-10-25T19:43:24Z",
-    "Severity": "HIGH",
-    "Summary": "Improper Authentication in showdoc ",
-    "UpdatedAt": "2023-02-01T05:06:10Z",
+    "Severity": "CRITICAL",
+    "Summary": "Showdoc File Upload Vulnerability",
+    "UpdatedAt": "2023-09-21T22:49:29Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-02-11T21:20:28Z",
+  "UpdatedAt": "2023-09-21T19:57:50Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "vrana/adminer"
@@ -14,9 +14,6 @@
         "Url": "https://github.com/vrana/adminer/security/advisories/GHSA-43f8-p5w3-5m25"
       },
       {
-        "Url": "https://packagist.org/packages/vrana/adminer"
-      },
-      {
         "Url": "https://sourceforge.net/p/adminer/bugs-and-features/769/"
       },
       {
@@ -24,6 +21,9 @@
       },
       {
         "Url": "https://gusralph.info/adminer-ssrf-bypass-cve-2018-7667"
+      },
+      {
+        "Url": "https://github.com/vrana/adminer/commit/35bfaa75"
       },
       {
         "Url": "https://github.com/advisories/GHSA-43f8-p5w3-5m25"
@@ -43,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-02-11T21:20:40Z",
     "Severity": "MODERATE",
-    "Summary": "SSRF by connecting to privileged ports",
-    "UpdatedAt": "2023-01-09T05:04:07Z",
+    "Summary": "vrana/adminer vulnerable to SSRF by connecting to privileged ports",
+    "UpdatedAt": "2023-09-21T19:57:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

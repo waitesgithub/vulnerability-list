@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-03-26T00:22:50Z",
+  "UpdatedAt": "2023-09-21T20:06:09Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "symfony/symfony"
@@ -58,8 +58,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-03-26T00:22:49Z",
     "Severity": "HIGH",
-    "Summary": "Non-constant time comparison in UriSigner",
-    "UpdatedAt": "2023-01-11T05:06:13Z",
+    "Summary": "Symfony Http-Kernel has non-constant time comparison in UriSigner",
+    "UpdatedAt": "2023-09-21T20:06:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

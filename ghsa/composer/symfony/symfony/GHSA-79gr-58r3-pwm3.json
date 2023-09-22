@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2019-12-01T19:45:09Z",
+  "UpdatedAt": "2023-09-21T19:46:52Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "symfony/symfony"
@@ -52,8 +52,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-12-02T18:07:16Z",
     "Severity": "CRITICAL",
-    "Summary": "Forbid serializing AbstractAdapter and TagAwareAdapter instances",
-    "UpdatedAt": "2023-01-09T05:01:58Z",
+    "Summary": "Symfony Unsafe Cache Serialization Could Enable RCE",
+    "UpdatedAt": "2023-09-21T19:46:52Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
