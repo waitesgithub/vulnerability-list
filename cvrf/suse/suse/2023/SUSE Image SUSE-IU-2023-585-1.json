@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-09-22T07:09:59Z",
+        "Date": "2023-09-23T07:10:13Z",
         "Description": "current"
       }
     ]
@@ -2190,7 +2190,7 @@
     },
     {
       "CVE": "CVE-2023-3567",
-      "Description": "A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This flaw allows an attacker with local user access to cause a system crash or leak internal kernel information.",
+      "Description": "A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This issue may allow an attacker with local user access to cause a system crash or leak internal kernel information.",
       "Threats": [
         {
           "Type": "Impact",
