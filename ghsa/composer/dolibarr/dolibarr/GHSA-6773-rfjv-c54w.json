@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-09-21T17:03:32Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -36,13 +36,13 @@
     "Description": "An issue in Dolibarr ERP CRM v.17.0.1 and before allows a remote privileged attacker to execute arbitrary code via a crafted command/script.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-09-20T03:30:17Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Dolibarr allows a remote privileged attacker to execute arbitrary code via a crafted command/script",
-    "UpdatedAt": "2023-09-21T17:03:32Z",
+    "UpdatedAt": "2023-09-22T19:47:24Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.2,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

@@ -41,11 +41,11 @@
     "PublishedAt": "2023-09-21T17:10:57Z",
     "Severity": "HIGH",
     "Summary": "phonenumber panics on parsing crafted RF3966 inputs",
-    "UpdatedAt": "2023-09-21T17:10:58Z",
+    "UpdatedAt": "2023-09-22T23:36:32Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 8.6,
-      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H"
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   },
   "Versions": [

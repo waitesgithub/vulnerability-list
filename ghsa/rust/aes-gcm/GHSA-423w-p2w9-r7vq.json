@@ -14,6 +14,12 @@
         "Url": "https://github.com/RustCrypto/AEADs/security/advisories/GHSA-423w-p2w9-r7vq"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42811"
+      },
+      {
+        "Url": "https://docs.rs/aes-gcm/latest/src/aes_gcm/lib.rs.html#309"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-423w-p2w9-r7vq"
       }
     ],
@@ -32,7 +38,7 @@
     "PublishedAt": "2023-09-22T16:11:47Z",
     "Severity": "MODERATE",
     "Summary": "AEADs/aes-gcm: Plaintext exposed in decrypt_in_place_detached even on tag verification failure",
-    "UpdatedAt": "2023-09-22T16:11:48Z",
+    "UpdatedAt": "2023-09-22T19:34:17Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,
