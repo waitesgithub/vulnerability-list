@@ -3,6 +3,9 @@
   "secfixes": {
     "23.2.0-r3": [
       "CVE-2023-37920"
+    ],
+    "23.2.0-r5": [
+      "GHSA-v8gr-m533-ghj9"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
