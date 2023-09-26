@@ -1,5 +1,5 @@
 {
-  "Severity": "HIGH",
+  "Severity": "MODERATE",
   "UpdatedAt": "2023-09-14T19:34:58Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
@@ -26,6 +26,12 @@
         "Url": "https://github.com/sidekiq/sidekiq/blob/6-x/web/assets/javascripts/dashboard.js#L6"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/sidekiq/CVE-2023-26141.yml"
+      },
+      {
+        "Url": "https://github.com/sidekiq/sidekiq/blob/6-x/web/assets/javascripts/dashboard.js%23L6"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-3qc2-v3hp-6cv8"
       }
     ],
@@ -42,13 +48,13 @@
     "Description": "Versions of the package sidekiq before 7.1.3 are vulnerable to Denial of Service (DoS) due to insufficient checks in the dashboard-charts.js file. An attacker can exploit this vulnerability by manipulating the localStorage value which will cause excessive polling requests.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-09-14T06:30:19Z",
-    "Severity": "HIGH",
+    "Severity": "MODERATE",
     "Summary": "sidekiq Denial of Service vulnerability",
-    "UpdatedAt": "2023-09-14T19:34:58Z",
+    "UpdatedAt": "2023-09-26T18:09:13Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 7.5,
-      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      "Score": 5.7,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H"
     }
   },
   "Versions": [

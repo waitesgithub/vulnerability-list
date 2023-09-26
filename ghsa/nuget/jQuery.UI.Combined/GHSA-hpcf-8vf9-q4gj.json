@@ -2,8 +2,8 @@
   "Severity": "MODERATE",
   "UpdatedAt": "2023-09-26T17:58:16Z",
   "Package": {
-    "Ecosystem": "RUBYGEMS",
-    "Name": "jquery-ui-rails"
+    "Ecosystem": "NUGET",
+    "Name": "jQuery.UI.Combined"
   },
   "Advisory": {
     "DatabaseId": 19,
@@ -153,9 +153,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "6.0.0"
+        "Identifier": "1.12.0"
       },
-      "VulnerableVersionRange": "\u003c 6.0.0"
+      "VulnerableVersionRange": "\u003c 1.12.0"
     }
   ]
 }

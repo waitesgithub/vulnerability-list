@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-09-25T23:43:18Z",
+  "UpdatedAt": "2023-09-26T18:10:34Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "jquery-ui-rails"
@@ -95,7 +95,7 @@
     "PublishedAt": "2021-10-26T14:55:02Z",
     "Severity": "MODERATE",
     "Summary": "XSS in the `altField` option of the Datepicker widget in jquery-ui",
-    "UpdatedAt": "2023-09-25T23:43:18Z",
+    "UpdatedAt": "2023-09-26T18:10:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
@@ -105,9 +105,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.13.0"
+        "Identifier": "7.0.0"
       },
-      "VulnerableVersionRange": "\u003c 1.13.0"
+      "VulnerableVersionRange": "\u003c 7.0.0"
     }
   ]
 }

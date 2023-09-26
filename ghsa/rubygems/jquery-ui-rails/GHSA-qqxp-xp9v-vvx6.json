@@ -2,8 +2,8 @@
   "Severity": "MODERATE",
   "UpdatedAt": "2023-09-26T18:05:35Z",
   "Package": {
-    "Ecosystem": "NPM",
-    "Name": "jquery-ui"
+    "Ecosystem": "RUBYGEMS",
+    "Name": "jquery-ui-rails"
   },
   "Advisory": {
     "DatabaseId": 153,
@@ -75,9 +75,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.10.0"
+        "Identifier": "4.0.0"
       },
-      "VulnerableVersionRange": "\u003c 1.10.0"
+      "VulnerableVersionRange": "\u003c 4.0.0"
     }
   ]
 }

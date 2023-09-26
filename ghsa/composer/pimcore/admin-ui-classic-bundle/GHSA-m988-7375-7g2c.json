@@ -17,6 +17,9 @@
         "Url": "https://github.com/pimcore/admin-ui-classic-bundle/commit/abd7739298f974319e3cac3fd4fcd7f995b63e4c"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42817"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-m988-7375-7g2c"
       }
     ],
@@ -35,11 +38,11 @@
     "PublishedAt": "2023-09-25T17:34:11Z",
     "Severity": "MODERATE",
     "Summary": "pimcore/admin-ui-classic-bundle Cross-site Scripting vulnerability in Translations",
-    "UpdatedAt": "2023-09-25T17:34:19Z",
+    "UpdatedAt": "2023-09-26T13:57:39Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [
