@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-07-17T21:56:03Z",
+  "UpdatedAt": "2023-09-25T19:44:56Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "magento/community-edition"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-05-24T22:00:38Z",
     "Severity": "CRITICAL",
     "Summary": "Magento 2 Community Edition SQLi Vulnerability",
-    "UpdatedAt": "2023-07-17T21:56:03Z",
+    "UpdatedAt": "2023-09-25T19:44:56Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -50,19 +50,19 @@
       "FirstPatchedVersion": {
         "Identifier": "2.3.2"
       },
-      "VulnerableVersionRange": "\u003e= 2.3, \u003c 2.3.2"
+      "VulnerableVersionRange": "\u003e= 2.3.0, \u003c 2.3.2"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.2.9"
       },
-      "VulnerableVersionRange": "\u003e= 2.2, \u003c 2.2.9"
+      "VulnerableVersionRange": "\u003e= 2.2.0, \u003c 2.2.9"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.1.18"
       },
-      "VulnerableVersionRange": "\u003e= 2.1, \u003c 2.1.18"
+      "VulnerableVersionRange": "\u003e= 2.1.0, \u003c 2.1.18"
     }
   ]
 }

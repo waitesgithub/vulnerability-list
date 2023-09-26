@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-17T22:14:43Z",
+  "UpdatedAt": "2023-09-25T19:37:22Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "centreon/centreon"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://github.com/centreon/centreon-archived/issues/7097"
+      },
+      {
+        "Url": "https://docs.centreon.com/current/en/administration/secure-platform.html#securing-the-apache-web-server"
       },
       {
         "Url": "https://github.com/advisories/GHSA-j224-7qr4-8646"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-05-24T16:58:02Z",
     "Severity": "HIGH",
     "Summary": "Centreon Does Not Set HTTPOnly Flag",
-    "UpdatedAt": "2023-07-17T22:14:43Z",
+    "UpdatedAt": "2023-09-25T19:37:22Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
