@@ -1,11 +1,11 @@
 {
   "_id": {},
   "bs_repo_id": {},
-  "updateinfo_id": "ALSA-2023:3822",
-  "description": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* libvirt: Memory leak in virPCIVirtualFunctionList cleanup (CVE-2023-2700)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Logs are spammed with ' Domain id=7 is tainted: custom-ga-command' message (BZ#2180030)\n* [qemu] snapshot is failing with error libvirt.libvirtError: internal error: QEMU monitor reply exceeds buffer size (10485760 bytes) (BZ#2181575)",
+  "updateinfo_id": "ALSA-2023:5264",
+  "description": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* QEMU: VNC: improper I/O watch removal in TLS handshake can lead to remote unauthenticated denial of service (CVE-2023-3354)\n* NTFS-3G: buffer overflow issue in NTFS-3G can cause code execution via crafted metadata in an NTFS image (CVE-2022-40284)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* \"No bootable device\" with OS boot disk interface VirtIO-SCSI and with more than 9 VirtIO disks. (BZ#2228485)",
   "fromstr": "packager@almalinux.org",
   "issued_date": {
-    "$date": 1687824000000
+    "$date": 1695081600000
   },
   "pkglist": {
     "name": "almalinux-8-for-i686-powertools-rpms__8_8_default",
@@ -32,6 +32,18 @@
         "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
         "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
         "sum": "0bcaf5d8e5f17815e1295651458c4f429ff9fccadbfe7b2f3c23b784efee47c1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-common",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-common-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "0e3f25bf17a8dea9d3ab1512e6bf828ea812f9dea880d0c16be867ddd3dc00eb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -216,18 +228,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-iscsi",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-iscsi-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "302c51ec68972457411b12f28301dddf7a3b2e863db87321624ad4fa9ec88da0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-devel",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -320,18 +320,6 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-basic-filters-1.24.0-5.module_el8.8.0+3485+7cffc4a3.aarch64.rpm",
         "sum": "3b0d3958063869e04460bc0f213cb8c87600c3dd846554321544de4ce3625b9e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-ssh",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-ssh-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "3c01aeca9cfc2994285db153533100513c965218b8dd79dd0ae8edd56c642a2f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -480,18 +468,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-rbd",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-rbd-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "4c6c2b0370b9aa14cd63926ed3f7e553a30603e2579168d9d84cad6abd83f823",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "ocaml-libguestfs",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -500,18 +476,6 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "ocaml-libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.aarch64.rpm",
         "sum": "4fda285299d2ce4222788ee8c21244be7f2a778777b61f5f884e9c06babfd735",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-curl",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-curl-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "4ff92e270707fd2be49b29b415b4038d70d5314c26e69f07f957fed9cef955cc",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -560,18 +524,6 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-tar-filter-1.24.0-5.module_el8.8.0+3485+7cffc4a3.aarch64.rpm",
         "sum": "58ceaa276fb42f91efbc8bea3b822d8848043f3bc7e974934cea778045683cab",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-core",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-core-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "5b4f594e1b62f682a6cc98b3424c766cad781584da472f1fc6c7c0b604c275c7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -636,6 +588,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-core",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-core-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "677e7f3f89fdbdfda9f57bbaa8b54084c7c9dde08a3b91bfa5b8ee2e298cdfbe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "swtpm-devel",
         "version": "0.7.0",
         "release": "4.20211109gitb79fd91.module_el8.7.0+3346+68867adb",
@@ -656,18 +620,6 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-gzip-filter-1.24.0-5.module_el8.8.0+3485+7cffc4a3.aarch64.rpm",
         "sum": "695c16cd6d8620c9bc88253c8be9733df149028cb8cec2e400d2088c29f1645e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libguestfs-winsupport",
-        "version": "8.8",
-        "release": "1.module_el8.8.0+3485+7cffc4a3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libguestfs-winsupport-8.8-1.module_el8.8.0+3485+7cffc4a3.src.rpm",
-        "filename": "libguestfs-winsupport-8.8-1.module_el8.8.0+3485+7cffc4a3.aarch64.rpm",
-        "sum": "69d1e6a18955e9f869eb576f124df5c336dba08ada28e5f02e5988552fb9702b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -744,6 +696,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-img",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-img-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "77a62ad0ae046da8d6e5706f314a6af74bbcb86d6b126d93e1935de967149c6f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "nbdkit-python-plugin",
         "version": "1.24.0",
         "release": "5.module_el8.8.0+3485+7cffc4a3",
@@ -780,30 +744,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-tests",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-tests-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "7f5b62e993ccfffabf49f89ae793eee1c4dd1d66ab110028d82e775425727735",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-common",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-common-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "7f70a9ab985647c83e0d18340e0331d93baa32cbc4888b7df0e5396ba1b89c7d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libguestfs",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -824,6 +764,18 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "libguestfs-appliance-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.aarch64.rpm",
         "sum": "87ddb5335962fccade28006bb74066e02ad3be72bd7897e3030fd6dfa554d6a3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-winsupport",
+        "version": "8.8",
+        "release": "2.module_el8.8.0+3612+f18d2b89",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libguestfs-winsupport-8.8-2.module_el8.8.0+3612+f18d2b89.src.rpm",
+        "filename": "libguestfs-winsupport-8.8-2.module_el8.8.0+3612+f18d2b89.aarch64.rpm",
+        "sum": "8859464a5b882e1e95d640fab20022f5418d05cce3b0d03ad7b00caf09e3674d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -912,6 +864,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-curl",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-curl-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "a2adb1cd23779811fadef73d2e1f8d8833c228a222e3f2980e1a92620ee4a12e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libvirt-daemon-driver-storage-scsi",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -920,18 +884,6 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-driver-storage-scsi-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.aarch64.rpm",
         "sum": "a434eafa0b69856a421f6322a031853672e8c764e0ce4057d4df0b1b187453ce",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-img",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-img-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "a44a9b0c78444fa76d241c451fad1a031d3181b06a6286b6ac2dbbca16f8851e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1020,6 +972,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-docs",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-docs-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "b8016c49b74158d36524bb539931ea06c77751e3300d8ff40cbabe33327ba756",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "netcf-devel",
         "version": "0.2.8",
         "release": "12.module_el8.6.0+2880+7d9e3703",
@@ -1052,18 +1016,6 @@
         "src": "libtpms-0.9.1-2.20211126git1ff6fe1f43.module_el8.8.0+3553+bd08596b.src.rpm",
         "filename": "libtpms-0.9.1-2.20211126git1ff6fe1f43.module_el8.8.0+3553+bd08596b.aarch64.rpm",
         "sum": "bfcbf1ffce88f78fef5fa2575a522ed22af122dd86207fb922e55b1530517669",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "c38a848c735b9a0761a23943abfbba84b8e1dac559a1d1f9c52c7d2913e7aaf7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1116,6 +1068,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-iscsi",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-iscsi-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "d05ece2025399a5355b07cecdf2511d08506ba7ed865366615b7af83bfe58a43",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "supermin-devel",
         "version": "5.2.1",
         "release": "2.module_el8.7.0+3346+68867adb",
@@ -1164,14 +1128,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-docs",
+        "name": "qemu-guest-agent",
         "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
         "epoch": "15",
         "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-docs-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "e07af7fe104299b10c578c9e2f89c86a54159bfdd53ea03685d8b4bdce127fe8",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-guest-agent-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "da100faabeb559c6ca1baa57ea9cb0d4c4c55e3099b0c5b2b9891b8278697e67",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1184,6 +1148,18 @@
         "src": "swtpm-0.7.0-4.20211109gitb79fd91.module_el8.7.0+3346+68867adb.src.rpm",
         "filename": "swtpm-tools-0.7.0-4.20211109gitb79fd91.module_el8.7.0+3346+68867adb.aarch64.rpm",
         "sum": "e1452c447843c72696d7bc02bb8ae891e5e9a190248bb6009d6f94de6d5573e8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-tests",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-tests-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "e315df7aa6b36e6af022359bab14257d6fa112b667a78b24dc217352cb97d2be",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1212,18 +1188,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-guest-agent",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "aarch64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-guest-agent-6.2.0-32.module_el8.8.0+3553+bd08596b.aarch64.rpm",
-        "sum": "e83f377ea07005b78fa7992085766ce7b4dec4c6e9b30cfeee31212c264be2f4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libguestfs-java-devel",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -1244,6 +1208,18 @@
         "src": "hivex-1.3.18-23.module_el8.6.0+2880+7d9e3703.src.rpm",
         "filename": "ocaml-hivex-1.3.18-23.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
         "sum": "f43ed00bd42b77dd1a222775fde9b7c62fe20611b0c8f0397f0e1926a7f83c34",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-block-rbd",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-rbd-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "f633462db4ddbc779aecac90b30555ed7cabf0dc7a423a19c2eb14bc024253b9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1284,6 +1260,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "fda4366822f9b5fe0a1d656fddcd2796c5a40a4f6d25e3ca88086c435d2c037a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libvirt-daemon",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -1292,6 +1280,18 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.aarch64.rpm",
         "sum": "fea4678dc9bf0e2e27d788a0a91a9ea369d181b6614f337d93b0600641be8806",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-block-ssh",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "aarch64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-ssh-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.aarch64.rpm",
+        "sum": "ffc94c41f5a6fe87bfef34ec1810ca31460cc99b7694249b64113a8288cea13b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1380,18 +1380,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "seabios-bin",
-        "version": "1.16.0",
-        "release": "3.module_el8.7.0+3346+68867adb",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "seabios-1.16.0-3.module_el8.7.0+3346+68867adb.src.rpm",
-        "filename": "seabios-bin-1.16.0-3.module_el8.7.0+3346+68867adb.noarch.rpm",
-        "sum": "1cd0c8a792f89bf821f6c4ba031b321740cffff9d90a23a333a9abf21f8b3f14",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nbdkit-bash-completion",
         "version": "1.24.0",
         "release": "5.module_el8.8.0+3485+7cffc4a3",
@@ -1400,6 +1388,18 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-bash-completion-1.24.0-5.module_el8.8.0+3485+7cffc4a3.noarch.rpm",
         "sum": "254dfbf64036ae05d930d81be90202718fba7b341f0457de4a29ecfca3aea646",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "seabios-bin",
+        "version": "1.16.0",
+        "release": "4.module_el8.8.0+3612+f18d2b89",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "seabios-1.16.0-4.module_el8.8.0+3612+f18d2b89.src.rpm",
+        "filename": "seabios-bin-1.16.0-4.module_el8.8.0+3612+f18d2b89.noarch.rpm",
+        "sum": "2e263857a51300898a9c1ad104bfee3a74e43bf989a93a5b6b89c17001f45c69",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1466,12 +1466,12 @@
       {
         "name": "seavgabios-bin",
         "version": "1.16.0",
-        "release": "3.module_el8.7.0+3346+68867adb",
+        "release": "4.module_el8.8.0+3612+f18d2b89",
         "epoch": "0",
         "arch": "noarch",
-        "src": "seabios-1.16.0-3.module_el8.7.0+3346+68867adb.src.rpm",
-        "filename": "seavgabios-bin-1.16.0-3.module_el8.7.0+3346+68867adb.noarch.rpm",
-        "sum": "68a787a08746fae1e303b2e3406932562097886e0cc8e2828ab91dcc4b663d9f",
+        "src": "seabios-1.16.0-4.module_el8.8.0+3612+f18d2b89.src.rpm",
+        "filename": "seavgabios-bin-1.16.0-4.module_el8.8.0+3612+f18d2b89.noarch.rpm",
+        "sum": "861a8898638783ad697969cd967559f623c7bac054447b6f9101b631e0ad56d3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1560,14 +1560,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-docs",
+        "name": "qemu-kvm-common",
         "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
         "epoch": "15",
         "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-docs-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "03a058759c7ec6abb10d4d4d84821589f26db764313bc5a9ca9c64ee00349598",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-common-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "03d0bac011af6be0cb3704919baa70f003c05ea9e8ef527133888ad3ab92b8da",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1584,18 +1584,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-tests",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-tests-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "09b906fb090518c0876c0c90d624ab082199267ab3c0cd3413b1f06a153f6cbd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "netcf-libs",
         "version": "0.2.8",
         "release": "12.module_el8.6.0+2880+7d9e3703",
@@ -1604,6 +1592,18 @@
         "src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
         "filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
         "sum": "0e59bef3c22a3ac78aade7aca024d450b5a9844bb2efa77ec9472a6eb04546d3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-guest-agent",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-guest-agent-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "11bd08e62a5bbb9c3c49f0d0ae14c537532dcb4bae6031e9c17f8d7eebfa3645",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1692,18 +1692,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-rbd",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-rbd-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "1c9561dca4593134fcccf155e05f09ed8bbb4e0e9ab443cd2be99066beca2668",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-daemon-driver-storage-iscsi",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -1712,6 +1700,18 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-driver-storage-iscsi-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.ppc64le.rpm",
         "sum": "21766d3a20337c61fe85cfed49a220ef2f2a2af01684d8a6ecdc2b9c55b36e3a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-block-curl",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-curl-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "277836d75e25720b758fa26f91460ef44ead6c710e829e0b9bd265693fadd59e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1736,6 +1736,18 @@
         "src": "swtpm-0.7.0-4.20211109gitb79fd91.module_el8.7.0+3346+68867adb.src.rpm",
         "filename": "swtpm-libs-0.7.0-4.20211109gitb79fd91.module_el8.7.0+3346+68867adb.ppc64le.rpm",
         "sum": "2bfb424f0cb8341ed20bba3ff090edd8d04cbb3e312e129144cee18c4b72f397",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-docs",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-docs-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "2c2d366f1348fcda580f6a63f88e252d39c409bad32d8864597c2a688976f7a1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1836,6 +1848,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-core",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-core-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "3b2f5812d688c83a1b9008956aeca8e390162121f84bfbcfcacb4d1c768a9b98",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libvirt-daemon-config-nwfilter",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -1844,18 +1868,6 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-config-nwfilter-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.ppc64le.rpm",
         "sum": "3d9cb794cf79dd8bd10ec36145bb1291a3d34ed6de769cd3a1cde18756a7b93a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "44dfc664787dd6e250d8a5cdcff38728c4b33aaa900b06694e1442e88c48c033",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1908,6 +1920,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "494253bcf938b38a37c2a94a7b1f752745f560b8c487aa521603ec62bfbec407",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libvirt-daemon-driver-storage-gluster",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -1916,18 +1940,6 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-driver-storage-gluster-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.ppc64le.rpm",
         "sum": "4ac86b3cc846082a53eb9c0b684ae89946cb612b45a92106d03d51af69a66a30",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-iscsi",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-iscsi-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "4caeede1bc5c6b3b780b08bd42277b4774aefff1fe58232e7cad8047475d041d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2016,6 +2028,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-iscsi",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-iscsi-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "5b36c424eec08b537f8a2bedbb823eedc2c52f2f684f1cd2fbdc0e3ccf2c3e7c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-tests",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-tests-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "5f2c3dc3b22492e5ab014cec4d673c2eeb9ca960d71ad2f99e4a8901ff04f8ae",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libiscsi-utils",
         "version": "1.18.0",
         "release": "8.module_el8.6.0+2880+7d9e3703",
@@ -2060,6 +2096,18 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-config-network-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.ppc64le.rpm",
         "sum": "6ca38dc0b950a2b2dc43ce049c892a690db3d5462519089ac5b8719ee11a974f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-img",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-img-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "6cbe499ec1995e2194476d7500507110d56fb2f2d831ee164f63c1d6c3db351d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2136,18 +2184,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-ssh",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-ssh-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "7b7f2e23eef1cc8fc6c6ca1e47e50580061a74fc7bd0a85acdd468579e5e27a4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libiscsi",
         "version": "1.18.0",
         "release": "8.module_el8.6.0+2880+7d9e3703",
@@ -2168,6 +2204,18 @@
         "src": "hivex-1.3.18-23.module_el8.6.0+2880+7d9e3703.src.rpm",
         "filename": "ocaml-hivex-devel-1.3.18-23.module_el8.6.0+2880+7d9e3703.ppc64le.rpm",
         "sum": "7d82c158b455729fc17c7dc04e5780f18d4b655a19b03ae0028c8c5039fb73d4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-winsupport",
+        "version": "8.8",
+        "release": "2.module_el8.8.0+3612+f18d2b89",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libguestfs-winsupport-8.8-2.module_el8.8.0+3612+f18d2b89.src.rpm",
+        "filename": "libguestfs-winsupport-8.8-2.module_el8.8.0+3612+f18d2b89.ppc64le.rpm",
+        "sum": "860aaecce6d7f2a114af7df776baeeded9d8e5acc509206e954a3d32c5e5e2ca",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2328,6 +2376,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-rbd",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-rbd-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "ad4f6e89945e6dcbcec65ebae5246a377afc90bffe4b8d7eef550a37688219fb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "python3-libvirt",
         "version": "8.0.0",
         "release": "2.module_el8.7.0+3346+68867adb",
@@ -2348,18 +2408,6 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "libguestfs-java-devel-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.ppc64le.rpm",
         "sum": "b0e76597cdffb59cbad1746d4d27742fe4221dc97311f1b00029ca04a856bedb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-guest-agent",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-guest-agent-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "b31c174df3d1da91d7f630cad732d9ad8c1301ccaef1e4ef60281c417278e381",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2568,6 +2616,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-ssh",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-ssh-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.ppc64le.rpm",
+        "sum": "d69612f4b7a5e6d1eb28740f571aa0358c06882b489c5a379dce3728b6b9a436",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "nbdkit-linuxdisk-plugin",
         "version": "1.24.0",
         "release": "5.module_el8.8.0+3485+7cffc4a3",
@@ -2592,18 +2652,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-common",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-common-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "db9cc110171dc772cf65135a8d1b5438e72a8e5c81cb3ec22bcdb839081824a6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "ocaml-libguestfs-devel",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -2624,18 +2672,6 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "libguestfs-tools-c-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.ppc64le.rpm",
         "sum": "e0973620bcbdd142891c0414aed4fb3bd2a996c664986bbb9f8da150e3e71c91",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-curl",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-curl-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "e1618e9e65a3377e15b778852ceb8de2822db3fbd0810baaa5c0ad9008f3320e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2700,18 +2736,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libguestfs-winsupport",
-        "version": "8.8",
-        "release": "1.module_el8.8.0+3485+7cffc4a3",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libguestfs-winsupport-8.8-1.module_el8.8.0+3485+7cffc4a3.src.rpm",
-        "filename": "libguestfs-winsupport-8.8-1.module_el8.8.0+3485+7cffc4a3.ppc64le.rpm",
-        "sum": "ec2e8c837101471fb5cc0d93c732c26a74e0b94ca5e2ab2623869b1835c8d608",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libtpms-devel",
         "version": "0.9.1",
         "release": "2.20211126git1ff6fe1f43.module_el8.8.0+3553+bd08596b",
@@ -2772,30 +2796,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-img",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-img-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "fa46ab3d33a4c7fec0652ed88ca4df8c3635f8860865f50bc5bbd6f8528bac23",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-core",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-core-6.2.0-32.module_el8.8.0+3553+bd08596b.ppc64le.rpm",
-        "sum": "fb723f36a797f5022e246e0276eb3e17fd0b65ce31e0a5adb7fb3e3ffb8cd90d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-libguestfs",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -2808,18 +2808,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-core",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-core-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "017a32815b00e165e97ca277bc7b9110f1be709a3806862bcb724dae7379940a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-daemon-config-network",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -2828,18 +2816,6 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-config-network-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.s390x.rpm",
         "sum": "03cf2f03ee84155fd58e5d5f714dcb2d908ac291387dd2504b5befa8390ffe09",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-img",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-img-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "0449556cc912049466d306f06015dc54afe6ff865951de931f66e8ee51a4646c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -2876,18 +2852,6 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "python3-libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.s390x.rpm",
         "sum": "05372f9ad377c74c0d221dacf23c7510171afbb751c03585fd3c09513d7e1bde",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-guest-agent",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-guest-agent-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "0851dbcd681f94ada4074a65f41522306862f8afa0e5863c4eb5b6d16ab705b5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3024,18 +2988,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-common",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-common-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "2169d71be913a36de32d2760b854c0a63ac3625e48e1033ecbb6e0601a9f7e85",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libnbd",
         "version": "1.6.0",
         "release": "5.module_el8.6.0+3161+a07c0ea5",
@@ -3108,6 +3060,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-iscsi",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-iscsi-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "2bd1d8f22f260d55e435c862a7a1779775727ada9ced385931b0bab9e359e5da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libvirt-daemon-kvm",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -3144,6 +3108,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-img",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-img-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "3d0eaefc558061052930dcf51f6a0cfeb73fbfe3305ff3c1f07e15ed9ef750b8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libvirt-daemon-driver-nwfilter",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -3152,18 +3128,6 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-driver-nwfilter-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.s390x.rpm",
         "sum": "3e6e065e61ac2d4636ef7dec1ab3248173471f5ac5c74faea6723f95a22ee5b4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-ssh",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-ssh-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "3fb0642bc1f49d65f8225c7f4de12c8c7f0d3df3ad218d1a3f21e0ccb515b731",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3180,6 +3144,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-docs",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-docs-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "4312186bc922c764399e04180cab2bebe64f9cf89bc219a5aef8a9bc18247fed",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "ruby-hivex",
         "version": "1.3.18",
         "release": "23.module_el8.6.0+3161+a07c0ea5",
@@ -3188,18 +3164,6 @@
         "src": "hivex-1.3.18-23.module_el8.6.0+3161+a07c0ea5.src.rpm",
         "filename": "ruby-hivex-1.3.18-23.module_el8.6.0+3161+a07c0ea5.s390x.rpm",
         "sum": "4428b40d29de3a3eda15340b2cbacebe838ba363b3897a1a91f904b9f2b4f8b9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "443b75cb180f7bf02c2d32d90f315453759c021d0a2e140489bf01d413aaef58",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3248,6 +3212,30 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-curl-plugin-1.24.0-5.module_el8.8.0+3485+7cffc4a3.s390x.rpm",
         "sum": "4fd1a6bbe855d7c4068fcf080b4b0b15b367ef7f635ac869b7bddb1698dafa01",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-tests",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-tests-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "57b3eb7cf775ef2f95b5a152645b0491f5907d7677377c025c0b2b7de04f7996",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-block-curl",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-curl-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "5ccfca72a93f61e8f41b97670273c6bd9e6c14a781d04c01a69c31a3325f1b84",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3348,6 +3336,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-core",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-core-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "738ea81f01186da40b2944cf9bc43b2419e356bbe3576e0382a36e8a006f502c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "perl-Sys-Guestfs",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -3356,30 +3356,6 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "perl-Sys-Guestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.s390x.rpm",
         "sum": "77c035cdcf2f7e819dcb6d76b9ba12ae63a6f07d615a9a435b7ec2dc8ca93330",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-docs",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-docs-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "7aab9e8d26cebad789508f0423aaa59328c29b4da0918b7b5ebae3caf34ff2cb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libguestfs-winsupport",
-        "version": "8.8",
-        "release": "1.module_el8.8.0+3485+7cffc4a3",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "libguestfs-winsupport-8.8-1.module_el8.8.0+3485+7cffc4a3.src.rpm",
-        "filename": "libguestfs-winsupport-8.8-1.module_el8.8.0+3485+7cffc4a3.s390x.rpm",
-        "sum": "7c02f43b3a4ebfc353505f79de1a3240bdbfece3ed82cfe88dcb73b7ed182f83",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3636,18 +3612,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-tests",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-tests-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "a3c4f77de0a76f423377e1acf556433fd99845d9ec3750815d6470f371978b49",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "swtpm",
         "version": "0.7.0",
         "release": "4.20211109gitb79fd91.module_el8.7.0+3346+68867adb",
@@ -3680,6 +3644,18 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-nbd-plugin-1.24.0-5.module_el8.8.0+3485+7cffc4a3.s390x.rpm",
         "sum": "a9427bee7f157a63f2acd2357032ce829e0561b24193d204072502adad4aa52e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libguestfs-winsupport",
+        "version": "8.8",
+        "release": "2.module_el8.8.0+3612+f18d2b89",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "libguestfs-winsupport-8.8-2.module_el8.8.0+3612+f18d2b89.src.rpm",
+        "filename": "libguestfs-winsupport-8.8-2.module_el8.8.0+3612+f18d2b89.s390x.rpm",
+        "sum": "ab296b69eaabfd07e0bb71a1e8a58c26958a122fe9662a7b862b45c90d05c550",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3852,18 +3828,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-iscsi",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-iscsi-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "c79fd5bac932536f50be35e1d434580600873386c51389d85edb999c12cb502f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-daemon-driver-nodedev",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -3872,6 +3836,18 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-driver-nodedev-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.s390x.rpm",
         "sum": "cced2f758d9688158d3fd40758cf95e5b815ced68c62392cd8d5060ec99d101d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-guest-agent",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-guest-agent-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "cff8f45c0382dc43ba37121b77eabc3856cd83a1caeeede951f9fc3a91927977",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3924,6 +3900,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "d7a7815a8331534a1abfde1b1d0bb56eb00033de1fe1a23ec01bbfcc9e5f3275",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-common",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-common-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "e08c5907680dac4259d5ea3164b0afab6199d3422fe444fb8bb1f7edcca3c07d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "supermin",
         "version": "5.2.1",
         "release": "2.module_el8.7.0+3346+68867adb",
@@ -3948,6 +3948,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-ssh",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "s390x",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-ssh-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "e5f083b7ce555718afcfe88e8c2b7ceb1c0de0f6748153f9c35ba4741bd96ccf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "python3-hivex",
         "version": "1.3.18",
         "release": "23.module_el8.6.0+3161+a07c0ea5",
@@ -3956,18 +3968,6 @@
         "src": "hivex-1.3.18-23.module_el8.6.0+3161+a07c0ea5.src.rpm",
         "filename": "python3-hivex-1.3.18-23.module_el8.6.0+3161+a07c0ea5.s390x.rpm",
         "sum": "ec11102e66953715d97704c820c0effcd80944fdd525efca9645f70b1cfa2fa9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-rbd",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-rbd-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "ecdfb86ce7c7ef3025ea558877e485be05745ecb4ea0fd663b410bc2db0c1a79",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3996,14 +3996,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-curl",
+        "name": "qemu-kvm-block-rbd",
         "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
         "epoch": "15",
         "arch": "s390x",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-curl-6.2.0-32.module_el8.8.0+3553+bd08596b.s390x.rpm",
-        "sum": "ef4561716d1e51ec049785ce2c876b8765682bc799898d97ad82c461b995a3d6",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-rbd-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.s390x.rpm",
+        "sum": "f122e636af8194f6abd26896b31f0615770c494f18d1344d576a9ca8e24cf214",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4104,14 +4104,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm",
+        "name": "qemu-kvm-docs",
         "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
         "epoch": "15",
         "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "10a6b7853d960da145f9cd29b6470cea49874f63babe24bc0795ea49aea00f60",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-docs-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "073e8b2216e514204425d471c13094fc031d6cda75b7a9e8914f17d87624db67",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4124,6 +4124,18 @@
         "src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
         "filename": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
         "sum": "10c316eb182ae0134137305cfccd854100de46a99cfbc54bdc6db9e65b3511bf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "seabios",
+        "version": "1.16.0",
+        "release": "4.module_el8.8.0+3612+f18d2b89",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "seabios-1.16.0-4.module_el8.8.0+3612+f18d2b89.src.rpm",
+        "filename": "seabios-1.16.0-4.module_el8.8.0+3612+f18d2b89.x86_64.rpm",
+        "sum": "127441a470d848085639025acb6ecbd819897c41a7af228c55260f495021a2c3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4308,6 +4320,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-ssh",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-ssh-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "37835c3b59af247e44e28171738394ea480e559b56a59f45f14a10e5c62fb129",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libvirt-daemon-driver-network",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -4340,6 +4364,18 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-devel-1.24.0-5.module_el8.8.0+3485+7cffc4a3.x86_64.rpm",
         "sum": "40c077bbf2e5f111c173d3dbb8fbf738f1167785341bec4378e2aba547ede0cb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-ui-opengl",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-ui-opengl-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "40e573b1cf3d9a2f7398d4cc4f8f6b54f15e8522b71acf8810854c132c6f4470",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4416,18 +4452,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-common",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-common-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "522839f74788c99620b38af2b20b5e9853c3b6cfb1d390cb76cc5d6a552c87d0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libguestfs-gfs2",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -4500,6 +4524,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-ui-spice",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-ui-spice-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "5af9a3977b2f4ef01124b0470d7fa6a3a02dc1914af2cd5f5ef15ea5cf922ab0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libguestfs-rescue",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -4532,18 +4568,6 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-devel-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.x86_64.rpm",
         "sum": "5f41072779af6c826f6e57626c854d032efd79496f4652974619d9c583b75b98",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-docs",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-docs-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "60279d4deab239f4ff060ac77dfbd6af2f3564c6bc87aac810db9ab5690f459f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4596,6 +4620,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-gluster",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-gluster-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "649adc06096e63a7e378a005df28b794aab7cc9bbc3692b498e56d6512d1fc01",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libguestfs-gobject",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -4628,6 +4664,18 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "libguestfs-appliance-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.x86_64.rpm",
         "sum": "66c64ca04d56f6e78fb94e84107941d710d5a0bfeda453827b456d94e0516f5a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-guest-agent",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-guest-agent-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "67bf7e75f06a1874644f8b9ba3014e1d6efa14edf818f389c21c9d659308c82c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4676,18 +4724,6 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-client-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.x86_64.rpm",
         "sum": "6ae64555da6aca71d8445091e39e6b97d98da232e437f2e1f41120ec53f4c2f4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libguestfs-winsupport",
-        "version": "8.8",
-        "release": "1.module_el8.8.0+3485+7cffc4a3",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libguestfs-winsupport-8.8-1.module_el8.8.0+3485+7cffc4a3.src.rpm",
-        "filename": "libguestfs-winsupport-8.8-1.module_el8.8.0+3485+7cffc4a3.x86_64.rpm",
-        "sum": "6bf90e7a43dd0a021de2a06a6e3debef3261574c32071286e841d16bc62a4310",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4752,14 +4788,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-ui-opengl",
+        "name": "qemu-kvm-block-rbd",
         "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
         "epoch": "15",
         "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-ui-opengl-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "7e43b5d92955f1e1ec4d669eda4b124ff94c7e62f47967d6ae03b3f42c4adb48",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-rbd-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "7b69aab1b78786ce64ef649000e9f63e629e6505e76f0ecb953a75d3c908d733",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4776,14 +4812,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-iscsi",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
+        "name": "libguestfs-winsupport",
+        "version": "8.8",
+        "release": "2.module_el8.8.0+3612+f18d2b89",
+        "epoch": "0",
         "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-iscsi-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "87ffde599e4a4d181e28607957c6386027c0bab72b35037729040b8ba7c7102e",
+        "src": "libguestfs-winsupport-8.8-2.module_el8.8.0+3612+f18d2b89.src.rpm",
+        "filename": "libguestfs-winsupport-8.8-2.module_el8.8.0+3612+f18d2b89.x86_64.rpm",
+        "sum": "8828d76572676b63457a18b2235c00657b7baad7ddb70f4d779def723b449647",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4860,18 +4896,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-rbd",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-rbd-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "9b82501b7bb980b66c23cb5b4289e300b0cbfd09a6be2910767a0740dffa95d3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nbdkit-tmpdisk-plugin",
         "version": "1.24.0",
         "release": "5.module_el8.8.0+3485+7cffc4a3",
@@ -4932,26 +4956,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-block-gluster",
+        "name": "qemu-kvm-common",
         "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
         "epoch": "15",
         "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-gluster-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "a2fa48abf3a1d886eed83d1d6018c480bb7058959602ced938b9849e99f2cd5e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-img",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-img-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "a36bc5e11a9463571aa31a602e42bb0edc3898b7b1162f83e969ecec69a5bc77",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-common-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "a30a1bfa1af12f8f9893bcdd897456158d542c2b174c58bcb681ffeaa8a8339e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -4968,18 +4980,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-ui-spice",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-ui-spice-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "a69f21bdadc895e962078844637c85c5fd1195114816aab92657861b0dad93ee",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libguestfs-tools-c",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -4988,18 +4988,6 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "libguestfs-tools-c-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.x86_64.rpm",
         "sum": "a7b147924720647893661fb5d2c014217d71f13d3cc6839cadb35e384a556bd3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-curl",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-curl-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "a87bf42acab99260f68097014f1bd7e528787145144516eb3b92f8655ffa7225",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5024,18 +5012,6 @@
         "src": "libvirt-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.src.rpm",
         "filename": "libvirt-daemon-driver-storage-8.0.0-19.2.module_el8.8.0+3585+76b9c397.alma.x86_64.rpm",
         "sum": "ad221e3015af949b81b9b0e6e42552d9781d6434171253bfd7171d61e23f8cd6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-block-ssh",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-block-ssh-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "b5a780bd49519929d2924b4e83cedb326f20fb668f6bdde2fde120f0823f40b5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5100,18 +5076,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-core",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-core-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "c236e684314664801bac6cbec70ee2472a66efbc844383738c12f69be91f4954",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvirt-lock-sanlock",
         "version": "8.0.0",
         "release": "19.2.module_el8.8.0+3585+76b9c397.alma",
@@ -5132,30 +5096,6 @@
         "src": "libnbd-1.6.0-5.module_el8.6.0+2880+7d9e3703.src.rpm",
         "filename": "ocaml-libnbd-devel-1.6.0-5.module_el8.6.0+2880+7d9e3703.x86_64.rpm",
         "sum": "c4495d052562a78194bda443ca9db7f666aad16837194b819f3843519c2f1335",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-kvm-tests",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-tests-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "c4c7ef39cd1843c527e8b8c36ed9ed2ca8fdc692bd869042e3fb09f8358a686b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "seabios",
-        "version": "1.16.0",
-        "release": "3.module_el8.7.0+3346+68867adb",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "seabios-1.16.0-3.module_el8.7.0+3346+68867adb.src.rpm",
-        "filename": "seabios-1.16.0-3.module_el8.7.0+3346+68867adb.x86_64.rpm",
-        "sum": "c5891d68b0bc1c4004679ddfa35d895a7e88cd75dd97184bed0d71f095d6a59c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5208,6 +5148,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "c9e23d5bfece7886e162f0f276414ba3335e53b364acbbee84c65bc11c3695da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libguestfs-gobject-devel",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -5228,6 +5180,18 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "libguestfs-xfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.x86_64.rpm",
         "sum": "cc986451d22711ab87ee269230b2674b159626bf9e5bd315dfd990854effe3f6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-core",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-core-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "ce8013112a0763e493b7c832d3afb2c0a1135e7b8bc1ae75f6607a0aea8307b1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5264,6 +5228,18 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-basic-filters-1.24.0-5.module_el8.8.0+3485+7cffc4a3.x86_64.rpm",
         "sum": "d31b85cf02be2e26262dc812f4732ed28910154dfda1d68a293f1d5a77591802",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-hw-usbredir",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-hw-usbredir-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "d5f9d868d8de869b2d8e4f1b17895d1063e8798a49bdf172e404626cb31dbcc8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5316,6 +5292,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "qemu-kvm-block-iscsi",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-iscsi-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "d872b6e558c1e7fe02078271c890f770b91287c77d801db6a58294d278922e13",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-img",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-img-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "dafaa7735eb5b4a177cd1794eb454b1017fc9ba6b6192066a94bdf9eb396431a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "nbdkit-basic-plugins",
         "version": "1.24.0",
         "release": "5.module_el8.8.0+3485+7cffc4a3",
@@ -5324,6 +5324,18 @@
         "src": "nbdkit-1.24.0-5.module_el8.8.0+3485+7cffc4a3.src.rpm",
         "filename": "nbdkit-basic-plugins-1.24.0-5.module_el8.8.0+3485+7cffc4a3.x86_64.rpm",
         "sum": "db18a9b205a5eb7a8a0c7bbef211c4f4e7ef45c04e861ec87a747154b7f203e5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-block-curl",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-block-curl-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "dd9cef0e8464c7320d965f5492d26d4dc25813643a0f11f4df45fe2c0f5f4de5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5412,30 +5424,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "qemu-kvm-hw-usbredir",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-kvm-hw-usbredir-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "f9bddf0a2d2c64dadc870ec3d79a36611365a1d4bdaed0a7ca1e8cfa2fffa370",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-guest-agent",
-        "version": "6.2.0",
-        "release": "32.module_el8.8.0+3553+bd08596b",
-        "epoch": "15",
-        "arch": "x86_64",
-        "src": "qemu-kvm-6.2.0-32.module_el8.8.0+3553+bd08596b.src.rpm",
-        "filename": "qemu-guest-agent-6.2.0-32.module_el8.8.0+3553+bd08596b.x86_64.rpm",
-        "sum": "fca04756a5d589ece81b5a021d02ce145fc6d39441d8877565358a32713fe7a6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "perl-Sys-Guestfs",
         "version": "1.44.0",
         "release": "9.module_el8.7.0+3493+5ed0bd1c.alma",
@@ -5444,6 +5432,18 @@
         "src": "libguestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.src.rpm",
         "filename": "perl-Sys-Guestfs-1.44.0-9.module_el8.7.0+3493+5ed0bd1c.alma.x86_64.rpm",
         "sum": "ff4cdf3c718af42e39574f2bf4b0557571341be4e97faf6262c4575e80af395e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-kvm-tests",
+        "version": "6.2.0",
+        "release": "33.module_el8.8.0+3612+f18d2b89.alma.1",
+        "epoch": "15",
+        "arch": "x86_64",
+        "src": "qemu-kvm-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.src.rpm",
+        "filename": "qemu-kvm-tests-6.2.0-33.module_el8.8.0+3612+f18d2b89.alma.1.x86_64.rpm",
+        "sum": "ffaf34b0dec2b66ee0ecdde05d3a701901e0dc808345582f1a8e272d47714565",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -5483,40 +5483,52 @@
   "pushcount": "1",
   "references": [
     {
-      "href": "https://bugzilla.redhat.com/2203653",
+      "href": "https://bugzilla.redhat.com/2216478",
       "type": "bugzilla",
-      "id": "2203653",
+      "id": "2216478",
       "title": ""
     },
     {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-2700",
+      "href": "https://bugzilla.redhat.com/2236130",
+      "type": "bugzilla",
+      "id": "2236130",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-40284",
       "type": "cve",
-      "id": "CVE-2023-2700",
-      "title": "CVE-2023-2700"
+      "id": "CVE-2022-40284",
+      "title": "CVE-2022-40284"
     },
     {
-      "href": "https://access.redhat.com/errata/RHSA-2023:3822",
+      "href": "https://access.redhat.com/security/cve/CVE-2023-3354",
+      "type": "cve",
+      "id": "CVE-2023-3354",
+      "title": "CVE-2023-3354"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:5264",
       "type": "rhsa",
-      "id": "RHSA-2023:3822",
-      "title": "RHSA-2023:3822"
+      "id": "RHSA-2023:5264",
+      "title": "RHSA-2023:5264"
     },
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-3822.html",
+      "href": "https://errata.almalinux.org/8/ALSA-2023-5264.html",
       "type": "self",
-      "id": "ALSA-2023:3822",
-      "title": "ALSA-2023:3822"
+      "id": "ALSA-2023:5264",
+      "title": "ALSA-2023:5264"
     }
   ],
   "release": "0",
   "rights": "Copyright 2023 AlmaLinux OS",
-  "severity": "Moderate",
+  "severity": "Important",
   "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
   "status": "final",
   "summary": "virt:rhel and virt-devel:rhel security and bug fix update",
-  "title": "Moderate: virt:rhel and virt-devel:rhel security and bug fix update",
+  "title": "Important: virt:rhel and virt-devel:rhel security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1689379721000
+    "$date": 1695397310000
   },
   "version": "1"
 }
