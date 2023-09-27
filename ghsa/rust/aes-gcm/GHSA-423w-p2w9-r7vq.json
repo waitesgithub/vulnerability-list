@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-09-22T16:11:48Z",
+  "UpdatedAt": "2023-09-27T13:55:16Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "aes-gcm"
@@ -38,7 +38,7 @@
     "PublishedAt": "2023-09-22T16:11:47Z",
     "Severity": "MODERATE",
     "Summary": "AEADs/aes-gcm: Plaintext exposed in decrypt_in_place_detached even on tag verification failure",
-    "UpdatedAt": "2023-09-22T19:34:17Z",
+    "UpdatedAt": "2023-09-27T13:55:16Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.10.3"
       },
-      "VulnerableVersionRange": "\u003e 0.10.0, \u003c= 0.10.2"
+      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.2"
     }
   ]
 }
