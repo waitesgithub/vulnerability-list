@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-09-06T13:18:39Z",
+  "UpdatedAt": "2023-09-26T19:22:18Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "magento/community-edition"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-05-24T17:00:28Z",
     "Severity": "CRITICAL",
     "Summary": "Magento 2 Community Edition RCE Vulnerability",
-    "UpdatedAt": "2023-09-06T13:18:39Z",
+    "UpdatedAt": "2023-09-26T19:22:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -45,9 +45,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "2.3.3"
+        "Identifier": "2.3.2-p1"
       },
-      "VulnerableVersionRange": "\u003e= 2.3, \u003c 2.3.3"
+      "VulnerableVersionRange": "\u003e= 2.3, \u003c 2.3.2-p1"
     }
   ]
 }

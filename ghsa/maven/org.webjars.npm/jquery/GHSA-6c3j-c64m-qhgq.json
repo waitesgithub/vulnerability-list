@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-09-05T12:27:33Z",
+  "UpdatedAt": "2023-09-26T18:30:48Z",
   "Package": {
-    "Ecosystem": "RUBYGEMS",
-    "Name": "jquery-rails"
+    "Ecosystem": "MAVEN",
+    "Name": "org.webjars.npm:jquery"
   },
   "Advisory": {
     "DatabaseId": 1374,
@@ -285,9 +285,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "4.3.4"
+        "Identifier": "3.4.0"
       },
-      "VulnerableVersionRange": "\u003c 4.3.4"
+      "VulnerableVersionRange": "\u003e= 1.1.4, \u003c 3.4.0"
     }
   ]
 }
