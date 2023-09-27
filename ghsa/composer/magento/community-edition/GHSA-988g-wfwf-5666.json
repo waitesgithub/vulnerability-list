@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-18T19:56:06Z",
+  "UpdatedAt": "2023-09-27T00:33:32Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "magento/community-edition"
@@ -30,13 +30,13 @@
         "Value": "CVE-2019-8228"
       }
     ],
-    "Description": "in Magento prior to 1.9.4.3 and Magento prior to 1.14.4.3, an authenticated user with limited administrative privileges can inject arbitrary JavaScript code into transactional email page when creating a new email template or editing existing email template.",
+    "Description": "## Withdrawn Advisory\n\nThis advisory has been withdrawn because the vulnerability does not affect a package in one of the GitHub Advisory Database's [supported ecosystems](https://github.com/github/advisory-database/blob/main/README.md#supported-ecosystems). This link is maintained to preserve external references.\n\n## Original Description\n\nIn Magento prior to 1.9.4.3 and Magento prior to 1.14.4.3, an authenticated user with limited administrative privileges can inject arbitrary JavaScript code into transactional email page when creating a new email template or editing existing email template.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-24T17:00:29Z",
     "Severity": "MODERATE",
-    "Summary": "Magento 2 Community Edition XSS Vulnerability",
-    "UpdatedAt": "2023-07-18T19:56:06Z",
-    "WithdrawnAt": "",
+    "Summary": "Withdrawn Advisory: Magento 2 Community Edition XSS Vulnerability",
+    "UpdatedAt": "2023-09-27T00:33:32Z",
+    "WithdrawnAt": "2023-09-27T00:33:31Z",
     "CVSS": {
       "Score": 4.8,
       "VectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
