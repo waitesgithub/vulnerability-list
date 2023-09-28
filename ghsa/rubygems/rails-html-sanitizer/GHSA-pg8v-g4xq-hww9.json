@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-07-05T18:10:35Z",
+  "UpdatedAt": "2023-09-27T21:07:51Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "rails-html-sanitizer"
@@ -32,6 +32,9 @@
         "Url": "https://lists.debian.org/debian-lts-announce/2022/12/msg00012.html"
       },
       {
+        "Url": "https://github.com/rails/rails-html-sanitizer/commit/45a5c10fed3d9aa141594c80afa06d748fa0967d"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-pg8v-g4xq-hww9"
       }
     ],
@@ -50,7 +53,7 @@
     "PublishedAt": "2022-06-25T00:00:54Z",
     "Severity": "MODERATE",
     "Summary": "Rails::Html::Sanitizer vulnerable to Cross-site Scripting",
-    "UpdatedAt": "2023-02-01T05:03:22Z",
+    "UpdatedAt": "2023-09-27T21:07:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
