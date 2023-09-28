@@ -1,9 +1,134 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:29702001",
+      "Version": "1",
+      "Name": "pmix"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28769001",
+      "Version": "1",
+      "Name": "gcc"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28679001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28678001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28677001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28675001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28674001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28661001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28660001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28659001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28658001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28657001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28656001",
+      "Version": "1",
+      "Name": "lldpd"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28629001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28628001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28627001",
+      "Version": "1",
+      "Name": "tcl"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28619001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28617001",
+      "Version": "1",
+      "Name": "frr"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28616001",
+      "Version": "1",
+      "Name": "frr"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28615001",
+      "Version": "1",
+      "Name": "frr"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28614001",
+      "Version": "1",
+      "Name": "frr"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28599001",
       "Version": "1",
       "Name": "shapelib"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28598001",
+      "Version": "1",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28594001",
+      "Version": "1",
+      "Name": "libssh2"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28545001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28094001",
+      "Version": "1",
+      "Name": "opensc"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28092001",
@@ -46,6 +171,21 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27974001",
+      "Version": "1",
+      "Name": "nodejs18"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27973001",
+      "Version": "1",
+      "Name": "nodejs"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27970001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27960001",
       "Version": "1",
       "Name": "kernel"
@@ -66,14 +206,39 @@
       "Name": "php"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27942001",
+      "Version": "1",
+      "Name": "nodejs18"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27941001",
+      "Version": "1",
+      "Name": "nodejs"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27940001",
+      "Version": "1",
+      "Name": "nodejs"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27936001",
       "Version": "1",
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27926001",
+      "Version": "1",
+      "Name": "nodejs18"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27920001",
       "Version": "1",
       "Name": "qt5-qtbase"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27914001",
+      "Version": "1",
+      "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27913001",
@@ -186,6 +351,11 @@
       "Name": "reaper"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27683001",
+      "Version": "1",
+      "Name": "nodejs18"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27682001",
       "Version": "1",
       "Name": "nghttp2"
@@ -221,6 +391,11 @@
       "Name": "hyperv-daemons"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27667001",
+      "Version": "1",
+      "Name": "cmake"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27654001",
       "Version": "1",
       "Name": "rpm-ostree"
@@ -234,6 +409,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27651001",
       "Version": "1",
       "Name": "openssh"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27650001",
+      "Version": "1",
+      "Name": "nodejs"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27649001",
@@ -271,6 +451,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27536001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27535001",
       "Version": "1",
       "Name": "kernel"
@@ -294,6 +479,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27499001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27477001",
+      "Version": "1",
+      "Name": "redis"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27435001",
@@ -419,6 +609,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27301001",
       "Version": "1",
       "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27279001",
+      "Version": "1",
+      "Name": "nodejs18"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27278001",
@@ -621,6 +816,16 @@
       "Name": "qt5-qtbase"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26940001",
+      "Version": "1",
+      "Name": "nodejs18"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26939001",
+      "Version": "1",
+      "Name": "nodejs18"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26938001",
       "Version": "1",
       "Name": "nodejs"
@@ -644,6 +849,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26877001",
       "Version": "1",
       "Name": "qt5-qtbase"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26875001",
+      "Version": "1",
+      "Name": "nodejs18"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26874001",
@@ -2132,7 +2342,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13227001",
-      "Version": "0",
+      "Version": "1",
       "Name": "bind"
     },
     {
@@ -2157,12 +2367,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13204001",
-      "Version": "0",
+      "Version": "1",
       "Name": "bind"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13203001",
-      "Version": "0",
+      "Version": "1",
       "Name": "bind"
     },
     {
