@@ -11,6 +11,16 @@
       "Name": "gcc"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28699001",
+      "Version": "1",
+      "Name": "mutt"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28698001",
+      "Version": "1",
+      "Name": "mutt"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28679001",
       "Version": "1",
       "Name": "kernel"
@@ -64,6 +74,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:28656001",
       "Version": "1",
       "Name": "lldpd"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28639001",
+      "Version": "1",
+      "Name": "libtommath"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28629001",
@@ -126,6 +141,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28486001",
+      "Version": "1",
+      "Name": "wireshark"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28094001",
       "Version": "1",
       "Name": "opensc"
@@ -134,6 +154,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:28092001",
       "Version": "1",
       "Name": "hwloc"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28074001",
+      "Version": "1",
+      "Name": "flac"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28069001",
@@ -199,6 +224,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27958001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27957001",
+      "Version": "1",
+      "Name": "xterm"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27943001",
@@ -506,6 +536,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27405001",
+      "Version": "1",
+      "Name": "tang"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27402001",
       "Version": "1",
       "Name": "kernel"
@@ -706,6 +741,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27187001",
+      "Version": "1",
+      "Name": "advancecomp"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27180001",
       "Version": "1",
       "Name": "kernel"
@@ -729,6 +769,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27150001",
       "Version": "1",
       "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27144001",
+      "Version": "1",
+      "Name": "wireshark"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27143001",
@@ -924,6 +969,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26781001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26772001",
+      "Version": "1",
+      "Name": "mod_auth_openidc"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26759001",
@@ -1154,6 +1204,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26220001",
       "Version": "1",
       "Name": "mysql"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26216001",
+      "Version": "1",
+      "Name": "screen"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26178001",
@@ -1516,6 +1571,11 @@
       "Name": "liblouis"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25645001",
+      "Version": "1",
+      "Name": "booth"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25636001",
       "Version": "3",
       "Name": "vim"
@@ -1614,6 +1674,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:25351001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25347001",
+      "Version": "1",
+      "Name": "libmicrohttpd"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25320001",
@@ -2647,7 +2712,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:12994001",
-      "Version": "0",
+      "Version": "1",
       "Name": "wireshark"
     },
     {
@@ -2892,7 +2957,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11653001",
-      "Version": "0",
+      "Version": "1",
       "Name": "mod_auth_openidc"
     },
     {
@@ -3242,7 +3307,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11429001",
-      "Version": "0",
+      "Version": "1",
       "Name": "xterm"
     },
     {
@@ -3252,7 +3317,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11424001",
-      "Version": "0",
+      "Version": "1",
       "Name": "exiv2"
     },
     {
@@ -3377,17 +3442,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11341001",
-      "Version": "0",
+      "Version": "1",
       "Name": "exiv2"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11340001",
-      "Version": "0",
+      "Version": "1",
       "Name": "exiv2"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11339001",
-      "Version": "0",
+      "Version": "1",
       "Name": "exiv2"
     },
     {
@@ -3872,7 +3937,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10960001",
-      "Version": "0",
+      "Version": "1",
       "Name": "buildah"
     },
     {
@@ -3987,7 +4052,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10863001",
-      "Version": "0",
+      "Version": "1",
       "Name": "fapolicyd"
     },
     {
@@ -4272,7 +4337,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10659001",
-      "Version": "0",
+      "Version": "1",
       "Name": "opencryptoki"
     },
     {
@@ -4702,7 +4767,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10317001",
-      "Version": "0",
+      "Version": "1",
       "Name": "wavpack"
     },
     {
@@ -4712,7 +4777,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10311001",
-      "Version": "0",
+      "Version": "1",
       "Name": "dovecot"
     },
     {
@@ -4992,7 +5057,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:9960001",
-      "Version": "0",
+      "Version": "1",
       "Name": "python-ldap"
     },
     {
@@ -5652,7 +5717,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:9472001",
-      "Version": "0",
+      "Version": "1",
       "Name": "mutt"
     },
     {
@@ -6087,7 +6152,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:8977001",
-      "Version": "0",
+      "Version": "1",
       "Name": "wavpack"
     },
     {
@@ -6257,7 +6322,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:8805001",
-      "Version": "0",
+      "Version": "1",
       "Name": "usbguard"
     },
     {
@@ -7327,12 +7392,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7380001",
-      "Version": "0",
+      "Version": "1",
       "Name": "taglib"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7379001",
-      "Version": "0",
+      "Version": "1",
       "Name": "taglib"
     },
     {
@@ -7352,7 +7417,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7375001",
-      "Version": "0",
+      "Version": "1",
       "Name": "stunnel"
     },
     {
@@ -7457,7 +7522,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7337001",
-      "Version": "0",
+      "Version": "1",
       "Name": "re2c"
     },
     {
@@ -7562,12 +7627,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7289001",
-      "Version": "0",
+      "Version": "1",
       "Name": "mod_auth_openidc"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7288001",
-      "Version": "0",
+      "Version": "1",
       "Name": "mod_auth_openidc"
     },
     {
@@ -7722,12 +7787,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7227001",
-      "Version": "0",
+      "Version": "1",
       "Name": "fetchmail"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7226001",
-      "Version": "0",
+      "Version": "1",
       "Name": "fetchmail"
     },
     {
@@ -7862,17 +7927,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7196001",
-      "Version": "0",
+      "Version": "1",
       "Name": "dovecot"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7195001",
-      "Version": "0",
+      "Version": "1",
       "Name": "dovecot"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7194001",
-      "Version": "0",
+      "Version": "1",
       "Name": "dovecot"
     },
     {
