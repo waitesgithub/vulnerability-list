@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-19T19:34:14Z",
+  "UpdatedAt": "2023-09-28T20:17:09Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -44,7 +44,7 @@
     "PublishedAt": "2022-05-13T01:14:27Z",
     "Severity": "MODERATE",
     "Summary": "Moodle XSS Vulnerability",
-    "UpdatedAt": "2023-07-19T19:34:14Z",
+    "UpdatedAt": "2023-09-28T20:17:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,
@@ -56,13 +56,13 @@
       "FirstPatchedVersion": {
         "Identifier": "3.1.16"
       },
-      "VulnerableVersionRange": "\u003e= 3.1.0, \u003c= 3.1.15"
+      "VulnerableVersionRange": "\u003c= 3.1.15"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.4.7"
       },
-      "VulnerableVersionRange": "\u003e= 3.4.0, \u003c= 3.4.6"
+      "VulnerableVersionRange": "\u003e= 3.2.0, \u003c= 3.4.6"
     },
     {
       "FirstPatchedVersion": {

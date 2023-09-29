@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-07-18T22:40:18Z",
+  "UpdatedAt": "2023-09-28T19:53:34Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "moodle/moodle"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-05-24T17:12:57Z",
     "Severity": "CRITICAL",
     "Summary": "Moodle Oauth 2 Insufficiently Protects Against Compromise",
-    "UpdatedAt": "2023-07-18T22:40:18Z",
+    "UpdatedAt": "2023-09-28T19:53:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.1,
@@ -47,19 +47,19 @@
       "FirstPatchedVersion": {
         "Identifier": "3.5.9"
       },
-      "VulnerableVersionRange": "\u003e= 3.5, \u003c 3.5.9"
+      "VulnerableVersionRange": "\u003e= 3.5.0, \u003c 3.5.9"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.6.7"
       },
-      "VulnerableVersionRange": "\u003e= 3.6, \u003c 3.6.7"
+      "VulnerableVersionRange": "\u003e= 3.6.0, \u003c 3.6.7"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.7.3"
       },
-      "VulnerableVersionRange": "\u003e= 3.7, \u003c 3.7.3"
+      "VulnerableVersionRange": "\u003e= 3.7.0, \u003c 3.7.3"
     }
   ]
 }

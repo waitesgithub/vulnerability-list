@@ -1,9 +1,9 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-07-19T18:33:35Z",
+  "UpdatedAt": "2023-09-28T20:28:23Z",
   "Package": {
-    "Ecosystem": "NPM",
-    "Name": "joomla"
+    "Ecosystem": "COMPOSER",
+    "Name": "joomla/joomla-cms"
   },
   "Advisory": {
     "DatabaseId": 66315,
@@ -41,7 +41,7 @@
     "PublishedAt": "2022-05-13T01:22:55Z",
     "Severity": "CRITICAL",
     "Summary": "Joomla! Object Injection Vulnerability",
-    "UpdatedAt": "2023-07-19T18:33:35Z",
+    "UpdatedAt": "2023-09-28T20:28:23Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

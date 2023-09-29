@@ -24,6 +24,10 @@
       {
         "Type": "GHSA",
         "Value": "GHSA-gvrg-62jp-rf7j"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2023-43664"
       }
     ],
     "Description": "### Impact\nIn BO, an employee can list all modules without any access rights: method `ajaxProcessGetPossibleHookingListForModule` doesn't check access rights\n\n### Patches\nFixed on 8.1.2\n\n### Workarounds\n\n### References\n",
@@ -31,7 +35,7 @@
     "PublishedAt": "2023-09-28T16:26:48Z",
     "Severity": "MODERATE",
     "Summary": "PrestaShop allows employee without any access rights to list all installed modules",
-    "UpdatedAt": "2023-09-28T16:26:49Z",
+    "UpdatedAt": "2023-09-28T19:43:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,
