@@ -1,5 +1,5 @@
 {
-  "Severity": "CRITICAL",
+  "Severity": "MODERATE",
   "UpdatedAt": "2023-09-15T19:29:33Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -36,13 +36,13 @@
     "Description": "Cross-site Scripting (XSS) - DOM in GitHub repository librenms/librenms prior to 23.9.0.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-09-15T03:30:19Z",
-    "Severity": "CRITICAL",
+    "Severity": "MODERATE",
     "Summary": "LibreNMS Cross-site Scripting vulnerability",
-    "UpdatedAt": "2023-09-15T19:29:33Z",
+    "UpdatedAt": "2023-09-29T05:03:57Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 9,
-      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H"
+      "Score": 6.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [
