@@ -1,15 +1,10 @@
 {
-  "name": "hubble-ui-backend",
+  "name": "gitness",
   "secfixes": {
     "0": [
-      "CVE-2023-39347",
-      "CVE-2023-41332",
-      "CVE-2023-41333"
-    ],
-    "0.12.0-r0": [
-      "CVE-2023-29002",
-      "CVE-2023-30851",
-      "CVE-2023-34242"
+      "CVE-2018-20699",
+      "CVE-2020-13401",
+      "CVE-2023-3515"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
