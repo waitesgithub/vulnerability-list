@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-EC2-BYOS-2023-2950,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2950,Image SLES12-SP5-EC2-On-Demand-2023-2950,Image SLES12-SP5-EC2-SAP-BYOS-2023-2950,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2950,Image SLES12-SP5-GCE-On-Demand-2023-2950,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2950,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2950,SUSE-2023-2950,SUSE-SLE-SERVER-12-SP5-2023-2950",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2023-2950,Image SLES12-SP5-Azure-SAP-BYOS-2023-2950,Image SLES12-SP5-EC2-BYOS-2023-2950,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2950,Image SLES12-SP5-EC2-On-Demand-2023-2950,Image SLES12-SP5-EC2-SAP-BYOS-2023-2950,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2950,Image SLES12-SP5-GCE-On-Demand-2023-2950,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2950,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2950,SUSE-2023-2950,SUSE-SLE-SERVER-12-SP5-2023-2950",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "openssh-7.2p2-81.4.2",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-7.2p2-81.4.2",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "openssh-7.2p2-81.4.2",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
@@ -166,6 +176,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:openssh-7.2p2-81.4.2",
+            "Image SLES12-SP5-Azure-SAP-BYOS:openssh-7.2p2-81.4.2",
             "Image SLES12-SP5-EC2-BYOS:openssh-7.2p2-81.4.2",
             "Image SLES12-SP5-EC2-ECS-On-Demand:openssh-7.2p2-81.4.2",
             "Image SLES12-SP5-EC2-On-Demand:openssh-7.2p2-81.4.2",

@@ -1250,57 +1250,57 @@
       },
       {
         "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
-        "RelatesToProductReference": "Container bci/rust:1.70",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
@@ -1800,6 +1800,61 @@
       },
       {
         "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
         "RelationType": "Default Component Of"
       },
@@ -1910,6 +1965,171 @@
       },
       {
         "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -1961,6 +2181,61 @@
       {
         "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -2295,6 +2570,171 @@
       },
       {
         "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2346,6 +2786,116 @@
       {
         "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
       {
@@ -2405,6 +2955,61 @@
       },
       {
         "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -2625,6 +3230,61 @@
       },
       {
         "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2676,6 +3336,171 @@
       {
         "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
       {
@@ -2735,6 +3560,171 @@
       },
       {
         "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2786,6 +3776,61 @@
       {
         "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-doc-1.1.1l-150500.17.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -3176,17 +4221,17 @@
             "Container bci/ruby:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container bci/ruby:latest:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container bci/ruby:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:openssl-1_1-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Container bci/rust:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Container bci/rust:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Container bci/rust:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3286,6 +4331,17 @@
             "Container suse/registry:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container suse/registry:latest:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container suse/registry:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Container suse/sle-micro/5.5/toolbox:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Container suse/sle-micro/5.5/toolbox:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Container suse/sle-micro/5.5/toolbox:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3308,6 +4364,39 @@
             "Container suse/sle15:15.5:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container suse/sle15:15.5:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container suse/sle15:15.5:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3319,6 +4408,17 @@
             "Image SLES15-SP5-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3385,6 +4485,39 @@
             "Image SLES15-SP5-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3396,6 +4529,28 @@
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3407,6 +4562,17 @@
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3451,6 +4617,17 @@
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3462,6 +4639,39 @@
             "Image SLES15-SP5-SAP-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3473,6 +4683,39 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3484,6 +4727,17 @@
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libopenssl1_1-1.1.1l-150500.17.6.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
@@ -3768,17 +5022,17 @@
             "Container bci/ruby:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container bci/ruby:latest:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container bci/ruby:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:openssl-1_1-1.1.1l-150500.17.6.1",
-            "Container bci/rust:1.70:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container bci/rust:1.71:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Container bci/rust:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Container bci/rust:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Container bci/rust:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3878,6 +5132,17 @@
             "Container suse/registry:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container suse/registry:latest:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container suse/registry:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Container suse/rmt-server:latest:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Container suse/sle-micro/5.5/toolbox:latest:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Container suse/sle-micro/5.5/toolbox:latest:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Container suse/sle-micro/5.5/toolbox:latest:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3900,6 +5165,39 @@
             "Container suse/sle15:15.5:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Container suse/sle15:15.5:openssl-1_1-1.1.1l-150500.17.6.1",
             "Container suse/sle15:15.5:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Basic:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Azure-Standard:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3911,6 +5209,17 @@
             "Image SLES15-SP5-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3977,6 +5286,39 @@
             "Image SLES15-SP5-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3988,6 +5330,28 @@
             "Image SLES15-SP5-HPC-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -3999,6 +5363,17 @@
             "Image SLES15-SP5-Hardened-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -4043,6 +5418,17 @@
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -4054,6 +5440,39 @@
             "Image SLES15-SP5-SAP-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -4065,6 +5484,39 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-Azure:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
@@ -4076,6 +5528,17 @@
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:openssl-1_1-1.1.1l-150500.17.6.1",
             "Image SLES15-SP5-SAPCAL-EC2:openssl-1_1-doc-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl-1_1-devel-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl-1_1-devel-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-hmac-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-hmac-32bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-hmac-64bit-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:openssl-1_1-1.1.1l-150500.17.6.1",
+            "Image SLES15-SP5-SAPCAL-GCE:openssl-1_1-doc-1.1.1l-150500.17.6.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libopenssl-1_1-devel-1.1.1l-150500.17.6.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libopenssl1_1-1.1.1l-150500.17.6.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libopenssl1_1-32bit-1.1.1l-150500.17.6.1",

@@ -31,13 +31,53 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3021,SUSE-SLE-Micro-5.3-2023-3021,SUSE-SLE-Micro-5.4-2023-3021,SUSE-SLE-Module-Basesystem-15-SP4-2023-3021,SUSE-SLE-Module-Basesystem-15-SP5-2023-3021,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-3021,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3021,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-3021,openSUSE-Leap-Micro-5.3-2023-3021,openSUSE-Leap-Micro-5.4-2023-3021,openSUSE-SLE-15.4-2023-3021,openSUSE-SLE-15.5-2023-3021",
+      "Text": "Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3021,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3021,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3021,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3021,SUSE-2023-3021,SUSE-SLE-Micro-5.3-2023-3021,SUSE-SLE-Micro-5.4-2023-3021,SUSE-SLE-Module-Basesystem-15-SP4-2023-3021,SUSE-SLE-Module-Basesystem-15-SP5-2023-3021,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-3021,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3021,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-3021,openSUSE-Leap-Micro-5.3-2023-3021,openSUSE-Leap-Micro-5.4-2023-3021,openSUSE-SLE-15.4-2023-3021,openSUSE-SLE-15.5-2023-3021",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "librsvg-2-2-2.52.10-150400.3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "librsvg-2-2-2.52.10-150400.3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "librsvg-2-2-2.52.10-150400.3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "librsvg-2-2-2.52.10-150400.3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
@@ -246,6 +286,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:librsvg-2-2-2.52.10-150400.3.6.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:librsvg-2-2-2.52.10-150400.3.6.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:librsvg-2-2-2.52.10-150400.3.6.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:librsvg-2-2-2.52.10-150400.3.6.1",
             "SUSE Linux Enterprise Micro 5.3:gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",
             "SUSE Linux Enterprise Micro 5.3:librsvg-2-2-2.52.10-150400.3.6.1",
             "SUSE Linux Enterprise Micro 5.4:gdk-pixbuf-loader-rsvg-2.52.10-150400.3.6.1",

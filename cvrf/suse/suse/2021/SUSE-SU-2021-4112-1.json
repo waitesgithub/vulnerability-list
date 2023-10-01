@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2021-4112,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2021-4112,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2021-4112,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2021-4112,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2021-4112,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2021-4112,Image SLES15-SP4-Manager-Server-4-3-BYOS-2021-4112,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2021-4112,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2021-4112,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2021-4112,SUSE-2021-4112,SUSE-SLE-Module-Basesystem-15-SP2-2021-4112,SUSE-SLE-Module-Basesystem-15-SP3-2021-4112,SUSE-SLE-Module-Development-Tools-15-SP2-2021-4112,SUSE-SLE-Module-Development-Tools-15-SP3-2021-4112",
+      "Text": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2021-4112,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2021-4112,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2021-4112,SUSE-2021-4112,SUSE-SLE-Module-Basesystem-15-SP2-2021-4112,SUSE-SLE-Module-Basesystem-15-SP3-2021-4112,SUSE-SLE-Module-Development-Tools-15-SP2-2021-4112,SUSE-SLE-Module-Development-Tools-15-SP3-2021-4112",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -51,41 +51,6 @@
       {
         "ProductReference": "log4j12-1.2.17-4.3.1",
         "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "log4j12-1.2.17-4.3.1",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "log4j12-1.2.17-4.3.1",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "log4j12-1.2.17-4.3.1",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "log4j12-1.2.17-4.3.1",
-        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "log4j12-1.2.17-4.3.1",
-        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "log4j12-1.2.17-4.3.1",
-        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "log4j12-1.2.17-4.3.1",
-        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -181,13 +146,6 @@
             "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:log4j12-1.2.17-4.3.1",
             "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:log4j12-1.2.17-4.3.1",
             "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:log4j12-1.2.17-4.3.1",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:log4j12-1.2.17-4.3.1",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:log4j12-1.2.17-4.3.1",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:log4j12-1.2.17-4.3.1",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:log4j12-1.2.17-4.3.1",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:log4j12-1.2.17-4.3.1",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:log4j12-1.2.17-4.3.1",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS:log4j12-1.2.17-4.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP2:log4j12-1.2.17-4.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:log4j12-1.2.17-4.3.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP2:log4j12-javadoc-1.2.17-4.3.1",

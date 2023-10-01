@@ -31,13 +31,263 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3018,SUSE-SLE-Module-Basesystem-15-SP5-2023-3018,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3018,openSUSE-SLE-15.5-2023-3018",
+      "Text": "Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3018,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3018,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3018,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3018,Image SLES15-SP5-SAP-BYOS-Azure-2023-3018,Image SLES15-SP5-SAP-BYOS-GCE-2023-3018,Image SLES15-SP5-SAP-Hardened-Azure-2023-3018,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2023-3018,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2023-3018,Image SLES15-SP5-SAP-Hardened-GCE-2023-3018,SUSE-2023-3018,SUSE-SLE-Module-Basesystem-15-SP5-2023-3018,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3018,openSUSE-SLE-15.5-2023-3018",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libQt5Concurrent-devel-5.15.8+kde185-150500.4.8.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP5",
@@ -733,6 +983,56 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent-devel-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Core-devel-5.15.8+kde185-150500.4.8.1",
@@ -884,6 +1184,56 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent-devel-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Core-devel-5.15.8+kde185-150500.4.8.1",
@@ -1035,6 +1385,56 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent-devel-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Core-devel-5.15.8+kde185-150500.4.8.1",
@@ -1186,6 +1586,56 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent-devel-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Core-devel-5.15.8+kde185-150500.4.8.1",
@@ -1337,6 +1787,56 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Core5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5DBus5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Gui5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Network5-5.15.8+kde185-150500.4.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libQt5Widgets5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent-devel-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Concurrent5-5.15.8+kde185-150500.4.8.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libQt5Core-devel-5.15.8+kde185-150500.4.8.1",

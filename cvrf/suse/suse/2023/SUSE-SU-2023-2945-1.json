@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/golang:1.19-openssl-2023-2945,Container bci/golang:1.20-2023-2945,Container bci/golang:latest-2023-2945,Container bci/node:16-2023-2945,Container bci/nodejs:latest-2023-2945,Container bci/openjdk-devel:11-2023-2945,Container bci/openjdk-devel:latest-2023-2945,Container bci/python:3-2023-2945,Container bci/python:latest-2023-2945,Container bci/ruby:latest-2023-2945,Container suse/git:latest-2023-2945,Container suse/manager/4.3/proxy-ssh:latest-2023-2945,Container suse/sle-micro-rancher/5.2:latest-2023-2945,Container suse/sle-micro-rancher/5.3:latest-2023-2945,Container suse/sle-micro-rancher/5.4:latest-2023-2945,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2945,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-2945,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2945,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2945,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-2945,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2945,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-2945,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-2945,Image SLES15-SP4-CHOST-BYOS-2023-2945,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2945,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2945,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2945,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2945,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2945,Image SLES15-SP4-Hardened-BYOS-2023-2945,Image SLES15-SP4-Hardened-BYOS-Azure-2023-2945,Image SLES15-SP4-Hardened-BYOS-EC2-2023-2945,Image SLES15-SP4-Hardened-BYOS-GCE-2023-2945,Image SLES15-SP4-Micro-5-3-BYOS-2023-2945,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2023-2945,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2023-2945,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2023-2945,Image SLES15-SP4-Micro-5-4-2023-2945,Image SLES15-SP4-Micro-5-4-EC2-2023-2945,Image SLES15-SP4-SAP-Hardened-2023-2945,Image SLES15-SP4-SAP-Hardened-Azure-2023-2945,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2945,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2945,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2945,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2945,Image SLES15-SP4-SAP-Hardened-GCE-2023-2945,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-2945,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-2945,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-2945,Image SLES15-SP5-CHOST-BYOS-Azure-2023-2945,Image SLES15-SP5-CHOST-BYOS-EC2-2023-2945,Image SLES15-SP5-CHOST-BYOS-GCE-2023-2945,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-2945,SUSE-2023-2945,SUSE-SLE-Micro-5.3-2023-2945,SUSE-SLE-Micro-5.4-2023-2945,SUSE-SLE-Module-Basesystem-15-SP4-2023-2945,SUSE-SLE-Module-Basesystem-15-SP5-2023-2945,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-2945,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-2945,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-2945,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-2945,SUSE-SLE-Product-RT-15-SP3-2023-2945,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-2945,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-2945,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2945,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2945,SUSE-SUSE-MicroOS-5.1-2023-2945,SUSE-SUSE-MicroOS-5.2-2023-2945,SUSE-Storage-7.1-2023-2945,openSUSE-Leap-Micro-5.3-2023-2945,openSUSE-SLE-15.4-2023-2945,openSUSE-SLE-15.5-2023-2945",
+      "Text": "Container bci/golang:1.19-openssl-2023-2945,Container bci/golang:1.20-2023-2945,Container bci/golang:latest-2023-2945,Container bci/node:16-2023-2945,Container bci/nodejs:latest-2023-2945,Container bci/openjdk-devel:11-2023-2945,Container bci/openjdk-devel:latest-2023-2945,Container bci/python:3-2023-2945,Container bci/python:latest-2023-2945,Container bci/ruby:latest-2023-2945,Container ses/7.1/cephcsi/cephcsi:latest-2023-2945,Container ses/7.1/rook/ceph:latest-2023-2945,Container suse/git:latest-2023-2945,Container suse/manager/4.3/proxy-ssh:latest-2023-2945,Container suse/sle-micro-rancher/5.2:latest-2023-2945,Container suse/sle-micro-rancher/5.3:latest-2023-2945,Container suse/sle-micro-rancher/5.4:latest-2023-2945,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-2945,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-2945,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-2945,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-2945,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-2945,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-2945,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-2945,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-2945,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-2945,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-2945,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-2945,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-2945,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-2945,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-2945,Image SLES15-SP4-CHOST-BYOS-2023-2945,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2945,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2945,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2945,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2945,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2945,Image SLES15-SP4-Hardened-BYOS-2023-2945,Image SLES15-SP4-Hardened-BYOS-Azure-2023-2945,Image SLES15-SP4-Hardened-BYOS-EC2-2023-2945,Image SLES15-SP4-Hardened-BYOS-GCE-2023-2945,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-2945,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-2945,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-2945,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-2945,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-2945,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-2945,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-2945,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-2945,Image SLES15-SP4-Micro-5-3-BYOS-2023-2945,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2023-2945,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2023-2945,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2023-2945,Image SLES15-SP4-Micro-5-4-2023-2945,Image SLES15-SP4-Micro-5-4-EC2-2023-2945,Image SLES15-SP4-SAP-Hardened-2023-2945,Image SLES15-SP4-SAP-Hardened-Azure-2023-2945,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2945,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2945,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2945,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2945,Image SLES15-SP4-SAP-Hardened-GCE-2023-2945,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-2945,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-2945,Image SLES15-SP5-Azure-Basic-2023-2945,Image SLES15-SP5-Azure-Standard-2023-2945,Image SLES15-SP5-BYOS-Azure-2023-2945,Image SLES15-SP5-BYOS-GCE-2023-2945,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-2945,Image SLES15-SP5-CHOST-BYOS-Azure-2023-2945,Image SLES15-SP5-CHOST-BYOS-EC2-2023-2945,Image SLES15-SP5-CHOST-BYOS-GCE-2023-2945,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-2945,Image SLES15-SP5-GCE-2023-2945,Image SLES15-SP5-HPC-Azure-2023-2945,Image SLES15-SP5-HPC-BYOS-Azure-2023-2945,Image SLES15-SP5-HPC-BYOS-GCE-2023-2945,Image SLES15-SP5-Hardened-BYOS-Azure-2023-2945,Image SLES15-SP5-Hardened-BYOS-GCE-2023-2945,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-2945,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-2945,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-2945,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-2945,Image SLES15-SP5-SAP-BYOS-Azure-2023-2945,Image SLES15-SP5-SAP-BYOS-GCE-2023-2945,Image SLES15-SP5-SAP-Hardened-Azure-2023-2945,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2023-2945,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2023-2945,Image SLES15-SP5-SAP-Hardened-GCE-2023-2945,Image SLES15-SP5-SAPCAL-Azure-2023-2945,Image SLES15-SP5-SAPCAL-GCE-2023-2945,SUSE-2023-2945,SUSE-SLE-Micro-5.3-2023-2945,SUSE-SLE-Micro-5.4-2023-2945,SUSE-SLE-Module-Basesystem-15-SP4-2023-2945,SUSE-SLE-Module-Basesystem-15-SP5-2023-2945,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-2945,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-2945,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-2945,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-2945,SUSE-SLE-Product-RT-15-SP3-2023-2945,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-2945,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-2945,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-2945,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-2945,SUSE-SUSE-MicroOS-5.1-2023-2945,SUSE-SUSE-MicroOS-5.2-2023-2945,SUSE-Storage-7.1-2023-2945,openSUSE-Leap-Micro-5.3-2023-2945,openSUSE-SLE-15.4-2023-2945,openSUSE-SLE-15.5-2023-2945",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -189,6 +189,56 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
         "RelatesToProductReference": "Container suse/git:latest",
         "RelationType": "Default Component Of"
@@ -285,6 +335,126 @@
       },
       {
         "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -645,6 +815,166 @@
       },
       {
         "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
         "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -945,6 +1275,86 @@
       },
       {
         "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
         "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
         "RelationType": "Default Component Of"
       },
@@ -1041,6 +1451,366 @@
       {
         "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
         "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-150300.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -1682,6 +2452,16 @@
             "Container bci/ruby:latest:openssh-clients-8.4p1-150300.3.22.1",
             "Container bci/ruby:latest:openssh-common-8.4p1-150300.3.22.1",
             "Container bci/ruby:latest:openssh-fips-8.4p1-150300.3.22.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:openssh-8.4p1-150300.3.22.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:openssh-clients-8.4p1-150300.3.22.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:openssh-common-8.4p1-150300.3.22.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:openssh-fips-8.4p1-150300.3.22.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:openssh-server-8.4p1-150300.3.22.1",
+            "Container ses/7.1/rook/ceph:latest:openssh-8.4p1-150300.3.22.1",
+            "Container ses/7.1/rook/ceph:latest:openssh-clients-8.4p1-150300.3.22.1",
+            "Container ses/7.1/rook/ceph:latest:openssh-common-8.4p1-150300.3.22.1",
+            "Container ses/7.1/rook/ceph:latest:openssh-fips-8.4p1-150300.3.22.1",
+            "Container ses/7.1/rook/ceph:latest:openssh-server-8.4p1-150300.3.22.1",
             "Container suse/git:latest:openssh-clients-8.4p1-150300.3.22.1",
             "Container suse/git:latest:openssh-common-8.4p1-150300.3.22.1",
             "Container suse/manager/4.3/proxy-ssh:latest:openssh-8.4p1-150300.3.22.1",
@@ -1701,6 +2481,30 @@
             "Container suse/sle-micro-rancher/5.4:latest:openssh-clients-8.4p1-150300.3.22.1",
             "Container suse/sle-micro-rancher/5.4:latest:openssh-common-8.4p1-150300.3.22.1",
             "Container suse/sle-micro-rancher/5.4:latest:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
@@ -1773,6 +2577,38 @@
             "Image SLES15-SP4-Hardened-BYOS:openssh-clients-8.4p1-150300.3.22.1",
             "Image SLES15-SP4-Hardened-BYOS:openssh-common-8.4p1-150300.3.22.1",
             "Image SLES15-SP4-Hardened-BYOS:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:openssh-server-8.4p1-150300.3.22.1",
             "Image SLES15-SP4-Micro-5-3-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
             "Image SLES15-SP4-Micro-5-3-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
             "Image SLES15-SP4-Micro-5-3-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
@@ -1833,6 +2669,22 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:openssh-clients-8.4p1-150300.3.22.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:openssh-common-8.4p1-150300.3.22.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Azure-Basic:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Azure-Basic:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Azure-Basic:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Azure-Basic:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Azure-Standard:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Azure-Standard:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Azure-Standard:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Azure-Standard:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:openssh-8.4p1-150300.3.22.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:openssh-clients-8.4p1-150300.3.22.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:openssh-common-8.4p1-150300.3.22.1",
@@ -1853,6 +2705,78 @@
             "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:openssh-clients-8.4p1-150300.3.22.1",
             "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:openssh-common-8.4p1-150300.3.22.1",
             "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:openssh-server-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:openssh-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:openssh-clients-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:openssh-common-8.4p1-150300.3.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:openssh-server-8.4p1-150300.3.22.1",
             "SUSE Enterprise Storage 7.1:openssh-8.4p1-150300.3.22.1",
             "SUSE Enterprise Storage 7.1:openssh-askpass-gnome-8.4p1-150300.3.22.1",
             "SUSE Enterprise Storage 7.1:openssh-clients-8.4p1-150300.3.22.1",

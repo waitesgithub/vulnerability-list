@@ -654,11 +654,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "grub2-x86_64-xen-2.06-150400.11.5.2",
-        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "grub2-2.06-150400.11.5.2",
         "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
         "RelationType": "Default Component Of"
@@ -1809,7 +1804,6 @@
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-efi-2.06-150400.11.5.2",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -2142,7 +2136,6 @@
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-efi-2.06-150400.11.5.2",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -2483,7 +2476,6 @@
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-efi-2.06-150400.11.5.2",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -2824,7 +2816,6 @@
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-efi-2.06-150400.11.5.2",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -3161,7 +3152,6 @@
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-efi-2.06-150400.11.5.2",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -3494,7 +3484,6 @@
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-efi-2.06-150400.11.5.2",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -3835,7 +3824,6 @@
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-efi-2.06-150400.11.5.2",
-            "Image SLES15-SP4-Manager-Server-4-3-BYOS:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-3-Azure:grub2-x86_64-efi-2.06-150400.11.5.2",

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP4-Hardened-BYOS-2022-1898,Image SLES15-SP4-Hardened-BYOS-Azure-2022-1898,Image SLES15-SP4-Hardened-BYOS-EC2-2022-1898,Image SLES15-SP4-Hardened-BYOS-GCE-2022-1898,Image SLES15-SP4-SAP-Azure-LI-BYOS-2022-1898,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2022-1898,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2022-1898,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2022-1898,Image SLES15-SP4-SAP-BYOS-2022-1898,Image SLES15-SP4-SAP-BYOS-Azure-2022-1898,Image SLES15-SP4-SAP-BYOS-EC2-2022-1898,Image SLES15-SP4-SAP-BYOS-GCE-2022-1898,Image SLES15-SP4-SAP-Hardened-2022-1898,Image SLES15-SP4-SAP-Hardened-Azure-2022-1898,Image SLES15-SP4-SAP-Hardened-BYOS-2022-1898,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2022-1898,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2022-1898,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2022-1898,Image SLES15-SP4-SAP-Hardened-EC2-2022-1898,Image SLES15-SP4-SAP-Hardened-GCE-2022-1898,Image SLES15-SP5-Hardened-BYOS-EC2-2022-1898,Image SLES15-SP5-SAP-Azure-LI-BYOS-2022-1898,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2022-1898,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2022-1898,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2022-1898,Image SLES15-SP5-SAP-BYOS-EC2-2022-1898,Image SLES15-SP5-SAP-Hardened-Azure-2022-1898,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2022-1898,Image SLES15-SP5-SAP-Hardened-GCE-2022-1898,SUSE-2022-1898,SUSE-SLE-Module-Basesystem-15-SP4-2022-1898,SUSE-SLE-Module-Desktop-Applications-15-SP4-2022-1898,openSUSE-SLE-15.4-2022-1898",
+      "Text": "Image SLES15-SP4-Hardened-BYOS-2022-1898,Image SLES15-SP4-Hardened-BYOS-Azure-2022-1898,Image SLES15-SP4-Hardened-BYOS-EC2-2022-1898,Image SLES15-SP4-Hardened-BYOS-GCE-2022-1898,Image SLES15-SP4-SAP-Azure-LI-BYOS-2022-1898,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2022-1898,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2022-1898,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2022-1898,Image SLES15-SP4-SAP-BYOS-2022-1898,Image SLES15-SP4-SAP-BYOS-Azure-2022-1898,Image SLES15-SP4-SAP-BYOS-EC2-2022-1898,Image SLES15-SP4-SAP-BYOS-GCE-2022-1898,Image SLES15-SP4-SAP-Hardened-2022-1898,Image SLES15-SP4-SAP-Hardened-Azure-2022-1898,Image SLES15-SP4-SAP-Hardened-BYOS-2022-1898,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2022-1898,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2022-1898,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2022-1898,Image SLES15-SP4-SAP-Hardened-EC2-2022-1898,Image SLES15-SP4-SAP-Hardened-GCE-2022-1898,Image SLES15-SP5-Hardened-BYOS-Azure-2022-1898,Image SLES15-SP5-Hardened-BYOS-EC2-2022-1898,Image SLES15-SP5-Hardened-BYOS-GCE-2022-1898,Image SLES15-SP5-SAP-Azure-LI-BYOS-2022-1898,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2022-1898,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2022-1898,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2022-1898,Image SLES15-SP5-SAP-BYOS-Azure-2022-1898,Image SLES15-SP5-SAP-BYOS-EC2-2022-1898,Image SLES15-SP5-SAP-BYOS-GCE-2022-1898,Image SLES15-SP5-SAP-Hardened-Azure-2022-1898,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2022-1898,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2022-1898,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2022-1898,Image SLES15-SP5-SAP-Hardened-EC2-2022-1898,Image SLES15-SP5-SAP-Hardened-GCE-2022-1898,SUSE-2022-1898,SUSE-SLE-Module-Basesystem-15-SP4-2022-1898,SUSE-SLE-Module-Desktop-Applications-15-SP4-2022-1898,openSUSE-SLE-15.4-2022-1898",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -140,7 +140,17 @@
       },
       {
         "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -165,7 +175,17 @@
       },
       {
         "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -175,7 +195,22 @@
       },
       {
         "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfribidi0-1.0.10-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-EC2",
         "RelationType": "Default Component Of"
       },
       {
@@ -307,14 +342,21 @@
             "Image SLES15-SP4-SAP-Hardened-EC2:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:fribidi-1.0.10-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:fribidi-devel-1.0.10-150400.3.3.1",
@@ -372,14 +414,21 @@
             "Image SLES15-SP4-SAP-Hardened-EC2:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:fribidi-1.0.10-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:fribidi-devel-1.0.10-150400.3.3.1",
@@ -437,14 +486,21 @@
             "Image SLES15-SP4-SAP-Hardened-EC2:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libfribidi0-1.0.10-150400.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libfribidi0-1.0.10-150400.3.3.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libfribidi0-1.0.10-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:fribidi-1.0.10-150400.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:fribidi-devel-1.0.10-150400.3.3.1",

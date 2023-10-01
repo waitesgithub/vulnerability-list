@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/prometheus-server:latest-2023-3179,Container suse/sle-micro-rancher/5.2:latest-2023-3179,Container suse/sle-micro/5.1/toolbox:latest-2023-3179,Container suse/sle-micro/5.2/toolbox:latest-2023-3179,Container suse/sle15:15.2-2023-3179,Container suse/sle15:15.3-2023-3179,Container trento/trento-wanda:latest-2023-3179,Container trento/trento-web:latest-2023-3179,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-3179,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-3179,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3179,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3179,SUSE-2023-3179,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3179,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3179,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3179,SUSE-SLE-Product-RT-15-SP3-2023-3179,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3179,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3179,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3179,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3179,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3179,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3179,SUSE-SUSE-MicroOS-5.1-2023-3179,SUSE-SUSE-MicroOS-5.2-2023-3179,SUSE-Storage-7-2023-3179,SUSE-Storage-7.1-2023-3179",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2023-3179,Container ses/7.1/ceph/haproxy:latest-2023-3179,Container ses/7.1/ceph/keepalived:latest-2023-3179,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-3179,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-3179,Container ses/7.1/ceph/prometheus-server:latest-2023-3179,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-3179,Container ses/7.1/cephcsi/cephcsi:latest-2023-3179,Container ses/7.1/cephcsi/csi-attacher:v4.1.0-2023-3179,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0-2023-3179,Container ses/7.1/cephcsi/csi-provisioner:v3.4.0-2023-3179,Container ses/7.1/cephcsi/csi-resizer:v1.7.0-2023-3179,Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1-2023-3179,Container ses/7.1/rook/ceph:latest-2023-3179,Container suse/sle-micro-rancher/5.2:latest-2023-3179,Container suse/sle-micro/5.1/toolbox:latest-2023-3179,Container suse/sle-micro/5.2/toolbox:latest-2023-3179,Container suse/sle15:15.2-2023-3179,Container suse/sle15:15.3-2023-3179,Container trento/trento-wanda:latest-2023-3179,Container trento/trento-web:latest-2023-3179,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-3179,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-3179,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-3179,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-3179,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-3179,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-3179,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-3179,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3179,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3179,SUSE-2023-3179,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3179,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3179,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3179,SUSE-SLE-Product-RT-15-SP3-2023-3179,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3179,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3179,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3179,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3179,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3179,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3179,SUSE-SUSE-MicroOS-5.1-2023-3179,SUSE-SUSE-MicroOS-5.2-2023-3179,SUSE-Storage-7-2023-3179,SUSE-Storage-7.1-2023-3179",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,6 +40,81 @@
     "Relationships": [
       {
         "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-server:latest",
         "RelationType": "Default Component Of"
       },
@@ -51,6 +126,126 @@
       {
         "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-snmp_notifier:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-snmp_notifier:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-snmp_notifier:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v4.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v4.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v4.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-resizer:v1.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-resizer:v1.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-resizer:v1.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -171,6 +366,66 @@
       {
         "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
         "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-150200.11.72.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -804,9 +1059,48 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/grafana:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/haproxy:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/keepalived:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-alertmanager:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-node-exporter:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-node-exporter:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-node-exporter:latest:openssl-1_1-1.1.1d-150200.11.72.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
             "Container ses/7.1/ceph/prometheus-server:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v4.1.0:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v4.1.0:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v4.1.0:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-resizer:v1.7.0:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-resizer:v1.7.0:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-resizer:v1.7.0:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/rook/ceph:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/rook/ceph:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/rook/ceph:latest:openssl-1_1-1.1.1d-150200.11.72.1",
             "Container suse/sle-micro-rancher/5.2:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Container suse/sle-micro-rancher/5.2:latest:openssl-1_1-1.1.1d-150200.11.72.1",
             "Container suse/sle-micro/5.1/toolbox:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
@@ -831,6 +1125,18 @@
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.72.1",
@@ -974,9 +1280,48 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/grafana:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/grafana:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/haproxy:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/haproxy:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/keepalived:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/keepalived:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-alertmanager:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-alertmanager:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-node-exporter:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-node-exporter:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-node-exporter:latest:openssl-1_1-1.1.1d-150200.11.72.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
             "Container ses/7.1/ceph/prometheus-server:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v4.1.0:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v4.1.0:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v4.1.0:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-resizer:v1.7.0:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-resizer:v1.7.0:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-resizer:v1.7.0:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/rook/ceph:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/rook/ceph:latest:libopenssl1_1-hmac-1.1.1d-150200.11.72.1",
+            "Container ses/7.1/rook/ceph:latest:openssl-1_1-1.1.1d-150200.11.72.1",
             "Container suse/sle-micro-rancher/5.2:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Container suse/sle-micro-rancher/5.2:latest:openssl-1_1-1.1.1d-150200.11.72.1",
             "Container suse/sle-micro/5.1/toolbox:latest:libopenssl1_1-1.1.1d-150200.11.72.1",
@@ -1001,6 +1346,18 @@
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libopenssl1_1-32bit-1.1.1d-150200.11.72.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:openssl-1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:libopenssl1_1-1.1.1d-150200.11.72.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libopenssl1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:openssl-1_1-1.1.1d-150200.11.72.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libopenssl1_1-1.1.1d-150200.11.72.1",

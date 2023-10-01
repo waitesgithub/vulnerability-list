@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/golang:1.16-2019-2702,Container bci/golang:1.17-2019-2702,Container bci/golang:1.18-2019-2702,Container bci/golang:1.19-2019-2702,Container bci/golang:1.19-openssl-2019-2702,Container bci/golang:1.20-2019-2702,Container bci/golang:latest-2019-2702,Container bci/ruby:latest-2019-2702,Container bci/rust:1.59-2019-2702,Container bci/rust:1.60-2019-2702,Container caasp/v4/cilium:1.6.6-2019-2702,Container ses/6/cephcsi/cephcsi:latest-2019-2702,Container ses/6/rook/ceph:latest-2019-2702,Container suse/pcp:5-2019-2702,Container suse/pcp:latest-2019-2702,Container suse/sles/15.4/libguestfs-tools:0.49.0-2019-2702,Container trento/trento-runner:latest-2019-2702,Image SLES15-SAP-Azure-2019-2702,Image SLES15-SAP-Azure-BYOS-2019-2702,Image SLES15-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SAP-EC2-HVM-2019-2702,Image SLES15-SAP-EC2-HVM-BYOS-2019-2702,Image SLES15-SAP-GCE-2019-2702,Image SLES15-SAP-GCE-BYOS-2019-2702,Image SLES15-SAP-OCI-BYOS-2019-2702,Image SLES15-SP1-Azure-HPC-BYOS-2019-2702,Image SLES15-SP1-EC2-HPC-HVM-BYOS-2019-2702,Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy-2019-2702,Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server-2019-2702,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy-2019-2702,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server-2019-2702,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy-2019-2702,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server-2019-2702,Image SLES15-SP1-SAP-Azure-2019-2702,Image SLES15-SP1-SAP-Azure-BYOS-2019-2702,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP1-SAP-EC2-HVM-2019-2702,Image SLES15-SP1-SAP-EC2-HVM-BYOS-2019-2702,Image SLES15-SP1-SAP-GCE-2019-2702,Image SLES15-SP1-SAP-GCE-BYOS-2019-2702,Image SLES15-SP1-SAP-OCI-BYOS-2019-2702,Image SLES15-SP1-SAPCAL-Azure-2019-2702,Image SLES15-SP1-SAPCAL-EC2-HVM-2019-2702,Image SLES15-SP1-SAPCAL-GCE-2019-2702,Image SLES15-SP2-HPC-Azure-2019-2702,Image SLES15-SP2-HPC-BYOS-Azure-2019-2702,Image SLES15-SP2-HPC-BYOS-EC2-HVM-2019-2702,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure-2019-2702,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM-2019-2702,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE-2019-2702,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2019-2702,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2019-2702,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2019-2702,Image SLES15-SP2-SAP-Azure-2019-2702,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP2-SAP-BYOS-Azure-2019-2702,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2019-2702,Image SLES15-SP2-SAP-BYOS-GCE-2019-2702,Image SLES15-SP2-SAP-EC2-HVM-2019-2702,Image SLES15-SP2-SAP-GCE-2019-2702,Image SLES15-SP3-EC2-HVM-2019-2702,Image SLES15-SP3-HPC-Azure-2019-2702,Image SLES15-SP3-HPC-BYOS-Azure-2019-2702,Image SLES15-SP3-HPC-BYOS-EC2-HVM-2019-2702,Image SLES15-SP3-HPC-BYOS-GCE-2019-2702,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2019-2702,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2019-2702,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2019-2702,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2019-2702,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2019-2702,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2019-2702,Image SLES15-SP3-SAP-Azure-2019-2702,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP3-SAP-BYOS-Azure-2019-2702,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2019-2702,Image SLES15-SP3-SAP-BYOS-GCE-2019-2702,Image SLES15-SP3-SAP-EC2-HVM-2019-2702,Image SLES15-SP3-SAP-GCE-2019-2702,Image SLES15-SP3-SAPCAL-Azure-2019-2702,Image SLES15-SP3-SAPCAL-EC2-HVM-2019-2702,Image SLES15-SP3-SAPCAL-GCE-2019-2702,Image SLES15-SP4-HPC-2019-2702,Image SLES15-SP4-HPC-Azure-2019-2702,Image SLES15-SP4-HPC-BYOS-2019-2702,Image SLES15-SP4-HPC-BYOS-Azure-2019-2702,Image SLES15-SP4-HPC-BYOS-EC2-2019-2702,Image SLES15-SP4-HPC-BYOS-GCE-2019-2702,Image SLES15-SP4-HPC-EC2-2019-2702,Image SLES15-SP4-HPC-GCE-2019-2702,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2019-2702,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2019-2702,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2019-2702,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2019-2702,Image SLES15-SP4-Manager-Server-4-3-BYOS-2019-2702,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2019-2702,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2019-2702,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2019-2702,Image SLES15-SP4-SAP-2019-2702,Image SLES15-SP4-SAP-Azure-2019-2702,Image SLES15-SP4-SAP-Azure-LI-BYOS-2019-2702,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2019-2702,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP4-SAP-BYOS-2019-2702,Image SLES15-SP4-SAP-BYOS-Azure-2019-2702,Image SLES15-SP4-SAP-BYOS-EC2-2019-2702,Image SLES15-SP4-SAP-BYOS-GCE-2019-2702,Image SLES15-SP4-SAP-EC2-2019-2702,Image SLES15-SP4-SAP-GCE-2019-2702,Image SLES15-SP4-SAP-Hardened-EC2-2019-2702,Image SLES15-SP4-SAPCAL-2019-2702,Image SLES15-SP4-SAPCAL-Azure-2019-2702,Image SLES15-SP4-SAPCAL-EC2-2019-2702,Image SLES15-SP4-SAPCAL-GCE-2019-2702,Image SLES15-SP5-GCE-2019-2702,Image SLES15-SP5-HPC-Azure-2019-2702,Image SLES15-SP5-HPC-BYOS-EC2-2019-2702,Image SLES15-SP5-SAP-Azure-2019-2702,Image SLES15-SP5-SAP-Azure-LI-BYOS-2019-2702,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2019-2702,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP5-SAP-BYOS-EC2-2019-2702,Image SLES15-SP5-SAP-EC2-2019-2702,Image SLES15-SP5-SAP-GCE-2019-2702,Image SLES15-SP5-SAP-Hardened-Azure-2019-2702,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2019-2702,Image SLES15-SP5-SAP-Hardened-GCE-2019-2702,Image SLES15-SP5-SAPCAL-EC2-2019-2702,SUSE-2019-2702,SUSE-SLE-Module-Basesystem-15-2019-2702,SUSE-SLE-Module-Basesystem-15-SP1-2019-2702,SUSE-SLE-Module-Development-Tools-15-2019-2702,SUSE-SLE-Module-Development-Tools-15-SP1-2019-2702,SUSE-SLE-Module-Development-Tools-OBS-15-2019-2702,SUSE-SLE-Module-Development-Tools-OBS-15-SP1-2019-2702",
+      "Text": "Container bci/golang:1.16-2019-2702,Container bci/golang:1.17-2019-2702,Container bci/golang:1.18-2019-2702,Container bci/golang:1.19-2019-2702,Container bci/golang:1.19-openssl-2019-2702,Container bci/golang:1.20-2019-2702,Container bci/golang:latest-2019-2702,Container bci/ruby:latest-2019-2702,Container bci/rust:1.59-2019-2702,Container bci/rust:1.60-2019-2702,Container caasp/v4/cilium:1.6.6-2019-2702,Container ses/6/cephcsi/cephcsi:latest-2019-2702,Container ses/6/rook/ceph:latest-2019-2702,Container suse/pcp:5-2019-2702,Container suse/pcp:latest-2019-2702,Container suse/sles/15.4/libguestfs-tools:0.49.0-2019-2702,Container trento/trento-runner:latest-2019-2702,Image SLES15-SAP-Azure-2019-2702,Image SLES15-SAP-Azure-BYOS-2019-2702,Image SLES15-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SAP-EC2-HVM-2019-2702,Image SLES15-SAP-EC2-HVM-BYOS-2019-2702,Image SLES15-SAP-GCE-2019-2702,Image SLES15-SAP-GCE-BYOS-2019-2702,Image SLES15-SAP-OCI-BYOS-2019-2702,Image SLES15-SP1-Azure-HPC-BYOS-2019-2702,Image SLES15-SP1-EC2-HPC-HVM-BYOS-2019-2702,Image SLES15-SP1-Manager-4-0-Azure-BYOS-Proxy-2019-2702,Image SLES15-SP1-Manager-4-0-Azure-BYOS-Server-2019-2702,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Proxy-2019-2702,Image SLES15-SP1-Manager-4-0-EC2-HVM-BYOS-Server-2019-2702,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Proxy-2019-2702,Image SLES15-SP1-Manager-4-0-GCE-BYOS-Server-2019-2702,Image SLES15-SP1-SAP-Azure-2019-2702,Image SLES15-SP1-SAP-Azure-BYOS-2019-2702,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP1-SAP-EC2-HVM-2019-2702,Image SLES15-SP1-SAP-EC2-HVM-BYOS-2019-2702,Image SLES15-SP1-SAP-GCE-2019-2702,Image SLES15-SP1-SAP-GCE-BYOS-2019-2702,Image SLES15-SP1-SAP-OCI-BYOS-2019-2702,Image SLES15-SP1-SAPCAL-Azure-2019-2702,Image SLES15-SP1-SAPCAL-EC2-HVM-2019-2702,Image SLES15-SP1-SAPCAL-GCE-2019-2702,Image SLES15-SP2-HPC-Azure-2019-2702,Image SLES15-SP2-HPC-BYOS-Azure-2019-2702,Image SLES15-SP2-HPC-BYOS-EC2-HVM-2019-2702,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure-2019-2702,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM-2019-2702,Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE-2019-2702,Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure-2019-2702,Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM-2019-2702,Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE-2019-2702,Image SLES15-SP2-SAP-Azure-2019-2702,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP2-SAP-BYOS-Azure-2019-2702,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2019-2702,Image SLES15-SP2-SAP-BYOS-GCE-2019-2702,Image SLES15-SP2-SAP-EC2-HVM-2019-2702,Image SLES15-SP2-SAP-GCE-2019-2702,Image SLES15-SP3-EC2-HVM-2019-2702,Image SLES15-SP3-HPC-Azure-2019-2702,Image SLES15-SP3-HPC-BYOS-Azure-2019-2702,Image SLES15-SP3-HPC-BYOS-EC2-HVM-2019-2702,Image SLES15-SP3-HPC-BYOS-GCE-2019-2702,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2019-2702,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2019-2702,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2019-2702,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2019-2702,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2019-2702,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2019-2702,Image SLES15-SP3-SAP-Azure-2019-2702,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP3-SAP-BYOS-Azure-2019-2702,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2019-2702,Image SLES15-SP3-SAP-BYOS-GCE-2019-2702,Image SLES15-SP3-SAP-EC2-HVM-2019-2702,Image SLES15-SP3-SAP-GCE-2019-2702,Image SLES15-SP3-SAPCAL-Azure-2019-2702,Image SLES15-SP3-SAPCAL-EC2-HVM-2019-2702,Image SLES15-SP3-SAPCAL-GCE-2019-2702,Image SLES15-SP4-HPC-2019-2702,Image SLES15-SP4-HPC-Azure-2019-2702,Image SLES15-SP4-HPC-BYOS-2019-2702,Image SLES15-SP4-HPC-BYOS-Azure-2019-2702,Image SLES15-SP4-HPC-BYOS-EC2-2019-2702,Image SLES15-SP4-HPC-BYOS-GCE-2019-2702,Image SLES15-SP4-HPC-EC2-2019-2702,Image SLES15-SP4-HPC-GCE-2019-2702,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2019-2702,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2019-2702,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2019-2702,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2019-2702,Image SLES15-SP4-Manager-Server-4-3-BYOS-2019-2702,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2019-2702,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2019-2702,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2019-2702,Image SLES15-SP4-SAP-2019-2702,Image SLES15-SP4-SAP-Azure-2019-2702,Image SLES15-SP4-SAP-Azure-LI-BYOS-2019-2702,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2019-2702,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP4-SAP-BYOS-2019-2702,Image SLES15-SP4-SAP-BYOS-Azure-2019-2702,Image SLES15-SP4-SAP-BYOS-EC2-2019-2702,Image SLES15-SP4-SAP-BYOS-GCE-2019-2702,Image SLES15-SP4-SAP-EC2-2019-2702,Image SLES15-SP4-SAP-GCE-2019-2702,Image SLES15-SP4-SAP-Hardened-EC2-2019-2702,Image SLES15-SP4-SAPCAL-2019-2702,Image SLES15-SP4-SAPCAL-Azure-2019-2702,Image SLES15-SP4-SAPCAL-EC2-2019-2702,Image SLES15-SP4-SAPCAL-GCE-2019-2702,Image SLES15-SP5-HPC-Azure-2019-2702,Image SLES15-SP5-HPC-BYOS-Azure-2019-2702,Image SLES15-SP5-HPC-BYOS-EC2-2019-2702,Image SLES15-SP5-HPC-BYOS-GCE-2019-2702,Image SLES15-SP5-HPC-EC2-2019-2702,Image SLES15-SP5-HPC-GCE-2019-2702,Image SLES15-SP5-SAP-Azure-2019-2702,Image SLES15-SP5-SAP-Azure-LI-BYOS-2019-2702,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2019-2702,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2019-2702,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2019-2702,Image SLES15-SP5-SAP-BYOS-EC2-2019-2702,Image SLES15-SP5-SAP-EC2-2019-2702,Image SLES15-SP5-SAP-GCE-2019-2702,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2019-2702,Image SLES15-SP5-SAP-Hardened-EC2-2019-2702,Image SLES15-SP5-SAPCAL-Azure-2019-2702,Image SLES15-SP5-SAPCAL-EC2-2019-2702,Image SLES15-SP5-SAPCAL-GCE-2019-2702,SUSE-2019-2702,SUSE-SLE-Module-Basesystem-15-2019-2702,SUSE-SLE-Module-Basesystem-15-SP1-2019-2702,SUSE-SLE-Module-Development-Tools-15-2019-2702,SUSE-SLE-Module-Development-Tools-15-SP1-2019-2702,SUSE-SLE-Module-Development-Tools-OBS-15-2019-2702,SUSE-SLE-Module-Development-Tools-OBS-15-SP1-2019-2702",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -3180,56 +3180,6 @@
       },
       {
         "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "gcc7-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "gcc7-c++-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "gcc7-fortran-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libasan4-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libcilkrts5-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libgfortran4-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libobjc4-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
         "RelationType": "Default Component Of"
       },
@@ -3275,6 +3225,51 @@
       },
       {
         "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -3316,6 +3311,141 @@
       {
         "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -3575,17 +3705,62 @@
       },
       {
         "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libobjc4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
         "RelationType": "Default Component Of"
       },
       {
@@ -3636,6 +3811,56 @@
       {
         "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-c++-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-fortran-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgfortran4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libobjc4-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.4.1+r275405-4.9.2",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -4584,16 +4809,6 @@
             "Image SLES15-SP4-SAPCAL:libobjc4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP4-SAPCAL:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP4-SAPCAL:libubsan0-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:cpp7-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:gcc7-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:gcc7-c++-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:gcc7-fortran-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libasan4-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libcilkrts5-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libgfortran4-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libobjc4-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libubsan0-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:gcc7-c++-7.4.1+r275405-4.9.2",
@@ -4603,6 +4818,15 @@
             "Image SLES15-SP5-HPC-Azure:libgfortran4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libubsan0-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:gcc7-c++-7.4.1+r275405-4.9.2",
@@ -4612,6 +4836,33 @@
             "Image SLES15-SP5-HPC-BYOS-EC2:libgfortran4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libubsan0-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libasan4-7.4.1+r275405-4.9.2",
@@ -4663,9 +4914,18 @@
             "Image SLES15-SP5-SAP-GCE:libobjc4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-GCE:libubsan0-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-SAP-Hardened-Azure:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:cpp7-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-SAP-Hardened-GCE:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAP-Hardened-EC2:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libobjc4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libubsan0-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:gcc7-c++-7.4.1+r275405-4.9.2",
@@ -4676,6 +4936,16 @@
             "Image SLES15-SP5-SAPCAL-EC2:libobjc4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libobjc4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libubsan0-7.4.1+r275405-4.9.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:cpp7-7.4.1+r275405-4.9.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:gcc7-7.4.1+r275405-4.9.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:gcc7-c++-7.4.1+r275405-4.9.2",
@@ -5382,16 +5652,6 @@
             "Image SLES15-SP4-SAPCAL:libobjc4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP4-SAPCAL:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP4-SAPCAL:libubsan0-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:cpp7-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:gcc7-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:gcc7-c++-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:gcc7-fortran-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libasan4-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libcilkrts5-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libgfortran4-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libobjc4-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-GCE:libubsan0-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:gcc7-c++-7.4.1+r275405-4.9.2",
@@ -5401,6 +5661,15 @@
             "Image SLES15-SP5-HPC-Azure:libgfortran4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-Azure:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libubsan0-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:gcc7-c++-7.4.1+r275405-4.9.2",
@@ -5410,6 +5679,33 @@
             "Image SLES15-SP5-HPC-BYOS-EC2:libgfortran4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-HPC-BYOS-EC2:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-EC2:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-HPC-GCE:libubsan0-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libasan4-7.4.1+r275405-4.9.2",
@@ -5461,9 +5757,18 @@
             "Image SLES15-SP5-SAP-GCE:libobjc4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-GCE:libubsan0-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-SAP-Hardened-Azure:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:cpp7-7.4.1+r275405-4.9.2",
-            "Image SLES15-SP5-SAP-Hardened-GCE:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAP-Hardened-EC2:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libobjc4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-Azure:libubsan0-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:cpp7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:gcc7-c++-7.4.1+r275405-4.9.2",
@@ -5474,6 +5779,16 @@
             "Image SLES15-SP5-SAPCAL-EC2:libobjc4-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
             "Image SLES15-SP5-SAPCAL-EC2:libubsan0-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:cpp7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:gcc7-c++-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:gcc7-fortran-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libasan4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libcilkrts5-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libgfortran4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libobjc4-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libstdc++6-devel-gcc7-7.4.1+r275405-4.9.2",
+            "Image SLES15-SP5-SAPCAL-GCE:libubsan0-7.4.1+r275405-4.9.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:cpp7-7.4.1+r275405-4.9.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:gcc7-7.4.1+r275405-4.9.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP1:gcc7-c++-7.4.1+r275405-4.9.2",
