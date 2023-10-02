@@ -1,9 +1,13 @@
 {
-  "name": "snappy",
+  "name": "exim",
   "secfixes": {
-    "0": [
-      "CVE-2023-28115",
-      "CVE-2023-41330"
+    "4.96.1-r0": [
+      "CVE-2023-42114",
+      "CVE-2023-42115",
+      "CVE-2023-42116",
+      "CVE-2023-42117",
+      "CVE-2023-42118",
+      "CVE-2023-42219"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
