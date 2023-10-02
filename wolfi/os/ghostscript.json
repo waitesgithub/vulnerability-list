@@ -3,6 +3,9 @@
   "secfixes": {
     "0": [
       "CVE-2023-36664"
+    ],
+    "10.02.0-r0": [
+      "CVE-2023-43115"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

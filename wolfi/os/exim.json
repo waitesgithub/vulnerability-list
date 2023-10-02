@@ -1,11 +1,13 @@
 {
-  "name": "trillian",
+  "name": "exim",
   "secfixes": {
-    "0": [
-      "CVE-2007-3305",
-      "CVE-2008-2407",
-      "CVE-2008-5401",
-      "CVE-2019-3826"
+    "4.96.1-r0": [
+      "CVE-2023-42114",
+      "CVE-2023-42115",
+      "CVE-2023-42116",
+      "CVE-2023-42117",
+      "CVE-2023-42118",
+      "CVE-2023-42219"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

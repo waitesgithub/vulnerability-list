@@ -1,11 +1,8 @@
 {
-  "name": "trillian",
+  "name": "openmp-16",
   "secfixes": {
     "0": [
-      "CVE-2007-3305",
-      "CVE-2008-2407",
-      "CVE-2008-5401",
-      "CVE-2019-3826"
+      "CVE-2022-26345"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
