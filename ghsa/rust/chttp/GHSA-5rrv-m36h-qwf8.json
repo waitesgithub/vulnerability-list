@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-06-22T05:03:03Z",
+  "UpdatedAt": "2023-10-02T16:41:55Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "chttp"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://rustsec.org/advisories/RUSTSEC-2019-0016.html"
+      },
+      {
+        "Url": "https://github.com/sagebind/isahc/commit/9e9f1fb44114078c000c78c72e691eeb9e7ac260"
       },
       {
         "Url": "https://github.com/advisories/GHSA-5rrv-m36h-qwf8"
@@ -38,7 +41,7 @@
     "PublishedAt": "2021-08-25T20:44:40Z",
     "Severity": "CRITICAL",
     "Summary": "Use-after-free in chttp",
-    "UpdatedAt": "2023-06-22T05:03:03Z",
+    "UpdatedAt": "2023-10-02T16:41:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
