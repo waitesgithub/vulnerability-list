@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-01-06T18:40:07Z",
+  "UpdatedAt": "2023-10-02T23:32:50Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "smallvec"
@@ -23,6 +23,12 @@
         "Url": "https://github.com/servo/rust-smallvec/issues/126"
       },
       {
+        "Url": "https://github.com/servo/rust-smallvec/pull/162"
+      },
+      {
+        "Url": "https://github.com/servo/rust-smallvec/commit/e64afc8c473d43e375ab42bd33db2d0d4ac4e41b"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-55m5-whcv-c49c"
       }
     ],
@@ -41,7 +47,7 @@
     "PublishedAt": "2022-01-06T22:20:28Z",
     "Severity": "HIGH",
     "Summary": "Use of Uninitialized Resource in smallvec",
-    "UpdatedAt": "2023-06-13T20:53:49Z",
+    "UpdatedAt": "2023-10-02T23:32:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

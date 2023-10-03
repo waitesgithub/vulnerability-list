@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-06-13T22:25:57Z",
+  "UpdatedAt": "2023-10-02T20:26:29Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "trust-dns-server"
@@ -18,6 +18,12 @@
       },
       {
         "Url": "https://rustsec.org/advisories/RUSTSEC-2020-0001.html"
+      },
+      {
+        "Url": "https://github.com/bluejekyll/trust-dns/pull/982"
+      },
+      {
+        "Url": "https://github.com/bluejekyll/trust-dns/commit/8b9eab05795fdc098976262853b2498055c7a8f3"
       },
       {
         "Url": "https://github.com/advisories/GHSA-4cww-f7w5-x525"
@@ -38,7 +44,7 @@
     "PublishedAt": "2021-08-25T20:46:13Z",
     "Severity": "HIGH",
     "Summary": "Stack consumption in trust-dns-server",
-    "UpdatedAt": "2023-06-13T22:25:57Z",
+    "UpdatedAt": "2023-10-02T20:26:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

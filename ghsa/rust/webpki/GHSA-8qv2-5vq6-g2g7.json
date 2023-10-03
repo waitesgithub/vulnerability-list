@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-09-06T17:36:28Z",
+  "UpdatedAt": "2023-10-02T21:02:45Z",
   "Package": {
     "Ecosystem": "RUST",
     "Name": "webpki"
@@ -40,7 +40,7 @@
     "PublishedAt": "2023-08-25T00:12:39Z",
     "Severity": "HIGH",
     "Summary": "webpki: CPU denial of service in certificate path building",
-    "UpdatedAt": "2023-09-06T17:41:03Z",
+    "UpdatedAt": "2023-10-02T21:02:45Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -50,9 +50,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.22.1"
+        "Identifier": "0.22.2"
       },
-      "VulnerableVersionRange": "\u003c= 0.22.0"
+      "VulnerableVersionRange": "\u003c= 0.22.1"
     }
   ]
 }
