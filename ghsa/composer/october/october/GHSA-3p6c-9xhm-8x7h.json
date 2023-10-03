@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-25T23:29:04Z",
+  "UpdatedAt": "2023-10-03T14:47:01Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "october/october"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-05-13T01:24:44Z",
     "Severity": "MODERATE",
     "Summary": "October CMS XSS",
-    "UpdatedAt": "2023-07-25T23:29:04Z",
+    "UpdatedAt": "2023-10-03T14:47:01Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -45,7 +45,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.0.413"
       },
       "VulnerableVersionRange": "\u003c= 1.0.412"
     }
