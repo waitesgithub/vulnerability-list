@@ -2,7 +2,8 @@
   "name": "kubernetes-dns-node-cache",
   "secfixes": {
     "0": [
-      "CVE-2019-11255"
+      "CVE-2019-11255",
+      "CVE-2021-25743"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
