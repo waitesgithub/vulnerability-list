@@ -5,7 +5,7 @@
     "date": "2023-09-13 23:15"
   },
   "updated": {
-    "date": "2023-09-13 23:15"
+    "date": "2023-09-25 20:12"
   },
   "severity": "medium",
   "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2022-48174:\n\tThere is a stack overflow vulnerability in ash.c:6030 in busybox before 1.35. In the environment of Internet of Vehicles, this vulnerability can be executed from command to arbitrary code execution.\n",

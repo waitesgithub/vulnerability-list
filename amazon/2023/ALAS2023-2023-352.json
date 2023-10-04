@@ -5,7 +5,7 @@
     "date": "2023-09-14 00:55:00"
   },
   "updated": {
-    "date": "2023-09-14 00:55:00"
+    "date": "2023-09-20 21:35:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2021-46829:\n\tGNOME GdkPixbuf (aka GDK-PixBuf) before 2.42.8 allows a heap-based buffer overflow when compositing or clearing frames in GIF files, as demonstrated by io-gif-animation.c composite_frame. This overflow is controllable and could be abused for code execution, especially on 32-bit systems.\n\nCVE-2021-44648:\n\tGNOME gdk-pixbuf 2.42.6 is vulnerable to a heap-buffer overflow vulnerability when decoding the lzw compressed stream of image data in GIF files with lzw minimum code size equals to 12.\n",

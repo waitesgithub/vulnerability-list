@@ -5,7 +5,7 @@
     "date": "2023-09-14 00:55:00"
   },
   "updated": {
-    "date": "2023-09-14 00:55:00"
+    "date": "2023-09-20 21:31:00"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2020-35357:\n\tA buffer overflow can occur when calculating the quantile value using the Statistics Library of GSL (GNU Scientific Library), versions 2.5 and 2.6. Processing a maliciously crafted input data for gsl_stats_quantile_from_sorted_data of the library may lead to unexpected application termination or arbitrary code execution.\n",
