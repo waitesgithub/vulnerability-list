@@ -32,6 +32,9 @@
         "Url": "https://www.silverstripe.org/download/security-releases/CVE-2023-32302"
       },
       {
+        "Url": "https://github.com/github/advisory-database/pull/2575"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-36xx-7vf6-7mv3"
       }
     ],
@@ -50,7 +53,7 @@
     "PublishedAt": "2023-07-31T22:00:58Z",
     "Severity": "LOW",
     "Summary": "Silverstripe Framework: Members with no password can be created and bypass custom login forms",
-    "UpdatedAt": "2023-08-23T19:40:28Z",
+    "UpdatedAt": "2023-10-04T17:11:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
