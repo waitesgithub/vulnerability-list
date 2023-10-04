@@ -1,9 +1,9 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-09-14T16:20:51Z",
+  "UpdatedAt": "2023-10-03T20:27:41Z",
   "Package": {
     "Ecosystem": "RUST",
-    "Name": "libwebp-sys2"
+    "Name": "webp"
   },
   "Advisory": {
     "DatabaseId": 220451,
@@ -207,9 +207,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.1.8"
+        "Identifier": "0.2.6"
       },
-      "VulnerableVersionRange": "\u003c 0.1.8"
+      "VulnerableVersionRange": "\u003c 0.2.6"
     }
   ]
 }

@@ -30,12 +30,12 @@
         "Value": "CVE-2023-22476"
       }
     ],
-    "Description": "### Impact\nDue to insufficient access-level checks, any logged-in user allowed to perform Group Actions can get access to the _Summary_ field of private Issues (i.e. having Private view status, or belonging to a private Project) via a crafted `bug_arr[]` parameter in *bug_actiongroup_ext.php*.\n\n### Patches\nPatch is under development. The vulnerability will be fixed in MantisBT version 2.25.6. \n\n### Workarounds\nNone\n\n### Credits\nThanks to [d3vpoo1](https://github.com/jrckmcsb) for reporting the issue.\n\n### References\n- https://mantisbt.org/bugs/view.php?id=31086\n",
+    "Description": "### Impact\nDue to insufficient access-level checks, any logged-in user allowed to perform Group Actions can get access to the _Summary_ field of private Issues (i.e. having Private view status, or belonging to a private Project) via a crafted `bug_arr[]` parameter in *bug_actiongroup_ext.php*.\n\n### Patches\nThe vulnerability has been fixed in MantisBT version 2.25.6. \n\n### Workarounds\nNone\n\n### Credits\nThanks to [d3vpoo1](https://github.com/jrckmcsb) for reporting the issue.\n\n### References\n- https://mantisbt.org/bugs/view.php?id=31086\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-02-23T19:39:54Z",
     "Severity": "MODERATE",
     "Summary": "MantisBT may expose private issues' summaries to unauthorized users",
-    "UpdatedAt": "2023-02-23T19:39:56Z",
+    "UpdatedAt": "2023-10-03T21:26:06Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.3,

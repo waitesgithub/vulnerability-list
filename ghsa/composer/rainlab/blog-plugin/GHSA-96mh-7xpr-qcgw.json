@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-21T20:43:18Z",
+  "UpdatedAt": "2023-10-03T21:23:20Z",
   "Package": {
     "Ecosystem": "COMPOSER",
-    "Name": "october/october"
+    "Name": "rainlab/blog-plugin"
   },
   "Advisory": {
     "DatabaseId": 66896,
@@ -20,6 +20,9 @@
         "Url": "http://securitywarrior9.blogspot.com/2018/02/html-injection-october-cms.html"
       },
       {
+        "Url": "https://github.com/rainlab/blog-plugin/commit/6ae19a6e16ef3ba730692bc899851342c858bb94"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-96mh-7xpr-qcgw"
       }
     ],
@@ -33,12 +36,12 @@
         "Value": "CVE-2018-7198"
       }
     ],
-    "Description": "October CMS through 1.0.431 allows XSS by entering HTML on the Add Posts page.",
+    "Description": "The RainLab Blog Plugin used in October CMS through 1.0.431 allows XSS by entering HTML on the Add Posts page.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-13T01:24:44Z",
     "Severity": "MODERATE",
-    "Summary": "October CMS XSS",
-    "UpdatedAt": "2023-07-21T20:43:18Z",
+    "Summary": "October CMS - RainLab Blog Plugin XSS",
+    "UpdatedAt": "2023-10-03T21:23:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -48,9 +51,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.4.1"
       },
-      "VulnerableVersionRange": "\u003c= 1.0.431"
+      "VulnerableVersionRange": "\u003c 1.4.1"
     }
   ]
 }
