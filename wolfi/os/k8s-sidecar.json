@@ -1,10 +1,7 @@
 {
-  "name": "kubeflow-jupyter-web-app",
+  "name": "k8s-sidecar",
   "secfixes": {
-    "1.7.0-r4": [
-      "CVE-2023-41419"
-    ],
-    "1.7.0-r5": [
+    "1.25.1-r2": [
       "CVE-2023-43804"
     ]
   },
