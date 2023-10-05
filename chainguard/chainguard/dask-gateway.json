@@ -1,13 +1,7 @@
 {
-  "name": "kube-downscaler",
+  "name": "dask-gateway",
   "secfixes": {
-    "23.2.0-r3": [
-      "CVE-2023-37920"
-    ],
-    "23.2.0-r5": [
-      "GHSA-v8gr-m533-ghj9"
-    ],
-    "23.2.0-r6": [
+    "2023.9.0-r1": [
       "CVE-2023-43804"
     ]
   },

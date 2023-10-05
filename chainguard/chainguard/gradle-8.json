@@ -10,6 +10,9 @@
     "8.2.1-r1": [
       "CVE-2020-8908",
       "CVE-2023-2976"
+    ],
+    "8.4.0-r0": [
+      "CVE-2022-46751"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
