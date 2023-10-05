@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-20T00:02:45Z",
+  "UpdatedAt": "2023-10-05T17:52:50Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "intelliants/subrion"
@@ -15,6 +15,9 @@
       },
       {
         "Url": "https://github.com/intelliants/subrion/issues/638"
+      },
+      {
+        "Url": "https://github.com/intelliants/subrion/blob/c8aaeb04f44554e454be9763527a7be7fbe7bfd5/changelog.txt#L899"
       },
       {
         "Url": "https://github.com/advisories/GHSA-g8j7-w673-4mjp"
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-05-24T17:11:40Z",
     "Severity": "HIGH",
     "Summary": "Subrion CMS CSRF Vulnerability",
-    "UpdatedAt": "2023-07-20T00:02:45Z",
+    "UpdatedAt": "2023-10-05T17:52:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -47,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "4.2.1"
       },
-      "VulnerableVersionRange": "\u003c= 4.1.5"
+      "VulnerableVersionRange": "\u003c 4.2.1"
     }
   ]
 }
