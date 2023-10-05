@@ -2,6 +2,18 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package libwebp is earlier than 1.3.2-1, affected by CVE-2023-4863",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:29758000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:29758001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:29758002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package pmix is earlier than 4.1.3-1, affected by CVE-2023-41915",
       "ID": "oval:com.microsoft.cbl-mariner:tst:29702000",
       "Version": "1",
@@ -1786,6 +1798,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:27187002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package libwebp is earlier than 1.3.2-1, affected by CVE-2023-1999",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:27181000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:27181001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:27181002"
       }
     },
     {
@@ -4562,7 +4586,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is earlier than 1.19.6-1, affected by CVE-2022-41725",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13732000",
       "Version": "0",
       "Object": {
@@ -4574,7 +4598,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is earlier than 1.19.6-1, affected by CVE-2022-41724",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13731000",
       "Version": "0",
       "Object": {
@@ -4586,7 +4610,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13730000",
       "Version": "0",
       "Object": {
@@ -4718,7 +4742,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package rust is installed with version 1.68.2-5 or earlier",
+      "Comment": "Package rust is installed with version 1.72.0-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13686000",
       "Version": "0",
       "Object": {
@@ -5378,7 +5402,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package glibc is installed with version 2.35-4 or earlier",
+      "Comment": "Package glibc is installed with version 2.35-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13348000",
       "Version": "0",
       "Object": {
@@ -6014,7 +6038,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package libgit2 is installed with version 1.1.0-5 or earlier",
+      "Comment": "Package libgit2 is earlier than 1.4.5-1, affected by CVE-2023-22742",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13140000",
       "Version": "0",
       "Object": {
@@ -6686,7 +6710,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package rpm-ostree is installed with version 2022.1-5 or earlier",
+      "Comment": "Package rpm-ostree is installed with version 2022.1-6 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12937000",
       "Version": "0",
       "Object": {
@@ -6698,7 +6722,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package netavark is installed with version 1.0.3-4 or earlier",
+      "Comment": "Package netavark is installed with version 1.0.3-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12936000",
       "Version": "0",
       "Object": {
@@ -6746,7 +6770,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kata-containers is installed with version 3.1.0-4 or earlier",
+      "Comment": "Package kata-containers is installed with version 3.1.0-7 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12932000",
       "Version": "0",
       "Object": {
@@ -7250,7 +7274,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package podman is installed with version 4.1.1-14 or earlier",
+      "Comment": "Package podman is installed with version 4.1.1-15 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11587000",
       "Version": "0",
       "Object": {
@@ -8870,7 +8894,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11130000",
       "Version": "0",
       "Object": {
@@ -8882,7 +8906,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11129000",
       "Version": "0",
       "Object": {
@@ -8894,7 +8918,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11128000",
       "Version": "0",
       "Object": {
@@ -9818,7 +9842,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10855000",
       "Version": "0",
       "Object": {
@@ -14030,7 +14054,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package buildah is installed with version 1.18.0-17 or earlier",
+      "Comment": "Package buildah is installed with version 1.18.0-18 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:9318000",
       "Version": "0",
       "Object": {
@@ -18662,7 +18686,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package freeradius is installed with version 3.0.21-9 or earlier",
+      "Comment": "Package freeradius is installed with version 3.2.3-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7231000",
       "Version": "0",
       "Object": {
@@ -18674,7 +18698,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package freeradius is installed with version 3.0.21-9 or earlier",
+      "Comment": "Package freeradius is installed with version 3.2.3-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:7230000",
       "Version": "0",
       "Object": {
@@ -24362,7 +24386,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package glibc is installed with version 2.35-4 or earlier",
+      "Comment": "Package glibc is installed with version 2.35-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6441000",
       "Version": "0",
       "Object": {
