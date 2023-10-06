@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-07-21T21:45:42Z",
+  "UpdatedAt": "2023-10-06T17:53:47Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "anchorcms/anchor-cms"
@@ -47,7 +47,7 @@
     "PublishedAt": "2022-05-13T01:39:42Z",
     "Severity": "CRITICAL",
     "Summary": "Anchor CMS Logs Credentials",
-    "UpdatedAt": "2023-07-21T21:45:42Z",
+    "UpdatedAt": "2023-10-06T17:53:47Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
@@ -59,7 +59,7 @@
       "FirstPatchedVersion": {
         "Identifier": "0.12.7"
       },
-      "VulnerableVersionRange": "\u003c= 0.12.3"
+      "VulnerableVersionRange": "\u003c 0.12.7"
     }
   ]
 }

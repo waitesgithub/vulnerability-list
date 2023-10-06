@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-25T21:22:41Z",
+  "UpdatedAt": "2023-10-06T16:57:55Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "forkcms/forkcms"
@@ -30,12 +30,12 @@
         "Value": "CVE-2018-5215"
       }
     ],
-    "Description": "Fork CMS 5.0.7 has XSS in /private/en/pages/edit via the title parameter.",
+    "Description": "Fork CMS 5.0.7 has XSS in `/private/en/pages/edit` via the title parameter.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-14T03:50:13Z",
     "Severity": "MODERATE",
     "Summary": "Fork CMS XSS Vulnerability",
-    "UpdatedAt": "2023-07-25T21:22:41Z",
+    "UpdatedAt": "2023-10-06T16:57:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

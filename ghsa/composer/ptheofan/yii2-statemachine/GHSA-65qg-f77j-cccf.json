@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-25T21:20:03Z",
+  "UpdatedAt": "2023-10-06T16:50:07Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "ptheofan/yii2-statemachine"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-05-14T03:10:52Z",
     "Severity": "MODERATE",
     "Summary": "Yii2-StateMachine extension for Yii2 XSS Vulnerability",
-    "UpdatedAt": "2023-07-25T21:20:03Z",
+    "UpdatedAt": "2023-10-06T16:50:07Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -47,7 +47,7 @@
       "FirstPatchedVersion": {
         "Identifier": ""
       },
-      "VulnerableVersionRange": "\u003e= 2"
+      "VulnerableVersionRange": "\u003e= 2.0.0-RC1, \u003c= 2.0.0"
     }
   ]
 }

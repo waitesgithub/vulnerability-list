@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-24T22:14:19Z",
+  "UpdatedAt": "2023-10-06T15:40:18Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "prestashop/prestashop"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-05-14T01:37:11Z",
     "Severity": "HIGH",
     "Summary": "PrestaShop PHP Object Injection",
-    "UpdatedAt": "2023-07-24T22:14:19Z",
+    "UpdatedAt": "2023-10-06T15:40:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -48,7 +48,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.7.2.5"
       },
       "VulnerableVersionRange": "\u003c 1.7.2.5"
     }

@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-24T21:07:41Z",
+  "UpdatedAt": "2023-10-06T15:51:19Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "microweber/microweber"
@@ -18,6 +18,9 @@
       },
       {
         "Url": "https://0dd.zone/2018/10/28/microweber-XSS/"
+      },
+      {
+        "Url": "https://github.com/microweber/microweber/commit/5b29bc854bcfbfc5d4df1523ee221c900e7598a9"
       },
       {
         "Url": "https://github.com/advisories/GHSA-xmcr-x5x3-gjfx"
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-05-14T01:40:50Z",
     "Severity": "MODERATE",
     "Summary": "Microweber XSS Vulnerability",
-    "UpdatedAt": "2023-07-24T21:07:41Z",
+    "UpdatedAt": "2023-10-06T15:51:19Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -48,9 +51,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.1"
       },
-      "VulnerableVersionRange": "\u003c= 1.0.7"
+      "VulnerableVersionRange": "\u003c 1.1"
     }
   ]
 }

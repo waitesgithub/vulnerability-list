@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-24T21:49:52Z",
+  "UpdatedAt": "2023-10-06T17:58:34Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "symfony/symfony"
@@ -29,6 +29,9 @@
         "Url": "https://symfony.com/blog/cve-2018-11408-open-redirect-vulnerability-on-security-handlers"
       },
       {
+        "Url": "https://github.com/symfony/symfony/commit/b20e83562e32c56f8d9b8296ab07b0e4c0a54db8"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-7hwc-2cq4-6x2w"
       }
     ],
@@ -47,7 +50,7 @@
     "PublishedAt": "2022-05-14T01:21:15Z",
     "Severity": "MODERATE",
     "Summary": "Symfony Open Redirect",
-    "UpdatedAt": "2023-08-02T05:02:47Z",
+    "UpdatedAt": "2023-10-06T17:58:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -59,31 +62,31 @@
       "FirstPatchedVersion": {
         "Identifier": "4.0.11"
       },
-      "VulnerableVersionRange": "\u003e= 4.0, \u003c 4.0.11"
+      "VulnerableVersionRange": "\u003e= 4.0.0, \u003c 4.0.11"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.4.11"
       },
-      "VulnerableVersionRange": "\u003e= 3.4, \u003c 3.4.11"
+      "VulnerableVersionRange": "\u003e= 3.4.0, \u003c 3.4.11"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.3.17"
       },
-      "VulnerableVersionRange": "\u003e= 3.3, \u003c 3.3.17"
+      "VulnerableVersionRange": "\u003e= 3.3.0, \u003c 3.3.17"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.8.41"
       },
-      "VulnerableVersionRange": "\u003e= 2.8, \u003c 2.8.41"
+      "VulnerableVersionRange": "\u003e= 2.8.0, \u003c 2.8.41"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.7.48"
       },
-      "VulnerableVersionRange": "\u003e= 2.7, \u003c 2.7.48"
+      "VulnerableVersionRange": "\u003e= 2.7.0, \u003c 2.7.48"
     }
   ]
 }

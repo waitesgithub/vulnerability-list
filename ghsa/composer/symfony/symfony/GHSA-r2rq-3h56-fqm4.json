@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-25T17:48:04Z",
+  "UpdatedAt": "2023-10-06T17:48:17Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "symfony/symfony"
@@ -47,7 +47,7 @@
     "PublishedAt": "2022-05-14T01:14:36Z",
     "Severity": "MODERATE",
     "Summary": "Symfony DoS",
-    "UpdatedAt": "2023-07-25T17:48:04Z",
+    "UpdatedAt": "2023-10-06T17:48:17Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,
@@ -59,31 +59,31 @@
       "FirstPatchedVersion": {
         "Identifier": "4.0.11"
       },
-      "VulnerableVersionRange": "\u003e= 4.0, \u003c 4.0.11"
+      "VulnerableVersionRange": "\u003e= 4.0.0, \u003c 4.0.11"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.4.11"
       },
-      "VulnerableVersionRange": "\u003e= 3.4, \u003c 3.4.11"
+      "VulnerableVersionRange": "\u003e= 3.4.0, \u003c 3.4.11"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.3.17"
       },
-      "VulnerableVersionRange": "\u003e= 3.3, \u003c 3.3.17"
+      "VulnerableVersionRange": "\u003e= 3.3.0, \u003c 3.3.17"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.8.41"
       },
-      "VulnerableVersionRange": "\u003e= 2.8, \u003c 2.8.41"
+      "VulnerableVersionRange": "\u003e= 2.8.0, \u003c 2.8.41"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.7.48"
       },
-      "VulnerableVersionRange": "\u003e= 2.7, \u003c 2.7.48"
+      "VulnerableVersionRange": "\u003e= 2.7.0, \u003c 2.7.48"
     }
   ]
 }

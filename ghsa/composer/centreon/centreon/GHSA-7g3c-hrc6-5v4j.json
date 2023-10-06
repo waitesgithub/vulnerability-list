@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-21T22:57:52Z",
+  "UpdatedAt": "2023-10-06T17:40:13Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "centreon/centreon"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-05-14T00:55:28Z",
     "Severity": "MODERATE",
     "Summary": "Centreon XSS Vulnerability",
-    "UpdatedAt": "2023-07-21T22:57:52Z",
+    "UpdatedAt": "2023-10-06T17:40:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": "18.10.0"
       },
-      "VulnerableVersionRange": "\u003e= 3.4, \u003c 18.10.0"
+      "VulnerableVersionRange": "\u003e= 3.4.0, \u003c 18.10.0"
     }
   ]
 }

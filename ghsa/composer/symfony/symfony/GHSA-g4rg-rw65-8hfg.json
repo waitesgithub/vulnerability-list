@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-24T21:53:30Z",
+  "UpdatedAt": "2023-10-06T18:00:14Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "symfony/symfony"
@@ -32,6 +32,15 @@
         "Url": "https://www.debian.org/security/2018/dsa-4262"
       },
       {
+        "Url": "https://github.com/symfony/symfony/commit/194caff28b56707ea98e746c6582c06acbb9bc3f"
+      },
+      {
+        "Url": "https://github.com/symfony/symfony/commit/fa5bf4b17d45ee32f41bd1a9abc3fb6c134ec89b"
+      },
+      {
+        "Url": "https://github.com/symfony/symfony/commit/fad1e1f2ea336e85c889feece9d0e23fbfcf777d"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-g4rg-rw65-8hfg"
       }
     ],
@@ -50,7 +59,7 @@
     "PublishedAt": "2022-05-14T01:22:27Z",
     "Severity": "HIGH",
     "Summary": "Symfony Session Fixation Vulnerability",
-    "UpdatedAt": "2023-07-24T21:53:30Z",
+    "UpdatedAt": "2023-10-06T18:00:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
@@ -62,31 +71,31 @@
       "FirstPatchedVersion": {
         "Identifier": "4.0.11"
       },
-      "VulnerableVersionRange": "\u003e= 4.0, \u003c 4.0.11"
+      "VulnerableVersionRange": "\u003e= 4.0.0, \u003c 4.0.11"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.4.11"
       },
-      "VulnerableVersionRange": "\u003e= 3.4, \u003c 3.4.11"
+      "VulnerableVersionRange": "\u003e= 3.4.0, \u003c 3.4.11"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.3.17"
       },
-      "VulnerableVersionRange": "\u003e= 3.3, \u003c 3.3.17"
+      "VulnerableVersionRange": "\u003e= 3.3.0, \u003c 3.3.17"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.8.41"
       },
-      "VulnerableVersionRange": "\u003e= 2.8, \u003c 2.8.41"
+      "VulnerableVersionRange": "\u003e= 2.8.0, \u003c 2.8.41"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.7.48"
       },
-      "VulnerableVersionRange": "\u003e= 2.7, \u003c 2.7.48"
+      "VulnerableVersionRange": "\u003e= 2.7.0, \u003c 2.7.48"
     }
   ]
 }

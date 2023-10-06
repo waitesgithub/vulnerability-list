@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-22T00:13:30Z",
+  "UpdatedAt": "2023-10-06T15:24:28Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "laravel/framework"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-05-14T00:56:30Z",
     "Severity": "HIGH",
     "Summary": "Laravel Framework RCE Vulnerability",
-    "UpdatedAt": "2023-07-22T00:13:30Z",
+    "UpdatedAt": "2023-10-06T15:24:28Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
@@ -50,7 +50,7 @@
       "FirstPatchedVersion": {
         "Identifier": ""
       },
-      "VulnerableVersionRange": "\u003e= 5.6, \u003c= 5.6.29"
+      "VulnerableVersionRange": "\u003e= 5.6.0, \u003c= 5.6.29"
     },
     {
       "FirstPatchedVersion": {
