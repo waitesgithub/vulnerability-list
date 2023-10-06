@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-09-15T10:09:05Z",
+  "UpdatedAt": "2023-10-05T18:47:13Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "yiisoft/yii2-dev"
@@ -35,7 +35,7 @@
     "PublishedAt": "2022-05-24T16:56:44Z",
     "Severity": "HIGH",
     "Summary": "Yii Framework Code Injection",
-    "UpdatedAt": "2023-09-15T10:09:05Z",
+    "UpdatedAt": "2023-10-05T18:47:13Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
@@ -47,7 +47,7 @@
       "FirstPatchedVersion": {
         "Identifier": "2.0.15"
       },
-      "VulnerableVersionRange": "\u003e= 2.0, \u003c 2.0.15"
+      "VulnerableVersionRange": "\u003e= 2.0.0, \u003c 2.0.15"
     }
   ]
 }
