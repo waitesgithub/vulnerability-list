@@ -4,7 +4,7 @@
       "Check": "at least one",
       "Comment": "Package libwebp is earlier than 1.3.2-1, affected by CVE-2023-4863",
       "ID": "oval:com.microsoft.cbl-mariner:tst:29758000",
-      "Version": "0",
+      "Version": "1",
       "Object": {
         "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:29758001"
       },
@@ -24290,7 +24290,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is earlier than 1.20.7-1, affected by CVE-2020-29511",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6449000",
       "Version": "0",
       "Object": {
@@ -24302,7 +24302,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is earlier than 1.20.7-1, affected by CVE-2020-29509",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6448000",
       "Version": "0",
       "Object": {
