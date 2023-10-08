@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/rust:latest-2023-3251,SUSE-2023-3251,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3251,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3251,openSUSE-SLE-15.4-2023-3251,openSUSE-SLE-15.5-2023-3251",
+      "Text": "Container bci/rust:1.71-2023-3251,SUSE-2023-3251,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3251,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3251,openSUSE-SLE-15.4-2023-3251,openSUSE-SLE-15.5-2023-3251",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,12 +40,12 @@
     "Relationships": [
       {
         "ProductReference": "cargo1.71-1.71.1-150400.9.6.1",
-        "RelatesToProductReference": "Container bci/rust:latest",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "rust1.71-1.71.1-150400.9.6.1",
-        "RelatesToProductReference": "Container bci/rust:latest",
+        "RelatesToProductReference": "Container bci/rust:1.71",
         "RelationType": "Default Component Of"
       },
       {
@@ -136,8 +136,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/rust:latest:cargo1.71-1.71.1-150400.9.6.1",
-            "Container bci/rust:latest:rust1.71-1.71.1-150400.9.6.1",
+            "Container bci/rust:1.71:cargo1.71-1.71.1-150400.9.6.1",
+            "Container bci/rust:1.71:rust1.71-1.71.1-150400.9.6.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:cargo1.71-1.71.1-150400.9.6.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:rust1.71-1.71.1-150400.9.6.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP5:cargo1.71-1.71.1-150400.9.6.1",

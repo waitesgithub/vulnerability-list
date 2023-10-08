@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP5-SAP-BYOS-EC2-2023-2652,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2652,SUSE-2023-2652,SUSE-SLE-Module-Basesystem-15-SP5-2023-2652,SUSE-SLE-Module-Server-Applications-15-SP5-2023-2652,openSUSE-SLE-15.5-2023-2652",
+      "Text": "Image SLES15-SP5-SAP-BYOS-Azure-2023-2652,Image SLES15-SP5-SAP-BYOS-EC2-2023-2652,Image SLES15-SP5-SAP-BYOS-GCE-2023-2652,Image SLES15-SP5-SAP-Hardened-Azure-2023-2652,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2023-2652,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2652,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2023-2652,Image SLES15-SP5-SAP-Hardened-GCE-2023-2652,SUSE-2023-2652,SUSE-SLE-Module-Basesystem-15-SP5-2023-2652,SUSE-SLE-Module-Server-Applications-15-SP5-2023-2652,openSUSE-SLE-15.5-2023-2652",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,6 +40,16 @@
     "Relationships": [
       {
         "ProductReference": "libvirt-client-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-libs-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-client-9.0.0-150500.6.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -50,12 +60,62 @@
       },
       {
         "ProductReference": "libvirt-client-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-libs-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-client-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-libs-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-client-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-libs-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-client-9.0.0-150500.6.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libvirt-libs-9.0.0-150500.6.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-client-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-libs-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-client-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirt-libs-9.0.0-150500.6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -443,10 +503,22 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-SAP-BYOS-Azure:libvirt-client-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libvirt-libs-9.0.0-150500.6.3.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libvirt-client-9.0.0-150500.6.3.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libvirt-libs-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libvirt-client-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libvirt-libs-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libvirt-client-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libvirt-libs-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libvirt-client-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libvirt-libs-9.0.0-150500.6.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libvirt-client-9.0.0-150500.6.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libvirt-libs-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libvirt-client-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libvirt-libs-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libvirt-client-9.0.0-150500.6.3.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libvirt-libs-9.0.0-150500.6.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:libvirt-libs-9.0.0-150500.6.3.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP5:libvirt-9.0.0-150500.6.3.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP5:libvirt-client-9.0.0-150500.6.3.1",

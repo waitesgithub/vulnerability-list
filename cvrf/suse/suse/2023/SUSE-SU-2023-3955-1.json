@@ -31,13 +31,83 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3955,SUSE-SLE-Micro-5.3-2023-3955,SUSE-SLE-Micro-5.4-2023-3955,SUSE-SLE-Module-Basesystem-15-SP4-2023-3955,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-3955,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-3955,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3955,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3955,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3955,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-3955,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3955,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3955,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-3955,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3955,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3955,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3955,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3955,SUSE-SUSE-MicroOS-5.1-2023-3955,SUSE-SUSE-MicroOS-5.2-2023-3955,SUSE-Storage-7.1-2023-3955,openSUSE-SLE-15.4-2023-3955",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3955,Container suse/sle-micro-rancher/5.3:latest-2023-3955,Container suse/sle-micro-rancher/5.4:latest-2023-3955,Container suse/sle-micro/5.1/toolbox:latest-2023-3955,Container suse/sle-micro/5.2/toolbox:latest-2023-3955,Container suse/sle-micro/5.3/toolbox:latest-2023-3955,Container suse/sle-micro/5.4/toolbox:latest-2023-3955,SUSE-2023-3955,SUSE-SLE-Micro-5.3-2023-3955,SUSE-SLE-Micro-5.4-2023-3955,SUSE-SLE-Module-Basesystem-15-SP4-2023-3955,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-3955,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-3955,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3955,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3955,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3955,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-3955,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3955,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3955,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-3955,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3955,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3955,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3955,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3955,SUSE-SUSE-MicroOS-5.1-2023-3955,SUSE-SUSE-MicroOS-5.2-2023-3955,SUSE-Storage-7.1-2023-3955,openSUSE-SLE-15.4-2023-3955",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "vim-data-common-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.1/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.1/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.2/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.2/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.0.1894-150000.5.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "gvim-9.0.1894-150000.5.54.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
@@ -501,6 +571,20 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:gvim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-data-9.0.1894-150000.5.54.1",
@@ -604,6 +688,20 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:gvim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-data-9.0.1894-150000.5.54.1",
@@ -707,6 +805,20 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:gvim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-data-9.0.1894-150000.5.54.1",
@@ -810,6 +922,20 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:gvim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-data-9.0.1894-150000.5.54.1",
@@ -913,6 +1039,20 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:gvim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-data-9.0.1894-150000.5.54.1",
@@ -1020,6 +1160,20 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.3:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro-rancher/5.4:latest:vim-small-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-9.0.1894-150000.5.54.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:vim-data-common-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:gvim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-9.0.1894-150000.5.54.1",
             "SUSE Enterprise Storage 7.1:vim-data-9.0.1894-150000.5.54.1",

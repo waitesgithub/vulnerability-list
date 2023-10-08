@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3684,SUSE-2023-3684,SUSE-SLE-Module-Live-Patching-15-SP3-2023-3684,SUSE-SLE-Product-HA-15-SP3-2023-3684,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3684,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3684,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3684,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3684,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3684,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3684,SUSE-SUSE-MicroOS-5.1-2023-3684,SUSE-SUSE-MicroOS-5.2-2023-3684,SUSE-Storage-7.1-2023-3684,openSUSE-SLE-15.4-2023-3684",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3684,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-3684,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-3684,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-3684,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-3684,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-3684,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-3684,SUSE-2023-3684,SUSE-SLE-Module-Live-Patching-15-SP3-2023-3684,SUSE-SLE-Product-HA-15-SP3-2023-3684,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3684,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3684,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3684,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3684,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3684,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3684,SUSE-SUSE-MicroOS-5.1-2023-3684,SUSE-SUSE-MicroOS-5.2-2023-3684,SUSE-Storage-7.1-2023-3684,openSUSE-SLE-15.4-2023-3684",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,6 +41,36 @@
       {
         "ProductReference": "kernel-default-5.3.18-150300.59.133.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.133.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.133.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.133.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.133.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.133.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.133.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -711,6 +741,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -835,6 +871,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -959,6 +1001,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -1065,7 +1113,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1083,6 +1131,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -1185,7 +1239,7 @@
     },
     {
       "CVE": "CVE-2023-34319",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "The fix for XSA-423 added logic to Linux'es netback driver to deal with\na frontend splitting a packet in a way such that not all of the headers\nwould come in one piece.  Unfortunately the logic introduced there\ndidn't account for the extreme case of the entire packet being split\ninto as many pieces as permitted by the protocol, yet still being\nsmaller than the area that's specially dealt with to keep all (possible)\nheaders together.  Such an unusual packet would therefore trigger a\nbuffer overrun in the driver.\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -1207,6 +1261,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -1331,6 +1391,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -1459,6 +1525,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -1583,6 +1655,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -1707,6 +1785,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -1831,6 +1915,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -1955,6 +2045,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -2083,6 +2179,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -2207,6 +2309,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -2335,6 +2443,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -2459,6 +2573,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -2583,6 +2703,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",
@@ -2707,6 +2833,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.133.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-64kb-devel-5.3.18-150300.59.133.1",
             "SUSE Enterprise Storage 7.1:kernel-default-5.3.18-150300.59.133.1",

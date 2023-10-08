@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2575,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-2575,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-2575,openSUSE-SLE-15.4-2023-2575,openSUSE-SLE-15.5-2023-2575",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2023-2575,SUSE-2023-2575,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-2575,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-2575,openSUSE-SLE-15.4-2023-2575,openSUSE-SLE-15.5-2023-2575",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "grafana-9.5.1-150200.3.41.3",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "grafana-9.5.1-150200.3.41.3",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP4",
@@ -190,6 +195,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -222,6 +228,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -254,6 +261,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -286,6 +294,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -314,6 +323,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -350,6 +360,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -382,6 +393,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -414,6 +426,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -446,6 +459,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -478,6 +492,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -510,6 +525,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -542,6 +558,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -574,6 +591,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",

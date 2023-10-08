@@ -31,13 +31,33 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3824,SUSE-SLE-Module-Python3-15-SP4-2023-3824,openSUSE-SLE-15.4-2023-3824,openSUSE-SLE-15.5-2023-3824",
+      "Text": "Container bci/python:3-2023-3824,SUSE-2023-3824,SUSE-SLE-Module-Python3-15-SP4-2023-3824,openSUSE-SLE-15.4-2023-3824,openSUSE-SLE-15.5-2023-3824",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libpython3_10-1_0-3.10.13-150400.4.33.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python310-3.10.13-150400.4.33.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python310-base-3.10.13-150400.4.33.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python310-devel-3.10.13-150400.4.33.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libpython3_10-1_0-3.10.13-150400.4.33.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 3 15 SP4",
@@ -285,6 +305,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/python:3:libpython3_10-1_0-3.10.13-150400.4.33.1",
+            "Container bci/python:3:python310-3.10.13-150400.4.33.1",
+            "Container bci/python:3:python310-base-3.10.13-150400.4.33.1",
+            "Container bci/python:3:python310-devel-3.10.13-150400.4.33.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:libpython3_10-1_0-3.10.13-150400.4.33.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python310-3.10.13-150400.4.33.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python310-base-3.10.13-150400.4.33.1",

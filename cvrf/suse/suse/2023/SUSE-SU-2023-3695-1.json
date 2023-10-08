@@ -31,13 +31,43 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3695,SUSE-SLE-SDK-12-SP5-2023-3695,SUSE-SLE-SERVER-12-SP5-2023-3695",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2023-3695,Image SLES12-SP5-Azure-SAP-BYOS-2023-3695,SUSE-2023-3695,SUSE-SLE-SDK-12-SP5-2023-3695,SUSE-SLE-SERVER-12-SP5-2023-3695",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "binutils-2.41-9.53.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-9.53.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-9.53.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-9.53.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-9.53.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-9.53.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "binutils-2.41-9.53.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
@@ -300,6 +330,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -338,6 +374,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -376,6 +418,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -414,6 +462,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -452,6 +506,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -490,6 +550,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -528,6 +594,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -566,6 +638,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -604,6 +682,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -642,6 +726,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -680,6 +770,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -718,6 +814,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -756,6 +858,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -777,7 +885,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -794,6 +902,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -836,6 +950,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -874,6 +994,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -891,7 +1017,7 @@
     },
     {
       "CVE": "CVE-2023-2222",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "** REJECT ** This was deemed not a security vulnerability by upstream.",
       "Threats": [
         {
           "Type": "Impact",
@@ -912,6 +1038,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -950,6 +1082,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -988,6 +1126,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",
@@ -1026,6 +1170,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-BYOS:libctf0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:binutils-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf-nobfd0-2.41-9.53.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libctf0-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:binutils-devel-2.41-9.53.1",
             "SUSE Linux Enterprise Server 12 SP5:libctf-nobfd0-2.41-9.53.1",

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/prometheus-server:latest-2023-3472,Container suse/sle-micro-rancher/5.2:latest-2023-3472,Container suse/sle-micro-rancher/5.3:latest-2023-3472,Container suse/sle-micro-rancher/5.4:latest-2023-3472,Container suse/sle-micro/5.1/toolbox:latest-2023-3472,Container suse/sle-micro/5.2/toolbox:latest-2023-3472,Container suse/sle-micro/5.3/toolbox:latest-2023-3472,Container suse/sle-micro/5.4/toolbox:latest-2023-3472,Container suse/sle-micro/5.5/toolbox:latest-2023-3472,Container suse/sle15:15.1-2023-3472,Container suse/sle15:15.2-2023-3472,Container suse/sle15:15.3-2023-3472,Container suse/sle15:15.4-2023-3472,Container suse/sle15:15.5-2023-3472,Image SLES15-SP4-CHOST-BYOS-2023-3472,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-3472,Image SLES15-SP4-CHOST-BYOS-Azure-2023-3472,Image SLES15-SP4-CHOST-BYOS-EC2-2023-3472,Image SLES15-SP4-CHOST-BYOS-GCE-2023-3472,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-3472,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-3472,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-3472,Image SLES15-SP5-CHOST-BYOS-Azure-2023-3472,Image SLES15-SP5-CHOST-BYOS-GCE-2023-3472,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-3472,SUSE-2023-3472,SUSE-SLE-Micro-5.3-2023-3472,SUSE-SLE-Micro-5.4-2023-3472,SUSE-SLE-Module-Basesystem-15-SP4-2023-3472,SUSE-SLE-Module-Basesystem-15-SP5-2023-3472,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3472,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3472,SUSE-SUSE-MicroOS-5.1-2023-3472,SUSE-SUSE-MicroOS-5.2-2023-3472,openSUSE-Leap-Micro-5.3-2023-3472,openSUSE-Leap-Micro-5.4-2023-3472,openSUSE-SLE-15.4-2023-3472,openSUSE-SLE-15.5-2023-3472",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2023-3472,Container ses/7.1/ceph/haproxy:latest-2023-3472,Container ses/7.1/ceph/keepalived:latest-2023-3472,Container ses/7.1/ceph/prometheus-alertmanager:latest-2023-3472,Container ses/7.1/ceph/prometheus-node-exporter:latest-2023-3472,Container ses/7.1/ceph/prometheus-server:latest-2023-3472,Container ses/7.1/ceph/prometheus-snmp_notifier:latest-2023-3472,Container ses/7.1/cephcsi/cephcsi:latest-2023-3472,Container ses/7.1/cephcsi/csi-attacher:v4.1.0-2023-3472,Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0-2023-3472,Container ses/7.1/cephcsi/csi-provisioner:v3.4.0-2023-3472,Container ses/7.1/cephcsi/csi-resizer:v1.7.0-2023-3472,Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1-2023-3472,Container ses/7.1/rook/ceph:latest-2023-3472,Container suse/manager/4.3/proxy-httpd:latest-2023-3472,Container suse/manager/4.3/proxy-salt-broker:latest-2023-3472,Container suse/sle-micro-rancher/5.2:latest-2023-3472,Container suse/sle-micro-rancher/5.3:latest-2023-3472,Container suse/sle-micro-rancher/5.4:latest-2023-3472,Container suse/sle-micro/5.1/toolbox:latest-2023-3472,Container suse/sle-micro/5.2/toolbox:latest-2023-3472,Container suse/sle-micro/5.3/toolbox:latest-2023-3472,Container suse/sle-micro/5.4/toolbox:latest-2023-3472,Container suse/sle-micro/5.5/toolbox:latest-2023-3472,Container suse/sle15:15.1-2023-3472,Container suse/sle15:15.2-2023-3472,Container suse/sle15:15.3-2023-3472,Container suse/sle15:15.4-2023-3472,Container suse/sle15:15.5-2023-3472,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-3472,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-3472,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-3472,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-3472,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-3472,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-3472,Image SLES15-SP4-CHOST-BYOS-2023-3472,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-3472,Image SLES15-SP4-CHOST-BYOS-Azure-2023-3472,Image SLES15-SP4-CHOST-BYOS-EC2-2023-3472,Image SLES15-SP4-CHOST-BYOS-GCE-2023-3472,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-3472,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-3472,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-3472,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-3472,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-3472,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-3472,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-3472,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-3472,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-3472,Image SLES15-SP4-Micro-5-3-2023-3472,Image SLES15-SP4-Micro-5-3-EC2-2023-3472,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-3472,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-3472,Image SLES15-SP5-Azure-Basic-2023-3472,Image SLES15-SP5-Azure-Standard-2023-3472,Image SLES15-SP5-BYOS-Azure-2023-3472,Image SLES15-SP5-BYOS-GCE-2023-3472,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-3472,Image SLES15-SP5-CHOST-BYOS-Azure-2023-3472,Image SLES15-SP5-CHOST-BYOS-EC2-2023-3472,Image SLES15-SP5-CHOST-BYOS-GCE-2023-3472,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-3472,Image SLES15-SP5-GCE-2023-3472,Image SLES15-SP5-HPC-Azure-2023-3472,Image SLES15-SP5-HPC-BYOS-Azure-2023-3472,Image SLES15-SP5-HPC-BYOS-GCE-2023-3472,Image SLES15-SP5-Hardened-BYOS-Azure-2023-3472,Image SLES15-SP5-Hardened-BYOS-GCE-2023-3472,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3472,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3472,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3472,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3472,Image SLES15-SP5-SAP-BYOS-Azure-2023-3472,Image SLES15-SP5-SAP-BYOS-GCE-2023-3472,Image SLES15-SP5-SAP-Hardened-Azure-2023-3472,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2023-3472,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2023-3472,Image SLES15-SP5-SAP-Hardened-GCE-2023-3472,Image SLES15-SP5-SAPCAL-Azure-2023-3472,Image SLES15-SP5-SAPCAL-GCE-2023-3472,SUSE-2023-3472,SUSE-SLE-Micro-5.3-2023-3472,SUSE-SLE-Micro-5.4-2023-3472,SUSE-SLE-Module-Basesystem-15-SP4-2023-3472,SUSE-SLE-Module-Basesystem-15-SP5-2023-3472,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3472,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3472,SUSE-SUSE-MicroOS-5.1-2023-3472,SUSE-SUSE-MicroOS-5.2-2023-3472,openSUSE-Leap-Micro-5.3-2023-3472,openSUSE-Leap-Micro-5.4-2023-3472,openSUSE-SLE-15.4-2023-3472,openSUSE-SLE-15.5-2023-3472",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,12 +40,162 @@
     "Relationships": [
       {
         "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-server:latest",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "procps-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-snmp_notifier:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/prometheus-snmp_notifier:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v4.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-attacher:v4.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-resizer:v1.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-resizer:v1.7.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-salt-broker:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-salt-broker:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -180,6 +330,66 @@
       },
       {
         "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -240,6 +450,106 @@
       },
       {
         "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -260,12 +570,72 @@
       },
       {
         "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "procps-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
       {
@@ -286,6 +656,186 @@
       {
         "ProductReference": "procps-3.3.15-150000.7.34.1",
         "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libprocps7-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "procps-3.3.15-150000.7.34.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -486,8 +1036,38 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/grafana:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/grafana:latest:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/haproxy:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/haproxy:latest:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/keepalived:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/keepalived:latest:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/prometheus-alertmanager:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/prometheus-alertmanager:latest:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/prometheus-node-exporter:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/prometheus-node-exporter:latest:procps-3.3.15-150000.7.34.1",
             "Container ses/7.1/ceph/prometheus-server:latest:libprocps7-3.3.15-150000.7.34.1",
             "Container ses/7.1/ceph/prometheus-server:latest:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/ceph/prometheus-snmp_notifier:latest:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v4.1.0:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-attacher:v4.1.0:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-node-driver-registrar:v2.7.0:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-provisioner:v3.4.0:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-resizer:v1.7.0:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-resizer:v1.7.0:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/cephcsi/csi-snapshotter:v6.2.1:procps-3.3.15-150000.7.34.1",
+            "Container ses/7.1/rook/ceph:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container ses/7.1/rook/ceph:latest:procps-3.3.15-150000.7.34.1",
+            "Container suse/manager/4.3/proxy-httpd:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container suse/manager/4.3/proxy-httpd:latest:procps-3.3.15-150000.7.34.1",
+            "Container suse/manager/4.3/proxy-salt-broker:latest:libprocps7-3.3.15-150000.7.34.1",
+            "Container suse/manager/4.3/proxy-salt-broker:latest:procps-3.3.15-150000.7.34.1",
             "Container suse/sle-micro-rancher/5.2:latest:libprocps7-3.3.15-150000.7.34.1",
             "Container suse/sle-micro-rancher/5.2:latest:procps-3.3.15-150000.7.34.1",
             "Container suse/sle-micro-rancher/5.3:latest:libprocps7-3.3.15-150000.7.34.1",
@@ -514,6 +1094,18 @@
             "Container suse/sle15:15.4:procps-3.3.15-150000.7.34.1",
             "Container suse/sle15:15.5:libprocps7-3.3.15-150000.7.34.1",
             "Container suse/sle15:15.5:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:procps-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-CHOST-BYOS-Aliyun:libprocps7-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-CHOST-BYOS-Aliyun:procps-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-CHOST-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
@@ -526,16 +1118,84 @@
             "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:procps-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-CHOST-BYOS:libprocps7-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-CHOST-BYOS:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Micro-5-3-EC2:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Micro-5-3-EC2:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Micro-5-3:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP4-Micro-5-3:procps-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:libprocps7-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:procps-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:libprocps7-3.3.15-150000.7.34.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-Azure-Basic:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-Azure-Basic:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-Azure-Standard:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-Azure-Standard:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-BYOS-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:procps-3.3.15-150000.7.34.1",
             "Image SLES15-SP5-CHOST-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
             "Image SLES15-SP5-CHOST-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:procps-3.3.15-150000.7.34.1",
             "Image SLES15-SP5-CHOST-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
             "Image SLES15-SP5-CHOST-BYOS-GCE:procps-3.3.15-150000.7.34.1",
             "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:libprocps7-3.3.15-150000.7.34.1",
             "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-HPC-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-HPC-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAPCAL-Azure:procps-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libprocps7-3.3.15-150000.7.34.1",
+            "Image SLES15-SP5-SAPCAL-GCE:procps-3.3.15-150000.7.34.1",
             "SUSE Linux Enterprise Micro 5.1:libprocps7-3.3.15-150000.7.34.1",
             "SUSE Linux Enterprise Micro 5.1:procps-3.3.15-150000.7.34.1",
             "SUSE Linux Enterprise Micro 5.2:libprocps7-3.3.15-150000.7.34.1",

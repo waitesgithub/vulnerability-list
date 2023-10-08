@@ -118,7 +118,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2022-23468",
-      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP). xrdp \u003c v0.9.21 contain a buffer over flow in xrdp_login_wnd_create() function. There are no known workarounds for this issue. Users are advised to upgrade.",
+      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP).\nxrdp \u003c v0.9.21 contain a buffer over flow in xrdp_login_wnd_create() function. There are no known workarounds for this issue. Users are advised to upgrade.",
       "Threats": [
         {
           "Type": "Impact",
@@ -147,7 +147,7 @@
     },
     {
       "CVE": "CVE-2022-23479",
-      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP). xrdp \u003c v0.9.21 contain a buffer over flow in xrdp_mm_chan_data_in() function. There are no known workarounds for this issue. Users are advised to upgrade.",
+      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP).\nxrdp \u003c v0.9.21 contain a buffer over flow in xrdp_mm_chan_data_in() function. There are no known workarounds for this issue. Users are advised to upgrade.",
       "Threats": [
         {
           "Type": "Impact",
@@ -176,7 +176,7 @@
     },
     {
       "CVE": "CVE-2022-23480",
-      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP). xrdp \u003c v0.9.21 contain a buffer over flow in devredir_proc_client_devlist_announce_req() function. There are no known workarounds for this issue. Users are advised to upgrade.",
+      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP).\nxrdp \u003c v0.9.21 contain a buffer over flow in devredir_proc_client_devlist_announce_req() function. There are no known workarounds for this issue. Users are advised to upgrade.",
       "Threats": [
         {
           "Type": "Impact",
@@ -205,7 +205,7 @@
     },
     {
       "CVE": "CVE-2022-23481",
-      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP). xrdp \u003c v0.9.21 contain a Out of Bound Read in xrdp_caps_process_confirm_active() function. There are no known workarounds for this issue. Users are advised to upgrade.",
+      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP).\nxrdp \u003c v0.9.21 contain a Out of Bound Read in xrdp_caps_process_confirm_active() function. There are no known workarounds for this issue. Users are advised to upgrade.",
       "Threats": [
         {
           "Type": "Impact",
@@ -234,7 +234,7 @@
     },
     {
       "CVE": "CVE-2022-23482",
-      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP). xrdp \u003c v0.9.21 contain a Out of Bound Read in xrdp_sec_process_mcs_data_CS_CORE() function. There are no known workarounds for this issue. Users are advised to upgrade.",
+      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP).\nxrdp \u003c v0.9.21 contain a Out of Bound Read in xrdp_sec_process_mcs_data_CS_CORE() function. There are no known workarounds for this issue. Users are advised to upgrade.",
       "Threats": [
         {
           "Type": "Impact",
@@ -263,7 +263,7 @@
     },
     {
       "CVE": "CVE-2022-23483",
-      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP). xrdp \u003c v0.9.21 contain a Out of Bound Read in libxrdp_send_to_channel() function. There are no known workarounds for this issue. Users are advised to upgrade.",
+      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP).\nxrdp \u003c v0.9.21 contain a Out of Bound Read in libxrdp_send_to_channel() function. There are no known workarounds for this issue. Users are advised to upgrade.",
       "Threats": [
         {
           "Type": "Impact",
@@ -292,7 +292,7 @@
     },
     {
       "CVE": "CVE-2022-23484",
-      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP). xrdp \u003c v0.9.21 contain a Integer Overflow in xrdp_mm_process_rail_update_window_text() function. There are no known workarounds for this issue. Users are advised to upgrade.",
+      "Description": "xrdp is an open source project which provides a graphical login to remote machines using Microsoft Remote Desktop Protocol (RDP).\nxrdp \u003c v0.9.21 contain a Integer Overflow in xrdp_mm_process_rail_update_window_text() function. There are no known workarounds for this issue. Users are advised to upgrade.",
       "Threats": [
         {
           "Type": "Impact",

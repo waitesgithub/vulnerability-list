@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/postgres:14-2023-3348,SUSE-2023-3348,SUSE-SLE-Module-Basesystem-15-SP4-2023-3348,SUSE-SLE-Module-Legacy-15-SP5-2023-3348,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-3348,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-3348,SUSE-SLE-Module-Server-Applications-15-SP4-2023-3348,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3348,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3348,openSUSE-SLE-15.4-2023-3348,openSUSE-SLE-15.5-2023-3348",
+      "Text": "Container suse/postgres:14-2023-3348,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-3348,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-3348,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-3348,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-3348,SUSE-2023-3348,SUSE-SLE-Module-Basesystem-15-SP4-2023-3348,SUSE-SLE-Module-Legacy-15-SP5-2023-3348,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-3348,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-3348,SUSE-SLE-Module-Server-Applications-15-SP4-2023-3348,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3348,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3348,openSUSE-SLE-15.4-2023-3348,openSUSE-SLE-15.5-2023-3348",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -46,6 +46,66 @@
       {
         "ProductReference": "postgresql14-server-14.9-150200.5.29.1",
         "RelatesToProductReference": "Container suse/postgres:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-contrib-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-server-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-contrib-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-server-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-contrib-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-server-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-contrib-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql14-server-14.9-150200.5.29.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -433,6 +493,18 @@
           "ProductID": [
             "Container suse/postgres:14:postgresql14-14.9-150200.5.29.1",
             "Container suse/postgres:14:postgresql14-server-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:postgresql14-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:postgresql14-contrib-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:postgresql14-server-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:postgresql14-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:postgresql14-contrib-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:postgresql14-server-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:postgresql14-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:postgresql14-contrib-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:postgresql14-server-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:postgresql14-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:postgresql14-contrib-14.9-150200.5.29.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:postgresql14-server-14.9-150200.5.29.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:postgresql14-14.9-150200.5.29.1",
             "SUSE Linux Enterprise Module for Legacy 15 SP5:postgresql14-14.9-150200.5.29.1",
             "SUSE Linux Enterprise Module for Legacy 15 SP5:postgresql14-contrib-14.9-150200.5.29.1",

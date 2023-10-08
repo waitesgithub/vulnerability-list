@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3706,SUSE-OpenStack-Cloud-9-2023-3706,SUSE-OpenStack-Cloud-Crowbar-9-2023-3706,SUSE-SLE-SAP-12-SP4-2023-3706,SUSE-SLE-SDK-12-SP5-2023-3706,SUSE-SLE-SERVER-12-SP2-BCL-2023-3706,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-3706,SUSE-SLE-SERVER-12-SP4-LTSS-2023-3706,SUSE-SLE-SERVER-12-SP5-2023-3706",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2023-3706,Image SLES12-SP5-Azure-SAP-BYOS-2023-3706,SUSE-2023-3706,SUSE-OpenStack-Cloud-9-2023-3706,SUSE-OpenStack-Cloud-Crowbar-9-2023-3706,SUSE-SLE-SAP-12-SP4-2023-3706,SUSE-SLE-SDK-12-SP5-2023-3706,SUSE-SLE-SERVER-12-SP2-BCL-2023-3706,SUSE-SLE-SERVER-12-SP4-ESPOS-2023-3706,SUSE-SLE-SERVER-12-SP4-LTSS-2023-3706,SUSE-SLE-SERVER-12-SP5-2023-3706",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "cups-libs-1.7.5-20.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "cups-1.7.5-20.46.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
@@ -272,6 +282,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:cups-libs-1.7.5-20.46.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:cups-libs-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-client-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-libs-1.7.5-20.46.1",
@@ -334,6 +346,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:cups-libs-1.7.5-20.46.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:cups-libs-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-client-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-libs-1.7.5-20.46.1",
@@ -375,7 +389,7 @@
     },
     {
       "CVE": "CVE-2023-4504",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Due to failure in validating the length provided by an attacker-crafted PPD PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023.\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -396,6 +410,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:cups-libs-1.7.5-20.46.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:cups-libs-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-client-1.7.5-20.46.1",
             "SUSE Linux Enterprise Server 12 SP2-BCL:cups-libs-1.7.5-20.46.1",

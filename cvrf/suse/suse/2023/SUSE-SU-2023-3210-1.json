@@ -31,13 +31,33 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-3210,Container suse/sle-micro/5.1/toolbox:latest-2023-3210,Container suse/sle-micro/5.2/toolbox:latest-2023-3210,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-3210,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-3210,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-3210,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-3210,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-3210,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-3210,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3210,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3210,SUSE-2023-3210,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3210,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3210,SUSE-SUSE-MicroOS-5.1-2023-3210,SUSE-SUSE-MicroOS-5.2-2023-3210",
+      "Text": "Container ses/7.1/ceph/haproxy:latest-2023-3210,Container ses/7.1/ceph/keepalived:latest-2023-3210,Container ses/7.1/cephcsi/cephcsi:latest-2023-3210,Container ses/7.1/rook/ceph:latest-2023-3210,Container suse/sle-micro-rancher/5.2:latest-2023-3210,Container suse/sle-micro/5.1/toolbox:latest-2023-3210,Container suse/sle-micro/5.2/toolbox:latest-2023-3210,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2023-3210,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2023-3210,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-3210,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-3210,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-3210,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-3210,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-3210,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-3210,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-3210,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-3210,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-3210,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-3210,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-3210,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-3210,SUSE-2023-3210,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3210,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3210,SUSE-SUSE-MicroOS-5.1-2023-3210,SUSE-SUSE-MicroOS-5.2-2023-3210",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
@@ -81,6 +101,36 @@
       {
         "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
         "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.31-150000.3.15.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -211,6 +261,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/haproxy:latest:libpcre2-8-0-10.31-150000.3.15.1",
+            "Container ses/7.1/ceph/keepalived:latest:libpcre2-8-0-10.31-150000.3.15.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:libpcre2-8-0-10.31-150000.3.15.1",
+            "Container ses/7.1/rook/ceph:latest:libpcre2-8-0-10.31-150000.3.15.1",
             "Container suse/sle-micro-rancher/5.2:latest:libpcre2-8-0-10.31-150000.3.15.1",
             "Container suse/sle-micro/5.1/toolbox:latest:libpcre2-8-0-10.31-150000.3.15.1",
             "Container suse/sle-micro/5.2/toolbox:latest:libpcre2-8-0-10.31-150000.3.15.1",
@@ -220,6 +274,12 @@
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libpcre2-8-0-10.31-150000.3.15.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libpcre2-16-0-10.31-150000.3.15.1",
             "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libpcre2-8-0-10.31-150000.3.15.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libpcre2-8-0-10.31-150000.3.15.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libpcre2-8-0-10.31-150000.3.15.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libpcre2-8-0-10.31-150000.3.15.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:libpcre2-8-0-10.31-150000.3.15.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:libpcre2-8-0-10.31-150000.3.15.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:libpcre2-8-0-10.31-150000.3.15.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libpcre2-8-0-10.31-150000.3.15.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libpcre2-8-0-10.31-150000.3.15.1",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libpcre2-8-0-10.31-150000.3.15.1",

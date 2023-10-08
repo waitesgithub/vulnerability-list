@@ -31,13 +31,73 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3737,SUSE-SLE-Module-Basesystem-15-SP4-2023-3737,SUSE-SLE-Module-Server-Applications-15-SP4-2023-3737,openSUSE-SLE-15.4-2023-3737",
+      "Text": "Image SLES15-SP4-CHOST-BYOS-2023-3737,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-3737,Image SLES15-SP4-CHOST-BYOS-Azure-2023-3737,Image SLES15-SP4-CHOST-BYOS-EC2-2023-3737,Image SLES15-SP4-CHOST-BYOS-GCE-2023-3737,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-3737,SUSE-2023-3737,SUSE-SLE-Module-Basesystem-15-SP4-2023-3737,SUSE-SLE-Module-Server-Applications-15-SP4-2023-3737,openSUSE-SLE-15.4-2023-3737",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "bind-utils-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.44-150400.5.37.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "bind-utils-9.16.44-150400.5.37.2",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
@@ -126,6 +186,18 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:bind-utils-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:python3-bind-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:bind-utils-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:python3-bind-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:bind-utils-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:python3-bind-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:bind-utils-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:python3-bind-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:bind-utils-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:python3-bind-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS:bind-utils-9.16.44-150400.5.37.2",
+            "Image SLES15-SP4-CHOST-BYOS:python3-bind-9.16.44-150400.5.37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:bind-utils-9.16.44-150400.5.37.2",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-bind-9.16.44-150400.5.37.2",
             "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-9.16.44-150400.5.37.2",

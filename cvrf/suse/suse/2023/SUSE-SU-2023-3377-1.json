@@ -331,6 +331,10 @@
         {
           "URL": "https://bugzilla.suse.com/1206418",
           "Description": "SUSE Bug 1206418"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1215674",
+          "Description": "SUSE Bug 1215674"
         }
       ],
       "ProductStatuses": [
@@ -378,6 +382,10 @@
         {
           "URL": "https://bugzilla.suse.com/1211738",
           "Description": "SUSE Bug 1211738"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1215674",
+          "Description": "SUSE Bug 1215674"
         }
       ],
       "ProductStatuses": [
@@ -664,6 +672,10 @@
         {
           "URL": "https://bugzilla.suse.com/1212502",
           "Description": "SUSE Bug 1212502"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1215674",
+          "Description": "SUSE Bug 1215674"
         }
       ],
       "ProductStatuses": [
@@ -696,7 +708,7 @@
     },
     {
       "CVE": "CVE-2023-3567",
-      "Description": "A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This flaw allows an attacker with local user access to cause a system crash or leak internal kernel information.",
+      "Description": "A use-after-free flaw was found in vcs_read in drivers/tty/vt/vc_screen.c in vc_screen in the Linux Kernel. This issue may allow an attacker with local user access to cause a system crash or leak internal kernel information.",
       "Threats": [
         {
           "Type": "Impact",
@@ -719,6 +731,10 @@
         {
           "URL": "https://bugzilla.suse.com/1213842",
           "Description": "SUSE Bug 1213842"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1215674",
+          "Description": "SUSE Bug 1215674"
         }
       ],
       "ProductStatuses": [
@@ -770,6 +786,10 @@
         {
           "URL": "https://bugzilla.suse.com/1215119",
           "Description": "SUSE Bug 1215119"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1215674",
+          "Description": "SUSE Bug 1215674"
         }
       ],
       "ProductStatuses": [

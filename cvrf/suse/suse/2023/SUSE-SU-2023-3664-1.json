@@ -223,7 +223,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -265,7 +265,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -349,7 +349,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -391,7 +391,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -433,7 +433,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -475,7 +475,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -517,7 +517,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -559,7 +559,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -601,7 +601,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -643,7 +643,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -685,7 +685,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -727,7 +727,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -769,7 +769,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -807,7 +807,7 @@
     },
     {
       "CVE": "CVE-2023-4863",
-      "Description": "Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)",
+      "Description": "Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)",
       "Threats": [
         {
           "Type": "Impact",

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/openjdk-devel:11-2023-2060,Container bci/openjdk:11-2023-2060,Container rancher/elemental-builder-image/5.3:latest-2023-2060,Container rancher/elemental-operator/5.3:latest-2023-2060,Container rancher/elemental-operator:latest-2023-2060,Container rancher/elemental-teal-iso/5.3:latest-2023-2060,Container rancher/elemental-teal-iso/5.4:latest-2023-2060,Container rancher/elemental-teal-rt/5.3:latest-2023-2060,Container rancher/elemental-teal-rt/5.4:latest-2023-2060,Container rancher/elemental-teal/5.3:latest-2023-2060,Container rancher/elemental-teal/5.4:latest-2023-2060,Container rancher/seedimage-builder/5.3:latest-2023-2060,Container rancher/seedimage-builder:latest-2023-2060,Container suse/manager/4.3/proxy-httpd:latest-2023-2060,Container suse/manager/4.3/proxy-salt-broker:latest-2023-2060,Container suse/sle-micro-rancher/5.3:latest-2023-2060,Container suse/sle-micro-rancher/5.4:latest-2023-2060,Container suse/sle-micro/5.3/toolbox:latest-2023-2060,Container suse/sle-micro/5.4/toolbox:latest-2023-2060,Container suse/sle-micro/5.5/toolbox:latest-2023-2060,Container suse/sle15:15.4-2023-2060,Container suse/sle15:15.5-2023-2060,Container suse/sles/15.5/cdi-importer:1.55.0-2023-2060,Container suse/sles/15.5/cdi-uploadserver:1.55.0-2023-2060,Container suse/sles/15.5/libguestfs-tools:0.58.0-2023-2060,Container suse/sles/15.5/virt-handler:0.58.0-2023-2060,Container suse/sles/15.5/virt-launcher:0.58.0-2023-2060,Image SLES15-SP4-2023-2060,Image SLES15-SP4-Azure-Basic-2023-2060,Image SLES15-SP4-Azure-Standard-2023-2060,Image SLES15-SP4-BYOS-2023-2060,Image SLES15-SP4-BYOS-Azure-2023-2060,Image SLES15-SP4-BYOS-EC2-2023-2060,Image SLES15-SP4-BYOS-GCE-2023-2060,Image SLES15-SP4-CHOST-BYOS-2023-2060,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2060,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2060,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2060,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2060,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2060,Image SLES15-SP4-EC2-2023-2060,Image SLES15-SP4-EC2-ECS-HVM-2023-2060,Image SLES15-SP4-GCE-2023-2060,Image SLES15-SP4-HPC-2023-2060,Image SLES15-SP4-HPC-Azure-2023-2060,Image SLES15-SP4-HPC-BYOS-2023-2060,Image SLES15-SP4-HPC-BYOS-Azure-2023-2060,Image SLES15-SP4-HPC-BYOS-EC2-2023-2060,Image SLES15-SP4-HPC-BYOS-GCE-2023-2060,Image SLES15-SP4-HPC-EC2-2023-2060,Image SLES15-SP4-HPC-GCE-2023-2060,Image SLES15-SP4-Hardened-BYOS-2023-2060,Image SLES15-SP4-Hardened-BYOS-Azure-2023-2060,Image SLES15-SP4-Hardened-BYOS-EC2-2023-2060,Image SLES15-SP4-Hardened-BYOS-GCE-2023-2060,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-2060,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-2060,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-2060,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-2060,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-2060,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-2060,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-2060,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-2060,Image SLES15-SP4-Micro-5-3-2023-2060,Image SLES15-SP4-Micro-5-3-BYOS-2023-2060,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2023-2060,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2023-2060,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2023-2060,Image SLES15-SP4-Micro-5-3-EC2-2023-2060,Image SLES15-SP4-Micro-5-4-2023-2060,Image SLES15-SP4-Micro-5-4-Azure-2023-2060,Image SLES15-SP4-Micro-5-4-BYOS-2023-2060,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2023-2060,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2023-2060,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2023-2060,Image SLES15-SP4-Micro-5-4-EC2-2023-2060,Image SLES15-SP4-Micro-5-4-GCE-2023-2060,Image SLES15-SP4-SAP-2023-2060,Image SLES15-SP4-SAP-Azure-2023-2060,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2060,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2060,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2060,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2060,Image SLES15-SP4-SAP-BYOS-2023-2060,Image SLES15-SP4-SAP-BYOS-Azure-2023-2060,Image SLES15-SP4-SAP-BYOS-EC2-2023-2060,Image SLES15-SP4-SAP-BYOS-GCE-2023-2060,Image SLES15-SP4-SAP-EC2-2023-2060,Image SLES15-SP4-SAP-GCE-2023-2060,Image SLES15-SP4-SAP-Hardened-2023-2060,Image SLES15-SP4-SAP-Hardened-Azure-2023-2060,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2060,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2060,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2060,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2060,Image SLES15-SP4-SAP-Hardened-EC2-2023-2060,Image SLES15-SP4-SAP-Hardened-GCE-2023-2060,Image SLES15-SP4-SAPCAL-2023-2060,Image SLES15-SP4-SAPCAL-Azure-2023-2060,Image SLES15-SP4-SAPCAL-EC2-2023-2060,Image SLES15-SP4-SAPCAL-GCE-2023-2060,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-2060,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-2060,Image SLES15-SP5-BYOS-EC2-2023-2060,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-2060,Image SLES15-SP5-CHOST-BYOS-Azure-2023-2060,Image SLES15-SP5-CHOST-BYOS-EC2-2023-2060,Image SLES15-SP5-CHOST-BYOS-GCE-2023-2060,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-2060,Image SLES15-SP5-EC2-2023-2060,Image SLES15-SP5-EC2-ECS-HVM-2023-2060,Image SLES15-SP5-GCE-2023-2060,Image SLES15-SP5-HPC-Azure-2023-2060,Image SLES15-SP5-HPC-BYOS-EC2-2023-2060,Image SLES15-SP5-Hardened-BYOS-EC2-2023-2060,Image SLES15-SP5-SAP-Azure-2023-2060,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-2060,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-2060,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-2060,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-2060,Image SLES15-SP5-SAP-BYOS-EC2-2023-2060,Image SLES15-SP5-SAP-EC2-2023-2060,Image SLES15-SP5-SAP-GCE-2023-2060,Image SLES15-SP5-SAP-Hardened-Azure-2023-2060,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2060,Image SLES15-SP5-SAP-Hardened-GCE-2023-2060,Image SLES15-SP5-SAPCAL-EC2-2023-2060,SUSE-2023-2060,SUSE-SLE-Micro-5.3-2023-2060,SUSE-SLE-Micro-5.4-2023-2060,SUSE-SLE-Module-Basesystem-15-SP4-2023-2060,openSUSE-Leap-Micro-5.3-2023-2060,openSUSE-SLE-15.4-2023-2060",
+      "Text": "Container bci/openjdk-devel:11-2023-2060,Container bci/openjdk:11-2023-2060,Container rancher/elemental-builder-image/5.3:latest-2023-2060,Container rancher/elemental-operator/5.3:latest-2023-2060,Container rancher/elemental-operator:latest-2023-2060,Container rancher/elemental-teal-iso/5.3:latest-2023-2060,Container rancher/elemental-teal-iso/5.4:latest-2023-2060,Container rancher/elemental-teal-rt/5.3:latest-2023-2060,Container rancher/elemental-teal-rt/5.4:latest-2023-2060,Container rancher/elemental-teal/5.3:latest-2023-2060,Container rancher/elemental-teal/5.4:latest-2023-2060,Container rancher/seedimage-builder/5.3:latest-2023-2060,Container rancher/seedimage-builder:latest-2023-2060,Container suse/manager/4.3/proxy-httpd:latest-2023-2060,Container suse/manager/4.3/proxy-salt-broker:latest-2023-2060,Container suse/sle-micro-rancher/5.3:latest-2023-2060,Container suse/sle-micro-rancher/5.4:latest-2023-2060,Container suse/sle-micro/5.3/toolbox:latest-2023-2060,Container suse/sle-micro/5.4/toolbox:latest-2023-2060,Container suse/sle-micro/5.5/toolbox:latest-2023-2060,Container suse/sle15:15.4-2023-2060,Container suse/sle15:15.5-2023-2060,Container suse/sles/15.5/cdi-importer:1.55.0-2023-2060,Container suse/sles/15.5/cdi-uploadserver:1.55.0-2023-2060,Container suse/sles/15.5/libguestfs-tools:0.58.0-2023-2060,Container suse/sles/15.5/virt-handler:0.58.0-2023-2060,Container suse/sles/15.5/virt-launcher:0.58.0-2023-2060,Image SLES15-SP4-2023-2060,Image SLES15-SP4-Azure-Basic-2023-2060,Image SLES15-SP4-Azure-Standard-2023-2060,Image SLES15-SP4-BYOS-2023-2060,Image SLES15-SP4-BYOS-Azure-2023-2060,Image SLES15-SP4-BYOS-EC2-2023-2060,Image SLES15-SP4-BYOS-GCE-2023-2060,Image SLES15-SP4-CHOST-BYOS-2023-2060,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2060,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2060,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2060,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2060,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2060,Image SLES15-SP4-EC2-2023-2060,Image SLES15-SP4-EC2-ECS-HVM-2023-2060,Image SLES15-SP4-GCE-2023-2060,Image SLES15-SP4-HPC-2023-2060,Image SLES15-SP4-HPC-Azure-2023-2060,Image SLES15-SP4-HPC-BYOS-2023-2060,Image SLES15-SP4-HPC-BYOS-Azure-2023-2060,Image SLES15-SP4-HPC-BYOS-EC2-2023-2060,Image SLES15-SP4-HPC-BYOS-GCE-2023-2060,Image SLES15-SP4-HPC-EC2-2023-2060,Image SLES15-SP4-HPC-GCE-2023-2060,Image SLES15-SP4-Hardened-BYOS-2023-2060,Image SLES15-SP4-Hardened-BYOS-Azure-2023-2060,Image SLES15-SP4-Hardened-BYOS-EC2-2023-2060,Image SLES15-SP4-Hardened-BYOS-GCE-2023-2060,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-2060,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-2060,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-2060,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-2060,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-2060,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-2060,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-2060,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-2060,Image SLES15-SP4-Micro-5-3-2023-2060,Image SLES15-SP4-Micro-5-3-BYOS-2023-2060,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2023-2060,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2023-2060,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2023-2060,Image SLES15-SP4-Micro-5-3-EC2-2023-2060,Image SLES15-SP4-Micro-5-4-2023-2060,Image SLES15-SP4-Micro-5-4-Azure-2023-2060,Image SLES15-SP4-Micro-5-4-BYOS-2023-2060,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2023-2060,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2023-2060,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2023-2060,Image SLES15-SP4-Micro-5-4-EC2-2023-2060,Image SLES15-SP4-Micro-5-4-GCE-2023-2060,Image SLES15-SP4-SAP-2023-2060,Image SLES15-SP4-SAP-Azure-2023-2060,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2060,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2060,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2060,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2060,Image SLES15-SP4-SAP-BYOS-2023-2060,Image SLES15-SP4-SAP-BYOS-Azure-2023-2060,Image SLES15-SP4-SAP-BYOS-EC2-2023-2060,Image SLES15-SP4-SAP-BYOS-GCE-2023-2060,Image SLES15-SP4-SAP-EC2-2023-2060,Image SLES15-SP4-SAP-GCE-2023-2060,Image SLES15-SP4-SAP-Hardened-2023-2060,Image SLES15-SP4-SAP-Hardened-Azure-2023-2060,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2060,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2060,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2060,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2060,Image SLES15-SP4-SAP-Hardened-EC2-2023-2060,Image SLES15-SP4-SAP-Hardened-GCE-2023-2060,Image SLES15-SP4-SAPCAL-2023-2060,Image SLES15-SP4-SAPCAL-Azure-2023-2060,Image SLES15-SP4-SAPCAL-EC2-2023-2060,Image SLES15-SP4-SAPCAL-GCE-2023-2060,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-2060,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-2060,Image SLES15-SP5-Azure-Basic-2023-2060,Image SLES15-SP5-Azure-Standard-2023-2060,Image SLES15-SP5-BYOS-Azure-2023-2060,Image SLES15-SP5-BYOS-EC2-2023-2060,Image SLES15-SP5-BYOS-GCE-2023-2060,Image SLES15-SP5-CHOST-BYOS-Aliyun-2023-2060,Image SLES15-SP5-CHOST-BYOS-Azure-2023-2060,Image SLES15-SP5-CHOST-BYOS-EC2-2023-2060,Image SLES15-SP5-CHOST-BYOS-GCE-2023-2060,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2023-2060,Image SLES15-SP5-EC2-2023-2060,Image SLES15-SP5-EC2-ECS-HVM-2023-2060,Image SLES15-SP5-GCE-2023-2060,Image SLES15-SP5-HPC-Azure-2023-2060,Image SLES15-SP5-HPC-BYOS-Azure-2023-2060,Image SLES15-SP5-HPC-BYOS-EC2-2023-2060,Image SLES15-SP5-HPC-BYOS-GCE-2023-2060,Image SLES15-SP5-HPC-EC2-2023-2060,Image SLES15-SP5-HPC-GCE-2023-2060,Image SLES15-SP5-Hardened-BYOS-Azure-2023-2060,Image SLES15-SP5-Hardened-BYOS-EC2-2023-2060,Image SLES15-SP5-Hardened-BYOS-GCE-2023-2060,Image SLES15-SP5-SAP-Azure-2023-2060,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-2060,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-2060,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-2060,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-2060,Image SLES15-SP5-SAP-BYOS-Azure-2023-2060,Image SLES15-SP5-SAP-BYOS-EC2-2023-2060,Image SLES15-SP5-SAP-BYOS-GCE-2023-2060,Image SLES15-SP5-SAP-EC2-2023-2060,Image SLES15-SP5-SAP-GCE-2023-2060,Image SLES15-SP5-SAP-Hardened-Azure-2023-2060,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2023-2060,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2060,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2023-2060,Image SLES15-SP5-SAP-Hardened-EC2-2023-2060,Image SLES15-SP5-SAP-Hardened-GCE-2023-2060,Image SLES15-SP5-SAPCAL-Azure-2023-2060,Image SLES15-SP5-SAPCAL-EC2-2023-2060,Image SLES15-SP5-SAPCAL-GCE-2023-2060,SUSE-2023-2060,SUSE-SLE-Micro-5.3-2023-2060,SUSE-SLE-Micro-5.4-2023-2060,SUSE-SLE-Module-Basesystem-15-SP4-2023-2060,openSUSE-Leap-Micro-5.3-2023-2060,openSUSE-SLE-15.4-2023-2060",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -2335,6 +2335,81 @@
       },
       {
         "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2356,6 +2431,31 @@
       {
         "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -2444,11 +2544,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "glib2-devel-2.70.5-150400.3.8.1",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-GCE",
         "RelationType": "Default Component Of"
@@ -2470,11 +2565,6 @@
       },
       {
         "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-GCE",
         "RelationType": "Default Component Of"
       },
@@ -2505,6 +2595,31 @@
       },
       {
         "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2530,6 +2645,106 @@
       },
       {
         "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2551,6 +2766,31 @@
       {
         "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -2710,6 +2950,36 @@
       },
       {
         "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2736,6 +3006,36 @@
       {
         "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -2840,6 +3140,36 @@
       },
       {
         "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2870,6 +3200,66 @@
       },
       {
         "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
         "RelationType": "Default Component Of"
       },
@@ -2896,6 +3286,41 @@
       {
         "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-devel-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
         "RelationType": "Default Component Of"
       },
       {
@@ -2931,6 +3356,41 @@
       {
         "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-devel-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glib2-tools-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgio-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libglib-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmodule-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgobject-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgthread-2_0-0-2.70.5-150400.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -3677,11 +4137,31 @@
             "Image SLES15-SP4:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP4:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP4:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-CHOST-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-CHOST-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
@@ -3699,28 +4179,56 @@
             "Image SLES15-SP5-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
-            "Image SLES15-SP5-GCE:glib2-devel-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
-            "Image SLES15-SP5-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libglib-2_0-0-2.70.5-150400.3.8.1",
@@ -3752,12 +4260,24 @@
             "Image SLES15-SP5-SAP-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-EC2:glib2-devel-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
@@ -3778,18 +4298,43 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:glib2-devel-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:glib2-devel-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
@@ -3797,6 +4342,13 @@
             "Image SLES15-SP5-SAPCAL-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:glib2-devel-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "SUSE Linux Enterprise Micro 5.3:glib2-tools-2.70.5-150400.3.8.1",
             "SUSE Linux Enterprise Micro 5.3:libgio-2_0-0-2.70.5-150400.3.8.1",
             "SUSE Linux Enterprise Micro 5.3:libglib-2_0-0-2.70.5-150400.3.8.1",
@@ -4329,11 +4881,31 @@
             "Image SLES15-SP4:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP4:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP4:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-CHOST-BYOS-Aliyun:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-CHOST-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-CHOST-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
@@ -4351,28 +4923,56 @@
             "Image SLES15-SP5-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
-            "Image SLES15-SP5-GCE:glib2-devel-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
-            "Image SLES15-SP5-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-HPC-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-HPC-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libglib-2_0-0-2.70.5-150400.3.8.1",
@@ -4404,12 +5004,24 @@
             "Image SLES15-SP5-SAP-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-BYOS-EC2:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-EC2:glib2-devel-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
@@ -4430,18 +5042,43 @@
             "Image SLES15-SP5-SAP-Hardened-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-EC2:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:glib2-devel-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:glib2-devel-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:glib2-tools-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:libgio-2_0-0-2.70.5-150400.3.8.1",
@@ -4449,6 +5086,13 @@
             "Image SLES15-SP5-SAPCAL-EC2:libgmodule-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:libgobject-2_0-0-2.70.5-150400.3.8.1",
             "Image SLES15-SP5-SAPCAL-EC2:libgthread-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:glib2-devel-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:glib2-tools-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libgio-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libglib-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libgmodule-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libgobject-2_0-0-2.70.5-150400.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libgthread-2_0-0-2.70.5-150400.3.8.1",
             "SUSE Linux Enterprise Micro 5.3:glib2-tools-2.70.5-150400.3.8.1",
             "SUSE Linux Enterprise Micro 5.3:libgio-2_0-0-2.70.5-150400.3.8.1",
             "SUSE Linux Enterprise Micro 5.3:libglib-2_0-0-2.70.5-150400.3.8.1",

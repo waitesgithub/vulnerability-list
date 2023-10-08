@@ -31,13 +31,68 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3634,SUSE-SLE-Module-Basesystem-15-SP4-2023-3634,SUSE-SLE-Module-Basesystem-15-SP5-2023-3634,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-3634,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-3634,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3634,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3634,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3634,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3634,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3634,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3634,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3634,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3634,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3634,SUSE-Storage-7.1-2023-3634,openSUSE-SLE-15.4-2023-3634,openSUSE-SLE-15.5-2023-3634",
+      "Text": "Container suse/nginx:latest-2023-3634,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3634,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3634,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3634,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3634,Image SLES15-SP5-SAP-BYOS-Azure-2023-3634,Image SLES15-SP5-SAP-BYOS-GCE-2023-3634,Image SLES15-SP5-SAP-Hardened-Azure-2023-3634,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2023-3634,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2023-3634,Image SLES15-SP5-SAP-Hardened-GCE-2023-3634,SUSE-2023-3634,SUSE-SLE-Module-Basesystem-15-SP4-2023-3634,SUSE-SLE-Module-Basesystem-15-SP5-2023-3634,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-3634,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-3634,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3634,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3634,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3634,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3634,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3634,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3634,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3634,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3634,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3634,SUSE-Storage-7.1-2023-3634,openSUSE-SLE-15.4-2023-3634,openSUSE-SLE-15.5-2023-3634",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Container suse/nginx:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwebp7-1.0.3-150200.3.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libwebp-devel-1.0.3-150200.3.10.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
@@ -485,11 +540,11 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-4863",
-      "Description": "Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)",
+      "Description": "Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -506,6 +561,17 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/nginx:latest:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libwebp7-1.0.3-150200.3.10.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libwebp7-1.0.3-150200.3.10.1",
             "SUSE Enterprise Storage 7.1:libwebp-devel-1.0.3-150200.3.10.1",
             "SUSE Enterprise Storage 7.1:libwebp7-1.0.3-150200.3.10.1",
             "SUSE Enterprise Storage 7.1:libwebpdecoder3-1.0.3-150200.3.10.1",

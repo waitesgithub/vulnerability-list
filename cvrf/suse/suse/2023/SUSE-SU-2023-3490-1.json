@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3490,SUSE-SLE-Product-HA-15-SP2-2023-3490,SUSE-SLE-Product-HA-15-SP3-2023-3490",
+      "Text": "Container ses/7.1/ceph/haproxy:latest-2023-3490,SUSE-2023-3490,SUSE-SLE-Product-HA-15-SP2-2023-3490,SUSE-SLE-Product-HA-15-SP3-2023-3490",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "haproxy-2.0.31-150200.11.23.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "haproxy-2.0.31-150200.11.23.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Availability Extension 15 SP2",
@@ -96,6 +101,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container ses/7.1/ceph/haproxy:latest:haproxy-2.0.31-150200.11.23.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP2:haproxy-2.0.31-150200.11.23.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP3:haproxy-2.0.31-150200.11.23.1"
           ]

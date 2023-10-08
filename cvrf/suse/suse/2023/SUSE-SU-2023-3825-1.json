@@ -31,13 +31,163 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3825,SUSE-SLE-Module-Basesystem-15-SP4-2023-3825,SUSE-SLE-Module-Basesystem-15-SP5-2023-3825,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3825,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3825,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-3825,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-3825,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-3825,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3825,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3825,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3825,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-3825,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3825,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3825,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-3825,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3825,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3825,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3825,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3825,SUSE-Storage-7.1-2023-3825,openSUSE-SLE-15.4-2023-3825,openSUSE-SLE-15.5-2023-3825",
+      "Text": "Container bci/golang:1.19-openssl-2023-3825,Container bci/golang:1.20-2023-3825,Container bci/golang:latest-2023-3825,Container bci/ruby:latest-2023-3825,Container bci/rust:1.71-2023-3825,Container bci/rust:latest-2023-3825,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3825,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3825,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3825,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3825,SUSE-2023-3825,SUSE-SLE-Module-Basesystem-15-SP4-2023-3825,SUSE-SLE-Module-Basesystem-15-SP5-2023-3825,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3825,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3825,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-3825,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-3825,SUSE-SLE-Product-HPC-15-SP1-LTSS-2023-3825,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3825,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3825,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3825,SUSE-SLE-Product-SLES-15-SP1-LTSS-2023-3825,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3825,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3825,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-3825,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3825,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3825,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3825,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3825,SUSE-Storage-7.1-2023-3825,openSUSE-SLE-15.4-2023-3825,openSUSE-SLE-15.5-2023-3825",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:1.19-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:1.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:1.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:1.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/rust:1.71",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/rust:1.71",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/rust:1.71",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/rust:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/rust:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Container bci/rust:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "binutils-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf-nobfd0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libctf0-2.41-150100.7.46.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "binutils-2.41-150100.7.46.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
@@ -791,6 +941,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -911,7 +1091,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -928,6 +1108,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -1048,7 +1258,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -1065,6 +1275,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -1185,7 +1425,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1202,6 +1442,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -1322,7 +1592,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1339,6 +1609,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -1476,6 +1776,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -1613,6 +1943,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -1750,6 +2110,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -1887,6 +2277,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -2024,6 +2444,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -2144,7 +2594,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -2161,6 +2611,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -2281,7 +2761,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -2298,6 +2778,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -2418,7 +2928,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -2435,6 +2945,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -2555,7 +3095,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -2572,6 +3112,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -2692,7 +3262,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -2713,6 +3283,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -2833,7 +3433,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -2850,6 +3450,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -2966,11 +3596,11 @@
     },
     {
       "CVE": "CVE-2023-2222",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "** REJECT ** This was deemed not a security vulnerability by upstream.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -2987,6 +3617,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -3107,7 +3767,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -3124,6 +3784,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -3244,7 +3934,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -3261,6 +3951,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",
@@ -3381,7 +4101,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -3398,6 +4118,36 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:1.19-openssl:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.19-openssl:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:1.20:libctf0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/golang:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/ruby:latest:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:1.71:libctf0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:binutils-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf-nobfd0-2.41-150100.7.46.1",
+            "Container bci/rust:latest:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:libctf0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:binutils-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf-nobfd0-2.41-150100.7.46.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:libctf0-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-2.41-150100.7.46.1",
             "SUSE Enterprise Storage 7.1:binutils-devel-32bit-2.41-150100.7.46.1",

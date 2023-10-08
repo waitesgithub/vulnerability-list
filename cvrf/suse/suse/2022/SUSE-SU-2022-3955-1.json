@@ -94,17 +94,7 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
         "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
         "RelationType": "Default Component Of"
       },
@@ -114,17 +104,7 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
         "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
@@ -134,17 +114,7 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
         "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
@@ -599,17 +569,11 @@
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ctdb-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
@@ -729,17 +693,11 @@
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
-            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:ctdb-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",
             "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.8+git.527.8d0c05d313e-150300.3.40.2",

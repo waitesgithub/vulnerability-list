@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP4-Manager-Server-4-3-BYOS-2022-4209,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2022-4209,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2022-4209,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2022-4209,Image SLES15-SP4-SAP-2022-4209,Image SLES15-SP4-SAP-Azure-2022-4209,Image SLES15-SP4-SAP-EC2-2022-4209,Image SLES15-SP4-SAP-GCE-2022-4209,Image SLES15-SP4-SAPCAL-2022-4209,Image SLES15-SP4-SAPCAL-Azure-2022-4209,Image SLES15-SP4-SAPCAL-EC2-2022-4209,Image SLES15-SP4-SAPCAL-GCE-2022-4209,Image SLES15-SP5-GCE-2022-4209,Image SLES15-SP5-SAP-Azure-2022-4209,Image SLES15-SP5-SAP-EC2-2022-4209,Image SLES15-SP5-SAP-GCE-2022-4209,Image SLES15-SP5-SAPCAL-EC2-2022-4209,SUSE-2022-4209,SUSE-SLE-Micro-5.3-2022-4209,SUSE-SLE-Module-Basesystem-15-SP4-2022-4209,SUSE-SLE-Module-Development-Tools-15-SP4-2022-4209,openSUSE-Leap-Micro-5.3-2022-4209,openSUSE-SLE-15.4-2022-4209",
+      "Text": "Image SLES15-SP4-Manager-Server-4-3-BYOS-2022-4209,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2022-4209,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2022-4209,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2022-4209,Image SLES15-SP4-SAP-2022-4209,Image SLES15-SP4-SAP-Azure-2022-4209,Image SLES15-SP4-SAP-EC2-2022-4209,Image SLES15-SP4-SAP-GCE-2022-4209,Image SLES15-SP4-SAPCAL-2022-4209,Image SLES15-SP4-SAPCAL-Azure-2022-4209,Image SLES15-SP4-SAPCAL-EC2-2022-4209,Image SLES15-SP4-SAPCAL-GCE-2022-4209,Image SLES15-SP5-SAP-Azure-2022-4209,Image SLES15-SP5-SAP-EC2-2022-4209,Image SLES15-SP5-SAP-GCE-2022-4209,Image SLES15-SP5-SAPCAL-Azure-2022-4209,Image SLES15-SP5-SAPCAL-EC2-2022-4209,Image SLES15-SP5-SAPCAL-GCE-2022-4209,SUSE-2022-4209,SUSE-SLE-Micro-5.3-2022-4209,SUSE-SLE-Module-Basesystem-15-SP4-2022-4209,SUSE-SLE-Module-Development-Tools-15-SP4-2022-4209,openSUSE-Leap-Micro-5.3-2022-4209,openSUSE-SLE-15.4-2022-4209",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -100,11 +100,6 @@
       },
       {
         "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
-        "RelatesToProductReference": "Image SLES15-SP5-GCE",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
         "RelationType": "Default Component Of"
       },
@@ -120,7 +115,17 @@
       },
       {
         "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -228,11 +233,12 @@
             "Image SLES15-SP4-SAPCAL-EC2:libarchive13-3.5.1-150400.3.12.1",
             "Image SLES15-SP4-SAPCAL-GCE:libarchive13-3.5.1-150400.3.12.1",
             "Image SLES15-SP4-SAPCAL:libarchive13-3.5.1-150400.3.12.1",
-            "Image SLES15-SP5-GCE:libarchive13-3.5.1-150400.3.12.1",
             "Image SLES15-SP5-SAP-Azure:libarchive13-3.5.1-150400.3.12.1",
             "Image SLES15-SP5-SAP-EC2:libarchive13-3.5.1-150400.3.12.1",
             "Image SLES15-SP5-SAP-GCE:libarchive13-3.5.1-150400.3.12.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libarchive13-3.5.1-150400.3.12.1",
             "Image SLES15-SP5-SAPCAL-EC2:libarchive13-3.5.1-150400.3.12.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libarchive13-3.5.1-150400.3.12.1",
             "SUSE Linux Enterprise Micro 5.3:libarchive13-3.5.1-150400.3.12.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libarchive-devel-3.5.1-150400.3.12.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libarchive13-3.5.1-150400.3.12.1",

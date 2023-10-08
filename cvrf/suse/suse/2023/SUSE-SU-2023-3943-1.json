@@ -31,13 +31,33 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3943,SUSE-SLE-Module-Python3-15-SP4-2023-3943,SUSE-SLE-Module-Python3-15-SP5-2023-3943,openSUSE-SLE-15.4-2023-3943,openSUSE-SLE-15.5-2023-3943",
+      "Text": "Container bci/python:latest-2023-3943,SUSE-2023-3943,SUSE-SLE-Module-Python3-15-SP4-2023-3943,SUSE-SLE-Module-Python3-15-SP5-2023-3943,openSUSE-SLE-15.4-2023-3943,openSUSE-SLE-15.5-2023-3943",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libpython3_11-1_0-3.11.5-150400.9.20.2",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-3.11.5-150400.9.20.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-base-3.11.5-150400.9.20.2",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-devel-3.11.5-150400.9.20.2",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libpython3_11-1_0-3.11.5-150400.9.20.2",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 3 15 SP4",
@@ -354,6 +374,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/python:latest:libpython3_11-1_0-3.11.5-150400.9.20.2",
+            "Container bci/python:latest:python311-3.11.5-150400.9.20.1",
+            "Container bci/python:latest:python311-base-3.11.5-150400.9.20.2",
+            "Container bci/python:latest:python311-devel-3.11.5-150400.9.20.2",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:libpython3_11-1_0-3.11.5-150400.9.20.2",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python311-3.11.5-150400.9.20.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python311-base-3.11.5-150400.9.20.2",
@@ -434,6 +458,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/python:latest:libpython3_11-1_0-3.11.5-150400.9.20.2",
+            "Container bci/python:latest:python311-3.11.5-150400.9.20.1",
+            "Container bci/python:latest:python311-base-3.11.5-150400.9.20.2",
+            "Container bci/python:latest:python311-devel-3.11.5-150400.9.20.2",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:libpython3_11-1_0-3.11.5-150400.9.20.2",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python311-3.11.5-150400.9.20.1",
             "SUSE Linux Enterprise Module for Python 3 15 SP4:python311-base-3.11.5-150400.9.20.2",
