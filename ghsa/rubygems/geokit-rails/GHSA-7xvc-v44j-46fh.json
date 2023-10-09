@@ -30,6 +30,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-7xvc-v44j-46fh"
+      },
+      {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/geokit-rails/CVE-2023-26153.yml"
       }
     ],
     "Identifiers": [
@@ -47,7 +50,7 @@
     "PublishedAt": "2023-10-06T06:30:16Z",
     "Severity": "HIGH",
     "Summary": "geokit-rails Command Injection vulnerability",
-    "UpdatedAt": "2023-10-06T18:45:59Z",
+    "UpdatedAt": "2023-10-09T00:38:27Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.3,
