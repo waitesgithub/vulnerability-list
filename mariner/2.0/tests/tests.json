@@ -4610,7 +4610,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13730000",
       "Version": "0",
       "Object": {
@@ -8894,7 +8894,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11130000",
       "Version": "0",
       "Object": {
@@ -8906,7 +8906,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11129000",
       "Version": "0",
       "Object": {
@@ -8918,7 +8918,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11128000",
       "Version": "0",
       "Object": {
@@ -9842,7 +9842,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10855000",
       "Version": "0",
       "Object": {
@@ -23740,7 +23740,7 @@
       "Check": "at least one",
       "Comment": "Package json-c is earlier than 0.14-3, affected by CVE-2020-12762",
       "ID": "oval:com.microsoft.cbl-mariner:tst:6506000",
-      "Version": "1",
+      "Version": "2",
       "Object": {
         "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:6506001"
       },
