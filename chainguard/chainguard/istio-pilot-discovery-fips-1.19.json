@@ -2,7 +2,8 @@
   "name": "istio-pilot-discovery-fips-1.19",
   "secfixes": {
     "0": [
-      "CVE-2019-3826"
+      "CVE-2019-3826",
+      "CVE-2020-8552"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
