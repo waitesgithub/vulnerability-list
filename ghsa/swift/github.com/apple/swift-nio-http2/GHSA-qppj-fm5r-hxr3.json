@@ -167,6 +167,27 @@
         "Url": "https://www.openwall.com/lists/oss-security/2023/10/10/6"
       },
       {
+        "Url": "https://github.com/opensearch-project/data-prepper/issues/3474"
+      },
+      {
+        "Url": "https://github.com/kubernetes/kubernetes/pull/121120"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-xpw8-rcwv-8f8p"
+      },
+      {
+        "Url": "https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73"
+      },
+      {
+        "Url": "https://github.com/oqtane/oqtane.framework/discussions/3367"
+      },
+      {
+        "Url": "https://netty.io/news/2023/10/10/4-1-100-Final.html"
+      },
+      {
+        "Url": "https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
       }
     ],
@@ -185,7 +206,7 @@
     "PublishedAt": "2023-10-10T21:28:24Z",
     "Severity": "MODERATE",
     "Summary": "swift-nio-http2 vulnerable to HTTP/2 Stream Cancellation Attack",
-    "UpdatedAt": "2023-10-10T22:01:41Z",
+    "UpdatedAt": "2023-10-11T01:01:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.3,
