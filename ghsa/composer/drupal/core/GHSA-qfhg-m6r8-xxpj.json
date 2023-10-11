@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-02-26T00:24:40Z",
+  "UpdatedAt": "2023-10-10T19:05:37Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "drupal/core"
@@ -15,6 +15,9 @@
       },
       {
         "Url": "https://www.drupal.org/sa-core-2021-009"
+      },
+      {
+        "Url": "https://github.com/drupal/core/commit/8e8e3d2ddd72471ba886346ecabfb5d98fd27d9b"
       },
       {
         "Url": "https://github.com/advisories/GHSA-qfhg-m6r8-xxpj"
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-02-12T00:00:46Z",
     "Severity": "MODERATE",
     "Summary": "Incorrect Authorization in Drupal core",
-    "UpdatedAt": "2023-02-03T05:06:01Z",
+    "UpdatedAt": "2023-10-10T19:05:37Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
