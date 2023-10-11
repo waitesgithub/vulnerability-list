@@ -2,11 +2,11 @@
   "name": "ko",
   "secfixes": {
     "0.13.0-r3": [
-      "GHSA-232p-vwff-86mp",
-      "GHSA-2h5h-59f5-c5x9",
-      "GHSA-33pg-m6jh-5237",
-      "GHSA-6wrf-mxfj-pf5p",
-      "GHSA-hw7c-3rfg-p46j"
+      "CVE-2023-24535",
+      "CVE-2023-28840",
+      "CVE-2023-28841",
+      "CVE-2023-28842",
+      "CVE-2023-30551"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

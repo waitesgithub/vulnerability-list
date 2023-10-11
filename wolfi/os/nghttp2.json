@@ -1,10 +1,8 @@
 {
-  "name": "tkn",
+  "name": "nghttp2",
   "secfixes": {
-    "0": [
-      "CVE-2023-30551",
-      "CVE-2023-33199",
-      "CVE-2023-37264"
+    "1.57.0-r0": [
+      "CVE-2023-44487"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
