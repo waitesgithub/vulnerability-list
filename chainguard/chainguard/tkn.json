@@ -2,9 +2,9 @@
   "name": "tkn",
   "secfixes": {
     "0": [
-      "GHSA-2h5h-59f5-c5x9",
-      "GHSA-frqx-jfcm-6jjr",
-      "GHSA-w2h3-vvvq-3m53"
+      "CVE-2023-30551",
+      "CVE-2023-33199",
+      "CVE-2023-37264"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
