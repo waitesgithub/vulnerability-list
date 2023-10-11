@@ -5,7 +5,7 @@
     "date": "2023-09-27 22:48"
   },
   "updated": {
-    "date": "2023-09-27 22:48"
+    "date": "2023-10-05 22:02"
   },
   "severity": "important",
   "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2023-4208:\n\tA use-after-free vulnerability in the Linux kernel's net/sched: cls_u32 component can be exploited to achieve local privilege escalation.\n\nWhen u32_change() is called on an existing filter, the whole tcf_result struct is always copied into the new instance of the filter. This causes a problem when updating a filter bound to a class, as tcf_unbind_filter() is always called on the old instance in the success path, decreasing filter_cnt of the still referenced class and allowing it to be deleted, leading to a use-after-free.\n\nWe recommend upgrading past commit 3044b16e7c6fe5d24b1cdbcf1bd0a9d92d1ebd81.\n\nCVE-2023-4206:\n\tA use-after-free vulnerability in the Linux kernel's net/sched: cls_route component can be exploited to achieve local privilege escalation.\n\nWhen route4_change() is called on an existing filter, the whole tcf_result struct is always copied into the new instance of the filter. This causes a problem when updating a filter bound to a class, as tcf_unbind_filter() is always called on the old instance in the success path, decreasing filter_cnt of the still referenced class and allowing it to be deleted, leading to a use-after-free.\n\nWe recommend upgrading past commit b80b829e9e2c1b3f7aae34855e04d8f6ecaf13c8.\n",

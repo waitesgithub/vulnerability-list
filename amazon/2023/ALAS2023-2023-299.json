@@ -5,10 +5,10 @@
     "date": "2023-08-17 11:20:00"
   },
   "updated": {
-    "date": "2023-08-23 22:30:00"
+    "date": "2023-10-10 19:32:00"
   },
   "severity": "Important",
-  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-3776:\n\tA use-after-free vulnerability in the Linux kernel's net/sched: cls_fw component can be exploited to achieve local privilege escalation.\n\nIf tcf_change_indev() fails, fw_set_parms() will immediately return an error after incrementing or decrementing the reference counter in tcf_bind_filter(). If an attacker can control the reference counter and set it to zero, they can cause the reference to be freed, leading to a use-after-free vulnerability.\n\nWe recommend upgrading past commit 0323bce598eea038714f941ce2b22541c46d488f.\n\nCVE-2023-3611:\n\tAn out-of-bounds write vulnerability in the Linux kernel's net/sched: sch_qfq component can be exploited to achieve local privilege escalation.\n\nThe qfq_change_agg() function in net/sched/sch_qfq.c allows an out-of-bounds write because lmax is updated according to packet sizes without bounds checks.\n\nWe recommend upgrading past commit 3e337087c3b5805fe0b8a46ba622a962880b5d64.\n",
+  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-3776:\n\tA use-after-free vulnerability in the Linux kernel's net/sched: cls_fw component can be exploited to achieve local privilege escalation.\n\nIf tcf_change_indev() fails, fw_set_parms() will immediately return an error after incrementing or decrementing the reference counter in tcf_bind_filter(). If an attacker can control the reference counter and set it to zero, they can cause the reference to be freed, leading to a use-after-free vulnerability.\n\nWe recommend upgrading past commit 0323bce598eea038714f941ce2b22541c46d488f.\n\nCVE-2023-3611:\n\tAn out-of-bounds write vulnerability in the Linux kernel's net/sched: sch_qfq component can be exploited to achieve local privilege escalation.\n\nThe qfq_change_agg() function in net/sched/sch_qfq.c allows an out-of-bounds write because lmax is updated according to packet sizes without bounds checks.\n\nWe recommend upgrading past commit 3e337087c3b5805fe0b8a46ba622a962880b5d64.\n\nCVE-2022-48502:\n\tAn issue was discovered in the Linux kernel before 6.2. The ntfs3 subsystem does not properly check for correctness during disk reads, leading to an out-of-bounds read in ntfs_set_ea in fs/ntfs3/xattr.c.\n",
   "packages": [
     {
       "name": "kernel-livepatch-6.1.41-63.109",
@@ -309,6 +309,11 @@
   ],
   "references": [
     {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48502",
+      "id": "CVE-2022-48502",
+      "type": "cve"
+    },
+    {
       "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3611",
       "id": "CVE-2023-3611",
       "type": "cve"
@@ -320,6 +325,7 @@
     }
   ],
   "cveids": [
+    "CVE-2022-48502",
     "CVE-2023-3611",
     "CVE-2023-3776"
   ]
