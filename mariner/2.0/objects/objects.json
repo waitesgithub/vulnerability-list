@@ -1,6 +1,56 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31151001",
+      "Version": "0",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31148001",
+      "Version": "0",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31141001",
+      "Version": "1",
+      "Name": "edk2"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31117001",
+      "Version": "1",
+      "Name": "glibc"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31041001",
+      "Version": "0",
+      "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:30056001",
+      "Version": "0",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:30054001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:29945001",
+      "Version": "1",
+      "Name": "bluez"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:29943001",
+      "Version": "0",
+      "Name": "bind"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:29941001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:29758001",
       "Version": "1",
       "Name": "libwebp"
@@ -9,6 +59,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:29702001",
       "Version": "1",
       "Name": "pmix"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:29698001",
+      "Version": "1",
+      "Name": "curl"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28779001",
+      "Version": "1",
+      "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28769001",
@@ -144,6 +204,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:28545001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28511001",
+      "Version": "1",
+      "Name": "rust"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28510001",
+      "Version": "1",
+      "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28486001",
@@ -379,6 +449,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27758001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27688001",
+      "Version": "1",
+      "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27684001",
@@ -631,6 +706,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27305001",
+      "Version": "1",
+      "Name": "bind"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27304001",
       "Version": "1",
       "Name": "uclibc-ng"
@@ -712,6 +792,11 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27238001",
+      "Version": "1",
+      "Name": "bind"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27237001",
       "Version": "1",
       "Name": "bind"
     },
@@ -861,6 +946,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26947001",
+      "Version": "1",
+      "Name": "skopeo"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26944001",
       "Version": "1",
       "Name": "qt5-qtbase"
@@ -924,6 +1014,21 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26869001",
       "Version": "1",
       "Name": "c-ares"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26813001",
+      "Version": "1",
+      "Name": "rust"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26812001",
+      "Version": "1",
+      "Name": "rust"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26810001",
+      "Version": "1",
+      "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26798001",
@@ -1074,6 +1179,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26415001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26409001",
+      "Version": "1",
+      "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26405001",
@@ -1391,6 +1501,11 @@
       "Name": "telegraf"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25939001",
+      "Version": "1",
+      "Name": "skopeo"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25937001",
       "Version": "1",
       "Name": "openssl"
@@ -1441,6 +1556,11 @@
       "Name": "xorg-x11-server"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25858001",
+      "Version": "1",
+      "Name": "rust"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25857001",
       "Version": "1",
       "Name": "rust"
@@ -1489,6 +1609,31 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:25843001",
       "Version": "1",
       "Name": "cloud-hypervisor"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25812001",
+      "Version": "1",
+      "Name": "rust"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25811001",
+      "Version": "1",
+      "Name": "rust"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25810001",
+      "Version": "1",
+      "Name": "rust"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25809001",
+      "Version": "1",
+      "Name": "rust"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25808001",
+      "Version": "1",
+      "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25798001",
@@ -1947,7 +2092,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13705001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
@@ -2017,17 +2162,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13660001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13659001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13658001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
@@ -2272,17 +2417,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13313001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13312001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13311001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
@@ -2322,7 +2467,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13289001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
@@ -2617,12 +2762,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13063001",
-      "Version": "0",
+      "Version": "1",
       "Name": "freeradius"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13062001",
-      "Version": "0",
+      "Version": "1",
       "Name": "freeradius"
     },
     {
@@ -2667,7 +2812,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13029001",
-      "Version": "0",
+      "Version": "1",
       "Name": "opa"
     },
     {
@@ -2682,17 +2827,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13026001",
-      "Version": "0",
+      "Version": "1",
       "Name": "git"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13025001",
-      "Version": "0",
+      "Version": "1",
       "Name": "git"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13024001",
-      "Version": "0",
+      "Version": "1",
       "Name": "git"
     },
     {
@@ -2792,7 +2937,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:12938001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rust"
     },
     {
@@ -7667,12 +7812,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7277001",
-      "Version": "0",
+      "Version": "1",
       "Name": "libvorbis"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7276001",
-      "Version": "0",
+      "Version": "1",
       "Name": "libvorbis"
     },
     {
@@ -7687,7 +7832,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7273001",
-      "Version": "0",
+      "Version": "1",
       "Name": "libspiro"
     },
     {
