@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-10-10T07:19:06Z",
+        "Date": "2023-10-12T07:24:55Z",
         "Description": "current"
       }
     ]
@@ -3744,11 +3744,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "Public Cloud Image google/sles-15-sp5-sap-byos-v20230921-x86-64:libatomic1-12.3.0+git1204-150000.1.16.1",
-            "Public Cloud Image google/sles-15-sp5-sap-byos-v20230921-x86-64:libgcc_s1-12.3.0+git1204-150000.1.16.1",
-            "Public Cloud Image google/sles-15-sp5-sap-byos-v20230921-x86-64:libstdc++6-12.3.0+git1204-150000.1.16.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}

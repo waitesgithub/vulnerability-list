@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-10-10T07:19:32Z",
+        "Date": "2023-10-12T07:25:30Z",
         "Description": "current"
       }
     ]
@@ -482,10 +482,7 @@
       "ProductStatuses": [
         {
           "Type": "Fixed",
-          "ProductID": [
-            "Public Cloud Image google/sles-15-sp4-chost-byos-v20230928-arm64:libgcc_s1-12.3.0+git1204-150000.1.16.1",
-            "Public Cloud Image google/sles-15-sp4-chost-byos-v20230928-arm64:libstdc++6-12.3.0+git1204-150000.1.16.1"
-          ]
+          "ProductID": null
         }
       ],
       "CVSSScoreSets": {}
