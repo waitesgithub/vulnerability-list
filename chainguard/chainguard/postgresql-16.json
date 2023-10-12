@@ -1,10 +1,8 @@
 {
-  "name": "nodejs-19",
+  "name": "postgresql-16",
   "secfixes": {
     "0": [
-      "CVE-2023-32003",
-      "CVE-2023-32004",
-      "CVE-2023-44487"
+      "CVE-2017-8806"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
