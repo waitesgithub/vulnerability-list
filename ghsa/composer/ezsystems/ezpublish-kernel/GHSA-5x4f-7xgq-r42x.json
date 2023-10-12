@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-04-29T15:39:21Z",
+  "UpdatedAt": "2023-10-12T05:05:09Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "ezsystems/ezpublish-kernel"
@@ -17,6 +17,9 @@
         "Url": "https://developers.ibexa.co/security-advisories/ibexa-sa-2022-004-ineffective-object-state-limitation-and-unauthenticated-fastly-purge"
       },
       {
+        "Url": "https://github.com/ezsystems/ezpublish-kernel/commit/133c33cbcaa330953d6283865153f3dfdc7a2e45"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-5x4f-7xgq-r42x"
       }
     ],
@@ -31,7 +34,7 @@
     "PublishedAt": "2022-04-29T15:39:18Z",
     "Severity": "CRITICAL",
     "Summary": "Object state limitation has no effect",
-    "UpdatedAt": "2023-10-03T13:51:20Z",
+    "UpdatedAt": "2023-10-12T05:05:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
