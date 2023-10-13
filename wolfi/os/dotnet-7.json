@@ -3,6 +3,9 @@
   "secfixes": {
     "7.0.105-r0": [
       "CVE-2023-28260"
+    ],
+    "7.0.112-r0": [
+      "CVE-2023-44487"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
