@@ -1,13 +1,8 @@
 {
-  "name": "go-1.21",
+  "name": "istio-envoy-1.19",
   "secfixes": {
-    "0": [
-      "CVE-2020-29509",
-      "CVE-2020-29511",
-      "CVE-2023-29409"
-    ],
-    "1.21.3-r0": [
-      "CVE-2023-39325"
+    "1.19.3-r0": [
+      "CVE-2023-44487"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
