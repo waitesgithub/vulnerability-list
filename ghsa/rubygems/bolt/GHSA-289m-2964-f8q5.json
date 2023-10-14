@@ -17,6 +17,12 @@
         "Url": "https://www.puppet.com/security/cve/cve-2023-5255-denial-service-revocation-auto-renewed-certificates"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bolt/CVE-2023-5214.yml"
+      },
+      {
+        "Url": "https://www.puppet.com/security/cve/cve-2023-5214-privilege-escalation-puppet-bolt"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-289m-2964-f8q5"
       }
     ],
@@ -35,7 +41,7 @@
     "PublishedAt": "2023-10-06T18:30:32Z",
     "Severity": "MODERATE",
     "Summary": "Puppet Bolt privilege escalation vulnerability",
-    "UpdatedAt": "2023-10-10T22:29:36Z",
+    "UpdatedAt": "2023-10-13T22:56:42Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

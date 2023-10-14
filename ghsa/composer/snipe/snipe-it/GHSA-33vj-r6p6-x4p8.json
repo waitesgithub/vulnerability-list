@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-10-11T20:49:42Z",
   "Package": {
     "Ecosystem": "COMPOSER",
@@ -36,13 +36,13 @@
     "Description": "Cross-Site Request Forgery (CSRF) in GitHub repository snipe/snipe-it prior to v.6.2.3.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-10-11T03:30:32Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Cross-Site Request Forgery (CSRF) in snipe/snipe-it",
-    "UpdatedAt": "2023-10-11T20:49:42Z",
+    "UpdatedAt": "2023-10-13T20:42:51Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 6.3,
-      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+      "Score": 8.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

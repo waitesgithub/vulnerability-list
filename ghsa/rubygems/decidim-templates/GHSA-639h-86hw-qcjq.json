@@ -1,5 +1,5 @@
 {
-  "Severity": "CRITICAL",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-10-05T20:52:47Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
@@ -45,13 +45,13 @@
     "Description": "### Impact\n\nThe `templates` module doesn't enforce the correct permissions, allowing any logged-in user to access to this functionality in the administration panel. An attacker could use this vulnerability to change, create or delete templates of surveys.\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-10-05T20:52:46Z",
-    "Severity": "CRITICAL",
+    "Severity": "HIGH",
     "Summary": "Decidim has broken access control in templates",
-    "UpdatedAt": "2023-10-09T00:37:07Z",
+    "UpdatedAt": "2023-10-13T22:47:58Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 9.1,
-      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:L"
+      "Score": 7.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L"
     }
   },
   "Versions": [

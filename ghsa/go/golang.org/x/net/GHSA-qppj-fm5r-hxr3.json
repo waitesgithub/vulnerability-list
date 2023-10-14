@@ -1,9 +1,9 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-10-10T21:28:25Z",
+  "UpdatedAt": "2023-10-13T22:09:26Z",
   "Package": {
-    "Ecosystem": "SWIFT",
-    "Name": "https://github.com/apple/swift-nio-http2"
+    "Ecosystem": "GO",
+    "Name": "golang.org/x/net"
   },
   "Advisory": {
     "DatabaseId": 222710,
@@ -348,9 +348,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "1.28.0"
+        "Identifier": "0.17.0"
       },
-      "VulnerableVersionRange": "\u003c 1.28.0"
+      "VulnerableVersionRange": "\u003c 0.17.0"
     }
   ]
 }

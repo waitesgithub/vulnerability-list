@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-01-10T00:40:57Z",
+  "UpdatedAt": "2023-10-13T23:00:20Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "simplesamlphp/simplesamlphp-module-openid"
@@ -39,12 +39,12 @@
         "Value": "CVE-2010-10002"
       }
     ],
-    "Description": "A vulnerability classified as problematic has been found in SimpleSAMLphp simplesamlphp-module-openid. Affected is an unknown function of the file `templates/consumer.php` of the component `OpenID Handler`. The manipulation of the argument `AuthState` leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.0 can address this issue. The name of the patch is d652d41ccaf8c45d5707e741c0c5d82a2365a9a3. It is recommended to upgrade the affected component. VDB-217170 is the identifier assigned to this vulnerability.\n\nNOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+    "Description": "A vulnerability classified as problematic has been found in SimpleSAMLphp simplesamlphp-module-openid. Affected is an unknown function of the file `templates/consumer.php` of the component `OpenID Handler`. The manipulation of the argument `AuthState` leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.0 can address this issue. The name of the patch is d652d41ccaf8c45d5707e741c0c5d82a2365a9a3. It is recommended to upgrade the affected component. VDB-217170 is the identifier assigned to this vulnerability.\n\nNOTE: This vulnerability only affects products that are no longer supported by the maintainer. ",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-01-01T18:30:22Z",
     "Severity": "MODERATE",
     "Summary": "SimpleSAMLphp simplesamlphp-module-openid",
-    "UpdatedAt": "2023-02-02T05:01:18Z",
+    "UpdatedAt": "2023-10-13T23:00:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
