@@ -1,13 +1,7 @@
 {
-  "name": "kube-fluentd-operator",
+  "name": "kube-state-metrics",
   "secfixes": {
-    "0": [
-      "CVE-2008-1145"
-    ],
-    "1.17.6-r2": [
-      "CVE-2023-38037"
-    ],
-    "1.17.6-r8": [
+    "2.10.0-r4": [
       "CVE-2023-39325",
       "CVE-2023-3978"
     ]
