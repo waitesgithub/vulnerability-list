@@ -6,6 +6,10 @@
     ],
     "1.27.5-r0": [
       "CVE-2023-32187"
+    ],
+    "1.28.2-r1": [
+      "CVE-2023-39325",
+      "CVE-2023-3978"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
