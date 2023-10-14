@@ -1,10 +1,7 @@
 {
-  "name": "kube-oidc-proxy",
+  "name": "prometheus-fips",
   "secfixes": {
-    "0": [
-      "CVE-2020-8552"
-    ],
-    "1.0.4-r3": [
+    "2.47.1-r2": [
       "CVE-2023-39325",
       "CVE-2023-3978"
     ]
