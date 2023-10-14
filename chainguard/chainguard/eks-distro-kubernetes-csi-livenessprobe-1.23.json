@@ -1,10 +1,7 @@
 {
-  "name": "vault-1.14",
+  "name": "eks-distro-kubernetes-csi-livenessprobe-1.23",
   "secfixes": {
-    "1.14.3-r0": [
-      "CVE-2023-4680"
-    ],
-    "1.14.4-r3": [
+    "1.23.32-r0": [
       "CVE-2023-39325",
       "CVE-2023-3978"
     ]
