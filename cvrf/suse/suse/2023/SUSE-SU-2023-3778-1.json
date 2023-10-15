@@ -31,13 +31,93 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3778,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3778,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3778,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3778,SUSE-2023-3778,SUSE-SLE-Module-Basesystem-15-SP4-2023-3778,SUSE-SLE-Module-Basesystem-15-SP5-2023-3778,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-3778,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3778,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3778,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3778,openSUSE-SLE-15.4-2023-3778,openSUSE-SLE-15.5-2023-3778",
+      "Text": "Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-3778,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-3778,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-3778,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-3778,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3778,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3778,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3778,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3778,SUSE-2023-3778,SUSE-SLE-Module-Basesystem-15-SP4-2023-3778,SUSE-SLE-Module-Basesystem-15-SP5-2023-3778,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-3778,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3778,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3778,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3778,openSUSE-SLE-15.4-2023-3778,openSUSE-SLE-15.5-2023-3778",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libwireshark15-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwiretap12-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwsutil13-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwireshark15-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwiretap12-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwsutil13-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwireshark15-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwiretap12-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwsutil13-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwireshark15-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwiretap12-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwsutil13-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-3.6.16-150000.3.100.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libwireshark15-3.6.16-150000.3.100.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
@@ -350,6 +430,22 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:wireshark-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
@@ -426,6 +522,22 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:wireshark-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
@@ -502,6 +614,22 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:wireshark-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
@@ -578,6 +706,22 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:wireshark-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwireshark15-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwiretap12-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libwsutil13-3.6.16-150000.3.100.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:wireshark-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwireshark15-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwiretap12-3.6.16-150000.3.100.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:libwsutil13-3.6.16-150000.3.100.1",

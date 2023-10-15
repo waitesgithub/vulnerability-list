@@ -31,13 +31,73 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-4059,SUSE-SLE-Micro-5.3-2023-4059,SUSE-SLE-Micro-5.4-2023-4059,SUSE-SLE-Module-Basesystem-15-SP4-2023-4059,SUSE-SLE-Product-HA-15-SP4-2023-4059,openSUSE-SLE-15.4-2023-4059",
+      "Text": "Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-4059,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-4059,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-4059,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-4059,SUSE-2023-4059,SUSE-SLE-Micro-5.3-2023-4059,SUSE-SLE-Micro-5.4-2023-4059,SUSE-SLE-Module-Basesystem-15-SP4-2023-4059,SUSE-SLE-Product-HA-15-SP4-2023-4059,openSUSE-SLE-15.4-2023-4059",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Availability Extension 15 SP4",
@@ -389,7 +449,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -406,6 +466,18 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP4:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise Micro 5.3:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise Micro 5.3:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
@@ -494,6 +566,18 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP4:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise Micro 5.3:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise Micro 5.3:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
@@ -565,7 +649,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -582,6 +666,18 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP4:ctdb-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise Micro 5.3:samba-client-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",
             "SUSE Linux Enterprise Micro 5.3:samba-libs-4.15.13+git.691.3d3cea0641-150400.3.31.1",

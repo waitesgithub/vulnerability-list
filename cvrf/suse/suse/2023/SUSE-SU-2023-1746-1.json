@@ -31,33 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-1746,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-1746,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-1746,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-1746,SUSE-2023-1746,SUSE-SLE-Module-Basesystem-15-SP4-2023-1746,openSUSE-SLE-15.4-2023-1746",
+      "Text": "SUSE-2023-1746,SUSE-SLE-Module-Basesystem-15-SP4-2023-1746,openSUSE-SLE-15.4-2023-1746",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.20.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.20.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.20.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.20.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "libopenssl-3-devel-3.0.1-150400.4.20.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
@@ -151,10 +131,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.20.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.20.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.20.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.20.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.20.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.20.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.20.1",

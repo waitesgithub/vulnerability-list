@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/golang:1.19-openssl-2023-3686,Container bci/golang:1.20-2023-3686,Container bci/golang:latest-2023-3686,Container bci/ruby:latest-2023-3686,Container suse/pcp:5-2023-3686,Container suse/pcp:latest-2023-3686,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-3686,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-3686,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-3686,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-3686,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-3686,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-3686,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-3686,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-3686,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-3686,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-3686,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-3686,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-3686,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-3686,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-3686,Image SLES15-SP5-HPC-Azure-2023-3686,Image SLES15-SP5-HPC-BYOS-Azure-2023-3686,Image SLES15-SP5-HPC-BYOS-GCE-2023-3686,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3686,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3686,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3686,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3686,Image SLES15-SP5-SAPCAL-Azure-2023-3686,Image SLES15-SP5-SAPCAL-GCE-2023-3686,SUSE-2023-3686,SUSE-SLE-Module-Basesystem-15-SP4-2023-3686,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-3686",
+      "Text": "Container bci/golang:1.19-openssl-2023-3686,Container bci/golang:1.20-2023-3686,Container bci/golang:latest-2023-3686,Container bci/ruby:latest-2023-3686,Container suse/pcp:5-2023-3686,Container suse/pcp:latest-2023-3686,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-3686,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-3686,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-3686,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-3686,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-3686,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-3686,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-3686,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-3686,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-3686,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-3686,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-3686,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-3686,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-3686,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-3686,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-3686,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-3686,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-3686,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-3686,Image SLES15-SP5-HPC-Azure-2023-3686,Image SLES15-SP5-HPC-BYOS-Azure-2023-3686,Image SLES15-SP5-HPC-BYOS-GCE-2023-3686,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3686,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3686,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3686,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3686,Image SLES15-SP5-SAPCAL-Azure-2023-3686,Image SLES15-SP5-SAPCAL-GCE-2023-3686,SUSE-2023-3686,SUSE-SLE-Module-Basesystem-15-SP4-2023-3686,SUSE-SLE-Product-SLES_SAP-15-SP1-2023-3686",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -521,6 +521,106 @@
       {
         "ProductReference": "libubsan0-7.5.0+r278197-150000.4.35.1",
         "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpp7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gcc7-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libasan4-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcilkrts5-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libubsan0-7.5.0+r278197-150000.4.35.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -1179,6 +1279,26 @@
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:libasan4-7.5.0+r278197-150000.4.35.1",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:libcilkrts5-7.5.0+r278197-150000.4.35.1",
             "Image SLES15-SP4-Manager-Server-4-3-BYOS:libubsan0-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cpp7-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gcc7-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libasan4-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libcilkrts5-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libubsan0-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:cpp7-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:gcc7-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libasan4-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libcilkrts5-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libubsan0-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:cpp7-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:gcc7-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libasan4-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libcilkrts5-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libubsan0-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:cpp7-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:gcc7-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libasan4-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libcilkrts5-7.5.0+r278197-150000.4.35.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libubsan0-7.5.0+r278197-150000.4.35.1",
             "Image SLES15-SP5-HPC-Azure:cpp7-7.5.0+r278197-150000.4.35.1",
             "Image SLES15-SP5-HPC-Azure:gcc7-7.5.0+r278197-150000.4.35.1",
             "Image SLES15-SP5-HPC-Azure:gcc7-c++-7.5.0+r278197-150000.4.35.1",

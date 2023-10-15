@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/openjdk-devel:11-2023-3963,Container bci/openjdk-devel:latest-2023-3963,Container bci/openjdk:11-2023-3963,Container bci/openjdk:latest-2023-3963,Container suse/nginx:latest-2023-3963,SUSE-2023-3963,SUSE-SLE-Micro-5.3-2023-3963,SUSE-SLE-Micro-5.4-2023-3963,SUSE-SLE-Micro-5.5-2023-3963,SUSE-SLE-Module-Basesystem-15-SP4-2023-3963,SUSE-SLE-Module-Basesystem-15-SP5-2023-3963,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3963,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3963,SUSE-SUSE-MicroOS-5.2-2023-3963,openSUSE-SLE-15.4-2023-3963,openSUSE-SLE-15.5-2023-3963",
+      "Text": "Container bci/openjdk-devel:11-2023-3963,Container bci/openjdk-devel:latest-2023-3963,Container bci/openjdk:11-2023-3963,Container bci/openjdk:latest-2023-3963,Container suse/nginx:latest-2023-3963,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-3963,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-3963,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-3963,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-3963,SUSE-2023-3963,SUSE-SLE-Micro-5.3-2023-3963,SUSE-SLE-Micro-5.4-2023-3963,SUSE-SLE-Micro-5.5-2023-3963,SUSE-SLE-Module-Basesystem-15-SP4-2023-3963,SUSE-SLE-Module-Basesystem-15-SP5-2023-3963,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-3963,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-3963,SUSE-SUSE-MicroOS-5.2-2023-3963,openSUSE-SLE-15.4-2023-3963,openSUSE-SLE-15.5-2023-3963",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -86,6 +86,66 @@
       {
         "ProductReference": "libX11-data-1.6.5-150000.3.33.1",
         "RelatesToProductReference": "Container suse/nginx:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.5-150000.3.33.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
         "RelationType": "Default Component Of"
       },
       {
@@ -381,7 +441,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-43785",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A vulnerability was found in libX11 due to a boundary condition within the _XkbReadKeySyms() function. This flaw allows a local user to trigger an out-of-bounds read error and read the contents of memory on the system.",
       "Threats": [
         {
           "Type": "Impact",
@@ -392,10 +452,6 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-43785.html",
           "Description": "CVE-2023-43785"
-        },
-        {
-          "URL": "https://bugzilla.suse.com/1215682",
-          "Description": "SUSE Bug 1215682"
         },
         {
           "URL": "https://bugzilla.suse.com/1215683",
@@ -416,6 +472,18 @@
             "Container bci/openjdk:latest:libX11-data-1.6.5-150000.3.33.1",
             "Container suse/nginx:latest:libX11-6-1.6.5-150000.3.33.1",
             "Container suse/nginx:latest:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-xcb1-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-6-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-data-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-xcb1-1.6.5-150000.3.33.1",
@@ -473,7 +541,7 @@
     },
     {
       "CVE": "CVE-2023-43786",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A vulnerability was found in libX11 due to an infinite loop within the PutSubImage() function. This flaw allows a local user to consume all available system resources and cause a denial of service condition.",
       "Threats": [
         {
           "Type": "Impact",
@@ -508,6 +576,18 @@
             "Container bci/openjdk:latest:libX11-data-1.6.5-150000.3.33.1",
             "Container suse/nginx:latest:libX11-6-1.6.5-150000.3.33.1",
             "Container suse/nginx:latest:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-xcb1-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-6-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-data-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-xcb1-1.6.5-150000.3.33.1",
@@ -565,7 +645,7 @@
     },
     {
       "CVE": "CVE-2023-43787",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "A vulnerability was found in libX11 due to an integer overflow within the XCreateImage() function. This flaw allows a local user to trigger an integer overflow and execute arbitrary code with elevated privileges.",
       "Threats": [
         {
           "Type": "Impact",
@@ -600,6 +680,18 @@
             "Container bci/openjdk:latest:libX11-data-1.6.5-150000.3.33.1",
             "Container suse/nginx:latest:libX11-6-1.6.5-150000.3.33.1",
             "Container suse/nginx:latest:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libX11-xcb1-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-6-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-data-1.6.5-150000.3.33.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libX11-xcb1-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-6-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-data-1.6.5-150000.3.33.1",
             "SUSE Linux Enterprise Micro 5.2:libX11-xcb1-1.6.5-150000.3.33.1",

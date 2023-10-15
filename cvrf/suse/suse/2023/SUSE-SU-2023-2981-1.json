@@ -31,13 +31,33 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP4-SAP-Hardened-2023-2981,Image SLES15-SP4-SAP-Hardened-Azure-2023-2981,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2981,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2981,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2981,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2981,Image SLES15-SP4-SAP-Hardened-GCE-2023-2981,SUSE-2023-2981,SUSE-SLE-Module-Basesystem-15-SP4-2023-2981,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-2981,openSUSE-SLE-15.4-2023-2981",
+      "Text": "Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2981,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2981,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2981,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2981,Image SLES15-SP4-SAP-Hardened-2023-2981,Image SLES15-SP4-SAP-Hardened-Azure-2023-2981,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2981,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2981,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2981,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2981,Image SLES15-SP4-SAP-Hardened-GCE-2023-2981,SUSE-2023-2981,SUSE-SLE-Module-Basesystem-15-SP4-2023-2981,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-2981,openSUSE-SLE-15.4-2023-2981",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libQt5Svg5-5.15.2+kde16-150400.3.3.1",
         "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
@@ -174,6 +194,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-Azure:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
@@ -218,6 +242,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-Azure:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:libQt5Svg5-5.15.2+kde16-150400.3.3.1",
             "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:libQt5Svg5-5.15.2+kde16-150400.3.3.1",

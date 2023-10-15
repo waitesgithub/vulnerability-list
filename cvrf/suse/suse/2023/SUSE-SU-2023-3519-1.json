@@ -31,13 +31,33 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3519,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3519,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3519,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3519,SUSE-2023-3519,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-3519,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3519,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3519,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3519,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3519,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3519,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3519,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3519,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3519,SUSE-Storage-7-2023-3519,SUSE-Storage-7.1-2023-3519,openSUSE-SLE-15.4-2023-3519,openSUSE-SLE-15.5-2023-3519",
+      "Text": "Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-3519,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-3519,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-3519,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-3519,Image SLES15-SP5-SAP-Azure-LI-BYOS-2023-3519,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2023-3519,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2023-3519,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2023-3519,SUSE-2023-3519,SUSE-SLE-Module-Desktop-Applications-15-SP4-2023-3519,SUSE-SLE-Module-Desktop-Applications-15-SP5-2023-3519,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-3519,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-3519,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-3519,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-3519,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-3519,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-3519,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-3519,SUSE-Storage-7-2023-3519,SUSE-Storage-7.1-2023-3519,openSUSE-SLE-15.4-2023-3519,openSUSE-SLE-15.5-2023-3519",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "MozillaFirefox-115.2.0-150200.152.102.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-115.2.0-150200.152.102.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-115.2.0-150200.152.102.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-115.2.0-150200.152.102.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "MozillaFirefox-115.2.0-150200.152.102.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
@@ -420,6 +440,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -502,6 +526,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -584,6 +612,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -666,6 +698,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -748,6 +784,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -830,6 +870,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -912,6 +956,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -994,6 +1042,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -1076,6 +1128,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -1158,6 +1214,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -1240,6 +1300,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -1322,6 +1386,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
@@ -1404,6 +1472,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:MozillaFirefox-115.2.0-150200.152.102.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:MozillaFirefox-115.2.0-150200.152.102.1",

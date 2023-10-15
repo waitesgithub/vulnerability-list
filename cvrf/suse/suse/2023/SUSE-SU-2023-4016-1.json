@@ -187,7 +187,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-5168",
-      "Description": "A compromised content process could have provided malicious data to `FilterNodeD2D1` resulting in an out-of-bounds write, leading to a potentially exploitable crash in a privileged process. This vulnerability affects Firefox \u003c 118, Firefox ESR \u003c 115.3, and Thunderbird \u003c 115.3.",
+      "Description": "A compromised content process could have provided malicious data to `FilterNodeD2D1` resulting in an out-of-bounds write, leading to a potentially exploitable crash in a privileged process.\n*This bug only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox \u003c 118, Firefox ESR \u003c 115.3, and Thunderbird \u003c 115.3.",
       "Threats": [
         {
           "Type": "Impact",
@@ -401,7 +401,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
