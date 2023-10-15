@@ -1,14 +1,10 @@
 {
-  "name": "telegraf-1.26",
+  "name": "memcached-exporter",
   "secfixes": {
-    "0": [
-      "CVE-2019-3826",
-      "CVE-2023-34231",
-      "GHSA-2w8w-qhg4-f78j"
-    ],
-    "1.26.3-r4": [
+    "0.13.0-r7": [
       "CVE-2023-39325",
-      "CVE-2023-3978"
+      "CVE-2023-3978",
+      "CVE-2023-44487"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
