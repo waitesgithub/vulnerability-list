@@ -2,6 +2,30 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package curl is earlier than 8.3.0-2, affected by CVE-2023-38546",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31289000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31289001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31289002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package curl is earlier than 8.3.0-2, affected by CVE-2023-38545",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31288000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31288001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31288002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package python3 is earlier than 3.9.14-8, affected by CVE-2023-24329",
       "ID": "oval:com.microsoft.cbl-mariner:tst:31165000",
       "Version": "0",
