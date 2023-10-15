@@ -1,13 +1,10 @@
 {
-  "name": "prometheus-fips-2.38",
+  "name": "rqlite",
   "secfixes": {
-    "0": [
-      "CVE-2023-2253",
-      "CVE-2023-28840"
-    ],
-    "2.38.0-r2": [
+    "7.21.4-r6": [
       "CVE-2023-39325",
-      "CVE-2023-3978"
+      "CVE-2023-3978",
+      "CVE-2023-44487"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
