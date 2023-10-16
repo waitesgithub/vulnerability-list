@@ -19,6 +19,15 @@
       }
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:31197002",
+      "Version": "0",
+      "Evr": {
+        "Text": "0:2.11.1-1.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:ste:31165002",
       "Version": "0",
       "Evr": {
@@ -59,6 +68,15 @@
       "Version": "1",
       "Evr": {
         "Text": "0:2.35-5.cm2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      }
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:ste:31112002",
+      "Version": "0",
+      "Evr": {
+        "Text": "0:9.0.1897-3.cm2",
         "Datatype": "evr_string",
         "Operation": "less than"
       }
@@ -3748,7 +3766,7 @@
       "ID": "oval:com.microsoft.cbl-mariner:ste:13730002",
       "Version": "0",
       "Evr": {
-        "Text": "0:1.17.13-2.cm2",
+        "Text": "0:1.20.7-1.cm2",
         "Datatype": "evr_string",
         "Operation": "less than or equal"
       }
@@ -6961,7 +6979,7 @@
       "ID": "oval:com.microsoft.cbl-mariner:ste:11130002",
       "Version": "0",
       "Evr": {
-        "Text": "0:1.17.13-2.cm2",
+        "Text": "0:1.20.7-1.cm2",
         "Datatype": "evr_string",
         "Operation": "less than or equal"
       }
@@ -6970,7 +6988,7 @@
       "ID": "oval:com.microsoft.cbl-mariner:ste:11129002",
       "Version": "0",
       "Evr": {
-        "Text": "0:1.17.13-2.cm2",
+        "Text": "0:1.20.7-1.cm2",
         "Datatype": "evr_string",
         "Operation": "less than or equal"
       }
@@ -6979,7 +6997,7 @@
       "ID": "oval:com.microsoft.cbl-mariner:ste:11128002",
       "Version": "0",
       "Evr": {
-        "Text": "0:1.17.13-2.cm2",
+        "Text": "0:1.20.7-1.cm2",
         "Datatype": "evr_string",
         "Operation": "less than or equal"
       }
@@ -7672,7 +7690,7 @@
       "ID": "oval:com.microsoft.cbl-mariner:ste:10855002",
       "Version": "0",
       "Evr": {
-        "Text": "0:1.17.13-2.cm2",
+        "Text": "0:1.20.7-1.cm2",
         "Datatype": "evr_string",
         "Operation": "less than or equal"
       }
