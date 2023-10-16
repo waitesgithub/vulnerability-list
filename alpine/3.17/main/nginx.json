@@ -35,6 +35,9 @@
     "1.22.1-r0": [
       "CVE-2022-41741",
       "CVE-2022-41742"
+    ],
+    "1.22.1-r1": [
+      "CVE-2023-44487"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
