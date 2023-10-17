@@ -6,6 +6,11 @@
       "CVE-2023-33199",
       "CVE-2023-34091",
       "GHSA-hgv6-w7r3-w4qw"
+    ],
+    "1.5.2-r3": [
+      "CVE-2023-39325",
+      "CVE-2023-3978",
+      "CVE-2023-44487"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
