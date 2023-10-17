@@ -2,6 +2,18 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package nginx is earlier than 1.22.1-11, affected by CVE-2023-44487",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31333000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31333001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31333002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package curl is earlier than 8.3.0-2, affected by CVE-2023-38546",
       "ID": "oval:com.microsoft.cbl-mariner:tst:31289000",
       "Version": "1",
@@ -22,6 +34,246 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:31288002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25674",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31217000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31217001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31217002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25665",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31216000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31216001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31216002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25663",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31215000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31215001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31215002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25670",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31214000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31214001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31214002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25673",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31213000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31213001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31213002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25675",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31212000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31212001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31212002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25664",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31211000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31211001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31211002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25672",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31210000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31210001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31210002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25662",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31209000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31209001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31209002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-27579",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31208000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31208001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31208002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25669",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31207000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31207001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31207002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25801",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31206000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31206001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31206002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25666",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31205000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31205001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31205002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25671",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31204000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31204001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31204002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25676",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31203000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31203001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31203002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25660",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31202000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31202001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31202002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25659",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31201000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31201001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31201002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25668",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31200000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31200001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31200002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25658",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31199000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31199001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31199002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.11.1-1, affected by CVE-2023-25667",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31198000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31198001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31198002"
       }
     },
     {
