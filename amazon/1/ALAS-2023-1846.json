@@ -5,7 +5,7 @@
     "date": "2023-09-27 22:15"
   },
   "updated": {
-    "date": "2023-09-27 22:15"
+    "date": "2023-10-06 00:52"
   },
   "severity": "medium",
   "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2023-3316:\n\tA NULL pointer dereference in TIFFClose() is caused by a failure to open an output file (non-existent path or a path that requires permissions like /dev/null) while specifying zones.\n",

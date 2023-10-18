@@ -5,7 +5,7 @@
     "date": "2023-09-27 22:15"
   },
   "updated": {
-    "date": "2023-09-27 22:15"
+    "date": "2023-10-06 00:53"
   },
   "severity": "medium",
   "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2023-39615:\n\tXmlsoft Libxml2 v2.11.0 was discovered to contain a global buffer overflow via the xmlSAX2StartElement() function at /libxml2/SAX2.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted XML file.\n",
