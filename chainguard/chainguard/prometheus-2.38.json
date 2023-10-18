@@ -1,10 +1,13 @@
 {
-  "name": "prometheus-elasticsearch-exporter",
+  "name": "prometheus-2.38",
   "secfixes": {
-    "1.6.0-r7": [
-      "CVE-2023-39325",
-      "CVE-2023-3978",
-      "CVE-2023-44487"
+    "0": [
+      "CVE-2022-46146",
+      "GHSA-232p-vwff-86mp",
+      "GHSA-33pg-m6jh-5237",
+      "GHSA-6wrf-mxfj-pf5p",
+      "GHSA-qq97-vm5h-rrhg",
+      "GHSA-v86x-5fm3-5p7j"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
