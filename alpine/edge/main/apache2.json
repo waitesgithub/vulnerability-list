@@ -108,6 +108,11 @@
     "2.4.56-r0": [
       "CVE-2023-25690",
       "CVE-2023-27522"
+    ],
+    "2.4.58-r0": [
+      "CVE-2023-45802",
+      "CVE-2023-43622",
+      "CVE-2023-31122"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
