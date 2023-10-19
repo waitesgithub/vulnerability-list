@@ -3,6 +3,9 @@
   "secfixes": {
     "0": [
       "CVE-2020-8552"
+    ],
+    "1.11.5-r5": [
+      "CVE-2023-45142"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
