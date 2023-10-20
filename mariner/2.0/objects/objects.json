@@ -1,6 +1,11 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31519001",
+      "Version": "0",
+      "Name": "golang"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31502001",
       "Version": "0",
       "Name": "cmake"
@@ -84,6 +89,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:31333001",
       "Version": "0",
       "Name": "nginx"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31332001",
+      "Version": "0",
+      "Name": "nghttp2"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31331001",

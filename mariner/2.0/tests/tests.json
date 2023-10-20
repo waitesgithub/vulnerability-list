@@ -2,6 +2,18 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package golang is earlier than 1.20.7-2, affected by CVE-2023-44487",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31519000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31519001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31519002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package cmake is earlier than 3.21.4-9, affected by CVE-2023-38546",
       "ID": "oval:com.microsoft.cbl-mariner:tst:31502000",
       "Version": "0",
@@ -202,6 +214,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:31333002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package nghttp2 is earlier than  1.57.0-1, affected by CVE-2023-44487",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31332000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31332001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31332002"
       }
     },
     {
@@ -6002,7 +6026,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package nghttp2 is installed with version 1.46.0-3 or earlier",
+      "Comment": "Package nghttp2 is earlier than 1.57.0-1, affected by CVE-2021-46023",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13683000",
       "Version": "0",
       "Object": {
