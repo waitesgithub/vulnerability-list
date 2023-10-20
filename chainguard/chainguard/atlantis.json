@@ -1,15 +1,9 @@
 {
-  "name": "prometheus",
+  "name": "atlantis",
   "secfixes": {
-    "0": [
-      "CVE-2023-40577"
-    ],
-    "2.47.1-r3": [
+    "0.26.0-r3": [
       "CVE-2023-39325",
-      "CVE-2023-3978"
-    ],
-    "2.47.2-r3": [
-      "GHSA-rcjv-mgp8-qvmr"
+      "CVE-2023-44487"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
