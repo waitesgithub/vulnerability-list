@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-06T21:48:57Z",
+  "UpdatedAt": "2023-10-20T22:49:00Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "artesaos/seotools"
@@ -42,12 +42,12 @@
         "Value": "CVE-2020-36663"
       }
     ],
-    "Description": "A vulnerability, which was classified as problematic, was found in Artesãos SEOTools up to and including version 0.17.1. This affects the function makeTag of the file OpenGraph.php. The manipulation of the argument value leads to open redirect. Upgrading to version 0.17.2 is able to address this issue. The name of the patch is ca27cd0edf917e0bc805227013859b8b5a1f01fb. It is recommended to upgrade the affected component.",
+    "Description": "A vulnerability, which was classified as problematic, was found in Artesãos SEOTools up to and including version 0.17.1. This affects the function makeTag of the file OpenGraph.php. The manipulation of the argument value leads to open redirect. Upgrading to version 0.17.2 is able to address this issue. The name of the patch is ca27cd0edf917e0bc805227013859b8b5a1f01fb. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-222231.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-06T19:24:11Z",
     "Severity": "MODERATE",
     "Summary": "Artesãos SEOTools Open Redirect vulnerability",
-    "UpdatedAt": "2023-07-06T21:48:57Z",
+    "UpdatedAt": "2023-10-20T22:49:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

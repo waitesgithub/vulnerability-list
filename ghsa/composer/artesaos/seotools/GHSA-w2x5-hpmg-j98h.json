@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-06T21:49:53Z",
+  "UpdatedAt": "2023-10-20T22:49:20Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "artesaos/seotools"
@@ -42,12 +42,12 @@
         "Value": "CVE-2020-36665"
       }
     ],
-    "Description": "A vulnerability was found in Artesãos SEOTools up to and including version 0.17.1. This issue affects the function eachValue of the file TwitterCards.php. The manipulation of the argument value leads to open redirect. Upgrading to version 0.17.2 is able to address this issue. The name of the patch is ca27cd0edf917e0bc805227013859b8b5a1f01fb. It is recommended to upgrade the affected component. ",
+    "Description": "A vulnerability was found in Artesãos SEOTools up to and including version 0.17.1. This issue affects the function eachValue of the file TwitterCards.php. The manipulation of the argument value leads to open redirect. Upgrading to version 0.17.2 is able to address this issue. The name of the patch is ca27cd0edf917e0bc805227013859b8b5a1f01fb. It is recommended to upgrade the affected component.  The identifier VDB-222233 was assigned to this vulnerability.\n\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-07-06T19:24:11Z",
     "Severity": "MODERATE",
     "Summary": "Artesãos SEOTools Open Redirect vulnerability",
-    "UpdatedAt": "2023-07-15T05:01:56Z",
+    "UpdatedAt": "2023-10-20T22:49:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
