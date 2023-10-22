@@ -31,13 +31,373 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3796,SUSE-SLE-SDK-12-SP5-2023-3796,SUSE-SLE-SERVER-12-SP5-2023-3796",
+      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-3796,Image SLES12-SP5-Azure-HPC-BYOS-2023-3796,Image SLES12-SP5-Azure-HPC-On-Demand-2023-3796,Image SLES12-SP5-Azure-SAP-On-Demand-2023-3796,Image SLES12-SP5-Azure-Standard-On-Demand-2023-3796,Image SLES12-SP5-GCE-BYOS-2023-3796,Image SLES12-SP5-GCE-SAP-BYOS-2023-3796,Image SLES12-SP5-GCE-SAP-On-Demand-2023-3796,SUSE-2023-3796,SUSE-SLE-SDK-12-SP5-2023-3796,SUSE-SLE-SERVER-12-SP5-2023-3796",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "bind-utils-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.49.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "bind-9.11.22-3.49.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
@@ -221,6 +581,78 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-Azure-Basic-On-Demand:bind-utils-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libbind9-161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libdns1110-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libirs161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libisc1107-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libisccc161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libisccfg163-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:liblwres161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:python-bind-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:bind-utils-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libbind9-161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libdns1110-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libirs161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libisc1107-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libisccc161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libisccfg163-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:liblwres161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:python-bind-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:bind-utils-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libbind9-161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libdns1110-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libirs161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libisc1107-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libisccc161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libisccfg163-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:liblwres161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:python-bind-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:bind-utils-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libbind9-161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libdns1110-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libirs161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libisc1107-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libisccc161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libisccfg163-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:liblwres161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:python-bind-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:bind-utils-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libbind9-161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libdns1110-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libirs161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libisc1107-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libisccc161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libisccfg163-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:liblwres161-9.11.22-3.49.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:python-bind-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:bind-utils-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:libbind9-161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:libdns1110-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:libirs161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:libisc1107-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:libisccc161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:libisccfg163-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:liblwres161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-BYOS:python-bind-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:bind-utils-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libbind9-161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libdns1110-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libirs161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libisc1107-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libisccc161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libisccfg163-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:liblwres161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:python-bind-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:bind-utils-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libbind9-161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libdns1110-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libirs161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libisc1107-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libisccc161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libisccfg163-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:liblwres161-9.11.22-3.49.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:python-bind-9.11.22-3.49.1",
             "SUSE Linux Enterprise Server 12 SP5:bind-9.11.22-3.49.1",
             "SUSE Linux Enterprise Server 12 SP5:bind-chrootenv-9.11.22-3.49.1",
             "SUSE Linux Enterprise Server 12 SP5:bind-doc-9.11.22-3.49.1",

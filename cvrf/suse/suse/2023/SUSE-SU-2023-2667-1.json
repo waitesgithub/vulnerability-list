@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP4-CHOST-BYOS-2023-2667,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2667,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2667,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2667,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2667,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2667,Image SLES15-SP4-Hardened-BYOS-2023-2667,Image SLES15-SP4-Hardened-BYOS-Azure-2023-2667,Image SLES15-SP4-Hardened-BYOS-EC2-2023-2667,Image SLES15-SP4-Hardened-BYOS-GCE-2023-2667,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-2667,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-2667,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-2667,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-2667,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-2667,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-2667,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-2667,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-2667,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2667,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2667,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2667,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2667,Image SLES15-SP4-SAP-Hardened-2023-2667,Image SLES15-SP4-SAP-Hardened-Azure-2023-2667,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2667,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2667,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2667,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2667,Image SLES15-SP4-SAP-Hardened-GCE-2023-2667,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-2667,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-2667,Image SLES15-SP5-Hardened-BYOS-EC2-2023-2667,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-2667,SUSE-2023-2667,SUSE-SLE-Module-Basesystem-15-SP4-2023-2667,SUSE-SLE-Module-Server-Applications-15-SP4-2023-2667,openSUSE-SLE-15.4-2023-2667",
+      "Text": "Image SLES15-SP4-CHOST-BYOS-2023-2667,Image SLES15-SP4-CHOST-BYOS-Aliyun-2023-2667,Image SLES15-SP4-CHOST-BYOS-Azure-2023-2667,Image SLES15-SP4-CHOST-BYOS-EC2-2023-2667,Image SLES15-SP4-CHOST-BYOS-GCE-2023-2667,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2023-2667,Image SLES15-SP4-Hardened-BYOS-2023-2667,Image SLES15-SP4-Hardened-BYOS-Azure-2023-2667,Image SLES15-SP4-Hardened-BYOS-EC2-2023-2667,Image SLES15-SP4-Hardened-BYOS-GCE-2023-2667,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-2023-2667,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure-2023-2667,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2-2023-2667,Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE-2023-2667,Image SLES15-SP4-Manager-Server-4-3-BYOS-2023-2667,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2023-2667,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2023-2667,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2023-2667,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-2667,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-2667,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-2667,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-2667,Image SLES15-SP4-SAP-Hardened-2023-2667,Image SLES15-SP4-SAP-Hardened-Azure-2023-2667,Image SLES15-SP4-SAP-Hardened-BYOS-2023-2667,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2023-2667,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2023-2667,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2023-2667,Image SLES15-SP4-SAP-Hardened-GCE-2023-2667,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-2023-2667,Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2-2023-2667,SUSE-2023-2667,SUSE-SLE-Module-Basesystem-15-SP4-2023-2667,SUSE-SLE-Module-Server-Applications-15-SP4-2023-2667,openSUSE-SLE-15.4-2023-2667",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -350,26 +350,6 @@
       },
       {
         "ProductReference": "bind-utils-9.16.42-150400.5.27.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-bind-9.16.42-150400.5.27.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "bind-utils-9.16.42-150400.5.27.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "python3-bind-9.16.42-150400.5.27.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "bind-utils-9.16.42-150400.5.27.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
         "RelationType": "Default Component Of"
       },
@@ -526,10 +506,6 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:python3-bind-9.16.42-150400.5.27.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:bind-utils-9.16.42-150400.5.27.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:python3-bind-9.16.42-150400.5.27.1",
-            "Image SLES15-SP5-Hardened-BYOS-EC2:bind-utils-9.16.42-150400.5.27.1",
-            "Image SLES15-SP5-Hardened-BYOS-EC2:python3-bind-9.16.42-150400.5.27.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:bind-utils-9.16.42-150400.5.27.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:python3-bind-9.16.42-150400.5.27.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:bind-utils-9.16.42-150400.5.27.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-bind-9.16.42-150400.5.27.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-9.16.42-150400.5.27.1",
@@ -632,10 +608,6 @@
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS-EC2:python3-bind-9.16.42-150400.5.27.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:bind-utils-9.16.42-150400.5.27.1",
             "Image SLES15-SP4-SUSE-Rancher-Setup-BYOS:python3-bind-9.16.42-150400.5.27.1",
-            "Image SLES15-SP5-Hardened-BYOS-EC2:bind-utils-9.16.42-150400.5.27.1",
-            "Image SLES15-SP5-Hardened-BYOS-EC2:python3-bind-9.16.42-150400.5.27.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:bind-utils-9.16.42-150400.5.27.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:python3-bind-9.16.42-150400.5.27.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:bind-utils-9.16.42-150400.5.27.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-bind-9.16.42-150400.5.27.1",
             "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-9.16.42-150400.5.27.1",

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.3:latest-2023-4135,Container suse/sle-micro-rancher/5.4:latest-2023-4135,SUSE-2023-4135,SUSE-SLE-Micro-5.3-2023-4135,SUSE-SLE-Micro-5.4-2023-4135,SUSE-SLE-Module-Basesystem-15-SP4-2023-4135",
+      "Text": "Container rancher/elemental-teal-rt/5.4:latest-2023-4135,Container rancher/elemental-teal/5.4:latest-2023-4135,Container suse/sle-micro-rancher/5.3:latest-2023-4135,Container suse/sle-micro-rancher/5.4:latest-2023-4135,Container suse/sle-micro/5.3/toolbox:latest-2023-4135,Container suse/sle-micro/5.4/toolbox:latest-2023-4135,Image SLES15-SP4-Micro-5-4-BYOS-2023-4135,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2023-4135,Image SLES15-SP4-Micro-5-4-GCE-2023-4135,SUSE-2023-4135,SUSE-SLE-Micro-5.3-2023-4135,SUSE-SLE-Micro-5.4-2023-4135,SUSE-SLE-Module-Basesystem-15-SP4-2023-4135",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,12 +40,47 @@
     "Relationships": [
       {
         "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "suse-module-tools-15.4.18-150400.3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -123,8 +158,15 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:suse-module-tools-15.4.18-150400.3.14.1",
+            "Container rancher/elemental-teal/5.4:latest:suse-module-tools-15.4.18-150400.3.14.1",
             "Container suse/sle-micro-rancher/5.3:latest:suse-module-tools-15.4.18-150400.3.14.1",
             "Container suse/sle-micro-rancher/5.4:latest:suse-module-tools-15.4.18-150400.3.14.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:suse-module-tools-15.4.18-150400.3.14.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:suse-module-tools-15.4.18-150400.3.14.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:suse-module-tools-15.4.18-150400.3.14.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:suse-module-tools-15.4.18-150400.3.14.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:suse-module-tools-15.4.18-150400.3.14.1",
             "SUSE Linux Enterprise Micro 5.3:suse-module-tools-15.4.18-150400.3.14.1",
             "SUSE Linux Enterprise Micro 5.4:suse-module-tools-15.4.18-150400.3.14.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:suse-module-tools-15.4.18-150400.3.14.1"
@@ -139,7 +181,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -156,8 +198,15 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.4:latest:suse-module-tools-15.4.18-150400.3.14.1",
+            "Container rancher/elemental-teal/5.4:latest:suse-module-tools-15.4.18-150400.3.14.1",
             "Container suse/sle-micro-rancher/5.3:latest:suse-module-tools-15.4.18-150400.3.14.1",
             "Container suse/sle-micro-rancher/5.4:latest:suse-module-tools-15.4.18-150400.3.14.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:suse-module-tools-15.4.18-150400.3.14.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:suse-module-tools-15.4.18-150400.3.14.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:suse-module-tools-15.4.18-150400.3.14.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:suse-module-tools-15.4.18-150400.3.14.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:suse-module-tools-15.4.18-150400.3.14.1",
             "SUSE Linux Enterprise Micro 5.3:suse-module-tools-15.4.18-150400.3.14.1",
             "SUSE Linux Enterprise Micro 5.4:suse-module-tools-15.4.18-150400.3.14.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:suse-module-tools-15.4.18-150400.3.14.1"

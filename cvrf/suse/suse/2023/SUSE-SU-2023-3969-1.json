@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.3:latest-2023-3969,Container suse/sle-micro-rancher/5.4:latest-2023-3969,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-3969,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-3969,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-3969,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-3969,SUSE-2023-3969,SUSE-SLE-Micro-5.3-2023-3969,SUSE-SLE-Micro-5.4-2023-3969,SUSE-SLE-Module-Basesystem-15-SP4-2023-3969,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3969,SUSE-SLE-Module-Legacy-15-SP4-2023-3969,SUSE-SLE-Module-Live-Patching-15-SP4-2023-3969,SUSE-SLE-Product-HA-15-SP4-2023-3969,SUSE-SLE-Product-WE-15-SP4-2023-3969,openSUSE-SLE-15.4-2023-3969",
+      "Text": "Container suse/sle-micro-rancher/5.3:latest-2023-3969,Container suse/sle-micro-rancher/5.4:latest-2023-3969,Image SLES15-SP4-Micro-5-4-BYOS-2023-3969,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2023-3969,Image SLES15-SP4-Micro-5-4-GCE-2023-3969,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-3969,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-3969,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-3969,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-3969,SUSE-2023-3969,SUSE-SLE-Micro-5.3-2023-3969,SUSE-SLE-Micro-5.4-2023-3969,SUSE-SLE-Module-Basesystem-15-SP4-2023-3969,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3969,SUSE-SLE-Module-Legacy-15-SP4-2023-3969,SUSE-SLE-Module-Live-Patching-15-SP4-2023-3969,SUSE-SLE-Product-HA-15-SP4-2023-3969,SUSE-SLE-Product-WE-15-SP4-2023-3969,openSUSE-SLE-15.4-2023-3969",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -46,6 +46,21 @@
       {
         "ProductReference": "kernel-default-5.14.21-150400.24.88.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.14.21-150400.24.88.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.14.21-150400.24.88.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.14.21-150400.24.88.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -959,6 +974,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -1098,6 +1116,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -1237,6 +1258,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -1380,6 +1404,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -1519,6 +1546,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -1658,6 +1688,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -1801,6 +1834,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -1940,6 +1976,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -2079,6 +2118,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -2218,6 +2260,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -2361,6 +2406,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -2500,6 +2548,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -2643,6 +2694,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -2782,6 +2836,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -2921,6 +2978,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",
@@ -3060,6 +3120,9 @@
           "ProductID": [
             "Container suse/sle-micro-rancher/5.3:latest:kernel-default-5.14.21-150400.24.88.1",
             "Container suse/sle-micro-rancher/5.4:latest:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:kernel-default-5.14.21-150400.24.88.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:kernel-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.14.21-150400.24.88.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.14.21-150400.24.88.1",

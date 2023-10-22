@@ -1704,17 +1704,7 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "libfreebl3-hmac-3.79.4-150400.3.26.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "libsoftokn3-3.79.4-150400.3.26.1",
-        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-hmac-3.79.4-150400.3.26.1",
         "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -2209,17 +2199,7 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "libfreebl3-hmac-3.79.4-150400.3.26.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "libsoftokn3-3.79.4-150400.3.26.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libsoftokn3-hmac-3.79.4-150400.3.26.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -3001,9 +2981,7 @@
             "Image SLES15-SP5-Hardened-BYOS-Azure:mozilla-nss-certs-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-Hardened-BYOS-Azure:mozilla-nss-tools-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libfreebl3-3.79.4-150400.3.26.1",
-            "Image SLES15-SP5-Hardened-BYOS-EC2:libfreebl3-hmac-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:libsoftokn3-3.79.4-150400.3.26.1",
-            "Image SLES15-SP5-Hardened-BYOS-EC2:libsoftokn3-hmac-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:mozilla-nss-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:mozilla-nss-certs-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-Hardened-BYOS-EC2:mozilla-nss-tools-3.79.4-150400.3.26.1",
@@ -3102,9 +3080,7 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:mozilla-nss-certs-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:mozilla-nss-tools-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libfreebl3-3.79.4-150400.3.26.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libfreebl3-hmac-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libsoftokn3-3.79.4-150400.3.26.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libsoftokn3-hmac-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:mozilla-nss-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:mozilla-nss-certs-3.79.4-150400.3.26.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:mozilla-nss-tools-3.79.4-150400.3.26.1",

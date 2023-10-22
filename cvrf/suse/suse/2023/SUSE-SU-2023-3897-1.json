@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3897,SUSE-SLE-Module-Basesystem-15-SP5-2023-3897,SUSE-SLE-Product-HA-15-SP5-2023-3897,openSUSE-SLE-15.5-2023-3897",
+      "Text": "Image SLES15-SP5-SAP-BYOS-EC2-2023-3897,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2023-3897,SUSE-2023-3897,SUSE-SLE-Module-Basesystem-15-SP5-2023-3897,SUSE-SLE-Product-HA-15-SP5-2023-3897,openSUSE-SLE-15.5-2023-3897",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libqb100-2.0.6+20220323.758044b-150500.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqb100-2.0.6+20220323.758044b-150500.3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "doxygen2man-2.0.6+20220323.758044b-150500.3.3.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Availability Extension 15 SP5",
@@ -146,6 +156,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-SAP-BYOS-EC2:libqb100-2.0.6+20220323.758044b-150500.3.3.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libqb100-2.0.6+20220323.758044b-150500.3.3.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:doxygen2man-2.0.6+20220323.758044b-150500.3.3.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:libqb-tests-2.0.6+20220323.758044b-150500.3.3.1",
             "SUSE Linux Enterprise High Availability Extension 15 SP5:libqb-tools-2.0.6+20220323.758044b-150500.3.3.1",

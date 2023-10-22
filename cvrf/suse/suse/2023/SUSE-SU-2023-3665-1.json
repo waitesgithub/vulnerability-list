@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp5:latest-2023-3665,Image SLES12-SP5-Azure-BYOS-2023-3665,Image SLES12-SP5-Azure-SAP-BYOS-2023-3665,SUSE-2023-3665,SUSE-SLE-SDK-12-SP5-2023-3665,SUSE-SLE-SERVER-12-SP5-2023-3665",
+      "Text": "Container suse/sles12sp5:latest-2023-3665,Image SLES12-SP5-Azure-BYOS-2023-3665,Image SLES12-SP5-Azure-Basic-On-Demand-2023-3665,Image SLES12-SP5-Azure-HPC-BYOS-2023-3665,Image SLES12-SP5-Azure-HPC-On-Demand-2023-3665,Image SLES12-SP5-Azure-SAP-BYOS-2023-3665,Image SLES12-SP5-Azure-SAP-On-Demand-2023-3665,Image SLES12-SP5-Azure-Standard-On-Demand-2023-3665,Image SLES12-SP5-GCE-BYOS-2023-3665,Image SLES12-SP5-GCE-SAP-BYOS-2023-3665,Image SLES12-SP5-GCE-SAP-On-Demand-2023-3665,SUSE-2023-3665,SUSE-SLE-SDK-12-SP5-2023-3665,SUSE-SLE-SERVER-12-SP5-2023-3665",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -50,12 +50,67 @@
       },
       {
         "ProductReference": "libxml2-2-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.65.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libxml2-tools-2.9.4-46.65.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.65.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -187,8 +242,19 @@
           "ProductID": [
             "Container suse/sles12sp5:latest:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libxml2-tools-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-2-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-2-32bit-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-doc-2.9.4-46.65.1",
@@ -230,8 +296,19 @@
           "ProductID": [
             "Container suse/sles12sp5:latest:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libxml2-tools-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-2-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-2-32bit-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-doc-2.9.4-46.65.1",
@@ -273,8 +350,19 @@
           "ProductID": [
             "Container suse/sles12sp5:latest:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libxml2-tools-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-2-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-2-32bit-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-doc-2.9.4-46.65.1",
@@ -316,8 +404,19 @@
           "ProductID": [
             "Container suse/sles12sp5:latest:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libxml2-2-2.9.4-46.65.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libxml2-tools-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libxml2-2-2.9.4-46.65.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libxml2-tools-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-2-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-2-32bit-2.9.4-46.65.1",
             "SUSE Linux Enterprise Server 12 SP5:libxml2-doc-2.9.4-46.65.1",

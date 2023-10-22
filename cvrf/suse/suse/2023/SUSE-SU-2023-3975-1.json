@@ -75,7 +75,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-41419",
-      "Description": "An issue in Gevent Gevent before version 23.9.1 allows a remote attacker to escalate privileges via a crafted script to the WSGIServer component.",
+      "Description": "An issue in Gevent before version 23.9.0 allows a remote attacker to escalate privileges via a crafted script to the WSGIServer component.",
       "Threats": [
         {
           "Type": "Impact",

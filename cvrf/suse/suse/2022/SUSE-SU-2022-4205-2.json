@@ -639,16 +639,6 @@
         "RelationType": "Default Component Of"
       },
       {
-        "ProductReference": "net-snmp-5.9.3-150300.15.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "perl-SNMP-5.9.3-150300.15.3.1",
-        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
-        "RelationType": "Default Component Of"
-      },
-      {
         "ProductReference": "snmp-mibs-5.9.3-150300.15.3.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
         "RelationType": "Default Component Of"
@@ -901,8 +891,6 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libsnmp40-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:net-snmp-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:perl-SNMP-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:snmp-mibs-5.9.3-150300.15.3.1",
@@ -1064,8 +1052,6 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libsnmp40-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:net-snmp-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:perl-SNMP-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:snmp-mibs-5.9.3-150300.15.3.1",
@@ -1227,8 +1213,6 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libsnmp40-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:net-snmp-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:perl-SNMP-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:snmp-mibs-5.9.3-150300.15.3.1",
@@ -1390,8 +1374,6 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libsnmp40-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:net-snmp-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:perl-SNMP-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:snmp-mibs-5.9.3-150300.15.3.1",
@@ -1553,8 +1535,6 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libsnmp40-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:net-snmp-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:perl-SNMP-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:snmp-mibs-5.9.3-150300.15.3.1",
@@ -1716,8 +1696,6 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libsnmp40-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:net-snmp-5.9.3-150300.15.3.1",
-            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:perl-SNMP-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:snmp-mibs-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libsnmp40-5.9.3-150300.15.3.1",
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:snmp-mibs-5.9.3-150300.15.3.1",

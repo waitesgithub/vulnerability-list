@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-2971,Image SLES12-SP5-EC2-SAP-BYOS-2023-2971,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2971,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2971,SUSE-2023-2971,SUSE-SLE-SDK-12-SP5-2023-2971,SUSE-SLE-SERVER-12-SP5-2023-2971",
+      "Text": "Image SLES12-SP5-Azure-SAP-BYOS-2023-2971,Image SLES12-SP5-Azure-SAP-On-Demand-2023-2971,Image SLES12-SP5-EC2-SAP-BYOS-2023-2971,Image SLES12-SP5-GCE-SAP-BYOS-2023-2971,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2971,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-2971,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-2971,SUSE-2023-2971,SUSE-SLE-SDK-12-SP5-2023-2971,SUSE-SLE-SERVER-12-SP5-2023-2971",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -65,6 +65,31 @@
       },
       {
         "ProductReference": "libQt5Core5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.6.2-6.36.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -86,6 +111,56 @@
       {
         "ProductReference": "libQt5Widgets5-5.6.2-6.36.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.6.2-6.36.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -505,11 +580,26 @@
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Widgets5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Core5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5DBus5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Widgets5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.6.2-6.36.1",
@@ -611,11 +701,26 @@
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Widgets5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Core5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5DBus5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Widgets5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.6.2-6.36.1",
@@ -717,11 +822,26 @@
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Widgets5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Core5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5DBus5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Widgets5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.6.2-6.36.1",
@@ -823,11 +943,26 @@
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libQt5Widgets5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Core5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5DBus5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
             "Image SLES12-SP5-EC2-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libQt5Widgets5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Core5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5DBus5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Gui5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Network5-5.6.2-6.36.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libQt5Widgets5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5Core5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5DBus5-5.6.2-6.36.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libQt5Gui5-5.6.2-6.36.1",

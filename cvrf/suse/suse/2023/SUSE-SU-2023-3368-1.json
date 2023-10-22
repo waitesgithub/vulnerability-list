@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-BYOS-2023-3368,Image SLES12-SP5-Azure-SAP-BYOS-2023-3368,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-3368,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-3368,SUSE-2023-3368,SUSE-SLE-Module-Public-Cloud-12-2023-3368,SUSE-SLE-SERVER-12-SP5-2023-3368",
+      "Text": "Image SLES12-SP5-Azure-BYOS-2023-3368,Image SLES12-SP5-Azure-Basic-On-Demand-2023-3368,Image SLES12-SP5-Azure-HPC-BYOS-2023-3368,Image SLES12-SP5-Azure-HPC-On-Demand-2023-3368,Image SLES12-SP5-Azure-SAP-BYOS-2023-3368,Image SLES12-SP5-Azure-SAP-On-Demand-2023-3368,Image SLES12-SP5-Azure-Standard-On-Demand-2023-3368,Image SLES12-SP5-GCE-SAP-BYOS-2023-3368,Image SLES12-SP5-GCE-SAP-On-Demand-2023-3368,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-3368,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-3368,SUSE-2023-3368,SUSE-SLE-Module-Public-Cloud-12-2023-3368,SUSE-SLE-SERVER-12-SP5-2023-3368",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -44,6 +44,21 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python-configobj-5.0.6-20.8.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
         "RelationType": "Default Component Of"
@@ -51,6 +66,31 @@
       {
         "ProductReference": "python3-configobj-5.0.6-20.8.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-configobj-5.0.6-20.8.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -105,7 +145,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-26112",
-      "Description": "All versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\). **Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file.",
+      "Description": "All versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\).\n\n**Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -127,8 +167,16 @@
           "Type": "Fixed",
           "ProductID": [
             "Image SLES12-SP5-Azure-BYOS:python3-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:python3-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:python3-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:python3-configobj-5.0.6-20.8.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:python-configobj-5.0.6-20.8.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:python3-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:python-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:python3-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:python3-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:python-configobj-5.0.6-20.8.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:python-configobj-5.0.6-20.8.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:python-configobj-5.0.6-20.8.1",
             "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:python-configobj-5.0.6-20.8.1",
             "SUSE Linux Enterprise Module for Public Cloud 12:python3-configobj-5.0.6-20.8.1",

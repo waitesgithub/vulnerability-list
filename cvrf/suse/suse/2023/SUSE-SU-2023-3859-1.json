@@ -31,13 +31,28 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3859,SUSE-SLE-Module-HPC-15-SP4-2023-3859,SUSE-SLE-Module-HPC-15-SP5-2023-3859,openSUSE-SLE-15.4-2023-3859,openSUSE-SLE-15.5-2023-3859",
+      "Text": "Image SLES15-SP5-HPC-BYOS-EC2-2023-3859,SUSE-2023-3859,SUSE-SLE-Module-HPC-15-SP4-2023-3859,SUSE-SLE-Module-HPC-15-SP5-2023-3859,openSUSE-SLE-15.4-2023-3859,openSUSE-SLE-15.5-2023-3859",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libmca_common_dstore1-3.2.3-150300.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpmix2-3.2.3-150300.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pmix-plugins-3.2.3-150300.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libmca_common_dstore1-3.2.3-150300.3.8.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for HPC 15 SP4",
@@ -266,6 +281,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-HPC-BYOS-EC2:libmca_common_dstore1-3.2.3-150300.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:libpmix2-3.2.3-150300.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:pmix-plugins-3.2.3-150300.3.8.1",
             "SUSE Linux Enterprise Module for HPC 15 SP4:libmca_common_dstore1-3.2.3-150300.3.8.1",
             "SUSE Linux Enterprise Module for HPC 15 SP4:libpmix2-3.2.3-150300.3.8.1",
             "SUSE Linux Enterprise Module for HPC 15 SP4:pmix-3.2.3-150300.3.8.1",
