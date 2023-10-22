@@ -2,6 +2,18 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package grpc is earlier than 1.42.0-7, affected by CVE-2023-44487",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31520000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31520001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31520002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package golang is earlier than 1.20.7-2, affected by CVE-2023-44487",
       "ID": "oval:com.microsoft.cbl-mariner:tst:31519000",
       "Version": "0",
@@ -314,6 +326,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package libcontainers-common is earlier than 20210626-2, affected by CVE-2023-44487",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31323000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31323001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31323002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package kured is earlier than 1.9.1-14, affected by CVE-2023-44487",
       "ID": "oval:com.microsoft.cbl-mariner:tst:31319000",
       "Version": "0",
@@ -478,6 +502,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:31300002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package cmake is earlier than 3.21.4-10, affected by CVE-2023-44487",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:31299000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:31299001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:31299002"
       }
     },
     {
@@ -982,6 +1018,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.cbl-mariner:ste:30050002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package gawk is earlier than 5.1.1-1, affected by CVE-2023-4156",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:30045000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:30045001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:30045002"
       }
     },
     {
@@ -5858,7 +5906,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13730000",
       "Version": "0",
       "Object": {
@@ -10142,7 +10190,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11130000",
       "Version": "0",
       "Object": {
@@ -10154,7 +10202,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11129000",
       "Version": "0",
       "Object": {
@@ -10166,7 +10214,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11128000",
       "Version": "0",
       "Object": {
@@ -11090,7 +11138,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.20.7-1 or earlier",
+      "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10855000",
       "Version": "0",
       "Object": {
