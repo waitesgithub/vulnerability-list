@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP4-Azure-BYOS-2020-3844,Image SLES12-SP4-EC2-HVM-BYOS-2020-3844,Image SLES12-SP4-GCE-BYOS-2020-3844,Image SLES12-SP4-OCI-BYOS-2020-3844,Image SLES12-SP4-SAP-Azure-2020-3844,Image SLES12-SP4-SAP-Azure-BYOS-2020-3844,Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2020-3844,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2020-3844,Image SLES12-SP4-SAP-EC2-HVM-2020-3844,Image SLES12-SP4-SAP-EC2-HVM-BYOS-2020-3844,Image SLES12-SP4-SAP-GCE-2020-3844,Image SLES12-SP4-SAP-GCE-BYOS-2020-3844,Image SLES12-SP4-SAP-OCI-BYOS-2020-3844,Image SLES12-SP5-Azure-Basic-On-Demand-2020-3844,Image SLES12-SP5-Azure-HPC-BYOS-2020-3844,Image SLES12-SP5-Azure-HPC-On-Demand-2020-3844,Image SLES12-SP5-Azure-SAP-On-Demand-2020-3844,Image SLES12-SP5-Azure-Standard-On-Demand-2020-3844,Image SLES12-SP5-GCE-BYOS-2020-3844,Image SLES12-SP5-GCE-SAP-BYOS-2020-3844,Image SLES12-SP5-GCE-SAP-On-Demand-2020-3844,Image SLES12-SP5-OCI-BYOS-BYOS-2020-3844,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2020-3844,SUSE-2020-3844,SUSE-OpenStack-Cloud-9-2020-3844,SUSE-OpenStack-Cloud-Crowbar-9-2020-3844,SUSE-SLE-SAP-12-SP4-2020-3844,SUSE-SLE-SERVER-12-SP4-LTSS-2020-3844,SUSE-SLE-SERVER-12-SP5-2020-3844",
+      "Text": "Image SLES12-SP4-Azure-BYOS-2020-3844,Image SLES12-SP4-EC2-HVM-BYOS-2020-3844,Image SLES12-SP4-GCE-BYOS-2020-3844,Image SLES12-SP4-OCI-BYOS-2020-3844,Image SLES12-SP4-SAP-Azure-2020-3844,Image SLES12-SP4-SAP-Azure-BYOS-2020-3844,Image SLES12-SP4-SAP-Azure-LI-BYOS-Production-2020-3844,Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production-2020-3844,Image SLES12-SP4-SAP-EC2-HVM-2020-3844,Image SLES12-SP4-SAP-EC2-HVM-BYOS-2020-3844,Image SLES12-SP4-SAP-GCE-2020-3844,Image SLES12-SP4-SAP-GCE-BYOS-2020-3844,Image SLES12-SP4-SAP-OCI-BYOS-2020-3844,Image SLES12-SP5-OCI-BYOS-BYOS-2020-3844,Image SLES12-SP5-OCI-BYOS-SAP-BYOS-2020-3844,SUSE-2020-3844,SUSE-OpenStack-Cloud-9-2020-3844,SUSE-OpenStack-Cloud-Crowbar-9-2020-3844,SUSE-SLE-SAP-12-SP4-2020-3844,SUSE-SLE-SERVER-12-SP4-LTSS-2020-3844,SUSE-SLE-SERVER-12-SP5-2020-3844",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -101,46 +101,6 @@
       {
         "ProductReference": "openssh-7.2p2-78.10.1",
         "RelatesToProductReference": "Image SLES12-SP4-SAP-OCI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openssh-7.2p2-78.10.1",
-        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openssh-7.2p2-78.10.1",
-        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openssh-7.2p2-78.10.1",
-        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openssh-7.2p2-78.10.1",
-        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openssh-7.2p2-78.10.1",
-        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openssh-7.2p2-78.10.1",
-        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openssh-7.2p2-78.10.1",
-        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "openssh-7.2p2-78.10.1",
-        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -350,14 +310,6 @@
             "Image SLES12-SP4-SAP-GCE-BYOS:openssh-7.2p2-78.10.1",
             "Image SLES12-SP4-SAP-GCE:openssh-7.2p2-78.10.1",
             "Image SLES12-SP4-SAP-OCI-BYOS:openssh-7.2p2-78.10.1",
-            "Image SLES12-SP5-Azure-Basic-On-Demand:openssh-7.2p2-78.10.1",
-            "Image SLES12-SP5-Azure-HPC-BYOS:openssh-7.2p2-78.10.1",
-            "Image SLES12-SP5-Azure-HPC-On-Demand:openssh-7.2p2-78.10.1",
-            "Image SLES12-SP5-Azure-SAP-On-Demand:openssh-7.2p2-78.10.1",
-            "Image SLES12-SP5-Azure-Standard-On-Demand:openssh-7.2p2-78.10.1",
-            "Image SLES12-SP5-GCE-BYOS:openssh-7.2p2-78.10.1",
-            "Image SLES12-SP5-GCE-SAP-BYOS:openssh-7.2p2-78.10.1",
-            "Image SLES12-SP5-GCE-SAP-On-Demand:openssh-7.2p2-78.10.1",
             "Image SLES12-SP5-OCI-BYOS-BYOS:openssh-7.2p2-78.10.1",
             "Image SLES12-SP5-OCI-BYOS-SAP-BYOS:openssh-7.2p2-78.10.1",
             "SUSE Linux Enterprise Server 12 SP4-LTSS:openssh-7.2p2-78.10.1",
