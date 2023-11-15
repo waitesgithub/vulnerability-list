@@ -1,12 +1,12 @@
 {
-  "id": "PYSEC-2022-43059",
-  "modified": "2023-11-14T16:49:47.685771Z",
-  "published": "2022-06-23T17:15:00Z",
-  "withdrawn": "2023-11-08T00:54:24Z",
+  "id": "GHSA-xx9p-xxvh-7g8j",
+  "modified": "2023-11-14T21:46:16.989579Z",
+  "published": "2023-11-14T20:36:25Z",
   "aliases": [
-    "CVE-2022-33124"
+    "CVE-2023-47641"
   ],
-  "details": "AIOHTTP 3.8.1 can report a \"ValueError: Invalid IPv6 URL\" outcome, which can lead to a Denial of Service (DoS). NOTE: multiple third parties dispute this issue because there is no example of a context in which denial of service would occur, and many common contexts have exception handing in the calling application",
+  "summary": "Aiohttp has inconsistent interpretation of `Content-Length` vs. `Transfer-Encoding` differing in C and Python fallbacks",
+  "details": "### Impact\n\nAiohttp has a security vulnerability regarding the inconsistent interpretation of the http protocol. As we know that HTTP/1.1 is persistent, if we have both Content-Length(CL) and Transfer-Encoding(TE) it can lead to incorrect interpretation of two entities that parse the HTTP and we can poison other sockets with this incorrect interpretation.\n\nA possible Proof-of-Concept (POC) would be a configuration with a reverse proxy(frontend) that accepts both CL and TE headers and aiohttp as backend. As aiohttp parses anything with chunked, we can pass a chunked123 as TE, the frontend entity will ignore this header and will parse Content-Length. I can give a Dockerfile with the configuration if you want.\n\nThe impact of this vulnerability is that it is possible to bypass any proxy rule, poisoning sockets to other users like passing Authentication Headers, also if it is present an Open Redirect (just like CVE-2021-21330) we can combine it to redirect random users to our website and log the request.\n\n\n### References\n\n- https://github.com/aio-libs/aiohttp/commit/f016f0680e4ace6742b03a70cb0382ce86abe371",
   "affected": [
     {
       "package": {
@@ -20,6 +20,9 @@
           "events": [
             {
               "introduced": "0"
+            },
+            {
+              "fixed": "3.8.0"
             }
           ]
         }
@@ -237,30 +240,34 @@
         "3.7.3",
         "3.7.4",
         "3.7.4.post0",
-        "3.8.0",
         "3.8.0a7",
-        "3.8.0b0",
-        "3.8.1",
-        "3.8.2",
-        "3.8.3",
-        "3.8.4",
-        "3.8.5",
-        "3.8.6",
-        "3.9.0b0",
-        "3.9.0b1",
-        "4.0.0a0",
-        "4.0.0a1",
-        "3.9.0rc0"
+        "3.8.0b0"
       ],
       "database_specific": {
-        "source": "https://github.com/pypa/advisory-database/blob/main/vulns/aiohttp/PYSEC-2022-43059.yaml"
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/11/GHSA-xx9p-xxvh-7g8j/GHSA-xx9p-xxvh-7g8j.json"
       }
     }
   ],
   "references": [
     {
-      "type": "REPORT",
-      "url": "https://github.com/aio-libs/aiohttp/issues/6772"
+      "type": "WEB",
+      "url": "https://github.com/aio-libs/aiohttp/security/advisories/GHSA-xx9p-xxvh-7g8j"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-47641"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aio-libs/aiohttp/commit/f016f0680e4ace6742b03a70cb0382ce86abe371"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/aio-libs/aiohttp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aio-libs/aiohttp/releases/tag/v3.8.0"
     }
   ]
 }
