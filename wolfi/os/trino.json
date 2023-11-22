@@ -1,16 +1,8 @@
 {
-  "name": "spire-server",
+  "name": "trino",
   "secfixes": {
     "0": [
-      "CVE-2023-45283",
-      "CVE-2023-45284",
-      "GHSA-jq35-85cj-fj4p"
-    ],
-    "1.8.4-r1": [
-      "CVE-2023-46737"
-    ],
-    "1.8.4-r2": [
-      "GHSA-2c7c-3mj9-8fqh"
+      "CVE-2023-31418"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
